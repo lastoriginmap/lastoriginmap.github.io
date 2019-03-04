@@ -6,26 +6,89 @@
     <title>Main</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-
+    <!-- init -->
     <style>
-        
+        * {
+            margin: 0; padding: 0;
+            font: normal 12px serif;
+        }
+        a { text-decoration: none; }
+        img { border: 0; }
+        ul { list-style: none; }
+        body { min-width: 760px; }
+    </style>
+
+    <!-- header -->
+    <style>
+        #main_header {
+            width: 100%; height: 60px;
+            line-height: 60px;
+            border-bottom: 1px solid black;
+
+            background-color: #1D4088;
+            color: white;
+
+        }
+    </style>
+
+    <!-- nav -->
+    <style>
+        #main_nav {
+            width: 100%; height: 40px;
+            background-color: #32394A;
+        }
+        #main_nav > ul {
+            overflow: hidden;
+        }
+        #main_nav > #nav_left {
+            overflow: hidden;
+            float: left;
+        }
+        #main_nav > #nav_right {
+            overflow: hidden;
+            float: right;
+        }
+        #main_nav > #nav_left > li {
+            float: left;
+        }
+        #main_nav > #nav_right > li {
+            float: right;
+        }
+        #main_nav a {
+            display: block;
+            padding: 10px 20px;
+            border-left: 1px solid #5F6673;
+            border-right: 1px solid #242A37;
+            color: white;
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
+    <header id="main_header">
+        <div>
+            <h1>main</h1>
+        </div>
+    </header>
     
-    <header></header>
-    <nav></nav>
+    <nav id="main_nav">
+        <ul id="nav_left">
+            <li><a href="#">button</a></li>
+            <li><a href="#">button</a></li>
+            <li><a href="#">button</a></li>
+            <li><a href="#">button</a></li>
+        </ul>
+        <ul id="nav_right">
+            <li><a href="#">button</a></li>
+            <li><a href="#">button</a></li>
+        </ul>
+    </nav>
+
     <section>
         <article></article>
+        <aside></aside>
     </section>
-    <aside></aside>
     <footer></footer>
 </body>
 </html>
