@@ -1,94 +1,115 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Main</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
     <!-- init -->
     <style>
         * {
-            margin: 0; padding: 0;
-            font: normal 12px serif;
+            margin: 0;
+            padding: 0;
         }
-        a { text-decoration: none; }
-        img { border: 0; }
-        ul { list-style: none; }
-        body { min-width: 760px; }
-    </style>
 
-    <!-- header -->
-    <style>
-        #main_header {
-            width: 100%; height: 60px;
-            line-height: 60px;
-            border-bottom: 1px solid black;
+        a {
+            text-decoration: none;
+        }
 
-            background-color: #1D4088;
-            color: white;
+        img {
+            border: 0;
+        }
 
+        ul {
+            list-style: none;
         }
     </style>
 
-    <!-- nav -->
     <style>
-        #main_nav {
-            width: 100%; height: 40px;
-            background-color: #32394A;
-        }
-        #main_nav > ul {
-            overflow: hidden;
-        }
-        #main_nav > #nav_left {
-            overflow: hidden;
-            float: left;
-        }
-        #main_nav > #nav_right {
-            overflow: hidden;
-            float: right;
-        }
-        #main_nav > #nav_left > li {
-            float: left;
-        }
-        #main_nav > #nav_right > li {
-            float: right;
-        }
-        #main_nav a {
-            display: block;
-            padding: 10px 20px;
-            border-left: 1px solid #5F6673;
-            border-right: 1px solid #242A37;
-            color: white;
-            font-weight: bold;
+        .mb-3 {
+            background: red;
         }
     </style>
 </head>
 
 <body>
-    <header id="main_header">
-        <div>
-            <h1>main</h1>
-        </div>
-    </header>
-    
-    <nav id="main_nav">
-        <ul id="nav_left">
-            <li><a href="#">button</a></li>
-            <li><a href="#">button</a></li>
-            <li><a href="#">button</a></li>
-            <li><a href="#">button</a></li>
-        </ul>
-        <ul id="nav_right">
-            <li><a href="#">button</a></li>
-            <li><a href="#">button</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <article></article>
-        <aside></aside>
-    </section>
-    <footer></footer>
+    <div class="container">
+        <h2>라스트오리진 지역별 철충 정보</h2>
+        <p>업데이트중</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>지역</th>
+                    <th>업데이트 현황</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="row">
+                            <div class="col-sm-4">일반지역</div>
+                            <div class="col-sm-4">B지역</div>
+                            <div class="col-sm-4">Ex지역</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./area_1.html">1지</a></td>
+                    <td>
+                        <div class="row" id="area_1">
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#959</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./area_2.html">2지</a></td>
+                    <td>
+                        <div class="row" id="area_2">
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#959</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./area_3.html">3지</a></td>
+                    <td>
+                        <div class="row" id="area_3">
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#215</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./area_4.html">4지</a></td>
+                    <td>
+                        <div class="row" id="area_4">
+                            <div class="col-sm-4">&#959</div>
+                            <div class="col-sm-4">&#215</div>
+                            <div class="col-sm-4">&#215</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./area_5.html">5지</a></td>
+                    <td>
+                        <div class="row" id="area_5">
+                            <div class="col-sm-4">&#9651</div>
+                            <div class="col-sm-4">&#215</div>
+                            <div class="col-sm-4">&#215</div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>
