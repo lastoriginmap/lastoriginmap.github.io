@@ -26,13 +26,81 @@
         ul {
             list-style: none;
         }
+
+        body {
+            min-width: 620px;
+        }
     </style>
 
     <style>
+        header {
+            padding-bottom: 50px;
+        }
+
+        .area>.block_area {
+            display: inline-block;
+            width: 70px;
+            height: 40px;
+        }
+
+        .area {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .area:nth-child(1) {
+            border-top: 1px solid black;
+        }
+
+        .area_B .block_area:nth-child(1) {
+            margin-left: 148px;
+        }
+
+        .area:nth-child(1) .block_area {
+            background: green;
+        }
+
+        .area:nth-child(2) .block_area {
+            background: yellow;
+        }
+
+        .area:nth-child(3) .block_area {
+            background: red;
+        }
+
+        .area .block_area a {
+            display: block;
+            padding: 10px;
+            color: black;
+        }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>1지역 철충 정보</h1>
+            <p>클릭 시 이동합니다.</p>
+        </header>
+
+        <article>
+            <div class="area area_B">
+                <span class="block_area"><a href="./area/1-3B.html">1-3B</a></span> <span class="block_area"><a href="./area/1-4B.html">1-4B</a></span>
+                <span class="block_area"><a href="./area/1-5B.html">1-5B</a></span> <span class="block_area"><a href="./area/1-6B.html">1-6B</a></span>
+            </div>
+            <div class="area">
+                <span class="block_area"><a href="./area/1-1.html">1-1</a></span> <span class="block_area"><a href="./area/1-2.html">1-2</a></span>
+                <span class="block_area"><a href="./area/1-3.html">1-3</a></span> <span class="block_area"><a href="./area/1-4.html">1-4</a></span>
+                <span class="block_area"><a href="./area/1-5.html">1-5</a></span> <span class="block_area"><a href="./area/1-6.html">1-6</a></span>
+                <span class="block_area"><a href="./area/1-7.html">1-7</a></span> <span class="block_area"><a href="./area/1-8.html">1-8</a></span>
+            </div>
+            <div class="area">
+                <span class="block_area"><a href="./area/1-1Ex.html">1-1Ex</a></span> <span class="block_area"><a href="./area/1-2Ex.html">1-2Ex</a></span>
+                <span class="block_area"><a href="./area/1-3Ex.html">1-3Ex</a></span> <span class="block_area"><a href="./area/1-4Ex.html">1-4Ex</a></span>
+            </div>
+        </article>
+    </div>
 </body>
 
 </html>
