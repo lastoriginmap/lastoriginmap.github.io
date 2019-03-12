@@ -32,7 +32,7 @@
         }
     </style>
 
-    <!-- design -->
+    <!-- table design -->
     <style>
         header {
             padding-bottom: 50px;
@@ -42,8 +42,14 @@
             display: inline-block;
             width: 70px;
             height: 40px;
+            padding: 10px;
+            text-align: center
         }
-
+        .area .block_area a {
+            display: block;
+            color: rgb(0, 0, 255);
+        }
+        
         .area {
             width: 590px;
             border-left: 1px solid black;
@@ -52,9 +58,6 @@
         }
         .area:nth-child(1) {
             border-top: 1px solid black;
-        }
-        .area_B .block_area:nth-child(1) {
-            margin-left: 148px;
         }
         .area:nth-child(1) .block_area {
             background: rgb(50, 163, 50);
@@ -65,18 +68,17 @@
         .area:nth-child(3) .block_area {
             background: rgb(235, 60, 60);
         }
+        
+        .area_B .block_area:nth-child(2) {
+            margin-left: 74px;
+        }
+        .area_B .block_area:nth-child(4) {
+            margin-left: 148px;
+        }
     </style>
 
-    <!-- button style -->
+    <!-- 뒤로가기 버튼 -->
     <style>
-        .area .block_area {
-            padding: 10px;
-            text-align: center
-        }
-        .area .block_area a {
-            display: block;
-            color: rgb(0, 0, 255);
-        }
         
         article .btn-info {
             margin-top: 20px;
