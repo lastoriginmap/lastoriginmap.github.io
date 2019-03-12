@@ -32,6 +32,7 @@
         }
     </style>
 
+    <!-- table design -->
     <style>
         header {
             padding-bottom: 50px;
@@ -41,41 +42,41 @@
             display: inline-block;
             width: 70px;
             height: 40px;
+            padding: 10px;
+            text-align: center
         }
-
+        .area .block_area a {
+            display: block;
+            color: rgb(0, 0, 255);
+        }
+        
         .area {
             width: 590px;
             border-left: 1px solid black;
             border-right: 1px solid black;
             border-bottom: 1px solid black;
         }
-
         .area:nth-child(1) {
             border-top: 1px solid black;
         }
+        .area:nth-child(1) .block_area {
+            background: rgb(50, 163, 50);
+        }
+        .area:nth-child(2) .block_area {
+            background: rgb(230, 230, 92);
+        }
+        .area:nth-child(3) .block_area {
+            background: rgb(235, 60, 60);
+        }
 
-        .area_B .block_area:nth-child(4){
+        .area_B .block_area:nth-child(4) {
             margin-left: 148px;
         }
+    </style>
 
-        .area:nth-child(1) .block_area {
-            background: green;
-        }
-
-        .area:nth-child(2) .block_area {
-            background: yellow;
-        }
-
-        .area:nth-child(3) .block_area {
-            background: red;
-        }
-
-        .area .block_area a {
-            display: block;
-            padding: 10px;
-            color: black;
-        }
-
+    <!-- 뒤로가기 버튼 -->
+    <style>
+        
         article .btn-info {
             margin-top: 20px;
             padding: 10px;
@@ -92,18 +93,18 @@
 
         <article>
             <div class="area area_B">
-                <span class="block_area"><a href="./area/4-1B.html">4-1B</a></span> <span class="block_area"><a href="./area/4-2B.html">4-2B</a></span>
-                <span class="block_area"><a href="./area/4-3B.html">4-3B</a></span> <span class="block_area"><a href="./area/4-6B.html">4-6B</a></span>
+                <span class="block_area">4-1B</span> <span class="block_area">4-2B</span>
+                <span class="block_area">4-3B</span> <span class="block_area">4-6B</span>
             </div>
             <div class="area">
-                <span class="block_area"><a href="./area/4-1.html">4-1</a></span> <span class="block_area"><a href="./area/4-2.html">4-2</a></span>
-                <span class="block_area"><a href="./area/4-3.html">4-3</a></span> <span class="block_area"><a href="./area/4-4.html">4-4</a></span>
-                <span class="block_area"><a href="./area/4-5.html">4-5</a></span> <span class="block_area"><a href="./area/4-6.html">4-6</a></span>
-                <span class="block_area"><a href="./area/4-7.html">4-7</a></span> <span class="block_area"><a href="./area/4-8.html">4-8</a></span>
+                <span class="block_area">4-1</span> <span class="block_area">4-2</span>
+                <span class="block_area">4-3</span> <span class="block_area">4-4</span>
+                <span class="block_area">4-5</span> <span class="block_area">4-6</span>
+                <span class="block_area">4-7</span> <span class="block_area">4-8</span>
             </div>
             <div class="area">
-                <span class="block_area"><a href="./area/4-1Ex.html">4-1Ex</a></span> <span class="block_area"><a href="./area/4-2Ex.html">4-2Ex</a></span>
-                <span class="block_area"><a href="./area/4-3Ex.html">4-3Ex</a></span> <span class="block_area"><a href="./area/4-4Ex.html">4-4Ex</a></span>
+                <span class="block_area">4-1Ex</span> <span class="block_area">4-2Ex</span>
+                <span class="block_area">4-3Ex</span> <span class="block_area">4-4Ex</span>
             </div>
             <a href="./index.html" class="btn btn-info" role="button">뒤로가기</a>
         </article>
