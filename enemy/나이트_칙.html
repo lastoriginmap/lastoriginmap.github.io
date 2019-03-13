@@ -26,59 +26,94 @@
         ul {
             list-style: none;
         }
+        body {
+            min-width: 450px;
+        }
     </style>
 
     <!-- header -->
     <style></style>
 
-    <!-- article -->
+    <!-- content -->
     <style></style>
 
-    <!-- 사거리 표시-->
+    <!-- 스킬 공격 범위-->
     <style>
         .range_wrap {
             border-collapse: collapse;
         }
-        .range_wrap, .range_wrap th, .range_wrap td {
+
+        .range_wrap,
+        .range_wrap th,
+        .range_wrap td {
             border: 1px solid white;
         }
+
         .range_wrap td {
             background: black;
             width: 50px;
             height: 50px;
         }
 
-        .range_wrap tr:nth-child(2) td:nth-child(2) { background-color: yellow; }
+        .range_wrap tr:nth-child(2) td:nth-child(2) {
+            background-color: yellow;
+        }
     </style>
+
+
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>나이트 칙</h1>
+            <h2>나이트 칙</h2>
         </header>
-        <article>
-            
-
-            <table class="range_wrap">
-                <tr class="row">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="row">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="row">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </article>
+        <content>
+            <div class="skill_wrap">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="skill_name_wrap">
+                            스킬명
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="skill_length_wrap">
+                            사정거리
+                        </div>
+                    </div>
+                    <div class="col-xs-5">
+                        <div class="range_wrap">
+                            <table>
+                                <tr class="row">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="row">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="row">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="skill_description_wrap">
+                            <p>스킬 설명</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </content>
     </div>
+    
 </body>
 
 </html>
