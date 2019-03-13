@@ -14,9 +14,30 @@
             margin: 0;
             padding: 0;
         }
-        a {text-decoration: none;}
-        img {border: 0;}
-        ul { list-style: none; }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+    </style>
+
+    <!-- table style -->
+    <style>
+        .table_wrap th,
+        .table_wrap td {
+            text-align: center;
+        }
+
+        th:nth-child(1) div {
+            margin-top: 17px;
+        }
     </style>
 
 </head>
@@ -26,76 +47,77 @@
         <h2>라스트오리진 지역별 철충 지도</h2>
         <p>라스트오리진 갤러리 닉 - 글좀지우지마</p>
         <p>sonagi784@gmail.com</p>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>지역</th>
-                    <th>업데이트 현황</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td>
-                        <div class="row">
-                            <div class="col-xs-4">일반지역</div>
-                            <div class="col-xs-4">B지역</div>
-                            <div class="col-xs-4">Ex지역</div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="./area_1.html">1지역</a></td>
-                    <td>
-                        <div class="row" id="area_1">
-                            <div class="col-xs-4">&#9651</div>
-                            <div class="col-xs-4">&#959</div>
-                            <div class="col-xs-4">&#959</div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="./area_2.html">2지역</a></td>
-                    <td>
-                        <div class="row" id="area_2">
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#959</div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="./area_3.html">3지역</a></td>
-                    <td>
-                        <div class="row" id="area_3">
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="./area_4.html">4지역</a></td>
-                    <td>
-                        <div class="row" id="area_4">
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="./area_5.html">5지역</a></td>
-                    <td>
-                        <div class="row" id="area_5">
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                            <div class="col-xs-4">&#215</div>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table_wrap">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th rowspan="2">
+                            <div>지역</div>
+                        </th>
+                        <th>업데이트 현황</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col-xs-4">일반지역</div>
+                                <div class="col-xs-4">B지역</div>
+                                <div class="col-xs-4">Ex지역</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./area_1.html">1지역</a></td>
+                        <td>
+                            <div class="row" id="area_1">
+                                <div class="col-xs-4">&#9651</div>
+                                <div class="col-xs-4">&#959</div>
+                                <div class="col-xs-4">&#959</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./area_2.html">2지역</a></td>
+                        <td>
+                            <div class="row" id="area_2">
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#959</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./area_3.html">3지역</a></td>
+                        <td>
+                            <div class="row" id="area_3">
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./area_4.html">4지역</a></td>
+                        <td>
+                            <div class="row" id="area_4">
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./area_5.html">5지역</a></td>
+                        <td>
+                            <div class="row" id="area_5">
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                                <div class="col-xs-4">&#215</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 
