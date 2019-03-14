@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    min-width: 620px;
+}
+
+content .btn-info {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.carousel {
+    position: relative;
+}
+
+ol.carousel-indicators {
+    position: absolute;
+    top: 300px;
+}
+
+ol.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(91, 192, 222);
+}
+
+ol.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(228, 60, 31);
+}
+
+table {
+    height: 300px;
+    table-layout: fixed;
+    word-wrap: break-word;
+}

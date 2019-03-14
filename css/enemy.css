@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    min-width: 450px;
+}
+
+
+header {
+    padding-bottom: 20px;
+}
+
+.skill_wrap {
+    border: 1px solid black;
+}
+
+.skill_wrap .skill_description_wrap {
+    border-top: 1px solid black;
+}
+
+#skill_carousel {
+    padding-top: 30px;
+    position: relative;
+}
+
+#skill_carousel ol.carousel-indicators {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+#skill_carousel ol.carousel-indicators .skill_active {
+    width: 20px;
+    height: 20px;
+    border-color: orange;
+}
+
+#skill_carousel ol.carousel-indicators .active.skill_active {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+
+#skill_carousel ol.carousel-indicators .skill_passive {
+    width: 20px;
+    height: 20px;
+    border-color: skyblue;
+}
+
+#skill_carousel ol.carousel-indicators .active.skill_passive {
+    width: 20px;
+    height: 20px;
+    background-color: skyblue;
+}
+
+.skill_range_wrap {
+    border-collapse: collapse;
+}
+
+.skill_range_wrap,
+.skill_range_wrap th,
+.skill_range_wrap td {
+    border: 1px solid white;
+}
+.skill_range_wrap td {
+    background: black;
+    width: 50px;
+    height: 50px;
+}
