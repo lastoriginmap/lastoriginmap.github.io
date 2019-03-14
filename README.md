@@ -11,3 +11,9 @@ https://sonagi784.github.io/lastorigin_helper/
 2. 일일훈련 철충지도 완성
 
 3. 철충 정보 완성(팝업 html -> hover)
+
+### 라이브러리
+
+bootstrap 3.4.1
+
+jquery 3.3.1
