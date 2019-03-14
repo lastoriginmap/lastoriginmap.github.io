@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>나이트 칙</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!-- init -->
     <style>
@@ -26,38 +28,78 @@
         ul {
             list-style: none;
         }
+
         body {
             min-width: 450px;
         }
     </style>
 
     <!-- header -->
-    <style></style>
+    <style>
+        header {
+            padding-bottom: 20px;
+        }
+    </style>
 
     <!-- content -->
-    <style></style>
-
-    <!-- 스킬 공격 범위-->
     <style>
-        .range_wrap {
+        .skill_wrap {
+            border: 1px solid black;
+        }
+
+        .skill_wrap .skill_description_wrap {
+            border-top: 1px solid black;
+        }
+    </style>
+
+    <!-- skill -->
+    <style>
+        #skill_carousel {
+            padding-top: 30px;
+            position: relative;
+        }
+        #skill_carousel ol.carousel-indicators {
+            position: absolute;
+            top: 0px; left: 30px;
+        }
+        #skill_carousel ol.carousel-indicators .skill_active {
+            width: 20px;
+            height: 20px;
+            border-color: orange;
+        }
+        #skill_carousel ol.carousel-indicators .active.skill_active {
+            width: 20px;
+            height: 20px;
+            background-color: orange;
+        }
+        #skill_carousel ol.carousel-indicators .skill_passive {
+            width: 20px;
+            height: 20px;
+            border-color: skyblue;
+        }
+        #skill_carousel ol.carousel-indicators .active.skill_passive {
+            width: 20px;
+            height: 20px;
+            background-color: skyblue;
+        }
+
+        .skill_range_wrap {
             border-collapse: collapse;
         }
-
-        .range_wrap,
-        .range_wrap th,
-        .range_wrap td {
+        .skill_range_wrap,
+        .skill_range_wrap th,
+        .skill_range_wrap td {
             border: 1px solid white;
         }
-
-        .range_wrap td {
+        .skill_range_wrap td {
             background: black;
             width: 50px;
             height: 50px;
         }
-
-        .range_wrap tr:nth-child(2) td:nth-child(2) {
+        .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
+        
     </style>
 
 
@@ -69,51 +111,157 @@
             <h2>나이트 칙</h2>
         </header>
         <content>
-            <div class="skill_wrap">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <div class="skill_name_wrap">
-                            스킬명
+
+            <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="2" class="skill_passive"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        스킬명 1
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        사정거리
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>스킬 설명</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-3">
-                        <div class="skill_length_wrap">
-                            사정거리
+                    
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        스킬명 2
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        사정거리
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>스킬 설명</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-5">
-                        <div class="range_wrap">
-                            <table>
-                                <tr class="row">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="row">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="row">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </table>
+                    
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        스킬명 3
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        사정거리
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>스킬 설명</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="skill_description_wrap">
-                            <p>스킬 설명</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
+
         </content>
     </div>
-    
+
 </body>
 
 </html>
