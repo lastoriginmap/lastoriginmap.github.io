@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>나이트 칙 디텍터</title>
+    <title>나이트 칙 캐논</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/enemy.css">
@@ -16,26 +16,24 @@
         .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
-
+        
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
         .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(3),
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
+            background: orangered;
+        }
         .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
 
         .item:nth-child(3) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
         .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
+        .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(2),
         .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(3),
         .item:nth-child(3) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
             background-color: yellow;
         }
-
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(2) td:nth-child(3),
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
-            background-color: yellow;
-        }
-
     </style>
 
 </head>
@@ -43,7 +41,7 @@
 <body>
     <div class="container">
         <header>
-            <h2>나이트 칙 디텍터</h2>
+            <h2>나이트 칙 캐논</h2>
         </header>
         <content>
 
@@ -53,7 +51,6 @@
                     <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
                     <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
                     <li data-target="#skill_carousel" data-slide-to="2" class="skill_passive"></li>
-                    <li data-target="#skill_carousel" data-slide-to="3" class="skill_passive"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
@@ -62,12 +59,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        약점 포착
+                                        플레임 버너
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        4
+                                        2
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -95,7 +92,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>목표를 공격 대상으로 지정해 피해를 주고, 2라운드 동안 표식 상태로 만듭니다. 표식 상태인 대상이 추가 피해를 받으며, 회피가 감소합니다.</p>
+                                        <p>화염 방사로 화염 속성 피해를 주며, 일정 확률로 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -107,12 +104,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        섬광 탄막
+                                        곡사포
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        4
+                                        5
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -140,7 +137,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>지정한 위치에 섬광탄을 발사해 2라운드 동안 적중을 낮추고, 대상의 AP를 감소시킵니다.</p>
+                                        <p>1라운드 후에 착탄하는 곡사포를 발사해 목표 범위에 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +149,7 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        레이더 공유
+                                        연료 탱크 유폭
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
@@ -185,52 +182,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>피격 시, 일정 확률로 인접한 아군에게 경보를 울리며 전황을 공유합니다. 레이더를 공유 받은 경우, AP가 증가하며 2라운드 동안 사거리와 적중률이 증가합니다.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="skill_wrap">
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="skill_name_wrap">
-                                        레이더 재밍
-                                    </div>
-                                </div>
-                                <div class="col-xs-3">
-                                    <div class="skill_length_wrap">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="col-xs-5">
-                                    <div class="skill_range_wrap">
-                                        <table>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="skill_description_wrap">
-                                        <p>자신이 사망하는 경우, 주변 철충의 센서에 오류를 일으킵니다. 오류가 일어난 대상들은 적중이 크게 감소하며, 적중 강화 효과가 해제됩니다.</p>
+                                        <p>사망 시, 연료 탱크가 유폭해 주변에 괴멸적인 피해를 주고 피해 감소 효과를 해제합니다.</p>
                                     </div>
                                 </div>
                             </div>

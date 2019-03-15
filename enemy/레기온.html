@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>나이트 칙 디텍터</title>
+    <title>레기온</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/enemy.css">
@@ -17,25 +17,15 @@
             background-color: yellow;
         }
 
-        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
         .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
 
         .item:nth-child(3) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
-        .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
-        .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(3),
         .item:nth-child(3) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
             background-color: yellow;
         }
-
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(2) td:nth-child(3),
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
-            background-color: yellow;
-        }
-
+        
     </style>
 
 </head>
@@ -43,7 +33,7 @@
 <body>
     <div class="container">
         <header>
-            <h2>나이트 칙 디텍터</h2>
+            <h2>레기온</h2>
         </header>
         <content>
 
@@ -53,7 +43,6 @@
                     <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
                     <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
                     <li data-target="#skill_carousel" data-slide-to="2" class="skill_passive"></li>
-                    <li data-target="#skill_carousel" data-slide-to="3" class="skill_passive"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
@@ -62,7 +51,7 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        약점 포착
+                                        GAU 미니건
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
@@ -95,7 +84,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>목표를 공격 대상으로 지정해 피해를 주고, 2라운드 동안 표식 상태로 만듭니다. 표식 상태인 대상이 추가 피해를 받으며, 회피가 감소합니다.</p>
+                                        <p>미니건을 발사해 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +96,7 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        섬광 탄막
+                                        점착탄
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
@@ -140,7 +129,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>지정한 위치에 섬광탄을 발사해 2라운드 동안 적중을 낮추고, 대상의 AP를 감소시킵니다.</p>
+                                        <p>점착탄을 던져 피해를 줍니다. 적중한 대상을 2라운드 동안 이동 불가 상태로 만들고, 일정 확률로 회피/행동력을 감소 시킵니다. 해당 감소 효과는 강화 효과를 해제하고 적용됩니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +141,7 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        레이더 공유
+                                        경계 태세
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
@@ -185,52 +174,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>피격 시, 일정 확률로 인접한 아군에게 경보를 울리며 전황을 공유합니다. 레이더를 공유 받은 경우, AP가 증가하며 2라운드 동안 사거리와 적중률이 증가합니다.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="skill_wrap">
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="skill_name_wrap">
-                                        레이더 재밍
-                                    </div>
-                                </div>
-                                <div class="col-xs-3">
-                                    <div class="skill_length_wrap">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="col-xs-5">
-                                    <div class="skill_range_wrap">
-                                        <table>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="skill_description_wrap">
-                                        <p>자신이 사망하는 경우, 주변 철충의 센서에 오류를 일으킵니다. 오류가 일어난 대상들은 적중이 크게 감소하며, 적중 강화 효과가 해제됩니다.</p>
+                                        <p>아군이 처치되면 경계 태세로 전환해, 양 옆의 아군의 행동력을 감소시키며 대상의 공격을 지원합니다.</p>
                                     </div>
                                 </div>
                             </div>
