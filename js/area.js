@@ -1,3 +1,5 @@
 function show_enemy(enemy_name) {
-    window.open(enemy_name, "popup_enemy", "width=450, height=500")
+    var popupX = (window.screen.width / 2) - (450 / 2);
+    var popupY= (window.screen.height /2) - (400 / 2);
+    window.open(enemy_name, "popup_enemy", 'status=no, height=400, width=450, left='+ popupX + ', top='+ popupY + ', screenX='+ popupX + ', screenY= '+ popupY);
 }
