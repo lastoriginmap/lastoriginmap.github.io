@@ -39,8 +39,9 @@ header {
 
 #skill_carousel ol.carousel-indicators {
     position: absolute;
+    text-align: left;
     top: 0px;
-    left: 30px;
+    left: 350px;
 }
 
 #skill_carousel ol.carousel-indicators .skill_active {
