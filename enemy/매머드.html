@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>강화형 나이트 칙</title>
+    <title>매머드</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/enemy.css">
@@ -13,15 +13,23 @@
 
     <!-- skill range graph -->
     <style>
-        .item:nth-child(1) .skill_range_wrap tr:nth-child() td:nth-child() {
+        .item:nth-child(1) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
+        .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2),
+        .item:nth-child(1) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
             background-color: yellow;
         }
 
-        .item:nth-child(2) .skill_range_wrap tr:nth-child() td:nth-child() {
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(3),
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
+            background-color: orangered;
+        }
 
-        .item:nth-child(3) .skill_range_wrap tr:nth-child() td:nth-child() {
+        .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
     </style>
@@ -31,7 +39,7 @@
 <body>
     <div class="container">
         <header>
-            <h2>강화형 나이트 칙</h2>
+            <h2>매머드</h2>
         </header>
         <content>
 
@@ -49,12 +57,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        ?????
+                                        직사 포격
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        ?
+                                        2
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -82,7 +90,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>분석불가</p>
+                                        <p>직사 포격으로 목표 대상이 있는 열에 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -94,12 +102,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        ?????
+                                        2연장 곡사포
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        ?
+                                        6
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -127,7 +135,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>분석불가</p>
+                                        <p>1라운드 뒤에 착탄하는 곡사 포격으로 목표 지점에 피해를 줍니다. 목표 지점 주변에는 피해가 50% 감소합니다. 대상이 이동불가 상태인 경우, 직격해 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,12 +147,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        ?????
+                                        고폭 충격탄
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        ?
+                                        0
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -172,7 +180,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>분석불가</p>
+                                        <p>공격 시, 적의 방어막과 피해 감소 효과를 무시합니다.</p>
                                     </div>
                                 </div>
                             </div>
