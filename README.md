@@ -17,3 +17,16 @@ https://sonagi784.github.io/lastorigin_helper/
 bootstrap 3.4.1
 
 jquery 3.3.1
+
+### 플러그인
+
+vscode
+
+Active File In StatusBar
+Auto Rename Tag
+Beautify
+Bracket Pair Colorizer
+Color Highlight
+IntelliSense for CSS class names in HTML
+indent-rainbow
+open in browser
