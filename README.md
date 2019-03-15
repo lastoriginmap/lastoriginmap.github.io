@@ -22,11 +22,11 @@ jquery 3.3.1
 
 vscode
 
-Active File In StatusBar
-Auto Rename Tag
-Beautify
-Bracket Pair Colorizer
-Color Highlight
-IntelliSense for CSS class names in HTML
-indent-rainbow
-open in browser
+Active File In StatusBar  
+Auto Rename Tag  
+Beautify  
+Bracket Pair Colorizer  
+Color Highlight  
+IntelliSense for CSS class names in HTML  
+indent-rainbow  
+open in browser  
