@@ -11,6 +11,13 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 
+    <!-- enemy image -->
+    <style>
+        .info_enemy_wrap .enemy_image_wrap .enemy_image {
+            background-image: url('https://via.placeholder.com/150');
+        }
+    </style>
+    
     <!-- skill range graph -->
     <style>
         .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
@@ -34,6 +41,42 @@
             <h2>나이트 칙 실더</h2>
         </header>
         <content>
+            <div class="info_enemy_wrap">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="enemy_image_wrap">
+                            <div class="enemy_image" align="center">
+                                <!-- background-image -->
+                            </div>
+                        </div>
+                        <p class="skill_comment">보유 스킬</p>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="enemy_spec_wrap">
+                            <div class="row">
+                                <div class="col-xs-6 enemy_spec_item">
+                                    공격력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    치명타 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    방어력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    적중률 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    행동력 3.3
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    회피율 ???
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
                 <!-- Indicators -->

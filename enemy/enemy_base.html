@@ -4,13 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>enemy_name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/enemy.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 
+    <!-- enemy image -->
+    <style>
+        .info_enemy_wrap .enemy_image_wrap .enemy_image {
+            background-image: url('https://via.placeholder.com/150');
+        }
+    </style>
+    
     <!-- skill range graph -->
     <style>
         .item:nth-child(1) .skill_range_wrap tr:nth-child() td:nth-child() {
@@ -33,15 +40,50 @@
             background-color: yellow;
         }
     </style>
-
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h2></h2>
+            <h2>enemy_name</h2>
         </header>
         <content>
+            <div class="info_enemy_wrap">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="enemy_image_wrap">
+                            <div class="enemy_image" align="center">
+                                <!-- background-image -->
+                            </div>
+                        </div>
+                        <p class="skill_comment">보유 스킬</p>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="enemy_spec_wrap">
+                            <div class="row">
+                                <div class="col-xs-6 enemy_spec_item">
+                                    공격력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    치명타 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    방어력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    적중률 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    행동력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    회피율 ???
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
@@ -59,12 +101,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 1
+                                        skill1
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        length
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -92,7 +134,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>description</p>
                                     </div>
                                 </div>
                             </div>
@@ -104,12 +146,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 2
+                                        skill2
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        length
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -137,7 +179,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>description</p>
                                     </div>
                                 </div>
                             </div>
@@ -149,12 +191,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 3
+                                        skill3
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        length
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -182,7 +224,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>description</p>
                                     </div>
                                 </div>
                             </div>
@@ -194,12 +236,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 4
+                                        skill4
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        length
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -227,7 +269,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>description</p>
                                     </div>
                                 </div>
                             </div>
@@ -239,12 +281,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 5
+                                        skill5
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        length
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -272,7 +314,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>description</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>아머드 하베스터</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/enemy.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- enemy image -->
+    <style>
+        .info_enemy_wrap .enemy_image_wrap .enemy_image {
+            background-image: url('https://via.placeholder.com/150');
+        }
+    </style>
+    
+    <!-- skill range graph -->
+    <style>
+        .item:nth-child(1) .skill_range_wrap tr:nth-child() td:nth-child() {
+            background-color: yellow;
+        }
+
+        .item:nth-child(2) .skill_range_wrap tr:nth-child() td:nth-child() {
+            background-color: yellow;
+        }
+
+        .item:nth-child(3) .skill_range_wrap tr:nth-child() td:nth-child() {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>아머드 하베스터</h2>
+        </header>
+        <content>
+            <div class="info_enemy_wrap">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="enemy_image_wrap">
+                            <div class="enemy_image" align="center">
+                                <!-- background-image -->
+                            </div>
+                        </div>
+                        <p class="skill_comment">보유 스킬</p>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="enemy_spec_wrap">
+                            <div class="row">
+                                <div class="col-xs-6 enemy_spec_item">
+                                    공격력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    치명타 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    방어력 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    적중률 ???
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    행동력 3.25
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item">
+                                    회피율 ???
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="2" class="skill_passive"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        ?????
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        ?
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>분석불가</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        ?????
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        ?
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>분석불가</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        초합금 플레이팅
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>위력 600 이하 공격 무효</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </content>
+    </div>
+
+</body>
+
+</html>
