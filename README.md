@@ -12,6 +12,8 @@ https://sonagi784.github.io/lastorigin_helper/
 
 3. 철충 정보 완성(팝업 html -> hover)
 
+4. 적중률, 회피율, 행동력 추가
+
 ### 라이브러리
 
 bootstrap 3.4.1
