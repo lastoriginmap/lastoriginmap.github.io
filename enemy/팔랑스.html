@@ -4,39 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>팔랑스</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/enemy.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 
-    <!-- enemy image -->
-    <style>
-        .info_enemy_wrap .enemy_image_wrap .enemy_image {
-            background-image: url('https://via.placeholder.com/150');
-        }
-    </style>
+
     
     <!-- skill range graph -->
     <style>
-        .item:nth-child(1) .skill_range_wrap tr:nth-child() td:nth-child() {
+        .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
 
-        .item:nth-child(2) .skill_range_wrap tr:nth-child() td:nth-child() {
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
             background-color: yellow;
         }
 
-        .item:nth-child(3) .skill_range_wrap tr:nth-child() td:nth-child() {
-            background-color: yellow;
-        }
-
-        .item:nth-child(4) .skill_range_wrap tr:nth-child() td:nth-child() {
-            background-color: yellow;
-        }
-
-        .item:nth-child(5) .skill_range_wrap tr:nth-child() td:nth-child() {
+        .item:nth-child(3) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
+        .item:nth-child(3) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
             background-color: yellow;
         }
     </style>
@@ -46,45 +34,9 @@
 <body>
     <div class="container">
         <header>
-            <h2></h2>
+            <h2>팔랑스</h2>
         </header>
         <content>
-            <div class="info_enemy_wrap">
-                <div class="row">
-                    <div class="col-xs-5">
-                        <div class="enemy_image_wrap">
-                            <div class="enemy_image" align="center">
-                                <!-- background-image -->
-                            </div>
-                        </div>
-                        <p class="skill_comment">보유 스킬</p>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="enemy_spec_wrap">
-                            <div class="row">
-                                <div class="col-xs-6 enemy_spec_item">
-                                    공격력 ???
-                                </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    치명타 ???
-                                </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    방어력 ???
-                                </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    적중률 ???
-                                </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    행동력 ???
-                                </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    회피율 ???
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
@@ -92,8 +44,6 @@
                     <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
                     <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
                     <li data-target="#skill_carousel" data-slide-to="2" class="skill_passive"></li>
-                    <li data-target="#skill_carousel" data-slide-to="3" class="skill_passive"></li>
-                    <li data-target="#skill_carousel" data-slide-to="4" class="skill_passive"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
@@ -102,12 +52,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 1
+                                        머신건 속사
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        4
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -135,7 +85,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>머신건을 발사해 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,12 +97,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 2
+                                        대열 방어
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        6
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -180,7 +130,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>3라운드 동안 같은 열의 아군을 보호하며, 받는 피해가 감소합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -192,12 +142,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        스킬명 3
+                                        밀집 대형
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        사정거리
+                                        0
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -225,97 +175,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="skill_wrap">
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="skill_name_wrap">
-                                        스킬명 4
-                                    </div>
-                                </div>
-                                <div class="col-xs-3">
-                                    <div class="skill_length_wrap">
-                                        사정거리
-                                    </div>
-                                </div>
-                                <div class="col-xs-5">
-                                    <div class="skill_range_wrap">
-                                        <table>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="skill_wrap">
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="skill_name_wrap">
-                                        스킬명 5
-                                    </div>
-                                </div>
-                                <div class="col-xs-3">
-                                    <div class="skill_length_wrap">
-                                        사정거리
-                                    </div>
-                                </div>
-                                <div class="col-xs-5">
-                                    <div class="skill_range_wrap">
-                                        <table>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr class="row">
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="skill_description_wrap">
-                                        <p>스킬 설명</p>
+                                        <p>라운드 개시 시, 같은 열에 인접한 아군에게 피해 감소 효과를 부여합니다. 해당 효과는 중첩됩니다.</p>
                                     </div>
                                 </div>
                             </div>
