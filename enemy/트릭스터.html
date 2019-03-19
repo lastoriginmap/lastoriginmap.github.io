@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>트릭스터</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/enemy.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+
+    
+    <!-- skill range graph -->
+    <style>
+        .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
+        .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
+            background-color: yellow;
+        }
+
+        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
+            background-color: yellow;
+        }
+
+        .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
+            background-color: yellow;
+        }
+
+        .item:nth-child(4) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
+            background-color: yellow;
+        }
+
+        .item:nth-child(5) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>트릭스터</h2>
+        </header>
+        <content>
+
+            <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="2" class="skill_passive"></li>
+                    <li data-target="#skill_carousel" data-slide-to="3" class="skill_passive"></li>
+                    <li data-target="#skill_carousel" data-slide-to="4" class="skill_passive"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        클로 돌진
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        4
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>클로 돌진으로 목표와 바로 뒤의 대상에게 피해를 줍니다. 5라운드 동안 공격 대상의 방어력을 감소시킵니다. 최대 5번까지 중첩됩니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        광란의 학살
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        5
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>순식간에 대상에게 접근해 피해를 줍니다. 방어막/피해 감소/보호 효과를 무시하며, 대상의 HP가 낮을수록 피해량이 증가합니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        살육 쾌감
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>도발 상태일 때 공격 적중 시, 5라운드 동안 공격력이 증가합니다. 해당 효과는 5번까지 중첩됩니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        위협 감지
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>피격 시, 위협을 감지해 해당 라운드동안 피해가 증가하며 공격력이 감소합니다. 해당 효과는 중첩됩니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        광란
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        0
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>적을 처치한 경우, 3라운드 동안 행동력과 치명타가 증가합니다. 해당 효과는 중첩됩니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </content>
+    </div>
+
+</body>
+
+</html>
