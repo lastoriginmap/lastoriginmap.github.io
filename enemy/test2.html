@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    <script>
+        temp = location.href.split("?");
+        data = temp[1].split("&");
+        HP = data[0];
+        strength = data[1];
+        critical = data[2] + '%';
+        defense = data[3];
+        accuracy = data[4] + '%';
+        agility = data[5];
+        dodge = data[6] + '%';
+        for(i = 0; i <= 6; i++) {
+            if(data[i] == -1) {
+                data[i] = '???';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <script language="javascript">
+        document.write(HP + ' ' + strength + ' ' + critical + ' ' + defense + ' ' + accuracy + ' ' + agility + ' ' + dodge);
+    </script>
+</body>
+
+</html>
