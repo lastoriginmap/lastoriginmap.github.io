@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>트릭스터</title>
+    <title>언더왓쳐 제너레이터</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/enemy.css">
@@ -12,41 +12,71 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/enemy.js"></script>
 
-    
+
     <!-- skill range graph -->
     <style>
-        .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(1),
-        .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
-            background-color: yellow;
-        }
-
-        .item:nth-child(2) .skill_range_wrap tr:nth-child(1) td:nth-child(2),
-        .item:nth-child(2) .skill_range_wrap tr:nth-child(2) td:nth-child(2),
-        .item:nth-child(2) .skill_range_wrap tr:nth-child(3) td:nth-child(2) {
-            background-color: yellow;
-        }
-
-        .item:nth-child(3) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
-            background-color: yellow;
-        }
-
-        .item:nth-child(4) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
-            background-color: yellow;
-        }
-
-        .item:nth-child(5) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
-            background-color: yellow;
-        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h2>트릭스터</h2>
-            <h5 id="enemy_HP">HP <script>document.write(HP)</script></h5>
+            <h2>언더왓쳐 제너레이터</h2>
+            <h5 id="enemy_HP">HP <script>
+                    document.write(HP)
+                </script>
+            </h5>
         </header>
         <content>
+
+            <div class="info_enemy_wrap">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="enemy_image_wrap">
+                            <div class="enemy_image" align="center">
+
+                            </div>
+                        </div>
+                        <p class="skill_comment">보유 스킬</p>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="enemy_spec_wrap">
+                            <div class="row">
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_strength">
+                                    공격력 <script>
+                                        document.write(strength)
+                                    </script>
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_critical">
+                                    치명타 <script>
+                                        document.write(critical)
+                                    </script>
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_defense">
+                                    방어력 <script>
+                                        document.write(defense)
+                                    </script>
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_accuracy">
+                                    적중률 <script>
+                                        document.write(accuracy)
+                                    </script>
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_agility">
+                                    행동력 <script>
+                                        document.write(agility)
+                                    </script>
+                                </div>
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_dodge">
+                                    회피율 <script>
+                                        document.write(dodge)
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
@@ -64,12 +94,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        클로 돌진
+                                        ?????
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        4
+                                        ?
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -97,7 +127,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>클로 돌진으로 목표와 바로 뒤의 대상에게 피해를 줍니다. 5라운드 동안 공격 대상의 방어력을 감소시킵니다. 최대 5번까지 중첩됩니다.</p>
+                                        <p>분석불가</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,12 +139,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        손톱날 발사
+                                        ?????
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        1
+                                        ?
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -142,7 +172,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>폭발하는 손톱날을 발사해 목표 열에 피해를 주고 대상을 뒤로 한칸 밉니다. 공격 대상들은 2라운드 동안 적중이 감소합니다.</p>
+                                        <p>분석불가</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,12 +184,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        살육 쾌감
+                                        ?????
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        0
+                                        ?
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -187,7 +217,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>도발 상태일 때 공격 적중 시, 5라운드 동안 공격력이 증가합니다. 해당 효과는 5번까지 중첩됩니다.</p>
+                                        <p>분석불가</p>
                                     </div>
                                 </div>
                             </div>
@@ -199,12 +229,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        위협 감지
+                                        ?????
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        0
+                                        ?
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -232,7 +262,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>피격 시, 위협을 감지해 해당 라운드동안 회피가 증가하며 공격력이 감소합니다. 해당 효과는 중첩됩니다.</p>
+                                        <p>분석불가</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,12 +274,12 @@
                             <div class="row">
                                 <div class="col-xs-4">
                                     <div class="skill_name_wrap">
-                                        광란
+                                        ?????
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="skill_length_wrap">
-                                        0
+                                        ?
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
@@ -277,7 +307,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>적을 처치한 경우, 3라운드 동안 행동력과 치명타가 증가합니다. 해당 효과는 중첩됩니다.</p>
+                                        <p>분석불가</p>
                                     </div>
                                 </div>
                             </div>

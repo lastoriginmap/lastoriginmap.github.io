@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../css/enemy.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/enemy.js"></script>
 
 
-    
     <!-- skill range graph -->
     <style>
         .item:nth-child(1) .skill_range_wrap tr:nth-child(2) td:nth-child(2) {
@@ -24,117 +24,121 @@
         }
     </style>
 </head>
+
 <body>
-        <div class="container">
-            <header>
-                <h2>하베스터</h2>
-            </header>
-            <content>
-    
-                <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
-                        <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="skill_wrap">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="skill_name_wrap">
-                                            폐기물 분쇄
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <div class="skill_length_wrap">
-                                            1
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-5">
-                                        <div class="skill_range_wrap">
-                                            <table>
-                                                <tr class="row">
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                                <tr class="row">
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                                <tr class="row">
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                            </table>
-                                        </div>
+    <div class="container">
+        <header>
+            <h2>하베스터</h2>
+            <h5 id="enemy_HP">HP <script>document.write(HP)</script></h5>
+        </header>
+        <content>
+
+            <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#skill_carousel" data-slide-to="0" class="active skill_active"></li>
+                    <li data-target="#skill_carousel" data-slide-to="1" class="skill_active"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        폐기물 분쇄
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="skill_description_wrap">
-                                            <p>근접 공격으로 피해를 줍니다. 대상이 이동 불가 상태인 경우, 대상을 강타해 피해량이 증가하며 일정 확률로 2라운드 동안 행동 불가로 만듭니다.</p>
-                                        </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        1
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>근접 공격으로 피해를 줍니다. 대상이 이동 불가 상태인 경우, 대상을 강타해 피해량이 증가하며 일정 확률로 2라운드 동안 행동 불가로
+                                            만듭니다.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-    
-                        <div class="item">
-                            <div class="skill_wrap">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="skill_name_wrap">
-                                            폐기물 수거
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <div class="skill_length_wrap">
-                                            4
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-5">
-                                        <div class="skill_range_wrap">
-                                            <table>
-                                                <tr class="row">
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                                <tr class="row">
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                                <tr class="row">
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="skill_description_wrap">
-                                            <p>집게로 목표 대상을 포획해 피해를 주며 2칸 앞으로 당깁니다. 적중 시, 2라운드 동안 행동력이 감소하며 일정 확률로 이동 불가 상태가 됩니다.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-    
                     </div>
+
+                    <div class="item">
+                        <div class="skill_wrap">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="skill_name_wrap">
+                                        폐기물 수거
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="skill_length_wrap">
+                                        4
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="skill_range_wrap">
+                                        <table>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr class="row">
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="skill_description_wrap">
+                                        <p>집게로 목표 대상을 포획해 피해를 주며 2칸 앞으로 당깁니다. 적중 시, 2라운드 동안 행동력이 감소하며 일정 확률로 이동 불가 상태가
+                                            됩니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-            </content>
-        </div>
-    
-    </body>
+            </div>
+        </content>
+    </div>
+
+</body>
 
 </html>

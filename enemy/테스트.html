@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="../css/enemy.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-
-
+    <script src="../js/enemy.js"></script>
     
     <!-- skill range graph -->
     <style>
@@ -58,23 +57,6 @@
             background-color: yellow;
         }
     </style>
-    
-    <script>
-        temp = location.href.split("?");
-        data = temp[1].split("&");
-        for(i = 0; i <= 6; i++) {
-            if(data[i] == -1) {
-                data[i] = '???';
-            }
-        }
-        HP = data[0];
-        strength = data[1];
-        critical = data[2] + '%';
-        defense = data[3];
-        accuracy = data[4] + '%';
-        agility = data[5];
-        dodge = data[6] + '%';
-    </script>
 </head>
 
 <body>

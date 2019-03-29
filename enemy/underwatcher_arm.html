@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/enemy.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-
+    <script src="../js/enemy.js"></script>
 
     
     <!-- skill range graph -->
@@ -41,7 +41,7 @@
     <div class="container">
         <header>
             <h2>언더왓쳐 암</h2>
-            <h5>HP 36000</h5>
+            <h5 id="enemy_HP">HP <script>document.write(HP)</script></h5>
         </header>
         <content>
 
@@ -58,23 +58,23 @@
                     <div class="col-xs-7">
                         <div class="enemy_spec_wrap">
                             <div class="row">
-                                <div class="col-xs-6 enemy_spec_item">
-                                    공격력 850
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_strength">
+                                    공격력 <script>document.write(strength)</script>
                                 </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    치명타 ???
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_critical">
+                                    치명타 <script>document.write(critical)</script>
                                 </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    방어력 1000
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_defense">
+                                    방어력 <script>document.write(defense)</script>
                                 </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    적중률 180
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_accuracy">
+                                    적중률 <script>document.write(accuracy)</script>
                                 </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    행동력 4.15
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_agility">
+                                    행동력 <script>document.write(agility)</script>
                                 </div>
-                                <div class="col-xs-6 enemy_spec_item">
-                                    회피율 0
+                                <div class="col-xs-6 enemy_spec_item" id="enemy_dodge">
+                                    회피율 <script>document.write(dodge)</script>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>플라즈마 커터로 850 피해를 줍니다. 대상이 표식 상태면 피해량이 증가합니다.</p>
+                                        <p>플라즈마 커터로 <script>document.write(skill[0])</script> 피해를 줍니다. 대상이 표식 상태면 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="skill_description_wrap">
-                                        <p>목표 열에 850 피해를 줍니다. 대상이 기동형이면 피해량이 증가합니다.</p>
+                                        <p>목표 열에 <script>document.write(skill[1])</script> 피해를 줍니다. 대상이 기동형이면 피해량이 증가합니다.</p>
                                     </div>
                                 </div>
                             </div>
