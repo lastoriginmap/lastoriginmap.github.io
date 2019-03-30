@@ -16,11 +16,20 @@
             window.open(url, "popup_enemy", 'status=no, height=400, width=463, left=' + popupX + ', top=' + popupY +
                 ', screenX=' + popupX + ', screenY= ' + popupY);
         }
+
+        function get_url() {
+            url = ''
+            url += (arguments[0] + '?');
+            for(var i = 1; i < arguments.length; i++) {
+                url += (arguments[i] + '&');
+            }
+            return url;
+        }
     </script>
 </head>
 
 <body>
-    <td class="col-xs-4"><a href="javascript:show_enemy('test2.html?' + '50000&' + '0&' + '-1&' + '0&' + '999&' + '4.35&' + '0');">언더왓쳐 제너레이터</a>
+    <td class="col-xs-4"><a href="javascript:show_enemy(get_url('underwatcher_generator.html', '50000', '0', '-1', '0', '999', '4.35', '0' , '80'));">언더왓쳐 제너레이터</a>
     </td>
 </body>
 
