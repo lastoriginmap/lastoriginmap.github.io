@@ -39,6 +39,10 @@
         ul {
             list-style: none;
         }
+
+        body {
+            background-color: #fdfdfd;
+        }
     </style>
 
     <!-- table style -->
@@ -48,7 +52,7 @@
             text-align: center;
         }
 
-        th:nth-child(1) div {
+        .table_wrap th:nth-child(1) div {
             margin-top: 17px;
         }
     </style>
@@ -57,84 +61,154 @@
 
 <body>
     <div class="container">
-        <h2>라스트오리진 지역별 철충 지도</h2>
-        <p>라스트오리진 갤러리 닉 - 글좀지우지마</p>
-        <p>제보/문의 sonagi784@gmail.com</p>
-        <p>
-            5-8ex 추가중<br>
-        </p>
-        <div class="table_wrap">
-            <table class="table table-bordered">
-                <tbody>
-                    <tr>
-                        <th rowspan="2">
-                            <div>지역</div>
-                        </th>
-                        <th>업데이트 현황</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="row">
-                                <div class="col-xs-4">일반지역</div>
-                                <div class="col-xs-4">B지역</div>
-                                <div class="col-xs-4">Ex지역</div>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td><a href="./area_1.html">1지역</a></td>
-                        <td>
-                            <div class="row" id="area_1">
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="./area_2.html">2지역</a></td>
-                        <td>
-                            <div class="row" id="area_2">
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="./area_3.html">3지역</a></td>
-                        <td>
-                            <div class="row" id="area_3">
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="./area_4.html">4지역</a></td>
-                        <td>
-                            <div class="row" id="area_4">
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="./area_5.html">5지역</a></td>
-                        <td>
-                            <div class="row" id="area_5">
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                                <div class="col-xs-4">&#959</div>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <header>
+            <h2>라스트오리진 지역별 철충 지도</h2>
+            <p>라스트오리진 갤러리 닉 - 글좀지우지마</p>
+            <p>제보/문의 sonagi784@gmail.com</p>
+            <hr>
+            <p>
+                5-8ex 추가중<br>
+                철충 능력치, 스킬 데미지 추가중 - 오토 자주돌리는 곳만 추가할 예정이며 그 외 지역은 신청하면 만들어줌(ex지역은 ???떠서 못만들어줌)<br>
+            </p>
+        </header>
+        <content>
+            <hr>
+            <div class="table_wrap area_table_wrap">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th rowspan="2">
+                                <div>지역</div>
+                            </th>
+                            <th>업데이트 현황</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row">
+                                    <div class="col-xs-4">일반지역</div>
+                                    <div class="col-xs-4">B지역</div>
+                                    <div class="col-xs-4">Ex지역</div>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><a href="./area_1.html">1지역</a></td>
+                            <td>
+                                <div class="row" id="area_1">
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="./area_2.html">2지역</a></td>
+                            <td>
+                                <div class="row" id="area_2">
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="./area_3.html">3지역</a></td>
+                            <td>
+                                <div class="row" id="area_3">
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="./area_4.html">4지역</a></td>
+                            <td>
+                                <div class="row" id="area_4">
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="./area_5.html">5지역</a></td>
+                            <td>
+                                <div class="row" id="area_5">
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                    <div class="col-xs-4">&#959</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <div class="table_wrap train_table_wrap">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th rowspan="2">
+                                <div>일일훈련</div>
+                            </th>
+                            <th>업데이트 현황</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row">
+                                    <div class="col-xs-4">경험치</div>
+                                    <div class="col-xs-4">강화재료</div>
+                                    <div class="col-xs-4">스킬경험치</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>초급</td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-xs-4">모의전투(초급)</div>
+                                    <div class="col-xs-4">능력강화(초급)</div>
+                                    <div class="col-xs-4">기능강화(초급)</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>중급</td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-xs-4">모의전투(중급)</div>
+                                    <div class="col-xs-4">능력강화(중급)</div>
+                                    <div class="col-xs-4">기능강화(중급)</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>상급</td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-xs-4"><a href="area/일일훈련_모의전투_상급.html">모의전투(상급)</a></div>
+                                    <div class="col-xs-4"><a href="area/일일훈련_능력강화_상급.html">능력강화(상급)</a></div>
+                                    <div class="col-xs-4"><a href="area/일일훈련_기능강화_상급.html">기능강화(상급)</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>최상급</td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-xs-4">모의전투(최상급)</div>
+                                    <div class="col-xs-4">능력강화(최상급)</div>
+                                    <div class="col-xs-4">기능강화(최상급)</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+        </content>
     </div>
 </body>
 

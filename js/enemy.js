@@ -1,6 +1,6 @@
 temp = location.href.split("?");
 data = temp[1].split("&");
-skill = [];
+skill = ['', '', '', '', ''];
 for (i in data) {
     if (data[i] == -1) {
         data[i] = '???';
@@ -13,6 +13,6 @@ defense = data.shift();
 accuracy = data.shift() + '%';
 agility = data.shift();
 dodge = data.shift() + '%';
-for (damage of data) {
-    skill.push(damage);
+for (damage in data) {
+    skill[damage] = data[damage];
 }
