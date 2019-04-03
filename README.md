@@ -1,8 +1,8 @@
 # lastorigin_helper
 
-### 지역별 철충 
+### 사이트로 이동
 
-https://sonagi784.github.io/lastorigin_helper/
+<a href="https://sonagi784.github.io/lastorigin_helper/" target="_blank">라스트오리진 지역별 철충 지도</a>
 
 ### 해야할 것
 
