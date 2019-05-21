@@ -1,0 +1,371 @@
+[
+	{
+		"title": "area1",
+		"normalstage": [null,null,null,null,null,null,
+			{
+				"title": "1-7",
+				"wave":	[
+					{
+						"title": "wave1",
+						"enemy": [
+							{
+								"name": "나이트 칙",
+								"pos": [[2,1],[2,3]],
+								"img": null,
+								"LVL": 7,
+								"HP": 159,
+								"ATK": 55,
+								"DEF": 3,
+								"AGI": 4,
+								"CRT": -1,
+								"HIT": 95,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "머신건 견제 사격",
+										"range": 3,
+										"description": "머신건 견제 사격으로 <span id='askillpower1'></span>피해를 줍니다. 일정 확률로 2라운드 동안 대상의 회피를 낮춥니다.",
+										"power": 55,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "머신건 연사",
+										"range": 2,
+										"description": "머신건을 조준 사격해 <span id='askillpower2'></span>피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
+										"power": 66,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "정조준",
+										"range": 0,
+										"description": "대기 시, 적을 조준해 2라운드 동안 적중과 사거리가 증가합니다.",
+										"power": null,
+										"areadata": [5]
+									}
+								]
+							},
+							{
+								"name": "나이트 칙 실더",
+								"pos": [[1,2]],
+								"img": null,
+								"LVL": 8,
+								"HP": 248,
+								"ATK": 65,
+								"DEF": 17,
+								"AGI": 3.25,
+								"CRT": -1,
+								"HIT": 75,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "방패 내려치기",
+										"range": 2,
+										"description": "방패로 내리쳐 <span id='askillpower1'></span>피해를 줍니다.",
+										"power": 65,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "칙 방패 방어술",
+										"range": 6,
+										"description": "방패를 올려 3라운드 동안 받는 피해가 감소합니다.",
+										"power": null,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "칙 커버링",
+										"range": 0,
+										"description": "라운드 개시 시, 칙 방패 방어술이 적용된 상태면 바로 뒤에 있는 아군 1기를 보호합니다.",
+										"power": null,
+										"areadata": [6]
+									}
+								]
+							},
+							{
+								"name": "나이트 칙 런쳐",
+								"pos": [[3,1],[3,2],[3,3]],
+								"img": null,
+								"LVL": 9,
+								"HP": 202,
+								"ATK": 69,
+								"DEF": 4,
+								"AGI": 3,
+								"CRT": -1,
+								"HIT": 85,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "미사일 공격",
+										"range": 2,
+										"description": "미사일을 발사해 <span id='askillpower1'></span>피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다",
+										"power": 63,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "미사일 집중 공격",
+										"range": 1,
+										"description": "미사일 근접 사격으로 <span id='askillpower2'></span>피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다.",
+										"power": 76,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "목표 록온",
+										"range": 0,
+										"description": "대기 시, 주변의 적을 록온해 2라운드 동안 사거리가 증가합니다.",
+										"power": null,
+										"areadata": [5]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "wave2",
+						"enemy": [
+							{
+								"name": "나이트 칙 실더",
+								"pos": [[1,1],[1,2]],
+								"img": null,
+								"LVL": 8,
+								"HP": 248,
+								"ATK": 65,
+								"DEF": 17,
+								"AGI": 3.25,
+								"CRT": -1,
+								"HIT": 75,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "방패 내려치기",
+										"range": 2,
+										"description": "방패로 내리쳐 <span id='askillpower1'></span>피해를 줍니다.",
+										"power": 65,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "칙 방패 방어술",
+										"range": 6,
+										"description": "방패를 올려 3라운드 동안 받는 피해가 감소합니다.",
+										"power": null,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "칙 커버링",
+										"range": 0,
+										"description": "라운드 개시 시, 칙 방패 방어술이 적용된 상태면 바로 뒤에 있는 아군 1기를 보호합니다.",
+										"power": null,
+										"areadata": [6]
+									}
+								]
+							},
+							{
+								"name": "나이트 칙 런쳐",
+								"pos": [[1,3],[2,1],[2,2],[2,3]],
+								"img": null,
+								"LVL": 8,
+								"HP": 186,
+								"ATK": 63,
+								"DEF": 3,
+								"AGI": 3,
+								"CRT": -1,
+								"HIT": 85,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "미사일 공격",
+										"range": 2,
+										"description": "미사일을 발사해 <span id='askillpower1'></span>피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다",
+										"power": 63,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "미사일 집중 공격",
+										"range": 1,
+										"description": "미사일 근접 사격으로 <span id='askillpower2'></span>피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다.",
+										"power": 76,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "목표 록온",
+										"range": 0,
+										"description": "대기 시, 주변의 적을 록온해 2라운드 동안 사거리가 증가합니다.",
+										"power": null,
+										"areadata": [5]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "wave3",
+						"enemy": [
+							{
+								"name": "나이트 칙",
+								"pos": [[3,2]],
+								"img": null,
+								"LVL": 11,
+								"HP": 221,
+								"ATK": 75,
+								"DEF": 5,
+								"AGI": 4,
+								"CRT": -1,
+								"HIT": 95,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "머신건 견제 사격",
+										"range": 3,
+										"description": "머신건 견제 사격으로 <span id='askillpower1'></span>피해를 줍니다. 일정 확률로 2라운드 동안 대상의 회피를 낮춥니다.",
+										"power": 75,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "머신건 연사",
+										"range": 2,
+										"description": "머신건을 조준 사격해 <span id='askillpower2'></span>피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
+										"power": 90,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "정조준",
+										"range": 0,
+										"description": "대기 시, 적을 조준해 2라운드 동안 적중과 사거리가 증가합니다.",
+										"power": null,
+										"areadata": [5]
+									}
+								]
+							},
+							{
+								"name": "나이트 칙 실더",
+								"pos": [[1,2]],
+								"img": null,
+								"LVL": 10,
+								"HP": 291,
+								"ATK": 75,
+								"DEF": 19,
+								"AGI": 3.25,
+								"CRT": -1,
+								"HIT": 75,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "방패 내려치기",
+										"range": 2,
+										"description": "방패로 내리쳐 <span id='askillpower1'></span>피해를 줍니다.",
+										"power": 75,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "칙 방패 방어술",
+										"range": 6,
+										"description": "방패를 올려 3라운드 동안 받는 피해가 감소합니다.",
+										"power": null,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "칙 커버링",
+										"range": 0,
+										"description": "라운드 개시 시, 칙 방패 방어술이 적용된 상태면 바로 뒤에 있는 아군 1기를 보호합니다.",
+										"power": null,
+										"areadata": [6]
+									}
+								]
+							},
+							{
+								"name": "나이트 칙 런쳐",
+								"pos": [[2,1],[2,2],[2,3]],
+								"img": null,
+								"LVL": 10,
+								"HP": 219,
+								"ATK": 74,
+								"DEF": 4,
+								"AGI": 3,
+								"CRT": -1,
+								"HIT": 85,
+								"DOD": 0,
+								"skill": [
+									{
+										"title": "askill1",
+										"type": "active",
+										"name": "미사일 공격",
+										"range": 2,
+										"description": "미사일을 발사해 <span id='askillpower1'></span>피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다",
+										"power": 63,
+										"areadata": [5]
+									},
+									{
+										"title": "askill2",
+										"type": "active",
+										"name": "미사일 집중 공격",
+										"range": 1,
+										"description": "미사일 근접 사격으로 <span id='askillpower2'></span>피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다.",
+										"power": 76,
+										"areadata": [5]
+									},
+									{
+										"title": "pskill1",
+										"type": "passive",
+										"name": "목표 록온",
+										"range": 0,
+										"description": "대기 시, 주변의 적을 록온해 2라운드 동안 사거리가 증가합니다.",
+										"power": null,
+										"areadata": [5]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"bstage": [
+			{
+				"title": "1-1B",
+				"wave": [
+				]
+			}
+		],
+		"exstage": null
+	}
+]

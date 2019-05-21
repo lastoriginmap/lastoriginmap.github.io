@@ -69,16 +69,16 @@ header {
     background-color: skyblue;
 }
 
-.skill_range_wrap {
+.skill_area_wrap {
     border-collapse: collapse;
 }
 
-.skill_range_wrap,
-.skill_range_wrap th,
-.skill_range_wrap td {
+.skill_area_wrap,
+.skill_area_wrap th,
+.skill_area_wrap td {
     border: 1px solid white;
 }
-.skill_range_wrap td {
+.skill_area_wrap td {
     background: rgb(37, 37, 37);
     width: 50px;
     height: 50px;
