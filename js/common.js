@@ -2,7 +2,7 @@ function StageParse(stage_name)
 {
 	var stagedata;
 	$.ajax({
-		url: "area.json",
+		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/master/area.json",
 		dataType:'json',
         async: false,
         success: function (data)
@@ -31,6 +31,25 @@ function StageParse(stage_name)
     });
 	
 	return stagedata;
+}
+
+function EnemyParse(enemy_name)
+{
+	var enemydata;
+	$.ajax({
+		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/master/enemy.json",
+		dataType:'json',
+        async: false,
+        success: function (data)
+        {
+            enemydata=data.filter(function(data){ return data.name==enemy_name; });
+        },
+        error: function (e) {
+            alert("error");
+        }
+    });
+	
+	return enemydata[0];
 }
 
 function GetURLParameter(sParam)

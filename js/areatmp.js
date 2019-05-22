@@ -1,6 +1,6 @@
 window.onload = function(){
     var stage_name = GetURLParameter('stage_name');
-	document.title = stage_name;
+	document.title = stage_name+' 스테이지 정보'	;
 	
 	var stagedata=StageParse(stage_name);	
 	DrawPage(stagedata);
@@ -8,7 +8,7 @@ window.onload = function(){
 
 function DrawPage(stagedata)
 {
-	$('#stage_name').html(stagedata.title);
+	$('#stage_name').html(stagedata.title+' 스테이지');
 		
     for(var i = 0; i < stagedata.wave.length; i++)
 	{
