@@ -1,13 +1,31 @@
-function show_enemy(url) {
-    var popupX = (window.screen.width / 2) - (450 / 2);
-    var popupY= (window.screen.height /2) - (400 / 2);
-    window.open(url, "popup_enemy", 'status=no, height=400, width=463, left='+ popupX + ', top='+ popupY + ', screenX='+ popupX + ', screenY= '+ popupY);
+window.onload = function(){
+    var areanum = GetURLParameter('areanum');
+	document.title = areanum+'지역'	;
+	$("#area_title").html(areanum+'지역 철충 지도');
+	
+	DrawPage(areanum);
 }
-function get_url() {
-    url = ''
-    url += (arguments[0] + '?');
-    for(var i = 1; i < arguments.length; i++) {
-        url += (arguments[i] + '&');
-    }
-    return url;
+
+function DrawPage(areanum)
+{
+	var areadata=AreaParse(areanum);
+	for(var i=0;i<areadata.mainstage.length;i++)
+	{
+	  var index=Number(areadata.mainstage[i].title.split('-')[1]);
+	  $(".mainstage-list").append("<div class=\"stage mainstage\" id=\"mainstage"+index+"\"><a href=\"./stage.html?stage_name="+areanum+"-"+index+"\">"+areanum+"-"+index+"</a></div>");
+	}
+	for(var i=0;i<areadata.bstage.length;i++)
+	{
+	  var index=areadata.bstage[i].title.split('-')[1].slice(0,-1);
+	  $(".bstage-list").append("<div class=\"stage bstage\" id=\"bstage"+index+"\"><a href=\"./stage.html?stage_name="+areanum+"-"+index+"B\">"+areanum+"-"+index+"B</a></div>");
+	}
+	for(var i=0;i<areadata.exstage.length;i++)
+	{
+	  var index=areadata.exstage[i].title.split('-')[1].slice(0,-2);
+	  $(".exstage-list").append("<div class=\"stage exstage\" id=\"exstage"+index+"\"><a href=\"./stage.html?stage_name="+areanum+"-"+index+"Ex\">"+areanum+"-"+index+"Ex</a></div>");
+	}
 }
+
+
+
+
