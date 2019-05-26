@@ -20,27 +20,23 @@ function StageParse(stage_name)
 {
 	var stagedata;
 	var areanum=Number(stage_name.split('-')[0]);
-	var stagecode=stage_name.split('-')[1];
 	$.ajax({
 		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/master/json/area"+areanum+".json",
 		dataType:'json',
         async: false,
         success: function (data)
         {
-			if(stagecode.endsWith('B'))
+			if(stage_name.endsWith('B'))
 			{
-				var stagenum=Number(stagecode.slice(0,-1));
-				stagedata=data.bstage[stagenum-1];
+				stagedata=data.bstage.filter(function(data){ return data.title==stage_name; })[0];
 			}
-			else if(stagecode.endsWith('Ex'))
+			else if(stage_name.endsWith('Ex'))
 			{
-				var stagenum=Number(stagecode.slice(0,-2));
-				stagedata=data.exstage[stagenum-1];
+				stagedata=data.exstage.filter(function(data){ return data.title==stage_name; })[0];
 			}
 			else
 			{
-				var stagenum=Number(stagecode);
-				stagedata=data.mainstage[stagenum-1];
+				stagedata=data.mainstage.filter(function(data){ return data.title==stage_name; })[0];
 			}
         },
         error: function (e) {

@@ -1,34 +1,34 @@
 {
-  "title": "area1",
+  "title": "area5",
   "areatype": "grid",
   "gridsize": [8,3],
   "mainstage": [
     {
-      "title": "1-1",
+      "title": "5-1",
       "wave": []
     },
     {
-      "title": "1-2",
+      "title": "5-2",
       "wave": []
     },
     {
-      "title": "1-3",
+      "title": "5-3",
       "wave": []
     },
     {
-      "title": "1-4",
+      "title": "5-4",
       "wave": []
     },
     {
-      "title": "1-5",
+      "title": "5-5",
       "wave": []
     },
     {
-      "title": "1-6",
+      "title": "5-6",
       "wave": []
     },
     {
-      "title": "1-7",
+      "title": "5-7",
       "wave": [
         {
           "title": "wave1",
@@ -210,43 +210,48 @@
       ]
     },
     {
-      "title": "1-8",
+      "title": "5-8",
       "wave": []
     }
   ],
   "bstage": [
     {
-      "title": "1-3B",
+      "title": "5-2B",
       "wave": []
     },
     {
-      "title": "1-4B",
+      "title": "5-3B",
       "wave": []
     },
     {
-      "title": "1-5B",
+      "title": "5-6B",
       "wave": []
     },
     {
-      "title": "1-6B",
+      "title": "5-7B",
       "wave": []
     }
   ],
   "exstage": [
     {
-      "title": "1-1Ex",
+      "title": "5-1Ex",
       "wave": []
     },
     {
-      "title": "1-2Ex",
+      "title": "5-2Ex",
       "wave": []
     },
     {
-      "title": "1-3Ex",
+      "title": "5-3Ex",
       "wave": []
     },
     {
-      "title": "1-4Ex",
+      "title": "5-4Ex",
+      "wave": []
+    }
+    {
+      "title": "5-8Ex",
+      "grid": [7,1],
       "wave": []
     }
   ]
