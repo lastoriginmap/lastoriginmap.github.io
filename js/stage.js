@@ -1,16 +1,16 @@
 window.onload = function(){
-    var stage_name = GetURLParameter('stage_name');
-	document.title = stage_name+' 스테이지 정보'	;
-	$("a.btn-info").attr("href", "area.html?areanum="+stage_name.split('-')[0]);
-	var stagedata=StageParse(stage_name);
-	DrawPage(stagedata);
+    var stageTitle = getURLParameter('stage_title');
+	document.title = stageTitle+' 스테이지 정보';
+	$("a.btn-info").attr("href", "area.html?areanum="+getAreaByStageTitle(stageTitle));
+	var stageData=stageParse(stageTitle);
+	drawPage(stageData);
 }
 
-function DrawPage(stagedata)
+function drawPage(stageData)
 {
-	$('#stage_name').html(stagedata.title+' 스테이지');
+	$('#stage-title').html(stageData.title+' 스테이지');
 		
-    for(var i = 0; i < stagedata.wave.length; i++)
+    for(var i = 0; i < stageData.wave.length; i++)
 	{
 		$('.carousel-indicators').append('<li></li>');
 		$('li:last').attr({
@@ -33,13 +33,13 @@ function DrawPage(stagedata)
 			}
 		}
 		
-		for(var j=0;j<stagedata.wave[i].enemy.length;j++)
+		for(var j=0;j<stageData.wave[i].enemy.length;j++)
 		{
-			for(var k=0;k<stagedata.wave[i].enemy[j].pos.length;k++)
+			for(var k=0;k<stageData.wave[i].enemy[j].pos.length;k++)
 			{
-			  var row=3-parseInt((stagedata.wave[i].enemy[j].pos[k]-1)/3);
-			  var column=stagedata.wave[i].enemy[j].pos[k]-parseInt((stagedata.wave[i].enemy[j].pos[k]-1)/3)*3;
-			  $('#td'+String(i)+String(column)+String(row)).append('<a href=\"javascript:show_enemy(\''+stagedata.title+'\', '+i+', '+j+')\">'+stagedata.wave[i].enemy[j].name+'</a>');
+			  var row=3-parseInt((stageData.wave[i].enemy[j].pos[k]-1)/3);
+			  var column=stageData.wave[i].enemy[j].pos[k]-parseInt((stageData.wave[i].enemy[j].pos[k]-1)/3)*3;
+			  $('#td'+String(i)+String(column)+String(row)).append('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\">'+stageData.wave[i].enemy[j].name+'</a>');
 			}
 		}
     }

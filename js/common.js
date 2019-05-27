@@ -1,72 +1,68 @@
-function AreaParse(areanum)
+function areaParse(areaNum)
 {
-	var areadata;
+	var areaData;
 	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/master/json/area"+areanum+".json",
+		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/area"+areaNum+".json",
 		dataType:'json',
         async: false,
         success: function (data)
         {
-          areadata=data;
+          areaData=data;
         },
         error: function (e) {
             alert("error");
         }
     });
-    return areadata;
+    return areaData;
 }
 
-function StageParse(stage_name)
+function stageParse(stageTitle)
 {
-	var stagedata;
-	var areanum=Number(stage_name.split('-')[0]);
+	var stageData;
+	var areaNum=getAreaByStageTitle(stageTitle);
 	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/master/json/area"+areanum+".json",
+		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/area"+areaNum+".json",
 		dataType:'json',
         async: false,
-        success: function (data)
+        success: function(data)
         {
-			if(stage_name.endsWith('B'))
-			{
-				stagedata=data.bstage.filter(function(data){ return data.title==stage_name; })[0];
-			}
-			else if(stage_name.endsWith('Ex'))
-			{
-				stagedata=data.exstage.filter(function(data){ return data.title==stage_name; })[0];
-			}
-			else
-			{
-				stagedata=data.mainstage.filter(function(data){ return data.title==stage_name; })[0];
-			}
-        },
-        error: function (e) {
-            alert("error");
-        }
-    });
-	
-	return stagedata;
-}
-
-function EnemyParse(enemy_name)
-{
-	var enemydata;
-	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/master/json/enemy.json",
-		dataType:'json',
-        async: false,
-        success: function (data)
-        {
-            enemydata=data.filter(function(data){ return data.name==enemy_name; });
+        	var stageType=["b", "main", "ex"];
+        	var stageTypeTitle=["B", "", "Ex"];
+        	stageTypeTitle.forEach(function(element, index) {
+				if(getTypeByStageTitle(stageTitle)==element)
+				{
+					stageData=data[stageType[index]+"stage"].filter(function(data){ return data.title==stageTitle; })[0];
+				}
+			});
         },
         error: function (e) {
             alert("error");
         }
     });
 	
-	return enemydata[0];
+	return stageData;
 }
 
-function GetURLParameter(sParam)
+function enemyParse(enemyName)
+{
+	var enemyData;
+	$.ajax({
+		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/enemy.json",
+		dataType:'json',
+        async: false,
+        success: function (data)
+        {
+            enemyData=data.filter(function(data){ return data.name==enemyName; });
+        },
+        error: function (e) {
+            alert("error");
+        }
+    });
+	
+	return enemyData[0];
+}
+
+function getURLParameter(sParam)
 {
 	var sPageURL = window.location.search.substring(1);
 	var sURLVariables = sPageURL.split('&');
@@ -77,6 +73,23 @@ function GetURLParameter(sParam)
 	}
 }
 
+function getAreaByStageTitle(str)
+{
+	var regex=/^[0-9a-zA-Z]+/;
+	return str.match(regex)[0];
+}
+
+function getIndexByStageTitle(str)
+{
+	var regex=/-[0-9]+/;
+	return Number(str.match(regex)[0].slice(1));
+}
+
+function getTypeByStageTitle(str)
+{
+	var regex=/[a-zA-Z]*$/;
+	return str.match(regex)[0];
+}
 
 
 
