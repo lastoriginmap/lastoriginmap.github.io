@@ -1,7 +1,7 @@
 [
   {
     "name": "나이트 칙",
-    "img": null,
+    "img": "NightChick.png",
     "skills":
     [
       {
@@ -32,7 +32,7 @@
 	 },
 	 {
 	   "name": "나이트 칙 실더",
-    "img": null,
+    "img": "NightChickS.png",
     "skills":
     [
       {
@@ -63,7 +63,7 @@
 	 },
 	 {
 	   "name": "나이트 칙 런쳐",
-    "img": null,
+    "img": "NightChickM.png",
     "skills":
     [
       {
