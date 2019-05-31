@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>enemy_name</title>
+    <title>name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/enemy.css">
@@ -12,53 +12,59 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/enemy.js"></script>
     <script src="js/common.js"></script>
+    <!--script src="http://cdn.jsdelivr.net/npm/eruda"></script> <script>eruda.init();</script-->
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <h2 id="enemy_name"></h2>
-            <h5 id="enemy_LVL">Lv. </h5>
-            <h5 id="enemy_HP">HP </h5>
-        </header>
-        <content>
-
-            <div class="info_enemy_wrap">
-                <div class="row">
-                    <div class="col-xs-5">
-                        <div class="enemy_image_wrap">
-                            <div class="enemy_image" align="center">
-                                
-                            </div>
+        <div class="row info-wrap">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 image"></div>
+            <div class="basic-info-wrap">
+                <div class="col-xs-8 col-sm-5 name">
+	                <h2 id="name"></h2>
+                </div>
+	            <div class="col-xs-4 col-sm-3 LVL">
+	                <h3 id="LVL">Lv. </h3>
+                </div>
+            </div>
+            <div class="spec-wrap">
+                <div class="col-xs-12 col-sm-8 spec-item" id="HP">HP </div>
+                <div class="col-xs-6 col-sm-4 spec-item" id="ATK">공격력 </div>
+                <div class="col-xs-6 col-sm-4 spec-item" id="CRT">치명타 </div>
+                <div class="col-xs-6 col-sm-4 spec-item" id="DEF">방어력 </div>
+                <div class="col-xs-6 col-sm-4 spec-item" id="HIT">적중률 </div>
+                <div class="col-xs-6 col-sm-4 spec-item" id="AGI">행동력 </div>
+                <div class="col-xs-6 col-sm-4 spec-item" id="DOD">회피율 </div>
+            </div>
+        </div>
+        <div class="row skill-wrap">
+        	<div class="col-xs-12 skill-comment">
+        	    <h3>보유 스킬</h3>
+            </div>
+            <div class="col-xs-12 carousel-wrap">
+                <div id="skill-carousel" class="carousel " data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <div class="row">
+                        <div class="col-12 col-sm-4 carousel-indicators-wrap">
+                            <ol class="carousel-indicators">
+                            </ol>
                         </div>
-                        <p class="skill_comment">보유 스킬</p>
                     </div>
-                    <div class="col-xs-7">
-                        <div class="enemy_spec_wrap">
-                            <div class="row">
-                                <div class="col-xs-6 enemy_spec_item" id="enemy_ATK">공격력 </div>
-                                <div class="col-xs-6 enemy_spec_item" id="enemy_CRT">치명타 </div>
-                                <div class="col-xs-6 enemy_spec_item" id="enemy_DEF">방어력 </div>
-                                <div class="col-xs-6 enemy_spec_item" id="enemy_HIT">적중률 </div>
-                                <div class="col-xs-6 enemy_spec_item" id="enemy_AGI">행동력 </div>
-                                <div class="col-xs-6 enemy_spec_item" id="enemy_DOD">회피율 </div>
-                            </div>
-                        </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
                     </div>
                 </div>
             </div>
-            
-            <div id="skill_carousel" class="carousel " data-ride="carousel" data-interval="false">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                </div>
-            </div>
-        </content>
+        </div>
     </div>
 
 </body>
 
 </html>
+
+
+
+
+
+
+

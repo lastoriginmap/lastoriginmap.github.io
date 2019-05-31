@@ -53,6 +53,7 @@
               "CRT": -1,
               "HIT": 95,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 55,
                 66,
@@ -72,6 +73,7 @@
               "CRT": -1,
               "HIT": 75,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 65,
                 0,
@@ -85,7 +87,6 @@
                 6,
                 9
               ],
-              "img": null,
               "LVL": 9,
               "HP": 202,
               "ATK": 69,
@@ -94,6 +95,7 @@
               "CRT": -1,
               "HIT": 85,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 63,
                 76,
@@ -119,6 +121,7 @@
               "CRT": -1,
               "HIT": 75,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 65,
                 0,
@@ -141,6 +144,7 @@
               "CRT": -1,
               "HIT": 85,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 63,
                 76,
@@ -165,6 +169,7 @@
               "CRT": -1,
               "HIT": 95,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 75,
                 90,
@@ -184,6 +189,7 @@
               "CRT": -1,
               "HIT": 75,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 75,
                 0,
@@ -205,6 +211,7 @@
               "CRT": -1,
               "HIT": 85,
               "DOD": 0,
+              "skillLVL": [1, 1, 1],
               "skillpower": [
                 63,
                 76,

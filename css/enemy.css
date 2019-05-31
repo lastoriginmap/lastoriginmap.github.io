@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+div {
+    border: 1px solid black;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,95 +20,146 @@ ul {
 }
 
 body {
-    width: 450px;
+    max-width: 540px;
     background-color: #fdfdfd;
 }
-
 
 header {
     padding-bottom: 20px;
 }
 
-.skill_wrap {
+.container {
+    max-width: 540px;
+}
+.skill-wrap {
     border: 1px solid black;
 }
 
-.skill_wrap .skill_description_wrap {
+.skill-wrap .skill-description-wrap {
     border-top: 1px solid black;
 }
 
-#skill_carousel {
-    padding-top: 30px;
+#skill-carousel {
     position: relative;
 }
 
-#skill_carousel ol.carousel-indicators {
-    position: absolute;
-    text-align: left;
-    top: 0px;
-    left: 30%;
+#skill-carousel .carousel-indicators-wrap{
+	position: relative;
+	border: 1px solid blue;
 }
 
-#skill_carousel ol.carousel-indicators .skill_active {
-    width: 20px;
-    height: 20px;
+#skill-carousel ol.carousel-indicators {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	text-align: left;
+	border: 1px solid red;
+}
+
+#skill-carousel ol.carousel-indicators li {
+	/*display: inline-block;*/
+	box-sizing: content-box;
+	margin: 0px 1px;
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    border-radius: 100%;
+}
+
+#skill-carousel ol.carousel-indicators li:after {
+    height: 100%;
+}
+
+#skill-carousel ol.carousel-indicators .skill-active {
     border-color: orange;
 }
 
-#skill_carousel ol.carousel-indicators .active.skill_active {
-    width: 20px;
-    height: 20px;
+#skill-carousel ol.carousel-indicators .active.skill-active {
     background-color: orange;
 }
 
-#skill_carousel ol.carousel-indicators .skill_passive {
-    width: 20px;
-    height: 20px;
+#skill-carousel ol.carousel-indicators .skill-passive {
     border-color: skyblue;
 }
 
-#skill_carousel ol.carousel-indicators .active.skill_passive {
-    width: 20px;
-    height: 20px;
+#skill-carousel ol.carousel-indicators .active.skill-passive {
     background-color: skyblue;
 }
 
-.skill_area_wrap {
+.skill-range-wrap {
+	padding-left: 0;
+	text-align: center;
+}
+
+.skill-area-wrap {
+	padding-left: 0;
     border-collapse: collapse;
 }
 
-.skill_area_wrap,
-.skill_area_wrap th,
-.skill_area_wrap td {
+.skill-area-wrap,
+.skill-area-wrap th,
+.skill-area-wrap td {
     border: 1px solid white;
 }
-.skill_area_wrap td {
+
+.skill-area-wrap td {
     background: rgb(37, 37, 37);
-    width: 50px;
-    height: 50px;
+    width: 33%;
+    padding-bottom: 33%;
 }
 
-.info_enemy_wrap {
-            
+.skill-area-wrap td:after {
+    height: 100%;
 }
 
-.info_enemy_wrap .enemy_image_wrap {
-    height: 200px;
+.info-wrap .image {
+    padding-left: 15px
 }
 
-.info_enemy_wrap .enemy_image_wrap .enemy_image {
-    width: 150px; height: 150px;
-    border: 1px solid black;
-}
-
-.info_enemy_wrap .skill_comment {
+.info-wrap .skill-comment {
     color: black;
 }
 
-.info_enemy_wrap .enemy_spec_wrap{
-    height: 200px;
+.info-wrap .spec-wrap{
+    text-align: right;
     
 }
-.info_enemy_wrap .enemy_spec_wrap .enemy_spec_item {
-    height: 50px;
+.info-wrap .spec-wrap .spec-item {
+    display: inline-block;
+    text-align: left;
 }
+/*
+@media (min-width: 540px) {
+	.skill-container {
+		display: flex;
+	}
+	
+	.skill-name-wrap {
+		order: 1;
+	}
+	
+	.skill-range-wrap {
+		order: 2;
+	}
+	
+	.skill-area-wrap {
+		order: 4;
+	}
+	
+	.skill-description-wrap {
+		order: 3;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+

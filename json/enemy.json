@@ -53,7 +53,7 @@
       },
       {
         "title": "pskill1",
-        "type": "active",
+        "type": "passive",
         	"name": "칙 커버링",
 			    				"range": 0,
 				    			"description": "라운드 개시 시, 칙 방패 방어술이 적용된 상태면 바로 뒤에 있는 아군 1기를 보호합니다.",
