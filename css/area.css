@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+div {
+	border: 0px solid green;
+}
+
+>>>>>>> canvas
 a {
     text-decoration: none;
 }
@@ -16,14 +23,20 @@ ul {
 }
 
 body {
+<<<<<<< HEAD
     min-width: 620px;
     background-color: #fdfdfd;
+=======
+    max-width: 540px;
+    padding: 5vw;
+>>>>>>> canvas
 }
 
 header {
     padding-bottom: 50px;
 }
 
+<<<<<<< HEAD
 .areamap .stage{
     display: inline-block;
     box-sizing: border-box;
@@ -62,6 +75,76 @@ header {
 }
 
 content .btn-info {
+=======
+.areamap {
+    width: 100%;
+    border: 0;
+    position: relative;
+    overflow-y: scroll;
+    //touch-action: pinch-zoom;
+}
+
+.areamap .stage-list {
+	width: 100%;
+	border: 0;
+	position: absolute;
+	z-index: 9999;
+}
+
+.stage-list a {
+	display: flex;
+    box-sizing: border-box;
+    width: 12.5%;
+    height: 40px;
+    padding: 0px;
+    background-color: rgba(0,0,255,0);
+    //position: absolute;
+    justify-content: center;
+}
+
+.stage + .title-container {
+    //display: block;
+    position: absolute;
+    text-align: center;
+    //vertical-align: bottom;
+}
+
+.stage {
+	//color: white;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.mainstage + .title-container {
+	color: rgb(230, 230, 92);
+}
+
+.bstage + .title-container {
+	color: rgb(50, 163, 50);
+}
+
+.exstage + .title-container {
+	color: rgb(235, 60, 60);
+}
+
+#canvas-container {
+	//width: 100%;
+	position: relative;
+}
+
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	//width: 100%;
+}
+
+content .btn-info {
+	position: static;
+>>>>>>> canvas
     margin-top: 20px;
     padding: 10px;
 }

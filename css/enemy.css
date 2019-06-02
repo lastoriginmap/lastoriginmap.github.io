@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+div {
+	padding: 5px;
+    border: 0px solid black;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,95 +21,232 @@ ul {
 }
 
 body {
-    width: 450px;
+    max-width: 540px;
+}
+
+.container {
+    max-width: 540px;
     background-color: #fdfdfd;
 }
 
-
-header {
-    padding-bottom: 20px;
+.info-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
 }
 
-.skill_wrap {
-    border: 1px solid black;
+.image {
+	grid-area: 1 / 4 / 2 / 10;
 }
 
-.skill_wrap .skill_description_wrap {
-    border-top: 1px solid black;
+.name {
+	grid-area: 2 / 1 / 3 / 10;
+	padding-left: 8%;
 }
 
-#skill_carousel {
-    padding-top: 30px;
-    position: relative;
+.LVL {
+	grid-area: 2 / 10 / 3 / 13;
+	text-align: right;
+	padding-right: 25%;
 }
 
-#skill_carousel ol.carousel-indicators {
-    position: absolute;
-    text-align: left;
-    top: 0px;
-    left: 30%;
+.spec-wrap {
+	grid-area: 3 / 1 / 4 / 13;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
-#skill_carousel ol.carousel-indicators .skill_active {
-    width: 20px;
-    height: 20px;
+.spec-item {
+	text-align: center;
+}
+
+#HP {
+	grid-area: 1 / 1 / 2 / 5;
+	
+}
+
+#ATK {
+	
+}
+
+#CRT {
+	
+}
+
+#DEF {
+	
+}
+
+#HIT {
+	
+}
+
+#AGI {
+	
+}
+
+#DOD {
+	
+}
+
+.skill-container {
+	display: none;
+}
+
+.skill-container-active {
+	padding: 0 7%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	border-radius: 5vw;
+	background-color: rgb(220,220,220);
+}
+
+.skill-header {
+	grid-area: 1 / 1 / 2 / 13;
+}
+
+.skill-nav-wrap {
+	grid-area: 2 / 1 / 3 / 13;
+	padding: 0;
+	border-bottom: 5px solid orange;
+}
+
+.skill-nav {
+	text-align: left;
+}
+
+.skill-nav a {
+	display: inline-block;
+	box-sizing: content-box;
+	margin: 0 1% 0 0;
+    width: 12.5%;
+    height: 0;
+    padding: 0.5% 0.5% 13% 0.5%;
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5% 5% 0 0;
+}
+
+.skill-nav a::after {
+    height: 100%;
+}
+
+.skill-nav .skill-active {
     border-color: orange;
 }
 
-#skill_carousel ol.carousel-indicators .active.skill_active {
-    width: 20px;
-    height: 20px;
+.skill-nav .active.skill-active {
     background-color: orange;
 }
 
-#skill_carousel ol.carousel-indicators .skill_passive {
-    width: 20px;
-    height: 20px;
+.skill-nav .skill-passive {
     border-color: skyblue;
 }
 
-#skill_carousel ol.carousel-indicators .active.skill_passive {
-    width: 20px;
-    height: 20px;
+.skill-nav .active.skill-passive {
     background-color: skyblue;
 }
 
-.skill_area_wrap {
-    border-collapse: collapse;
+.skill-icon {
+	width: 100%;
 }
 
-.skill_area_wrap,
-.skill_area_wrap th,
-.skill_area_wrap td {
-    border: 1px solid white;
-}
-.skill_area_wrap td {
-    background: rgb(37, 37, 37);
-    width: 50px;
-    height: 50px;
+.skill-name {
+	grid-area: 3 / 1 / 4 / 10;
 }
 
-.info_enemy_wrap {
-            
+.skill-range {
+	grid-area: 3 / 10 / 4 / 13;
+	text-align: center;
+	display: flex;
+	align-items: center;
 }
 
-.info_enemy_wrap .enemy_image_wrap {
-    height: 200px;
+.skill-area {
+	grid-area: 4 / 10 / 5 / 13;
 }
 
-.info_enemy_wrap .enemy_image_wrap .enemy_image {
-    width: 150px; height: 150px;
-    border: 1px solid black;
+.skill-area table {
+    width: 75%;
+    margin: 0 auto;
 }
 
-.info_enemy_wrap .skill_comment {
-    color: black;
+.skill-area td {
+	box-sizing: content-box;
+    background: rgb(45, 45, 45);
+    width: 33%;
+    height: 0;
+    border-radius: 5%;
 }
 
-.info_enemy_wrap .enemy_spec_wrap{
-    height: 200px;
-    
+.skill-area td::after {
+	content: ' ';
+	display: block;
+	margin-top: 100%;
 }
-.info_enemy_wrap .enemy_spec_wrap .enemy_spec_item {
-    height: 50px;
+
+.skill-description {
+	grid-area: 4 / 1 / 5 / 10;
 }
+
+
+@media (min-width: 540px) {
+	.image {
+		grid-area: 1 / 1 / 3 / 5;
+	}
+	
+	.name {
+		grid-area: 1 / 5 / 2 / 10;
+	}
+	
+	.LVL {
+		grid-area: 1 / 10 / 2 / 13;
+	}
+	
+	.spec-wrap {
+		grid-area: 2 / 5 / 3 / 13;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
+	.skill-container-active {
+		padding: 10px;
+		border-radius: 10px;
+	}
+	
+	.skill-nav-wrap {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+	}
+	
+	.skill-nav {
+		grid-area: 1 / 1 / 2 / 9;
+	}
+	
+	.skill-name {
+		grid-area: 3 / 1 / 4 / 9;
+	}
+	
+	.skill-range {
+		grid-area: 3 / 9 / 4 / 11;
+	}
+	
+	.skill-area {
+		grid-area: 3 / 11 / 4 / 13;
+	}
+	
+	.skill-description {
+		grid-area: 4 / 1 / 5 / 13;
+	}
+}
+
+
+
+
+
+
+
+
+

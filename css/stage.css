@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
+    border: 0px solid black;
+>>>>>>> canvas
 }
 
 a {
@@ -16,6 +20,7 @@ ul {
 }
 
 body {
+<<<<<<< HEAD
     min-width: 620px;
     background-color: #fdfdfd;
 }
@@ -23,10 +28,38 @@ body {
 content .btn-info {
     margin-top: 20px;
     padding: 10px;
+=======
+    max-width: 540px;
+    background-color: #fdfdfd;
+}
+
+.container {
+    width: 100%;
+    padding: 5% 0;
+}
+
+header {
+	text-align: center;
+	margin: 5% 0;
+}
+
+section {
+	text-align: center;
+}
+
+.btn-info {
+	display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(100, 100, 220);
+>>>>>>> canvas
 }
 
 .carousel {
     position: relative;
+<<<<<<< HEAD
 }
 
 ol.carousel-indicators {
@@ -50,4 +83,215 @@ table {
     height: 300px;
     table-layout: fixed;
     word-wrap: break-word;
+=======
+    width: 100%;
+    overflow-x: hidden;
+    padding: 2% 0;
+    vertical-align: middle;
+}
+
+.carousel-indicators {
+	padding: 0;
+	text-align: center;
+}
+
+.carousel-indicator {
+	position: relative;
+	display: inline-block;
+    width: 5%;
+    height: 0;
+    margin: 0 2.5%;
+    padding-bottom: 5%;
+    background-color: rgb(91, 192, 222);
+    border: 1px solid rgb(255, 213, 0);
+}
+
+.carousel-indicator:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	width: 200%;
+	height: 50%;
+	left: 100%;
+	z-index: -1;
+	border-bottom: 1px solid rgb(255, 213, 0);
+}
+
+.carousel-indicator-active {
+    background-color: rgb(228, 60, 31);
+}
+
+.carousel-wrap {
+	display: flex;
+	align-items: center;
+}
+	
+.carousel-track-wrap {
+	width: 100%;
+}
+
+.carousel-control {
+	position: absolute;
+	box-sizing: border-box;
+	display: block;
+	width: 7.5vw;
+	height: 27vw;
+	padding: 2vw 1.25vw;
+	z-index: 9999;
+}
+
+.carousel-control-end {
+	visibility: hidden;
+}
+
+.carousel-control-left {
+	left: 0;
+}
+
+.carousel-control-right {
+	right: 0;
+}
+
+.carousel-control-arrow {
+	width: 7vw;
+	height: 7vw;
+	border-type: solid;
+	border-radius: 5%;
+	border-color: rgb(220,220,220);
+}
+
+.carousel-control-left .carousel-control-arrow {
+	float: right;
+	transform: scaleY(2.2) rotate(-45deg);
+	transform-origin: top right;
+	border-width: 0.5vw 0 0 0.5vw;
+}
+
+.carousel-control-right .carousel-control-arrow {
+	float: left;
+	transform: scaleY(2.2) rotate(45deg);
+	transform-origin: top left;
+	border-width: 0.5vw 0.5vw 0 0;
+}
+
+.carousel-track {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	white-space: nowrap;
+	transition: transform 0.5s ease 0s;
+	border-color: blue;
+}
+
+.carousel-slide {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	border-color: red;
+}
+
+.wave-grid {
+    width: 85vw;
+    height: 85vw;
+    margin: 2.5vw 7.5vw;
+    white-space: normal;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+}
+
+.wave-grid div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5%;
+	background-color: rgb(200,200,200);
+}
+
+.wave-grid div a {
+	text-align: center;
+	color: black;
+}
+
+.wave-grid div img {
+	width: 50%;
+}
+
+@media (min-width: 540px) {
+	body {
+		max-width: unset;
+		width: 100%;
+	}
+	
+	.container {
+		width: 100%;
+	}
+	
+	.carousel {
+		width: 100%;
+	}
+	
+	.carousel-wrap {
+		width: 540px;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	
+	.carousel-indicator {
+	width: 30px;
+	margin: 0 15px;
+	padding-bottom: 30px;
+	}
+	
+	.carousel-track-wrap {
+		width: 540px;
+	}
+	
+	.carousel-slide {
+		width: 540px;
+		opacity: 0.5;
+		transition: opacity .5s ease-in-out;
+	}
+	
+	.carousel-slide-active {
+		opacity: 1;
+	}
+	
+	.wave-grid {
+		width: 460px;
+		height: 460px;
+		margin: 40px 40px;
+		grid-gap: 5px;
+	}
+	
+	.carousel-control {
+		width: 40px;
+		height: 150px;
+		padding: 15px 5px;
+		position: relative;
+	}
+	
+	.carousel-control-left {
+		left: 20px;
+	}
+	
+	.carousel-control-right {
+		right: 20px;
+	}
+	
+	.carousel-control-arrow {
+		width: 42px;
+		height: 42px;
+	}
+	
+	.carousel-control-left .carousel-control-arrow {
+		transform: scaleY(2) rotate(-45deg);
+		border-width: 5px 0 0 5px;
+	}
+	
+	.carousel-control-right .carousel-control-arrow {
+		transform: scaleY(2) rotate(45deg);
+		border-width: 5px 5px 0 0;
+	}
+>>>>>>> canvas
 }
