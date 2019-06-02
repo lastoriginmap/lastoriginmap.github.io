@@ -187,6 +187,11 @@ section {
 	
 	.container {
 		width: 100%;
+		padding: 1% 0;
+	}
+	
+	header {
+		margin: 0;
 	}
 	
 	.carousel {

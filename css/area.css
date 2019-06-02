@@ -34,7 +34,11 @@ header {
     position: relative;
     overflow-x: scroll;
 	overflow-y: hidden;
-    //touch-action: pinch-zoom;
+	scrollbar-width: none;
+}
+
+.areamap::-webkit-scrollbar {
+	display: none;
 }
 
 .areamap .stage-list {
@@ -55,11 +59,20 @@ header {
     justify-content: center;
 }
 
-.stage + .title-container {
-    //display: block;
+.title-container {
     position: absolute;
     text-align: center;
-    //vertical-align: bottom;
+	white-space: nowrap;
+}
+
+.title-container::before {
+	content: "";
+	margin-left: -100%;
+}
+
+.title-container::after {
+	content: "";
+	margin-right: -100%;
 }
 
 .stage {

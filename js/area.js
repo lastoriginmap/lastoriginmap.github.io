@@ -16,7 +16,6 @@ function drawArea(areaNum)
 		gridSize = areaData.gridsize;
 	}
 	var unit = Math.max($(".areamap").width(), 540)/gridSize[0];
-	alert(unit);
 	var stageType = ["b", "main", "ex"];
 	var stageTypeTitle = ["B", "", "Ex"];
 	for(var j = 0;j<stageType.length;j++)
@@ -65,7 +64,6 @@ function drawCanvas(areaNum)
 	}
 	canvas.width = Math.max($("#canvas").parent().width(), 540);
 	var unit = canvas.width/gridSize[0];
-	alert(unit);
 	canvas.height = (0.55*(3+0.5))*unit;
 	document.getElementById("canvas-container").style.height = canvas.height+"px";
 	ctx.fillStyle  =  "black";
