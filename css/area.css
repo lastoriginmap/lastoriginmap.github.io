@@ -20,7 +20,7 @@ ul {
 }
 
 body {
-    max-width: 540px;
+    //max-width: 540px;
     padding: 5vw;
 }
 
@@ -32,7 +32,8 @@ header {
     width: 100%;
     border: 0;
     position: relative;
-    overflow-y: scroll;
+    overflow-x: scroll;
+	overflow-y: hidden;
     //touch-action: pinch-zoom;
 }
 

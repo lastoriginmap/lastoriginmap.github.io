@@ -16,6 +16,7 @@ function drawArea(areaNum)
 		gridSize = areaData.gridsize;
 	}
 	var unit = Math.max($(".areamap").width(), 540)/gridSize[0];
+	alert(unit);
 	var stageType = ["b", "main", "ex"];
 	var stageTypeTitle = ["B", "", "Ex"];
 	for(var j = 0;j<stageType.length;j++)
@@ -25,7 +26,7 @@ function drawArea(areaNum)
 		var index = getIndexByStageTitle(areaData[stageType[j]+"stage"][i].title);
 		var grid = getGridByStageData(areaData[stageType[j]+"stage"][i]);
 		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stage_title="+areaNum+"-"+index+stageTypeTitle[j]+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+areaNum+"-"+index+stageTypeTitle[j]+"</div></a>");
-		alert(stageTypeTitle[j]);
+		//alert(stageTypeTitle[j]);
 		var stageBox = $("#"+stageType[j]+"stage"+index)[0];
 		var titleBox = $("#"+stageType[j]+"stage"+index+"+.title-container")[0];
 		stageBox.style.left = (0.75-(grid[1]%2)*0.5+grid[0])*unit-2+"px";
@@ -64,6 +65,7 @@ function drawCanvas(areaNum)
 	}
 	canvas.width = Math.max($("#canvas").parent().width(), 540);
 	var unit = canvas.width/gridSize[0];
+	alert(unit);
 	canvas.height = (0.55*(3+0.5))*unit;
 	document.getElementById("canvas-container").style.height = canvas.height+"px";
 	ctx.fillStyle  =  "black";

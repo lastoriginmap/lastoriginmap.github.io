@@ -71,8 +71,8 @@ function changeWave(index, length)
 
 function show_enemy(stage, wave, enemy) {
     var popupX = (window.screen.width / 2) - (540 / 2);
-    var popupY= (window.screen.height /2) - (400 / 2);
-    window.open('enemy.html?stage='+stage+'&wave='+wave+'&enemy='+enemy, "popup_enemy", 'status=no, height=600, width=463, left='+ popupX + ', top='+ popupY + ', screenX='+ popupX + ', screenY= '+ popupY);
+    var popupY= (window.screen.height /2) - (450 / 2);
+    window.open('enemy.html?stage='+stage+'&wave='+wave+'&enemy='+enemy, "popup_enemy", 'status=no, height=450, width=540, left='+ popupX + ', top='+ popupY + ', screenX='+ popupX + ', screenY= '+ popupY);
 }
 
 
