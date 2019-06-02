@@ -3,13 +3,10 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
-=======
 div {
 	border: 0px solid green;
 }
 
->>>>>>> canvas
 a {
     text-decoration: none;
 }
@@ -23,59 +20,14 @@ ul {
 }
 
 body {
-<<<<<<< HEAD
-    min-width: 620px;
-    background-color: #fdfdfd;
-=======
     max-width: 540px;
     padding: 5vw;
->>>>>>> canvas
 }
 
 header {
     padding-bottom: 50px;
 }
 
-<<<<<<< HEAD
-.areamap .stage{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 12.5%;
-    height: 40px;
-    padding: 10px;
-    text-align: center
-}
-
-.area .block_area a {
-    display: block;
-    color: rgb(0, 0, 255);
-}
-
-.areamap {
-    width: 100%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.area:nth-child(1) {
-    border-top: 1px solid black;
-}
-
-.area:nth-child(1) .block_area {
-    background: rgb(50, 163, 50);
-}
-
-.area:nth-child(2) .block_area {
-    background: rgb(230, 230, 92);
-}
-
-.area:nth-child(3) .block_area {
-    background: rgb(235, 60, 60);
-}
-
-content .btn-info {
-=======
 .areamap {
     width: 100%;
     border: 0;
@@ -144,7 +96,6 @@ content .btn-info {
 
 content .btn-info {
 	position: static;
->>>>>>> canvas
     margin-top: 20px;
     padding: 10px;
 }
