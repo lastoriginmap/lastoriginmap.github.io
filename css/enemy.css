@@ -4,7 +4,8 @@
 }
 
 div {
-    border: 1px solid black;
+	padding: 5px;
+    border: 0px solid black;
 }
 
 a {
@@ -21,139 +22,225 @@ ul {
 
 body {
     max-width: 540px;
-    background-color: #fdfdfd;
-}
-
-header {
-    padding-bottom: 20px;
 }
 
 .container {
     max-width: 540px;
-}
-.skill-wrap {
-    border: 1px solid black;
+    background-color: #fdfdfd;
 }
 
-.skill-wrap .skill-description-wrap {
-    border-top: 1px solid black;
+.info-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
 }
 
-#skill-carousel {
-    position: relative;
+.image {
+	grid-area: 1 / 4 / 2 / 10;
 }
 
-#skill-carousel .carousel-indicators-wrap{
-	position: relative;
-	border: 1px solid blue;
+.name {
+	grid-area: 2 / 1 / 3 / 10;
+	padding-left: 8%;
 }
 
-#skill-carousel ol.carousel-indicators {
-	position: relative;
-	left: 0;
-	bottom: 0;
-	margin: 0;
-	text-align: left;
-	border: 1px solid red;
+.LVL {
+	grid-area: 2 / 10 / 3 / 13;
+	text-align: right;
+	padding-right: 25%;
 }
 
-#skill-carousel ol.carousel-indicators li {
-	/*display: inline-block;*/
-	box-sizing: content-box;
-	margin: 0px 1px;
-    width: 25%;
-    height: 0;
-    padding-bottom: 25%;
-    border-radius: 100%;
+.spec-wrap {
+	grid-area: 3 / 1 / 4 / 13;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
-#skill-carousel ol.carousel-indicators li:after {
-    height: 100%;
-}
-
-#skill-carousel ol.carousel-indicators .skill-active {
-    border-color: orange;
-}
-
-#skill-carousel ol.carousel-indicators .active.skill-active {
-    background-color: orange;
-}
-
-#skill-carousel ol.carousel-indicators .skill-passive {
-    border-color: skyblue;
-}
-
-#skill-carousel ol.carousel-indicators .active.skill-passive {
-    background-color: skyblue;
-}
-
-.skill-range-wrap {
-	padding-left: 0;
+.spec-item {
 	text-align: center;
 }
 
-.skill-area-wrap {
-	padding-left: 0;
-    border-collapse: collapse;
+#HP {
+	grid-area: 1 / 1 / 2 / 5;
+	
 }
 
-.skill-area-wrap,
-.skill-area-wrap th,
-.skill-area-wrap td {
-    border: 1px solid white;
+#ATK {
+	
 }
 
-.skill-area-wrap td {
-    background: rgb(37, 37, 37);
-    width: 33%;
-    padding-bottom: 33%;
+#CRT {
+	
 }
 
-.skill-area-wrap td:after {
+#DEF {
+	
+}
+
+#HIT {
+	
+}
+
+#AGI {
+	
+}
+
+#DOD {
+	
+}
+
+.skill-container {
+	display: none;
+}
+
+.skill-container-active {
+	padding: 0 7%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	border-radius: 5vw;
+	background-color: rgb(220,220,220);
+}
+
+.skill-header {
+	grid-area: 1 / 1 / 2 / 13;
+}
+
+.skill-nav-wrap {
+	grid-area: 2 / 1 / 3 / 13;
+	padding: 0;
+	border-bottom: 5px solid orange;
+}
+
+.skill-nav {
+	text-align: left;
+}
+
+.skill-nav a {
+	display: inline-block;
+	box-sizing: content-box;
+	margin: 0 1% 0 0;
+    width: 12.5%;
+    height: 0;
+    padding: 0.5% 0.5% 13% 0.5%;
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5% 5% 0 0;
+}
+
+.skill-nav a::after {
     height: 100%;
 }
 
-.info-wrap .image {
-    padding-left: 15px
+.skill-nav .skill-active {
+    border-color: orange;
 }
 
-.info-wrap .skill-comment {
-    color: black;
+.skill-nav .active.skill-active {
+    background-color: orange;
 }
 
-.info-wrap .spec-wrap{
-    text-align: right;
-    
+.skill-nav .skill-passive {
+    border-color: skyblue;
 }
-.info-wrap .spec-wrap .spec-item {
-    display: inline-block;
-    text-align: left;
+
+.skill-nav .active.skill-passive {
+    background-color: skyblue;
 }
-/*
+
+.skill-icon {
+	width: 100%;
+}
+
+.skill-name {
+	grid-area: 3 / 1 / 4 / 10;
+}
+
+.skill-range {
+	grid-area: 3 / 10 / 4 / 13;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.skill-area {
+	grid-area: 4 / 10 / 5 / 13;
+}
+
+.skill-area table {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.skill-area td {
+	box-sizing: content-box;
+    background: rgb(45, 45, 45);
+    width: 33%;
+    height: 0;
+    border-radius: 5%;
+}
+
+.skill-area td::after {
+	content: ' ';
+	display: block;
+	margin-top: 100%;
+}
+
+.skill-description {
+	grid-area: 4 / 1 / 5 / 10;
+}
+
+
 @media (min-width: 540px) {
-	.skill-container {
-		display: flex;
+	.image {
+		grid-area: 1 / 1 / 3 / 5;
 	}
 	
-	.skill-name-wrap {
-		order: 1;
+	.name {
+		grid-area: 1 / 5 / 2 / 10;
 	}
 	
-	.skill-range-wrap {
-		order: 2;
+	.LVL {
+		grid-area: 1 / 10 / 2 / 13;
 	}
 	
-	.skill-area-wrap {
-		order: 4;
+	.spec-wrap {
+		grid-area: 2 / 5 / 3 / 13;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
 	}
 	
-	.skill-description-wrap {
-		order: 3;
+	.skill-container-active {
+		padding: 10px;
+		border-radius: 10px;
+	}
+	
+	.skill-nav-wrap {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+	}
+	
+	.skill-nav {
+		grid-area: 1 / 1 / 2 / 9;
+	}
+	
+	.skill-name {
+		grid-area: 3 / 1 / 4 / 9;
+	}
+	
+	.skill-range {
+		grid-area: 3 / 9 / 4 / 11;
+	}
+	
+	.skill-area {
+		grid-area: 3 / 11 / 4 / 13;
+	}
+	
+	.skill-description {
+		grid-area: 4 / 1 / 5 / 13;
 	}
 }
-*/
-
-
 
 
 

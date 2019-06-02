@@ -91,5 +91,8 @@ function getTypeByStageTitle(str)
 	return str.match(regex)[0];
 }
 
-
-
+function getEnemyIMG(name)
+{
+	var enemyData=enemyParse(name);
+	return enemyData.img;
+}

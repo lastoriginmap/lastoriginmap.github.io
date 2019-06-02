@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+div {
+	border: 0px solid green;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,8 +20,8 @@ ul {
 }
 
 body {
-    min-width: 620px;
-    background-color: #fdfdfd;
+    max-width: 540px;
+    padding: 5vw;
 }
 
 header {
@@ -28,6 +32,8 @@ header {
     width: 100%;
     border: 0;
     position: relative;
+    overflow-y: scroll;
+    //touch-action: pinch-zoom;
 }
 
 .areamap .stage-list {
@@ -37,24 +43,26 @@ header {
 	z-index: 9999;
 }
 
-.stage {
-	display: table;
+.stage-list a {
+	display: flex;
     box-sizing: border-box;
     width: 12.5%;
     height: 40px;
     padding: 0px;
     background-color: rgba(0,0,255,0);
+    //position: absolute;
+    justify-content: center;
+}
+
+.stage + .title-container {
+    //display: block;
     position: absolute;
-}
-
-.stage>.title-container {
-    display: table-cell;
     text-align: center;
-    vertical-align: bottom;
+    //vertical-align: bottom;
 }
 
-.title-container>a {
-	color: white;
+.stage {
+	//color: white;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -62,20 +70,20 @@ header {
 	left: 0;
 }
 
-.mainstage .title-container {
+.mainstage + .title-container {
 	color: rgb(230, 230, 92);
 }
 
-.bstage .title-container {
+.bstage + .title-container {
 	color: rgb(50, 163, 50);
 }
 
-.exstage .title-container {
+.exstage + .title-container {
 	color: rgb(235, 60, 60);
 }
 
 #canvas-container {
-	width: 100%;
+	//width: 100%;
 	position: relative;
 }
 
@@ -83,7 +91,7 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	//width: 100%;
 }
 
 content .btn-info {
