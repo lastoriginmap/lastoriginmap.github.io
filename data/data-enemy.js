@@ -1,4 +1,4 @@
-[
+var enemyDataArr = [
   {
     "name": "나이트 칙",
     "img": "NightChick.png",
@@ -95,7 +95,7 @@
       }
     ]
   }
-]
+];
 									
 									
 									

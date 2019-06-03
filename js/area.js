@@ -1,12 +1,12 @@
-window.onload  =  function(){
+window.onload  =  async function(){
     var areaNum  =  getURLParameter('areanum');
-    var areaData = areaParse(areaNum);
+    var areaData = loadAreaData(areaNum);
 	document.title  =  areaNum+'지역'	;
 	$("#area_title").html(areaNum+'지역 철충 지도');
 	
-	drawArea(areaData);
-	drawCanvas(areaData);
-}
+	drawArea(await areaData);
+	drawCanvas(await areaData);
+};
 
 function drawArea(areaData)
 {
@@ -152,7 +152,6 @@ function getGridByStageData(stageData)
 	}
 	return grid;
 }
-
 
 
 

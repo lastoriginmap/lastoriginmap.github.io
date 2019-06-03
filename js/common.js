@@ -1,84 +1,69 @@
-function areaParse(areaNum)
+function loadData(src)
 {
-	var areaData;
-	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/area"+areaNum+".json",
-		dataType:'json',
-        async: false,
-        success: function (data)
-        {
-          areaData=data;
-        },
-        error: function (e) {
-            alert("error");
-        }
-    });
-    return areaData;
+	return new Promise(resolve => {
+		var script = document.createElement('script');
+		script.type = "text/javascript";
+		script.src = src;
+		script.addEventListener('load', () => { resolve(); }, false);
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(script, s);
+	});
 }
 
-function stageParse(stageTitle)
+async function loadAreaData(areaNum)
 {
-	var stageData;
-	var areaNum=getAreaByStageTitle(stageTitle);
-	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/area"+areaNum+".json",
-		dataType:'json',
-        async: false,
-        success: function(data)
-        {
-        	var stageType=["b", "main", "ex"];
-        	var stageTypeTitle=["B", "", "Ex"];
-        	stageTypeTitle.forEach(function(element, index) {
-				if(getTypeByStageTitle(stageTitle)==element)
+	return new Promise(resolve=> {
+		var src="./data/data-area"+areaNum+".js";
+		loadData(src).then(()=> {
+			resolve(areaData);
+		});
+	});
+}
+
+async function loadStageData(stageTitle)
+{
+	return new Promise(resolve=> {
+		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".js";
+		loadData(src).then(()=> {
+			var stageData;
+			var areaNum=getAreaByStageTitle(stageTitle);
+			var stageType=["b", "main", "ex"];
+			var stageTypeTitle=["B", "", "Ex"];
+		 	stageTypeTitle.forEach(function(element, index) {
+	 			if(getTypeByStageTitle(stageTitle)==element)
 				{
-					stageData=data[stageType[index]+"stage"].filter(function(data){ return data.title==stageTitle; })[0];
+					stageData= areaData[stageType[index]+"stage"].filter(function(sData){ return sData.title==stageTitle; })[0];
 				}
 			});
-        },
-        error: function (e) {
-            alert("error");
-        }
-    });
-	
-	return stageData;
+			resolve(stageData);
+		});
+
+	});
 }
 
-function enemyParse(enemyName)
+function loadEnemyData(enemyName)
 {
-	var enemyData;
-	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/enemy.json",
-		dataType:'json',
-        async: false,
-        success: function (data)
-        {
-            enemyData=data.filter(function(data){ return data.name==enemyName; });
-        },
-        error: function (e) {
-            alert("error");
-        }
-    });
-	
-	return enemyData[0];
+	return new Promise(resolve=> {
+		var src="./data/data-enemy.js";
+		loadData(src).then(()=> {
+			var enemyData=enemyDataArr.filter(function(data){ return data.name==enemyName;})[0];
+			resolve(enemyData);
+		});
+	});
 }
 
-function enemyIMGParse()
+async function loadEnemyIMGData()
 {
-	var enemyIMGData=[];
-	$.ajax({
-		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/enemy.json",
-		dataType:'json',
-        async: false,
-        success: function (data)
-        {
-            data.forEach(function(data, index){ enemyIMGData[index]={"name": data.name, "img": data.img}; });
-        },
-        error: function (e) {
-            alert("error");
-        }
-    });
-	
-	return enemyIMGData;
+	return new Promise(resolve=> {
+		var src="./data/data-enemy.js";
+		loadData(src).then(()=> {
+			var enemyIMGData=[];
+			enemyDataArr.forEach(function(data, index) {
+				enemyIMGData[index]={"name": data.name, "img": data.img}; 
+			});
+			resolve(enemyIMGData);
+		});
+	});
 }
 
 function getURLParameter(sParam)

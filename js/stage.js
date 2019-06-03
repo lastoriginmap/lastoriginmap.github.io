@@ -1,25 +1,26 @@
-window.onload = function(){
-    var stageTitle = getURLParameter('stage_title');
-	document.title = stageTitle+' 스테이지 정보';
-	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageTitle));
-	var stageData=stageParse(stageTitle);
-	var enemyIMGData=enemyIMGParse();
-	drawPage(stageData, enemyIMGData);
+window.onload = async function() {
+	var stageTitle = getURLParameter('stage_title');
+	var areaNum = getAreaByStageTitle(stageTitle);
+
+	var stageData = loadStageData(stageTitle);
+	var enemyIMGData = loadEnemyIMGData();
+	drawPage(await stageData, await enemyIMGData);
 	
-	$('.carousel-indicators').on('click', '.carousel-indicator', function(e) {
-		changeWave(Number(e.currentTarget.hash.slice(5)), stageData.wave.length);
+	$('.carousel-indicators').on('click', '.carousel-indicator', async function(e) {
+		changeWave(Number(e.currentTarget.hash.slice(5)), (await stageData).wave.length);
 		e.preventDefault();
 	});
-	$('.carousel-control').on('click', function(e) {
-		changeWave(Number(e.currentTarget.hash.slice(5)), stageData.wave.length);
+	$('.carousel-control').on('click', async function(e) {
+		changeWave(Number(e.currentTarget.hash.slice(5)), (await stageData).wave.length);
 		e.preventDefault();
 	});
-}
+};
 
 function drawPage(stageData, imgData)
 {
+	document.title = stageData.title+' 스테이지 정보';
+	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageData.title));
 	$('#stage-title').html(stageData.title+' 스테이지');
-	
     for(var i = 0; i < stageData.wave.length; i++)
 	{
 		$('.carousel-indicator').first().clone().appendTo('.carousel-indicators');
@@ -66,7 +67,6 @@ function changeWave(index, length)
 	$('.carousel-control-right').addClass("carousel-control-end");
 	}
 	
-	//var translateX=Number(document.getElementByClassName('carousel-track')[0].style.transform.replace(/[^\d.]/g, ''));
 	$('.carousel-track').css("transform", "translateX("+(-100*index)+"%)");
 }
 
@@ -75,4 +75,3 @@ function show_enemy(stage, wave, enemy) {
     var popupY= (window.screen.height /2) - (450 / 2);
     window.open('enemy.html?stage='+stage+'&wave='+wave+'&enemy='+enemy, "popup_enemy", 'status=no, height=450, width=540, left='+ popupX + ', top='+ popupY + ', screenX='+ popupX + ', screenY= '+ popupY);
 }
-

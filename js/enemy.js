@@ -1,17 +1,19 @@
-window.onload = function(){
+window.onload = async function(){
     var stageTitle = getURLParameter('stage');
     var waveNum = getURLParameter('wave');
     var enemyNum = getURLParameter('enemy');
+
+	var stageData=await loadStageData(stageTitle);	
+	var enemyStatData=stageData.wave[waveNum].enemy[enemyNum];
+	var enemyDescData=await loadEnemyData(enemyStatData.name);
 	
-	var enemyStatData=stageParse(stageTitle).wave[waveNum].enemy[enemyNum];	
-	var enemyDescData=enemyParse(enemyStatData.name);
 	drawEnemyPage(enemyStatData, enemyDescData);
 	
 	$('.skill-nav').on('click', '.btn', function(e) {
 		changeSkill(e.currentTarget.hash.slice(6));
 		e.preventDefault();
 	}); 
-}
+};
 
 function drawEnemyPage(stat, desc)
 {

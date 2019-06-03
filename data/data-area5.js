@@ -1,4 +1,4 @@
-{
+var areaData={
   "title": "area5",
   "areatype": "grid",
   "gridsize": [8,3],
@@ -267,4 +267,4 @@
       "wave": []
     }
   ]
-}
+};
