@@ -1,21 +1,14 @@
 [
   {
     "name": "나이트 칙",
-<<<<<<< HEAD
-    "img": null,
-=======
     "img": "NightChick.png",
->>>>>>> canvas
     "skills":
     [
       {
         "title": "askill1",
         "type": "active",
         	"name": "머신건 견제 사격",
-<<<<<<< HEAD
-=======
 			    				"img": "ARShot",
->>>>>>> canvas
 			    				"range": 3,
 				    			"description": "머신건 견제 사격으로 <span id='askillpower1'></span>피해를 줍니다. 일정 확률로 2라운드 동안 대상의 회피를 낮춥니다.",
 	    						"areadata": [5]
@@ -24,10 +17,7 @@
 			    				"title": "askill2",
 			    				"type": "active",	
 		    					"name": "머신건 연사",
-<<<<<<< HEAD
-=======
 			    				"img": "ARShot",
->>>>>>> canvas
 			    				"range": 2,
 			    				"description": "머신건을 조준 사격해 <span id='askillpower2'></span>피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
 				    			"areadata": [5]
@@ -36,10 +26,7 @@
 			    				"title": "pskill1",
 				    			"type": "passive",
 			    				"name": "정조준",
-<<<<<<< HEAD
-=======
 			    				"img": "Snipe",
->>>>>>> canvas
 				    			"range": 0,
 			    				"description": "대기 시, 적을 조준해 2라운드 동안 적중과 사거리가 증가합니다.",
 					  	  	"areadata": [5]
@@ -48,11 +35,7 @@
 	 },
 	 {
 	   "name": "나이트 칙 실더",
-<<<<<<< HEAD
-    "img": null,
-=======
     "img": "NightChickS.png",
->>>>>>> canvas
     "skills":
     [
       {
@@ -73,11 +56,7 @@
       },
       {
         "title": "pskill1",
-<<<<<<< HEAD
-        "type": "active",
-=======
         "type": "passive",
->>>>>>> canvas
         	"name": "칙 커버링",
 			    				"range": 0,
 				    			"description": "라운드 개시 시, 칙 방패 방어술이 적용된 상태면 바로 뒤에 있는 아군 1기를 보호합니다.",
@@ -87,11 +66,7 @@
 	 },
 	 {
 	   "name": "나이트 칙 런쳐",
-<<<<<<< HEAD
-    "img": null,
-=======
     "img": "NightChickM.png",
->>>>>>> canvas
     "skills":
     [
       {
@@ -127,8 +102,7 @@
 									
 									
 									
-<<<<<<< HEAD
+
 									
-=======
+
 									
->>>>>>> canvas
