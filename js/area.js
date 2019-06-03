@@ -1,15 +1,15 @@
 window.onload  =  function(){
     var areaNum  =  getURLParameter('areanum');
+    var areaData = areaParse(areaNum);
 	document.title  =  areaNum+'지역'	;
 	$("#area_title").html(areaNum+'지역 철충 지도');
 	
-	drawArea(areaNum);
-	drawCanvas(areaNum);
+	drawArea(areaData);
+	drawCanvas(areaData);
 }
 
-function drawArea(areaNum)
+function drawArea(areaData)
 {
-	var areaData = areaParse(areaNum);
     var gridSize = [8,3];
 	if(typeof(areaData.gridsize)!= "undefined")
 	{
@@ -22,9 +22,10 @@ function drawArea(areaNum)
 	{
 	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
 	{
-		var index = getIndexByStageTitle(areaData[stageType[j]+"stage"][i].title);
-		var grid = getGridByStageData(areaData[stageType[j]+"stage"][i]);
-		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stage_title="+areaNum+"-"+index+stageTypeTitle[j]+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+areaNum+"-"+index+stageTypeTitle[j]+"</div></a>");
+		var data = areaData[stageType[j]+"stage"][i];
+		var index = getIndexByStageTitle(data.title);
+		var grid = getGridByStageData(data);
+		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stage_title="+data.title+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+data.title+"</div></a>");
 		//alert(stageTypeTitle[j]);
 		var stageBox = $("#"+stageType[j]+"stage"+index)[0];
 		var titleBox = $("#"+stageType[j]+"stage"+index+"+.title-container")[0];
@@ -40,7 +41,7 @@ function drawArea(areaNum)
 	}
 }
 
-function drawCanvas(areaNum)
+function drawCanvas(areaData)
 {
 	var stageType = ["b", "main", "ex"];
 	var stageTypeTitle = ["B", "", "Ex"];
@@ -56,7 +57,6 @@ function drawCanvas(areaNum)
 	var canvas  =  document.getElementById("canvas");
 	var ctx  =  canvas.getContext("2d");
 	
-	var areaData = areaParse(areaNum);
 	var gridSize = [8,3];
 	if(typeof(areaData.gridSize)!= "undefined")
 	{
@@ -152,7 +152,6 @@ function getGridByStageData(stageData)
 	}
 	return grid;
 }
-
 
 
 

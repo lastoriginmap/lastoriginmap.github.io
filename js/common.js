@@ -62,6 +62,25 @@ function enemyParse(enemyName)
 	return enemyData[0];
 }
 
+function enemyIMGParse()
+{
+	var enemyIMGData=[];
+	$.ajax({
+		url: "https://raw.githubusercontent.com/ImpMK/lastorigin_helper/canvas/json/enemy.json",
+		dataType:'json',
+        async: false,
+        success: function (data)
+        {
+            data.forEach(function(data, index){ enemyIMGData[index]={"name": data.name, "img": data.img}; });
+        },
+        error: function (e) {
+            alert("error");
+        }
+    });
+	
+	return enemyIMGData;
+}
+
 function getURLParameter(sParam)
 {
 	var sPageURL = window.location.search.substring(1);
@@ -89,10 +108,4 @@ function getTypeByStageTitle(str)
 {
 	var regex=/[a-zA-Z]*$/;
 	return str.match(regex)[0];
-}
-
-function getEnemyIMG(name)
-{
-	var enemyData=enemyParse(name);
-	return enemyData.img;
 }

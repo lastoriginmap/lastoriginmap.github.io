@@ -3,7 +3,8 @@ window.onload = function(){
 	document.title = stageTitle+' 스테이지 정보';
 	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageTitle));
 	var stageData=stageParse(stageTitle);
-	drawPage(stageData);
+	var enemyIMGData=enemyIMGParse();
+	drawPage(stageData, enemyIMGData);
 	
 	$('.carousel-indicators').on('click', '.carousel-indicator', function(e) {
 		changeWave(Number(e.currentTarget.hash.slice(5)), stageData.wave.length);
@@ -15,7 +16,7 @@ window.onload = function(){
 	});
 }
 
-function drawPage(stageData)
+function drawPage(stageData, imgData)
 {
 	$('#stage-title').html(stageData.title+' 스테이지');
 	
@@ -35,8 +36,8 @@ function drawPage(stageData)
 			    var row=3-parseInt((pos-1)/3);
 			    var column=pos-parseInt((pos-1)/3)*3;
 			    var enemyName=stageData.wave[i].enemy[j].name;
-			    var enemyIMG=getEnemyIMG(enemyName);
-			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMG+'\" /><p>'+enemyName+'</p></a>');
+			    var enemyIMGData=imgData.filter(obj => obj.name==enemyName);
+			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData[0].img+'\" /><p>'+enemyName+'</p></a>');
 			}
 		}
     }
@@ -74,6 +75,4 @@ function show_enemy(stage, wave, enemy) {
     var popupY= (window.screen.height /2) - (450 / 2);
     window.open('enemy.html?stage='+stage+'&wave='+wave+'&enemy='+enemy, "popup_enemy", 'status=no, height=450, width=540, left='+ popupX + ', top='+ popupY + ', screenX='+ popupX + ', screenY= '+ popupY);
 }
-
-
 
