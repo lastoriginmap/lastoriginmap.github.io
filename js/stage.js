@@ -1,7 +1,7 @@
 window.onload = function(){
     var stageTitle = getURLParameter('stage_title');
 	document.title = stageTitle+' 스테이지 정보';
-	$("a.btn-info").attr("href", "area.html?areanum="+getAreaByStageTitle(stageTitle));
+	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageTitle));
 	var stageData=stageParse(stageTitle);
 	drawPage(stageData);
 	
