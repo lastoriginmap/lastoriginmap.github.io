@@ -19,19 +19,27 @@ window.onload = async function() {
 function drawPage(stageLoadData, imgData)
 {
 	var stageData = stageLoadData.stageData;
-	var stageLength = stageLoadData.stageLength;
+	var stageList = stageLoadData.stageList;
 	document.title = stageData.title+' 스테이지 정보';
 	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageData.title));
 	$('#stage-title').html(stageData.title+' 스테이지');
-	$(".stage-control.control-left").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+(getIndexByStageTitle(stageData.title)-1));
-	$(".stage-control.control-right").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+(getIndexByStageTitle(stageData.title)+1));
-	if(getIndexByStageTitle(stageData.title)==1)
+	
+	$(".stage-control.control-right").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+(getIndexByStageTitle(stageData.title)+1)+getTypeByStageTitle(stageData.title));
+	if(getIndexByStageTitle(stageData.title)==stageList[0])
 	{
 		$(".stage-control.control-left").addClass("control-end");
 	}
-	if(getIndexByStageTitle(stageData.title)==stageLength)
+	else
+	{
+		$(".stage-control.control-left").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+stageList[stageList.indexOf(getIndexByStageTitle(stageData.title))-1]+getTypeByStageTitle(stageData.title));
+	}
+	if(getIndexByStageTitle(stageData.title)==stageList[stageList.length-1])
 	{
 		$(".stage-control.control-right").addClass("control-end");
+	}
+	else
+	{
+		$(".stage-control.control-right").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+stageList[stageList.indexOf(getIndexByStageTitle(stageData.title))+1]+getTypeByStageTitle(stageData.title));
 	}
     for(var i = 0; i < stageData.wave.length; i++)
 	{

@@ -25,19 +25,18 @@ async function loadStageData(stageTitle)
 	return new Promise(resolve=> {
 		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".js";
 		loadData(src).then(()=> {
-			var stageData;
 			var areaNum=getAreaByStageTitle(stageTitle);
 			var stageType=["b", "main", "ex"];
 			var stageTypeTitle=["B", "", "Ex"];
-			var stageTypeIndex;
-		 	stageTypeTitle.forEach(function(element, index) {
-	 			if(getTypeByStageTitle(stageTitle)==element)
-				{
-					stageData= areaData[stageType[index]+"stage"].filter(function(sData){ return sData.title==stageTitle; })[0];
-					stageTypeIndex = index;
-				}
+			var stageTypeIndex=stageTypeTitle.indexOf(getTypeByStageTitle(stageTitle));
+			var stageListData=areaData[stageType[stageTypeIndex]+"stage"];
+			var stageData= stageListData.filter(function(sData){ return sData.title==stageTitle; })[0];
+			var stageList=[];
+			stageListData.forEach(function(sData, index) {
+				stageList[index]=getIndexByStageTitle(sData.title);
 			});
-			resolve({"stageData": stageData, "stageLength": areaData[stageType[stageTypeIndex]+"stage"].length});
+			
+			resolve({"stageData": stageData, "stageList": stageList});
 		});
 
 	});

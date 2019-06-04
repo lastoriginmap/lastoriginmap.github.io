@@ -3,10 +3,10 @@ window.onload = async function(){
     var waveNum = getURLParameter('wave');
     var enemyNum = getURLParameter('enemy');
 
-	var stageData=await loadStageData(stageTitle);	
+	var stageLoadData=await loadStageData(stageTitle);
+	var stageData=stageLoadData.stageData;
 	var enemyStatData=stageData.wave[waveNum].enemy[enemyNum];
 	var enemyDescData=await loadEnemyData(enemyStatData.name);
-	
 	drawEnemyPage(enemyStatData, enemyDescData);
 	
 	$('.skill-nav').on('click', '.btn', function(e) {
