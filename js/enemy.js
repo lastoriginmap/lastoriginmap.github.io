@@ -19,7 +19,7 @@ function drawEnemyPage(stat, desc)
 {
 	document.title = stat.name+' 정보';
 	$('#name').append(stat.name);
-	$('.image').append("<img src=\"images/profile/"+desc.img+"\" style=\"width: 100%\" />");
+	$('.image').append("<img src=\"images/profile/"+desc.img+".png\" style=\"width: 100%\" />");
 	writeData('LVL', stat.LVL);
 	writeData('HP', stat.HP);
 	writeData('ATK', stat.ATK);
@@ -36,12 +36,12 @@ function drawEnemyPage(stat, desc)
 		if(desc.skills[i].type=="active")
 		{
 			$('.btn:last').addClass("skill-active");
-			$('.skill-icon:last').attr("src", "images/SkillIcon/SkillIconCircle_"+desc.skills[i].img+"_active.png");
+			$('.skill-icon:last').attr("src", "images/SkillIcon/"+desc.skills[i].img+"_active.png");
 		}
 		else if(desc.skills[i].type=="passive")
 		{
 			$('.btn:last').addClass("skill-passive");
-			$('.skill-icon:last').attr("src", "images/SkillIcon/SkillIconCircle_"+desc.skills[i].img+"_passive.png");
+			$('.skill-icon:last').attr("src", "images/SkillIcon/"+desc.skills[i].img+"_passive.png");
 		}
     }
     $('.btn:first').remove();

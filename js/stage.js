@@ -38,7 +38,7 @@ function drawPage(stageData, imgData)
 			    var column=pos-parseInt((pos-1)/3)*3;
 			    var enemyName=stageData.wave[i].enemy[j].name;
 			    var enemyIMGData=imgData.filter(obj => obj.name==enemyName);
-			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData[0].img+'\" /><p>'+enemyName+'</p></a>');
+			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData[0].img+'.png\" /><p>'+enemyName+'</p></a>');
 			}
 		}
     }
