@@ -29,13 +29,15 @@ async function loadStageData(stageTitle)
 			var areaNum=getAreaByStageTitle(stageTitle);
 			var stageType=["b", "main", "ex"];
 			var stageTypeTitle=["B", "", "Ex"];
+			var stageTypeIndex;
 		 	stageTypeTitle.forEach(function(element, index) {
 	 			if(getTypeByStageTitle(stageTitle)==element)
 				{
 					stageData= areaData[stageType[index]+"stage"].filter(function(sData){ return sData.title==stageTitle; })[0];
+					stageTypeIndex = index;
 				}
 			});
-			resolve(stageData);
+			resolve({"stageData": stageData, "stageLength": areaData[stageType[stageTypeIndex]+"stage"].length});
 		});
 
 	});

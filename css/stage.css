@@ -27,8 +27,68 @@ body {
 }
 
 header {
+	display: flex;
+	align-item: center;
+	justify-content: center;
 	text-align: center;
 	margin: 5% 0;
+}
+
+.header-content {
+	margin: 0 auto;
+}
+
+.control {
+	position: absolute;
+	box-sizing: border-box;
+	display: block;
+	width: 7.5vw;
+	z-index: 9999;
+}
+
+.stage-control {
+	height: 10vw;
+	padding: 0 0.5vw;
+}
+
+.control-left {
+	left: 0;
+}
+
+.control-right {
+	right: 0;
+}
+
+.control-end {
+	visibility: hidden;
+}
+
+.control-arrow {
+	width: 7vw;
+	height: 7vw;
+	border-type: solid;
+	border-radius: 5%;
+	border-color: rgb(220,220,220);
+}
+
+.control-left .control-arrow {
+	float: right;
+	transform-origin: top right;
+	border-width: 0.5vw 0 0 0.5vw;
+}
+
+.control-right .control-arrow {
+	float: left;
+	transform-origin: top left;
+	border-width: 0.5vw 0.5vw 0 0;
+}
+
+.stage-control.control-left .control-arrow {
+	transform: rotate(-45deg);
+}
+
+.stage-control.control-right .control-arrow {
+	transform: rotate(45deg);
 }
 
 section {
@@ -92,47 +152,16 @@ section {
 }
 
 .carousel-control {
-	position: absolute;
-	box-sizing: border-box;
-	display: block;
-	width: 7.5vw;
 	height: 27vw;
 	padding: 2vw 1.25vw;
-	z-index: 9999;
 }
 
-.carousel-control-end {
-	visibility: hidden;
-}
-
-.carousel-control-left {
-	left: 0;
-}
-
-.carousel-control-right {
-	right: 0;
-}
-
-.carousel-control-arrow {
-	width: 7vw;
-	height: 7vw;
-	border-type: solid;
-	border-radius: 5%;
-	border-color: rgb(220,220,220);
-}
-
-.carousel-control-left .carousel-control-arrow {
-	float: right;
+.carousel-control.control-left .control-arrow {
 	transform: scaleY(2.2) rotate(-45deg);
-	transform-origin: top right;
-	border-width: 0.5vw 0 0 0.5vw;
 }
 
-.carousel-control-right .carousel-control-arrow {
-	float: left;
+.carousel-control.control-right .control-arrow {
 	transform: scaleY(2.2) rotate(45deg);
-	transform-origin: top left;
-	border-width: 0.5vw 0.5vw 0 0;
 }
 
 .carousel-track {
@@ -164,6 +193,8 @@ section {
 
 .wave-grid div {
 	display: flex;
+	width: 27vw;
+	height: 27vw;
 	align-items: center;
 	justify-content: center;
 	border-radius: 5%;
@@ -191,7 +222,43 @@ section {
 	}
 	
 	header {
-		margin: 0;
+		flex-direction: row;
+		width: 400px;
+		margin: 0 auto;
+		border-color: red;
+	}
+	
+	.header-content {
+		margin: 0 30px;
+	}
+	
+	.control {
+		position: relative;
+	}
+	
+	.stage-control {
+		padding: 0 5px;
+		width: 30px;
+		height: 40px;
+	}
+	
+	.stage-control .control-arrow {
+		width: 23px;
+		height: 23px;
+	}
+	
+	.stage-control.control-left .control-arrow {
+		transform: rotate(-45deg);
+		border-width: 5px 0 0 5px;
+	}
+	
+	.stage-control.control-right .control-arrow {
+		transform: rotate(45deg);
+		border-width: 5px 5px 0 0;
+	}
+	
+	section {
+		display: block;
 	}
 	
 	.carousel {
@@ -205,9 +272,9 @@ section {
 	}
 	
 	.carousel-indicator {
-	width: 30px;
-	margin: 0 15px;
-	padding-bottom: 30px;
+		width: 30px;
+		margin: 0 15px;
+		padding-bottom: 30px;
 	}
 	
 	.carousel-track-wrap {
@@ -231,32 +298,36 @@ section {
 		grid-gap: 5px;
 	}
 	
+	.wave-grid div {
+		width: 150px;
+		height: 150px;
+	}
+	
 	.carousel-control {
 		width: 40px;
 		height: 150px;
-		padding: 15px 5px;
-		position: relative;
+		padding: 8px 5px;
 	}
 	
-	.carousel-control-left {
+	.carousel-control.control-left {
 		left: 20px;
 	}
 	
-	.carousel-control-right {
+	.carousel-control.control-right {
 		right: 20px;
 	}
 	
-	.carousel-control-arrow {
+	.carousel-control .control-arrow {
 		width: 42px;
 		height: 42px;
 	}
 	
-	.carousel-control-left .carousel-control-arrow {
+	.carousel-control.control-left .control-arrow {
 		transform: scaleY(2) rotate(-45deg);
 		border-width: 5px 0 0 5px;
 	}
 	
-	.carousel-control-right .carousel-control-arrow {
+	.carousel-control.control-right .control-arrow {
 		transform: scaleY(2) rotate(45deg);
 		border-width: 5px 5px 0 0;
 	}

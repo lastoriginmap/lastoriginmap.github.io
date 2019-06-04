@@ -1,26 +1,38 @@
 window.onload = async function() {
-	var stageTitle = getURLParameter('stage_title');
+	var stageTitle = getURLParameter('stagetitle');
 	var areaNum = getAreaByStageTitle(stageTitle);
 
-	var stageData = loadStageData(stageTitle);
+	var stageLoadData = loadStageData(stageTitle);
 	var enemyIMGData = loadEnemyIMGData();
-	drawPage(await stageData, await enemyIMGData);
+	drawPage(await stageLoadData, await enemyIMGData);
 	
 	$('.carousel-indicators').on('click', '.carousel-indicator', async function(e) {
-		changeWave(Number(e.currentTarget.hash.slice(5)), (await stageData).wave.length);
+		changeWave(Number(e.currentTarget.hash.slice(5)), (await stageLoadData).stageData.wave.length);
 		e.preventDefault();
 	});
 	$('.carousel-control').on('click', async function(e) {
-		changeWave(Number(e.currentTarget.hash.slice(5)), (await stageData).wave.length);
+		changeWave(Number(e.currentTarget.hash.slice(5)), (await stageLoadData).stageData.wave.length);
 		e.preventDefault();
 	});
 };
 
-function drawPage(stageData, imgData)
+function drawPage(stageLoadData, imgData)
 {
+	var stageData = stageLoadData.stageData;
+	var stageLength = stageLoadData.stageLength;
 	document.title = stageData.title+' 스테이지 정보';
 	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageData.title));
 	$('#stage-title').html(stageData.title+' 스테이지');
+	$(".stage-control.control-left").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+(getIndexByStageTitle(stageData.title)-1));
+	$(".stage-control.control-right").attr("href", "stage.html?stagetitle="+getAreaByStageTitle(stageData.title)+"-"+(getIndexByStageTitle(stageData.title)+1));
+	if(getIndexByStageTitle(stageData.title)==1)
+	{
+		$(".stage-control.control-left").addClass("control-end");
+	}
+	if(getIndexByStageTitle(stageData.title)==stageLength)
+	{
+		$(".stage-control.control-right").addClass("control-end");
+	}
     for(var i = 0; i < stageData.wave.length; i++)
 	{
 		$('.carousel-indicator').first().clone().appendTo('.carousel-indicators');
@@ -55,16 +67,16 @@ function changeWave(index, length)
 	$('.carousel-slide').eq(index).addClass('carousel-slide-active');
 	$('.carousel-indicator-active').removeClass('carousel-indicator-active');
 	$('.carousel-indicator').eq(index).addClass('carousel-indicator-active');
-	$('.carousel-control-end').removeClass('carousel-control-end');
-	$('.carousel-control-left').attr("href", "#wave"+(index-1));
-	$('.carousel-control-right').attr("href", "#wave"+(index+1));
-	if($('.carousel-control-left').attr("href")=="#wave-1")
+	$('.carousel-control.control-end').removeClass('control-end');
+	$('.carousel-control.control-left').attr("href", "#wave"+(index-1));
+	$('.carousel-control.control-right').attr("href", "#wave"+(index+1));
+	if($('.carousel-control.control-left').attr("href")=="#wave-1")
 	{
-		$('.carousel-control-left').addClass("carousel-control-end");
+		$('.carousel-control.control-left').addClass("control-end");
 	}
-	if($('.carousel-control-right').attr("href")=="#wave"+length)
+	if($('.carousel-control.control-right').attr("href")=="#wave"+length)
 	{
-	$('.carousel-control-right').addClass("carousel-control-end");
+		$('.carousel-control.control-right').addClass("control-end");
 	}
 	
 	$('.carousel-track').css("transform", "translateX("+(-100*index)+"%)");

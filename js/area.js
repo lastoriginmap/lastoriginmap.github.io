@@ -25,7 +25,7 @@ function drawArea(areaData)
 		var data = areaData[stageType[j]+"stage"][i];
 		var index = getIndexByStageTitle(data.title);
 		var grid = getGridByStageData(data);
-		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stage_title="+data.title+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+data.title+"</div></a>");
+		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+data.title+"</div></a>");
 		//alert(stageTypeTitle[j]);
 		var stageBox = $("#"+stageType[j]+"stage"+index)[0];
 		var titleBox = $("#"+stageType[j]+"stage"+index+"+.title-container")[0];
@@ -152,7 +152,6 @@ function getGridByStageData(stageData)
 	}
 	return grid;
 }
-
 
 
 
