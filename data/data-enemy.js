@@ -78,7 +78,7 @@ var enemyDataArr = [
         ]
     },
     {
-        "name": "나이트 칙 런쳐",
+        "name": "나이트 칙 런처",
         "img": "NightChickM",
         "skills": [
             {
