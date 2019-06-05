@@ -30,11 +30,8 @@ async function loadStageData(stageTitle)
 			var stageTypeTitle=["B", "", "Ex"];
 			var stageTypeIndex=stageTypeTitle.indexOf(getTypeByStageTitle(stageTitle));
 			var stageListData=areaData[stageType[stageTypeIndex]+"stage"];
-			var stageData= stageListData.filter(function(sData){ return sData.title==stageTitle; })[0];
-			var stageList=[];
-			stageListData.forEach(function(sData, index) {
-				stageList[index]=getIndexByStageTitle(sData.title);
-			});
+			var stageData= stageListData.filter(sData => sData.title==stageTitle)[0];
+			var stageList=stageListData.map(sData => getIndexByStageTitle(sData.title));
 			
 			resolve({"stageData": stageData, "stageList": stageList});
 		});
@@ -47,7 +44,7 @@ function loadEnemyData(enemyName)
 	return new Promise(resolve=> {
 		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
-			var enemyData=enemyDataArr.filter(function(data){ return data.name==enemyName;})[0];
+			var enemyData=enemyDataArr.filter(data => data.name==enemyName)[0];
 			resolve(enemyData);
 		});
 	});
@@ -58,10 +55,7 @@ async function loadEnemyIMGData()
 	return new Promise(resolve=> {
 		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
-			var enemyIMGData=[];
-			enemyDataArr.forEach(function(data, index) {
-				enemyIMGData[index]={"name": data.name, "img": data.img}; 
-			});
+			var enemyIMGData=enemyDataArr.map(data => {return {"name": data.name, "img": data.img}; });
 			resolve(enemyIMGData);
 		});
 	});
