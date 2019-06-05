@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"><br >
+    <title>철충 정보 계산기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><br >
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/cal.js"></script>
+</head>
+
+<body>
+	<div class="container"><br >
+		<header>
+			<h2 id="title">라스트 오리진 철충 지도 데이터 입력기 v0.1</h2>
+			<p>본 입력기는 철충 지도의 개발 보조용으로만 사용되고 있습니다. 입력기에 대한 요청이나 제보는 받지 않습니다.</p>
+		</header>
+		<section>
+			<form name="form-stage"><br >
+				<label for="input-stage">스테이지:</label>
+				<input type="text" id="input-stage"><br>
+				<input type="radio" name="stage-type" value="Main" checked="checked">Main
+				<input type="radio" name="stage-type" value="B">B
+				<input type="radio" name="stage-type" value="Ex">Ex
+				<input type="submit" value="스테이지 입력"><br >
+			</form>
+			<hr>
+			<form name="form-wave"><br >
+				<label for="input-wave">웨이브:</label>
+				<input type="number" id="input-wave"><br >
+				<input type="submit" value="웨이브 입력"><br >
+			</form>
+			<hr>
+			<form name="form-enemy"><br >
+				<label for="input-name">철충 이름:</label>
+				<input type="text" id="input-name" list="name-list"><br >
+				<datalist id="name-list"><br >
+					<option value="나이트 칙"></option>
+					<option value="나이트 칙 런처"></option>
+					<option value="나이트 칙 실더"></option>
+				</datalist>
+				<label for="input-LVL">철충 레벨: </label><input type="number" id="input-LVL"><br >
+				<label for="input--wrap">HP: </label><input type="number" id="input-HP"><br >
+				<label for="input--wrap">공격력: </label><input type="number" id="input-ATK"><br >
+				<label for="input--wrap">방어력: </label><input type="number" id="input-DEF"><br >
+				<label for="input--wrap">행동력: </label><input type="number" id="input-AGI"><br >
+				<label for="input--wrap">치명타: </label><input type="number" id="input-CRT"><br >
+				<label for="input--wrap">적중률: </label><input type="number" id="input-HIT"><br >
+				<label for="input--wrap">회피율: </label><input type="number" id="input-DOD"><br >
+				<label for="input--wrap">스킬: </label><input type="text" id="input-Skill"><br >
+				<input type="submit" value="철충 입력"><br >
+			</form>
+		</section>
+	</div>
+</body>
+
+</html>
