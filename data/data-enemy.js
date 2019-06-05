@@ -143,5 +143,44 @@ var enemyDataArr = [
                 ]
             }
         ]
+    },
+    {
+        "name": "스토커",
+        "img": "Stalker_B0108",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "저격",
+                "img": "ChargeShot",
+                "range": 6,
+                "description": "레일건 저격으로 <span id='askillpower1'></span>피해를 줍니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "챠지",
+                "img": "SelfAtkBuff",
+                "range": 6,
+                "description": "레일건을 충전해, 다음 공격이 치명타로 적용되며 일정 라운드 동안 공격력이 크게 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "리액터 폭발",
+                "img": "SuiceideBomb",
+                "range": 0,
+                "description": "사망 시, 리액터가 폭발에 주변에 매우 높은 물리 피해를 줍니다.",
+                "areadata": [
+                    1,2,3,4,6,7,8,9
+                ]
+            }
+        ]
     }
 ];
