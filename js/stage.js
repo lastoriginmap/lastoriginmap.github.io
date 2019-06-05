@@ -4,6 +4,7 @@ window.onload = async function() {
 
 	var stageLoadData = loadStageData(stageTitle);
 	var enemyIMGData = loadEnemyIMGData();
+
 	drawPage(await stageLoadData, await enemyIMGData);
 	
 	$('.carousel-indicators').on('click', '.carousel-indicator', async function(e) {
@@ -20,6 +21,7 @@ function drawPage(stageLoadData, imgData)
 {
 	var stageData = stageLoadData.stageData;
 	var stageList = stageLoadData.stageList;
+
 	document.title = stageData.title+' 스테이지 정보';
 	$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageData.title));
 	$('#stage-title').html(stageData.title+' 스테이지');
