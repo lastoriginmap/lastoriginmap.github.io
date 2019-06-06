@@ -1,10 +1,11 @@
 function loadData(src)
 {
-	return new Promise(resolve => {
+	return new Promise((resolve, reject) => {
 		var script = document.createElement('script');
 		script.type = "text/javascript";
 		script.src = src;
 		script.addEventListener('load', () => { resolve(); }, false);
+		script.addEventListener('error', () => { reject(); }, false);
 		var s = document.getElementsByTagName("script")[0];
 		s.parentNode.insertBefore(script, s);
 	});
@@ -12,11 +13,9 @@ function loadData(src)
 
 async function loadAreaData(areaNum)
 {
-	return new Promise(resolve=> {
+	return new Promise((resolve, reject)=> {
 		var src="./data/data-area"+areaNum+".js";
-		loadData(src).then(()=> {
-			resolve(areaData);
-		});
+		loadData(src).then(()=>resolve(areaData), ()=>reject());
 	});
 }
 

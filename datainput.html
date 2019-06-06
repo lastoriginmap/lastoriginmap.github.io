@@ -20,13 +20,13 @@
 			<hr>
 			<form id="form-area">
 				<label for="input-area">지역: </label>
-				<input type="number" id="input-area" value="1"><br >
+				<input type="number" autocomplete="off" id="input-area"><br >
 				<input type="submit" value="지역 입력">
 			</form>
 			<hr>
 			<form id="form-stage">
 				<label id="label-stage" for="input-stage">스테이지: </label>
-				<input type="number" id="input-stage"><br>
+				<input type="number" autocomplete="off" id="input-stage"><br>
 				<input type="radio" name="stage-type" value="Main" checked="checked">Main
 				<input type="radio" name="stage-type" value="B">B
 				<input type="radio" name="stage-type" value="Ex">Ex<br >
@@ -36,7 +36,8 @@
 			<form id="form-wave">
 				<div class="current-stage">현재 스테이지: </div>
 				<label for="input-wave">웨이브:</label>
-				<input type="number" id="input-wave"><br >
+				<input type="number" list="wave-list" autocomplete="off" id="input-wave"><br >
+				<datalist id="wave-list"></datalist>
 				<input type="submit" value="웨이브 입력"><br >
 			</form>
 			<hr>
@@ -44,26 +45,30 @@
 				<div class="current-stage">현재 스테이지: </div>
 				<div class="current-wave">현재 웨이브: </div>
 				<label for="input-name">철충 이름:</label>
-				<input type="text" id="input-name" list="name-list"><br >
+				<input type="text" id="input-name" list="name-list" autocomplete="off"><br >
 				<datalist id="name-list"><br >
-					<option value="나이트 칙"></option>
+					<!--option value="나이트 칙"></option>
 					<option value="나이트 칙 런처"></option>
-					<option value="나이트 칙 실더"></option>
+					<option value="나이트 칙 실더"></option-->
 				</datalist>
-				<label for="input-pos">위치: </label><input type="text" id="input-pos"><br >
-				<label for="input-LVL">레벨: </label><input type="number" id="input-LVL"><br >
-				<label for="input-HP">HP: </label><input type="number" id="input-HP"><br >
-				<label for="input-ATK">공격력: </label><input type="number" id="input-ATK" ><br >
-				<label for="input-DEF">방어력: </label><input type="number" id="input-DEF"><br >
-				<label for="input-AGI">행동력: </label><input type="number" step="0.01" id="input-AGI"><br >
-				<label for="input-CRT">치명타: </label><input type="number" id="input-CRT" value="-1"><br >
-				<label for="input-HIT">적중률: </label><input type="number" id="input-HIT"><br >
-				<label for="input-DOD">회피율: </label><input type="number" id="input-DOD"><br >
-				<label for="input-skill">스킬: </label><input type="text" id="input-skill"><br >
+				<label for="input-pos">위치: </label><input type="text" autocomplete="off" id="input-pos"><br >
+				<label for="input-LVL">레벨: </label><input type="number" autocomplete="off" id="input-LVL"><br >
+				<label for="input-HP">HP: </label><input type="number" autocomplete="off" id="input-HP"><br >
+				<label for="input-ATK">공격력: </label><input type="number" autocomplete="off" id="input-ATK" ><br >
+				<label for="input-DEF">방어력: </label><input type="number" autocomplete="off" id="input-DEF"><br >
+				<label for="input-AGI">행동력: </label><input type="number" autocomplete="off" step="0.01" id="input-AGI"><br >
+				<label for="input-CRT">치명타: </label><input type="number" autocomplete="off" id="input-CRT" value="-1"><br >
+				<label for="input-HIT">적중률: </label><input type="number" autocomplete="off" id="input-HIT"><br >
+				<label for="input-DOD">회피율: </label><input type="number" autocomplete="off" id="input-DOD"><br >
+				<label for="input-skill">스킬: </label><input type="text" autocomplete="off" id="input-skill"><br >
 				<input type="submit" value="철충 입력"><br >
 			</form>
 			<hr>
-			<input type="textarea" style="width:100%; height:10em;" id="input-result">
+			<form id="form-result">
+				<input type="textarea" style="width:100%; height:10em;" id="input-result">
+				<div id="error-message"></div>
+				<input type="submit" value="데이터 변경">
+			</form>
 		</section>
 	</div>
 </body>
