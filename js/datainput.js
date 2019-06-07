@@ -32,6 +32,10 @@ window.onload = async function() {
 			el.select();
 		}, false);
 	});
+	document.getElementById("download").addEventListener("click", e=>{
+		e.preventDefault();
+		saveFile(obj, "data-"+obj.title+".js");
+	}, false)
 };
 
 async function submitArea(overide=false)
@@ -229,4 +233,16 @@ function addDatalist(element, arr)
 		newOption.value = el;
 		element.appendChild(newOption);
 	});
+}
+
+function saveFile(data, fileName)
+{
+	var a = document.getElementById("download-dummy");
+	var json = "var areaData = "+JSON.stringify(data)+";";
+	var blob = new Blob([json], {type: "octet/stream"});
+	var url = window.URL.createObjectURL(blob);
+	a.href = url;
+	a.download = fileName;
+	a.click();
+	window.URL.revokeObjectURL(url);
 }
