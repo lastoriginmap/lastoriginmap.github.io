@@ -26,6 +26,12 @@ window.onload = async function() {
 		e.preventDefault();
 		document.execCommand('copy', false, inputResult.select());
 	}, false);
+	Array.from(document.querySelectorAll("input:not([type='submit'])")).forEach(el=>{
+		el.addEventListener("focus", e=>{
+			e.preventDefault();
+			el.select();
+		}, false);
+	});
 };
 
 async function submitArea(overide=false)
@@ -134,6 +140,8 @@ function submitWave()
 	});
 	Array.from(document.querySelectorAll("#form-enemy input:not([type='submit'])")).forEach(el=>{
 		el.value = null;
+	});
+	Array.from(document.querySelectorAll("#form-enemy input")).forEach(el=>{
 		el.disabled = false;
 	});
 	document.getElementById("input-result").value = JSON.stringify(obj);
@@ -153,7 +161,7 @@ function submitEnemy()
 	objEnemy['HP'] = parseInt(document.getElementById("input-HP").value);
 	objEnemy['ATK'] = parseInt(document.getElementById("input-ATK").value);
 	objEnemy['DEF'] = parseInt(document.getElementById("input-DEF").value);
-	objEnemy['AGI'] = parseInt(document.getElementById("input-AGI").value);
+	objEnemy['AGI'] = parseFloat(document.getElementById("input-AGI").value);
 	objEnemy['CRT'] = parseInt(document.getElementById("input-CRT").value);
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
 	objEnemy['DOD'] = parseInt(document.getElementById("input-DOD").value);
@@ -164,7 +172,7 @@ function submitEnemy()
 	var checkNull = (object)=>{ 
 		var objValue=Object.values(object);
 		for(var el of objValue) {
-			if(!el) { return true; }
+			if(el===null) { return true; }
 		}
 		return false;
 	};
