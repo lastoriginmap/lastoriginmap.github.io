@@ -8,6 +8,13 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/datainput.js"></script>
+    <style>
+    	table, th, td {
+    		border: 1px solid #bcbcbc;
+    	}
+    </style>
+    
+    
 </head>
 
 <body>
@@ -51,7 +58,44 @@
 					<option value="나이트 칙 런처"></option>
 					<option value="나이트 칙 실더"></option-->
 				</datalist>
-				<label for="input-pos">위치: </label><input type="text" autocomplete="off" id="input-pos"><br >
+				<label for="input-pos">위치: </label>
+				<table style="">
+					<tbody>
+						<tr>
+							<td>
+								<input type="checkbox" value="7" name="input-pos"> 7
+							</td>
+							<td>
+								<input type="checkbox" value="8" name="input-pos"> 8
+							</td>
+							<td>
+								<input type="checkbox" value="9" name="input-pos"> 9
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" value="4" name="input-pos"> 4
+							</td>
+							<td>
+								<input type="checkbox" value="5" name="input-pos"> 5
+							</td>
+							<td>
+								<input type="checkbox" value="6" name="input-pos"> 6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" value="1" name="input-pos"> 1
+							</td>
+							<td>
+								<input type="checkbox" value="2" name="input-pos"> 2
+							</td>
+							<td>
+								<input type="checkbox" value="3" name="input-pos"> 3
+							</td>
+						</tr>
+					</tbody>
+				</table>
 				<label for="input-LVL">레벨: </label><input type="number" autocomplete="off" id="input-LVL"><br >
 				<label for="input-HP">HP: </label><input type="number" autocomplete="off" id="input-HP"><br >
 				<label for="input-ATK">공격력: </label><input type="number" autocomplete="off" id="input-ATK" ><br >
@@ -59,7 +103,7 @@
 				<label for="input-AGI">행동력: </label><input type="number" autocomplete="off" step="0.01" id="input-AGI"><br >
 				<label for="input-CRT">치명타: </label><input type="number" autocomplete="off" id="input-CRT" value="-1"><br >
 				<label for="input-HIT">적중률: </label><input type="number" autocomplete="off" id="input-HIT"><br >
-				<label for="input-DOD">회피율: </label><input type="number" autocomplete="off" id="input-DOD"><br >
+				<label for="input-DOD">회피율: </label><input type="number" autocomplete="off" step="0.01" id="input-DOD"><br >
 				<label for="input-skill">스킬: </label><input type="text" autocomplete="off" id="input-skill"><br >
 				<input type="submit" value="철충 입력"><br >
 			</form>

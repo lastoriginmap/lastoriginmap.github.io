@@ -160,7 +160,13 @@ function submitEnemy()
 	if(!wave) { alert("웨이브를 먼저 입력하세요!"); throw "No wave";}
 	
 	objEnemy['name'] = document.getElementById("input-name").value;
-	objEnemy['pos'] = document.getElementById("input-pos").value.split(',').map(el=>parseInt(el));
+	objEnemy['pos'] = [];
+	document.getElementsByName("input-pos").forEach((el, index) => {
+		if(el.checked==true)
+		{
+			objEnemy.pos.push(7-parseInt(index/3)*3+index%3);
+		}
+	});
 	objEnemy['LVL'] = parseInt(document.getElementById("input-LVL").value);
 	objEnemy['HP'] = parseInt(document.getElementById("input-HP").value);
 	objEnemy['ATK'] = parseInt(document.getElementById("input-ATK").value);
@@ -168,7 +174,7 @@ function submitEnemy()
 	objEnemy['AGI'] = parseFloat(document.getElementById("input-AGI").value);
 	objEnemy['CRT'] = parseInt(document.getElementById("input-CRT").value);
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
-	objEnemy['DOD'] = parseInt(document.getElementById("input-DOD").value);
+	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
 	objEnemy['skillLVL'] = [];
 	objEnemy.skillpower.forEach((el,index)=>{ objEnemy['skillLVL'][index]=1; });
