@@ -35,6 +35,10 @@ window.onload = async function() {
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
 		saveFile(obj, "data-"+obj.title+".js");
+	}, false);
+	document.getElementById("auto-fill").addEventListener("click", e=>{
+		e.preventDefault();
+		autoFill();
 	}, false)
 };
 
@@ -214,8 +218,6 @@ function submitEnemy()
 	}
 	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj);
-	var nowEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy;
-	alert(nowEnemy[(nowEnemy.length-1)].name+" 입력 성공!\n위치: "+nowEnemy[(nowEnemy.length-1)].pos);
 }
 
 function setObj(str)
@@ -253,4 +255,41 @@ function saveFile(data, fileName)
 	a.download = fileName;
 	a.click();
 	window.URL.revokeObjectURL(url);
+}
+
+function autoFill()
+{
+	var sPre = ["b", "main", "ex"];
+	var name = document.getElementById("input-name").value;
+	var LVL = parseInt(document.getElementById("input-LVL").value);
+	for(let stype=0; stype<3; stype++)
+	{
+		for(let sindex=0; sindex<obj[sPre[stype]+"stage"].length; sindex++)
+		{
+			if(obj[sPre[stype]+"stage"][sindex].wave)
+			{
+			for(let windex=0; windex<obj[sPre[stype]+"stage"][sindex].wave.length; windex++)
+			{
+				if(obj[sPre[stype]+"stage"][sindex].wave[windex].enemy)
+				{
+				for(let eindex=0; eindex<obj[sPre[stype]+"stage"][sindex].wave[windex].enemy.length; eindex++)
+				{
+					let enemyObj = obj[sPre[stype]+"stage"][sindex].wave[windex].enemy[eindex];
+					if(enemyObj.name==name && enemyObj.LVL==LVL)
+					{
+						document.getElementById("input-HP").value = enemyObj.HP;
+						document.getElementById("input-ATK").value = enemyObj.ATK;
+						document.getElementById("input-DEF").value = enemyObj.DEF;
+						document.getElementById("input-AGI").value = enemyObj.AGI;
+						document.getElementById("input-CRT").value = enemyObj.CRT;
+						document.getElementById("input-HIT").value = enemyObj.HIT;
+						document.getElementById("input-DOD").value = enemyObj.DOD;
+						document.getElementById("input-skill").value = enemyObj.skillpower;
+					}
+				}
+				}
+			}
+			}
+		}
+	}
 }
