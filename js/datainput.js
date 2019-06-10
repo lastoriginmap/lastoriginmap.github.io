@@ -208,6 +208,8 @@ function submitEnemy()
 	}
 	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj);
+	var nowEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy;
+	alert(nowEnemy[(nowEnemy.length-1)].name+" 입력 성공!\n위치: "+nowEnemy[(nowEnemy.length-1)].pos);
 }
 
 function setObj(str)
