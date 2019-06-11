@@ -218,6 +218,9 @@ function submitEnemy()
 	}
 	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj);
+	
+	var newEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
+	alert("Lv. "+newEnemy.LVL+" "+newEnemy.name+" 추가\n pos: "+newEnemy.pos);
 }
 
 function setObj(str)
@@ -260,19 +263,22 @@ function saveFile(data, fileName)
 function autoFill()
 {
 	var sPre = ["b", "main", "ex"];
+	var isFilled = false;
 	var name = document.getElementById("input-name").value;
 	var LVL = parseInt(document.getElementById("input-LVL").value);
-	for(let stype=0; stype<3; stype++)
+	for(let stype=0; stype<3 && !isFilled; stype++)
 	{
-		for(let sindex=0; sindex<obj[sPre[stype]+"stage"].length; sindex++)
+		if(obj[sPre[stype]+"stage"])
+		{
+		for(let sindex=0; sindex<obj[sPre[stype]+"stage"].length && !isFilled; sindex++)
 		{
 			if(obj[sPre[stype]+"stage"][sindex].wave)
 			{
-			for(let windex=0; windex<obj[sPre[stype]+"stage"][sindex].wave.length; windex++)
+			for(let windex=0; windex<obj[sPre[stype]+"stage"][sindex].wave.length && !isFilled; windex++)
 			{
 				if(obj[sPre[stype]+"stage"][sindex].wave[windex].enemy)
 				{
-				for(let eindex=0; eindex<obj[sPre[stype]+"stage"][sindex].wave[windex].enemy.length; eindex++)
+				for(let eindex=0; eindex<obj[sPre[stype]+"stage"][sindex].wave[windex].enemy.length && !isFilled; eindex++)
 				{
 					let enemyObj = obj[sPre[stype]+"stage"][sindex].wave[windex].enemy[eindex];
 					if(enemyObj.name==name && enemyObj.LVL==LVL)
@@ -285,11 +291,18 @@ function autoFill()
 						document.getElementById("input-HIT").value = enemyObj.HIT;
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = enemyObj.skillpower;
+						isFilled = true;
+						alert("불러오기 완료!");
 					}
 				}
 				}
 			}
 			}
 		}
+		}
+	}
+	if(!isFilled)
+	{
+		alert("데이터 없음");
 	}
 }
