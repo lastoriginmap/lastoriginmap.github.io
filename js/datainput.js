@@ -48,6 +48,7 @@ async function submitArea(overide=false)
 	if(!area) { alert("지역을 입력하세요!"); throw "No area";}
 	if(!overide&&"area"+area==obj.title) { alert("현재와 같은 지역입니다!"); throw "Same area";}
 	document.getElementById("label-stage").textContent = "스테이지: "+area+"-";
+	document.getElementById("label-prevstage").textContent = "이전 스테이지: "+area+"-";
 	try
 	{
 		if(!overide)
@@ -85,12 +86,19 @@ function submitStage()
 	if(!area) { alert("지역을 먼저 입력하세요!"); throw "No area";}
 	var stage = document.getElementById("input-stage").value;
 	if(!stage) { alert("스테이지를 입력하세요!"); throw "No stage";}
+	var prevstage = document.getElementById("input-prevstage").value;
 	var type = "";
+	var prevtype = "";
 	var title = area+"-"+stage;
+	var prevtitle = area+"-"+prevstage;
 	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
 		if(el.checked) { type = el.value }
 	});
 	if(type!="Main") { title += type }
+	Array.from(document.getElementsByName("prevstage-type")).forEach(el=>{
+	if(el.checked) { prevtype = el.value }
+	});
+	if(prevtype!="Main") { prevtitle += prevtype }
 	Array.from(document.getElementsByClassName("current-stage")).forEach(el=>{
 		el.textContent = "현재 스테이지: "+title;
 	});
@@ -101,6 +109,7 @@ function submitStage()
 	{
 		index=obj[type].push({})-1;
 		obj[type][index]["title"]=title;
+		obj[type][index]["prevstage"]=prevtitle;
 	}
 	Array.from(document.querySelectorAll("#form-wave input:not([type='submit']), #form-enemy input:not([type='submit'])")).forEach(el=>{
 		el.value = null;
