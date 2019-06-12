@@ -68,7 +68,7 @@ function drawSkillInfo(index, LVL, power, desc)
 		drawSkillArea($('.skill-area:last'), [5]);
 	}
 	$('.skill-description:last').html('<p>'+desc.description+'</p>');
-	$('#'+desc.title.substr(0,6)+'power'+desc.title.substr(6)).html(power+' ');
+	$('#'+desc.title.substr(0,6)+'power'+desc.title.substr(6)).html(power);
     
     $('.active:last').removeClass("active");
 	$('.skill-container:eq('+(index+1)+') .btn:eq('+index+')').addClass("active");
@@ -88,9 +88,10 @@ function drawSkillArea(json, data)
 	{
 		for(var i=0; i<9; i++)
 		{
-			if(data[i]==0.5) { var color = "rgb(255, 128, 0)"; }
-			else if(data[i]==0.75) { var color = "rgb(255, 171, 0)"; }
-			else if(data[i]==1) { var color = "rgb(255, 213, 0)"; }
+			var color = "rgb(45, 45, 45)";
+			if(data[i]==0.5) { color = "rgb(255, 128, 0)"; }
+			else if(data[i]==0.75) { color = "rgb(255, 171, 0)"; }
+			else if(data[i]==1) { color = "rgb(255, 213, 0)"; }
 			
 			var row=3-parseInt((i)/3);
 			var column=i+1-parseInt((i)/3)*3;
