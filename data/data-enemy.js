@@ -312,6 +312,162 @@ var enemyDataArr = [
         ]
     },
     {
+        "name": "레기온",
+        "img": "Legion",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "GAU 미니건",
+                "img": "ARShot",
+                "range": 4,
+                "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "점착탄",
+                "img": "SlowShot",
+                "range": 4,
+                "description": "점착탄을 던져 <span id='askillpower2'></span> 피해를 줍니다.  적중한 대상을 2라운드 동안 이동 불가 상태로 만들고, 일정 확률로 회피 / 행동력을 감소 시킵니다. 해당 감소 효과는 강화 효과를 해제하고 적용됩니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "경계 태세",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "아군이 처치되면 경계 태세로 전환해, 양 옆의 아군의 행동력을 감소시키며 대상의 공격을 지원합니다.",
+                "areadata": [
+                    2,8
+                ]
+            }
+        ]
+    },
+    {
+        "name": "재퍼",
+        "img": "Zapper",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "전격 방사",
+                "img": "Shock",
+                "range": 3,
+                "description": "전격을 방사해 <span id='askillpower1'></span> 전기 속성 피해를 주고 일정 확률로 대상의 회피와 AP를 감소시킵니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "고압 전류",
+                "img": "Shock",
+                "range": 1,
+                "description": "고압 전류로 <span id='askillpower2'></span> 전기 속성 피해를 주고, 일정 확률로 대상을 행동 불능 상태로 만들고 회피를 감소시킵니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "경계 모드",
+                "img": "SelfDefBuff",
+                "range": 0,
+                "description": "적과 인접하거나 공격당하기 전까지 경계 상태로 대기합니다. 해당 상태에선 받는 피해와 행동력이 감소합니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
+        "name": "팔랑스",
+        "img": "Phalangites",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "머신건 속사",
+                "img": "ARShot",
+                "range": 4,
+                "description": "머신건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "대열 방어",
+                "img": "TeamDefBuff",
+                "range": 6,
+                "description": "3라운드 동안 같은 열의 아군을 보호하며, 받는 피해가 감소합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "경계 모드",
+                "img": "TeamDefBuff",
+                "range": 0,
+                "description": "라운드 개시 시, 같은 열에 인접한 아군에게 피해 감소 효과를 부여합니다. 해당 효과는 중첩됩니다.",
+                "areadata": [
+                    2,8
+                ]
+            }
+        ]
+    },
+    {
+        "name": "센츄리온",
+        "img": "Centurion",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "XM 유탄 발사기",
+                "img": "GrenadeAttack_2",
+                "range": 4,
+                "description": "유탄을 발사해 목표 행에 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
+                "areadata": [
+                    4,5,6
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "일제 공격 개시",
+                "img": "Snipe",
+                "range": 5,
+                "description": "2라운드 동안 대상을 목표로 지정해 <span id='askillpower2'></span> 피해를 주고 표식을 남기며, 받는 피해가 증가하는 상태로 만듭니다. 보호 효과를 무시합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "반격 태세",
+                "img": "DefCounter",
+                "range": 0,
+                "description": "아군 사망 시, 3라운드 동안 공격력과 치명타가 증가하며 반격합니다. 공격력과 치명타 증가 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
         "name": "빅 칙",
         "img": "BigChick",
         "skills": [
@@ -416,7 +572,8 @@ var enemyDataArr = [
                 ]
             }
         ]
-    },{
+    },
+	{
         "name": "프레데터",
         "img": "Predator_B0208",
         "skills": [
@@ -477,6 +634,67 @@ var enemyDataArr = [
             }
         ]
     },
+	{
+        "name": "트릭스터",
+        "img": "Kidnapper_B0308",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "클로 돌진",
+                "img": "AssaultAttack",
+                "range": 4,
+                "description": "클로 돌진으로 목표와 바로 뒤의 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 5라운드 동안 공격 대상의 방어력을 감소시킵니다. 최대 5번까지 중첩됩니다.",
+                "areadata": [
+                    4,5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "광란의 학살",
+                "img": "AssaultAttack",
+                "range": 5,
+                "description": "순식간에 대상에게 접근해 <span id='askillpower2'></span> 피해를 줍니다. 방어막 / 피해 감소 / 보호 효과를 무시하며, 대상의 HP가 낮을수록 피해량이 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "살육 쾌감",
+                "img": "SelfAtkBuff",
+                "range": 0,
+                "description": "도발 상태일 때 공격 적중 시, 5라운드 동안 공격력이 증가합니다. 해당 효과는 5번까지 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill2",
+                "type": "passive",
+                "name": "위협 감지",
+                "img": "SelfSpdBuff",
+                "range": 0,
+                "description": "피격 시, 위협을 감지해 해당 라운드 동안 회피가 증가하며 공격력이 감소합니다. 해당 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill3",
+                "type": "passive",
+                "name": "멈출 수 없는 본능",
+                "img": "SelfSpdBuff",
+                "range": 0,
+                "description": "적을 처치한 경우, 3라운드 동안 행동력과 치명타가 증가합니다. 해당 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
     {
         "name": "강화형 나이트 칙",
         "img": "NightChick",
@@ -517,7 +735,7 @@ var enemyDataArr = [
         ]
     },
     {
-        "name": "강화형 칙 런처",
+        "name": "강화형 칙 런쳐",
         "img": "NightChickM",
         "skills": [
             {
@@ -835,6 +1053,95 @@ var enemyDataArr = [
                 "description": "공격 시, 3라운드 동안 적중이 증가합니다.",
                 "areadata": [
                     2,4,5,6,8
+                ]
+            }
+        ]
+    },
+    {
+        "name": "정예 레기온",
+        "img": "Legion",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "GAU 대공 미니건",
+                "img": "ARShot",
+                "range": 4,
+                "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "강화 점착탄",
+                "img": "SlowShot",
+                "range": 4,
+                "description": "점착탄을 던져 <span id='askillpower2'></span> 피해를 주고, 일정 확률로 적중한 대상을 3라운드 동안 이동 불가 / 회피 / 행동력 감소 상태로 만듭니다. 각 효과는 해당 강화 상태를 해제합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "경계 경보",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "아군이 처치되면 경계 태세로 전환해 양 옆의 아군의 행동력을 올려주며 대상의 공격을 지원합니다.",
+                "areadata": [
+                    2,8
+                ]
+            }
+        ]
+    },
+    {
+        "name": "엘리트 센츄리온",
+        "img": "Centurion",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "XM 로켓 런쳐",
+                "img": "GrenadeAttack_2",
+                "range": 4,
+                "description": "유탄을 발사해 목표 대상들에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
+                "areadata": [
+                    4,5,6
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "일제 공격 표식",
+                "img": "Scan",
+                "range": 5,
+                "description": "2라운드 동안 대상을 목표로 지정해 <span id='askillpower2'></span> 피해를 주고 표식을 남기며, 받는 피해가 증가하는 상태로 만듭니다. 보호 효과를 무시합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "역습 태세",
+                "img": "DefCounter",
+                "range": 0,
+                "description": "아군 사망 시, 3라운드 동안 공격력과 치명타가 증가하며 반격합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill2",
+                "type": "passive",
+                "name": "부대 재 정비",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "라운드 개시 시 역습 태세인 경우, 인접한 아군들의 행동력과 적중을 증가시킵니다.",
+                "areadata": [
+                    2,4,6,8
                 ]
             }
         ]
