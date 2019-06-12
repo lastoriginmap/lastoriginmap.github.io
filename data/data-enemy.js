@@ -386,7 +386,7 @@ var enemyDataArr = [
                 "title": "askill1",
                 "type": "active",
                 "name": "저격",
-                "img": "ChargeShot",
+                "img": "Chargeshot",
                 "range": 6,
                 "description": "레일건 저격으로 <span id='askillpower1'></span> 피해를 줍니다.",
                 "areadata": [
