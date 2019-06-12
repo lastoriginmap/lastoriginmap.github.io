@@ -109,7 +109,7 @@ function submitStage()
 	{
 		index=obj[type].push({})-1;
 		obj[type][index]["title"]=title;
-		obj[type][index]["prevstage"]=prevtitle;
+		if(prevstage!="") { obj[type][index]["prevstage"]=prevtitle; }
 	}
 	Array.from(document.querySelectorAll("#form-wave input:not([type='submit']), #form-enemy input:not([type='submit'])")).forEach(el=>{
 		el.value = null;
@@ -271,25 +271,31 @@ function saveFile(data, fileName)
 
 function autoFill()
 {
-	var sPre = ["b", "main", "ex"];
+	var type = ["mainstage", "bstage", "exstage"];
 	var isFilled = false;
 	var name = document.getElementById("input-name").value;
 	var LVL = parseInt(document.getElementById("input-LVL").value);
-	for(let stype=0; stype<3 && !isFilled; stype++)
+	
+//	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
+//		if(el.checked) { type = el.value.toLowerCase()+"stage"; }
+//	});
+	
+	
+	for(let stype=0; stype<type.length && !isFilled; stype++)
 	{
-		if(obj[sPre[stype]+"stage"])
+		if(obj[type[stype]])
 		{
-		for(let sindex=0; sindex<obj[sPre[stype]+"stage"].length && !isFilled; sindex++)
+		for(let sindex=0; sindex<obj[type[stype]].length && !isFilled; sindex++)
 		{
-			if(obj[sPre[stype]+"stage"][sindex].wave)
+			if(obj[type[stype]][obj[type[stype]].length-sindex-1].wave)
 			{
-			for(let windex=0; windex<obj[sPre[stype]+"stage"][sindex].wave.length && !isFilled; windex++)
+			for(let windex=0; windex<obj[type[stype]][sindex].wave.length && !isFilled; windex++)
 			{
-				if(obj[sPre[stype]+"stage"][sindex].wave[windex].enemy)
+				if(obj[type[stype]][sindex].wave[windex].enemy)
 				{
-				for(let eindex=0; eindex<obj[sPre[stype]+"stage"][sindex].wave[windex].enemy.length && !isFilled; eindex++)
+				for(let eindex=0; eindex<obj[type[stype]][sindex].wave[windex].enemy.length && !isFilled; eindex++)
 				{
-					let enemyObj = obj[sPre[stype]+"stage"][sindex].wave[windex].enemy[eindex];
+					let enemyObj = obj[type[stype]][sindex].wave[windex].enemy[eindex];
 					if(enemyObj.name==name && enemyObj.LVL==LVL)
 					{
 						document.getElementById("input-HP").value = enemyObj.HP;
