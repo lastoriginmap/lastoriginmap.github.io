@@ -273,12 +273,14 @@ function autoFill()
 {
 	var type = ["mainstage", "bstage", "exstage"];
 	var isFilled = false;
+	var isPartialFilled = false;
 	var name = document.getElementById("input-name").value;
 	var LVL = parseInt(document.getElementById("input-LVL").value);
+	var currentStageType = "";
 	
-//	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
-//		if(el.checked) { type = el.value.toLowerCase()+"stage"; }
-//	});
+	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
+		if(el.checked) { currentStageType = el.value.toLowerCase()+"stage"; }
+	});
 	
 	
 	for(let stype=0; stype<type.length && !isFilled; stype++)
@@ -307,7 +309,18 @@ function autoFill()
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = enemyObj.skillpower;
 						isFilled = true;
-						alert("불러오기 완료!");
+					}
+					if(enemyObj.name==name && type[stype]==currentStageType && !isFilled)
+					{
+						document.getElementById("input-HP").value = null;
+						document.getElementById("input-ATK").value = null;
+						document.getElementById("input-DEF").value = null;
+						document.getElementById("input-AGI").value = enemyObj.AGI;
+						document.getElementById("input-CRT").value = enemyObj.CRT;
+						document.getElementById("input-HIT").value = enemyObj.HIT;
+						document.getElementById("input-DOD").value = enemyObj.DOD;
+						document.getElementById("input-skill").value = null;
+						isPartialFilled = true;
 					}
 				}
 				}
@@ -316,7 +329,15 @@ function autoFill()
 		}
 		}
 	}
-	if(!isFilled)
+	if(isFilled)
+	{
+		alert("불러오기 완료!");
+	}
+	else if(isPartialFilled)
+	{
+		alert("일부 불러오기 완료!");
+	}
+	else
 	{
 		alert("데이터 없음");
 	}
