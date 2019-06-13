@@ -262,6 +262,84 @@ var enemyDataArr = [
         ]
     },
     {
+        "name": "칙 스나이퍼",
+        "img": "NightChickSP",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "정조준 저격",
+                "img": "Snipe",
+                "range": 4,
+                "description": "보호 효과를 무시하는 저격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 정밀 사격으로 피해량이 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "위장",
+                "img": "SelfSpdBuff",
+                "range": 6,
+                "description": "위장 파장을 발산해 3라운드 동안 회피 / 치명타가 증가하며 받는 피해가 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "대응 저격",
+                "img": "DefCounter",
+                "range": 0,
+                "description": "라운드 개시 시, 위장 상태인 경우 반격을 활성화합니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+	{
+        "name": "케미컬 칙",
+        "img": "NightChickCM",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "화학탄 발사",
+                "img": "Missile",
+                "range": 4,
+                "description": "화학 탄두를 발사해 <span id='askillpower1'></span> 피해를 줍니다. 3라운드 동안 대상을 부식 상태로 만듭니다. 부식 상태가 된 대상은 방어력 / 행동력이 감소하며 매 라운드 지속 피해를 입습니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "화학탄 난사",
+                "img": "MultiMissile",
+                "range": 2,
+                "description": "화학 탄두를 난사해 지정 범위에 <span id='askillpower1'></span> 피해를 줍니다. 3라운드 동안 대상을 부식 상태로 만듭니다. 부식 상태가 된 대상은 방어력 / 행동력이 감소하며 매 라운드 지속 피해를 입습니다.",
+                "areadata": [
+                    2,5,8
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "적응 시스템",
+                "img": "TeamDefBuff",
+                "range": 0,
+                "description": "라운드 개시 시, 자신과 인접한 아군에게 걸린 방해 효과를 해제합니다.",
+                "areadata": [
+                    2,4,5,6,8
+                ]
+            }
+        ]
+    },
+    {
         "name": "저거너트",
         "img": "Juggernaut",
         "skills": [
@@ -461,6 +539,45 @@ var enemyDataArr = [
                 "img": "DefCounter",
                 "range": 0,
                 "description": "아군 사망 시, 3라운드 동안 공격력과 치명타가 증가하며 반격합니다. 공격력과 치명타 증가 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
+        "name": "매머드",
+        "img": "Mammoth",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "직사 포격",
+                "img": "CannonShotWide",
+                "range": 2,
+                "description": "직사 포격으로 목표 대상이 있는 열에 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
+                "areadata": [
+                    2,5,8
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "2연장 곡사포",
+                "img": "CannonShotDelay",
+                "range": 6,
+                "description": "1라운드 뒤에 착탄하는 곡사 포격으로 목표 지점에 <span id='askillpower2'></span> 피해를 줍니다. 목표 지점 주변에는 피해가 50% 감소합니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
+                "areadata": [
+                    0,0.75,0,0.75,1,0.75,0,0.75,0
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "고폭 충격탄",
+                "img": "SelfAtkBuff",
+                "range": 0,
+                "description": "공격 시, 적의 방어막과 피해 감소 효과를 무시합니다.",
                 "areadata": [
                     5
                 ]
@@ -891,16 +1008,16 @@ var enemyDataArr = [
         ]
     },
     {
-        "name": "칙 스나이퍼",
-        "img": "NightChickSP",
+        "name": "강화형 재퍼",
+        "img": "Zapper",
         "skills": [
             {
                 "title": "askill1",
                 "type": "active",
-                "name": "정조준 저격",
-                "img": "Snipe",
-                "range": 4,
-                "description": "보호 효과를 무시하는 저격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 정밀 사격으로 피해량이 증가합니다.",
+                "name": "전격 체인",
+                "img": "Shock",
+                "range": 3,
+                "description": "전격을 방사해 <span id='askillpower1'></span> 전기 속성 피해를 주고 대상의 AP와 회피를 감소시킵니다.",
                 "areadata": [
                     5
                 ]
@@ -908,10 +1025,10 @@ var enemyDataArr = [
             {
                 "title": "askill2",
                 "type": "active",
-                "name": "위장",
-                "img": "SelfSpdBuff",
-                "range": 6,
-                "description": "위장 파장을 발산해 3라운드 동안 회피 / 치명타가 증가하며 받는 피해가 증가합니다.",
+                "name": "초고압 전류",
+                "img": "Shock",
+                "range": 1,
+                "description": "고압 전류로 <span id='askillpower2'></span> 전기 속성 피해를 주고, 회피를 감소시킵니다. 일정 확률로 대상을 행동 불가 상태로 만듭니다.",
                 "areadata": [
                     5
                 ]
@@ -919,51 +1036,12 @@ var enemyDataArr = [
             {
                 "title": "pskill1",
                 "type": "passive",
-                "name": "대응 저격",
-                "img": "DefCounter",
+                "name": "사주 경계",
+                "img": "SelfDefBuff",
                 "range": 0,
-                "description": "라운드 개시 시, 위장 상태인 경우 반격을 활성화합니다.",
+                "description": "적을 발견하거나 적에게 공격당하기 전 까지는 경계 상태로 대기합니다. 받는 피해가 대폭 감소합니다.",
                 "areadata": [
                     5
-                ]
-            }
-        ]
-    },
-	{
-        "name": "케미컬 칙",
-        "img": "NightChickCM",
-        "skills": [
-            {
-                "title": "askill1",
-                "type": "active",
-                "name": "화학탄 발사",
-                "img": "Missile",
-                "range": 4,
-                "description": "화학 탄두를 발사해 <span id='askillpower1'></span> 피해를 줍니다. 3라운드 동안 대상을 부식 상태로 만듭니다. 부식 상태가 된 대상은 방어력 / 행동력이 감소하며 매 라운드 지속 피해를 입습니다.",
-                "areadata": [
-                    5
-                ]
-            },
-            {
-                "title": "askill2",
-                "type": "active",
-                "name": "화학탄 난사",
-                "img": "MultiMissile",
-                "range": 2,
-                "description": "화학 탄두를 난사해 지정 범위에 <span id='askillpower1'></span> 피해를 줍니다. 3라운드 동안 대상을 부식 상태로 만듭니다. 부식 상태가 된 대상은 방어력 / 행동력이 감소하며 매 라운드 지속 피해를 입습니다.",
-                "areadata": [
-                    2,5,8
-                ]
-            },
-            {
-                "title": "pskill1",
-                "type": "passive",
-                "name": "적응 시스템",
-                "img": "TeamDefBuff",
-                "range": 0,
-                "description": "라운드 개시 시, 자신과 인접한 아군에게 걸린 방해 효과를 해제합니다.",
-                "areadata": [
-                    2,4,5,6,8
                 ]
             }
         ]
