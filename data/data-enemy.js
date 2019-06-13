@@ -891,6 +891,128 @@ var enemyDataArr = [
         ]
     },
     {
+        "name": "레이더",
+        "img": "Raider_B04",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "교란 파동",
+                "img": "TeamAtkDeBuff",
+                "range": 4,
+                "description": "목표 범위에 보호 효과를 무시하는 교란 파동을 발사해 <span id='askillpower1'></span> 피해를 주고, 3라운드 동안 대상의 사거리 / 적중 / 치명타를 감소시킵니다. 일정 확률로 대상에게 걸려있는 강화 효과를 해제합니다.",
+                "areadata": [
+                    1,4,5,7
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "반응 폭탄 투하",
+                "img": "AirStrike",
+                "range": 4,
+                "description": "목표 지점에 폭탄을 투하해 보호 효과를 무시하고 <span id='askillpower2'></span> 피해를 줍니다. 목표 지점 주변은 피해가 50% 감소하며, 치명타 적중 시 피해량이 증가합니다.",
+                "areadata": [
+                    0,0.5,0,0.5,1,0.5,0,0.5,0
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "교신 프로토콜",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "경계 상태로 라운드 개시 시, 인접한 철충들의 적중 감소 효과를 해제하고 적중 / 회피 / 치명타를 증가시킵니다.",
+                "areadata": [
+                    1,2,3,4,6,7,8,9
+                ]
+            },
+            {
+                "title": "pskill2",
+                "type": "passive",
+                "name": "명령 프로토콜",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "자신의 HP가 50% 이하 상태에서 피격된 경우, 주변 철충들에게 요격 명령을 내려 AP가 증가합니다.",
+                "areadata": [
+                    1,2,3,4,6,7,8,9
+                ]
+            },
+            {
+                "title": "pskill3",
+                "type": "passive",
+                "name": "경계",
+                "img": "SelfSpdBuff",
+                "range": 0,
+                "description": "통솔하는 철충이 처치된 경우, 경계 상태가 되어 2라운드 동안 행동력과 회피가 증가합니다. 해당 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
+        "name": "광폭화 레이더",
+        "img": "Raider_B04_CH",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "플라즈마 광탄",
+                "img": "Shock",
+                "range": 5,
+                "description": "전격구를 발사해 <span id='askillpower1'></span> 전기 속성 피해를 줍니다. 대상이 감전 상태면 회피를 감소시키며, 일정 확률로 행동 불능 상태로 만듭니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "광탄 난사",
+                "img": "WideLightning",
+                "range": 5,
+                "description": "방전 공격으로 보호 효과를 무시하고 <span id='askillpower2'></span> 전기 속성 피해를 줍니다. 일정 확률로 대상을 감전시켜 3라운드 동안 행동력과 회피를 낮춥니다.",
+                "areadata": [
+                    1,4,5,7
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "교신 프로토콜",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "경계 상태로 라운드 개시 시, 인접한 철충들의 적중 감소 효과를 해제하고 적중 / 회피 / 치명타를 증가시킵니다.",
+                "areadata": [
+                    1,2,3,4,6,7,8,9
+                ]
+            },
+            {
+                "title": "pskill2",
+                "type": "passive",
+                "name": "명령 프로토콜",
+                "img": "TeamSpdBuff",
+                "range": 0,
+                "description": "자신의 HP가 50% 이하 상태에서 피격된 경우, 주변 철충들에게 요격 명령을 내려 AP를 증가시킵니다.",
+                "areadata": [
+                    1,2,3,4,6,7,8,9
+                ]
+            },
+            {
+                "title": "pskill3",
+                "type": "passive",
+                "name": "경계",
+                "img": "SelfSpdBuff",
+                "range": 0,
+                "description": "통솔하는 철충이 처치된 경우, 경계 상태가 되어 2라운드 동안 행동력과 회피가 증가합니다. 해당 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
         "name": "강화형 나이트 칙",
         "img": "NightChick",
         "skills": [
