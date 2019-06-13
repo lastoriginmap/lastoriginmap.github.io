@@ -585,6 +585,84 @@ var enemyDataArr = [
         ]
     },
     {
+        "name": "와습",
+        "img": "Wasp",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "화염 방사",
+                "img": "WideFireShot",
+                "range": 3,
+                "description": "화염 방사로 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상 뒤에 50% 감소한 피해를 줍니다. 일정 확률로 대상을 점화 상태로 만들어 3라운드 동안 지속 화염 피해를 줍니다.",
+                "areadata": [
+                    0,0,0,0.5,1,0,0,0,0
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "자폭 돌격",
+                "img": "SuiceideBomb",
+                "range": 6,
+                "description": "공격 대상에게 자폭해 <span id='askillpower2'></span> 피해를 줍니다. 대상의 방어력을 무시합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "회피 기동",
+                "img": "SelfSpdBuff",
+                "range": 0,
+                "description": "아군이 사망한 경우, 2라운드 동안 회피가 증가하며 행동력과 적중이 감소합니다. 해당 효과는 최대 3번까지 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
+        "name": "스캐럽",
+        "img": "Scarab",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "실드 돌격",
+                "img": "AssaultAttack",
+                "range": 3,
+                "description": "대상에게 돌격해 <span id='askillpower1'></span> 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "보호 기동",
+                "img": "SelfDefBuff",
+                "range": 6,
+                "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "방어 기동",
+                "img": "SelfDefBuff",
+                "range": 0,
+                "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
         "name": "빅 칙",
         "img": "BigChick",
         "skills": [
