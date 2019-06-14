@@ -1425,6 +1425,84 @@ var enemyDataArr = [
         ]
     },
     {
+        "name": "와습 HM",
+        "img": "Wasp",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "화염 작렬",
+                "img": "WideFireShot",
+                "range": 3,
+                "description": "화염 방사로 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상 뒤에 50% 감소한 피해를 줍니다. 대상을 점화 상태로 만들어 2라운드 동안 지속 화염 피해를 줍니다.",
+                "areadata": [
+                    0,0,0,0.5,1,0,0,0,0
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "자폭 돌진",
+                "img": "SuiceideBomb",
+                "range": 7,
+                "description": "공격 대상에게 돌격 후, 자폭해 <span id='askillpower2'></span> 피해를 줍니다. 대상의 방어력을 무시합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "고속 기동",
+                "img": "SelfSpdBuff",
+                "range": 0,
+                "description": "아군이 사망한 경우, 2라운드 동안 회피가 증가하며 행동력 / 적중이 감소합니다. 해당 효과는 중첩됩니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
+        "name": "스캐럽 HC",
+        "img": "Scarab",
+        "skills": [
+            {
+                "title": "askill1",
+                "type": "active",
+                "name": "실드 돌진",
+                "img": "AssaultAttack",
+                "range": 3,
+                "description": "대상에게 돌격해 <span id='askillpower1'></span> 피해를 주고, 대상의 행 / 열 보호 효과와 피해 감소 효과를 해제합니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "askill2",
+                "type": "active",
+                "name": "호위 기동",
+                "img": "SelfDefBuff",
+                "range": 6,
+                "description": "3라운드 동안 지정한 아군을 보호하며, 대상의 행동력과 적중을 증가시킵니다.",
+                "areadata": [
+                    5
+                ]
+            },
+            {
+                "title": "pskill1",
+                "type": "passive",
+                "name": "경계 기동",
+                "img": "SelfDefBuff",
+                "range": 0,
+                "description": "라운드 개시 시 HP가 50% 이하인 경우, 받는 피해와 회피가 감소하고 방어력이 대폭 증가합니다.",
+                "areadata": [
+                    5
+                ]
+            }
+        ]
+    },
+    {
         "name": "시작형 빅 칙",
         "img": "BigChick",
         "skills": [
