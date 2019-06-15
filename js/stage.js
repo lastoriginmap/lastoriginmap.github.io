@@ -84,10 +84,18 @@ function drawPage(stageLoadData, imgData)
 				//PC 키패드 숫자로 표시된 위치를 핸드폰 숫자 위치로 변환
 			    var row=3-parseInt((pos-1)/3);
 			    var column=pos-parseInt((pos-1)/3)*3;
+
 			    //적 이름
-			    var enemyName=stageData.wave[i].enemy[j].name;
+			    if(stageData.wave[i].enemy[j].nickname)
+			    {
+					var enemyName=stageData.wave[i].enemy[j].nickname;
+				}
+				else
+				{
+					var enemyName=stageData.wave[i].enemy[j].name;
+				}
 			    //이름에 해당되는 이미지 찾기
-			    var enemyIMGData=imgData.filter(obj => obj.name==enemyName);
+			    var enemyIMGData=imgData.filter(obj => obj.name==stageData.wave[i].enemy[j].name);
 			    //해당 위치에 적 이름과 사진, 링크 추가
 			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData[0].img+'.png\" /><p>'+enemyName+'</p></a>');
 			}
