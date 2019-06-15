@@ -17,8 +17,16 @@ window.onload = async function(){
 
 function drawEnemyPage(stat, desc)
 {
-	document.title = stat.name+' 정보';
-	$('#name').append(stat.name);
+	if(stat.nickname)
+	{
+		var enemyName = stat.nickname;
+	}
+	else
+	{
+		var enemyName = stat.name;
+	}
+	document.title = enemyName+' 정보';
+	$('#name').append(enemyName);
 	$('.image').append("<img src=\"images/profile/"+desc.img+".png\" style=\"width: 100%\" />");
 	writeData('LVL', stat.LVL);
 	writeData('HP', stat.HP);

@@ -58,8 +58,15 @@ function drawPage(stageLoadData, imgData)
 				var pos = stageData.wave[i].enemy[j].pos[k];
 			    var row=3-parseInt((pos-1)/3);
 			    var column=pos-parseInt((pos-1)/3)*3;
-			    var enemyName=stageData.wave[i].enemy[j].name;
-			    var enemyIMGData=imgData.filter(obj => obj.name==enemyName);
+			    if(stageData.wave[i].enemy[j].nickname)
+			    {
+					var enemyName=stageData.wave[i].enemy[j].nickname;
+				}
+				else
+				{
+					var enemyName=stageData.wave[i].enemy[j].name;
+				}
+			    var enemyIMGData=imgData.filter(obj => obj.name==stageData.wave[i].enemy[j].name);
 			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData[0].img+'.png\" /><p>'+enemyName+'</p></a>');
 			}
 		}
