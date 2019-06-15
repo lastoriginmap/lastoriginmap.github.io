@@ -1034,7 +1034,7 @@ var enemyDataArr = [
         "type": "active",
         "name": "듀얼 칙 캐논",
         "img": "CannonShot",
-        "range": 1,
+        "range": 2,
         "description": "캐논포를 연사해 목표 열에 <span id='askillpower2'></span> 피해를 줍니다. 피해 감소 효과를 무효화합니다.",
         "areadata": [
           2,
