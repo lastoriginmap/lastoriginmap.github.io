@@ -1,5 +1,8 @@
+//공통 데이터 로드 함수
 function loadData(src)
 {
+	//<script> 요소를 추가해 데이터 js파일 로드
+	//로드가 완료되면 다음 작업을 진행하도록 Promise 적용
 	return new Promise((resolve, reject) => {
 		var script = document.createElement('script');
 		script.type = "text/javascript";
@@ -11,27 +14,37 @@ function loadData(src)
 	});
 }
 
+//지역 데이터 로드 함수
 async function loadAreaData(areaNum)
 {
 	return new Promise((resolve, reject)=> {
+		//src를 지역 데이터 js파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
 		var src="./data/data-area"+areaNum+".js";
 		loadData(src).then(()=>resolve(areaData), ()=>reject());
 	});
 }
 
+//스테이지 데이터 로드 함수
 async function loadStageData(stageTitle)
 {
 	return new Promise(resolve=> {
+		//src를 지역 데이터 js파일로 설정해 로드
 		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".js";
 		loadData(src).then(()=> {
-			var areaNum=getAreaByStageTitle(stageTitle);
-			var stageType=["b", "main", "ex"];
-			var stageTypeTitle=["B", "", "Ex"];
-			var stageTypeIndex=stageTypeTitle.indexOf(getTypeByStageTitle(stageTitle));
-			var stageListData=areaData[stageType[stageTypeIndex]+"stage"];
-			var stageData= stageListData.filter(sData => sData.title==stageTitle)[0];
-			var stageList=stageListData.map(sData => getIndexByStageTitle(sData.title));
-			
+			if(stageTitle.includes("Daily"))
+			{
+				var stageData=areaData.stage.filter(sData => sData.title==stageTitle)[0];
+				var stageList=areaData.stage.map(sData => getIndexByStageTitle(sData.title));
+			}
+			else
+			{
+				var stageType=["b", "main", "ex"];
+				var stageTypeTitle=["B", "", "Ex"];
+				var stageTypeIndex=stageTypeTitle.indexOf(getTypeByStageTitle(stageTitle));
+				var stageListData=areaData[stageType[stageTypeIndex]+"stage"];
+				var stageData= stageListData.filter(sData => sData.title==stageTitle)[0];
+				var stageList=stageListData.map(sData => getIndexByStageTitle(sData.title));
+			}
 			resolve({"stageData": stageData, "stageList": stageList});
 		});
 
