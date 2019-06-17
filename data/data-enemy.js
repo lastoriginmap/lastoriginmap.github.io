@@ -2764,7 +2764,7 @@ var enemyDataArr = [
       "name": "전투 적응 회로",
       "img": "SelfAtkBuff",
       "range": 0,
-      "description": "라운드 개시 시, 공격력 / 명중 / 회피가 증가합니다. 해강 효과는 중첩됩니다.",
+      "description": "라운드 개시 시, 공격력 / 명중 / 회피가 증가합니다. 해당 효과는 중첩됩니다.",
       "areadata": [
         5
       ]
