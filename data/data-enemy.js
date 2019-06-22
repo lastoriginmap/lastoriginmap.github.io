@@ -3049,8 +3049,8 @@ var enemyDataArr = [
     {
       "title": "pskill3",
       "type": "passive",
-      "name": "다층 장갑 구조",
-      "img": "SelfDrfBuff",
+      "name": "다중 장갑 구조",
+      "img": "SelfSpdBuff",
       "range": 0,
       "description": "HP가 일정 이하가 되면 방어력이 대폭 감소하며 받는 피해가 증가합니다. 해당 상태에선 회피와 행동력이 크게 증가합니다.",
       "areadata": [
@@ -3069,7 +3069,7 @@ var enemyDataArr = [
       "name": "쪼개기",
       "img": "SwordAttk",
       "range": 5,
-      "description": "지정 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 방어력 감소 상태면 피해량이 크게 증가하며 피해 감소 효과를 해제합니다.",
+      "description": "지정 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 방어력 감소 상태면 피해량이 증가하며 피해 감소 효과를 해제합니다.",
       "areadata": [
         5
       ]
