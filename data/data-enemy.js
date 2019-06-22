@@ -1157,6 +1157,56 @@ var enemyDataArr = [
     }
   ]
 },
+  {
+    "name": "센츄리온 치프틴",
+    "img": "Centurion",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "정밀 유도 미사일",
+        "img": "MultiMissile",
+        "range": 4,
+        "description": "정밀 유도 미사일로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
+        "areadata": [
+        5,6,8,9
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "멀티 록 온",
+        "img": "Scan",
+        "range": 4,
+        "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "대열 정비",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "위기 극복",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
 {
   "name": "철충 사념체 (보병)",
   "img": "ProgramMobTS",
@@ -1476,8 +1526,8 @@ var enemyDataArr = [
       "type": "active",
       "name": "파일 벙커 드라이브",
       "img": "Scan",
-      "range": 4,
-      "description": "퍼일 벙커로 대상에게 <span id='askillpower2'></span> 피해를 주며, 대상을 뒤로 밉니다. 대상에게 적용중인 모든 보호효과를 해제하며, 표식 상태면 피해량이 증가합니다.",
+      "range": 2,
+      "description": "파일 벙커로 대상에게 <span id='askillpower2'></span> 피해를 주며, 대상을 뒤로 밉니다. 대상에게 적용중인 모든 보호효과를 해제하며, 표식 상태면 피해량이 증가합니다.",
       "areadata": [
         5
       ]
@@ -2553,7 +2603,7 @@ var enemyDataArr = [
     {
       "title": "pskill3",
       "type": "passive",
-      "name": "반응 강회 모드",
+      "name": "반응 강화 모드",
       "img": "SelfAtkBuff",
       "range": 0,
       "description": "HP가 50% 이하가 되면 매 라운드 회피가 증가합니다. 최대 3회까지 중첩됩니다.",
@@ -2692,7 +2742,7 @@ var enemyDataArr = [
       ]
     },
     {
-      "title": "pskill2",
+      "title": "pskill3",
       "type": "passive",
       "name": "제네레이터 파괴",
       "img": "SuiceideBomb",
@@ -2708,6 +2758,364 @@ var enemyDataArr = [
         7,
         8,
         9
+      ]
+    }
+  ]
+},
+{
+    "name": "실험체 고블린",
+    "img": "ExpGoblinT",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "부식탄 사격",
+        "img": "MGShot",
+        "range": 3,
+        "description": "대상에게 <span id='askillpower1'></span> 피해를 주고, 대상이 표식 상태인 경우 일정 확률로 부식 상태로 만듭니다.",
+        "areadata": [
+        5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "기관총 난사",
+        "img": "MGWideShot",
+        "range": 3,
+        "description": "목표 범위에 <span id='askillpower2'></span> 피해를 주고, 대상이 표식 상태인 경우 일정 확률로 강화 효과를 해제합니다.",
+        "areadata": [
+          0,0.5,0,0,1,0,0,0.5,0
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "격분",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "description": "피격 시, AP / 공격력 / 치명타가 증가하며 방어력이 감소합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "재생 기능",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "전투 불능 시, 1회에 한해 HP를 회복하고 전투를 속행합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "실험체 고블린 파쇄병",
+    "img": "ExpGoblinA",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "목표 파쇄",
+        "img": "MeleeAttack",
+        "range": 3,
+        "description": "대상에게 <span id='askillpower1'></span> 피해를 주고, 표식으로 설정해 받는 피해를 증가시킵니다. 대상의 적중과 치명타가 감소합니다.",
+        "areadata": [
+        5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "벙커 사출",
+        "img": "WideSwordAttk",
+        "range": 4,
+        "description": "목표 범위에 <span id='askillpower2'></span> 피해를 주고, 대상의 회피율과 효과 저항을 낮춥니다.",
+        "areadata": [
+          0,0,0,0.75,1,0,0,0,0
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "전투 본능",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 자신에게 무작위 강화 효과가 적용됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "공격 경계",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "사망 시, 인접한 아군의 받는 피해와 행동력을 감소시키고 효과 저항을 증가시킵니다.",
+        "areadata": [
+          2,4,6,8
+        ]
+      }
+    ]
+  },
+  {
+  "name": "수상한 실험체",
+  "img": "ExpGenerator2",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "출력 제한 해제",
+      "img": "TeamAtkBuff",
+      "range": 6,
+      "description": "범위 내 아군의 출력 제한을 해제해, 공격력을 크게 올리며 적중을 감소시킵니다. 모든 해로운 효과를 해제합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "외피 강화 처리",
+      "img": "TeamDefBuff",
+      "range": 6,
+      "description": "범위 내 아군의 AP를 올려주며, 받는 피해를 감소시킵니다. 효과를 받는 대상들은 전투 속행 효과가 적용됩니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "고출력 방어막",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 일정 수치의 방어막을 얻습니다. HP가 50% 이하가 되면 방어막 수치가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "방어막 출력 상승",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "피격 시, 방어막 출력을 올려 자신과 인접 아군이 받는 피해를 감소시킵니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "에너지 역류",
+      "img": "TeamDefDeBuff",
+      "range": 0,
+      "description": "아군 사망 시, HP가 감소합니다. 파괴될 경우에는, 모든 아군을 행동 불능으로 만들며 강화 효과를 해제합니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+},
+{
+  "name": "익스큐셔너",
+  "img": "Executioner_B06",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "처형 개시",
+      "img": "SwordAttk",
+      "range": 5,
+      "description": "지정 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 행동 불가 상태면 피해량이 크게 증가하며, 해제 불가 행동 불능 효과를 부여합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "학살",
+      "img": "WideSwordAttk",
+      "range": 4,
+      "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 피해를 줍니다. 처형자 중첩이 5 이상이면 추가 화염 피해를 주며, 대상에게 걸려있는 강화 효과를 해제합니다. 처형자 중첩을 5 소모합니다.",
+      "areadata": [
+        1,3,5,7,9
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "처형자",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "피격 시, 공격력이 영구적으로 증가합니다. 자신이 <공격 연계> 효과를 받는 상태면 공격 대상의 방어막과 피해 감소 효과를 무시합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "왜곡장",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "모든 피해를 최소 피해만 받습니다. 처형자 중첩이 5이상인 상태로 피격 시, 오버플로우로 인한 고정 물리 피해를 받으며 모든 강화 효과가 해제됩니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "고속 복원",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "<공격 차단> 효과를 받는 상태인 경우, 행동 불능이 되면 일정 HP를 회복하고 전투를 속행합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "익스큐셔너 실드 블레이드",
+  "img": "ExecutionerLB_B06",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "장갑 해제",
+      "img": "SwordAttk",
+      "range": 4,
+      "description": "지정 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상의 장갑을 해제해 방어력을 낮추고 받는 피해를 증가시킵니다. 대상이 해당 효과를 다시 받는 경우, 행동 불가 상태로 만듭니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "무장 해제",
+      "img": "WideSwordAttk",
+      "range": 5,
+      "description": "지정 범위에 <span id='askillpower2'></span> 피해를 주고, 대상의 무장을 해제해 공격력과 치명타를 낮춥니다. 대상이 해당 효과를 다시 받는 경우, 행동 불가 상태로 만듭니다.",
+      "areadata": [
+        2,5,8
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "공격 차단",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, HP가 50% 이상이면 본체와 다른 파츠를 보호합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "자동 방어 시스템",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "HP가 50% 이상이면 모든 피해를 최소화하며 효과 저항이 증가합니다. 활성화 된 상태에서 피격 시, 오버플로우 중첩이 쌓입니다. 중첩 4 이상 상태로 라운드 개시 시, 해당 상태가 해제되며 행동 불능이 됩니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "다층 장갑 구조",
+      "img": "SelfDrfBuff",
+      "range": 0,
+      "description": "HP가 일정 이하가 되면 방어력이 대폭 감소하며 받는 피해가 증가합니다. 해당 상태에선 회피와 행동력이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "익스큐셔너 롱 블레이드",
+  "img": "ExecutionerRB_B06",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "쪼개기",
+      "img": "SwordAttk",
+      "range": 5,
+      "description": "지정 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 방어력 감소 상태면 피해량이 크게 증가하며 피해 감소 효과를 해제합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "꼬챙이 꿰기",
+      "img": "WideSwordAttk",
+      "range": 4,
+      "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 피해를 줍니다. 대상이 공격기 또는 지원기면 피해량이 증가합니다.",
+      "areadata": [
+        4,5,6
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "공격 연계",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 자신이 공격력 증가 상태면 본체와 다른 파츠의 공격을 지원합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "확인 사살",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "공격 시, 공격력 / 치명타가 증가합니다. 공격력 증가가 3중첩 이상인 경우, 피해 감소 효과를 무시하며 방어 관통 효과를 얻습니다. 피격 시 해제됩니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "경계 모드 전환",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "피격 시, 다음 공격을 받기 전까지 회피가 크게 증가하며 적중이 감소합니다.",
+      "areadata": [
+        5
       ]
     }
   ]
