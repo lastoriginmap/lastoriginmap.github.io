@@ -1146,6 +1146,142 @@ var enemyDataArr = [
     }
   ]
 },
+{
+  "name": "철충 사념체 (호위기)",
+  "img": "ProgramMobMT",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "냉각탄 사격",
+      "img": "IceShot",
+      "range": 3,
+      "description": "냉각탄 사격으로 <span id='askillpower1'></span> 냉기 속성 피해를 주고, 대상의 냉기 저항을 낮춥니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "대 레이더 채프",
+      "img": "MultiMissile",
+      "range": 2,
+      "description": "지정 범위에 채프를 살포해 2라운드 동안 범위 내 아군의 회피 / 행동력을 증가시키며 받는 피해를 감소시킵니다.",
+      "areadata": [
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "호위 대형",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "전투 개시 시, 3라운드 동안 인접한 아군을 보호하며 적중을 증가시킵니다.",
+      "areadata": [
+        2,
+        4,
+        6,
+        8
+      ]
+    }
+  ]
+},
+{
+  "name": "철충 사념체 (장갑병)",
+  "img": "ProgramMobTT",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "제압 사격",
+      "img": "MultiMissile",
+      "range": 3,
+      "description": "제압 사격으로 <span id='askillpower1'></span> 피해를 주고 표식으로 설정해 받는 피해를 증가시킵니다. 대상의 AP와 행동력을 감소시킵니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "밀착 호위",
+      "img": "Scan",
+      "range": 6,
+      "description": "3라운드 동안 대상 아군을 보호하며 대상의 AP를 증가시킵니다. 자신은 받는 피해가 감소합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "경계 강화",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 자신의 HP가 50% 이하면 행동력이 증가하며 반격합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "철충 사념체 (저격병)",
+  "img": "ProgramMobTN",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "표적 제거",
+      "img": "Snipe",
+      "range": 4,
+      "description": "저격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "밀착 호위",
+      "img": "Shock",
+      "range": 4,
+      "description": "쇼크탄 사격으로 <span id='askillpower2'></span> 전기 속성 피해를 줍니다. 대상이 냉기 저항 감소 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "전열 지원 사격",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 자신과 같은 행 앞에 배치된 아군의 AP를 증가시키며 일장 확률로 대상의 공격을 지원합니다.",
+      "areadata": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "대응 사격",
+      "img": "DefCounter",
+      "range": 0,
+      "description": "아군 사망 시, 해당 라운드 동안에는 반격합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
   {
     "name": "빅 칙",
     "img": "BigChick",
