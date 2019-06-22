@@ -1406,6 +1406,58 @@ var enemyDataArr = [
     }
   ]
 },
+{
+  "name": "토터스",
+  "img": "Tortoise",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "프래그 샷건",
+      "img": "ShotGun",
+      "range": 3,
+      "description": "샷건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 자신이 전열이면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "장갑 장착",
+      "img": "SelfDefBuff",
+      "range": 3,
+      "description": "외장형 반응 장갑을 장착해 전투 속행 효과를 얻으며, 방어력과 모든 속성 저항이 증가합니다.",
+      "areadata": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "외장형 반응 장갑",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격 받는 경우, 3회까진 최소 피해만 받으며 효과 저항이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "엄폐 지원",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 같은 행의 뒤에 배치된 아군을 보호합니다. 해당 효과는 자신이 스킬을 사용하면 해제됩니다.",
+      "areadata": [
+        4,5,6
+      ]
+    }
+  ]
+},
   {
     "name": "빅 칙",
     "img": "BigChick",
