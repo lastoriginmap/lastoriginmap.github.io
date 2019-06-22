@@ -1334,6 +1334,78 @@ var enemyDataArr = [
     }
   ]
 },
+{
+  "name": "철충 사념체 (정찰기)",
+  "img": "ProgramMobMS",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "지향 사격",
+      "img": "MultiMissile",
+      "range": 3,
+      "description": "기총 난사로 <span id='askillpower1'></span> 피해를 주고, 대상들을 표식으로 설정해 받는 피해를 증가시킵니다. 대상의 행동력과 회피를 감소시키며, 일정 확률로 피해 감소 효과를 해제합니다.",
+      "areadata": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "다연장 재밍 미사일",
+      "img": "Scan",
+      "range": 3,
+      "description": "재밍 미사일로 <span id='askillpower2'></span> 피해를 주고, 대상의 공격력 / 적중 / 치명타를 낮춥니다. 일정 확률로 대상에게 적용된 공격력 강화 효과를 해제합니다.",
+      "areadata": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "긴급 경보",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 주변에 HP가 33% 이하인 아군이 있으면 대상의 AP와 회피를 증가시킵니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "공격 분석",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "피격 시, 공격을 분석해 해당 라운드 동안 회피가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "경보 오작동",
+      "img": "TeamAtkDeBuff",
+      "range": 0,
+      "description": "사망 시, 레이더 망에 오류가 발생해 모든 아군의 적중 / 회피가 감소합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    }
+  ]
+},
   {
     "name": "빅 칙",
     "img": "BigChick",
