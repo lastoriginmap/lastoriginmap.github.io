@@ -1248,10 +1248,10 @@ var enemyDataArr = [
     {
       "title": "askill2",
       "type": "active",
-      "name": "밀착 호위",
+      "name": "쇼크탄 사격",
       "img": "Shock",
       "range": 4,
-      "description": "쇼크탄 사격으로 <span id='askillpower2'></span> 전기 속성 피해를 줍니다. 대상이 냉기 저항 감소 상태면 피해량이 증가합니다.",
+      "description": "쇼크탄 저격으로 <span id='askillpower2'></span> 전기 속성 피해를 줍니다. 대상이 냉기 저항 감소 상태면 피해량이 증가합니다.",
       "areadata": [
         5
       ]
@@ -1262,7 +1262,7 @@ var enemyDataArr = [
       "name": "전열 지원 사격",
       "img": "TeamAtkBuff",
       "range": 0,
-      "description": "라운드 개시 시, 자신과 같은 행 앞에 배치된 아군의 AP를 증가시키며 일장 확률로 대상의 공격을 지원합니다.",
+      "description": "라운드 개시 시, 자신과 같은 행 앞에 배치된 아군의 AP를 증가시키며 일정 확률로 대상의 공격을 지원합니다.",
       "areadata": [
         4,
         5,
@@ -1426,12 +1426,10 @@ var enemyDataArr = [
       "type": "active",
       "name": "장갑 장착",
       "img": "SelfDefBuff",
-      "range": 3,
+      "range": 0,
       "description": "외장형 반응 장갑을 장착해 전투 속행 효과를 얻으며, 방어력과 모든 속성 저항이 증가합니다.",
       "areadata": [
-        2,
-        5,
-        8
+        5
       ]
     },
     {

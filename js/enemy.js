@@ -39,25 +39,31 @@ function drawEnemyPage(stat, desc)
 	
 	for(var i=0;i<desc.skills.length;i++)
 	{
-		$('.btn:first').clone().appendTo('.skill-nav');
-		$('.btn:last').attr('href', '#skill'+i);
-		if(desc.skills[i].type=="active")
+		if(stat.skillLVL[i]!=0&&stat.skillLVL[i]!==undefined)
 		{
-			$('.btn:last').addClass("skill-active");
-			$('.skill-icon:last').attr("src", "images/SkillIcon/"+desc.skills[i].img+"_active.png");
-		}
-		else if(desc.skills[i].type=="passive")
-		{
-			$('.btn:last').addClass("skill-passive");
-			$('.skill-icon:last').attr("src", "images/SkillIcon/"+desc.skills[i].img+"_passive.png");
+			$('.btn:first').clone().appendTo('.skill-nav');
+			$('.btn:last').attr('href', '#skill'+i);
+			if(desc.skills[i].type=="active")
+			{
+				$('.btn:last').addClass("skill-active");
+				$('.skill-icon:last').attr("src", "images/SkillIcon/"+desc.skills[i].img+"_active.png");
+			}
+			else if(desc.skills[i].type=="passive")
+			{
+				$('.btn:last').addClass("skill-passive");
+				$('.skill-icon:last').attr("src", "images/SkillIcon/"+desc.skills[i].img+"_passive.png");
+			}
 		}
     }
     $('.btn:first').remove();
     $('.btn:first').addClass("active");
 	for(var i=0;i<desc.skills.length;i++)
 	{
-		$('.skill-container:last').after($('.skill-container:first').clone());
-		drawSkillInfo(i, stat.skillLVL[i], stat.skillpower[i], desc.skills[i]);
+		if(stat.skillLVL[i]!=0&&stat.skillLVL[i]!==undefined)
+		{
+			$('.skill-container:last').after($('.skill-container:first').clone());
+			drawSkillInfo(i, stat.skillLVL[i], stat.skillpower[i], desc.skills[i]);
+		}
 	}
 	$('.skill-container:first').remove();
 	$('.skill-container:first').addClass('skill-container-active');
