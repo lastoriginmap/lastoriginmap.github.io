@@ -20,6 +20,8 @@ function drawArea(areaData)
 	var stageTypeTitle = ["B", "", "Ex"];
 	for(var j = 0;j<stageType.length;j++)
 	{
+	if(areaData[stageType[j]+"stage"])
+	{
 	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
 	{
 		var data = areaData[stageType[j]+"stage"][i];
@@ -37,6 +39,7 @@ function drawArea(areaData)
 		titleBox.style.top = ((grid[1]+0.75)*0.55+1/8)*unit-1+"px";
 		titleBox.style.width = stageBox.style.width;
 		//titleBox.style.height = 3/8*unit+height+2+"px";
+	}
 	}
 	}
 }
@@ -73,6 +76,8 @@ function drawCanvas(areaData)
 	
 	for(var j = 0;j<3;j++)
 	{
+	if(areaData[stageType[j]+"stage"])
+	{
 	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
 	{
 		ctx.strokeStyle = colorArr[j];
@@ -100,8 +105,11 @@ function drawCanvas(areaData)
 		}
 	}
 	}
+	}
 	
 	for(var j = 0;j<stageType.length;j++)
+	{
+	if(areaData[stageType[j]+"stage"])
 	{
 	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
 	{
@@ -115,9 +123,12 @@ function drawCanvas(areaData)
 		ctx.stroke();
 	}
 	}
+	}
 	
 	var imgarr = [];
 	for(var j = 0;j<stageType.length;j++)
+	{
+	if(areaData[stageType[j]+"stage"])
 	{
 		imgarr[j] = new Image();
 		imgarr[j].j = j;
@@ -130,6 +141,7 @@ function drawCanvas(areaData)
 			}
 		});
 		imgarr[j].src = imgSrcArr[j];
+	}
 	}
 }
 
@@ -152,7 +164,6 @@ function getGridByStageData(stageData)
 	}
 	return grid;
 }
-
 
 
 
