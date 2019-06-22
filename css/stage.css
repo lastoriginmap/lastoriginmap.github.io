@@ -204,6 +204,7 @@ section {
 .wave-grid div a {
 	text-align: center;
 	color: black;
+	word-break: keep-all;
 }
 
 .wave-grid div img {
