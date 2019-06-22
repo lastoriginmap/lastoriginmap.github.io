@@ -1282,6 +1282,58 @@ var enemyDataArr = [
     }
   ]
 },
+{
+  "name": "철충 사념체 (폭격기)",
+  "img": "ProgramMobMN",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "작열 미사일",
+      "img": "Missile",
+      "range": 3,
+      "description": "미사일로 <span id='askillpower1'></span> 피해를 줍니다. 대상의 방어력을 일정 비율 무시하며, 대상이 화염 저항 감소 상태면 일정 확률로 점화 상태로 만듭니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "소이탄 폭격",
+      "img": "AirStrike",
+      "range": 2,
+      "description": "목표 범위에 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상이 표식 상태면 피해량이 증가합니다.",
+      "areadata": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "정밀 레이더",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 적중 / 회피가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "지상 감지 시스템",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "공격 시, 일정 확률로 경장 / 중장형 적에게 주는 피해가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
   {
     "name": "빅 칙",
     "img": "BigChick",
