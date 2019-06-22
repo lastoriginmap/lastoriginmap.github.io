@@ -1108,6 +1108,56 @@ var enemyDataArr = [
   ]
 },
 {
+  "name": "토터스",
+  "img": "Tortoise",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "프래그 샷건",
+      "img": "ShotGun",
+      "range": 3,
+      "description": "샷건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 자신이 전열이면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "장갑 장착",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "외장형 반응 장갑을 장착해 전투 속행 효과를 얻으며, 방어력과 모든 속성 저항이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "외장형 반응 장갑",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격 받는 경우, 3회까진 최소 피해만 받으며 효과 저항이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "엄폐 지원",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 같은 행의 뒤에 배치된 아군을 보호합니다. 해당 효과는 자신이 스킬을 사용하면 해제됩니다.",
+      "areadata": [
+        4,5,6
+      ]
+    }
+  ]
+},
+{
   "name": "철충 사념체 (보병)",
   "img": "ProgramMobTS",
   "skills": [
@@ -1407,16 +1457,16 @@ var enemyDataArr = [
   ]
 },
 {
-  "name": "토터스",
-  "img": "Tortoise",
+  "name": "철충 사념체 (돌격병)",
+  "img": "ProgramMobAS",
   "skills": [
     {
       "title": "askill1",
       "type": "active",
-      "name": "프래그 샷건",
-      "img": "ShotGun",
+      "name": "스턴 스파이크",
+      "img": "MultiMissile",
       "range": 3,
-      "description": "샷건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 자신이 전열이면 피해량이 증가합니다.",
+      "description": "대상에게 <span id='askillpower1'></span> 전기 속성 피해를 줍니다. 대상이 냉기 저항 감소 상태면 감전시켜 지속 전기 피해를 줍니다.",
       "areadata": [
         5
       ]
@@ -1424,10 +1474,10 @@ var enemyDataArr = [
     {
       "title": "askill2",
       "type": "active",
-      "name": "장갑 장착",
-      "img": "SelfDefBuff",
-      "range": 0,
-      "description": "외장형 반응 장갑을 장착해 전투 속행 효과를 얻으며, 방어력과 모든 속성 저항이 증가합니다.",
+      "name": "파일 벙커 드라이브",
+      "img": "Scan",
+      "range": 4,
+      "description": "퍼일 벙커로 대상에게 <span id='askillpower2'></span> 피해를 주며, 대상을 뒤로 밉니다. 대상에게 적용중인 모든 보호효과를 해제하며, 표식 상태면 피해량이 증가합니다.",
       "areadata": [
         5
       ]
@@ -1435,10 +1485,10 @@ var enemyDataArr = [
     {
       "title": "pskill1",
       "type": "passive",
-      "name": "외장형 반응 장갑",
-      "img": "SelfDefBuff",
+      "name": "노즐 강화",
+      "img": "TeamAtkBuff",
       "range": 0,
-      "description": "공격 받는 경우, 3회까진 최소 피해만 받으며 효과 저항이 증가합니다.",
+      "description": "경장형에게 주는 피해가 증가하며, 피해 감소 효과와 방어막을 무시합니다.",
       "areadata": [
         5
       ]
@@ -1446,12 +1496,139 @@ var enemyDataArr = [
     {
       "title": "pskill2",
       "type": "passive",
-      "name": "엄폐 지원",
+      "name": "전열 돌파",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 일정 확률로 같은 열에 인접한 아군의 공격을 지원합니다.",
+      "areadata": [
+        2,8
+      ]
+    }
+  ]
+},
+{
+  "name": "철충 사념체 (포병)",
+  "img": "ProgramMobAN",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "122mm APFSDS",
+      "img": "CannonShot",
+      "range": 5,
+      "description": "포격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상의 방어력을 일정 비율 무시하며, 공격기인 경우 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "확산형 고폭탄",
+      "img": "CannonShotWide",
+      "range": 4,
+      "description": "확산 포격으로 무시하고 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상이 표식 상태면 피해 감소 효과를 해제합니다.",
+      "areadata": [
+        1,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "연계 포격",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "적 처치 시, AP가 증가하며 다음 공격까지 공격력이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "핀 포인트 포격",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 전열에 있으면 적의 방어막과 피해 감소 효과를 무시합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "집중 포격 대열",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 같은 열에 인접한 아군의 공격력 / 치명타를 상승시킵니다.",
+      "areadata": [
+        2,8
+      ]
+    }
+  ]
+},
+{
+  "name": "철충 사념체 (중장갑병)",
+  "img": "ProgramMobAT",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "2연장 속사포",
+      "img": "MGShot",
+      "range": 3,
+      "description": "기관포로 <span id='askillpower1'></span> 피해를 주고, 대상이 표식 상태인 경우 일정 확률로 행동 불가 상태로 만듭니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "충격탄 발사",
+      "img": "CannonShot",
+      "range": 4,
+      "description": "충격탄을 발사해 <span id='askillpower2'></span> 피해를 주고, 대상의 행동력을 감소시킵니다. 일정 확률로 대상에게 걸려있는 강화 효과를 해제합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "내성 처리",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 모든 속성 저항과 상태 이상 저항이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "특수 반응 장갑",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "HP가 50% 이하인 경우, 피격 시 일정 확률로 방어력이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "공격 대열 보호",
       "img": "TeamDefBuff",
       "range": 0,
-      "description": "라운드 개시 시, 같은 행의 뒤에 배치된 아군을 보호합니다. 해당 효과는 자신이 스킬을 사용하면 해제됩니다.",
+      "description": "같은 열의 아군을 보호하며, 자신과 같은 행의 뒤에 배치된 아군이 받는 피해를 감소시킵니다.",
       "areadata": [
-        4,5,6
+        4,
+        5,
+        6
       ]
     }
   ]
