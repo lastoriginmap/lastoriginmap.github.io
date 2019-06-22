@@ -522,7 +522,7 @@ var enemyDataArr = [
       {
         "title": "pskill1",
         "type": "passive",
-        "name": "경계 모드",
+        "name": "밀집 대형",
         "img": "TeamDefBuff",
         "range": 0,
         "description": "라운드 개시 시, 같은 열에 인접한 아군에게 피해 감소 효과를 부여합니다. 해당 효과는 중첩됩니다.",
@@ -982,6 +982,166 @@ var enemyDataArr = [
       "description": "대 보병 고폭탄을 장전해, 경장형에게 주는 피해가 증가합니다.",
       "areadata": [
         5
+      ]
+    }
+  ]
+},
+{
+  "name": "칙 쿼터마스터",
+  "img": "NightChickQM",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "공격 방해",
+      "img": "Shot",
+      "range": 4,
+      "description": "대상에게 <span id='askillpower1'></span> 피해를 주며, 2라운드 동안 대상의 공격력 / 적중 / 치명타를 낮춥니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "출력 강화",
+      "img": "TeamAtkBuff",
+      "range": 3,
+      "description": "주변 아군의 출력을 강화해 공격력 / 적중 / 치명타를 높입니다. 자신은 행동력이 증가합니다.",
+      "areadata": [
+        2,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "일제 공격 지원",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 일정 확률로 무장 보급을 받은 아군의 공격을 지원합니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "숙련된 칙 웅크리기",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "HP가 50% 이하가 되면 받는 피해가 감소하며 회피가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "과전류 방출",
+      "img": "TeamAtkDeBuff",
+      "range": 0,
+      "description": "사망 시, 모든 아군의 행동력 / 공격력이 감소합니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+},
+{
+  "name": "레기온 스나이퍼",
+  "img": "LegionSP",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "점착탄 난사",
+      "img": "TeamSpdDeBuff",
+      "range": 4,
+      "description": "점착탄을 난사해 <span id='askillpower1'></span> 피해를 주고, 대상들의 회피를 낮추며 회피 강화 효과를 해제합니다. 적중 대상은 이동 불가 상태가 되며, 자신은 적중과 치명타가 증가합니다.",
+      "areadata": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "대장갑 정밀 저격",
+      "img": "Snipe",
+      "range": 5,
+      "description": "대장갑 정밀 저격으로 <span id='askillpower2'></span> 방어 관통 피해를 줍니다. 대상이 중장형인 경우, 피해랑이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "위장 홀로그램 발산",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "위장 홀로그램을 발산해, 적 진영과 멀수록 회피가 증가합니다. 해당 효과는 공격 시, 해당 라운드에는 일시적으로 해제됩니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "철충 사념체 (보병)",
+  "img": "ProgramMobTS",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "집중 견제",
+      "img": "ARShot",
+      "range": 4,
+      "description": "집중 견제 사격으로 <span id='askillpower1'></span> 피해를 주고, 대상의 공격력 / 적중 / 회피를 낮추며 받는 피해 증가 상태로 만듭니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "냉각기 조준",
+      "img": "ARShot",
+      "range": 3,
+      "description": "조준 사격으로 <span id='askillpower2'></span> 피해를 줍니다. 대상이 로봇인 경우, 냉각 장치를 파괴해 화염 저항과 행동력을 낮춥니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "상황 전파",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "아군 사망 시, 주변에 있는 아군에게 상황을 전파해 AP와 공격력을 상승시킵니다.",
+      "areadata": [
+        2,4,6,8
       ]
     }
   ]
