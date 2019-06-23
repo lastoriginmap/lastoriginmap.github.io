@@ -340,7 +340,7 @@ var enemyDataArr = [
         "name": "화학탄 난사",
         "img": "MultiMissile",
         "range": 2,
-        "description": "화학 탄두를 난사해 지정 범위에 <span id='askillpower1'></span> 피해를 줍니다. 3라운드 동안 대상을 부식 상태로 만듭니다. 부식 상태가 된 대상은 방어력 / 행동력이 감소하며 매 라운드 지속 피해를 입습니다.",
+        "description": "화학 탄두를 난사해 지정 범위에 <span id='askillpower2'></span> 피해를 줍니다. 3라운드 동안 대상을 부식 상태로 만듭니다. 부식 상태가 된 대상은 방어력 / 행동력이 감소하며 매 라운드 지속 피해를 입습니다.",
         "areadata": [
           2,
           5,
@@ -1746,6 +1746,45 @@ var enemyDataArr = [
         "img": "SelfDefBuff",
         "range": 0,
         "description": "반응 장갑으로 인해 받는 피해가 감소합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "강화형 빅 칙",
+    "img": "BigChick",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "돌격 난사",
+        "img": "Shot",
+        "range": 3,
+        "description": "기관포를 발사해 목표 적에게 <span id='askillpower1'></span> 피해를 줍니다.",
+        "areadata": [
+          2,5,8
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "기관포 난사",
+        "img": "Shot",
+        "range": 1,
+        "description": "기관포를 난사해 목표 적들에게 <span id='askillpower2'></span> 피해를 줍니다.",
+        "areadata": [
+          1,4,5,7
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "과출력 상태",
+        "img": "Shock",
+        "range": 0,
+        "description": "자신의 HP가 50% 이상인 경우, 과출력 상태가 되어 공격력이 증가합니다.",
         "areadata": [
           5
         ]
@@ -3207,7 +3246,7 @@ var enemyDataArr = [
         "type": "active",
         "name": "방패 강타",
         "img": "MeleeAttack",
-        "range": 2,
+        "range": 3,
         "description": "방패로 강타해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 회피 감소 상태면 일정 확률로 행동 불가 상태로 만듭니다.",
         "areadata": [
           5
@@ -3232,7 +3271,7 @@ var enemyDataArr = [
         "range": 0,
         "description": "방패 장갑이 강화되어 받는 피해가 감소합니다.",
         "areadata": [
-          6
+          5
         ]
       }
     ]
@@ -3433,10 +3472,10 @@ var enemyDataArr = [
       {
         "title": "pskill1",
         "type": "passive",
-        "name": "연료 탱크 유폭",
+        "name": "연료 탱크 파괴",
         "img": "SuiceideBomb",
         "range": 0,
-        "description": "사망 시, 높은 확률로 연료 탱크가 유폭해 주변에 괴멸적인 피해를 주고 피해 감소 효과를 해제합니다.",
+        "description": "사망 시, 높은 확률로 연료 탱크가 유폭해 주변에 괴멸적인 피해를 주며 피해 감소 효과를 해제합니다.",
         "areadata": [
           2,
           4,
@@ -3643,6 +3682,148 @@ var enemyDataArr = [
       }
     ]
   },
+  {
+    "name": "스펙터 BS",
+    "img": "Spector",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "전자기장 미사일 난사",
+        "img": "MultiMissile",
+        "range": 4,
+        "description": "전자기장 미사일을 난사해 <span id='askillpower1'></span> 피해를 주고, 대상의 치명타 / 효과 발동 / 사거리를 낮춥니다. 해당 효과는 2회까지 중첩됩니다.",
+        "areadata": [
+          5,6,8,9
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "강화 역장 전개",
+        "img": "TeamDefBuff",
+        "range": 6,
+        "description": "반물질 역장을 넓게 전개해 주변 아군이 받는 피해를 일정 횟수 무효화하고, 자신과 주변 아군의 효과 저항을 올려줍니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "강화 반물질 역장",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 반물질 역장을 전개해 자신이 받는 피해를 일정 횟수 무효화하고, 받는 피해를 낮춥니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "전황 예측",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "description": "스킬 사용 시, 주변 아군에게 적 분석 결과를 발신해 적중 / 회피 / AP를 올려줍니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill3",
+        "type": "passive",
+        "name": "강화 은폐장",
+        "img": "SelfSpdBuff",
+        "range": 0,
+        "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+  "name": "개량형 칙 쿼터마스터",
+  "img": "NightChickQM",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "공격 훼방",
+      "img": "Shot",
+      "range": 4,
+      "description": "대상에게 <span id='askillpower1'></span> 피해를 주며, 2라운드 동안 대상의 공격력 / 적중 / 치명타를 낮춥니다. 해당 효과는 2회까지 중첩됩니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "전무장 보급",
+      "img": "TeamAtkBuff",
+      "range": 3,
+      "description": "주변 아군의 출력을 강화해 공격력 / 적중 / 치명타를 높입니다. 자신은 행동력이 증가합니다. 해당 효과는 2회까지 중첩됩니다.",
+      "areadata": [
+        2,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "칙 약진하기",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 일정 확률로 무장 보급을 받은 아군의 공격을 지원하며, 피격 시 회피율이 증가합니다. 회피율 증가 효과는 최대 2회 중첩됩니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "전황 판단",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 배치된 열에 따라 아군 또는 자신에게 추가 효과가 부여됩니다. 전열에 배치된 경우 아군 전체의 방어력 / 모든 저항을 올려주고, 중열에 배치된 경우 자신의 행동력 / 방어력 / 피해 감소가 증가하며, 후열에 배치된 경우 아군 전체의 공격력 / 적중을 올려줍합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "배수진",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "사망 시, 모든 아군의 행동력이 감소하고, 받는 피해 / 공격력 / 적중이 증가합니다.",
+      "areadata": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+},
   {
     "name": "시작형 빅 칙",
     "img": "BigChick",
