@@ -4069,5 +4069,66 @@ var enemyDataArr = [
       ]
     }
   ]
+},
+{
+  "name": "칙 엠퍼러",
+  "img": "EmperorChick",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "칙 머신캐논",
+      "img": "MGShot",
+      "range": 4,
+      "description": "대구경 기관포로 <span id='askillpower1'></span> 피해를 주고, 대상에게 무작위 방해 효과를 부여합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "칙 파이널 어택",
+      "img": "WideBeamShot",
+      "range": 3,
+      "description": "전 무장을 발사해 목표 범위에 <span id='askillpower2'></span> 피해를 줍니다. 목표 중심점 밖일수록 피해가 감소하며, <광분> 상태면 피해량이 크게 증가합니다.",
+      "areadata": [
+        0.5,0.75,0.5,0.75,1,0.75,0.5,0.75,0.5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "전투 프로그램 설정",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 자신의 HP가 50% 이하면 전투 프로그램을 갱신해 자신과 주변 아군에게 무작위 강화 효과를 부여합니다. 낮은 확률로 치명적 오류가 발생해 행동 불가가 되거나 받는 피해 증가 효과가 발생합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "칙 철벽 방어술",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격한 후, 방어 태세를 취해 해당 라운드 동안에는 최소 피해만 받습니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "앵그리 칙",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "아군이 처치되면 3라운드 동안 공격력이 증가합니다. 라운드 개시 시, <앵그리 칙>이 3 중첩 이상이면 <광분> 상태가 되어 공격력 / 적중 / 치명타 / 행동력이 증가하며 피해 감소 효과를 무시합니다.",
+      "areadata": [
+	      5
+      ]
+    }
+  ]
 }
 ];
