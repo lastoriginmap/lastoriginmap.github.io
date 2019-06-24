@@ -3824,6 +3824,58 @@ var enemyDataArr = [
     }
   ]
 },
+{
+  "name": "개량형 레기온 스나이퍼",
+  "img": "LegionSP",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "점착탄 연사",
+      "img": "TeamSpdDeBuff",
+      "range": 4,
+      "description": "점착탄을 연사해 <span id='askillpower1'></span> 피해를 주고, 대상들의 회피를 낮추며 회피 강화 효과를 해제합니다. 적중 대상은 행동력이 감소하며, 자신은 적중과 사거리가 증가합니다. 해당 효과는 2회까지 중첩됩니다.",
+      "areadata": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "정밀 선도 사격",
+      "img": "Snipe",
+      "range": 5,
+      "description": "정밀 선도 사격으로 <span id='askillpower2'></span> 방어 관통 피해를 줍니다. 대상이 기동형인 경우, 피해랑이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "위장 홀로그램 투영",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "위장 홀로그램을 투영해, 적 진영과 멀수록 회피가 증가합니다. 해당 효과는 공격 시, 해당 라운드에는 일시적으로 해제됩니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "저격 대응",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "피격 시, 재빠르게 대응해 행동력이 증가하며 반격합니다. 행동력 증가 효과는 3회까지 중첩됩니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
   {
     "name": "시작형 빅 칙",
     "img": "BigChick",
