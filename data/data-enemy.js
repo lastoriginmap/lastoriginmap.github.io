@@ -3358,6 +3358,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "지원형 스카우트",
+    "img": "Scout",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "충격탄 투하",
+        "img": "Missile",
+        "range": 2,
+        "description": "충격 미사일을 투하해 <span id='askillpower1'></span> 피해를 주고 대상의 AP를 감소시킵니다.",
+        "areadata": [
+          1,4,5,7
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "경보 발령",
+        "img": "Scan",
+        "range": 6,
+        "description": "목표 아군에게 적 발견 경보를 울려 대상의 AP / 사거리 / 치명타를 증가시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "기습 편제",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "이동 시, 인접한 아군의 공격을 지원합니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "지원 대열",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 자신의 HP가 50% 이상인 경우 인접 아군의 공격력 / 방어력 / 효과 저항이 증가합니다. HP가 25% 미만인 경우, 인접 아군의 공격력 / 방어력 / 행동력이 감소합니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      }
+    ]
+  },
+  {
     "name": "강화형 재퍼",
     "img": "Zapper",
     "skills": [
@@ -3734,6 +3784,67 @@ var enemyDataArr = [
         "title": "pskill3",
         "type": "passive",
         "name": "강화 은폐장",
+        "img": "SelfSpdBuff",
+        "range": 0,
+        "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "스펙터 MS",
+    "img": "Spector",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "교란용 전자기장 미사일",
+        "img": "MultiMissile",
+        "range": 4,
+        "description": "전자기장 미사일로 대상들을 교란해 <span id='askillpower1'></span> 피해를 주고, 대상의 효과 저항 / 사거리를 낮춥니다. 해당 효과는 2회까지 중첩됩니다.",
+        "areadata": [
+          1,4,5,7
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "모드 변경",
+        "img": "TeamDefBuff",
+        "range": 6,
+        "description": "전투 모드로 전환해 공격력 / 치명타가 증가하지만 받는 피해도 증가하며, 행동력이 감소합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "이동형 반물질 역장",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 반물질 역장을 전개해 자신과 인접 아군이 받는 피해를 일정 횟수 무효화합니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "전투 패턴 분석",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "description": "피격 시, 주변 아군에게 전투 패턴 분석 결과를 발신해 적중 / 치명타 / 효과 저항을 올려줍니다. 해당 효과는 3회까지 중첩됩니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill3",
+        "type": "passive",
+        "name": "은폐장 전개",
         "img": "SelfSpdBuff",
         "range": 0,
         "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
