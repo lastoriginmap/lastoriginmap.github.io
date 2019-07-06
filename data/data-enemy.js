@@ -761,7 +761,7 @@ var enemyDataArr = [
   },
   {
     "name": "아쿠아 칙",
-    "img": "",
+    "img": "NightChickAQ",
     "skills": [
       {
         "title": "askill1",
@@ -811,7 +811,7 @@ var enemyDataArr = [
   },
   {
     "name": "썬더 칙",
-    "img": "",
+    "img": "NightChickTD",
     "skills": [
       {
         "title": "askill1",
@@ -830,7 +830,7 @@ var enemyDataArr = [
         "name": "일렉트릭 쇼크",
         "img": "WideLightning",
         "range": 6,
-        "description": "지정 범위에 <span id='askillpower1'></span> 보호 무시 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피가 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 받는 피해 감소 상태를 해제합니다.",
+        "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피가 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 받는 피해 감소 상태를 해제합니다.",
         "areadata": [
           4,5,6
         ]
@@ -855,6 +855,64 @@ var enemyDataArr = [
         "description": "공격 시, 자신이 침수 상태인 경우 방전으로 인한 고정 피해를 입습니다. 침수 상태로 처치될 경우, 범위 내 대상들에게 전기 피해를 줍니다. 해당 효과기 적용되는 대상이 침수 상태인 경우, 행동 불가가 됩니다.",
         "areadata": [
           2,4,5,6,8
+        ]
+      }
+    ]
+  },
+  {
+    "name": "칠러",
+    "img": "Chiller",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "동결 가스",
+        "img": "BeamShot",
+        "range": 3,
+        "description": "지정 범위에 <span id='askillpower1'></span> 냉기 속성 피해를 주고 대상을 이동 불가 상태로 만듭니다. 대상이 침수 상태인 경우, 행동 불가 / 받는 피해 증가 상태로 만들고 강화 효과를 해제합니다.",
+        "areadata": [
+          0,
+          0,
+          0,
+          0.5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "빙결 코팅",
+        "img": "TeamDefBuff",
+        "range": 6,
+        "description": "지정 아군과 자신에게 방어막을 부여하며, 방어력 증가 / 받는 피해와 화염 저항 감소 상태로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "급속 냉각",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "자신이 침수 상태로 라운드 개시 시, 공격력 / 회피 / 행동력이 크게 증가하며 최소 피해만 입습니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "과열",
+        "img": "TeamSpdDeBuff",
+        "range": 0,
+        "description": "화염 속성 공격을 맞는 경우, 공격력 / 방어력 / 회피 / 행동력이 크게 감소하며 피해 최소화 상태가 해제됩니다.",
+        "areadata": [
+          5
         ]
       }
     ]
@@ -888,6 +946,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "폴른 커스텀",
+    "img": "FallenC",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "개조 머신건",
+        "img": "MGShot",
+        "range": 4,
+        "description": "머신건 사격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 경장형이거나 회피 / 방어력 감소 상태면 피해량이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "진동 분쇄탄",
+        "img": "SelfDefDeBuff",
+        "range": 4,
+        "description": "진동 분쇄탄으로 지정 범위에 <span id='askillpower2'></span> 피해를 주고, 방어력 증가와 받는 피해 감소 효과를 해제합니다. 대상이 방어력 감소 상태면 공격력에 비례한 고정 피해를 줍니다.",
+        "areadata": [
+          4,5,6
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "출력 한계 해제",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "적을 공격할 때마다 공격력과 행동력이 증가하지만 적중이 감소하며, 지속 물리 피해를 입습니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "과출력 유폭",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "<출력 증폭>이 3중첩 이상인 상태에서 사망 시, 주변에 고정 피해를 주며 강화 효과를 해제합니다.",
+        "areadata": [
+          2,4,6,8
+        ]
+      }
+    ]
+  },
+  {
     "name": "경비용 펍 헤드",
     "img": "PuppHead",
     "skills": [
@@ -916,6 +1024,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "펍 헤드 커스텀",
+    "img": "PuppHeadC",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "고전압 스턴 건",
+        "img": "Shock",
+        "range": 3,
+        "description": "대상에게 <span id='askillpower1'></span> 전기 속성 피해를 주고, AP / 회피 / 행동력를 낮춥니다. 대상이 경장 / 중장형인 경우, 일정 확률로 행동 불가로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "침입자 포획",
+        "img": "Hang",
+        "range": 4,
+        "description": "적중 대상을 앞으로 당겨 이동 불가 상태로 만들며, 높은 확률로 대상에게 걸린 강화 효과를 해제합니다. 스킬 사용 시, 3라운드 동안 행동력이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "연산 병렬처리",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "description": "인접 아군들의 연산을 보조해, 전투 개시 시 대상들의 AP / 치명타 / 행동력 / 효과 저항을 높입니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "네트워트 오류",
+        "img": "TeamAtkDeBuff",
+        "range": 0,
+        "description": "사망 시, 2라운드 동안 인접한 아군들의 적중과 사거리가 크게 감소합니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      }
+    ]
+  },
+  {
     "name": "경비용 램파트",
     "img": "Rampart",
     "skills": [
@@ -939,6 +1097,56 @@ var enemyDataArr = [
         "description": "3라운드 동안 지정한 아군을 보호하며, 대상의 AP를 증가시킵니다. 해당 스킬 사용 시, 자신이 받는 피해가 감소합니다.",
         "areadata": [
           5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "램파트 커스텀",
+    "img": "RampartC",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "개조 기총 견제",
+        "img": "ARShot",
+        "range": 4,
+        "description": "견제 사격으로 대상에게 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 대상의 공격력 / 치명타 / 적중 / 행동력을 낮춥니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "요격 태세",
+        "img": "DefCounter",
+        "range": 6,
+        "description": "3라운드 동안 방어력이 증가하며 받는 피해가 감소합니다. 열 보호가 활성화되며, 해당 상태에서 공격받으면 반격합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "전열 방어 대형",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "자신이 전열에 있는 상태로 라운드 개시 시, 범위 내 아군을 지정 보호하며 대상의 AP를 증가시킵니다.",
+        "areadata": [
+          2,6,8
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "긴급 지원 요청",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "라운드 개시 시 자신의 HP가 25% 이하인 경우, 아군 공격기에게 지원을 요청해 대상의 AP / 공격력 / 행동력을 증가시킵니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
         ]
       }
     ]
@@ -974,6 +1182,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "드론 커스텀",
+    "img": "DroneC",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "폭뢰 발사",
+        "img": "Missile",
+        "range": 3,
+        "description": "폭뢰를 발사해 <span id='askillpower1'></span> 화염 속성 피해를 줍니다. 치명타 시, 추가 화염 피해를 주며 대상이 경장형 / 중장형인 경우 피해량이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "지상 분석 레이더",
+        "img": "Scan",
+        "range": 5,
+        "description": "경장형 / 중장형 적을 분석해 3라운드 동안 대상의 공격력 / 방어력 / 치명타 / 적중 / 회피를 낮춥니다. 스킬 사용 시, 3라운드 동안 행동력이 증가합니다. 기동형 적에게는 효과가 없습니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "방어 대열 지원",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "자신이 지정 대상 보호를 받고 있는 상태에서 아군 사망 시, 아군 보호기의 공격을 지원하며 대상의 AP를 상승시킵니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "핀 포인트 폭격",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "자신이 전열인 경우, 방어막 / 피해 감소 효과를 무시하며 방어 관통이 크게 증가합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
     "name": "경비용 AMG-11",
     "img": "AMG11",
     "skills": [
@@ -999,6 +1257,56 @@ var enemyDataArr = [
           5
         ]
       }
+    ]
+  },
+  {
+    "name": "대공용 AMG-11",
+    "img": "AMG11_AA",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "회피 견제 사격",
+        "img": "ARShot",
+        "range": 5,
+        "description": "기총 사격으로 <span id='askillpower1'></span> 피해를 주고, 대상을 표식으로 설정해 회피를 낮추고 받는 피해를 증가시킵니다. 회피 감소 효과는 기동형에게 3배로 적용됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "대공 기총 난사",
+        "img": "WideBeamShot",
+        "range": 3,
+        "description": "기총을 난사해 <span id='askillpower2'></span> 피해를 주고, 대상들의 회피를 낮춥니다. 대상이 기동형인 경우 피해량이 증가하고, 회피 감소 효과가 3배로 적용되며 회피 증가 효과를 해제합니다.",
+        "areadata": [
+          1,4,5,7
+        ]
+      },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "대공 레이더 시스템",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 인접 아군의 적중 / 치명타 / 대 기동형 피해량을 증가시킵니다.",
+      "areadata": [
+        1,2,3,4,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "목표 설정 오류",
+      "img": "TeamAtkDeBuff",
+      "range": 0,
+      "description": "사망 시, 2라운드 동안 인접 아군의 행동력이 감소하며 해당 라운드 동안에는 스킬을 사용할 수 없게 됩니다.",
+      "areadata": [
+        1,2,3,4,6,7,8,9
+      ]
+    }
     ]
   },
   {
@@ -1042,6 +1350,56 @@ var enemyDataArr = [
       "img": "SelfAtkBuff",
       "range": 0,
       "description": "이동 시, 3라운드 동안 공격력 / 행동력 / 회피가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "스팅어 커스텀",
+  "img": "StingerC",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "냉동 가스 분사",
+      "img": "Beam",
+      "range": 3,
+      "description": "대상에게 냉동 가스를 분사해 <span id='askillpower1'></span> 냉기 속성 피해를 주고, 일정 확률로 3라운드 동안 냉기 / 전기 저항을 낮춥니다. 대상에게 냉기 저항 감소 효과가 이미 적용되어 있는 경우, 일정 확률로 행동 불가 / 받는 피해 증가 / 강화 해제 상태로 만듭니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "일점 돌파",
+      "img": "AssaultAttack",
+      "range": 4,
+      "description": "대상에게 돌격해 <span id='askillpower2'></span> 피해를 줍니다. 대상이 빙결 상태인 경우, 피해량이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "침입자 경계",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "공격 시, 공격한 적에게만 집중해 회피가 크게 증가하지만 받는 피해도 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "강습 준비",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "지정 대상 보호를 받는 상태로 라운드 개시 시, 공격력과 치명타가 증가합니다.",
       "areadata": [
         5
       ]
@@ -4272,7 +4630,7 @@ var enemyDataArr = [
   },
   {
     "name": "빅 칙 실더",
-    "img": "",
+    "img": "BigChickS",
     "skills": [
       {
         "title": "askill1",
