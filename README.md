@@ -4,15 +4,13 @@
 
 <a href="https://lastoriginmap.github.io/" target="_newtab">라스트오리진 지역별 철충 지도</a>
 
-### 해야할 것
+### 향후 계획
 
-1. 6지역 Ex추가
+1. area.html 다시 제작
 
-2. area.html 다시 제작
+2. 철충 정보 추가
 
-3. 철충 정보 추가
-
-4. 드랍테이블 등 기타 정보 추가
+3. 드랍테이블 등 기타 정보 추가
 
 ### 라이브러리
 
