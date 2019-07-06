@@ -174,6 +174,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "나이트 칙 디텍터 G",
+    "img": "NightChickDE",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "지면 교란 파장",
+        "img": "TeamDefDeBuff",
+        "range": 5,
+        "description": "교란 파장을 발산해 <span id='askillpower1'></span> 보호 무시 피해를 주고, 3라운드 동안 표식 / 받는 피해 증가 / 적중 / 회피 감소 효과를 줍니다. 스킬 사용 시, 회피가 증가합니다. 기동형 적에게는 효과가 없습니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "개량형 섬광탄",
+        "img": "Beam",
+        "range": 4,
+        "description": "지정 범위에 섬광탄을 발사해 <span id='askillpower2'></span> 피해를 주고, 대상의 AP를 감소시키며 적중 / 치명타 증가 효과를 해제합니다. 적중한 대상은 2라운드 동안 적중과 치명타가 감소합니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "정밀 지상 레이더",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "description": "인접 아군들에게 보호막 / 피해 감소 무시 효과와 대 경장 / 중장형 피해 증가 효과를 부여합니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "정보 발신 오류",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "자신이 침수 상태로 라운드 개시 시, 오류가 발생해 아군의 적중 / 치명타 / 행동력이 감소합니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      }
+    ]
+  },
+  {
     "name": "스카우트",
     "img": "Scout",
     "skills": [
@@ -705,6 +755,106 @@ var enemyDataArr = [
         "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
         "areadata": [
           5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "아쿠아 칙",
+    "img": "",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "액체 분사",
+        "img": "BeamShot",
+        "range": 4,
+        "description": "지정 범위에 <span id='askillpower1'></span> 냉기 속성 피해를 줍니다. 적중 대상은 침수 상태가 됩니다.",
+        "areadata": [
+          4,5,6
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "재 정비 프로토콜",
+        "img": "TeamDefBuff",
+        "range": 6,
+        "description": "지정 범위의 아군을 재 정비해, 해로운 효과를 해제하며 AP / 적중 / 효과 저항을 올려줍니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "방수 장갑",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "냉기 / 효과 저항이 증가하며, 받는 피해가 감소합니다. 침수 상태인 경우, 제어를 상실해 회피 / 행동력이 크게 증가하지만 적중이 크게 감소합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "누수",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "description": "처치될 경우, 범위 내에 있는 대상들을 침수 상태로 만들며 행동력과 AP를 감소시킵니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      }
+    ]
+  },
+  {
+    "name": "썬더 칙",
+    "img": "",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "스턴 샷",
+        "img": "Shock",
+        "range": 4,
+        "description": "지정 대상에게 <span id='askillpower1'></span> 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피 / 전기 저항이 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 일정 확률로 행동 불가가 됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "일렉트릭 쇼크",
+        "img": "WideLightning",
+        "range": 6,
+        "description": "지정 범위에 <span id='askillpower1'></span> 보호 무시 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피가 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 받는 피해 감소 상태를 해제합니다.",
+        "areadata": [
+          4,5,6
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "과충전",
+        "img": "Shock",
+        "range": 0,
+        "description": "전기 속성 공격을 맞을 경우, 과충전 상태가 되어 공격력 / 적중 / 회피 / AP / 행동력이 크게 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "방전",
+        "img": "Shock",
+        "range": 0,
+        "description": "공격 시, 자신이 침수 상태인 경우 방전으로 인한 고정 피해를 입습니다. 침수 상태로 처치될 경우, 범위 내 대상들에게 전기 피해를 줍니다. 해당 효과기 적용되는 대상이 침수 상태인 경우, 행동 불가가 됩니다.",
+        "areadata": [
+          2,4,5,6,8
         ]
       }
     ]
@@ -4114,6 +4264,56 @@ var enemyDataArr = [
         "img": "SelfAtkBuff",
         "range": 0,
         "description": "작열탄두를 장비해 경장형에게 주는 피해가 증가합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "빅 칙 실더",
+    "img": "",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "방패 연타",
+        "img": "ShieldWall",
+        "range": 3,
+        "description": "방패 연타로 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가하며, 높은 확률로 행동 불가 상태로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "칙 블로킹",
+        "img": "ShieldWall",
+        "range": 6,
+        "description": "방어 태세를 취해, 3라운드 동안 행 보호 / 열 보호 / 받는 피해 감소 / 효과 저항 증가 효과가 발생합니다. 자신의 HP가 25% 이하인 경우, 반격 효과가 추가됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "칙 방어 지휘",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "<칙 블로킹> 상태로 라운드 개시 시, 주변 아군에게 방어력 증가 / 받는 피해 감소 효과를 줍니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "칙 근성 발동",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "피격 시, 2라운드 동안 방어력 / 행동력이 증가합니다. 라운드 개시 시, <칙 근성 발동> 방어 증가 효과가 5회 이상이면 전투 속행 효과가 추가됩니다. 전투 속행 발동 시, 2라운드 동안 최소 피해만 받지만 지속 고정 피해를 입으며 방어막과 피해 감소 효과를 무시합니다.",
         "areadata": [
           5
         ]
