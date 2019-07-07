@@ -1111,7 +1111,7 @@ var enemyDataArr = [
         "name": "개조 기총 견제",
         "img": "ARShot",
         "range": 4,
-        "description": "견제 사격으로 대상에게 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 대상의 공격력 / 치명타 / 적중 / 행동력을 낮춥니다.",
+        "description": "견제 사격으로 대상에게 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 공격력 / 치명타 / 적중 / 행동력을 낮춥니다.",
         "areadata": [
           5
         ]
@@ -1133,7 +1133,7 @@ var enemyDataArr = [
         "name": "전열 방어 대형",
         "img": "TeamDefBuff",
         "range": 0,
-        "description": "자신이 전열에 있는 상태로 라운드 개시 시, 범위 내 아군을 지정 보호하며 대상의 AP를 증가시킵니다.",
+        "description": "자신이 전열에 있는 상태로 라운드 개시 시, 범위 내 아군을 지정 대상 보호하며 대상의 AP를 증가시킵니다.",
         "areadata": [
           2,6,8
         ]
@@ -4662,7 +4662,7 @@ var enemyDataArr = [
         "range": 0,
         "description": "<칙 블로킹> 상태로 라운드 개시 시, 주변 아군에게 방어력 증가 / 받는 피해 감소 효과를 줍니다.",
         "areadata": [
-          5
+          2,3,6,8,9
         ]
       },
       {

@@ -1,8 +1,13 @@
-window.onload  =  async function(){
+window.onload  =  async function() {
     var areaNum  =  getURLParameter('areanum');
-    var areaData = loadAreaData(areaNum);
-	document.title  =  areaNum+'지역'	;
-	$("#area_title").html(areaNum+'지역 철충 지도');
+    var areaData = await loadAreaData(areaNum);
+    var areaName = areaNum;
+    if(areaData.title!=undefined)
+    {
+    	areaName = areaData.title.slice(4);
+    }
+	document.title  =  areaName+'지역'	;
+	$("#area_title").html(areaName+'지역 철충 지도');
 	
 	drawArea(await areaData);
 	drawCanvas(await areaData);
@@ -27,7 +32,12 @@ function drawArea(areaData)
 		var data = areaData[stageType[j]+"stage"][i];
 		var index = getIndexByStageTitle(data.title);
 		var grid = getGridByStageData(data);
-		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+data.title+"</div></a>");
+		var name = data.title;
+		if(data.name!=undefined)
+		{
+			name = data.name;
+		}
+		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+name+"</div></a>");
 		//alert(stageTypeTitle[j]);
 		var stageBox = $("#"+stageType[j]+"stage"+index)[0];
 		var titleBox = $("#"+stageType[j]+"stage"+index+"+.title-container")[0];
@@ -60,13 +70,13 @@ function drawCanvas(areaData)
 	var canvas  =  document.getElementById("canvas");
 	var ctx  =  canvas.getContext("2d");
 	
-	var gridSize = [8,3];
-	if(typeof(areaData.gridSize)!= "undefined")
+	var gridsize = [8,3];
+	if(typeof(areaData.gridsize)!= "undefined")
 	{
-		gridSize = areaData.gridSize;
+		gridsize = areaData.gridsize;
 	}
 	canvas.width = Math.max($("#canvas").parent().width(), 540);
-	var unit = canvas.width/gridSize[0];
+	var unit = canvas.width/gridsize[0];
 	canvas.height = (0.55*(3+0.5))*unit;
 	document.getElementById("canvas-container").style.height = canvas.height+"px";
 	ctx.fillStyle  =  "black";
@@ -164,7 +174,6 @@ function getGridByStageData(stageData)
 	}
 	return grid;
 }
-
 
 
 

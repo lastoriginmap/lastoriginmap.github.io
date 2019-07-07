@@ -29,18 +29,24 @@ function drawPage(stageLoadData, imgData)
 	var stageData = stageLoadData.stageData;
 	var stageList = stageLoadData.stageList;
 
+	var stageName = stageData.title;
+	if(stageData.name!=undefined)
+	{
+		stageName = stageData.name;
+	}
+	
 	//문서 제목
-	document.title = stageData.title+' 스테이지 정보';
+	document.title = stageName+' 스테이지 정보';
 	//뒤로가기 버튼, 상단 제목
 	if(stageData.title.includes("Daily"))
 	{
 		$("a.btn-back").attr("href", "index.html");
-		$('#stage-title').html(stageData.name);
+		$('#stage-title').html(stageName);
 	}
 	else
 	{
 		$("a.btn-back").attr("href", "area.html?areanum="+getAreaByStageTitle(stageData.title));
-		$('#stage-title').html(stageData.title+' 스테이지');
+		$('#stage-title').html(stageName+' 스테이지');
 	}
 	
 	//스테이지 화살표 설정
