@@ -1269,7 +1269,7 @@ var enemyDataArr = [
         "name": "회피 견제 사격",
         "img": "ARShot",
         "range": 5,
-        "description": "기총 사격으로 <span id='askillpower1'></span> 피해를 주고, 대상을 표식으로 설정해 회피를 낮추고 받는 피해를 증가시킵니다. 회피 감소 효과는 기동형에게 3배로 적용됩니다.",
+        "description": "기총 사격으로 <span id='askillpower1'></span> 피해를 주고, 대상을 표식으로 설정해 회피를 낮추고 받는 피해를 증가시킵니다. 회피 감소 효과는 기동형에게 2배로 적용됩니다.",
         "areadata": [
           5
         ]
