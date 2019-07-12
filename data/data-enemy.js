@@ -829,7 +829,7 @@ var enemyDataArr = [
         "type": "active",
         "name": "일렉트릭 쇼크",
         "img": "WideLightning",
-        "range": 6,
+        "range": 1,
         "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피가 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 받는 피해 감소 상태를 해제합니다.",
         "areadata": [
           4,5,6
