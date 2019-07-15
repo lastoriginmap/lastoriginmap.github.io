@@ -1280,7 +1280,7 @@ var enemyDataArr = [
         "name": "대공 기총 난사",
         "img": "WideBeamShot",
         "range": 3,
-        "description": "기총을 난사해 <span id='askillpower2'></span> 피해를 주고, 대상들의 회피를 낮춥니다. 대상이 기동형인 경우 피해량이 증가하고, 회피 감소 효과가 3배로 적용되며 회피 증가 효과를 해제합니다.",
+        "description": "기총을 난사해 <span id='askillpower2'></span> 피해를 주고, 대상들의 회피를 낮춥니다. 대상이 기동형인 경우 피해량이 증가하고, 회피 감소 효과가 2배로 적용되며 회피 증가 효과를 해제합니다.",
         "areadata": [
           1,4,5,7
         ]
