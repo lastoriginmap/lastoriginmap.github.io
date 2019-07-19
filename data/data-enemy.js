@@ -966,9 +966,9 @@ var enemyDataArr = [
         "name": "진동 분쇄탄",
         "img": "SelfDefDeBuff",
         "range": 4,
-        "description": "진동 분쇄탄으로 지정 범위에 <span id='askillpower2'></span> 피해를 주고, 방어력 증가와 받는 피해 감소 효과를 해제합니다. 대상이 방어력 감소 상태면 공격력에 비례한 고정 피해를 줍니다.",
+        "description": "진동 분쇄탄으로 지정 범위에 <span id='askillpower2'></span> 피해를 주고, 방어력 증가와 받는 피해 감소 효과를 해제합니다. 대상이 방어력 감소 상태면 피해량이 크게 증가합니다.",
         "areadata": [
-          4,5,6
+          4,5
         ]
       },
       {
