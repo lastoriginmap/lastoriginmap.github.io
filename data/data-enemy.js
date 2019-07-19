@@ -4100,6 +4100,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "엘리트 레기온",
+    "img": "Legion",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "파쇄 미니건",
+        "img": "MGShot",
+        "range": 5,
+        "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 / 이동 불가 상태면 피해량이 증가하며, 대상의 피해 감소 효과를 해제합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "포획탄 발사",
+        "img": "SelfSpdDeBuff",
+        "range": 5,
+        "description": "포획탄을 발사해 <span id='askillpower2'></span> 피해를 주고, 3라운드 동안 대상을 이동 불가 / 행동력 감소 / 회피 감소 상태로 만듭니다. 대상이 표식 상태면 일정 확률로 강화 효과를 해제합니다. 스킬 사용 시, 3라운드 동안 자신의 행동력이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "상황 대응",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "아군 중 HP가 25% 이하인 대상이 있는 경우, 대상의 행동력을 증가시키며 대상의 공격을 지원합니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "조준 공유 시스템",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "description": "인접 아군의 적중이 증가합니다. 자신이 처치될 경우, 해당 효과를 받는 아군들의 적중 증가 효과를 해제하고 적중을 감소시킵니다.",
+        "areadata": [
+          2,4,6,8
+        ]
+      }
+    ]
+  },
+  {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
     "skills": [
