@@ -584,6 +584,56 @@ var enemyDataArr = [
     ]
   },
   {
+    "name": "테스투도",
+    "img": "Testudo",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "무장 파괴",
+        "img": "ARShot",
+        "range": 4,
+        "description": "대상에게 <span id='askillpower1'></span> 피해를 주고, 일정 확률로 3라운드 동안 공격력 / 치명타 / 적중을 낮춥니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "진형 사수",
+        "img": "DefCounter",
+        "range": 6,
+        "description": "3라운드 동안 방어막 / 행 보호가 적용되며 받는 피해가 감소합니다. 해당 상태에서 공격받으면 반격합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "방진 전개",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "전투 개시 시 열 보호 효과가 적용되며, 3라운드 동안 범위 내 아군이 받는 피해가 크게 감소합니다.",
+        "areadata": [
+          2,3,5,6,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "출력 오버로드",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "description": "아군이 처치될 때마다 방어력이 증가합니다. 아군이 5기 이상 처치되면 공격 능력이 대폭 증가하며, 방어막과 피해 감소 효과를 무시하지만 지속 고정 피해를 입습니다. 해당 상태에서 처치될 경우, <방진 전개> 범위 안에 있는 아군에게 괴멸적인 고정 피해를 줍니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
     "name": "센츄리온",
     "img": "Centurion",
     "skills": [
@@ -1261,7 +1311,7 @@ var enemyDataArr = [
   },
   {
     "name": "대공용 AMG-11",
-    "img": "AMG11_AA",
+    "img": "AMG11AA",
     "skills": [
       {
         "title": "askill1",
