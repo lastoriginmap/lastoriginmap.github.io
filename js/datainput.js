@@ -77,7 +77,7 @@ async function submitArea(overide=false)
 		el.textContent = "현재 웨이브: ";
 	});
 	console.log("Submit area"+area);
-	document.getElementById("input-result").value = JSON.stringify(obj, null, 4);
+	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
 function submitStage()
@@ -119,7 +119,7 @@ function submitStage()
 		el.disabled = false;
 	});
 	console.log("Submit Stage "+title);
-	document.getElementById("input-result").value = JSON.stringify(obj, null, 4);
+	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
 function submitWave()
@@ -161,7 +161,7 @@ function submitWave()
 	Array.from(document.querySelectorAll("#form-enemy input")).forEach(el=>{
 		el.disabled = false;
 	});
-	document.getElementById("input-result").value = JSON.stringify(obj, null, 4);
+	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
 function submitEnemy()
@@ -226,7 +226,7 @@ function submitEnemy()
 		throw "Overlapped Enemy Position";
 	}
 	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
-	document.getElementById("input-result").value = JSON.stringify(obj, null, 4);
+	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	
 	var newEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
 	alert("Lv. "+newEnemy.LVL+" "+newEnemy.name+" 추가\n pos: "+newEnemy.pos);
@@ -260,7 +260,7 @@ function addDatalist(element, arr)
 function saveFile(data, fileName)
 {
 	var a = document.getElementById("download-dummy");
-	var json = "var areaData = "+JSON.stringify(data, null, 4)+";";
+	var json = "var areaData = "+JSON.stringify(data, null, 2)+";";
 	var blob = new Blob([json], {type: "octet/stream"});
 	var url = window.URL.createObjectURL(blob);
 	a.href = url;
