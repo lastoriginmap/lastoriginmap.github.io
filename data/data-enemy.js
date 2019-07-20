@@ -1496,6 +1496,56 @@ var enemyDataArr = [
   ]
 },
 {
+  "name": "기간테스 커스텀",
+  "img": "GigantesC",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "너클 버스터",
+      "img": "MeleeAttack",
+      "range": 1,
+      "description": "대상을 강타해 <span id='askillpower1'></span> 피해를 주고 뒤로 한 칸 밉니다. 자신의 HP %가 낮을수록 피해량이 증가하며, 25% 이하인 경우 방어막과 피해 감소 효과를 무시합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "차지 스매시",
+      "img": "AssaultAttack",
+      "range": 2,
+      "description": "대상을 밀쳐 <span id='askillpower2'></span> 피해를 주고 뒤로 2칸 날립니다. 피격 대상은 AP가 감소합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "개량형 방어 OS",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "자신이 공격하기 전까지는 방어력과 효과 저항이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "거점 순찰",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "인접한 보호기 제외 아군을 보호하며 대상의 행동력을 증가시킵니다.",
+      "areadata": [
+        2,4,5,6,8
+      ]
+    }
+  ]
+},
+{
   "name": "양산형 셀주크",
   "img": "Seljuq",
   "skills": [
@@ -1538,6 +1588,66 @@ var enemyDataArr = [
       "img": "SelfAtkBuff",
       "range": 0,
       "description": "대 보병 고폭탄을 장전해, 경장형에게 주는 피해가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "셀주크 커스텀",
+  "img": "SeljuqA",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "산탄 포격",
+      "img": "CannonShotWide",
+      "range": 4,
+      "description": "지정 범위에 <span id='askillpower1'></span> 피해를 줍니다. 대상이 방어 감소 또는 이동 불가 상태면 피해량이 크게 증가합니다.",
+      "areadata": [
+        1,
+        4,5,
+        7
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "확산형 곡사포",
+      "img": "CannonShotDelay",
+      "range": 5,
+      "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 피해를 줍니다. 목표 지점 주변은 피해가 75%만 적용되며, 대상이 경장형 또는 기동형이면 피해량이 크게 증가합니다.",
+      "areadata": [
+        0,
+        0.75,
+        0,
+        0.75,
+        1,
+        0.75,
+        0,
+        0.75,
+        0
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "포격 보정",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "공격 시, 적의 움직임을 분석해 적중과 치명타가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "증가 장갑",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "전투 개시 시, 방어력이 크게 증가합니다. 해당 효과는 5회 피격되거나 전기 속성 공격을 맞으면 해제됩니다.",
       "areadata": [
         5
       ]
@@ -1761,6 +1871,67 @@ var enemyDataArr = [
         "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
         "areadata": [
           5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "센츄리온 제너럴",
+    "img": "CenturionG",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "집속 연장 미사일",
+        "img": "MultiMissile",
+        "range": 6,
+        "description": "지정 범위에 <span id='askillpower1'></span> 피해를 주고, 3라운드 동안 대상을 표식 / 받는 피해 증가 상태로 만들고 AP를 감소시킵니다. 일정 확률로 적중 대상의 강화 효과를 해제합니다.",
+        "areadata": [
+        2,4,5,6,8
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "출력 한도 해제",
+        "img": "TeamAtkBuff",
+        "range": 6,
+        "description": "주변 아군의 공격력 / 치명타 / 행동력을 증가시키고 방어막과 받는 피해 감소 무시 효과를 부여합니다. 해당 효과를 받은 대상은 지속 고정 피해를 입습니다.",
+        "areadata": [
+          1,2,3,4,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "전황 분석",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "description": "피격 시, 모든 아군의 AP가 증가하며 2라운드 동안 효과 저항이 대폭 증가합니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "현장 수습",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "아군이 처치될 경우, 일정 라운드 동안 반격하며 주변 아군과 자신이 받는 피해가 감소하고 행동력이 증가합니다.",
+        "areadata": [
+          2,4,5,6,8
+        ]
+      },
+      {
+        "title": "pskill3",
+        "type": "passive",
+        "name": "지휘 중추 상실",
+        "img": "TeamSpdDeBuff",
+        "range": 0,
+        "description": "자신이 처치될 경우, 모든 아군의 공격력 / 치명타 / 적중 /행동력이 크게 감소하며 받는 피해가 증가합니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
         ]
       }
     ]
