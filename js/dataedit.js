@@ -1,4 +1,5 @@
 var obj = {};
+var enemyIMGData = {};
 
 window.onload = async function() {
 	var formArea = document.getElementById("form-area");
@@ -8,8 +9,8 @@ window.onload = async function() {
 	var inputResult = document.getElementById("input-result");
 	var formResult = document.getElementById("form-result");
 	
+	enemyIMGData = await loadEnemyIMGData();
 	var nameList = document.getElementById("name-list");
-	var enemyIMGData = await loadEnemyIMGData();
 	var enemyNameData = enemyIMGData.map(data=>data.name);
 	addDatalist(nameList, enemyNameData);
 	
@@ -19,8 +20,8 @@ window.onload = async function() {
 	
 	formArea.addEventListener("submit", async e=>{ e.preventDefault(); await submitArea(); }, false);
 	formStage.addEventListener("submit", e=>{ e.preventDefault(); submitStage(); }, false);
-	formWave.addEventListener("submit", async e=>{ e.preventDefault(); submitWave(await enemyIMGData); }, false);
-	formEnemy.addEventListener("submit", async e=>{ e.preventDefault(); submitEnemy(await enemyIMGData); }, false);
+	formWave.addEventListener("submit", async e=>{ e.preventDefault(); await submitWave(); }, false);
+	formEnemy.addEventListener("submit", async e=>{ e.preventDefault(); await submitEnemy(); }, false);
 	formResult.addEventListener("submit", e=>{ setObj(inputResult.value); e.preventDefault(); }, false);
 	inputResult.addEventListener("focus", e=>{
 		e.preventDefault();
@@ -122,7 +123,7 @@ function submitStage()
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
-async function submitWave(enemyIMGData)
+async function submitWave()
 {
 	var stageTitle = document.getElementsByClassName("current-stage")[0].textContent.slice(9);
 	if(!stageTitle) { alert("지역과 스테이지를 먼저 입력하세요!"); throw "No stageTitle";}
@@ -162,10 +163,10 @@ async function submitWave(enemyIMGData)
 		el.disabled = false;
 	});
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
-	drawStageMap([type, stageTitle, wave], enemyIMGData);
+	drawStageMap([type, stageTitle, wave]);
 }
 
-function submitEnemy(enemyIMGData)
+function submitEnemy()
 {
 	var objEnemy = {};
 	var stageTitle = document.getElementsByClassName("current-stage")[0].textContent.slice(9);
@@ -244,12 +245,16 @@ function submitEnemy(enemyIMGData)
 				}
 			}
 		}
+		else
+		{
+			throw "Overlapped pos";
+		}
 	}
 	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	
 	var newEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
-	drawStageMap([type, stageTitle, wave], enemyIMGData);
+	drawStageMap([type, stageTitle, wave]);
 }
 
 function setObj(str)
@@ -260,11 +265,39 @@ function setObj(str)
 		document.getElementById("error-message").textContent = "";
 		
 		document.getElementById("input-area").value = obj.title.slice(4);
+		var stage = document.getElementById("input-stage").value;
+		var prevstage = document.getElementById("input-prevstage").value;
+		var type = "";
+		var prevtype = "";
+		Array.from(document.getElementsByName("stage-type")).forEach(el=>{
+			if(el.checked) { type = el.value }
+		});
+		Array.from(document.getElementsByName("prevstage-type")).forEach(el=>{
+			if(el.checked) { prevtype = el.value }
+		});
+		var wave = document.getElementById("input-wave").value;
+		
 		submitArea(true);
+		
+		document.getElementById("input-stage").value = stage;
+		document.getElementById("input-prevstage").value = prevstage;
+		Array.from(document.getElementsByName("stage-type")).forEach(el=>{
+			if(el.value==type) { el.checked=true; }
+			else { el.checked=false; }
+		});
+		Array.from(document.getElementsByName("prevstage-type")).forEach(el=>{
+			if(el.value==prevtype) { el.checked=true; }
+			else { el.checked=false; }
+		});
+		submitStage();
+		
+		document.getElementById("input-wave").value = wave;
+		submitWave();
 	}
-	catch
+	catch(e)
 	{
 		document.getElementById("error-message").textContent = "Invalid JSON!";
+		console.log(e);
 	}
 }
 
@@ -363,7 +396,7 @@ function autoFill()
 	}
 }
 
-function drawStageMap(param, imgData)
+function drawStageMap(param)
 {
 	var waveData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1];
 	for(let i=0;i<9;i++)
@@ -392,7 +425,7 @@ function drawStageMap(param, imgData)
 				var enemyName=waveData.enemy[j].name;
 			}
 			//이름에 해당되는 이미지 찾기
-			var imgName=imgData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
+			var imgName=enemyIMGData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
 			//해당 위치에 적 이름과 사진, 링크 추가
 			$('.current-wave-map > div:nth-of-type('+((row-1)*3+column)+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+imgName+'.png\" /><p>'+enemyName+'</p></div>');
 			var param2 = param.concat(j);
