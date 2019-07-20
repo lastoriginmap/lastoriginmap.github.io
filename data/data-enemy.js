@@ -3889,6 +3889,119 @@ var enemyDataArr = [
   ]
 },
   {
+    "name": "로크 (최대 충전)",
+    "img": "RocC_Charge",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "S. 블리츠 스톰",
+        "img": "WideLightning",
+        "range": 6,
+        "description": "지정 범위에 <span id='askillpower1'></span> 보호 무시 전기 속성 피해를 주고 AP / 회피 / 행동력 / 전기 저항을 낮춥니다. 목표 지점 주변은 피해량이 50% 감소합니다. <전하 충전> 중첩을 2 사용합니다.",
+        "areadata": [
+			0,0.5,0,
+			0.5,1,0.5,
+			0,0.5,0
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "H. 유피텔 스트라이크",
+        "img": "AssaultAttack",
+        "range": 6,
+        "description": "지정 대상에게 <span id='askillpower2'></span> 보호 무시 전기 속성 피해를 주고 일정 확률로 행동 불가 상태로 만들며 강화 효과를 해제합니다. <전하 충전> 중첩을 5 사용하며, 치명타 시 피해량이 증가합니다.",
+        "areadata": [
+			5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "전자기파 파장",
+        "img": "SelfSpdBuff",
+        "range": 0,
+        "description": "라운드 개시 시, <전하 충전> 중첩 수에 비례해 회피가 증가합니다. 적 공격 회피 시, 반격합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "전하 최대 충전",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "description": "<전하 충전> 중첩이 5 이상인 경우, 방어막 / 피해 감소 효과를 무시하며 적중과 치명타가 증가합니다. 해당 상태에서 냉기 속성 공격을 맞으면 강화 효과가 해제되며, 행동 불가 상태가 됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill3",
+        "type": "passive",
+        "name": "과충전 폭발",
+        "img": "SuiceideBomb",
+        "range": 0,
+        "description": "처치될 경우, 주변에 괴멸적인 고정 피해를 줍니다.",
+        "areadata": [
+          1,2,3,4,5,6,7,8,9
+        ]
+      }
+    ]
+  },
+  {
+    "name": "에너지 컨덴서",
+    "img": "RocCGenerator",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "전하 충전",
+        "img": "SelfAtkBuff",
+        "range": 6,
+        "description": "로크 (최대 충전)에게 에너지를 충전해 공격력과 AP를 높입니다.",
+        "areadata": [
+			1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "실드 충전",
+        "img": "SelfDefBuff",
+        "range": 6,
+        "description": "모든 아군에게 방어막을 부여합니다.",
+        "areadata": [
+			1,2,3,4,5,6,7,8,9
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "복원 시스템",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 전투 속행 효과가 적용됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "복원 대기",
+        "img": "SelfSpdBuff",
+        "range": 0,
+        "description": "전투 속행 효과 발동 시, 3라운드 동안 행동 불가 상태가 됩니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
     "name": "강화형 나이트 칙",
     "img": "NightChick",
     "skills": [
