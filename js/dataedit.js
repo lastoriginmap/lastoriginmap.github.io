@@ -19,8 +19,8 @@ window.onload = async function() {
 	
 	formArea.addEventListener("submit", async e=>{ e.preventDefault(); await submitArea(); }, false);
 	formStage.addEventListener("submit", e=>{ e.preventDefault(); submitStage(); }, false);
-	formWave.addEventListener("submit", e=>{ e.preventDefault(); submitWave(); }, false);
-	formEnemy.addEventListener("submit", e=>{ e.preventDefault(); submitEnemy(); }, false);
+	formWave.addEventListener("submit", async e=>{ e.preventDefault(); submitWave(await enemyIMGData); }, false);
+	formEnemy.addEventListener("submit", async e=>{ e.preventDefault(); submitEnemy(await enemyIMGData); }, false);
 	formResult.addEventListener("submit", e=>{ setObj(inputResult.value); e.preventDefault(); }, false);
 	inputResult.addEventListener("focus", e=>{
 		e.preventDefault();
@@ -34,7 +34,7 @@ window.onload = async function() {
 	});
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
-		saveFile(obj, "data-"+obj.title+".js");
+		saveFile(obj, "data-"+document.getElementById("input-area").value+".js");
 	}, false);
 	document.getElementById("auto-fill").addEventListener("click", e=>{
 		e.preventDefault();
@@ -122,7 +122,7 @@ function submitStage()
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
-function submitWave()
+async function submitWave(enemyIMGData)
 {
 	var stageTitle = document.getElementsByClassName("current-stage")[0].textContent.slice(9);
 	if(!stageTitle) { alert("지역과 스테이지를 먼저 입력하세요!"); throw "No stageTitle";}
@@ -162,9 +162,10 @@ function submitWave()
 		el.disabled = false;
 	});
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
+	drawStageMap([type, stageTitle, wave], enemyIMGData);
 }
 
-function submitEnemy()
+function submitEnemy(enemyIMGData)
 {
 	var objEnemy = {};
 	var stageTitle = document.getElementsByClassName("current-stage")[0].textContent.slice(9);
@@ -212,24 +213,43 @@ function submitEnemy()
 	{
 		obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy=[];
 	}
-	var enemypos=[];
-	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.forEach(enemyElem=>{ 
-		enemyElem.pos.forEach(posElem=>{
-			var index=enemypos.findIndex(el=>el>posElem);
-			if(index==-1) { index= enemypos.length; }
-			enemypos.splice(index, 0, posElem);
-		});
-	});
-	if(objEnemy.pos.findIndex(newpos=>enemypos.indexOf(newpos)!=-1)!=-1)
+	var enemypos=obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
+	var overlapped=false;
+	var overlappedpos=[];
+	for(let i=0;i<enemypos.length;i++)
 	{
-		alert("중복된 위치입니다!");
-		throw "Overlapped Enemy Position";
+		for(let j=0;j<enemypos[i].length;j++)
+		{
+			if(objEnemy.pos.findIndex(el=>el==enemypos[i][j])!=-1)
+			{
+				overlapped=true;
+				overlappedpos.push([i,j]);
+			}
+		}
+	}
+	if(overlapped)
+	{
+		var overwrite=confirm("중복된 위치입니다!\n덮어쓰시겠습니까?");
+		if(overwrite)
+		{
+			for(let i=0;i<overlappedpos.length;i++)
+			{
+				if(obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
+				{
+					obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
+				}
+				else
+				{
+					obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
+				}
+			}
+		}
 	}
 	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	
 	var newEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
-	alert("Lv. "+newEnemy.LVL+" "+newEnemy.name+" 추가\n pos: "+newEnemy.pos);
+	drawStageMap([type, stageTitle, wave], enemyIMGData);
 }
 
 function setObj(str)
@@ -341,4 +361,57 @@ function autoFill()
 	{
 		alert("데이터 없음");
 	}
+}
+
+function drawStageMap(param, imgData)
+{
+	var waveData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1];
+	for(let i=0;i<9;i++)
+	{
+		$('.current-wave-map > div').html('');
+	}
+	
+	for(let j=0;j<waveData.enemy.length;j++)
+	{
+		//같은 종류의 철충이 여러 위치에 있으면 전부 그림
+		for(let k=0;k<waveData.enemy[j].pos.length;k++)
+		{
+			//현재 철충 위치
+			var pos = waveData.enemy[j].pos[k];
+			//PC 키패드 숫자로 표시된 위치를 핸드폰 숫자 위치로 변환
+			var row=3-parseInt((pos-1)/3);
+			var column=pos-parseInt((pos-1)/3)*3;
+	
+			//적 이름
+			if(waveData.enemy[j].nickname)
+			{
+				var enemyName=waveData.enemy[j].nickname;
+			}
+			else
+			{
+				var enemyName=waveData.enemy[j].name;
+			}
+			//이름에 해당되는 이미지 찾기
+			var imgName=imgData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
+			//해당 위치에 적 이름과 사진, 링크 추가
+			$('.current-wave-map > div:nth-of-type('+((row-1)*3+column)+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+imgName+'.png\" /><p>'+enemyName+'</p></div>');
+			var param2 = param.concat(j);
+			$('.cell'+pos).on('click', {param:param2}, e => { loadEnemyStat(e.data.param); });
+		}
+	}
+}
+
+function loadEnemyStat(param)
+{
+	var enemyStatData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1].enemy[param[3]];
+	document.getElementById("input-name").value = enemyStatData.name;
+	document.getElementById("input-LVL").value = enemyStatData.LVL;
+	document.getElementById("input-HP").value = enemyStatData.HP;
+	document.getElementById("input-ATK").value = enemyStatData.ATK;
+	document.getElementById("input-DEF").value = enemyStatData.DEF;
+	document.getElementById("input-AGI").value = enemyStatData.AGI;
+	document.getElementById("input-CRT").value = enemyStatData.CRT;
+	document.getElementById("input-HIT").value = enemyStatData.HIT;
+	document.getElementById("input-DOD").value = enemyStatData.DOD;
+	document.getElementById("input-skill").value = enemyStatData.skillpower;
 }

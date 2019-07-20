@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.current-wave-map {
+    width: 85vw;
+    height: 85vw;
+    margin: 2.5vw 7.5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+}
+
+.current-wave-map div {
+	display: flex;
+	width: 27vw;
+	height: 27vw;
+	border-radius: 5%;
+	background-color: rgb(200,200,200);
+}
+
+.current-wave-map .cell {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.current-wave-map div img {
+	width: 50%;
+}
+
+.current-wave-map div p {
+	word-break: keep-all;
+	text-align: center;
+	margin: 0;
+}
+
+@media (min-width: 540px) {
+	.carousel-wrap {
+		width: 540px;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	
+	.current-wave-map {
+		width: 460px;
+		height: 460px;
+		margin: 40px 40px;
+		grid-gap: 5px;
+	}
+	
+	.current-wave-map div {
+		width: 150px;
+		height: 150px;
+	}
+}

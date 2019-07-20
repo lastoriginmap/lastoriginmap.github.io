@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <title>철충 정보 입력기</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/dataedit.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/datainput.js"></script>
+    <script src="js/dataedit.js"></script>
     <style>
     	table, th, td {
     		border: 1px solid #bcbcbc;
@@ -20,14 +21,14 @@
 <body>
 	<div class="container">
 		<header>
-			<h2 id="title">라스트 오리진 철충 지도 데이터 입력 보조기 v0.1</h2>
-			<p>본 페이지는 철충 지도의 제작 보조용으로만 사용되고 있습니다. 입력기에 대한 요청이나 제보는 받지 않습니다.</p>
+			<h2 id="title">라스트 오리진 철충 지도 데이터 편집기 v0.2</h2>
+			<p>본 페이지는 철충 지도의 제작 보조용으로만 사용되고 있습니다. 편집기에 대한 요청이나 제보는 받지 않습니다.</p>
 		</header>
 		<section>
 			<hr>
 			<form id="form-area">
 				<label for="input-area">지역: </label>
-				<input type="number" autocomplete="off" id="input-area"><br >
+				<input type="text" autocomplete="off" id="input-area"><br >
 				<input type="submit" value="지역 입력">
 			</form>
 			<hr>
@@ -56,6 +57,11 @@
 			<form id="form-enemy">
 				<div class="current-stage">현재 스테이지: </div>
 				<div class="current-wave">현재 웨이브: </div>
+				<div class="current-wave-map">
+					<div></div><div></div><div></div>
+					<div></div><div></div><div></div>
+					<div></div><div></div><div></div>
+				</div>
 				<label for="input-name">철충 이름:</label>
 				<input type="text" id="input-name" list="name-list" autocomplete="off"><br >
 				<datalist id="name-list"><br >
