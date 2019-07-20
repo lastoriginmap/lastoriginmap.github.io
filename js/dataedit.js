@@ -398,38 +398,41 @@ function autoFill()
 
 function drawStageMap(param)
 {
-	var waveData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1];
 	for(let i=0;i<9;i++)
 	{
 		$('.current-wave-map > div').html('');
 	}
 	
-	for(let j=0;j<waveData.enemy.length;j++)
+	var waveData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1];
+	if(waveData.enemy)
 	{
-		//같은 종류의 철충이 여러 위치에 있으면 전부 그림
-		for(let k=0;k<waveData.enemy[j].pos.length;k++)
+		for(let j=0;j<waveData.enemy.length;j++)
 		{
-			//현재 철충 위치
-			var pos = waveData.enemy[j].pos[k];
-			//PC 키패드 숫자로 표시된 위치를 핸드폰 숫자 위치로 변환
-			var row=3-parseInt((pos-1)/3);
-			var column=pos-parseInt((pos-1)/3)*3;
-	
-			//적 이름
-			if(waveData.enemy[j].nickname)
+			//같은 종류의 철충이 여러 위치에 있으면 전부 그림
+			for(let k=0;k<waveData.enemy[j].pos.length;k++)
 			{
-				var enemyName=waveData.enemy[j].nickname;
+				//현재 철충 위치
+				var pos = waveData.enemy[j].pos[k];
+				//PC 키패드 숫자로 표시된 위치를 핸드폰 숫자 위치로 변환
+				var row=3-parseInt((pos-1)/3);
+					var column=pos-parseInt((pos-1)/3)*3;
+		
+				//적 이름
+				if(waveData.enemy[j].nickname)
+				{
+					var enemyName=waveData.enemy[j].nickname;
+				}
+				else
+				{
+					var enemyName=waveData.enemy[j].name;
+				}
+				//이름에 해당되는 이미지 찾기
+				var imgName=enemyIMGData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
+				//해당 위치에 적 이름과 사진, 링크 추가
+				$('.current-wave-map > div:nth-of-type('+((row-1)*3+column)+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+imgName+'.png\" /><p>'+enemyName+'</p></div>');
+				var param2 = param.concat(j);
+				$('.cell'+pos).on('click', {param:param2}, e => { loadEnemyStat(e.data.param); });
 			}
-			else
-			{
-				var enemyName=waveData.enemy[j].name;
-			}
-			//이름에 해당되는 이미지 찾기
-			var imgName=enemyIMGData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
-			//해당 위치에 적 이름과 사진, 링크 추가
-			$('.current-wave-map > div:nth-of-type('+((row-1)*3+column)+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+imgName+'.png\" /><p>'+enemyName+'</p></div>');
-			var param2 = param.concat(j);
-			$('.cell'+pos).on('click', {param:param2}, e => { loadEnemyStat(e.data.param); });
 		}
 	}
 }
