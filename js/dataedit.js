@@ -34,7 +34,7 @@ window.onload = async function() {
 	});
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
-		saveFile(obj, "data-"+document.getElementById("input-area").value+".js");
+		saveFile(obj, "data-area"+document.getElementById("input-area").value+".js");
 	}, false);
 	document.getElementById("auto-fill").addEventListener("click", e=>{
 		e.preventDefault();
