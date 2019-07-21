@@ -1,5 +1,5 @@
 var areaData = {
-  "title": "areaEv23",
+  "title": "areaEv3",
   "areatype": "grid",
   "gridsize": [
     8,
@@ -8,6 +8,7 @@ var areaData = {
   "mainstage": [
     {
       "title": "Ev23-1",
+      "name": "Ev3-1",
       "wave": [
         {
           "title": "wave1",
@@ -269,6 +270,7 @@ var areaData = {
     },
     {
       "title": "Ev23-2",
+      "name": "Ev3-2",
       "prevstage": "Ev23-1",
       "wave": [
         {
@@ -533,6 +535,7 @@ var areaData = {
     },
     {
       "title": "Ev23-3",
+      "name": "Ev3-3",
       "prevstage": "Ev23-2",
       "wave": [
         {
@@ -751,6 +754,7 @@ var areaData = {
     },
     {
       "title": "Ev23-4",
+      "name": "Ev3-4",
       "prevstage": "Ev23-3",
       "wave": [
         {
@@ -1074,6 +1078,7 @@ var areaData = {
     },
     {
       "title": "Ev23-5",
+      "name": "Ev3-5",
       "prevstage": "Ev23-4",
       "wave": [
         {
@@ -1296,6 +1301,7 @@ var areaData = {
     },
     {
       "title": "Ev23-6",
+      "name": "Ev3-6",
       "prevstage": "Ev23-5",
       "wave": [
         {
@@ -1588,6 +1594,7 @@ var areaData = {
     },
     {
       "title": "Ev23-7",
+      "name": "Ev3-7",
       "prevstage": "Ev23-6",
       "wave": [
         {
@@ -1960,6 +1967,7 @@ var areaData = {
     },
     {
       "title": "Ev23-8",
+      "name": "Ev3-8",
       "prevstage": "Ev23-7",
       "wave": [
         {
@@ -2030,6 +2038,7 @@ var areaData = {
   "bstage": [
     {
       "title": "Ev23-1B",
+      "name": "Ev3-1s",
       "prevstage": "Ev23-1",
       "wave": [
         {
@@ -2292,6 +2301,7 @@ var areaData = {
     },
     {
       "title": "Ev23-2B",
+      "name": "Ev3-2s",
       "prevstage": "Ev23-1B",
       "wave": [
         {
@@ -2598,6 +2608,7 @@ var areaData = {
     },
     {
       "title": "Ev23-3B",
+      "name": "Ev3-3s",
       "prevstage": "Ev23-2B",
       "wave": [
         {
@@ -2928,6 +2939,7 @@ var areaData = {
     },
     {
       "title": "Ev23-4B",
+      "name": "Ev3-4s",
       "prevstage": "Ev23-3B",
       "wave": [
         {
