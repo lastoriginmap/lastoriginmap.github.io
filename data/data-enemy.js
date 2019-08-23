@@ -5294,5 +5294,538 @@ var enemyDataArr = [
       ]
     }
   ]
+},
+{
+  "name": "까망베르",
+  "img": "Undine",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "2연장 리볼버 캐논",
+      "img": "MGShot",
+      "range": 3,
+      "description": "리볼버 캐논으로 단일 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상을 도발하며 적중을 감소시킵니다. 대상이 방어력 감소 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "F.F 미사일",
+      "img": "Missile",
+      "range": 4,
+      "description": "날치 미사일로 <span id='askillpower2'></span> 피해를 줍니다. 대상의 받는 피해 감소 효과를 무시하며, 대상이 방어력 감소 상태이거나 경장형이면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "우향선회",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격 시, 회피가 증가하며 회피 감소 효과가 해제됩니다. 같은 열의 아래에 배치된 아군들에게 공격 지원 / 지정 대상 보호 / 회피 증가 해제 효과를 부여합니다. 자신의 회피 증가 효과는 최대 2번까지 중첩됩니다.",
+      "areadata": [
+        2,5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "오만과 분노",
+      "img": "TeamSpdDeBuff",
+      "range": 0,
+      "description": "공격 회피 시, 공격력 / 치명타 / 적중 / 행동력이 무작위로 증가합니다. 자신이 적 처치 시, 모든 아군의 회피 증가 효과를 해제하며 회피가 감소하고 받는 피해가 증가합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    }
+  ]
+},
+{
+  "name": "퐁 레베크",
+  "img": "Undine",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "2연장 리볼버 캐논",
+      "img": "MGShot",
+      "range": 3,
+      "description": "리볼버 캐논으로 단일 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상을 방어력과 적중을 감소시킵니다. 대상이 도발 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "F.F 미사일",
+      "img": "Missile",
+      "range": 4,
+      "description": "날치 미사일로 <span id='askillpower2'></span> 피해를 줍니다. 대상의 방어력을 무시하며, 대상이 도발 상태 또는 중장형이면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "우향선회?",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격 시, 회피가 증가하며 회피 감소 효과가 해제됩니다. 양 옆에 배치된 아군들에게 공격 지원 / 지정 대상 보호 / 회피 증가 해제 효과를 부여합니다. 자신의 회피 증가 효과는 최대 2번까지 중첩됩니다.",
+      "areadata": [
+        2,8
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "오만과 분노",
+      "img": "TeamSpdDeBuff",
+      "range": 0,
+      "description": "공격 회피 시, 공격력 / 치명타 / 적중 / 행동력이 무작위로 증가합니다. 자신이 적 처치 시, 모든 아군의 회피 증가 효과를 해제하며 회피가 감소하고 받는 피해가 증가합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    }
+  ]
+},
+{
+  "name": "브리 드 모",
+  "img": "Undine",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "2연장 리볼버 캐논",
+      "img": "MGShot",
+      "range": 3,
+      "description": "리볼버 캐논으로 단일 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상을 회피와 적중을 감소시킵니다. 대상이 도발 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "F.F 미사일",
+      "img": "Missile",
+      "range": 4,
+      "description": "날치 미사일로 <span id='askillpower2'></span> 피해를 줍니다. 대상의 회피 강화 효과를 해제하며, 대상이 도발 상태 또는 기동형이면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "우향선회???",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격 시, 회피가 증가하며 회피 감소 효과가 해제됩니다. 같은 열 위에 배치된 아군들에게 공격 지원 / 지정 대상 보호 / 회피 증가 해제 효과를 부여합니다. 자신의 회피 증가 효과는 최대 2번까지 중첩됩니다.",
+      "areadata": [
+        5,8
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "오만과 분노",
+      "img": "TeamSpdDeBuff",
+      "range": 0,
+      "description": "공격 회피 시, 공격력 / 치명타 / 적중 / 행동력이 무작위로 증가합니다. 자신이 적 처치 시, 모든 아군의 회피 증가 효과를 해제하며 회피가 감소하고 받는 피해가 증가합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    }
+  ]
+},
+{
+  "name": "슈퍼 네리다!",
+  "img": "Nereid",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "벌집 만들기",
+      "img": "MGShot",
+      "range": 4,
+      "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상을 표식으로 설정하고 받는 피해를 증가시킵니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "무차별 난사",
+      "img": "MGWideShot",
+      "range": 4,
+      "description": "미니건을 난사해 대상에게 <span id='askillpower2'></span> 보호 무시 피해를 줍니다. 대상의 강화 효과를 해제하며, 치명타 시 피해량이 증가합니다.",
+      "areadata": [
+        1,4,5,7
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "덤벼덤벼!",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "자신의 남은 HP 비율이 적을수록 적에게 주는 피해가 증가하며, 받는 피해가 감소합니다. 효과 저항이 증가하며, HP 10% 이하 상태로 피격 시 반격합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "전투 과몰입",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "전투 불능이 될 경우, HP를 회복하고 전투를 속행합니다. 전투 속행 효과 발동 시, 공격력 / 적중 / 치명타 / 행동력이 증가하며 방어막과 피해 감소 효과를 무시합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "네리와 부하들",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "적 공격 시, 부하들에게 명령을 내려 공격력 / 적중 / AP를 증가시킵니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    }
+  ]
+},
+{
+  "name": "네리의 부하",
+  "img": "AMG11AA",
+  "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "공격 개시",
+        "img": "ARShot",
+        "range": 5,
+        "description": "기총 사격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 상태면 피해량이 증가하고, 회피를 감소시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "대공 기총 난사",
+        "img": "WideBeamShot",
+        "range": 1,
+        "description": "기총을 난사해 <span id='askillpower2'></span> 피해를 줍니다. 대상이 회피 감소 상태면 피해량이 증가하며, 강화 효과를 해제합니다.",
+        "areadata": [
+          1,4,5,7
+        ]
+      },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "대공 레이더 시스템",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 인접 아군에게 적중 / 치명타 / 대 기동형 피해량 증가 효과를 부여합니다.",
+      "areadata": [
+        1,2,3,4,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "시스템 과부하",
+      "img": "SelfAtkDeBuff",
+      "range": 0,
+      "description": "파괴되면 주변 아군에게 걸려있는 강화 효과를 해제합니다. 슈퍼 네리(?)의 재촉으로 인한 공격력 증가 효과가 3 중첩 이상일 경우, 라운드 개시 시 방어막 / 피해 감소 무시 효과가 부여됩니다.",
+      "areadata": [
+        2,4,5,6,8
+      ]
+    }
+    ]
+},
+{
+  "name": "다곤씨 (대여 중)",
+  "img": "GigantesD",
+  "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "심해의 분노",
+        "img": "MeleeAttack",
+        "range": 1,
+        "description": "대상을 강타해 <span id='askillpower1'></span> 보호 무시 피해를 줍니다. 대상의 방어력 / 방어막 / 피해 감소 효과를 무시합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "타이달 어썰트",
+        "img": "AssaultAttack",
+        "range": 2,
+        "description": "대상에게 돌격해 <span id='askillpower2'></span> 피해를 줍니다. 대상이 표식 상태면 강화 효과를 해제하고 행동 불가 상태로 만든 후, 뒤로 1칸 밀어냅니다.",
+        "areadata": [
+          5
+        ]
+      },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "심해의 거신",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "전투 개시 시 방어력 / 냉기 / 효과 저항이 크게 증가하며, 5라운드 동안 행 보호 / 받는 피해 감소 효과가 적용됩니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "보호 전환",
+      "img": "TeamDefBuff",
+      "range": 0,
+      "description": "공격 시, 2라운드 동안 범위 내에 있는 아군에게 지정 대상 보호 효과를 부여합니다.",
+      "areadata": [
+        2,3,8,9
+      ]
+    }
+    ]
+},
+{
+  "name": "문제아반 반장",
+  "img": "Sirene",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "57mm 대공포",
+      "img": "MGShot",
+      "range": 5,
+      "description": "대공포를 발사해 <span id='askillpower1'></span> 피해를 주고, 대상을 표식으로 설정해 받는 피해를 증가시키고 회피를 감소시킵니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "포격 지휘",
+      "img": "TeamAtkBuff",
+      "range": 4,
+      "description": "범위 내 아군의 AP / 행동력 / 효과 저항을 증가시키고, 대상에게 걸려있는 해로운 효과를 해제합니다. 추가로, 대상들의 공격을 지원합니다.",
+      "areadata": [
+        1,2,3,4,5,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "협차 사격",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "공격 시, 범위 내 아군들의 적중 / 치명타 / 방어 관통을 증가시킵니다.",
+      "areadata": [
+        1,2,3,4,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "요격 모드",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "전투 개시 시, AP가 증가하며 받는 피해가 감소합니다. 아군이 처치될 경우, AP가 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "관측 포격",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 공격 지원을 받는 상태면 적중 / 치명타가 증가합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "그럼요~",
+  "img": "SireneCannon",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "203mm 연장포",
+      "img": "CannonShot",
+      "range": 5,
+      "description": "직사 포격으로 지정 범위에 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 / 이동 불가 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5,8
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "초토화 포격",
+      "img": "TeamAtkBuff",
+      "range": 4,
+      "description": "포격 연사로 지정 범위에 <span id='askillpower1'></span> 보호 무시 피해를 줍니다. 목표 지점 주변은 피해량이 25% 감소하며, 대상이 경장 / 중장형이면 피해량 증가하며 1칸 뒤로 밉니다. 스킬 사용 시, 2라운드 동안 행동 불가가 됩니다.",
+      "areadata": [
+        0.75,0.75,0.75,0.75,1,0.75,0.75,0.75,0.75
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "협차 사격",
+      "img": "TeamAtkBuff",
+      "range": 0,
+      "description": "공격 시, 범위 내 아군들의 적중 / 치명타 / 방어 관통을 증가시킵니다.",
+      "areadata": [
+        1,2,3,4,6,7,8,9
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "포격 모드",
+      "img": "SelfSpdBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 공격력 / 방어 관통이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill3",
+      "type": "passive",
+      "name": "관측 포격",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "라운드 개시 시, 공격 지원을 받는 상태면 적중 / 치명타가 증가하며, 방어막 / 피해 감소 효과를 무시합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
+},
+{
+  "name": "그럼⋯요?",
+  "img": "Undine",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "2연장 리볼버 캐논",
+      "img": "MGShot",
+      "range": 3,
+      "description": "리볼버 캐논으로 단일 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상을 도발하며 공격력 / 치명타를 감소시킵니다. 대상이 표식 상태면 피해량이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "F.F 미사일",
+      "img": "Missile",
+      "range": 4,
+      "description": "날치 미사일로 <span id='askillpower2'></span> 방어 관통 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "우향선회?!",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "공격 시, 회피가 증가하며 회피 감소 효과가 해제됩니다. 같은 열에 인접한 보호기 제외 아군을 보호하며, 대상에게 공격 지원 / 적중 / 치명타 증가 효과를 부여합니다. 회피 증가 효과는 3회까지 중첩됩니다.",
+      "areadata": [
+        2,5,8
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "오만과 분노",
+      "img": "TeamSpdDeBuff",
+      "range": 0,
+      "description": "회피 시, 반격하며 회피 증가 효과가 해제됩니다. 회피 시, 주변에 있는 아군을 도발해 공격력 / 치명타를 증가시키지만 적중 감소 / 지정 보호 해제 / 받는 피해 증가 효과를 부여합니다.",
+      "areadata": [
+        1,2,3,4,6,7,8,9
+      ]
+    }
+  ]
+},
+{
+  "name": "그럼~요!",
+  "img": "Nereid",
+  "skills": [
+    {
+      "title": "askill1",
+      "type": "active",
+      "name": "벌집 만들기",
+      "img": "MGShot",
+      "range": 4,
+      "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 상태인 경우, 피해량이 크게 증가합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "askill2",
+      "type": "active",
+      "name": "무차별 난사",
+      "img": "MGWideShot",
+      "range": 3,
+      "description": "미니건을 난사해 대상에게 <span id='askillpower2'></span> 피해를 줍니다. 목표 대상들의 적중 / 회피 / 행동력을 감소시킵니다.",
+      "areadata": [
+        1,4,5,7
+      ]
+    },
+    {
+      "title": "pskill1",
+      "type": "passive",
+      "name": "덤벼덤벼!",
+      "img": "SelfAtkBuff",
+      "range": 0,
+      "description": "자신의 남은 HP 비율이 적을수록 적에게 주는 피해가 증가하며, 받는 피해가 감소합니다.",
+      "areadata": [
+        5
+      ]
+    },
+    {
+      "title": "pskill2",
+      "type": "passive",
+      "name": "전투 과몰입",
+      "img": "SelfDefBuff",
+      "range": 0,
+      "description": "전투 불능이 될 경우, 1회에 한해 HP를 회복하고 전투를 속행합니다. 전투 속행 효과 발동 시, 해당 전투 동안 피해 감소 효과를 무시하며 공격력이 증가합니다.",
+      "areadata": [
+        5
+      ]
+    }
+  ]
 }
 ];
