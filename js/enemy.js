@@ -98,14 +98,24 @@ function drawSkillInfo(index, LVL, power, desc)
 
 function drawSkillArea(json, data)
 { 
-	if(data.indexOf(0.75)!=-1||data.indexOf(0.5)!=-1)
+	if(data.some(el=> {return isNaN(el);}))
 	{
 		for(var i=0; i<9; i++)
 		{
-			var color = "rgb(45, 45, 45)";
-			if(data[i]==0.5) { color = "rgb(255, 128, 0)"; }
-			else if(data[i]==0.75) { color = "rgb(255, 171, 0)"; }
-			else if(data[i]==1) { color = "rgb(255, 213, 0)"; }
+			var color = data[i];
+			
+			var row=3-parseInt((i)/3);
+			var column=i+1-parseInt((i)/3)*3;
+			json.children().children().children(":nth-child("+row+")").children(":nth-child("+column+")").css({"background-color": color});
+		}
+	}
+	else if(data.find(el=>{return el<1;})!=undefined)
+	{
+		for(var i=0; i<9; i++)
+		{
+			var color = "rgb(255, "+Math.round((213-128)/0.5*(data[i]-0.5)+128)+", 0)";
+						
+			if(data[i]==0) { color = "rgb(45, 45, 45)"; }
 			
 			var row=3-parseInt((i)/3);
 			var column=i+1-parseInt((i)/3)*3;
