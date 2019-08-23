@@ -4773,6 +4773,7 @@ var areaData = {
     {
       "title": "Ev22-2Ex",
       "name": "Ev2-2C",
+      "prevstage": "Ev22-1Ex",
       "wave": [
         {
           "title": "wave1",
