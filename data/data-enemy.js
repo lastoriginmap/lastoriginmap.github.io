@@ -5050,7 +5050,7 @@ var enemyDataArr = [
         "name": "마이크로 미사일",
         "img": "MultiMissile",
         "range": 1,
-        "description": "지정 범위에 <span id='askillpower2'></span> 피해를 주는 마이크로 미사일을 발사합니다. 보호 효과를 무시하며 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
+        "description": "지정 범위에 <span id='askillpower2'></span> 피해를 주는 마이크로 미사일을 발사합니다. 보호 효과를 무시하며 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다. 200%의 적중 보정이 적용됩니다.",
         "areadata": [
           1,
           4,
