@@ -8,7 +8,7 @@ var areaData = {
   "mainstage": [
     {
       "title": "Ev31-1",
-      "name":"Ev-1",
+      "name": "Ev-1",
       "wave": [
         {
           "title": "wave1",
@@ -294,7 +294,7 @@ var areaData = {
     {
       "title": "Ev31-2",
       "prevstage": "Ev31-1",
-      "name":"Ev-2",
+      "name": "Ev-2",
       "wave": [
         {
           "title": "wave1",
@@ -540,7 +540,7 @@ var areaData = {
     {
       "title": "Ev31-3",
       "prevstage": "Ev31-2",
-      "name":"Ev-3",
+      "name": "Ev-3",
       "wave": [
         {
           "title": "wave1",
@@ -785,7 +785,7 @@ var areaData = {
     {
       "title": "Ev31-4",
       "prevstage": "Ev31-3",
-      "name":"Ev-4",
+      "name": "Ev-4",
       "wave": [
         {
           "title": "wave1",
@@ -1218,12 +1218,1211 @@ var areaData = {
           ]
         }
       ]
+    },
+    {
+      "title": "Ev31-5",
+      "prevstage": "Ev31-4",
+      "name": "Ev-5",
+      "wave": [
+        {
+          "title": "wave1",
+          "enemy": [
+            {
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 45,
+              "HP": 3650,
+              "ATK": 346,
+              "DEF": 224,
+              "AGI": 3.4,
+              "CRT": -1,
+              "HIT": 150,
+              "DOD": 25,
+              "skillpower": [
+                380,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 45,
+              "HP": 2920,
+              "ATK": 552,
+              "DEF": 206,
+              "AGI": 3.3,
+              "CRT": -1,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                441,
+                966,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "하베스터",
+              "pos": [
+                6
+              ],
+              "LVL": 45,
+              "HP": 3900,
+              "ATK": 493,
+              "DEF": 392,
+              "AGI": 3.25,
+              "CRT": -1,
+              "HIT": 125,
+              "DOD": 0,
+              "skillpower": [
+                986,
+                246
+              ],
+              "skillLVL": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemy": [
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 45,
+              "HP": 2920,
+              "ATK": 552,
+              "DEF": 206,
+              "AGI": 3.3,
+              "CRT": -1,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                441,
+                966,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "하베스터",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 45,
+              "HP": 3900,
+              "ATK": 493,
+              "DEF": 392,
+              "AGI": 3.25,
+              "CRT": -1,
+              "HIT": 125,
+              "DOD": 0,
+              "skillpower": [
+                986,
+                246
+              ],
+              "skillLVL": [
+                1,
+                1
+              ]
+            },
+            {
+              "name": "강습형 스카우트",
+              "pos": [
+                6
+              ],
+              "LVL": 46,
+              "HP": 2612,
+              "ATK": 450,
+              "DEF": 0,
+              "AGI": 4.6,
+              "CRT": -1,
+              "HIT": 155,
+              "DOD": 105,
+              "skillpower": [
+                540,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemy": [
+            {
+              "name": "하베스터",
+              "pos": [
+                7,
+                5,
+                1
+              ],
+              "LVL": 46,
+              "HP": 3980,
+              "ATK": 502,
+              "DEF": 397,
+              "AGI": 3.25,
+              "CRT": -1,
+              "HIT": 125,
+              "DOD": 0,
+              "skillpower": [
+                1005,
+                251,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                4
+              ],
+              "LVL": 46,
+              "HP": 3725,
+              "ATK": 352,
+              "DEF": 227,
+              "AGI": 3.4,
+              "CRT": -1,
+              "HIT": 150,
+              "DOD": 25,
+              "skillpower": [
+                387,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 46,
+              "HP": 2981,
+              "ATK": 562,
+              "DEF": 209,
+              "AGI": 3.3,
+              "CRT": -1,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                450,
+                984,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev31-6",
+      "prevstage": "Ev31-5",
+      "name": "Ev-6",
+      "wave": [
+        {
+          "title": "wave1",
+          "enemy": [
+            {
+              "name": "아쿠아 칙",
+              "pos": [
+                4
+              ],
+              "LVL": 42,
+              "HP": 3575,
+              "ATK": 244,
+              "DEF": 152,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 275,
+              "DOD": 30,
+              "skillpower": [
+                244,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 47,
+              "HP": 3800,
+              "ATK": 359,
+              "DEF": 231,
+              "AGI": 3.4,
+              "CRT": -1,
+              "HIT": 150,
+              "DOD": 25,
+              "skillpower": [
+                394,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "칠러",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 40,
+              "HP": 2547,
+              "ATK": 431,
+              "DEF": 172,
+              "AGI": 4.3,
+              "CRT": -1,
+              "HIT": 160,
+              "DOD": 105,
+              "skillpower": [
+                431,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemy": [
+            {
+              "name": "아쿠아 칙",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 42,
+              "HP": 3575,
+              "ATK": 244,
+              "DEF": 152,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 275,
+              "DOD": 30,
+              "skillpower": [
+                244,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "썬더 칙",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 42,
+              "HP": 3065,
+              "ATK": 444,
+              "DEF": 45,
+              "AGI": 4.1,
+              "CRT": -1,
+              "HIT": 180,
+              "DOD": 60,
+              "skillpower": [
+                444,
+                444,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "칠러",
+              "pos": [
+                5
+              ],
+              "LVL": 40,
+              "HP": 2547,
+              "ATK": 431,
+              "DEF": 172,
+              "AGI": 4.3,
+              "CRT": -1,
+              "HIT": 160,
+              "DOD": 105,
+              "skillpower": [
+                431,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemy": [
+            {
+              "name": "아쿠아 칙",
+              "pos": [
+                4
+              ],
+              "LVL": 43,
+              "HP": 3650,
+              "ATK": 249,
+              "DEF": 155,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 275,
+              "DOD": 30,
+              "skillpower": [
+                249,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "칠러",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 41,
+              "HP": 2600,
+              "ATK": 440,
+              "DEF": 175,
+              "AGI": 4.3,
+              "CRT": -1,
+              "HIT": 160,
+              "DOD": 105,
+              "skillpower": [
+                440,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                7,
+                5,
+                1
+              ],
+              "LVL": 48,
+              "HP": 3102,
+              "ATK": 583,
+              "DEF": 215,
+              "AGI": 3.3,
+              "CRT": -1,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                466,
+                1021,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev31-7",
+      "prevstage": "Ev31-6",
+      "name": "Ev-7",
+      "wave": [
+        {
+          "title": "wave1",
+          "enemy": [
+            {
+              "name": "팔랑스",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 48,
+              "HP": 4595,
+              "ATK": 370,
+              "DEF": 296,
+              "AGI": 3.95,
+              "CRT": -1,
+              "HIT": 175,
+              "DOD": 37.5,
+              "skillpower": [
+                370,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "재퍼",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 49,
+              "HP": 3180,
+              "ATK": 382,
+              "DEF": 151,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 200,
+              "DOD": 25,
+              "skillpower": [
+                305,
+                458,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "레기온",
+              "pos": [
+                6
+              ],
+              "LVL": 49,
+              "HP": 3230,
+              "ATK": 416,
+              "DEF": 75,
+              "AGI": 4.05,
+              "CRT": -1,
+              "HIT": 220,
+              "DOD": 35,
+              "skillpower": [
+                416,
+                137,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemy": [
+            {
+              "name": "스캐럽",
+              "pos": [
+                4
+              ],
+              "LVL": 49,
+              "HP": 3620,
+              "ATK": 445,
+              "DEF": 211,
+              "AGI": 4.5,
+              "CRT": -1,
+              "HIT": 135,
+              "DOD": 95,
+              "skillpower": [
+                667,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 51,
+              "HP": 2900,
+              "ATK": 415,
+              "DEF": 76,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 220,
+              "DOD": 25,
+              "skillpower": [
+                415,
+                498,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "레기온",
+              "pos": [
+                5
+              ],
+              "LVL": 49,
+              "HP": 3230,
+              "ATK": 416,
+              "DEF": 75,
+              "AGI": 4.05,
+              "CRT": -1,
+              "HIT": 220,
+              "DOD": 35,
+              "skillpower": [
+                416,
+                137,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "엘리트 레기온",
+              "pos": [
+                6
+              ],
+              "LVL": 50,
+              "HP": 4030,
+              "ATK": 413,
+              "DEF": 148,
+              "AGI": 4.25,
+              "CRT": -1,
+              "HIT": 325,
+              "DOD": 40,
+              "skillpower": [
+                495,
+                123,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemy": [
+            {
+              "name": "팔랑스",
+              "pos": [
+                8,
+                4,
+                2
+              ],
+              "LVL": 49,
+              "HP": 4680,
+              "ATK": 377,
+              "DEF": 301,
+              "AGI": 3.95,
+              "CRT": -1,
+              "HIT": 175,
+              "DOD": 37.5,
+              "skillpower": [
+                377,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "레기온",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 49,
+              "HP": 3230,
+              "ATK": 416,
+              "DEF": 75,
+              "AGI": 4.05,
+              "CRT": -1,
+              "HIT": 220,
+              "DOD": 35,
+              "skillpower": [
+                416,
+                137,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "센츄리온",
+              "pos": [
+                6
+              ],
+              "LVL": 47,
+              "HP": 6335,
+              "ATK": 505,
+              "DEF": 122,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 175,
+              "DOD": 20,
+              "skillpower": [
+                505,
+                126,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev31-8",
+      "prevstage": "Ev31-7",
+      "name": "Ev-8",
+      "wave": [
+        {
+          "title": "wave1",
+          "enemy": [
+            {
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 55,
+              "HP": 4400,
+              "ATK": 411,
+              "DEF": 259,
+              "AGI": 3.4,
+              "CRT": -1,
+              "HIT": 150,
+              "DOD": 25,
+              "skillpower": [
+                452,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙",
+              "pos": [
+                5
+              ],
+              "LVL": 55,
+              "HP": 3110,
+              "ATK": 443,
+              "DEF": 79,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 220,
+              "DOD": 25,
+              "skillpower": [
+                443,
+                531,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 런처",
+              "pos": [
+                4
+              ],
+              "LVL": 55,
+              "HP": 3405,
+              "ATK": 485,
+              "DEF": 114,
+              "AGI": 3.6,
+              "CRT": -1,
+              "HIT": 200,
+              "DOD": 32.5,
+              "skillpower": [
+                485,
+                582,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "케미컬 칙",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 45,
+              "HP": 3810,
+              "ATK": 410,
+              "DEF": 74,
+              "AGI": 4.15,
+              "CRT": -1,
+              "HIT": 230,
+              "DOD": 65,
+              "skillpower": [
+                328,
+                205,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemy": [
+            {
+              "name": "팔랑스",
+              "pos": [
+                4
+              ],
+              "LVL": 51,
+              "HP": 4850,
+              "ATK": 390,
+              "DEF": 318,
+              "AGI": 3.95,
+              "CRT": -1,
+              "HIT": 175,
+              "DOD": 37.5,
+              "skillpower": [
+                390,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "하베스터",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 46,
+              "HP": 5050,
+              "ATK": 562,
+              "DEF": 515,
+              "AGI": 3.3,
+              "CRT": -1,
+              "HIT": 150,
+              "DOD": 0,
+              "skillpower": [
+                1125,
+                281
+              ],
+              "skillLVL": [
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                6
+              ],
+              "LVL": 41,
+              "HP": 3950,
+              "ATK": 560,
+              "DEF": 300,
+              "AGI": 3.3,
+              "CRT": -1,
+              "HIT": 155,
+              "DOD": 0,
+              "skillpower": [
+                448,
+                980,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "케미컬 칙",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 45,
+              "HP": 3810,
+              "ATK": 410,
+              "DEF": 74,
+              "AGI": 4.15,
+              "CRT": -1,
+              "HIT": 230,
+              "DOD": 65,
+              "skillpower": [
+                328,
+                205,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemy": [
+            {
+              "name": "케미컬 칙",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 46,
+              "HP": 3887,
+              "ATK": 41,
+              "DEF": 75,
+              "AGI": 4.15,
+              "CRT": -1,
+              "HIT": 230,
+              "DOD": 65,
+              "skillpower": [
+                334,
+                208,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "아쿠아 칙",
+              "pos": [
+                6
+              ],
+              "LVL": 51,
+              "HP": 4250,
+              "ATK": 287,
+              "DEF": 175,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 275,
+              "DOD": 30,
+              "skillpower": [
+                287,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "썬더 칙",
+              "pos": [
+                5
+              ],
+              "LVL": 42,
+              "HP": 3065,
+              "ATK": 444,
+              "DEF": 45,
+              "AGI": 4.1,
+              "CRT": -1,
+              "HIT": 180,
+              "DOD": 60,
+              "skillpower": [
+                444,
+                444,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "재퍼",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 52,
+              "HP": 3360,
+              "ATK": 401,
+              "DEF": 157,
+              "AGI": 4,
+              "CRT": -1,
+              "HIT": 200,
+              "DOD": 25,
+              "skillpower": [
+                321,
+                481,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave4",
+          "enemy": [
+            {
+              "name": "팔랑스",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 52,
+              "HP": 4935,
+              "ATK": 396,
+              "DEF": 314,
+              "AGI": 3.95,
+              "CRT": -1,
+              "HIT": 175,
+              "DOD": 37.5,
+              "skillpower": [
+                396,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "케미컬 칙",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 50,
+              "HP": 4197,
+              "ATK": 447,
+              "DEF": 79,
+              "AGI": 4.15,
+              "CRT": -1,
+              "HIT": 230,
+              "DOD": 65,
+              "skillpower": [
+                358,
+                223,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "케미컬 칙 Type-X",
+              "pos": [
+                4
+              ],
+              "LVL": 10,
+              "HP": 10,
+              "ATK": 200,
+              "DEF": 70,
+              "AGI": 4.5,
+              "CRT": -1,
+              "HIT": 500,
+              "DOD": 100,
+              "skillpower": [
+                100,
+                100,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "빅 칙 런쳐 G",
+              "pos": [
+                5
+              ],
+              "LVL": 50,
+              "HP": 6160,
+              "ATK": 629,
+              "DEF": 296,
+              "AGI": 3.5,
+              "CRT": -1,
+              "HIT": 200,
+              "DOD": 0,
+              "skillpower": [
+                2044,
+                207,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "exstage": [
     {
       "title": "Ev31-1Ex",
-      "name":"Ev-1Ex",
+      "name": "Ev-1Ex",
       "wave": [
         {
           "title": "wave1",
@@ -1597,7 +2796,7 @@ var areaData = {
     {
       "title": "Ev31-2Ex",
       "prevstage": "Ev31-1Ex",
-      "name":"Ev-2Ex",
+      "name": "Ev-2Ex",
       "wave": [
         {
           "title": "wave1",
@@ -2032,7 +3231,7 @@ var areaData = {
     {
       "title": "Ev31-3Ex",
       "prevstage": "Ev31-2Ex",
-      "name":"Ev-3Ex",
+      "name": "Ev-3Ex",
       "wave": [
         {
           "title": "wave1",
@@ -2438,7 +3637,7 @@ var areaData = {
     {
       "title": "Ev31-4Ex",
       "prevstage": "Ev31-3Ex",
-      "name":"Ev-4Ex",
+      "name": "Ev-4Ex",
       "wave": [
         {
           "title": "wave1",

@@ -1,7 +1,7 @@
 //공통 데이터 로드 함수
 function loadData(src)
 {
-	//<script> 요소를 추가해 데이터 js파일 로드
+	//<script> 요소를 추가해 데이터 파일 로드
 	//로드가 완료되면 다음 작업을 진행하도록 Promise 적용
 	return new Promise((resolve, reject) => {
 		var script = document.createElement('script');
@@ -18,7 +18,7 @@ function loadData(src)
 async function loadAreaData(areaNum)
 {
 	return new Promise((resolve, reject)=> {
-		//src를 지역 데이터 js파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
+		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
 		var src="./data/data-area"+areaNum+".min.js";
 		loadData(src).then(()=>resolve(areaData), ()=>reject());
 	});
@@ -28,7 +28,7 @@ async function loadAreaData(areaNum)
 async function loadStageData(stageTitle)
 {
 	return new Promise(resolve=> {
-		//src를 지역 데이터 js파일로 설정해 로드
+		//src를 지역 데이터 파일로 설정해 로드
 		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".min.js";
 		loadData(src).then(()=> {
 			if(stageTitle.includes("Daily"))
