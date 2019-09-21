@@ -5951,5 +5951,55 @@ var enemyDataArr = [
         ]
       }
     ]
+  },
+  {
+    "name": "강화형 저거너트",
+    "img": "Juggernaut",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "스매셔 펀치",
+        "img": "MeleeAttack",
+        "range": 1,
+        "description": "대상을 강타해 <span id='askillpower1'></span> 피해를 주고, 일정 확률로 행동 불가 상태로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "방벽 무너뜨리기",
+        "img": "AssaultAttack",
+        "range": 2,
+        "description": "대상에게 돌진해 <span id='askillpower2'></span> 피해를 주고, 피해 감소 효과를 해제하며 뒤로 1칸 밀어냅니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "호위 경보",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "아군이 사망한 경우, 방어 태세로 전환해 행 보호와 열 보호 효과를 활성화합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "고밀도 장갑",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 방어력이 증가합니다. HP 25% 이하가 될 경우, 방어력이 추가로 증가합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
   }
 ];
