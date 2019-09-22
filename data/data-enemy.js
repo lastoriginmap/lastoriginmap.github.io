@@ -5599,7 +5599,7 @@ var enemyDataArr = [
       "name": "보호 전환",
       "img": "TeamDefBuff",
       "range": 0,
-      "description": "공격 시, 2라운드 동안 범위 내에 있는 아군에게 지정 대상 보호 효과를 부여합니다.",
+      "description": "공격 시, 2라운드 동안 범위 내에 있는 아군에게 지정 대상 보호 효과를 부여합니다."
       "areadata": [
         2,3,8,9
       ]
@@ -5998,6 +5998,49 @@ var enemyDataArr = [
         "description": "라운드 개시 시, 방어력이 증가합니다. HP 25% 이하가 될 경우, 방어력이 추가로 증가합니다.",
         "areadata": [
           5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "강화형 케미컬 칙",
+    "img": "NightChickCM",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "강화 화학탄 발사",
+        "img": "Missile",
+        "range": 4,
+        "description": "강화 화학탄을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 3라운드 동안 대상에게 지속 고정 피해를 주고, 일정 확률로 모든 속성 저항과 행동력을 감소시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "집속 화학탄 발사",
+        "img": "Missile",
+        "range": 4,
+        "description": "집속 화학탄을 발사해 <span id='askillpower2'></span> 피해를 줍니다. 3라운드 동안 대상에게 지속 고정 피해를 주고, 일정 확률로 강화 효과를 해제합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "환경 적응 시스템",
+        "img": "TeamDefBuff",
+        "range": 0,
+        "description": "라운드 개시 시, 자신과 인접한 아군의 모든 저항력을 올립니다.",
+        "areadata": [
+          2,
+          4,
+          5,
+          6,
+          8
         ]
       }
     ]
