@@ -6044,5 +6044,73 @@ var enemyDataArr = [
         ]
       }
     ]
+  },
+  {
+    "name": "스토커 (Ev31-5Ex)",
+    "img": "Stalker_B0108",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "초정밀 저격",
+        "img": "Chargeshot",
+        "range": 6,
+        "description": "레일건 저격으로 <span id='askillpower1'></span> 보호 / 방어막 / 피해 감소 무시 피해를 줍니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "조준 개시",
+        "img": "SelfAtkBuff",
+        "range": 6,
+        "description": "레일건을 충전해, 다음 공격이 치명타로 적용되며 일정 라운드 동안 적중이 크게 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "매복 공격",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "description": "후열에 있는 경우, 받는 피해가 감소합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "영거리 저격",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "description": "전열에 있는 경우, 공격력이 크게 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill3",
+        "type": "passive",
+        "name": "리액터 대폭발",
+        "img": "SuiceideBomb",
+        "range": 0,
+        "description": "사망 시, 리액터가 폭발에 주변에 매우 높은 고정 피해를 줍니다.",
+        "areadata": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
   }
 ];
