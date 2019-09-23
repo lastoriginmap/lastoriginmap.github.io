@@ -7,7 +7,7 @@ var areaData = {
   ],
   "mainstage": [
     {
-      "title": "Ev31-1",
+      "title": "prevEv31-1",
       "name": "Ev-1",
       "wave": [
         {
@@ -292,8 +292,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-2",
-      "prevstage": "Ev31-1",
+      "title": "prevEv31-2",
+      "prevstage": "prevEv31-1",
       "name": "Ev-2",
       "wave": [
         {
@@ -538,8 +538,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-3",
-      "prevstage": "Ev31-2",
+      "title": "prevEv31-3",
+      "prevstage": "prevEv31-2",
       "name": "Ev-3",
       "wave": [
         {
@@ -783,8 +783,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-4",
-      "prevstage": "Ev31-3",
+      "title": "prevEv31-4",
+      "prevstage": "prevEv31-3",
       "name": "Ev-4",
       "wave": [
         {
@@ -1220,8 +1220,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-5",
-      "prevstage": "Ev31-4",
+      "title": "prevEv31-5",
+      "prevstage": "prevEv31-4",
       "name": "Ev-5",
       "wave": [
         {
@@ -1461,8 +1461,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-6",
-      "prevstage": "Ev31-5",
+      "title": "prevEv31-6",
+      "prevstage": "prevEv31-5",
       "name": "Ev-6",
       "wave": [
         {
@@ -1720,8 +1720,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-7",
-      "prevstage": "Ev31-6",
+      "title": "prevEv31-7",
+      "prevstage": "prevEv31-6",
       "name": "Ev-7",
       "wave": [
         {
@@ -1990,8 +1990,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-8",
-      "prevstage": "Ev31-7",
+      "title": "prevEv31-8",
+      "prevstage": "prevEv31-7",
       "name": "Ev-8",
       "wave": [
         {
@@ -2421,7 +2421,7 @@ var areaData = {
   ],
   "exstage": [
     {
-      "title": "Ev31-1Ex",
+      "title": "prevEv31-1Ex",
       "name": "Ev-1Ex",
       "wave": [
         {
@@ -2794,8 +2794,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-2Ex",
-      "prevstage": "Ev31-1Ex",
+      "title": "prevEv31-2Ex",
+      "prevstage": "prevEv31-1Ex",
       "name": "Ev-2Ex",
       "wave": [
         {
@@ -3229,8 +3229,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-3Ex",
-      "prevstage": "Ev31-2Ex",
+      "title": "prevEv31-3Ex",
+      "prevstage": "prevEv31-2Ex",
       "name": "Ev-3Ex",
       "wave": [
         {
@@ -3635,8 +3635,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-4Ex",
-      "prevstage": "Ev31-3Ex",
+      "title": "prevEv31-4Ex",
+      "prevstage": "prevEv31-3Ex",
       "name": "Ev-4Ex",
       "wave": [
         {
@@ -4062,8 +4062,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-5Ex",
-      "prevstage": "Ev31-4Ex",
+      "title": "prevEv31-5Ex",
+      "prevstage": "prevEv31-4Ex",
       "name": "Ev-5Ex",
       "wave": [
         {
@@ -4452,7 +4452,7 @@ var areaData = {
               ]
             },
             {
-              "name": "스토커 (Ev31-5Ex)",
+              "name": "스토커 (prevEv31-5Ex)",
               "nickname": "스토커",
               "pos": [
                 6
@@ -4485,8 +4485,8 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev31-6Ex",
-      "prevstage": "Ev31-5Ex",
+      "title": "prevEv31-6Ex",
+      "prevstage": "prevEv31-5Ex",
       "name": "Ev-6Ex",
       "wave": [
         {
