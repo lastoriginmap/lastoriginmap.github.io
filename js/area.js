@@ -4,7 +4,7 @@ window.onload  =  async function() {
     var areaName = areaNum;
     if(areaData.title!=undefined)
     {
-    	areaName = areaData.title.slice(4);
+    	areaName = areaData.title;
     }
 	document.title  =  areaName+'지역'	;
 	$("#area_title").html(areaName+'지역 철충 지도');
@@ -174,7 +174,6 @@ function getGridByStageData(stageData)
 	}
 	return grid;
 }
-
 
 
 
