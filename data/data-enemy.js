@@ -4530,14 +4530,14 @@ var enemyDataArr = [
     "name": "내성 장갑",
     "img": "SelfDefBuff",
     "range": 0,
-    "description": "공격 당할 경우, 상대의 스킬이 최소 피해로 적용됩니다. 라운드 개시 시, 자신과 인접한 아군에게 걸린 방해 효과를 해제하고 효과 저항을 높입니다.",
+    "description": "공격 당할 경우, 상대의 스킬이 최소 피해로 적용됩니다. 라운드 개시 시, 자신과 인접한 아군에게 걸린 방해 효과를 해제합니다.",
     "areadata": [1, 3, 5, 7, 9]
   },
   {
     "title": "pskill3",
     "type": "passive",
     "name": "부식액 폭발",
-    "img": "TeamDefBuff",
+    "img": "SuiceideBomb",
     "range": 0,
     "description": "화염 속성 액티브 스킬 공격 피격 시, 부식액에 불이 붙어 점화 상태가 됩니다. 점화 상태로 처치되면 부식액 폭발로 범위 내 아군에게 괴멸적인 고정 피해를 입힙니다.",
     "areadata": [1, 2, 3, 4, 5, 6, 7, 8, 9]
