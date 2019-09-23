@@ -33,6 +33,10 @@ window.onload = async function() {
 			el.select();
 		}, false);
 	});
+	document.getElementById("delete").addEventListener("click", e=>{
+		e.preventDefault();
+		deleteEnemy(obj);
+	}, false);
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
 		saveFile(obj, "data-area"+document.getElementById("input-area").value+".js");
@@ -254,6 +258,57 @@ function submitEnemy()
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	
 	var newEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
+	drawStageMap([type, stageTitle, wave]);
+}
+
+function deleteEnemy(obj)
+{
+	var stageTitle = document.getElementsByClassName("current-stage")[0].textContent.slice(9);
+	if(!stageTitle) { alert("지역과 스테이지를 먼저 입력하세요!"); throw "No stageTitle";}
+	var wave = document.getElementsByClassName("current-wave")[0].textContent.slice(8);
+	if(!wave) { alert("웨이브를 먼저 입력하세요!"); throw "No wave";}
+	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
+		if(el.checked) { type = el.value.toLowerCase()+"stage"; }
+	});
+	deletePos = [];
+	document.getElementsByName("input-pos").forEach((el, index) => {
+		if(el.checked==true)
+		{
+			deletePos.push(7-parseInt(index/3)*3+index%3);
+		}
+	});
+	var enemypos=obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
+	var overlapped=false;
+	var overlappedpos=[];
+	for(let i=0;i<enemypos.length;i++)
+	{
+		for(let j=0;j<enemypos[i].length;j++)
+		{
+			if(deletePos.findIndex(el=>el==enemypos[i][j])!=-1)
+			{
+				overlapped=true;
+				overlappedpos.push([i,j]);
+			}
+		}
+	}
+	
+	
+	if(overlapped)
+	{
+		for(let i=0;i<overlappedpos.length;i++)
+		{
+			if(obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
+			{
+				obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
+			}
+			else
+			{
+				obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
+			}
+		}
+	}
+	
+	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	drawStageMap([type, stageTitle, wave]);
 }
 
