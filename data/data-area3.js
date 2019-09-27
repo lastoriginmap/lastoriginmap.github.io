@@ -1,5 +1,5 @@
 var areaData ={
-   "title":"area3",
+   "title":"3",
    "areatype":"grid",
    "gridsize":[
       8,

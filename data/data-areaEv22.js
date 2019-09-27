@@ -1,5 +1,5 @@
 var areaData = {
-  "title": "areaEv2",
+  "title": "리오보로스의 유산 2",
   "areatype": "grid",
   "gridsize": [
     8,
