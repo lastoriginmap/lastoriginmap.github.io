@@ -9,6 +9,7 @@ var enemyDataArr = [
     "name": "머신건 견제 사격",
     "img": "ARShot",
     "range": 3,
+    "AP": 4,
     "description": "머신건 견제 사격으로 <span id='askillpower1'></span> 피해를 줍니다. 일정 확률로 2라운드 동안 대상의 회피를 낮춥니다.",
     "areadata": [5]
   },
@@ -18,6 +19,7 @@ var enemyDataArr = [
     "name": "머신건 연사",
     "img": "ARShot",
     "range": 2,
+    "AP": 6,
     "description": "머신건을 조준 사격해 <span id='askillpower2'></span> 피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -27,6 +29,7 @@ var enemyDataArr = [
     "name": "정조준",
     "img": "Snipe",
     "range": 0,
+    "AP": 0,
     "description": "대기 시, 적을 조준해 2라운드 동안 적중과 사거리가 증가합니다.",
     "areadata": [5]
   }]
@@ -105,6 +108,7 @@ var enemyDataArr = [
     "name": "약점 포착",
     "img": "ARShot",
     "range": 4,
+    "AP": 4,
     "description": "목표를 공격 대상으로 지정해 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 표식 상태로 만듭니다. 표식 상태인 대상인 추가 피해를 받으며, 회피가 감소합니다.",
     "areadata": [5]
   },
@@ -114,6 +118,7 @@ var enemyDataArr = [
     "name": "섬광 탄막",
     "img": "Beam",
     "range": 4,
+    "AP": 7,
     "description": "지정한 위치에 섬광탄을 발사해 2라운드 동안 적중을 낮추고, 대상의 AP를 감소시킵니다.",
     "areadata": [4, 5]
   },
@@ -123,6 +128,7 @@ var enemyDataArr = [
     "name": "레이더 공유",
     "img": "TeamSpdBuff",
     "range": 0,
+    "AP": 0,
     "description": "피격 시, 일정 확률로 인접한 아군에게 경보를 울리며 전황을 공유합니다. 레이더를 공유 받은 경우, AP가 증가하며 2라운드 동안 사거리외 적중률이 증가합니다.",
     "areadata": [2, 4, 6, 8]
   },
@@ -187,6 +193,7 @@ var enemyDataArr = [
     "name": "충격 미사일",
     "img": "Missile",
     "range": 2,
+    "AP": 6,
     "description": "충격 미사일을 발사해 <span id='askillpower1'></span> 피해를 주며, 일정 확률로 대상의 AP를 감소시킵니다.",
     "areadata": [5]
   },
@@ -196,6 +203,7 @@ var enemyDataArr = [
     "name": "색적 보고",
     "img": "SelfSpdBuff",
     "range": 6,
+    "AP": 8,
     "description": "목표 아군에게 적 발견 경보를 울려 대상의 AP와 사거리를 증가시킵니다.",
     "areadata": [5]
   }]
@@ -210,6 +218,7 @@ var enemyDataArr = [
     "name": "폐기물 분쇄",
     "img": "MeleeAttack",
     "range": 1,
+    "AP": 10,
     "description": "근접 공격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 대상을 강타해 피해량이 증가하며 일정 확률로 2라운드 동안 행동 불가로 만듭니다.",
     "areadata": [5]
   },
@@ -219,6 +228,7 @@ var enemyDataArr = [
     "name": "폐기물 수거",
     "img": "Hang",
     "range": 4,
+    "AP": 4,
     "description": "집게로 목표 대상을 포획해 <span id='askillpower2'></span> 피해를 주며 2칸 앞으로 당깁니다. 적중 시, 2라운드 동안 행동력이 감소하며 일정 확률로 이동 불가 상태가 됩니다.",
     "areadata": [5]
   }]
@@ -233,6 +243,7 @@ var enemyDataArr = [
     "name": "플레임 버너",
     "img": "WideFireShot",
     "range": 2,
+    "AP": 4,
     "description": "화염 방사로 <span id='askillpower1'></span> 화염 속성 피해를 주며, 일정 확률로 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -242,6 +253,7 @@ var enemyDataArr = [
     "name": "곡사포",
     "img": "CannonShotDelay",
     "range": 5,
+    "AP": 8,
     "description": "1라운드 후에 착탄하는 곡사포를 발사해 목표 범위에 <span id='askillpower2'></span>의 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가합니다.",
     "areadata": [0, 0.5, 0, 0.5, 1, 0.5, 0, 0.5, 0]
   },
@@ -265,6 +277,7 @@ var enemyDataArr = [
     "name": "정조준 저격",
     "img": "Snipe",
     "range": 4,
+    "AP": 7,
     "description": "보호 효과를 무시하는 저격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 정밀 사격으로 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -274,6 +287,7 @@ var enemyDataArr = [
     "name": "위장",
     "img": "SelfSpdBuff",
     "range": 6,
+    "AP": 4,
     "description": "위장 파장을 발산해 3라운드 동안 회피 / 치명타가 증가하며 받는 피해가 증가합니다.",
     "areadata": [5]
   },
@@ -283,6 +297,7 @@ var enemyDataArr = [
     "name": "대응 저격",
     "img": "DefCounter",
     "range": 0,
+    "AP": 0,
     "description": "라운드 개시 시, 위장 상태인 경우 반격을 활성화합니다.",
     "areadata": [5]
   }]
@@ -370,6 +385,7 @@ var enemyDataArr = [
     "name": "GAU 미니건",
     "img": "ARShot",
     "range": 4,
+    "AP": 4,
     "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -379,6 +395,7 @@ var enemyDataArr = [
     "name": "점착탄",
     "img": "SlowShot",
     "range": 4,
+    "AP": 5,
     "description": "점착탄을 던져 <span id='askillpower2'></span> 피해를 줍니다.  적중한 대상을 2라운드 동안 이동 불가 상태로 만들고, 일정 확률로 회피 / 행동력을 감소 시킵니다. 해당 감소 효과는 강화 효과를 해제하고 적용됩니다.",
     "areadata": [5]
   },
@@ -388,6 +405,7 @@ var enemyDataArr = [
     "name": "경계 태세",
     "img": "TeamSpdBuff",
     "range": 0,
+    "AP": 0,
     "description": "아군이 처치되면 경계 태세로 전환해, 양 옆의 아군의 행동력을 감소시키며 대상의 공격을 지원합니다.",
     "areadata": [2, 8]
   }]
@@ -402,6 +420,7 @@ var enemyDataArr = [
     "name": "전격 방사",
     "img": "Shock",
     "range": 3,
+    "AP": 4,
     "description": "전격을 방사해 <span id='askillpower1'></span> 전기 속성 피해를 주고 일정 확률로 대상의 회피와 AP를 감소시킵니다.",
     "areadata": [5]
   },
@@ -411,6 +430,7 @@ var enemyDataArr = [
     "name": "고압 전류",
     "img": "Shock",
     "range": 1,
+    "AP": 8,
     "description": "고압 전류로 <span id='askillpower2'></span> 전기 속성 피해를 주고, 일정 확률로 대상을 행동 불능 상태로 만들고 회피를 감소시킵니다.",
     "areadata": [5]
   },
@@ -420,6 +440,7 @@ var enemyDataArr = [
     "name": "경계 모드",
     "img": "SelfDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "적과 인접하거나 공격당하기 전까지 경계 상태로 대기합니다. 해당 상태에선 받는 피해와 행동력이 감소합니다.",
     "areadata": [5]
   }]
@@ -434,6 +455,7 @@ var enemyDataArr = [
     "name": "머신건 속사",
     "img": "ARShot",
     "range": 4,
+    "AP": 4,
     "description": "머신건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -443,6 +465,7 @@ var enemyDataArr = [
     "name": "대열 방어",
     "img": "TeamDefBuff",
     "range": 6,
+    "AP": 4,
     "description": "3라운드 동안 같은 열의 아군을 보호하며, 받는 피해가 감소합니다.",
     "areadata": [5]
   },
@@ -452,6 +475,7 @@ var enemyDataArr = [
     "name": "밀집 대형",
     "img": "TeamDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "라운드 개시 시, 같은 열에 인접한 아군에게 피해 감소 효과를 부여합니다. 해당 효과는 중첩됩니다.",
     "areadata": [2, 8]
   }]
@@ -507,6 +531,7 @@ var enemyDataArr = [
     "name": "XM 유탄 발사기",
     "img": "GrenadeAttack_2",
     "range": 4,
+    "AP": 6,
     "description": "유탄을 발사해 목표 행에 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
     "areadata": [4, 5, 6]
   },
@@ -516,6 +541,7 @@ var enemyDataArr = [
     "name": "일제 공격 개시",
     "img": "Snipe",
     "range": 5,
+    "AP": 4,
     "description": "2라운드 동안 대상을 목표로 지정해 <span id='askillpower2'></span> 피해를 주고 표식을 남기며, 받는 피해가 증가하는 상태로 만듭니다. 보호 효과를 무시합니다.",
     "areadata": [5]
   },
@@ -525,6 +551,7 @@ var enemyDataArr = [
     "name": "반격 태세",
     "img": "DefCounter",
     "range": 0,
+    "AP": 0,
     "description": "아군 사망 시, 3라운드 동안 공격력과 치명타가 증가하며 반격합니다. 공격력과 치명타 증가 효과는 중첩됩니다.",
     "areadata": [5]
   }]
@@ -1420,6 +1447,7 @@ var enemyDataArr = [
     "name": "정밀 유도 미사일",
     "img": "MultiMissile",
     "range": 4,
+    "AP": 7,
     "description": "정밀 유도 미사일로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
     "areadata": [5, 6, 8, 9]
   },
@@ -1429,6 +1457,7 @@ var enemyDataArr = [
     "name": "멀티 록 온",
     "img": "Scan",
     "range": 4,
+    "AP": 6,
     "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
     "areadata": [2, 4, 5, 6, 8]
   },
@@ -1438,6 +1467,7 @@ var enemyDataArr = [
     "name": "대열 정비",
     "img": "TeamAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
     "areadata": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
@@ -1447,6 +1477,7 @@ var enemyDataArr = [
     "name": "위기 극복",
     "img": "SelfDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
     "areadata": [5]
   }]
@@ -1903,6 +1934,7 @@ var enemyDataArr = [
     "name": "칙 중 기관포",
     "img": "MGShot",
     "range": 4,
+    "AP": 4,
     "description": "기관포로 <span id='askillpower1'></span> 피해를 줍니다. 대상의 방어력을 일정 비율 무시합니다.",
     "areadata": [5]
   },
@@ -1912,6 +1944,7 @@ var enemyDataArr = [
     "name": "듀얼 칙 캐논",
     "img": "CannonShot",
     "range": 2,
+    "AP": 7,
     "description": "캐논포를 연사해 목표 열에 <span id='askillpower2'></span> 피해를 줍니다. 피해 감소 효과를 무효화합니다.",
     "areadata": [2, 5, 8]
   },
@@ -1921,6 +1954,7 @@ var enemyDataArr = [
     "name": "칙 반응 장갑",
     "img": "SelfDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "반응 장갑으로 인해 받는 피해가 감소합니다.",
     "areadata": [5]
   }]
@@ -3145,6 +3179,7 @@ var enemyDataArr = [
     "name": "강화 머신건 사격",
     "img": "ARShot",
     "range": 4,
+    "AP": 4,
     "description": "머신건 사격으로 <span id='askillpower1'></span> 피해를 줍니다. 2라운드 동안 대상의 회피를 낮춥니다.",
     "areadata": [5]
   },
@@ -3154,6 +3189,7 @@ var enemyDataArr = [
     "name": "강화 머신건 연사",
     "img": "ARShot",
     "range": 1,
+    "AP": 6,
     "description": "머신건을 조준 사격해 <span id='askillpower2'></span> 피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3163,6 +3199,7 @@ var enemyDataArr = [
     "name": "칙 정밀 조준",
     "img": "Snipe",
     "range": 0,
+    "AP": 0,
     "description": "대기 시, 3라운드 동안 적중 / 사거리 / 치명타가 증가합니다.",
     "areadata": [5]
   }]
@@ -3177,6 +3214,7 @@ var enemyDataArr = [
     "name": "강화 미사일 공격",
     "img": "Missile",
     "range": 2,
+    "AP": 4,
     "description": "미사일을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3186,6 +3224,7 @@ var enemyDataArr = [
     "name": "강화 미사일 난사",
     "img": "Missile",
     "range": 1,
+    "AP": 6,
     "description": "미사일 근접 사격으로 <span id='askillpower2'></span> 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3195,6 +3234,7 @@ var enemyDataArr = [
     "name": "기동 사격",
     "img": "SelfAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "이동 시, 4라운드 동안 사거리 / 공격력 / 행동력이 증가합니다.",
     "areadata": [5]
   }]
@@ -3232,6 +3272,86 @@ var enemyDataArr = [
   }]
 },
 {
+  "name": "강화형 칙 실더",
+  "img": "NightChickS",
+  "skills": [
+  {
+    "title": "askill1",
+    "type": "active",
+    "name": "칙 방패 강타",
+    "img": "MeleeAttack",
+    "range": 3,
+    "AP": 4,
+    "description": "대상에게 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 도발 / 공격력 / 치명타 감소 상태로 만듭니다.",
+    "areadata": [5]
+  },
+  {
+    "title": "askill2",
+    "type": "active",
+    "name": "칙 보호 개시",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 6,
+    "description": "지정 아군의 AP를 상승시키고, 3라운드 동안 대상을 지정 보호합니다.",
+    "areadata": [5]
+  },
+  {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "칙 방어 대형",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 받는 피해가 감소하며 속성 저항력이 증가합니다.",
+    "areadata": [5]
+  }]
+},
+{
+  "name": "강화형 칙 디텍터",
+  "img": "NightChickDE",
+  "skills": [
+  {
+    "title": "askill1",
+    "type": "active",
+    "name": "약점 스캔",
+    "img": "Scan",
+    "range": 5,
+    "AP": 4,
+    "description": "목표를 공격 대상으로 지정해 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 표식 / 받는 피해 증가 / 회피 감소 상태로 만듭니다. 적중 대상은 회피 강화 효과가 해제됩니다. 자신은 3라운드 동안 회피가 증가합니다.",
+    "areadata": [5]
+  },
+  {
+    "title": "askill2",
+    "type": "active",
+    "name": "강화 섬광탄",
+    "img": "Beam",
+    "range": 4,
+    "AP": 8,
+    "description": "지정한 위치에 섬광탄을 발사해 <span id='askillpower1'></span> 피해를 주고, 2라운드 동안 적중 / 치명타를 낮춥니다. 적중 대상은 AP가 감소합니다.",
+    "areadata": [2,4, 5,6,8]
+  },
+  {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "경보 레이더",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 모든 아군의 AP / 적중 / 치명타 / 사거리가 증가합니다. 냉기 속성 액티브 스킬 피격 시 아군의 적중 / 치명타 / 사거리 증가 효과가 해제되며, 2라운드 동안 적중 / 치명타가 감소합니다.",
+    "areadata": [1,2,3,4,5,6,7,8,9]
+  },
+  {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "레이더 교란",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 모든 적군의 AP / 적중 / 치명타 / 사거리가 감소합니다. 냉기 속성 액티브 스킬 피격 시 적중 / 치명타 / 사거리 감소 효과가 해제되며, 9라운드 동안 적중 / 치명타가 증가합니다.",
+    "areadata": [1,2,3,4,5,6,7,8,9]
+  }]
+},
+{
   "name": "강습형 스카우트",
   "img": "Scout",
   "skills": [
@@ -3241,6 +3361,7 @@ var enemyDataArr = [
     "name": "강화 충격탄",
     "img": "Missile",
     "range": 2,
+    "AP": 6,
     "description": "충격 미사일을 발사해 <span id='askillpower1'></span> 피해를 주고 대상의 AP를 감소시킵니다.",
     "areadata": [5]
   },
@@ -3250,6 +3371,7 @@ var enemyDataArr = [
     "name": "색적 경보",
     "img": "Scan",
     "range": 6,
+    "AP": 6,
     "description": "목표 아군에게 적 발견 경보를 울려 대상의 AP와 사거리를 증가시킵니다.",
     "areadata": [5]
   },
@@ -3259,6 +3381,7 @@ var enemyDataArr = [
     "name": "강습 대열",
     "img": "TeamAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "이동 시, 3라운드 동안 인접한 공격기의 공격을 지원하며 AP를 증가시킵니다.",
     "areadata": [2, 8]
   }]
@@ -3273,6 +3396,7 @@ var enemyDataArr = [
     "name": "대 장갑 기관포",
     "img": "AntiArmorShot",
     "range": 2,
+    "AP": 6,
     "description": "대 장갑 기관포를 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상의 방어력을 일정 비율 무시하며, 방어 감소 상태인 경우 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3282,6 +3406,7 @@ var enemyDataArr = [
     "name": "공습 준비",
     "img": "SelfSpdBuff",
     "range": 6,
+    "AP": 5,
     "description": "3라운드 동안 회피 / 치명타 / 행동력이 증가합니다.",
     "areadata": [5]
   },
@@ -3291,6 +3416,7 @@ var enemyDataArr = [
     "name": "공격 포메이션",
     "img": "TeamAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "대기 시, 같은 열에 인접한 공격기의 AP / 치명타 / 사거리 / 방어 관통을 증가시킵니다.",
     "areadata": [2, 5, 8]
   }]
@@ -3410,6 +3536,7 @@ var enemyDataArr = [
     "name": "네이팜 분사",
     "img": "WideFireShot",
     "range": 2,
+    "AP": 4,
     "description": "화염 방사로 <span id='askillpower1'></span> 화염 속성 피해를 주며, 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -3419,6 +3546,7 @@ var enemyDataArr = [
     "name": "강화 곡사 포격",
     "img": "CannonShotDelay",
     "range": 6,
+    "AP": 7,
     "description": "1라운드 후에 착탄하는 곡사포를 발사해 목표 범위에 <span id='askillpower2'></span>의 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가합니다.",
     "areadata": [0, 0.75, 0, 0.75, 1, 0.75, 0, 0.75, 0]
   },
@@ -3428,6 +3556,7 @@ var enemyDataArr = [
     "name": "연료 탱크 파괴",
     "img": "SuiceideBomb",
     "range": 0,
+    "AP": 0,
     "description": "사망 시, 높은 확률로 연료 탱크가 유폭해 주변에 괴멸적인 피해를 주며 피해 감소 효과를 해제합니다.",
     "areadata": [2, 4, 5, 6, 8]
   },
@@ -3437,6 +3566,7 @@ var enemyDataArr = [
     "name": "조준 보정",
     "img": "SelfAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "공격 시, 3라운드 동안 적중이 증가합니다.",
     "areadata": [2, 4, 5, 6, 8]
   }]
@@ -3451,6 +3581,7 @@ var enemyDataArr = [
     "name": "GAU 대공 미니건",
     "img": "ARShot",
     "range": 4,
+    "AP": 4,
     "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3460,6 +3591,7 @@ var enemyDataArr = [
     "name": "강화 점착탄",
     "img": "SlowShot",
     "range": 4,
+    "AP": 5,
     "description": "점착탄을 던져 <span id='askillpower2'></span> 피해를 주고, 일정 확률로 적중한 대상을 3라운드 동안 이동 불가 / 회피 / 행동력 감소 상태로 만듭니다. 각 효과는 해당 강화 상태를 해제합니다.",
     "areadata": [5]
   },
@@ -3469,6 +3601,7 @@ var enemyDataArr = [
     "name": "경계 경보",
     "img": "TeamSpdBuff",
     "range": 0,
+    "AP": 0,
     "description": "아군이 처치되면 경계 태세로 전환해 양 옆의 아군의 행동력을 올려주며 대상의 공격을 지원합니다.",
     "areadata": [2, 8]
   }]
@@ -3483,6 +3616,7 @@ var enemyDataArr = [
     "name": "파쇄 미니건",
     "img": "MGShot",
     "range": 5,
+    "AP": 5,
     "description": "미니건을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 / 이동 불가 상태면 피해량이 증가하며, 대상의 피해 감소 효과를 해제합니다.",
     "areadata": [5]
   },
@@ -3492,6 +3626,7 @@ var enemyDataArr = [
     "name": "포획탄 발사",
     "img": "SelfSpdDeBuff",
     "range": 5,
+    "AP": 4,
     "description": "포획탄을 발사해 <span id='askillpower2'></span> 피해를 주고, 3라운드 동안 대상을 이동 불가 / 행동력 감소 / 회피 감소 상태로 만듭니다. 대상이 표식 상태면 일정 확률로 강화 효과를 해제합니다. 스킬 사용 시, 3라운드 동안 자신의 행동력이 증가합니다.",
     "areadata": [5]
   },
@@ -3501,6 +3636,7 @@ var enemyDataArr = [
     "name": "상황 대응",
     "img": "TeamAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "아군 중 HP가 25% 이하인 대상이 있는 경우, 대상의 행동력을 증가시키며 대상의 공격을 지원합니다.",
     "areadata": [1, 2, 3, 4, 6, 7, 8, 9]
   },
@@ -3510,6 +3646,7 @@ var enemyDataArr = [
     "name": "조준 공유 시스템",
     "img": "TeamAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "인접 아군의 적중이 증가합니다. 자신이 처치될 경우, 해당 효과를 받는 아군들의 적중 증가 효과를 해제하고 적중을 감소시킵니다.",
     "areadata": [2, 4, 6, 8]
   }]
@@ -3565,6 +3702,7 @@ var enemyDataArr = [
     "name": "화염 작렬",
     "img": "WideFireShot",
     "range": 3,
+    "AP": 6,
     "description": "화염 방사로 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상 뒤에 50% 감소한 피해를 줍니다. 대상을 점화 상태로 만들어 2라운드 동안 지속 화염 피해를 줍니다.",
     "areadata": [0, 0, 0, 0.5, 1, 0, 0, 0, 0]
   },
@@ -3574,6 +3712,7 @@ var enemyDataArr = [
     "name": "자폭 돌진",
     "img": "SuiceideBomb",
     "range": 7,
+    "AP": 10,
     "description": "공격 대상에게 돌격 후, 자폭해 <span id='askillpower2'></span> 피해를 줍니다. 대상의 방어력을 무시합니다.",
     "areadata": [5]
   },
@@ -3583,6 +3722,7 @@ var enemyDataArr = [
     "name": "고속 기동",
     "img": "SelfSpdBuff",
     "range": 0,
+    "AP": 0,
     "description": "아군이 사망한 경우, 2라운드 동안 회피가 증가하며 행동력 / 적중이 감소합니다. 해당 효과는 중첩됩니다.",
     "areadata": [5]
   }]
@@ -3597,6 +3737,7 @@ var enemyDataArr = [
     "name": "실드 돌진",
     "img": "AssaultAttack",
     "range": 3,
+    "AP": 6,
     "description": "대상에게 돌격해 <span id='askillpower1'></span> 피해를 주고, 대상의 행 / 열 보호 효과와 피해 감소 효과를 해제합니다.",
     "areadata": [5]
   },
@@ -3606,6 +3747,7 @@ var enemyDataArr = [
     "name": "호위 기동",
     "img": "SelfDefBuff",
     "range": 6,
+    "AP": 4,
     "description": "3라운드 동안 지정한 아군을 보호하며, 대상의 행동력과 적중을 증가시킵니다.",
     "areadata": [5]
   },
@@ -3615,6 +3757,7 @@ var enemyDataArr = [
     "name": "경계 기동",
     "img": "SelfDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "라운드 개시 시 HP가 50% 이하인 경우, 받는 피해와 회피가 감소하고 방어력이 대폭 증가합니다.",
     "areadata": [5]
   }]
@@ -3884,6 +4027,7 @@ var enemyDataArr = [
     "name": "강화 중 기관포",
     "img": "MGShot",
     "range": 4,
+    "AP": 4,
     "description": "중 기관포로 <span id='askillpower1'></span> 피해를 줍니다. 대상의 방어력을 일정 비율 무시합니다.",
     "areadata": [5]
   },
@@ -3893,6 +4037,7 @@ var enemyDataArr = [
     "name": "듀얼 칙 캐논포",
     "img": "CannonShotWide",
     "range": 2,
+    "AP": 6,
     "description": "캐논포를 연사해 목표 열에 <span id='askillpower2'></span> 피해를 줍니다. 대상의 피해 감소 효과를 해제합니다.",
     "areadata": [2, 5, 8]
   },
@@ -3902,6 +4047,7 @@ var enemyDataArr = [
     "name": "빅 칙 반응 장갑",
     "img": "SelfDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "반응 장갑으로 인해 받는 피해가 감소합니다.",
     "areadata": [5]
   },
@@ -3911,6 +4057,7 @@ var enemyDataArr = [
     "name": "작열탄두",
     "img": "SelfAtkBuff",
     "range": 0,
+    "AP": 0,
     "description": "작열탄두를 장비해 경장형에게 주는 피해가 증가합니다.",
     "areadata": [5]
   }]
@@ -3925,6 +4072,7 @@ var enemyDataArr = [
     "name": "방패 연타",
     "img": "ShieldWall",
     "range": 3,
+    "AP": 5,
     "description": "방패 연타로 대상에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가하며, 높은 확률로 행동 불가 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -3934,6 +4082,7 @@ var enemyDataArr = [
     "name": "칙 블로킹",
     "img": "ShieldWall",
     "range": 6,
+    "AP": 6,
     "description": "방어 태세를 취해, 3라운드 동안 행 보호 / 열 보호 / 받는 피해 감소 / 효과 저항 증가 효과가 발생합니다. 자신의 HP가 25% 이하인 경우, 반격 효과가 추가됩니다.",
     "areadata": [5]
   },
@@ -3943,6 +4092,7 @@ var enemyDataArr = [
     "name": "칙 방어 지휘",
     "img": "TeamDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "<칙 블로킹> 상태로 라운드 개시 시, 주변 아군에게 방어력 증가 / 받는 피해 감소 효과를 줍니다.",
     "areadata": [2, 3, 6, 8, 9]
   },
@@ -3952,6 +4102,7 @@ var enemyDataArr = [
     "name": "칙 근성 발동",
     "img": "SelfDefBuff",
     "range": 0,
+    "AP": 0,
     "description": "피격 시, 2라운드 동안 방어력 / 행동력이 증가합니다. 라운드 개시 시, <칙 근성 발동> 방어 증가 효과가 5회 이상이면 전투 속행 효과가 추가됩니다. 전투 속행 발동 시, 2라운드 동안 최소 피해만 받지만 지속 고정 피해를 입으며 방어막과 피해 감소 효과를 무시합니다.",
     "areadata": [5]
   }]
@@ -4714,5 +4865,50 @@ var enemyDataArr = [
     "range": 0,
     "description": "사망 시, 리액터가 폭발에 주변에 매우 높은 고정 피해를 줍니다.",
     "areadata": [1, 2, 3, 4, 6, 7, 8, 9]
+  }]
+},
+{
+  "name": "타란튤라",
+  "img": "Tarantula",
+  "skills": [
+  {
+    "title": "askill1",
+    "type": "active",
+    "name": "히트 머신건",
+    "img": "MeleeAttack",
+    "range": 4,
+    "AP": 4,
+    "description": "대상에게 <span id='askillpower1'></span> 화염 속성 피해를 주고, 50% 확률로 최대 3회까지 화염 저항을 감소시킵니다. 치명타 시, 대상의 피해 감소 효과를 해제합니다.",
+    "areadata": [5]
+  },
+  {
+    "title": "askill2",
+    "type": "active",
+    "name": "자폭 개시",
+    "img": "SelfDefBuff",
+    "range": 3,
+    "AP": 10,
+    "description": "자폭해 지정 범위에 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상의 방어력 / 피해 감소 효과를 무시합니다.",
+    "areadata": [2,4,5,6,8]
+  },
+  {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "내부 과열",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "공격 시, 과열 상태가 되어 공격력이 증가합니다. 3중첩 이상 시, 회피가 증가하지만 지속 고정 피해를 입습니다. 적의 공격을 회피하면 2라운드 동안 적중이 증가합니다.",
+    "areadata": [5]
+  },
+  {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "과열 폭발",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<내부 과열> 3중첩 이상 상태에서 사망 시, 주변에 괴멸적인 고정 피해를 줍니다.",
+    "areadata": [1,2,3,4,5,6,7,8,9]
   }]
 }];
