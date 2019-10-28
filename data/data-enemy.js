@@ -4888,7 +4888,7 @@ var enemyDataArr = [
     "img": "SelfDefBuff",
     "range": 3,
     "AP": 10,
-    "description": "자폭해 지정 범위에 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상의 방어력 / 피해 감소 효과를 무시합니다.",
+    "description": "자폭해 지정 범위에 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상의 방어막 / 피해 감소 효과를 무시합니다.",
     "areadata": [2,4,5,6,8]
   },
   {
