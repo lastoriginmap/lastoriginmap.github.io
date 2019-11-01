@@ -566,6 +566,7 @@ var enemyDataArr = [
     "name": "직사 포격",
     "img": "CannonShotWide",
     "range": 2,
+	"AP": 7,
     "description": "직사 포격으로 목표 대상이 있는 열에 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
     "areadata": [2, 5, 8]
   },
@@ -575,6 +576,7 @@ var enemyDataArr = [
     "name": "2연장 곡사포",
     "img": "CannonShotDelay",
     "range": 6,
+	"AP": 9,
     "description": "1라운드 뒤에 착탄하는 곡사 포격으로 목표 지점에 <span id='askillpower2'></span> 피해를 줍니다. 목표 지점 주변에는 피해가 50% 감소합니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
     "areadata": [0, 0.75, 0, 0.75, 1, 0.75, 0, 0.75, 0]
   },
@@ -584,6 +586,7 @@ var enemyDataArr = [
     "name": "고폭 충격탄",
     "img": "SelfAtkBuff",
     "range": 0,
+	"AP": 0,
     "description": "공격 시, 적의 방어막과 피해 감소 효과를 무시합니다.",
     "areadata": [5]
   }]
@@ -3337,7 +3340,7 @@ var enemyDataArr = [
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "전투 개시 시, 모든 아군의 AP / 적중 / 치명타 / 사거리가 증가합니다. 냉기 속성 액티브 스킬 피격 시 아군의 적중 / 치명타 / 사거리 증가 효과가 해제되며, 2라운드 동안 적중 / 치명타가 감소합니다.",
+    "description": "전투 개시 시, 모든 아군의 AP / 적중 / 치명타 / 사거리가 증가합니다. 냉기 속성 액티브 스킬 피격 시 아군의 적중 / 치명타 / 사거리 증가 효과가 해제되며, 2라운드 동안 아군들의 적중 / 치명타가 감소합니다.",
     "areadata": [1,2,3,4,5,6,7,8,9]
   },
   {
@@ -3347,7 +3350,7 @@ var enemyDataArr = [
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "전투 개시 시, 모든 적군의 AP / 적중 / 치명타 / 사거리가 감소합니다. 냉기 속성 액티브 스킬 피격 시 적중 / 치명타 / 사거리 감소 효과가 해제되며, 9라운드 동안 적중 / 치명타가 증가합니다.",
+    "description": "전투 개시 시, 모든 적군의 AP / 적중 / 치명타 / 사거리가 감소합니다. 냉기 속성 액티브 스킬 피격 시 적에게 건 적중 / 치명타 / 사거리 감소 효과가 해제되며, 9라운드 동안 적들의 적중 / 치명타가 증가합니다.",
     "areadata": [1,2,3,4,5,6,7,8,9]
   }]
 },
@@ -4654,6 +4657,7 @@ var enemyDataArr = [
     "name": "급속 부식탄",
     "img": "Missile",
     "range": 5,
+	"AP": 4,
     "description": "급속 부식탄을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 2라운드 동안 대상을 급속 부식 상태로 만들어 효과 저항 / 방어력 / 행동력을 감소시키고 매 라운드 지속 피해를 입힙니다. 대상이 이미 부식 상태면 일정 확률로 강화 효과를 해제합니다.",
     "areadata": [5]
   },
@@ -4663,6 +4667,7 @@ var enemyDataArr = [
     "name": "급속 부식탄 난사",
     "img": "MultiMissile",
     "range": 4,
+	"AP": 7,
     "description": "급속 부식탄을 발사해 지정 범위에 <span id='askillpower2'></span> 피해를 줍니다. 2라운드 동안 대상을 급속 부식 상태로 만들어 효과 저항 / 방어력 / 행동력을 감소시키고 매 라운드 지속 피해를 입힙니다. 대상이 이미 부식 상태면 일정 확률로 강화 효과를 해제합니다.",
     "areadata": [2, 5, 8]
   },
@@ -4672,6 +4677,7 @@ var enemyDataArr = [
     "name": "부식액 누출",
     "img": "TeamDefDeBuff",
     "range": 0,
+	"AP": 0,
     "description": "적 공격 시, 주변에 부식액이 누출되어 지속 고정 피해를 주며 방어력을 감소시킵니다.",
     "areadata": [1, 2, 3, 4, 6, 7, 8, 9]
   },
@@ -4681,6 +4687,7 @@ var enemyDataArr = [
     "name": "내성 장갑",
     "img": "SelfDefBuff",
     "range": 0,
+	"AP": 0,
     "description": "공격 당할 경우, 상대의 스킬이 최소 피해로 적용됩니다. 라운드 개시 시, 자신과 인접한 아군에게 걸린 방해 효과를 해제합니다.",
     "areadata": [1, 3, 5, 7, 9]
   },
@@ -4690,6 +4697,7 @@ var enemyDataArr = [
     "name": "부식액 폭발",
     "img": "SuiceideBomb",
     "range": 0,
+	"AP": 0,
     "description": "화염 속성 액티브 스킬 공격 피격 시, 부식액에 불이 붙어 점화 상태가 됩니다. 점화 상태로 처치되면 부식액 폭발로 범위 내 아군에게 괴멸적인 고정 피해를 입힙니다.",
     "areadata": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   }]
@@ -4704,6 +4712,7 @@ var enemyDataArr = [
     "name": "파쇄 미사일",
     "img": "CruiseMissile",
     "range": 6,
+	"AP": 7,
     "description": "1라운드 후 착탄하며, <span id='askillpower1'></span> 보호 무시 피해를 주는 미사일을 발사합니다. 대상이 경장형 또는 중장형인 경우, 피해량이 크게 증가합니다.",
     "areadata": [5]
   },
@@ -4713,6 +4722,7 @@ var enemyDataArr = [
     "name": "집속 마이크로 미사일",
     "img": "MultiMissile",
     "range": 4,
+	"AP": 3,
     "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 피해를 주는 집속 마이크로 미사일을 발사합니다. 3라운드 동안 공격 대상들의 회피를 감소시킵니다. 200%의 추가 적중 보정이 적용됩니다.",
     "areadata": [2, 4, 5, 6, 8]
   },
@@ -4722,6 +4732,7 @@ var enemyDataArr = [
     "name": "고속 장전 장치",
     "img": "SelfSpdBuff",
     "range": 0,
+	"AP": 0,
     "description": "공격 후, 3라운드 동안 행동력이 크게 증가합니다.",
     "areadata": [5]
   },
@@ -4731,6 +4742,7 @@ var enemyDataArr = [
     "name": "MOP 탄두",
     "img": "SelfAtkBuff",
     "range": 0,
+	"AP": 0,
     "description": "방어 관통이 크게 증가하며, 공격 대상의 방어막과 피해 감소 효과를 무시합니다.",
     "areadata": [5]
   },
@@ -4740,6 +4752,7 @@ var enemyDataArr = [
     "name": "레이더 오류",
     "img": "SelfAtkDeBuff",
     "range": 0,
+	"AP": 0,
     "description": "전기 속성 피격 시, 2라운드 동안 적중이 대폭 감소합니다.",
     "areadata": [5]
   }]
@@ -4754,6 +4767,7 @@ var enemyDataArr = [
     "name": "스매셔 펀치",
     "img": "MeleeAttack",
     "range": 1,
+	"AP": 10,
     "description": "대상을 강타해 <span id='askillpower1'></span> 피해를 주고, 일정 확률로 행동 불가 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -4763,6 +4777,7 @@ var enemyDataArr = [
     "name": "방벽 무너뜨리기",
     "img": "AssaultAttack",
     "range": 2,
+	"AP": 9,
     "description": "대상에게 돌진해 <span id='askillpower2'></span> 피해를 주고, 피해 감소 효과를 해제하며 뒤로 1칸 밀어냅니다.",
     "areadata": [5]
   },
@@ -4772,6 +4787,7 @@ var enemyDataArr = [
     "name": "호위 경보",
     "img": "TeamDefBuff",
     "range": 0,
+	"AP": 0,
     "description": "아군이 사망한 경우, 방어 태세로 전환해 행 보호와 열 보호 효과를 활성화합니다.",
     "areadata": [5]
   },
@@ -4781,6 +4797,7 @@ var enemyDataArr = [
     "name": "고밀도 장갑",
     "img": "SelfDefBuff",
     "range": 0,
+	"AP": 0,
     "description": "라운드 개시 시, 방어력이 증가합니다. HP 25% 이하가 될 경우, 방어력이 추가로 증가합니다.",
     "areadata": [5]
   }]
