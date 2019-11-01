@@ -159,9 +159,14 @@ body {
 
 .skill-range {
 	grid-area: 3 / 10 / 4 / 13;
-	text-align: center;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 0.9em;
+	margin-left: -100%;
+	margin-right: -100%;
 }
 
 .skill-area {
@@ -227,11 +232,12 @@ body {
 	}
 	
 	.skill-name {
-		grid-area: 3 / 1 / 4 / 9;
+		grid-area: 3 / 1 / 4 / 8;
 	}
 	
 	.skill-range {
-		grid-area: 3 / 9 / 4 / 11;
+		grid-area: 3 / 8 / 4 / 11;
+		padding-left: 30%;
 	}
 	
 	.skill-area {

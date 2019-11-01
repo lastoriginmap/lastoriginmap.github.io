@@ -73,6 +73,14 @@ function drawSkillInfo(index, LVL, power, desc)
 {
 	$('.skill-name:last').html("<h5> Lv. "+LVL+"</h5> <h3>"+desc.name+"</h3>");
 	$('.skill-range:last').html("사정거리 "+desc.range);
+	if(desc.AP!=undefined)
+	{
+		$('.skill-range:last').append("<br>AP-"+desc.AP);
+	}
+	else
+	{
+		//$('.skill-range:last').html("AP-"+"#");
+	}
 	if(typeof desc.areadata!="undefined")
 	{
 		drawSkillArea($('.skill-area:last'), desc.areadata);
