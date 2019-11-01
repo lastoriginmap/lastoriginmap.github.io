@@ -68,6 +68,16 @@ async function loadEnemyIMGData()
 		var src="./data/data-enemy.min.js";
 		loadData(src).then(()=> {
 			var enemyIMGData=enemyDataArr.map(data => {return {"name": data.name, "img": data.img}; });
+			/*
+			var enemyIMGData=enemyDataArr.map(data => { 
+				if(data.skills[0].AP!=undefined) { 
+					return {"name": data.name, "img": data.img}; 
+				}
+				else { 
+					return {"name": data.name, "img": ""}; 
+				}
+			});
+			*/
 			resolve(enemyIMGData);
 		});
 	});
