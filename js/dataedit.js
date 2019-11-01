@@ -91,6 +91,7 @@ function submitStage()
 	if(!area) { alert("지역을 먼저 입력하세요!"); throw "No area";}
 	var stage = document.getElementById("input-stage").value;
 	if(!stage) { alert("스테이지를 입력하세요!"); throw "No stage";}
+	var name = document.getElementById("input-stagename").value;
 	var prevstage = document.getElementById("input-prevstage").value;
 	var type = "";
 	var prevtype = "";
@@ -114,6 +115,7 @@ function submitStage()
 	{
 		index=obj[type].push({})-1;
 		obj[type][index]["title"]=title;
+		if(name!="") { obj[type][index]["name"]=name; }
 		if(prevstage!="") { obj[type][index]["prevstage"]=prevtitle; }
 	}
 	Array.from(document.querySelectorAll("#form-wave input:not([type='submit']), #form-enemy input:not([type='submit'])")).forEach(el=>{
