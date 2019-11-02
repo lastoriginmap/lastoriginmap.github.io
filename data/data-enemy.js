@@ -250,6 +250,7 @@ var enemyDataArr = [
     "img": "WideFireShot",
     "range": 2,
     "AP": 4,
+	"type": "fire",
     "description": "화염 방사로 <span id='askillpower1'></span> 화염 속성 피해를 주며, 일정 확률로 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -434,6 +435,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 3,
     "AP": 4,
+	"type": "electric",
     "description": "전격을 방사해 <span id='askillpower1'></span> 전기 속성 피해를 주고 일정 확률로 대상의 회피와 AP를 감소시킵니다.",
     "areadata": [5]
   },
@@ -444,6 +446,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 1,
     "AP": 8,
+	"type": "electric",
     "description": "고압 전류로 <span id='askillpower2'></span> 전기 속성 피해를 주고, 일정 확률로 대상을 행동 불능 상태로 만들고 회피를 감소시킵니다.",
     "areadata": [5]
   },
@@ -688,6 +691,7 @@ var enemyDataArr = [
     "name": "액체 분사",
     "img": "BeamShot",
     "range": 4,
+	"type": "ice",
     "description": "지정 범위에 <span id='askillpower1'></span> 냉기 속성 피해를 줍니다. 적중 대상은 침수 상태가 됩니다.",
     "areadata": [4, 5, 6]
   },
@@ -729,6 +733,7 @@ var enemyDataArr = [
     "name": "스턴 샷",
     "img": "Shock",
     "range": 4,
+	"type": "electric",
     "description": "지정 대상에게 <span id='askillpower1'></span> 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피 / 전기 저항이 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 일정 확률로 행동 불가가 됩니다.",
     "areadata": [5]
   },
@@ -738,6 +743,7 @@ var enemyDataArr = [
     "name": "일렉트릭 쇼크",
     "img": "WideLightning",
     "range": 1,
+	"type": "electric",
     "description": "지정 범위에 <span id='askillpower2'></span> 보호 무시 전기 속성 피해를 줍니다. 적중 대상은 높은 확률로 AP / 회피가 감소합니다. 대상이 침수 상태면 피해량이 크게 증가하며, 받는 피해 감소 상태를 해제합니다.",
     "areadata": [4, 5, 6]
   },
@@ -770,6 +776,7 @@ var enemyDataArr = [
     "name": "동결 가스",
     "img": "BeamShot",
     "range": 3,
+	"type": "ice",
     "description": "지정 범위에 <span id='askillpower1'></span> 냉기 속성 피해를 주고 대상을 이동 불가 상태로 만듭니다. 대상이 침수 상태인 경우, 행동 불가 / 받는 피해 증가 상태로 만들고 강화 효과를 해제합니다.",
     "areadata": [0, 0, 0, 0.5, 1, 0, 0, 0, 0]
   },
@@ -878,6 +885,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 2,
     "AP": 4,
+	"type": "electric",
     "description": "목표 적을 감전시켜 <span id='askillpower1'></span>의 전기 속성 피해를 주고 AP와 회피를 감소시킵니다.",
     "areadata": [5]
   },
@@ -902,6 +910,7 @@ var enemyDataArr = [
     "name": "고전압 스턴 건",
     "img": "Shock",
     "range": 3,
+	"type": "electric",
     "description": "대상에게 <span id='askillpower1'></span> 전기 속성 피해를 주고, AP / 회피 / 행동력를 낮춥니다. 대상이 경장 / 중장형인 경우, 일정 확률로 행동 불가로 만듭니다.",
     "areadata": [5]
   },
@@ -1034,6 +1043,7 @@ var enemyDataArr = [
     "name": "폭뢰 발사",
     "img": "Missile",
     "range": 3,
+	"type": "fire",
     "description": "폭뢰를 발사해 <span id='askillpower1'></span> 화염 속성 피해를 줍니다. 치명타 시, 추가 화염 피해를 주며 대상이 경장형 / 중장형인 경우 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -1176,6 +1186,7 @@ var enemyDataArr = [
     "name": "냉동 가스 분사",
     "img": "Beam",
     "range": 3,
+	"type": "ice",
     "description": "대상에게 냉동 가스를 분사해 <span id='askillpower1'></span> 냉기 속성 피해를 주고, 일정 확률로 3라운드 동안 냉기 / 전기 저항을 낮춥니다. 대상에게 냉기 저항 감소 효과가 이미 적용되어 있는 경우, 일정 확률로 행동 불가 / 받는 피해 증가 / 강화 해제 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -1640,6 +1651,7 @@ var enemyDataArr = [
     "img": "IceShot",
     "range": 3,
     "AP": 5,
+	"type": "ice",
     "description": "냉각탄 사격으로 <span id='askillpower1'></span> 냉기 속성 피해를 주고, 대상의 냉기 저항을 낮춥니다.",
     "areadata": [5]
   },
@@ -1720,6 +1732,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 4,
     "AP": 7,
+	"type": "electric",
     "description": "쇼크탄 저격으로 <span id='askillpower2'></span> 전기 속성 피해를 줍니다. 대상이 냉기 저항 감소 상태면 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -1765,6 +1778,7 @@ var enemyDataArr = [
     "img": "AirStrike",
     "range": 2,
     "AP": 9,
+	"type": "fire",
     "description": "목표 범위에 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상이 표식 상태면 피해량이 증가합니다.",
     "areadata": [4, 5, 6]
   },
@@ -1855,6 +1869,7 @@ var enemyDataArr = [
     "img": "MultiMissile",
     "range": 3,
     "AP": 6,
+	"type": "electric",
     "description": "대상에게 <span id='askillpower1'></span> 전기 속성 피해를 줍니다. 대상이 냉기 저항 감소 상태면 감전시켜 지속 전기 피해를 줍니다.",
     "areadata": [5]
   },
@@ -1910,6 +1925,7 @@ var enemyDataArr = [
     "img": "CannonShotWide",
     "range": 4,
     "AP": 9,
+	"type": "fire",
     "description": "확산 포격으로 무시하고 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상이 표식 상태면 피해 감소 효과를 해제합니다.",
     "areadata": [1, 4, 5, 7]
   },
@@ -2357,6 +2373,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 5,
     "AP": 7,
+	"type": "electric",
     "description": "전격구를 발사해 <span id='askillpower1'></span> 전기 속성 피해를 줍니다. 대상이 감전 상태면 회피를 감소시키며, 일정 확률로 행동 불능 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -2367,6 +2384,7 @@ var enemyDataArr = [
     "img": "WideLightning",
     "range": 5,
     "AP": 5,
+	"type": "electric",
     "description": "방전 공격으로 보호 효과를 무시하고 <span id='askillpower2'></span> 전기 속성 피해를 줍니다. 일정 확률로 대상을 감전시켜 3라운드 동안 행동력과 회피를 낮춥니다.",
     "areadata": [1, 4, 5, 7]
   },
@@ -3141,6 +3159,7 @@ var enemyDataArr = [
     "name": "S. 블리츠 스톰",
     "img": "WideLightning",
     "range": 6,
+	"type": "electric",
     "description": "지정 범위에 <span id='askillpower1'></span> 보호 무시 전기 속성 피해를 주고 AP / 회피 / 행동력 / 전기 저항을 낮춥니다. 목표 지점 주변은 피해량이 50% 감소합니다. <전하 충전> 중첩을 2 사용합니다.",
     "areadata": [0, 0.5, 0, 0.5, 1, 0.5, 0, 0.5, 0]
   },
@@ -3150,6 +3169,7 @@ var enemyDataArr = [
     "name": "H. 유피텔 스트라이크",
     "img": "AssaultAttack",
     "range": 6,
+	"type": "electric",
     "description": "지정 대상에게 <span id='askillpower2'></span> 보호 무시 전기 속성 피해를 주고 일정 확률로 행동 불가 상태로 만들며 강화 효과를 해제합니다. <전하 충전> 중첩을 5 사용하며, 치명타 시 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3232,6 +3252,7 @@ var enemyDataArr = [
     "name": "S. 블리츠 스톰",
     "img": "WideLightning",
     "range": 6,
+	"type": "electric",
     "description": "지정 범위에 <span id='askillpower1'></span> 보호 무시 전기 속성 피해를 주고 AP / 회피 / 행동력 / 전기 저항을 낮춥니다.",
     "areadata": [2, 4, 5, 6, 8]
   },
@@ -3241,6 +3262,7 @@ var enemyDataArr = [
     "name": "H. 유피텔 스트라이크",
     "img": "AssaultAttack",
     "range": 6,
+	"type": "electric",
     "description": "지정 대상에게 <span id='askillpower2'></span> 보호 무시 전기 속성 피해를 주고, 행동 불가 상태로 만들며 전기 저항을 감소시킵니다. 일정 확률로 강화 효과를 해제합니다. <전하 충전> 중첩을 3 사용하며, 치명타 시 피해량이 증가합니다.",
     "areadata": [5]
   },
@@ -3620,6 +3642,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 3,
     "AP": 4,
+	"type": "electric",
     "description": "전격을 방사해 <span id='askillpower1'></span> 전기 속성 피해를 주고 대상의 AP와 회피를 감소시킵니다.",
     "areadata": [5]
   },
@@ -3630,6 +3653,7 @@ var enemyDataArr = [
     "img": "Shock",
     "range": 1,
     "AP": 8,
+	"type": "electric",
     "description": "고압 전류로 <span id='askillpower2'></span> 전기 속성 피해를 주고, 회피를 감소시킵니다. 일정 확률로 대상을 행동 불가 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -3690,6 +3714,7 @@ var enemyDataArr = [
     "img": "WideFireShot",
     "range": 2,
     "AP": 4,
+	"type": "fire",
     "description": "화염 방사로 <span id='askillpower1'></span> 화염 속성 피해를 주며, 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.",
     "areadata": [5]
   },
@@ -5055,6 +5080,7 @@ var enemyDataArr = [
     "img": "MeleeAttack",
     "range": 4,
     "AP": 4,
+	"type": "fire",
     "description": "대상에게 <span id='askillpower1'></span> 화염 속성 피해를 주고, 50% 확률로 최대 3회까지 화염 저항을 감소시킵니다. 치명타 시, 대상의 피해 감소 효과를 해제합니다.",
     "areadata": [5]
   },
@@ -5065,6 +5091,7 @@ var enemyDataArr = [
     "img": "SelfDefBuff",
     "range": 3,
     "AP": 10,
+	"type": "fire",
     "description": "자폭해 지정 범위에 <span id='askillpower2'></span> 화염 속성 피해를 줍니다. 대상의 방어막 / 피해 감소 효과를 무시합니다.",
     "areadata": [2,4,5,6,8]
   },
