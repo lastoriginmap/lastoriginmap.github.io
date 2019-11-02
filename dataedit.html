@@ -35,16 +35,16 @@
 			<form id="form-stage">
 				<label id="label-stage" for="input-stage">스테이지: </label>
 				<input type="number" autocomplete="off" id="input-stage"><br>
-				<input type="radio" name="stage-type" value="Main" checked="checked">Main
-				<input type="radio" name="stage-type" value="B">B
-				<input type="radio" name="stage-type" value="Ex">Ex<br >
+				<input type="radio" id="Main" name="stage-type" value="Main" checked="checked"><label for="Main">Main</label>
+				<input type="radio" id="B" name="stage-type" value="B"><label for="B">B</label>
+				<input type="radio" id="Ex" name="stage-type" value="Ex"><label for="Ex">Ex</label><br >
 				<label id="label-stagename" for="input-stagename">이름: </label>
 				<input type="text" autocomplete="off" id="input-stagename"><br>
 				<label id="label-prevstage" for="input-prevstage">이전 스테이지: </label>
 				<input type="number" autocomplete="off" id="input-prevstage"><br>
-				<input type="radio" name="prevstage-type" value="Main" checked="checked">Main
-				<input type="radio" name="prevstage-type" value="B">B
-				<input type="radio" name="prevstage-type" value="Ex">Ex<br >
+				<input type="radio" id="prevMain" name="prevstage-type" value="Main" checked="checked"><label for="prevMain">Main</label>
+				<input type="radio" id="prevB" name="prevstage-type" value="B"><label for="prevB">B</label>
+				<input type="radio" id="prevEx" name="prevstage-type" value="Ex"><label for="prevEx">Ex</label><br >
 				<input type="submit" value="스테이지 입력">
 			</form>
 			<hr>
@@ -76,35 +76,35 @@
 					<tbody>
 						<tr>
 							<td>
-								<input type="checkbox" value="7" name="input-pos"> 7
+								<input type="checkbox" id="pos7" value="7" name="input-pos"><label for="pos7">7</label>
 							</td>
 							<td>
-								<input type="checkbox" value="8" name="input-pos"> 8
+								<input type="checkbox" id="pos8" value="8" name="input-pos"><label for="pos8">8</label>
 							</td>
 							<td>
-								<input type="checkbox" value="9" name="input-pos"> 9
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<input type="checkbox" value="4" name="input-pos"> 4
-							</td>
-							<td>
-								<input type="checkbox" value="5" name="input-pos"> 5
-							</td>
-							<td>
-								<input type="checkbox" value="6" name="input-pos"> 6
+								<input type="checkbox" id="pos9" value="9" name="input-pos"><label for="pos9">9</label>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<input type="checkbox" value="1" name="input-pos"> 1
+								<input type="checkbox" id="pos4" value="4" name="input-pos"><label for="pos4">4</label>
 							</td>
 							<td>
-								<input type="checkbox" value="2" name="input-pos"> 2
+								<input type="checkbox" id="pos5" value="5" name="input-pos"><label for="pos5">5</label>
 							</td>
 							<td>
-								<input type="checkbox" value="3" name="input-pos"> 3
+								<input type="checkbox" id="pos6" value="6" name="input-pos"><label for="pos6">6</label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" id="pos1" value="1" name="input-pos"><label for="pos1">1</label>
+							</td>
+							<td>
+								<input type="checkbox" id="pos2" value="2" name="input-pos"><label for="pos2">2</label>
+							</td>
+							<td>
+								<input type="checkbox" id="pos3" value="3" name="input-pos"><label for="pos3">3</label>
 							</td>
 						</tr>
 					</tbody>

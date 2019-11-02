@@ -35,7 +35,11 @@ window.onload = async function() {
 	});
 	document.getElementById("delete").addEventListener("click", e=>{
 		e.preventDefault();
-		deleteEnemy(obj);
+		var overwrite=confirm("해당 위치의 전투원을 삭제하시겠습니까?");
+		if(overwrite)
+		{
+			deleteEnemy(obj);
+		}
 	}, false);
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
@@ -68,8 +72,12 @@ async function submitArea(overide=false)
 		obj["areatype"] = "grid";
 		obj["gridsize"] = [8,3];
 	}
-	Array.from(document.querySelectorAll("#form-stage input[type='number'], #form-wave input:not([type='submit']), #form-enemy input:not([type='submit'])")).forEach(el=>{
+	Array.from(document.querySelectorAll("#form-stage input[type='text'], #form-stage input[type='number'], #input-wave, #form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
 		el.value = null;
+		el.disabled = true;
+	});
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
 		el.disabled = true;
 	});
 	Array.from(document.querySelectorAll("#form-stage input")).forEach(el=>{
@@ -118,8 +126,12 @@ function submitStage()
 		if(name!="") { obj.stage[index]["name"]=name; }
 		if(prevstage!="") { obj.stage[index]["prevstage"]=prevtitle; }
 	}
-	Array.from(document.querySelectorAll("#form-wave input:not([type='submit']), #form-enemy input:not([type='submit'])")).forEach(el=>{
+	Array.from(document.querySelectorAll("#input-wave, #form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
 		el.value = null;
+		el.disabled = true;
+	});
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
 		el.disabled = true;
 	});
 	Array.from(document.querySelectorAll("#form-wave input")).forEach(el=>{
@@ -159,8 +171,11 @@ async function submitWave()
 	Array.from(document.getElementsByClassName("current-wave")).forEach(el=>{
 		el.textContent = "현재 웨이브: "+wave;
 	});
-	Array.from(document.querySelectorAll("#form-enemy input:not([type='submit'])")).forEach(el=>{
+	Array.from(document.querySelectorAll("#form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
 		el.value = null;
+	});
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
 	});
 	Array.from(document.querySelectorAll("#form-enemy input")).forEach(el=>{
 		el.disabled = false;
@@ -258,6 +273,10 @@ function submitEnemy()
 	
 	var newEnemy = obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
 	drawStageMap([stageTitle, wave]);
+	
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
+	});
 }
 
 function deleteEnemy(obj)
@@ -291,10 +310,9 @@ function deleteEnemy(obj)
 		}
 	}
 	
-	
 	if(overlapped)
 	{
-		for(let i=0;i<overlappedpos.length;i++)
+		for(let i=overlappedpos.length-1;i>=0;i--)
 		{
 			if(obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
 			{
@@ -309,6 +327,10 @@ function deleteEnemy(obj)
 	
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	drawStageMap([stageTitle, wave]);
+	
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
+	});
 }
 
 function setObj(str)
@@ -504,4 +526,10 @@ function loadEnemyStat(param)
 	document.getElementById("input-HIT").value = enemyStatData.HIT;
 	document.getElementById("input-DOD").value = enemyStatData.DOD;
 	document.getElementById("input-skill").value = enemyStatData.skillpower;
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
+	});
+	enemyStatData.pos.forEach(el=>{
+		document.getElementById("pos"+el).checked=true;
+	});
 }
