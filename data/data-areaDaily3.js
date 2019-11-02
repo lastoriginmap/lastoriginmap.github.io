@@ -321,7 +321,7 @@ var areaData ={
                      ]
                   },
                   {
-                     "name":"트릭스터 (5-4-1)",
+                     "name":"트릭스터 (5-4)",
                      "nickname":"트릭스터",
                      "pos":[
                         5
@@ -386,7 +386,7 @@ var areaData ={
                      ]
                   },
                   {
-                     "name":"트릭스터 (5-4-1)",
+                     "name":"트릭스터 (5-4)",
                      "nickname":"트릭스터",
                      "pos":[
                         5
@@ -448,7 +448,7 @@ var areaData ={
                "title":"wave2",
                "enemy":[
                   {
-                     "name":"트릭스터 (5-4-1)",
+                     "name":"트릭스터 (5-4)",
                      "nickname":"트릭스터",
                      "pos":[
                         7,
