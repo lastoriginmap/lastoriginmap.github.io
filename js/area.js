@@ -15,32 +15,20 @@ window.onload  =  async function() {
 
 function drawArea(areaData)
 {
-    var gridSize = [8,3];
-	if(typeof(areaData.gridsize)!= "undefined")
-	{
-		gridSize = areaData.gridsize;
-	}
+    var gridSize = areaData.gridsize || [8,3];
 	var unit = Math.max($(".areamap").width(), 540)/gridSize[0];
 	var stageType = ["b", "main", "ex"];
 	var stageTypeTitle = ["B", "", "Ex"];
-	for(var j = 0;j<stageType.length;j++)
+	for(var i = 0;i<areaData.stage.length;i++)
 	{
-	if(areaData[stageType[j]+"stage"])
-	{
-	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
-	{
-		var data = areaData[stageType[j]+"stage"][i];
+		var data = areaData.stage[i];
+		var type = stageType[stageTypeTitle.indexOf(getTypeByStageTitle(data.title))]+"stage";
 		var index = getIndexByStageTitle(data.title);
 		var grid = getGridByStageData(data);
-		var name = data.title;
-		if(data.name!=undefined)
-		{
-			name = data.name;
-		}
-		$("#"+stageType[j]+"stage-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+stageType[j]+"stage\" id=\""+stageType[j]+"stage"+index+"\"></div><div class=\"title-container\">"+name+"</div></a>");
-		//alert(stageTypeTitle[j]);
-		var stageBox = $("#"+stageType[j]+"stage"+index)[0];
-		var titleBox = $("#"+stageType[j]+"stage"+index+"+.title-container")[0];
+		var name = data.name || data.title;
+		$("#"+type+"-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+type+"\" id=\""+type+index+"\"></div><div class=\"title-container\">"+name+"</div></a>");
+		var stageBox = $("#"+type+index)[0];
+		var titleBox = $("#"+type+index+"+.title-container")[0];
 		stageBox.style.left = (0.75-(grid[1]%2)*0.5+grid[0])*unit-2+"px";
 		stageBox.style.top = ((grid[1]+0.75)*0.55-1/4)*unit-1+"px";
 		stageBox.style.width = 0.5*unit+3+"px";
@@ -49,8 +37,6 @@ function drawArea(areaData)
 		titleBox.style.top = ((grid[1]+0.75)*0.55+1/8)*unit-1+"px";
 		titleBox.style.width = stageBox.style.width;
 		//titleBox.style.height = 3/8*unit+height+2+"px";
-	}
-	}
 	}
 }
 
@@ -70,11 +56,7 @@ function drawCanvas(areaData)
 	var canvas  =  document.getElementById("canvas");
 	var ctx  =  canvas.getContext("2d");
 	
-	var gridsize = [8,3];
-	if(typeof(areaData.gridsize)!= "undefined")
-	{
-		gridsize = areaData.gridsize;
-	}
+    var gridsize = areaData.gridsize || [8,3];
 	canvas.width = Math.max($("#canvas").parent().width(), 540);
 	var unit = canvas.width/gridsize[0];
 	canvas.height = (0.55*(3+0.5))*unit;
@@ -84,18 +66,14 @@ function drawCanvas(areaData)
 	
 	ctx.lineWidth = 2;
 	
-	for(var j = 0;j<3;j++)
-	{
-	if(areaData[stageType[j]+"stage"])
-	{
-	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
+	for(var i = 0;i<areaData.stage.length;i++)
 	{
 		ctx.strokeStyle = colorArr[j];
-		var stageData = areaData[stageType[j]+"stage"][i];
+		var stageData = areaData.stage[i];
 		if(typeof(stageData.prevstage)!= "undefined")
 		{
 			var index = stageTypeTitle.indexOf(getTypeByStageTitle(stageData.prevstage))
-			var prevStageData = areaData[stageType[index]+"stage"].filter(function(data){ return data.title == stageData.prevstage; })[0];
+			var prevStageData = areaData.stage.find(data=>{ return data.title == stageData.prevstage; });
 			var prevGrid = getGridByStageData(prevStageData);
 			var grid = getGridByStageData(stageData);
 			
@@ -114,17 +92,12 @@ function drawCanvas(areaData)
 			ctx.stroke();
 		}
 	}
-	}
-	}
 	
-	for(var j = 0;j<stageType.length;j++)
+	for(var i = 0;i<areaData.stage.length;i++)
 	{
-	if(areaData[stageType[j]+"stage"])
-	{
-	for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
-	{
-		var grid = getGridByStageData(areaData[stageType[j]+"stage"][i]);
-		ctx.strokeStyle = colorArr[j];
+		var grid = getGridByStageData(areaData.stage[i]);
+		var index = stageTypeTitle.indexOf(getTypeByStageTitle(areaData.stage[i].title))
+		ctx.strokeStyle = colorArr[index];
 		ctx.fillStyle = "black";
 		ctx.beginPath();
 		ctx.ellipse(Math.round((0.5*(2-grid[1]%2)+grid[0])*unit), Math.round((grid[1]+0.75)*0.55*unit), Math.round(unit/4), Math.round(unit/8), 0, 0, 2*Math.PI);
@@ -132,26 +105,22 @@ function drawCanvas(areaData)
 		ctx.fill();
 		ctx.stroke();
 	}
-	}
-	}
 	
 	var imgarr = [];
 	for(var j = 0;j<stageType.length;j++)
-	{
-	if(areaData[stageType[j]+"stage"])
 	{
 		imgarr[j] = new Image();
 		imgarr[j].j = j;
 		imgarr[j].addEventListener("load", function() {
 			var j = this.j;
-			for(var i = 0;i<areaData[stageType[j]+"stage"].length;i++)
+			var stageTypeData = areaData.stage.filter(data=>getTypeByStageTitle(data.title)==stageTypeTitle[j]);
+			for(var i = 0;i<stageTypeData.length;i++)
 			{
-				var grid = getGridByStageData(areaData[stageType[j]+"stage"][i]);
+				var grid = getGridByStageData(stageTypeData[i]);
 				ctx.drawImage(this, Math.round((0.5*(2-grid[1]%2)+grid[0]-1/6)*unit), Math.round(((grid[1]+0.75)*0.55-7/24)*unit), Math.round((1/3)*unit), Math.round((1/3)*unit));
 			}
 		});
 		imgarr[j].src = imgSrcArr[j];
-	}
 	}
 }
 

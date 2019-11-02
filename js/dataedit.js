@@ -109,14 +109,14 @@ function submitStage()
 		el.textContent = "현재 스테이지: "+title;
 	});
 	
-	type = type.toLowerCase()+"stage";
-	if(!obj[type]) { obj[type]=[]; }
-	if(obj[type].findIndex(el=>el.title==title)==-1)
+	//type = type.toLowerCase()+"stage";
+	if(!obj.stage) { obj.stage=[]; }
+	if(obj.stage.findIndex(el=>el.title==title)==-1)
 	{
-		index=obj[type].push({})-1;
-		obj[type][index]["title"]=title;
-		if(name!="") { obj[type][index]["name"]=name; }
-		if(prevstage!="") { obj[type][index]["prevstage"]=prevtitle; }
+		index=obj.stage.push({})-1;
+		obj.stage[index]["title"]=title;
+		if(name!="") { obj.stage[index]["name"]=name; }
+		if(prevstage!="") { obj.stage[index]["prevstage"]=prevtitle; }
 	}
 	Array.from(document.querySelectorAll("#form-wave input:not([type='submit']), #form-enemy input:not([type='submit'])")).forEach(el=>{
 		el.value = null;
@@ -136,28 +136,25 @@ async function submitWave()
 	var wave = document.getElementById("input-wave").value;
 	if(!wave) { alert("웨이브를 입력하세요!"); throw "No wave";}
 	
-	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
-		if(el.checked) { type = el.value.toLowerCase()+"stage"; }
-	});
-	if(!obj[type].find(el=>el.title==stageTitle).wave)
+	if(!obj.stage.find(el=>el.title==stageTitle).wave)
 	{
 		if(wave!=1)
 		{
 			alert("첫 웨이브는 1부터 시작해야 합니다!");
 			throw "Wrong Wave Number";
 		}
-		obj[type].find(el=>el.title==stageTitle)["wave"]=[{}];
+		obj.stage.find(el=>el.title==stageTitle)["wave"]=[{}];
 	}
-	if(!obj[type].find(el=>el.title==stageTitle).wave[wave-1])
+	if(!obj.stage.find(el=>el.title==stageTitle).wave[wave-1])
 	{
-		if(!obj[type].find(el=>el.title==stageTitle).wave[wave-2])
+		if(!obj.stage.find(el=>el.title==stageTitle).wave[wave-2])
 		{
 			alert("웨이브의 순서가 잘못되었습니다!");
 			throw "Wrong Wave Number";
 		}
-		obj[type].find(el=>el.title==stageTitle).wave[wave-1]={};
+		obj.stage.find(el=>el.title==stageTitle).wave[wave-1]={};
 	}
-	obj[type].find(el=>el.title==stageTitle).wave[wave-1]["title"] = "wave"+wave;
+	obj.stage.find(el=>el.title==stageTitle).wave[wave-1]["title"] = "wave"+wave;
 	console.log("Submit wave"+wave);
 	Array.from(document.getElementsByClassName("current-wave")).forEach(el=>{
 		el.textContent = "현재 웨이브: "+wave;
@@ -169,7 +166,7 @@ async function submitWave()
 		el.disabled = false;
 	});
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
-	drawStageMap([type, stageTitle, wave]);
+	drawStageMap([stageTitle, wave]);
 }
 
 function submitEnemy()
@@ -216,11 +213,11 @@ function submitEnemy()
 	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
 	if(el.checked) { type = el.value.toLowerCase()+"stage"; }
 	});
-	if(!obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy)
+	if(!obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy)
 	{
-		obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy=[];
+		obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy=[];
 	}
-	var enemypos=obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
+	var enemypos=obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
 	var overlapped=false;
 	var overlappedpos=[];
 	for(let i=0;i<enemypos.length;i++)
@@ -241,13 +238,13 @@ function submitEnemy()
 		{
 			for(let i=0;i<overlappedpos.length;i++)
 			{
-				if(obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
+				if(obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
 				{
-					obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
+					obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
 				}
 				else
 				{
-					obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
+					obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
 				}
 			}
 		}
@@ -256,11 +253,11 @@ function submitEnemy()
 			throw "Overlapped pos";
 		}
 	}
-	obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
+	obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	
-	var newEnemy = obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
-	drawStageMap([type, stageTitle, wave]);
+	var newEnemy = obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
+	drawStageMap([stageTitle, wave]);
 }
 
 function deleteEnemy(obj)
@@ -279,7 +276,7 @@ function deleteEnemy(obj)
 			deletePos.push(7-parseInt(index/3)*3+index%3);
 		}
 	});
-	var enemypos=obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
+	var enemypos=obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
 	var overlapped=false;
 	var overlappedpos=[];
 	for(let i=0;i<enemypos.length;i++)
@@ -299,19 +296,19 @@ function deleteEnemy(obj)
 	{
 		for(let i=0;i<overlappedpos.length;i++)
 		{
-			if(obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
+			if(obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
 			{
-				obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
+				obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
 			}
 			else
 			{
-				obj[type].find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
+				obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
 			}
 		}
 	}
 	
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
-	drawStageMap([type, stageTitle, wave]);
+	drawStageMap([stageTitle, wave]);
 }
 
 function setObj(str)
@@ -460,7 +457,7 @@ function drawStageMap(param)
 		$('.current-wave-map > div').html('');
 	}
 	
-	var waveData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1];
+	var waveData = obj.stage.find(el=>el.title==param[0]).wave[param[1]-1];
 	if(waveData.enemy)
 	{
 		for(let j=0;j<waveData.enemy.length;j++)
@@ -496,7 +493,7 @@ function drawStageMap(param)
 
 function loadEnemyStat(param)
 {
-	var enemyStatData = obj[param[0]].find(el=>el.title==param[1]).wave[param[2]-1].enemy[param[3]];
+	var enemyStatData = obj.stage.find(el=>el.title==param[0]).wave[param[1]-1].enemy[param[2]];
 	document.getElementById("input-name").value = enemyStatData.name;
 	document.getElementById("input-LVL").value = enemyStatData.LVL;
 	document.getElementById("input-HP").value = enemyStatData.HP;

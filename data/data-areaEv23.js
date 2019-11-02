@@ -5,7 +5,7 @@ var areaData = {
     8,
     3
   ],
-  "mainstage": [
+  "stage": [
     {
       "title": "Ev23-1",
       "name": "Ev3-1",
@@ -2033,9 +2033,7 @@ var areaData = {
           ]
         }
       ]
-    }
-  ],
-  "bstage": [
+    },
     {
       "title": "Ev23-1B",
       "name": "Ev3-1s",
@@ -3313,9 +3311,7 @@ var areaData = {
           ]
         }
       ]
-    }
-  ],
-  "exstage": [
+    },
     {
       "title": "Ev23-1Ex",
       "name": "Ev3-1ep",
