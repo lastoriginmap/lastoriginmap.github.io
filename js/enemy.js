@@ -71,7 +71,9 @@ function drawEnemyPage(stat, desc)
 
 function drawSkillInfo(index, LVL, power, desc)
 {
-	$('.skill-name:last').html("<h5> Lv. "+LVL+"</h5> <h3>"+desc.name+"</h3>");
+	var attr = "normal"
+	if(desc.attr!=undefined) { attr=desc.attr; }
+	$('.skill-name:last').html("<img class='skill-attr' src='images/"+attr+".png'></img><h5> Lv. "+LVL+"</h5> <h3>"+desc.name+"</h3>");
 	$('.skill-range:last').html("사정거리 "+desc.range);
 	if(desc.AP!=undefined)
 	{

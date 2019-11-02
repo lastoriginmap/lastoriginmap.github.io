@@ -156,7 +156,16 @@ body {
 .skill-name {
 	grid-area: 3 / 1 / 4 / 10;
 }
+.skill-attr {
+	width: 1em;
+	display: inline;
+	vertical-align:middle;
+}
 
+.skill-name h5 {
+	display: inline;
+}
+	
 .skill-range {
 	grid-area: 3 / 10 / 4 / 13;
 	display: flex;
