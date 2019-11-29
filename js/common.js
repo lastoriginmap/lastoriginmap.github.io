@@ -19,7 +19,7 @@ async function loadAreaData(areaNum)
 {
 	return new Promise((resolve, reject)=> {
 		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
-		var src="./data/data-area"+areaNum+".min.js";
+		var src="./data/data-area"+areaNum+".js";
 		loadData(src).then(()=>resolve(areaData), ()=>reject());
 	});
 }
@@ -29,7 +29,7 @@ async function loadStageData(stageTitle)
 {
 	return new Promise(resolve=> {
 		//src를 지역 데이터 파일로 설정해 로드
-		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".min.js";
+		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".js";
 		loadData(src).then(()=> {
 			var stageData=areaData.stage.filter(sData => sData.title==stageTitle)[0];
 			var stageList=areaData.stage.map(sData => getIndexByStageTitle(sData.title));
@@ -42,7 +42,7 @@ async function loadStageData(stageTitle)
 function loadEnemyDataArr()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.min.js";
+		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
 			resolve(enemyDataArr);
 		});
@@ -52,7 +52,7 @@ function loadEnemyDataArr()
 function loadEnemyData(enemyName)
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.min.js";
+		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
 			var enemyData=enemyDataArr.filter(data => data.name==enemyName)[0];
 			resolve(enemyData);
@@ -63,7 +63,7 @@ function loadEnemyData(enemyName)
 async function loadEnemyIMGData()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.min.js";
+		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
 			var enemyIMGData=enemyDataArr.map(data => {return {"name": data.name, "img": data.img}; });
 			/*

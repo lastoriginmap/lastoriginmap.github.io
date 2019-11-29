@@ -2,6 +2,7 @@ var enemyDataArr = [
 {
   "name": "나이트 칙",
   "img": "NightChick",
+  "info": "어쩌구저쩌구",
   "skills": [
   {
     "title": "askill1",

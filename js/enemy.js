@@ -10,7 +10,7 @@ window.onload = async function(){
 	drawEnemyPage(enemyStatData, enemyDescData);
 	
 	$('.skill-nav').on('click', '.btn', function(e) {
-		changeSkill(e.currentTarget.hash.slice(6));
+		changeSkill(e.currentTarget.hash);
 		e.preventDefault();
 	}); 
 };
@@ -56,6 +56,12 @@ function drawEnemyPage(stat, desc)
 		}
     }
     $('.btn:first').remove();
+    $('.btn-info').clone().appendTo('.skill-nav');
+    $('.btn-info:last').attr('href', '#info');
+    $('.btn-info:last').addClass("skill-active");
+    $('.info-icon').attr("src", "images/info.png");
+    
+    $('.btn-info:first').remove();
     $('.btn:first').addClass("active");
 	for(var i=0;i<desc.skills.length;i++)
 	{
@@ -65,6 +71,8 @@ function drawEnemyPage(stat, desc)
 			drawSkillInfo(i, stat.skillLVL[i], stat.skillpower[i], desc.skills[i]);
 		}
 	}
+	$('.skill-container:last').after($('.skill-container:first').clone());
+	drawInfo(desc.skills.length, desc.info);
 	$('.skill-container:first').remove();
 	$('.skill-container:first').addClass('skill-container-active');
 }
@@ -104,6 +112,21 @@ function drawSkillInfo(index, LVL, power, desc)
 	{
 		$('.skill-nav-wrap:last').css("border-bottom", "5px solid skyblue");
 	}
+}
+function drawInfo(index, info)
+{
+	$('.skill-name:last').remove();
+	$('.skill-range:last').remove();
+	$('.skill-area:last').remove();
+	$('.skill-description:last').addClass('info-description');
+	$('.skill-description:last').removeClass('.skill-description');
+	$('.info-description:last').css('grid-area','3/1/5/13');
+	if(info===undefined) info='-';
+	$('.info-description:last').html('<p>대상 정보<br>'+info+'</p>');
+	
+	$('.active:last').removeClass("active");
+	$('.skill-container:eq('+(index+1)+') .btn-info').addClass("active");
+	$('.skill-nav-wrap:last').css("border-bottom", "5px solid orange");
 }
 
 function drawSkillArea(json, data)
@@ -146,10 +169,17 @@ function drawSkillArea(json, data)
 	}
 }
 
-function changeSkill(index)
+function changeSkill(hash)
 {
 	$('.skill-container-active').removeClass('skill-container-active');
-	$('.skill-container:eq('+index+')').addClass('skill-container-active');
+	if(hash=='#info')
+	{
+		$('.skill-container:last').addClass('skill-container-active');
+	}
+	else
+	{
+		$('.skill-container:eq('+hash.slice(6)+')').addClass('skill-container-active');
+	}
 }
 
 function writeData(str1, str2)
