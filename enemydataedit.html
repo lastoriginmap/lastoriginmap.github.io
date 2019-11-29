@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>철충 정보 입력기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/dataedit.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/enemydataedit.js"></script>
+    <style>
+    	table, th, td {
+    		border: 1px solid #bcbcbc;
+    	}
+    </style>
+    
+    
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h2 id="title">라스트 오리진 철충 지도 적 데이터 편집기 v0.1</h2>
+			<p>본 페이지는 철충 지도의 제작 보조용으로만 사용되고 있습니다. 편집기에 대한 요청이나 제보는 받지 않습니다.</p>
+		</header>
+		<section>
+			<hr>
+			<form id="form-enemy">
+				<div id="img"></div>
+				<button type="button" id="delete-name">삭제</button><br>
+				<label for="input-name">철충 이름:</label>
+				<input type="text" name="enemyname" id="input-name" list="name-list" autocomplete="off">
+				<datalist id="name-list">
+					<!--option value="나이트 칙"></option>
+					<option value="나이트 칙 런처"></option>
+					<option value="나이트 칙 실더"></option-->
+				</datalist>
+				<button type="button" id="button-name">입력</button><br>
+				<label for="input-type">타입: </label><input type="text" autocomplete="off" id="input-type"><br >
+				<label for="input-img">이미지: </label><input type="text" autocomplete="off" id="input-img"><br >
+				<label for="input-img">속성저항: </label><input type="text" autocomplete="off" id="input-resist"><br >
+				<input type="submit" value="적 입력"><br >
+			</form>
+			<hr>
+			<form id="form-skillselect">
+				<input type="radio" id="askill1" name="skill-select" value="askill1"><label for="askill1">askill1</label>
+				<input type="radio" id="askill2" name="skill-select" value="askill2"><label for="askill2">askill2</label><br>
+				<input type="radio" id="pskill1" name="skill-select" value="pskill1"><label for="pskill1">pskill1</label>
+				<input type="radio" id="pskill2" name="skill-select" value="pskill2"><label for="pskill2">pskill2</label>
+				<input type="radio" id="pskill3" name="skill-select" value="pskill3"><label for="pskill3">pskill3</label>
+			</form>
+			<hr>
+			<form id="form-skill">
+				<button type="button" id="delete-skill">스킬 삭제</button><br>
+				<label for="input-skillname">이름: </label><input type="text" autocomplete="off" id="input-skillname"><br >
+				<label for="input-skillimage">아이콘: </label><input type="text" autocomplete="off" id="input-skillimage"><br >
+				<label for="input-skillrange">사거리: </label><input type="text" autocomplete="off" id="input-skillrange"><br >
+				<label for="input-skillAP">AP: </label><input type="text" autocomplete="off" id="input-skillAP"><br >
+				<label for="input-skillattr">속성: </label><input type="text" autocomplete="off" id="input-skillattr"><br >
+				<label for="input-skilldesc">설명: </label><textarea autocomplete="off" id="input-skilldesc" style="width:100%; height:4em;"></textarea><br >
+				<label for="input-skillarea">범위: </label><input type="text" autocomplete="off" id="input-skillarea"><br >
+				<input type="submit" value="스킬 입력"><br >
+			</form>
+			<hr>
+			<button type="button" id="download">다운로드</button>
+			<hr>
+			<form id="form-result">
+				<textarea style="width:100%; height:50em;" id="input-result"></textarea>
+				<div id="error-message"></div>
+				<input type="submit" value="데이터 변경">
+			</form>
+		</section>
+		<a id="download-dummy" style="display:none"></a>
+	</div>
+</body>
+
+</html>

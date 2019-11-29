@@ -39,6 +39,16 @@ async function loadStageData(stageTitle)
 	});
 }
 
+function loadEnemyDataArr()
+{
+	return new Promise(resolve=> {
+		var src="./data/data-enemy.min.js";
+		loadData(src).then(()=> {
+			resolve(enemyDataArr);
+		});
+	});
+}
+
 function loadEnemyData(enemyName)
 {
 	return new Promise(resolve=> {
