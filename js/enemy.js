@@ -37,6 +37,10 @@ function drawEnemyPage(stat, desc)
 	writeData('HIT', stat.HIT);
 	writeData('DOD', stat.DOD);
 	
+	writeData('fire', desc.resist[0]);
+	writeData('ice', desc.resist[1]);
+	writeData('electric', desc.resist[2]);
+	
 	for(var i=0;i<desc.skills.length;i++)
 	{
 		if(stat.skillLVL[i]!=0&&stat.skillLVL[i]!==undefined)
@@ -81,7 +85,7 @@ function drawSkillInfo(index, LVL, power, desc)
 {
 	var attr = "normal"
 	if(desc.attr!=undefined) { attr=desc.attr; }
-	$('.skill-name:last').html("<img class='skill-attr' src='images/"+attr+".png'></img><h5> Lv. "+LVL+"</h5> <h3>"+desc.name+"</h3>");
+	$('.skill-name:last').html("<img class='icon-attr' src='images/"+attr+".png'></img><h5> Lv. "+LVL+"</h5> <h3>"+desc.name+"</h3>");
 	$('.skill-range:last').html("사정거리 "+desc.range);
 	if(desc.AP!=undefined)
 	{
@@ -122,7 +126,7 @@ function drawInfo(index, info)
 	$('.skill-description:last').removeClass('.skill-description');
 	$('.info-description:last').css('grid-area','3/1/5/13');
 	if(info===undefined) info='-';
-	$('.info-description:last').html('<p>대상 정보<br>'+info+'</p>');
+	$('.info-description:last').html('<h3>대상 정보</h3><p>'+info+'</p>');
 	
 	$('.active:last').removeClass("active");
 	$('.skill-container:eq('+(index+1)+') .btn-info').addClass("active");
@@ -184,7 +188,11 @@ function changeSkill(hash)
 
 function writeData(str1, str2)
 {
-	if(str2==-1)
+	if(str1=='fire'||str1=='ice'||str1=='electric')
+	{
+		$('#'+str1).append(`<img class="icon-attr" src="images/${str1}.png"> `);
+	}
+	if(str2 == -1)
 	{
 		$('#'+str1).append('???');
 	}
@@ -192,7 +200,7 @@ function writeData(str1, str2)
 	{
 		$('#'+str1).append(str2);
 	}
-	if(str1.endsWith('HIT')||str1.endsWith('CRT')||str1.endsWith('DOD'))
+	if(str1=='HIT'||str1=='CRT'||str1=='DOD'||str1=='fire'||str1=='ice'||str1=='electric')
 	{
 		$('#'+str1).append(' %');
 	}

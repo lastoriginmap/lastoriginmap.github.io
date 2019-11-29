@@ -110,6 +110,7 @@ body {
 	grid-area: 2 / 1 / 3 / 13;
 	padding: 0;
 	border-bottom: 5px solid orange;
+	
 }
 
 .skill-nav {
@@ -131,6 +132,10 @@ body {
 
 .skill-nav a::after {
     height: 100%;
+}
+
+.skill-nav .btn-info {
+	float: right;
 }
 
 .skill-nav .skill-active {
@@ -156,10 +161,11 @@ body {
 .skill-name {
 	grid-area: 3 / 1 / 4 / 10;
 }
-.skill-attr {
+.icon-attr {
 	width: 1em;
 	display: inline;
 	vertical-align:middle;
+	margin-right: 0.2em;
 }
 
 .skill-name h5 {
@@ -237,7 +243,13 @@ body {
 	}
 	
 	.skill-nav {
-		grid-area: 1 / 1 / 2 / 9;
+		grid-area: 1 / 1 / 2 / 13;
+	}
+	
+	.skill-nav a {
+	width: 8.33%;
+	padding: 0.5% 0.5% 8.83% 0.5%;
+	border-radius: 5% 5% 0 0;
 	}
 	
 	.skill-name {
@@ -257,7 +269,6 @@ body {
 		grid-area: 4 / 1 / 5 / 13;
 	}
 }
-
 
 
 
