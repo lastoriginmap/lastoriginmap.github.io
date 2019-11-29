@@ -60,7 +60,7 @@ function submitName()
 	document.getElementById("input-type").value = getEnemyValue("type");
 	document.getElementById("input-img").value = getEnemyValue("img");
 	document.getElementById("input-resist").value = getEnemyValue("resist");
-	document.getElementById("input-info").value = getEnemyValue("info");
+	document.getElementById("input-info").value = getEnemyValue("info").replace(/<br\s*[\/]?>/gi, "\n");
 	
 	document.getElementById("input-result").value = JSON.stringify(enemyDataArr, null, 2);
 }
@@ -82,7 +82,7 @@ function submitEnemy()
 	enemyData.type = document.getElementById("input-type").value;
 	enemyData.img = document.getElementById("input-img").value;
 	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
-	enemyData.info = document.getElementById("input-info").value;
+	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');;
 	
 	submitName();
 }
@@ -167,7 +167,7 @@ function addDatalist(element, arr)
 function saveFile(data, fileName)
 {
 	var a = document.getElementById("download-dummy");
-	var json = "var areaData = "+JSON.stringify(data, null, 2)+";";
+	var json = "var enemyDataArr = "+JSON.stringify(data, null, 2)+";";
 	var blob = new Blob([json], {type: "octet/stream"});
 	var url = window.URL.createObjectURL(blob);
 	a.href = url;
