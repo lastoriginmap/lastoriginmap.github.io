@@ -37,9 +37,16 @@ function drawEnemyPage(stat, desc)
 	writeData('HIT', stat.HIT);
 	writeData('DOD', stat.DOD);
 	
-	writeData('fire', desc.resist[0]);
-	writeData('ice', desc.resist[1]);
-	writeData('electric', desc.resist[2]);
+	if('resist' in desc)
+	{
+		writeData('fire', desc.resist[0]);
+		writeData('ice', desc.resist[1]);
+		writeData('electric', desc.resist[2]);
+	}
+	else
+	{
+		$('.resist').remove();
+	}
 	
 	for(var i=0;i<desc.skills.length;i++)
 	{
