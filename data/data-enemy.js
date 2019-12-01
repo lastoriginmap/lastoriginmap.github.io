@@ -5808,9 +5808,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "영거리 중 기관포",
         "img": "MGShot",
-        "range": 1,
-        "AP": 8,
-        "description": "중 기관총 근접 사격으로 방어력을 일정 비율 무시하는 <span id='askillpower2'></span> 피해를 줍니다. 대상이 방어력 감소 상태인 경우, 피해량이 증가합니다.",
+        "range": "1",
+        "AP": "8",
+        "description": "중 기관총 근접 사격으로 방어력을 일정 비율 무시하고 <span id='askillpower2'></span> 피해를 줍니다. 대상이 방어력 감소 상태인 경우, 피해량이 증가합니다.",
         "areadata": [
           5
         ]
@@ -5827,7 +5827,14 @@ var enemyDataArr = [
           5
         ]
       }
-    ]
+    ],
+    "type": "중장 공격기",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br>-보고자 브라우니지 말임다."
   },
   {
     "name": "빅 칙 런쳐",
@@ -5872,7 +5879,14 @@ var enemyDataArr = [
           5
         ]
       }
-    ]
+    ],
+    "type": "중장 공격기",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "info": "엄청나게 피하기 힘든 미사일을 마구 쏴댐. 멀리서 처리하는 게 제일 좋을 것 같아.<br><br>-핀토가 정찰 중 보고"
   },
   {
     "name": "FA 빅 칙 II",
@@ -7146,5 +7160,61 @@ var enemyDataArr = [
         ]
       }
     ]
+  },
+  {
+    "name": "스토커 (1-4Ex)",
+    "type": "경장 공격기",
+    "img": "Stalker_B0108",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "저격",
+        "img": "Chargeshot",
+        "range": 6,
+        "AP": 4,
+        "description": "레일건 저격으로 <span id='askillpower1'></span> 피해를 줍니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "챠지",
+        "img": "SelfAtkBuff",
+        "range": 6,
+        "AP": 4,
+        "description": "레일건을 충전해, 다음 공격이 치명타로 적용되며 공격력이 크게 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "리액터 폭발",
+        "img": "SuiceideBomb",
+        "range": 0,
+        "AP": 0,
+        "description": "사망 시, 리액터가 폭발에 주변에 매우 높은 물리 피해를 줍니다.",
+        "areadata": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ],
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "info": "철충 연결체입니다. 힘을 모아서 엄청난 한 방을 노리는 비열한 타입의 적입니다. 하지만 힘을 모으고 있는 시간은 짧으니 최대한 공격을 늦춰서 제 포를 이용해 처리하는 게 가장 좋아 보이는군요.<br><br>-보고자 비스트 헌터"
   }
 ];
