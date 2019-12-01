@@ -37,6 +37,16 @@ function drawEnemyPage(stat, desc)
 	writeData('HIT', stat.HIT);
 	writeData('DOD', stat.DOD);
 	
+	
+	if('type' in desc)
+	{
+		$('#type').append(desc.type);
+	}
+	else
+	{
+		$('#type').remove();
+	}
+	
 	if('resist' in desc)
 	{
 		writeData('fire', desc.resist[0]);
