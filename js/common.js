@@ -31,8 +31,12 @@ async function loadStageData(stageTitle)
 		//src를 지역 데이터 파일로 설정해 로드
 		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".js";
 		loadData(src).then(()=> {
-			var stageData=areaData.stage.filter(sData => sData.title==stageTitle)[0];
-			var stageList=areaData.stage.map(sData => getIndexByStageTitle(sData.title));
+			var stageData=areaData.stage.find(sData => sData.title==stageTitle);
+			var type=getTypeByStageTitle(stageTitle)
+			var stageList=areaData.stage.reduce((acc, sData) => {
+				if(getTypeByStageTitle(sData.title)==type) acc.push(getIndexByStageTitle(sData.title))
+				return acc;
+			}, []);
 			resolve({"stageData": stageData, "stageList": stageList});
 		});
 
