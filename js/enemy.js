@@ -3,11 +3,16 @@ window.onload = async function(){
     var waveNum = getURLParameter('wave');
     var enemyNum = getURLParameter('enemy');
 
+	//remove this line
+	var areaData=await loadAreaData(getAreaByStageTitle(stageTitle)); //remove this line
 	var stageLoadData=await loadStageData(stageTitle);
 	var stageData=stageLoadData.stageData;
 	var enemyStatData=stageData.wave[waveNum].enemy[enemyNum];
 	var enemyDescData=await loadEnemyData(enemyStatData.name);
-	drawEnemyPage(enemyStatData, enemyDescData);
+	
+	//drawEnemyPage(enemyStatData, enemyDescData);
+	if('updated' in areaData) drawEnemyPage(enemyStatData, enemyDescData, true);
+	else drawEnemyPage(enemyStatData, enemyDescData);
 	
 	$('.skill-nav').on('click', '.btn', function(e) {
 		changeSkill(e.currentTarget.hash);
@@ -15,7 +20,8 @@ window.onload = async function(){
 	}); 
 };
 
-function drawEnemyPage(stat, desc)
+//function drawEnemyPage(stat, desc)
+function drawEnemyPage(stat, desc, updated=false)
 {
 	if(stat.nickname)
 	{
@@ -47,7 +53,14 @@ function drawEnemyPage(stat, desc)
 		$('#type').remove();
 	}
 	
-	if('resist' in desc)
+	if('resist' in stat)
+	{
+		writeData('fire', stat.resist[0]);
+		writeData('ice', stat.resist[1]);
+		writeData('electric', stat.resist[2]);
+	}
+	//else if('resist' in desc)
+	else if('resist' in desc && updated)
 	{
 		writeData('fire', desc.resist[0]);
 		writeData('ice', desc.resist[1]);

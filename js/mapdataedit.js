@@ -200,6 +200,7 @@ function submitEnemy()
 			objEnemy.pos.push(7-parseInt(index/3)*3+index%3);
 		}
 	});
+	if(objEnemy.pos.length==0) return alert('위치가 존재하지 않습니다!');
 	objEnemy['LVL'] = parseInt(document.getElementById("input-LVL").value);
 	objEnemy['HP'] = parseInt(document.getElementById("input-HP").value);
 	objEnemy['ATK'] = parseInt(document.getElementById("input-ATK").value);
@@ -209,6 +210,8 @@ function submitEnemy()
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
 	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
+	if(document.getElementById("input-resist").value) objEnemy['resist'] = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
+	else delete objEnemy['resist'];
 	objEnemy['skillLVL'] = [];
 	objEnemy.skillpower.forEach((el,index)=>{ objEnemy['skillLVL'][index]=1; });
 	
@@ -437,6 +440,7 @@ function autoFill()
 						document.getElementById("input-HIT").value = enemyObj.HIT;
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = enemyObj.skillpower;
+						document.getElementById("input-resist").value = enemyObj.resist || null;
 						isFilled = true;
 					}
 					if(enemyObj.name==name && type[stype]==currentStageType && !isFilled)
@@ -449,6 +453,7 @@ function autoFill()
 						document.getElementById("input-HIT").value = enemyObj.HIT;
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = null;
+						document.getElementById("input-resist").value = null;
 						isPartialFilled = true;
 					}
 				}
@@ -526,6 +531,7 @@ function loadEnemyStat(param)
 	document.getElementById("input-HIT").value = enemyStatData.HIT;
 	document.getElementById("input-DOD").value = enemyStatData.DOD;
 	document.getElementById("input-skill").value = enemyStatData.skillpower;
+	document.getElementById("input-resist").value = enemyStatData.resist || null;
 	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
 		el.checked = false;
 	});
