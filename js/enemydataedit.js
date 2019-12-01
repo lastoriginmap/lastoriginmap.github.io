@@ -27,6 +27,13 @@ window.onload = async function() {
 			deleteEnemy();
 		}
 	}, false);
+	document.getElementById("copy-name").addEventListener("click", e=>{
+		e.preventDefault();
+		if(confirm("해당 철충을 복사하시겠습니까?"))
+		{
+			copyEnemy();
+		}
+	}, false);
 	
 	document.getElementById("delete-skill").addEventListener("click", e=>{
 	e.preventDefault();
@@ -35,16 +42,37 @@ window.onload = async function() {
 			deleteSkill();
 		}
 	}, false);
+	document.getElementById("copy-skill").addEventListener("click", e=>{
+		e.preventDefault();
+		if(confirm("해당 스킬을 복사하시겠습니까?"))
+		{
+			copySkill();
+		}
+	}, false);
 	
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
 		saveFile(enemyDataArr, "data-enemy.js");
 	}, false);
+	
+	document.querySelectorAll("input[type='text']").forEach(el=>{
+		el.addEventListener("focus", e=>{
+			e.preventDefault();
+			el.select();
+		}, false);
+	});
+	
+	document.querySelectorAll("textarea:not(#input-result)").forEach(el=>{
+		el.addEventListener("focus", e=>{
+			e.preventDefault();
+			el.select();
+		}, false);
+	});
 };
 
-function submitName()
+function submitName(name)
 {
-	var enemyData = findEnemy();
+	var enemyData = findEnemy(name);
 	
 	var imgDiv = document.getElementById("img");
 	if(!imgDiv.hasChildNodes())
@@ -57,6 +85,7 @@ function submitName()
 	if(!enemyData) imgDiv.removeChild(imgElement);
 	
 	var getEnemyValue = makeGetter(enemyData);
+	document.getElementById("input-name").value = getEnemyValue("name");
 	document.getElementById("input-type").value = getEnemyValue("type");
 	document.getElementById("input-img").value = getEnemyValue("img");
 	document.getElementById("input-resist").value = getEnemyValue("resist");
@@ -141,6 +170,25 @@ function deleteEnemy()
 	submitName();
 }
 
+function copyEnemy()
+{
+	var enemyName = document.getElementById("input-name").value;
+	var enemyData = enemyDataArr.find(data => data.name==enemyName);
+	if(!enemyData)
+	{
+		alert("철충이 존재하지 않습니다!");
+		throw "No enemy";
+	}
+	else
+	{
+		var newEnemyData = Object.assign({}, enemyData);
+		newEnemyData.name += ' (복사)';
+		enemyDataArr.push(newEnemyData);
+		submitName(newEnemyData.name);
+		return alert(`${newEnemyData.name}으로 복사되었습니다.`);
+	}
+}
+
 function deleteSkill()
 {
 	var enemyData = findEnemy();
@@ -153,6 +201,41 @@ function deleteSkill()
 	}
 	else enemyData.skills.splice(skillDataIndex,1);
 	selectSkill();
+}
+
+function copySkill()
+{
+	var enemyData = findEnemy();
+	var skill = getSelectedSkill();
+	var skillData = enemyData.skills.find(data => data.title==skill);
+	if(!skillData)
+	{
+		alert("스킬이 존재하지 않습니다!");
+		throw "No skill";
+	}
+	else
+	{
+		var skillIndex = enemyData.skills.reduce((acc,data) => {
+			if(data.title.slice(0,-1) == skillData.title.slice(0,-1)) acc.push(+data.title.slice(6));
+			return acc;
+		},[]);
+		skillIndex.sort();
+		
+		var newIndex = [1,2,3].filter(n => {
+			let m = skillIndex.indexOf(n);
+			return m == -1 ? true : (skillIndex.splice(m, 1), false);
+		})[0];
+
+		if(!newIndex || (newIndex==3 && skillData.title.slice(0,-1)=='askill')) return alert('스킬이 복사될 자리가 없습니다!');
+		else
+		{
+			var newSkillData = Object.assign({}, skillData);
+			newSkillData.title = skillData.title.slice(0,-1)+newIndex;
+			addSkill(newSkillData);
+			alert(`${newSkillData.title}으로 복사되었습니다.`);
+		}
+		selectSkill();
+	}
 }
 
 function addDatalist(element, arr)
@@ -176,9 +259,9 @@ function saveFile(data, fileName)
 	window.URL.revokeObjectURL(url);
 }
 
-function findEnemy()
+function findEnemy(enemyName)
 {
-	var enemyName = document.getElementById("input-name").value;
+	if(!enemyName) enemyName = document.getElementById("input-name").value;
 	var enemyDataIndex = enemyDataArr.findIndex(data => data.name==enemyName);
 	if(enemyDataIndex == -1) return false;
 	else return enemyDataArr[enemyDataIndex];
@@ -188,18 +271,24 @@ function findSkill()
 {
 	var enemyData = findEnemy();
 	var skill = getSelectedSkill();
-	var skillDataIndex = enemyData.skills.findIndex(data => data.title==skill);
-	if(skillDataIndex == -1) return false;
-	else return enemyData.skills[skillDataIndex];
+	if('skills' in enemyData)
+	{
+		var skillDataIndex = enemyData.skills.findIndex(data => data.title==skill);
+		if(skillDataIndex == -1) return false;
+		else return enemyData.skills[skillDataIndex];
+	}
+	else return false;
 }
 
-function addSkill()
+function addSkill(skillData)
 {
 	var order = ['askill1', 'askill2', 'pskill1', 'pskill2', 'pskill3'];
 	var enemyData = findEnemy();
-	var skill = getSelectedSkill();
+	var skill = skillData ? skillData.title : getSelectedSkill();
 	var skillOrder = order.indexOf(skill);
 	var index = 0;
+	
+	if(!('skills' in enemyData)) enemyData['skills'] = [];
 	for(let i=0;i<enemyData.skills.length;i++)
 	{
 		if(order.indexOf(enemyData.skills[i].title)<skillOrder)
@@ -207,7 +296,8 @@ function addSkill()
 			index=i+1;
 		}
 	}
-	enemyData.skills.splice(index, 0, {});
+	if(skillData) enemyData.skills.splice(index, 0, skillData);
+	else enemyData.skills.splice(index, 0, {});
 	return enemyData.skills[index];
 }
 

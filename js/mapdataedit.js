@@ -23,10 +23,6 @@ window.onload = async function() {
 	formWave.addEventListener("submit", async e=>{ e.preventDefault(); await submitWave(); }, false);
 	formEnemy.addEventListener("submit", async e=>{ e.preventDefault(); await submitEnemy(); }, false);
 	formResult.addEventListener("submit", e=>{ setObj(inputResult.value); e.preventDefault(); }, false);
-	inputResult.addEventListener("focus", e=>{
-		e.preventDefault();
-		document.execCommand('copy', false, inputResult.select());
-	}, false);
 	Array.from(document.querySelectorAll("input:not([type='submit'])")).forEach(el=>{
 		el.addEventListener("focus", e=>{
 			e.preventDefault();
