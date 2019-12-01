@@ -1278,15 +1278,15 @@ var areaData = {
             {
               "name": "나이트 칙 실더",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 4,
               "HP": 163,
               "ATK": 45,
               "DEF": 13,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -1303,15 +1303,15 @@ var areaData = {
             {
               "name": "나이트 칙 런처",
               "pos": [
-                2,
-                8
+                8,
+                2
               ],
               "LVL": 5,
               "HP": 136,
               "ATK": 47,
               "DEF": 2,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -1335,7 +1335,7 @@ var areaData = {
               "ATK": 40,
               "DEF": 1,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1357,15 +1357,15 @@ var areaData = {
             {
               "name": "나이트 칙 런처",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 5,
               "HP": 136,
               "ATK": 47,
               "DEF": 2,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -1389,7 +1389,7 @@ var areaData = {
               "ATK": 45,
               "DEF": 13,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -1413,7 +1413,7 @@ var areaData = {
               "ATK": 56,
               "DEF": 16,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -1439,7 +1439,7 @@ var areaData = {
               "ATK": 45,
               "DEF": 2,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1461,15 +1461,15 @@ var areaData = {
             {
               "name": "나이트 칙 실더",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 5,
               "HP": 185,
               "ATK": 50,
               "DEF": 14,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -1486,16 +1486,16 @@ var areaData = {
             {
               "name": "나이트 칙",
               "pos": [
-                2,
+                8,
                 6,
-                8
+                2
               ],
               "LVL": 4,
               "HP": 113,
               "ATK": 40,
               "DEF": 1,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1519,7 +1519,7 @@ var areaData = {
               "ATK": 56,
               "DEF": 16,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -1549,16 +1549,16 @@ var areaData = {
             {
               "name": "나이트 칙",
               "pos": [
-                1,
+                7,
                 6,
-                7
+                1
               ],
               "LVL": 6,
               "HP": 144,
               "ATK": 50,
               "DEF": 2,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1582,7 +1582,7 @@ var areaData = {
               "ATK": 55,
               "DEF": 15,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -1606,7 +1606,7 @@ var areaData = {
               "ATK": 52,
               "DEF": 2,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -1626,42 +1626,17 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
-              "name": "나이트 칙 런처",
-              "pos": [
-                1,
-                7
-              ],
-              "LVL": 6,
-              "HP": 152,
-              "ATK": 52,
-              "DEF": 2,
-              "AGI": 3,
-              "CRT": -1,
-              "HIT": 85,
-              "DOD": 0,
-              "skillpower": [
-                52,
-                63,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
               "name": "나이트 칙 디텍터",
               "pos": [
-                2,
-                8
+                8,
+                2
               ],
               "LVL": 6,
               "HP": 245,
               "ATK": 60,
               "DEF": 17,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -1678,6 +1653,31 @@ var areaData = {
               ]
             },
             {
+              "name": "나이트 칙 런처",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 6,
+              "HP": 152,
+              "ATK": 52,
+              "DEF": 2,
+              "AGI": 3,
+              "CRT": 0,
+              "HIT": 85,
+              "DOD": 0,
+              "skillpower": [
+                52,
+                63,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
               "name": "나이트 칙 실더",
               "pos": [
                 5
@@ -1687,7 +1687,7 @@ var areaData = {
               "ATK": 55,
               "DEF": 15,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -1711,7 +1711,7 @@ var areaData = {
               "ATK": 50,
               "DEF": 2,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1731,22 +1731,21 @@ var areaData = {
           "title": "wave3",
           "enemy": [
             {
-              "name": "나이트 칙",
+              "name": "나이트 칙 런처",
               "pos": [
-                2,
-                8
+                4
               ],
               "LVL": 6,
-              "HP": 144,
-              "ATK": 50,
+              "HP": 152,
+              "ATK": 52,
               "DEF": 2,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 95,
+              "AGI": 3,
+              "CRT": 0,
+              "HIT": 85,
               "DOD": 0,
               "skillpower": [
-                50,
-                60,
+                52,
+                63,
                 0
               ],
               "skillLVL": [
@@ -1758,16 +1757,16 @@ var areaData = {
             {
               "name": "나이트 칙 디텍터",
               "pos": [
-                3,
+                9,
                 5,
-                9
+                3
               ],
               "LVL": 6,
               "HP": 245,
               "ATK": 60,
               "DEF": 17,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -1784,21 +1783,22 @@ var areaData = {
               ]
             },
             {
-              "name": "나이트 칙 런처",
+              "name": "나이트 칙",
               "pos": [
-                4
+                8,
+                2
               ],
               "LVL": 6,
-              "HP": 152,
-              "ATK": 52,
+              "HP": 144,
+              "ATK": 50,
               "DEF": 2,
-              "AGI": 3,
-              "CRT": -1,
-              "HIT": 85,
+              "AGI": 4,
+              "CRT": 0,
+              "HIT": 95,
               "DOD": 0,
               "skillpower": [
-                52,
-                63,
+                50,
+                60,
                 0
               ],
               "skillLVL": [
@@ -1821,16 +1821,16 @@ var areaData = {
             {
               "name": "나이트 칙 런처",
               "pos": [
-                2,
+                8,
                 4,
-                8
+                2
               ],
               "LVL": 7,
               "HP": 169,
               "ATK": 58,
               "DEF": 3,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -1847,15 +1847,15 @@ var areaData = {
             {
               "name": "나이트 칙",
               "pos": [
-                3,
-                9
+                9,
+                3
               ],
               "LVL": 7,
               "HP": 159,
               "ATK": 55,
               "DEF": 3,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1879,7 +1879,7 @@ var areaData = {
               "ATK": 64,
               "DEF": 17,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -1901,17 +1901,43 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
+              "name": "나이트 칙 디텍터",
+              "pos": [
+                4
+              ],
+              "LVL": 7,
+              "HP": 270,
+              "ATK": 64,
+              "DEF": 17,
+              "AGI": 4.1,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 30,
+              "skillpower": [
+                64,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
               "name": "나이트 칙 실더",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 7,
               "HP": 227,
               "ATK": 60,
               "DEF": 16,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -1928,16 +1954,46 @@ var areaData = {
             {
               "name": "나이트 칙 런처",
               "pos": [
-                3,
+                9,
                 6,
-                9
+                3
               ],
               "LVL": 7,
               "HP": 169,
               "ATK": 58,
               "DEF": 3,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
+              "HIT": 85,
+              "DOD": 0,
+              "skillpower": [
+                58,
+                69,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemy": [
+            {
+              "name": "나이트 칙 런처",
+              "pos": [
+                4,
+                5
+              ],
+              "LVL": 7,
+              "HP": 169,
+              "ATK": 58,
+              "DEF": 3,
+              "AGI": 3,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -1952,48 +2008,17 @@ var areaData = {
               ]
             },
             {
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                4
-              ],
-              "LVL": 7,
-              "HP": 270,
-              "ATK": 64,
-              "DEF": 17,
-              "AGI": 4.1,
-              "CRT": -1,
-              "HIT": 180,
-              "DOD": 30,
-              "skillpower": [
-                64,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ]
-            }
-          ]
-        },
-        {
-          "title": "wave3",
-          "enemy": [
-            {
               "name": "나이트 칙 실더",
               "pos": [
-                2,
-                8
+                8,
+                2
               ],
               "LVL": 7,
               "HP": 227,
               "ATK": 60,
               "DEF": 16,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -2010,45 +2035,20 @@ var areaData = {
             {
               "name": "나이트 칙",
               "pos": [
-                3,
-                9
+                9,
+                3
               ],
               "LVL": 7,
               "HP": 159,
               "ATK": 55,
               "DEF": 3,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
                 55,
                 66,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "나이트 칙 런처",
-              "pos": [
-                4,
-                5
-              ],
-              "LVL": 7,
-              "HP": 169,
-              "ATK": 58,
-              "DEF": 3,
-              "AGI": 3,
-              "CRT": -1,
-              "HIT": 85,
-              "DOD": 0,
-              "skillpower": [
-                58,
-                69,
                 0
               ],
               "skillLVL": [
@@ -2067,7 +2067,7 @@ var areaData = {
               "ATK": 64,
               "DEF": 17,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -2097,15 +2097,15 @@ var areaData = {
             {
               "name": "나이트 칙 실더",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 8,
               "HP": 248,
               "ATK": 65,
               "DEF": 17,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -2122,15 +2122,15 @@ var areaData = {
             {
               "name": "나이트 칙",
               "pos": [
-                2,
-                8
+                8,
+                2
               ],
               "LVL": 8,
               "HP": 175,
               "ATK": 60,
               "DEF": 3,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -2154,7 +2154,7 @@ var areaData = {
               "ATK": 68,
               "DEF": 18,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -2180,7 +2180,7 @@ var areaData = {
               "ATK": 63,
               "DEF": 3,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -2200,23 +2200,23 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
-              "name": "나이트 칙 실더",
+              "name": "나이트 칙",
               "pos": [
-                2,
-                4,
-                8
+                9,
+                5,
+                3
               ],
               "LVL": 8,
-              "HP": 248,
-              "ATK": 65,
-              "DEF": 17,
-              "AGI": 3.25,
-              "CRT": -1,
-              "HIT": 75,
+              "HP": 175,
+              "ATK": 60,
+              "DEF": 3,
+              "AGI": 4,
+              "CRT": 0,
+              "HIT": 95,
               "DOD": 0,
               "skillpower": [
-                65,
-                0,
+                60,
+                72,
                 0
               ],
               "skillLVL": [
@@ -2226,23 +2226,23 @@ var areaData = {
               ]
             },
             {
-              "name": "나이트 칙",
+              "name": "나이트 칙 실더",
               "pos": [
-                3,
-                5,
-                9
+                8,
+                4,
+                2
               ],
               "LVL": 8,
-              "HP": 175,
-              "ATK": 60,
-              "DEF": 3,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 95,
+              "HP": 248,
+              "ATK": 65,
+              "DEF": 17,
+              "AGI": 3.25,
+              "CRT": 0,
+              "HIT": 75,
               "DOD": 0,
               "skillpower": [
-                60,
-                72,
+                65,
+                0,
                 0
               ],
               "skillLVL": [
@@ -2259,46 +2259,20 @@ var areaData = {
             {
               "name": "나이트 칙",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 8,
               "HP": 175,
               "ATK": 60,
               "DEF": 3,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
                 60,
                 72,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "나이트 칙 런처",
-              "pos": [
-                3,
-                6,
-                9
-              ],
-              "LVL": 8,
-              "HP": 186,
-              "ATK": 63,
-              "DEF": 3,
-              "AGI": 3,
-              "CRT": -1,
-              "HIT": 85,
-              "DOD": 0,
-              "skillpower": [
-                63,
-                76,
                 0
               ],
               "skillLVL": [
@@ -2317,7 +2291,7 @@ var areaData = {
               "ATK": 68,
               "DEF": 18,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -2332,24 +2306,20 @@ var areaData = {
                 1,
                 1
               ]
-            }
-          ]
-        },
-        {
-          "title": "wave4",
-          "enemy": [
+            },
             {
               "name": "나이트 칙 런처",
               "pos": [
-                1,
-                7
+                9,
+                6,
+                3
               ],
               "LVL": 8,
               "HP": 186,
               "ATK": 63,
               "DEF": 3,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -2362,25 +2332,29 @@ var areaData = {
                 1,
                 1
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "wave4",
+          "enemy": [
             {
-              "name": "나이트 칙",
+              "name": "나이트 칙 런처",
               "pos": [
-                2,
-                6,
-                8
+                7,
+                1
               ],
               "LVL": 8,
-              "HP": 175,
-              "ATK": 60,
+              "HP": 186,
+              "ATK": 63,
               "DEF": 3,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 95,
+              "AGI": 3,
+              "CRT": 0,
+              "HIT": 85,
               "DOD": 0,
               "skillpower": [
-                60,
-                72,
+                63,
+                76,
                 0
               ],
               "skillLVL": [
@@ -2399,7 +2373,7 @@ var areaData = {
               "ATK": 65,
               "DEF": 17,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 0,
               "HIT": 75,
               "DOD": 0,
               "skillpower": [
@@ -2423,7 +2397,7 @@ var areaData = {
               "ATK": 68,
               "DEF": 18,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 30,
               "skillpower": [
@@ -2434,6 +2408,32 @@ var areaData = {
               ],
               "skillLVL": [
                 1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙",
+              "pos": [
+                8,
+                6,
+                2
+              ],
+              "LVL": 8,
+              "HP": 175,
+              "ATK": 60,
+              "DEF": 3,
+              "AGI": 4,
+              "CRT": 0,
+              "HIT": 95,
+              "DOD": 0,
+              "skillpower": [
+                60,
+                72,
+                0
+              ],
+              "skillLVL": [
                 1,
                 1,
                 1
