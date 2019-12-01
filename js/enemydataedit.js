@@ -111,7 +111,8 @@ function submitEnemy()
 	enemyData.type = document.getElementById("input-type").value;
 	enemyData.img = document.getElementById("input-img").value;
 	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
-	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');;
+	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
+	if(!enemyData.resist[0]) delete enemyData.resist;
 	
 	submitName();
 }
