@@ -2452,15 +2452,15 @@ var areaData = {
             {
               "name": "강화형 칙 런쳐",
               "pos": [
-                1,
-                7
+                7,
+                1
               ],
               "LVL": 20,
               "HP": 1012,
               "ATK": 212,
               "DEF": 39,
               "AGI": 3.6,
-              "CRT": -1,
+              "CRT": 12.5,
               "HIT": 145,
               "DOD": 30,
               "skillpower": [
@@ -2477,16 +2477,16 @@ var areaData = {
             {
               "name": "강화형 나이트 칙",
               "pos": [
-                2,
+                8,
                 6,
-                8
+                2
               ],
               "LVL": 20,
               "HP": 912,
               "ATK": 183,
               "DEF": 19,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 160,
               "DOD": 20,
               "skillpower": [
@@ -2506,58 +2506,6 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
-              "name": "강화형 칙 런쳐",
-              "pos": [
-                2,
-                8
-              ],
-              "LVL": 20,
-              "HP": 1012,
-              "ATK": 212,
-              "DEF": 39,
-              "AGI": 3.6,
-              "CRT": -1,
-              "HIT": 145,
-              "DOD": 30,
-              "skillpower": [
-                255,
-                340,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                3,
-                9
-              ],
-              "LVL": 20,
-              "HP": 1015,
-              "ATK": 140,
-              "DEF": 39,
-              "AGI": 4.1,
-              "CRT": -1,
-              "HIT": 220,
-              "DOD": 42.5,
-              "skillpower": [
-                140,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ]
-            },
-            {
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -2567,7 +2515,7 @@ var areaData = {
               "ATK": 159,
               "DEF": 92,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 125,
               "DOD": 17.5,
               "skillpower": [
@@ -2591,7 +2539,7 @@ var areaData = {
               "ATK": 183,
               "DEF": 19,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 160,
               "DOD": 20,
               "skillpower": [
@@ -2600,6 +2548,58 @@ var areaData = {
                 0
               ],
               "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "강화형 칙 런쳐",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 20,
+              "HP": 1012,
+              "ATK": 212,
+              "DEF": 39,
+              "AGI": 3.6,
+              "CRT": 12.5,
+              "HIT": 145,
+              "DOD": 30,
+              "skillpower": [
+                255,
+                340,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "나이트 칙 디텍터",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 20,
+              "HP": 1015,
+              "ATK": 140,
+              "DEF": 39,
+              "AGI": 4.1,
+              "CRT": 5,
+              "HIT": 220,
+              "DOD": 42.5,
+              "skillpower": [
+                140,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
                 1,
                 1,
                 1
@@ -2621,38 +2621,12 @@ var areaData = {
               "ATK": 159,
               "DEF": 92,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 125,
               "DOD": 17.5,
               "skillpower": [
                 175,
                 0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "강화형 칙 런쳐",
-              "pos": [
-                9,
-                6,
-                3
-              ],
-              "LVL": 20,
-              "HP": 1012,
-              "ATK": 212,
-              "DEF": 39,
-              "AGI": 3.6,
-              "CRT": -1,
-              "HIT": 145,
-              "DOD": 30,
-              "skillpower": [
-                255,
-                340,
                 0
               ],
               "skillLVL": [
@@ -2671,7 +2645,7 @@ var areaData = {
               "ATK": 140,
               "DEF": 39,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 220,
               "DOD": 42.5,
               "skillpower": [
@@ -2686,12 +2660,62 @@ var areaData = {
                 1,
                 1
               ]
+            },
+            {
+              "name": "강화형 칙 런쳐",
+              "pos": [
+                9,
+                6,
+                3
+              ],
+              "LVL": 20,
+              "HP": 1012,
+              "ATK": 212,
+              "DEF": 39,
+              "AGI": 3.6,
+              "CRT": 12.5,
+              "HIT": 145,
+              "DOD": 30,
+              "skillpower": [
+                255,
+                340,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
             }
           ]
         },
         {
           "title": "wave4",
           "enemy": [
+            {
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                4
+              ],
+              "LVL": 20,
+              "HP": 1342,
+              "ATK": 159,
+              "DEF": 92,
+              "AGI": 3.3,
+              "CRT": 5,
+              "HIT": 125,
+              "DOD": 17.5,
+              "skillpower": [
+                175,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
             {
               "name": "강화형 칙 런쳐",
               "pos": [
@@ -2703,7 +2727,7 @@ var areaData = {
               "ATK": 212,
               "DEF": 39,
               "AGI": 3.6,
-              "CRT": -1,
+              "CRT": 12.5,
               "HIT": 145,
               "DOD": 30,
               "skillpower": [
@@ -2729,36 +2753,12 @@ var areaData = {
               "ATK": 183,
               "DEF": 19,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 160,
               "DOD": 20,
               "skillpower": [
                 183,
                 256,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                4
-              ],
-              "LVL": 20,
-              "HP": 1342,
-              "ATK": 159,
-              "DEF": 92,
-              "AGI": 3.3,
-              "CRT": -1,
-              "HIT": 125,
-              "DOD": 17.5,
-              "skillpower": [
-                175,
-                0,
                 0
               ],
               "skillLVL": [
@@ -2777,7 +2777,7 @@ var areaData = {
               "ATK": 140,
               "DEF": 39,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 220,
               "DOD": 42.5,
               "skillpower": [
@@ -2807,15 +2807,15 @@ var areaData = {
             {
               "name": "강화형 나이트 칙",
               "pos": [
-                7,
-                1
+                8,
+                2
               ],
               "LVL": 22,
               "HP": 987,
               "ATK": 196,
               "DEF": 20,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 160,
               "DOD": 20,
               "skillpower": [
@@ -2840,7 +2840,7 @@ var areaData = {
               "ATK": 227,
               "DEF": 40,
               "AGI": 3.6,
-              "CRT": -1,
+              "CRT": 12.5,
               "HIT": 145,
               "DOD": 30,
               "skillpower": [
@@ -2864,7 +2864,7 @@ var areaData = {
               "ATK": 238,
               "DEF": 18,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 12.5,
               "HIT": 235,
               "DOD": 25,
               "skillpower": [
@@ -2894,35 +2894,11 @@ var areaData = {
               "ATK": 170,
               "DEF": 97,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 125,
               "DOD": 17.5,
               "skillpower": [
                 187,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "강화형 나이트 칙",
-              "pos": [
-                3
-              ],
-              "LVL": 22,
-              "HP": 987,
-              "ATK": 196,
-              "DEF": 20,
-              "AGI": 4.05,
-              "CRT": -1,
-              "HIT": 160,
-              "DOD": 20,
-              "skillpower": [
-                196,
                 0,
                 0
               ],
@@ -2942,12 +2918,36 @@ var areaData = {
               "ATK": 227,
               "DEF": 40,
               "AGI": 3.6,
-              "CRT": -1,
+              "CRT": 12.5,
               "HIT": 145,
               "DOD": 30,
               "skillpower": [
                 273,
                 364,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "칙 스나이퍼",
+              "pos": [
+                9
+              ],
+              "LVL": 22,
+              "HP": 967,
+              "ATK": 238,
+              "DEF": 18,
+              "AGI": 4,
+              "CRT": 12.5,
+              "HIT": 235,
+              "DOD": 25,
+              "skillpower": [
+                357,
+                0,
                 0
               ],
               "skillLVL": [
@@ -2966,7 +2966,7 @@ var areaData = {
               "ATK": 149,
               "DEF": 40,
               "AGI": 4.1,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 220,
               "DOD": 42.5,
               "skillpower": [
@@ -2983,20 +2983,20 @@ var areaData = {
               ]
             },
             {
-              "name": "칙 스나이퍼",
+              "name": "강화형 나이트 칙",
               "pos": [
-                9
+                3
               ],
               "LVL": 22,
-              "HP": 967,
-              "ATK": 238,
-              "DEF": 18,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 235,
-              "DOD": 25,
+              "HP": 987,
+              "ATK": 196,
+              "DEF": 20,
+              "AGI": 4.05,
+              "CRT": 10,
+              "HIT": 160,
+              "DOD": 20,
               "skillpower": [
-                357,
+                196,
                 0,
                 0
               ],

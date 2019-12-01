@@ -205,7 +205,7 @@ function submitEnemy()
 	objEnemy['ATK'] = parseInt(document.getElementById("input-ATK").value);
 	objEnemy['DEF'] = parseInt(document.getElementById("input-DEF").value);
 	objEnemy['AGI'] = parseFloat(document.getElementById("input-AGI").value);
-	objEnemy['CRT'] = parseInt(document.getElementById("input-CRT").value);
+	objEnemy['CRT'] = parseFloat(document.getElementById("input-CRT").value);
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
 	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
