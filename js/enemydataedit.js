@@ -89,6 +89,7 @@ function submitName(name)
 	document.getElementById("input-type").value = getEnemyValue("type");
 	document.getElementById("input-img").value = getEnemyValue("img");
 	document.getElementById("input-resist").value = getEnemyValue("resist");
+	document.getElementById("input-CRT").value = getEnemyValue("CRT");
 	document.getElementById("input-info").value = getEnemyValue("info").replace(/<br\s*[\/]?>/gi, "\n");
 	
 	document.getElementById("input-result").value = JSON.stringify(enemyDataArr, null, 2);
@@ -111,8 +112,10 @@ function submitEnemy()
 	enemyData.type = document.getElementById("input-type").value;
 	enemyData.img = document.getElementById("input-img").value;
 	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
+	enemyData.CRT = document.getElementById("input-CRT").value;
 	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
 	if(enemyData.resist[0]==null) delete enemyData.resist;
+	if(enemyData.CRT=='') delete enemyData.CRT;
 	
 	submitName();
 }

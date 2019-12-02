@@ -1,5 +1,5 @@
 var obj = {};
-var enemyIMGData = {};
+var enemyData = {};
 
 window.onload = async function() {
 	var formArea = document.getElementById("form-area");
@@ -9,9 +9,9 @@ window.onload = async function() {
 	var inputResult = document.getElementById("input-result");
 	var formResult = document.getElementById("form-result");
 	
-	enemyIMGData = await loadEnemyIMGData();
+	enemyData = await loadEnemyDescData();
 	var nameList = document.getElementById("name-list");
-	var enemyNameData = enemyIMGData.map(data=>data.name);
+	var enemyNameData = enemyData.map(data=>data.name);
 	addDatalist(nameList, enemyNameData);
 	
 	Array.from(document.querySelectorAll("#form-stage input, #form-wave input, #form-enemy input")).forEach(el=>{
@@ -28,6 +28,9 @@ window.onload = async function() {
 			e.preventDefault();
 			el.select();
 		}, false);
+	});
+	document.getElementById("input-resist").addEventListener("focus", e=>{
+		document.getElementById("input-resist").style.color = 'black';
 	});
 	document.getElementById("delete").addEventListener("click", e=>{
 		e.preventDefault();
@@ -197,6 +200,7 @@ function submitEnemy()
 		}
 	});
 	if(objEnemy.pos.length==0) return alert('위치가 존재하지 않습니다!');
+	var enemyDescData = enemyData.find(el=>el.name==objEnemy.name);
 	objEnemy['LVL'] = parseInt(document.getElementById("input-LVL").value);
 	objEnemy['HP'] = parseInt(document.getElementById("input-HP").value);
 	objEnemy['ATK'] = parseInt(document.getElementById("input-ATK").value);
@@ -206,7 +210,10 @@ function submitEnemy()
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
 	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
-	if(document.getElementById("input-resist").value) objEnemy['resist'] = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
+	if(document.getElementById("input-resist").value && document.getElementById("input-resist").value!=JSON.stringify(enemyDescData.resist).slice(1,-1)) 
+	{
+		objEnemy['resist'] = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
+	}
 	else delete objEnemy['resist'];
 	objEnemy['skillLVL'] = [];
 	objEnemy.skillpower.forEach((el,index)=>{ objEnemy['skillLVL'][index]=1; });
@@ -426,6 +433,7 @@ function autoFill()
 				for(let eindex=0; eindex<obj[type[stype]][sindex].wave[windex].enemy.length && !isFilled; eindex++)
 				{
 					let enemyObj = obj[type[stype]][sindex].wave[windex].enemy[eindex];
+					let enemyDescData = enemyData.find(el=>el.name==name)
 					if(enemyObj.name==name && enemyObj.LVL==LVL)
 					{
 						document.getElementById("input-HP").value = enemyObj.HP;
@@ -436,7 +444,21 @@ function autoFill()
 						document.getElementById("input-HIT").value = enemyObj.HIT;
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = enemyObj.skillpower;
-						document.getElementById("input-resist").value = enemyObj.resist || null;
+						if('resist' in enemyObj)
+						{
+							document.getElementById("input-resist").value = enemyObj.resist;
+							document.getElementById("input-resist").style.color = 'black';
+						}
+						else if('resist' in enemyDescData)
+						{
+							document.getElementById("input-resist").value = enemyDescData.resist;
+							document.getElementById("input-resist").style.color = '#b0b0b0';
+						}
+						else
+						{
+							document.getElementById("input-resist").value = null;
+							document.getElementById("input-resist").style.color = 'black';
+						}
 						isFilled = true;
 					}
 					if(enemyObj.name==name && type[stype]==currentStageType && !isFilled)
@@ -450,6 +472,7 @@ function autoFill()
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = null;
 						document.getElementById("input-resist").value = null;
+						document.getElementById("input-resist").style.color = 'black';
 						isPartialFilled = true;
 					}
 				}
@@ -504,7 +527,7 @@ function drawStageMap(param)
 					var enemyName=waveData.enemy[j].name;
 				}
 				//이름에 해당되는 이미지 찾기
-				var imgName=enemyIMGData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
+				var imgName=enemyData.filter(obj => obj.name==waveData.enemy[j].name)[0].img;
 				//해당 위치에 적 이름과 사진, 링크 추가
 				$('.current-wave-map > div:nth-of-type('+((row-1)*3+column)+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+imgName+'.png\" /><p>'+enemyName+'</p></div>');
 				var param2 = param.concat(j);
@@ -517,17 +540,33 @@ function drawStageMap(param)
 function loadEnemyStat(param)
 {
 	var enemyStatData = obj.stage.find(el=>el.title==param[0]).wave[param[1]-1].enemy[param[2]];
+	var enemyDescData = enemyData.find(el=>el.name==enemyStatData.name);
 	document.getElementById("input-name").value = enemyStatData.name;
 	document.getElementById("input-LVL").value = enemyStatData.LVL;
 	document.getElementById("input-HP").value = enemyStatData.HP;
 	document.getElementById("input-ATK").value = enemyStatData.ATK;
 	document.getElementById("input-DEF").value = enemyStatData.DEF;
 	document.getElementById("input-AGI").value = enemyStatData.AGI;
-	document.getElementById("input-CRT").value = enemyStatData.CRT;
+	if(enemyStatData.CRT==-1 && enemyDescData.CRT) document.getElementById("input-CRT").value = enemyDescData.CRT;
+	else document.getElementById("input-CRT").value = enemyStatData.CRT;
 	document.getElementById("input-HIT").value = enemyStatData.HIT;
 	document.getElementById("input-DOD").value = enemyStatData.DOD;
 	document.getElementById("input-skill").value = enemyStatData.skillpower;
-	document.getElementById("input-resist").value = enemyStatData.resist || null;
+	if('resist' in enemyStatData)
+	{
+		document.getElementById("input-resist").value = enemyStatData.resist;
+		document.getElementById("input-resist").style.color = 'black';
+		}
+	else if('resist' in enemyDescData)
+	{
+		document.getElementById("input-resist").value = enemyDescData.resist;
+		document.getElementById("input-resist").style.color = '#b0b0b0';
+	}
+	else
+	{
+		document.getElementById("input-resist").value = null;
+		document.getElementById("input-resist").style.color = 'black';
+	}
 	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
 		el.checked = false;
 	});

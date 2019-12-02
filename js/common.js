@@ -70,17 +70,21 @@ async function loadEnemyIMGData()
 		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
 			var enemyIMGData=enemyDataArr.map(data => {return {"name": data.name, "img": data.img}; });
-			/*
-			var enemyIMGData=enemyDataArr.map(data => { 
-				if(data.skills[0].AP!=undefined) { 
-					return {"name": data.name, "img": data.img}; 
-				}
-				else { 
-					return {"name": data.name, "img": ""}; 
-				}
-			});
-			*/
 			resolve(enemyIMGData);
+		});
+	});
+}
+
+async function loadEnemyDescData()
+{
+	return new Promise(resolve=> {
+		var src="./data/data-enemy.js";
+		loadData(src).then(()=> {
+			var enemyDescData=enemyDataArr.map(data => {
+				if('resist' in data) return {"name": data.name, "img": data.img, "resist": data.resist};
+				else return {"name": data.name, "img": data.img};
+			});
+			resolve(enemyDescData);
 		});
 	});
 }
