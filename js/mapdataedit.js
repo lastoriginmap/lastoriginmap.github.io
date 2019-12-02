@@ -50,13 +50,21 @@ window.onload = async function() {
 	}, false)
 };
 
+//지역 입력
 async function submitArea(overide=false)
 {
+	//area 입력값 읽기
 	var area = document.getElementById("input-area").value;
+	
+	//예외처리
 	if(!area) { alert("지역을 입력하세요!"); throw "No area";}
 	if(!overide&&"area"+area==obj.title) { alert("현재와 같은 지역입니다!"); throw "Same area";}
+	
+	//area 입력값 표시
 	document.getElementById("label-stage").textContent = "스테이지: "+area+"-";
 	document.getElementById("label-prevstage").textContent = "이전 스테이지: "+area+"-";
+	
+	//데이터 로드 시도,실패시 새로운 데이터 생성
 	try
 	{
 		if(!overide)
@@ -71,75 +79,73 @@ async function submitArea(overide=false)
 		obj["areatype"] = "grid";
 		obj["gridsize"] = [8,3];
 	}
-	Array.from(document.querySelectorAll("#form-stage input[type='text'], #form-stage input[type='number'], #input-wave, #form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
-		el.value = null;
-		el.disabled = true;
-	});
-	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
-		el.checked = false;
-		el.disabled = true;
-	});
-	Array.from(document.querySelectorAll("#form-stage input")).forEach(el=>{
-		el.disabled = false;
-	});
-	Array.from(document.getElementsByClassName("current-stage")).forEach(el=>{
-		el.textContent = "현재 스테이지: ";
-	});
-	Array.from(document.getElementsByClassName("current-wave")).forEach(el=>{
-		el.textContent = "현재 웨이브: ";
-	});
+	
+	//하위 입력칸 초기화, 스테이지 입력칸 활성화
+	resetStageInput();
+	resetWaveInput();
+	resetEnemyInput();
+	enableStageInput();
+	
+	//로그 기록, 데이터 결과 표시
 	console.log("Submit area"+area);
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
+//스테이지 입력
 function submitStage()
 {
+	//area 및 stage 입력값 읽기 및 예외처리
 	var area = document.getElementById("input-area").value;
 	if(!area) { alert("지역을 먼저 입력하세요!"); throw "No area";}
 	var stage = document.getElementById("input-stage").value;
 	if(!stage) { alert("스테이지를 입력하세요!"); throw "No stage";}
+	
+	//표시할 이름 및 이전 스테이지 입력값 읽기
 	var name = document.getElementById("input-stagename").value;
 	var prevstage = document.getElementById("input-prevstage").value;
-	var type = "";
-	var prevtype = "";
+	
+	//스테이지 이름 생성
 	var title = area+"-"+stage;
 	var prevtitle = area+"-"+prevstage;
+	
+	//스테이지 타입(Main, B, Ex) 읽기
+	var type = "";
+	var prevtype = "";
 	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
 		if(el.checked) { type = el.value }
 	});
-	if(type!="Main") { title += type }
 	Array.from(document.getElementsByName("prevstage-type")).forEach(el=>{
 	if(el.checked) { prevtype = el.value }
 	});
+	if(type!="Main") { title += type }
 	if(prevtype!="Main") { prevtitle += prevtype }
+	
+	//스테이지 입력값 표시
 	Array.from(document.getElementsByClassName("current-stage")).forEach(el=>{
 		el.textContent = "현재 스테이지: "+title;
 	});
 	
-	//type = type.toLowerCase()+"stage";
+	//스테이지 프로퍼티가 없으먼 생성
 	if(!obj.stage) { obj.stage=[]; }
+	
+	//현재 데이터 내에 입력할 스테이지가 없으면 새로운 스테이지 생성
 	if(obj.stage.findIndex(el=>el.title==title)==-1)
 	{
-		index=obj.stage.push({})-1;
+		let index=obj.stage.push({})-1;
 		obj.stage[index]["title"]=title;
-		if(name!="") { obj.stage[index]["name"]=name; }
-		if(prevstage!="") { obj.stage[index]["prevstage"]=prevtitle; }
+		if(name) { obj.stage[index]["name"]=name; }
+		if(prevstage) { obj.stage[index]["prevstage"]=prevtitle; }
 	}
-	Array.from(document.querySelectorAll("#input-wave, #form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
-		el.value = null;
-		el.disabled = true;
-	});
-	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
-		el.checked = false;
-		el.disabled = true;
-	});
-	Array.from(document.querySelectorAll("#form-wave input")).forEach(el=>{
-		el.disabled = false;
-	});
+	
+	//하위 입력칸 초기화, 웨이브 입력칸 활성화
+	resetWaveInput();
+	resetEnemyInput();
+	enableWaveInput();
 	console.log("Submit Stage "+title);
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
+//웨이브 입력
 async function submitWave()
 {
 	var stageTitle = document.getElementsByClassName("current-stage")[0].textContent.slice(9);
@@ -166,23 +172,19 @@ async function submitWave()
 		obj.stage.find(el=>el.title==stageTitle).wave[wave-1]={};
 	}
 	obj.stage.find(el=>el.title==stageTitle).wave[wave-1]["title"] = "wave"+wave;
-	console.log("Submit wave"+wave);
+
 	Array.from(document.getElementsByClassName("current-wave")).forEach(el=>{
 		el.textContent = "현재 웨이브: "+wave;
 	});
-	Array.from(document.querySelectorAll("#form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
-		el.value = null;
-	});
-	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
-		el.checked = false;
-	});
-	Array.from(document.querySelectorAll("#form-enemy input")).forEach(el=>{
-		el.disabled = false;
-	});
-	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
+	
+	resetEnemyInput();
+	enableEnemyInput();
+	console.log("Submit wave"+wave);
 	drawStageMap([stageTitle, wave]);
+	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
+//적 입력
 function submitEnemy()
 {
 	var objEnemy = {};
@@ -192,6 +194,7 @@ function submitEnemy()
 	if(!wave) { alert("웨이브를 먼저 입력하세요!"); throw "No wave";}
 	
 	objEnemy['name'] = document.getElementById("input-name").value;
+	if(document.getElementById("input-nickname").value) objEnemy['nickname'] = document.getElementById("input-nickname").value;
 	objEnemy['pos'] = [];
 	document.getElementsByName("input-pos").forEach((el, index) => {
 		if(el.checked==true)
@@ -210,6 +213,7 @@ function submitEnemy()
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
 	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
+	
 	if(document.getElementById("input-resist").value && document.getElementById("input-resist").value!=JSON.stringify(enemyDescData.resist||[]).slice(1,-1)) 
 	{
 		objEnemy['resist'] = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
@@ -497,10 +501,11 @@ function autoFill()
 
 function drawStageMap(param)
 {
-	for(let i=0;i<9;i++)
-	{
-		$('.current-wave-map > div').html('');
-	}
+	//지도 초기화
+	$('.current-wave-map > div').html('');
+	
+	//매개변수가 없을 경우 종료
+	if(!param) return 0;
 	
 	var waveData = obj.stage.find(el=>el.title==param[0]).wave[param[1]-1];
 	if(waveData.enemy)
@@ -541,6 +546,7 @@ function loadEnemyStat(param)
 	var enemyStatData = obj.stage.find(el=>el.title==param[0]).wave[param[1]-1].enemy[param[2]];
 	var enemyDescData = enemyData.find(el=>el.name==enemyStatData.name);
 	document.getElementById("input-name").value = enemyStatData.name;
+	document.getElementById("input-nickname").value = enemyStatData.nickname || '';
 	document.getElementById("input-LVL").value = enemyStatData.LVL;
 	document.getElementById("input-HP").value = enemyStatData.HP;
 	document.getElementById("input-ATK").value = enemyStatData.ATK;
@@ -571,5 +577,70 @@ function loadEnemyStat(param)
 	});
 	enemyStatData.pos.forEach(el=>{
 		document.getElementById("pos"+el).checked=true;
+	});
+}
+
+//스테이지 입력칸 비우고 비활성화
+function resetStageInput()
+{
+	Array.from(document.querySelectorAll("#form-stage input[type='text'], #form-stage input[type='number']")).forEach(el=>{
+		el.value = null;
+		el.disabled = true;
+	});
+	Array.from(document.getElementsByClassName("current-stage")).forEach(el=>{
+	el.textContent = "현재 스테이지: ";
+	});
+}
+
+//스테이지 입력칸 활성화
+function enableStageInput()
+{
+	Array.from(document.querySelectorAll("#form-stage input")).forEach(el=>{
+		el.disabled = false;
+	});
+}
+
+//웨이브 입력칸 비우고 비활성화
+function resetWaveInput()
+{
+	Array.from(document.querySelectorAll("#input-wave")).forEach(el=>{
+		el.value = null;
+		el.disabled = true;
+	});
+	Array.from(document.getElementsByClassName("current-wave")).forEach(el=>{
+		el.textContent = "현재 웨이브: ";
+	});
+}
+
+//웨이브 입력칸 활성화
+function enableWaveInput()
+{
+	Array.from(document.querySelectorAll("#form-wave input")).forEach(el=>{
+		el.disabled = false;
+	});
+}
+
+//적 입력칸 비우고 비활성화
+function resetEnemyInput()
+{
+	Array.from(document.querySelectorAll("#form-enemy input[type='text'], #form-enemy input[type='number']")).forEach(el=>{
+		el.value = null;
+		el.disabled = true;
+	});
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
+		el.disabled = true;
+	});
+	drawStageMap();
+}
+
+//적 입력칸 활성화
+function enableEnemyInput()
+{
+	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
+		el.checked = false;
+	});
+	Array.from(document.querySelectorAll("#form-enemy input")).forEach(el=>{
+		el.disabled = false;
 	});
 }

@@ -325,6 +325,7 @@ function makeGetter(obj)
 		return (key in obj ? obj[key] : "");
 	}
 }
+
 function setData(str)
 {
 	try
