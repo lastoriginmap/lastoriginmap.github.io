@@ -114,7 +114,7 @@ function submitEnemy()
 	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
 	enemyData.CRT = document.getElementById("input-CRT").value;
 	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
-	if(enemyData.resist[0]==null) delete enemyData.resist;
+	if(enemyData.resist.length==1) delete enemyData.resist;
 	if(enemyData.CRT=='') delete enemyData.CRT;
 	
 	submitName();

@@ -210,11 +210,10 @@ function submitEnemy()
 	objEnemy['HIT'] = parseInt(document.getElementById("input-HIT").value);
 	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
-	if(document.getElementById("input-resist").value && document.getElementById("input-resist").value!=JSON.stringify(enemyDescData.resist).slice(1,-1)) 
+	if(document.getElementById("input-resist").value && document.getElementById("input-resist").value!=JSON.stringify(enemyDescData.resist||[]).slice(1,-1)) 
 	{
 		objEnemy['resist'] = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
 	}
-	else delete objEnemy['resist'];
 	objEnemy['skillLVL'] = [];
 	objEnemy.skillpower.forEach((el,index)=>{ objEnemy['skillLVL'][index]=1; });
 	

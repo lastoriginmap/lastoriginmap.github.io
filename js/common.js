@@ -81,8 +81,10 @@ async function loadEnemyDescData()
 		var src="./data/data-enemy.js";
 		loadData(src).then(()=> {
 			var enemyDescData=enemyDataArr.map(data => {
-				if('resist' in data) return {"name": data.name, "img": data.img, "resist": data.resist};
-				else return {"name": data.name, "img": data.img};
+				var rtn = {"name": data.name, "img": data.img};
+				if('resist' in data) rtn["resist"] = data.resist;
+				if('CRT' in data) rtn["CRT"] = data.CRT;
+				return rtn;
 			});
 			resolve(enemyDescData);
 		});
