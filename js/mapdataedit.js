@@ -32,6 +32,9 @@ window.onload = async function() {
 	document.getElementById("input-resist").addEventListener("focus", e=>{
 		document.getElementById("input-resist").style.color = 'black';
 	});
+	document.getElementById("input-CRT").addEventListener("focus", e=>{
+		document.getElementById("input-CRT").style.color = 'black';
+	});
 	document.getElementById("delete").addEventListener("click", e=>{
 		e.preventDefault();
 		var overwrite=confirm("해당 위치의 전투원을 삭제하시겠습니까?");
@@ -541,6 +544,7 @@ function drawStageMap(param)
 	}
 }
 
+//지도에서 적 선택시 스탯 입력칸 채우기
 function loadEnemyStat(param)
 {
 	var enemyStatData = obj.stage.find(el=>el.title==param[0]).wave[param[1]-1].enemy[param[2]];
@@ -552,8 +556,16 @@ function loadEnemyStat(param)
 	document.getElementById("input-ATK").value = enemyStatData.ATK;
 	document.getElementById("input-DEF").value = enemyStatData.DEF;
 	document.getElementById("input-AGI").value = enemyStatData.AGI;
-	if(enemyStatData.CRT==-1 && enemyDescData.CRT) document.getElementById("input-CRT").value = enemyDescData.CRT;
-	else document.getElementById("input-CRT").value = enemyStatData.CRT;
+	if(enemyStatData.CRT==-1 && enemyDescData.CRT)
+	{
+		document.getElementById("input-CRT").value = enemyDescData.CRT;
+		document.getElementById("input-CRT").style.color = 'blue';
+	}
+	else
+	{
+		document.getElementById("input-CRT").value = enemyStatData.CRT;
+		document.getElementById("input-CRT").style.color = 'black';
+	}
 	document.getElementById("input-HIT").value = enemyStatData.HIT;
 	document.getElementById("input-DOD").value = enemyStatData.DOD;
 	document.getElementById("input-skill").value = enemyStatData.skillpower;
