@@ -2,6 +2,8 @@ var obj = {};
 var enemyData = {};
 
 window.onload = async function() {
+	document.getElementById("input-resist").isChanged = false;
+	
 	var formArea = document.getElementById("form-area");
 	var formStage = document.getElementById("form-stage");
 	var formWave = document.getElementById("form-wave");
@@ -30,6 +32,7 @@ window.onload = async function() {
 		}, false);
 	});
 	document.getElementById("input-resist").addEventListener("focus", e=>{
+		document.getElementById("input-resist").isChanged = true;
 		document.getElementById("input-resist").style.color = 'black';
 	});
 	document.getElementById("input-CRT").addEventListener("focus", e=>{
@@ -180,12 +183,6 @@ async function submitWave()
 		el.textContent = "현재 웨이브: "+wave;
 	});
 	
-	/*
-	!!!!!!!!임시!!!!!!!!
-	웨이브 로드 시 자동으로 치명타, 속성저항값 변경
-	*/
-	changeEnemiesInWave(stageTitle, wave);
-	
 	resetEnemyInput();
 	enableEnemyInput();
 	console.log("Submit wave"+wave);
@@ -224,7 +221,8 @@ function submitEnemy()
 	objEnemy['DOD'] = parseFloat(document.getElementById("input-DOD").value);
 	objEnemy['skillpower'] = document.getElementById("input-skill").value.split(',').map(el=>parseInt(el));
 	
-	if(document.getElementById("input-resist").value && document.getElementById("input-resist").value!=JSON.stringify(enemyDescData.resist||[]).slice(1,-1)) 
+	var resist = document.getElementById("input-resist");
+	if(resist.value && (resist.value!=JSON.stringify(enemyDescData.resist||[]).slice(1,-1) || resist.isChanged))
 	{
 		objEnemy['resist'] = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
 	}
@@ -297,6 +295,8 @@ function submitEnemy()
 	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
 		el.checked = false;
 	});
+	
+	document.getElementById("input-resist").isChanged = false;
 }
 
 function deleteEnemy(obj)
@@ -553,7 +553,6 @@ function drawStageMap(param)
 }
 
 //지도에서 적 선택시 스탯 입력칸 채우기
-//function loadEnemyStat(param)
 function loadEnemyStat([stageTitle, wave, enemy])
 {
 	var enemyStatData = obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[enemy];
@@ -663,34 +662,5 @@ function enableEnemyInput()
 	});
 	Array.from(document.querySelectorAll("#form-enemy input")).forEach(el=>{
 		el.disabled = false;
-	});
-}
-
-/*
-!!!!!!!!임시!!!!!!!!
-웨이브 로드 시 치명타, 속성저항 일괄 변경
-*/
-function changeEnemiesInWave(stageTitle, wave)
-{
-	var waveObj = obj.stage.find(el=>el.title==stageTitle).wave[wave-1];
-	
-	var names = waveObj.enemy.map(el => el.name);
-	
-	var count = 0;
-	names.forEach(elem => {
-		var enemyStatData = waveObj.enemy.find(el=>el.name==elem);
-		var enemyDescData = enemyData.find(el=>el.name==enemyStatData.name);
-		if(enemyStatData.CRT==-1) count++;
-		else if( !('resist' in enemyStatData || 'resist' in enemyDescData)) count++;
-	});
-	alert(`총 ${names.length}개 중 ${count}개 수정 필요`);
-	names.forEach(elem => {
-		var enemyStatData = waveObj.enemy.find(el=>el.name==elem);
-		var enemyDescData = enemyData.find(el=>el.name==enemyStatData.name);
-		if(enemyStatData.CRT==-1 && enemyDescData.CRT)
-		{
-			loadEnemyStat([stageTitle, wave, waveObj.enemy.findIndex(el=>el.name==elem)]);
-			submitEnemy();
-		}
 	});
 }

@@ -93,6 +93,7 @@ function submitName(name)
 	document.getElementById("input-info").value = getEnemyValue("info").replace(/<br\s*[\/]?>/gi, "\n");
 	
 	document.getElementById("input-result").value = JSON.stringify(enemyDataArr, null, 2);
+	document.getElementById("copy-name").enemyIndex = enemyDataArr.findIndex(el=> el.name==enemyData.name);
 }
 
 function submitEnemy()
@@ -149,6 +150,7 @@ function submitSkill()
 		if(!confirm("이미 있는 스킬입니다. 덮어씌우겠습니까?")) return 0;
 	}
 	skillData.title = getSelectedSkill();
+	skillData.type = skillData.title.slice(0,-1)=="askill" ? "active" : "passive";
 	skillData.name = document.getElementById("input-skillname").value;
 	skillData.img = document.getElementById("input-skillimage").value;
 	skillData.range = document.getElementById("input-skillrange").value;
@@ -176,8 +178,7 @@ function deleteEnemy()
 
 function copyEnemy()
 {
-	var enemyName = document.getElementById("input-name").value;
-	var enemyData = enemyDataArr.find(data => data.name==enemyName);
+	var enemyData = enemyDataArr[document.getElementById("copy-name").enemyIndex];
 	if(!enemyData)
 	{
 		alert("철충이 존재하지 않습니다!");
@@ -186,7 +187,14 @@ function copyEnemy()
 	else
 	{
 		var newEnemyData = Object.assign({}, enemyData);
-		newEnemyData.name += ' (복사)';
+		newEnemyData.name = document.getElementById("input-name").value;
+		newEnemyData.type = document.getElementById("input-type").value;
+		newEnemyData.img = document.getElementById("input-img").value;
+		newEnemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
+		newEnemyData.CRT = document.getElementById("input-CRT").value;
+		newEnemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
+		if(newEnemyData.resist.length==1) delete newEnemyData.resist;
+		if(newEnemyData.CRT=='') delete newEnemyData.CRT;
 		enemyDataArr.push(newEnemyData);
 		submitName(newEnemyData.name);
 		return alert(`${newEnemyData.name}으로 복사되었습니다.`);

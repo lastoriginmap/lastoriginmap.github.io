@@ -2131,11 +2131,6 @@ var enemyDataArr = [
       }
     ],
     "type": "경장 지원기",
-    "resist": [
-      25,
-      25,
-      25
-    ],
     "CRT": "5",
     "info": "철충의 보급 기체네요. 공격 저지 능력이 뛰어나니 주력 공격기를 잘 보호해야 장기전을 방지할 수 있어요.<br><br>-실키"
   },
@@ -2183,12 +2178,6 @@ var enemyDataArr = [
       }
     ],
     "type": "경장 공격기",
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "CRT": "10",
     "info": "적의 빈틈을 노리는 용의주도한 개체입니다. 대물 저격총을 가지고 있으니 중장갑 전투원을 운용할 때는 주의해주세요.<br><br>-팬텀"
   },
   {
@@ -2247,16 +2236,11 @@ var enemyDataArr = [
       }
     ],
     "type": "중장 보호기",
-    "resist": [
-      30,
-      30,
-      30
-    ],
     "CRT": "5",
     "info": "장갑이 활성화 되었을 땐 유효 피해를 주기 힘들어요! 장갑을 비활성화 시킨 후에 한 번에 해치워야 해요!<br><br>-켈베로스"
   },
   {
-    "name": "센츄리온 치프틴",
+    "name": "센츄리온 치프틴 (6Ex)",
     "img": "CenturionCF",
     "skills": [
       {
@@ -2474,13 +2458,8 @@ var enemyDataArr = [
       }
     ],
     "type": "경장 지원기",
-    "resist": [
-      30,
-      30,
-      30
-    ],
-    "CRT": "5",
-    "info": "<교전 기록 없음>"
+    "info": "<교전 기록 없음>",
+    "CRT": "5"
   },
   {
     "name": "철충 사념체 (호위기)",
@@ -2531,12 +2510,6 @@ var enemyDataArr = [
       }
     ],
     "type": "기동 보호기",
-    "resist": [
-      -25,
-      0,
-      50
-    ],
-    "CRT": "10",
     "info": "<교전 기록 없음>"
   },
   {
@@ -2581,12 +2554,6 @@ var enemyDataArr = [
       }
     ],
     "type": "경장 보호기",
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "CRT": "10",
     "info": "<교전 기록 없음>"
   },
   {
@@ -2646,12 +2613,6 @@ var enemyDataArr = [
       }
     ],
     "type": "경장 공격기",
-    "resist": [
-      -25,
-      0,
-      50
-    ],
-    "CRT": "10",
     "info": "<교전 기록 없음>"
   },
   {
@@ -2711,12 +2672,6 @@ var enemyDataArr = [
       }
     ],
     "type": "기동 공격기",
-    "resist": [
-      50,
-      0,
-      -25
-    ],
-    "CRT": "10",
     "info": "<교전 기록 없음>"
   },
   {
@@ -2804,11 +2759,6 @@ var enemyDataArr = [
       }
     ],
     "type": "기동 지원기",
-    "resist": [
-      20,
-      20,
-      20
-    ],
     "CRT": "5",
     "info": "<교전 기록 없음>"
   },
@@ -2868,11 +2818,6 @@ var enemyDataArr = [
       }
     ],
     "type": "중장 지원기",
-    "resist": [
-      -20,
-      0,
-      30
-    ],
     "CRT": "5",
     "info": "<교전 기록 없음>"
   },
@@ -2947,12 +2892,6 @@ var enemyDataArr = [
       }
     ],
     "type": "중장 공격기",
-    "resist": [
-      50,
-      0,
-      -25
-    ],
-    "CRT": "15",
     "info": "<교전 기록 없음>"
   },
   {
@@ -3023,12 +2962,6 @@ var enemyDataArr = [
       }
     ],
     "type": "중장 보호기",
-    "resist": [
-      20,
-      20,
-      20
-    ],
-    "CRT": "7.5",
     "info": "<교전 기록 없음>"
   },
   {
@@ -7810,5 +7743,649 @@ var enemyDataArr = [
     ],
     "info": "철충 연결체입니다. 힘을 모아서 엄청난 한 방을 노리는 비열한 타입의 적입니다. 하지만 힘을 모으고 있는 시간은 짧으니 최대한 공격을 늦춰서 제 포를 이용해 처리하는 게 가장 좋아 보이는군요.<br><br>-보고자 비스트 헌터",
     "CRT": "10"
+  },
+  {
+    "name": "센츄리온 치프틴",
+    "img": "CenturionCF",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "정밀 유도 미사일",
+        "img": "MultiMissile",
+        "range": 4,
+        "AP": 7,
+        "description": "정밀 유도 미사일로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
+        "areadata": [
+          5,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "멀티 록 온",
+        "img": "Scan",
+        "range": 4,
+        "AP": 6,
+        "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
+        "areadata": [
+          2,
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "대열 정비",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
+        "areadata": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "위기 극복",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
+        "areadata": [
+          5
+        ]
+      }
+    ],
+    "type": "경장 공격기",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "CRT": "7.5",
+    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br>-램파트"
+  },
+  {
+    "name": "아머드 하베스터 (6Ex)",
+    "type": "중장 지원기",
+    "img": "Harvester",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "CRT": "5",
+    "info": "<교전 기록 없음>",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "폐기물 파쇄",
+        "img": "MeleeAttack",
+        "range": "1",
+        "AP": "9",
+        "description": "근접 공격으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 대상을 강타해 피해량이 증가하며 2라운드 동안 행동 불가로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "폐기물 수집",
+        "img": "Hang",
+        "range": "4",
+        "AP": "4",
+        "description": "집게로 목표 대상을 포획해 <span id='askillpower2'></span> 피해를 주며 2칸 앞으로 당깁니다. 적중 시, 2라운드 동안 행동력이 감소하며 이동 불가 상태가 됩니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "초합금 플레이팅",
+        "img": "SelfDefBuff",
+        "range": "0",
+        "AP": "0",
+        "description": "견고한 장갑으로 인해, 일정 위력 이하의 공격은 통하지 않습니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "개량형 칙 캐논 (6Ex)",
+    "type": "중장 공격기",
+    "img": "NightChickC",
+    "resist": [
+      50,
+      25,
+      25
+    ],
+    "CRT": "10",
+    "info": "<교전 기록 없음>",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "네이팜 분사",
+        "img": "WideFireShot",
+        "range": "2",
+        "AP": "4",
+        "attr": "fire",
+        "description": "화염 방사로 <span id='askillpower1'></span> 화염 속성 피해를 주며, 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "강화 곡사 포격",
+        "img": "CannonShotDelay",
+        "range": "6",
+        "AP": "7",
+        "description": "1라운드 후에 착탄하는 곡사포를 발사해 목표 범위에 <span id='askillpower2'></span>의 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가합니다.",
+        "areadata": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "연료 탱크 파괴",
+        "img": "SuiceideBomb",
+        "range": "0",
+        "AP": "0",
+        "description": "사망 시, 높은 확률로 연료 탱크가 유폭해 주변에 괴멸적인 피해를 주며 피해 감소 효과를 해제합니다.",
+        "areadata": [
+          2,
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "조준 보정",
+        "img": "SelfAtkBuff",
+        "range": "0",
+        "AP": "0",
+        "description": "공격 시, 3라운드 동안 적중이 증가합니다.",
+        "areadata": [
+          2,
+          4,
+          5,
+          6,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "name": "강화형 재퍼 (6Ex)",
+    "type": "경장 지원기",
+    "img": "Zapper",
+    "resist": [
+      25,
+      25,
+      75
+    ],
+    "CRT": "10",
+    "info": "<교전 기록 없음>",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "전격 체인",
+        "img": "Shock",
+        "range": "3",
+        "AP": "4",
+        "attr": "electric",
+        "description": "전격을 방사해 <span id='askillpower1'></span> 전기 속성 피해를 주고 대상의 AP와 회피를 감소시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "초고압 전류",
+        "img": "Shock",
+        "range": "1",
+        "AP": "8",
+        "attr": "electric",
+        "description": "고압 전류로 <span id='askillpower2'></span> 전기 속성 피해를 주고, 회피를 감소시킵니다. 일정 확률로 대상을 행동 불가 상태로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "사주 경계",
+        "img": "SelfDefBuff",
+        "range": "0",
+        "AP": "0",
+        "description": "적을 발견하거나 적에게 공격당하기 전 까지는 경계 상태로 대기합니다. 공격당하기 전까지 받는 피해가 대폭 감소합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "name": "와습 HM (6Ex)",
+    "img": "Wasp",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "화염 작렬",
+        "img": "WideFireShot",
+        "range": 3,
+        "AP": 6,
+        "description": "화염 방사로 대상에게 <span id='askillpower1'></span> 피해를 주고, 대상 뒤에 50% 감소한 피해를 줍니다. 대상을 점화 상태로 만들어 2라운드 동안 지속 화염 피해를 줍니다.",
+        "areadata": [
+          0,
+          0,
+          0,
+          0.5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "자폭 돌진",
+        "img": "SuiceideBomb",
+        "range": 7,
+        "AP": 10,
+        "description": "공격 대상에게 돌격 후, 자폭해 <span id='askillpower2'></span> 피해를 줍니다. 대상의 방어력을 무시합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "고속 기동",
+        "img": "SelfSpdBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "아군이 사망한 경우, 2라운드 동안 회피가 증가하며 행동력 / 적중이 감소합니다. 해당 효과는 중첩됩니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ],
+    "type": "기동 공격기",
+    "resist": [
+      75,
+      0,
+      0
+    ],
+    "CRT": "20",
+    "info": "<교전 기록 없음>"
+  },
+  {
+    "name": "강습형 스카우트 (6Ex)",
+    "img": "Scout",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "강화 충격탄",
+        "img": "Missile",
+        "range": 2,
+        "AP": 6,
+        "description": "충격 미사일을 발사해 <span id='askillpower1'></span> 피해를 주고 대상의 AP를 감소시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "색적 경보",
+        "img": "Scan",
+        "range": 6,
+        "AP": 6,
+        "description": "목표 아군에게 적 발견 경보를 울려 대상의 AP와 사거리를 증가시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "강습 대열",
+        "img": "TeamAtkBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "이동 시, 3라운드 동안 인접한 공격기의 공격을 지원하며 AP를 증가시킵니다.",
+        "areadata": [
+          2,
+          8
+        ]
+      }
+    ],
+    "type": "기동 지원기",
+    "resist": [
+      15,
+      15,
+      15
+    ],
+    "info": "<교전 기록 없음>"
+  },
+  {
+    "name": "엘리트 센츄리온 (6Ex)",
+    "img": "Centurion",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "XM 로켓 런쳐",
+        "img": "GrenadeAttack_2",
+        "range": 4,
+        "AP": 6,
+        "description": "유탄을 발사해 목표 대상들에게 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다.",
+        "areadata": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "일제 공격 표식",
+        "img": "Scan",
+        "range": 5,
+        "AP": 3,
+        "description": "2라운드 동안 대상을 목표로 지정해 <span id='askillpower2'></span> 피해를 주고 표식을 남기며, 받는 피해가 증가하는 상태로 만듭니다. 보호 효과를 무시합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "역습 태세",
+        "img": "DefCounter",
+        "range": 0,
+        "AP": 0,
+        "description": "아군 사망 시, 3라운드 동안 공격력과 치명타가 증가하며 반격합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill2",
+        "type": "passive",
+        "name": "부대 재 정비",
+        "img": "TeamSpdBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "라운드 개시 시 역습 태세인 경우, 인접한 아군들의 행동력과 적중을 증가시킵니다.",
+        "areadata": [
+          2,
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "type": "경장 공격기",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "CRT": "15",
+    "info": "<교전 기록 없음>"
+  },
+  {
+    "name": "스캐럽 HC (6Ex)",
+    "img": "Scarab",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "실드 돌진",
+        "img": "AssaultAttack",
+        "range": 3,
+        "AP": 6,
+        "description": "대상에게 돌격해 <span id='askillpower1'></span> 피해를 주고, 대상의 행 / 열 보호 효과와 피해 감소 효과를 해제합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "호위 기동",
+        "img": "SelfDefBuff",
+        "range": 6,
+        "AP": 4,
+        "description": "3라운드 동안 지정한 아군을 보호하며, 대상의 행동력과 적중을 증가시킵니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "경계 기동",
+        "img": "SelfDefBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "라운드 개시 시 HP가 50% 이하인 경우, 받는 피해와 회피가 감소하고 방어력이 대폭 증가합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ],
+    "type": "기동 보호기",
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "CRT": "15",
+    "info": "<교전 기록 없음>"
+  },
+  {
+    "name": "시작형 빅 칙 (6Ex)",
+    "img": "BigChick",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "칙 중 기관포 발사",
+        "img": "MGShot",
+        "range": 4,
+        "AP": 5,
+        "description": "중 기관총으로 <span id='askillpower1'></span> 피해를 줍니다. 대상이 방어력 감소 상태인 경우, 피해량이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "영거리 중 기관포",
+        "img": "MGShot",
+        "range": "1",
+        "AP": "8",
+        "description": "중 기관총 근접 사격으로 방어력을 일정 비율 무시하고 <span id='askillpower2'></span> 피해를 줍니다. 대상이 방어력 감소 상태인 경우, 피해량이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "근접 조준 사격",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "적 진영에 가까울수록, 라운드 개시 시 적중이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ],
+    "type": "중장 공격기",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "info": "<교전 기록 없음>"
+  },
+  {
+    "name": "강화형 칙 런쳐 (6Ex)",
+    "img": "NightChickM",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "강화 미사일 공격",
+        "img": "Missile",
+        "range": 2,
+        "AP": 4,
+        "description": "미사일을 발사해 <span id='askillpower1'></span> 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "강화 미사일 난사",
+        "img": "Missile",
+        "range": 1,
+        "AP": 6,
+        "description": "미사일 근접 사격으로 <span id='askillpower2'></span> 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "기동 사격",
+        "img": "SelfAtkBuff",
+        "range": 0,
+        "AP": 0,
+        "description": "이동 시, 4라운드 동안 사거리 / 공격력 / 행동력이 증가합니다.",
+        "areadata": [
+          5
+        ]
+      }
+    ],
+    "type": "경장 공격기",
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "info": "<교전 기록 없음>"
+  },
+  {
+    "name": "나이트 칙 캐논 (6Ex)",
+    "img": "NightChickC",
+    "skills": [
+      {
+        "title": "askill1",
+        "type": "active",
+        "name": "플레임 버너",
+        "img": "WideFireShot",
+        "range": 2,
+        "AP": 4,
+        "attr": "fire",
+        "description": "화염 방사로 <span id='askillpower1'></span> 화염 속성 피해를 주며, 일정 확률로 3라운드 동안 지속 화염 피해를 입는 점화 상태로 만듭니다.",
+        "areadata": [
+          5
+        ]
+      },
+      {
+        "title": "askill2",
+        "type": "active",
+        "name": "곡사포",
+        "img": "CannonShotDelay",
+        "range": 5,
+        "AP": 8,
+        "description": "1라운드 후에 착탄하는 곡사포를 발사해 목표 범위에 <span id='askillpower2'></span>의 피해를 줍니다. 대상이 이동 불가 상태면 피해량이 증가합니다.",
+        "areadata": [
+          0,
+          0.5,
+          0,
+          0.5,
+          1,
+          0.5,
+          0,
+          0.5,
+          0
+        ]
+      },
+      {
+        "title": "pskill1",
+        "type": "passive",
+        "name": "연료 탱크 유폭",
+        "img": "SuiceideBomb",
+        "range": "0",
+        "description": "사망 시, 연료 탱크가 유폭해 주변에 괴멸적인 피해를 주고 피해 감소 효과를 해제합니다.",
+        "areadata": [
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "AP": "0"
+      }
+    ],
+    "type": "중장 공격기",
+    "resist": [
+      25,
+      0,
+      0
+    ],
+    "info": "<교전 기록 없음>",
+    "CRT": "5"
   }
 ];
