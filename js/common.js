@@ -1,3 +1,6 @@
+//파일명 설정
+var setting = '.min';
+
 //공통 데이터 로드 함수
 function loadData(src)
 {
@@ -19,7 +22,7 @@ function loadAreaData(areaNum)
 {
 	return new Promise((resolve, reject)=> {
 		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
-		var src="./data/data-area"+areaNum+".js";
+		var src="./data/data-area"+areaNum+setting+".js";
 		loadData(src).then(()=>resolve(areaData), ()=>reject());
 	});
 }
@@ -29,7 +32,7 @@ function loadStageData(stageTitle)
 {
 	return new Promise(resolve=> {
 		//src를 지역 데이터 파일로 설정해 로드
-		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+".js";
+		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+setting+".js";
 		loadData(src).then(()=> {
 			var stageData=areaData.stage.find(sData => sData.title==stageTitle);
 			var type=getTypeByStageTitle(stageTitle)
@@ -46,7 +49,7 @@ function loadStageData(stageTitle)
 function loadEnemyDataArr()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.js";
+		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
 			resolve(enemyDataArr);
 		});
@@ -56,7 +59,7 @@ function loadEnemyDataArr()
 function loadEnemyData(enemyName)
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.js";
+		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
 			var enemyData=enemyDataArr.filter(data => data.name==enemyName)[0];
 			resolve(enemyData);
@@ -67,7 +70,7 @@ function loadEnemyData(enemyName)
 function loadEnemyIMGData()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.js";
+		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
 			var enemyIMGData=enemyDataArr.map(data => {return {"name": data.name, "img": data.img}; });
 			resolve(enemyIMGData);
@@ -78,7 +81,7 @@ function loadEnemyIMGData()
 function loadEnemyDescData()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy.js";
+		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
 			var enemyDescData=enemyDataArr.map(data => {
 				var rtn = {"name": data.name, "img": data.img};
