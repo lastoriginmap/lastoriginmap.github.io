@@ -15,7 +15,7 @@ function loadData(src)
 }
 
 //지역 데이터 로드 함수
-async function loadAreaData(areaNum)
+function loadAreaData(areaNum)
 {
 	return new Promise((resolve, reject)=> {
 		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
@@ -25,7 +25,7 @@ async function loadAreaData(areaNum)
 }
 
 //스테이지 데이터 로드 함수
-async function loadStageData(stageTitle)
+function loadStageData(stageTitle)
 {
 	return new Promise(resolve=> {
 		//src를 지역 데이터 파일로 설정해 로드
@@ -64,7 +64,7 @@ function loadEnemyData(enemyName)
 	});
 }
 
-async function loadEnemyIMGData()
+function loadEnemyIMGData()
 {
 	return new Promise(resolve=> {
 		var src="./data/data-enemy.js";
@@ -75,7 +75,7 @@ async function loadEnemyIMGData()
 	});
 }
 
-async function loadEnemyDescData()
+function loadEnemyDescData()
 {
 	return new Promise(resolve=> {
 		var src="./data/data-enemy.js";

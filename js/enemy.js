@@ -3,15 +3,13 @@ window.onload = async function(){
     var waveNum = getURLParameter('wave');
     var enemyNum = getURLParameter('enemy');
 
-	//remove this line
 	var areaData=await loadAreaData(getAreaByStageTitle(stageTitle)); //remove this line
-	var stageLoadData=await loadStageData(stageTitle);
-	var stageData=stageLoadData.stageData;
+	var stageData=areaData.stage.find(sData => sData.title==stageTitle);
 	var enemyStatData=stageData.wave[waveNum].enemy[enemyNum];
 	var enemyDescData=await loadEnemyData(enemyStatData.name);
 	
 	//drawEnemyPage(enemyStatData, enemyDescData);
-	if('updated' in areaData) drawEnemyPage(enemyStatData, enemyDescData, true);
+	if('updated' in areaData) drawEnemyPage(enemyStatData, enemyDescData, areaData.updated);
 	else drawEnemyPage(enemyStatData, enemyDescData);
 	
 	$('.skill-nav').on('click', '.btn', function(e) {
@@ -21,7 +19,7 @@ window.onload = async function(){
 };
 
 //function drawEnemyPage(stat, desc)
-function drawEnemyPage(stat, desc, updated=false)
+function drawEnemyPage(stat, desc, updated=true)
 {
 	if(stat.nickname)
 	{

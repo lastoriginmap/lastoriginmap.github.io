@@ -156,7 +156,7 @@ function submitSkill()
 	skillData.AP = document.getElementById("input-skillAP").value;
 	skillData.attr = document.getElementById("input-skillattr").value;
 	skillData.description = document.getElementById("input-skilldesc").value;
-	skillData.areadata = document.getElementById("input-skillarea").value.split(',').map(el=>parseInt(el));
+	skillData.areadata = document.getElementById("input-skillarea").value.split(',').map(el=>parseFloat(el));
 	if(skillData.attr==="") delete skillData.attr;
 	
 	selectSkill();

@@ -249,35 +249,42 @@ function submitEnemy()
 	{
 		obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy=[];
 	}
-	var enemypos=obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.map(enemyElem=>enemyElem.pos);
-	var overlapped=false;
-	var overlappedpos=[];
-	for(let i=0;i<enemypos.length;i++)
+	var enemy=obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy;
+	
+	//중복 위치가 존재하는지 확인
+	//중복위치가 있으면 기존 데이터에서 해당 위치를 삭제하고 새로 추가할 데이터로 덮어씌움
+	//enemypos: 해당 웨이브에 철충이 이미 존재하는 위치 배열 
+	//overlappedpos: 중복되는 위치 배열
+	var enemypos=enemy.map(enemyElem=>enemyElem.pos).flat();
+	var overlappedpos=enemypos.filter(pos => objEnemy.pos.includes(pos));
+	
+	//중복 위치가 존재하면
+	if(overlappedpos.length!=0)
 	{
-		for(let j=0;j<enemypos[i].length;j++)
-		{
-			if(objEnemy.pos.findIndex(el=>el==enemypos[i][j])!=-1)
-			{
-				overlapped=true;
-				overlappedpos.push([i,j]);
-			}
-		}
-	}
-	if(overlapped)
-	{
+		//덮어쓸지 확인
 		var overwrite=confirm("중복된 위치입니다!\n덮어쓰시겠습니까?");
 		if(overwrite)
 		{
+			//각 중복위치 overlappedpos[i]마다
 			for(let i=0;i<overlappedpos.length;i++)
 			{
-				if(obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.length==1)
-				{
-					obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.splice(overlappedpos[i][0],1);
-				}
-				else
-				{
-					obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[overlappedpos[i][0]].pos.splice(overlappedpos[i][1], 1);
-				}
+				//웨이브 내 모든 enemy마다 enemy.pos에 overlappedpos[i]가 있는지 확인하고
+				enemy.forEach(el => {
+					for(let j=el.pos.length;j>=0;j--)
+					{
+						//overlappedpos[i]와 중복되는 enemy.pos 내 요소를 삭제
+						if(el.pos[j]==overlappedpos[i])
+						{
+							el.pos.splice(j,1);
+						}
+					}
+				});
+			}
+			//위치가 전부 삭제된 적 삭제
+			for(let i=enemy.length-1;i>=0;i--)
+			{
+				if(enemy[i].pos.length==0)
+					enemy.splice(i,1);
 			}
 		}
 		else
@@ -285,16 +292,15 @@ function submitEnemy()
 			throw "Overlapped pos";
 		}
 	}
-	obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.push(objEnemy);
+	enemy.push(objEnemy);
 	document.getElementById("input-result").value = JSON.stringify(obj.stage.find(el=>el.title==stageTitle).wave[wave-1], null, 2);
 	//document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 	
-	var newEnemy = obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy.length-1]
-	drawStageMap([stageTitle, wave]);
+	//var newEnemy = enemy[enemy.length-1]
 	
-	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
-		el.checked = false;
-	});
+	resetEnemyInput();
+	enableEnemyInput();
+	drawStageMap([stageTitle, wave]);
 	
 	document.getElementById("input-resist").isChanged = false;
 }
@@ -346,6 +352,9 @@ function deleteEnemy(obj)
 	}
 	
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
+	
+	resetEnemyInput();
+	enableEnemyInput();
 	drawStageMap([stageTitle, wave]);
 	
 	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
@@ -430,23 +439,20 @@ function autoFill()
 	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
 		if(el.checked) { currentStageType = el.value.toLowerCase()+"stage"; }
 	});
-	
-	
-	for(let stype=0; stype<type.length && !isFilled; stype++)
+			
+	if(obj.stage)
 	{
-		if(obj[type[stype]])
+		for(let sindex=0; sindex<obj.stage.length && !isFilled; sindex++)
 		{
-		for(let sindex=0; sindex<obj[type[stype]].length && !isFilled; sindex++)
-		{
-			if(obj[type[stype]][obj[type[stype]].length-sindex-1].wave)
+			if(obj.stage[obj.stage.length-sindex-1].wave)
 			{
-			for(let windex=0; windex<obj[type[stype]][sindex].wave.length && !isFilled; windex++)
+			for(let windex=0; windex<obj.stage[sindex].wave.length && !isFilled; windex++)
 			{
-				if(obj[type[stype]][sindex].wave[windex].enemy)
+				if(obj.stage[sindex].wave[windex].enemy)
 				{
-				for(let eindex=0; eindex<obj[type[stype]][sindex].wave[windex].enemy.length && !isFilled; eindex++)
+				for(let eindex=0; eindex<obj.stage[sindex].wave[windex].enemy.length && !isFilled; eindex++)
 				{
-					let enemyObj = obj[type[stype]][sindex].wave[windex].enemy[eindex];
+					let enemyObj = obj.stage[sindex].wave[windex].enemy[eindex];
 					let enemyDescData = enemyData.find(el=>el.name==name)
 					if(enemyObj.name==name && enemyObj.LVL==LVL)
 					{
@@ -475,7 +481,7 @@ function autoFill()
 						}
 						isFilled = true;
 					}
-					if(enemyObj.name==name && type[stype]==currentStageType && !isFilled)
+					if(enemyObj.name==name && !isFilled)
 					{
 						document.getElementById("input-HP").value = null;
 						document.getElementById("input-ATK").value = null;
@@ -493,7 +499,6 @@ function autoFill()
 				}
 			}
 			}
-		}
 		}
 	}
 	if(isFilled)
