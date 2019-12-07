@@ -1,5 +1,4 @@
 var areaData = {
-  "updated": true,
   "title": "5",
   "areatype": "grid",
   "gridsize": [

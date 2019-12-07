@@ -1,4 +1,5 @@
 var areaData = {
+  "updated": false,
   "title": "할로윈 파크 패닉! 이벤트 ",
   "areatype": "grid",
   "gridsize": [

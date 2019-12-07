@@ -1,5 +1,4 @@
 var areaData = {
-  "updated": true,
   "title": "areaDaily1",
   "stage": [
     {

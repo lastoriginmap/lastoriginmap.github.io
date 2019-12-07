@@ -1,4 +1,5 @@
 var areaData = {
+  "updated": false,
   "title": "만월의 야상곡 이벤트 ",
   "areatype": "grid",
   "gridsize": [
