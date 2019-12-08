@@ -491,23 +491,22 @@ function autoFill()
 						document.getElementById("input-HIT").value = enemyObj.HIT;
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = null;
-						document.getElementById("input-resist").value = enemyObj.resist || null;
-						document.getElementById("input-resist").style.color = 'black';
+						if('resist' in enemyObj)
+						{
+							document.getElementById("input-resist").value = enemyObj.resist;
+							document.getElementById("input-resist").style.color = 'black';
+						}
+						else if('resist' in enemyDescData)
+						{
+							document.getElementById("input-resist").value = enemyDescData.resist;
+							document.getElementById("input-resist").style.color = '#b0b0b0';
+						}
+						else
+						{
+							document.getElementById("input-resist").value = null;
+							document.getElementById("input-resist").style.color = 'black';
+						}
 						isPartialFilled = true;
-					}
-					else
-					{
-						
-						document.getElementById("input-HP").value = null;
-						document.getElementById("input-ATK").value = null;
-						document.getElementById("input-DEF").value = null;
-						document.getElementById("input-AGI").value = null;
-						document.getElementById("input-HIT").value = null;
-						document.getElementById("input-DOD").value = null;
-						document.getElementById("input-skill").value = null;
-						document.getElementById("input-CRT").value = enemyDescData.CRT || null;
-						document.getElementById("input-resist").value = enemyDescData.resist || null;
-						document.getElementById("input-resist").style.color = '#b0b0b0';
 					}
 				}
 				}
@@ -525,6 +524,16 @@ function autoFill()
 	}
 	else
 	{
+		document.getElementById("input-HP").value = null;
+		document.getElementById("input-ATK").value = null;
+		document.getElementById("input-DEF").value = null;
+		document.getElementById("input-AGI").value = null;
+		document.getElementById("input-HIT").value = null;
+		document.getElementById("input-DOD").value = null;
+		document.getElementById("input-skill").value = null;
+		document.getElementById("input-CRT").value = enemyDescData.CRT || null;
+		document.getElementById("input-resist").value = enemyDescData.resist || null;
+		document.getElementById("input-resist").style.color = '#b0b0b0';
 		alert("데이터 없음");
 	}
 }
