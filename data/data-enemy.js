@@ -8626,7 +8626,7 @@ var enemyDataArr = [
         "title": "pskill1",
         "type": "passive",
         "name": "요격 포메이션",
-        "img": "TeamSpdBuff",
+        "img": "TeamAtkBuff",
         "range": "0",
         "AP": "0",
         "description": "전투 개시 시, 범위 내 아군의 AP가 증가합니다. 라운드 개시 시, 대상의 공격을 지원하며 치명타 / 적중을 증가시킵니다.",
