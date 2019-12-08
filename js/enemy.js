@@ -131,8 +131,9 @@ function drawSkillInfo(index, LVL, power, desc)
 	{
 		drawSkillArea($('.skill-area:last'), [5]);
 	}
-	$('.skill-description:last').html('<p>'+desc.description+'</p>');
-	$('#'+desc.title.substr(0,6)+'power'+desc.title.substr(6)).html(power);
+	$('.skill-description:last').html('<p>'+desc.description.replace(/\$\(\d+\.*\d*\)/g,power)+'</p>');
+	//$('.skill-description:last').html('<p>'+desc.description.replace(/\$\(\d+\.*\d*\)/g, `<span id='askillpower${desc.title.slice(6)}'></span>`)+'</p>');
+	//$('#'+desc.title.substr(0,6)+'power'+desc.title.substr(6)).html(power);
     
     $('.active:last').removeClass("active");
 	$('.skill-container:eq('+(index+1)+') .btn:eq('+index+')').addClass("active");
