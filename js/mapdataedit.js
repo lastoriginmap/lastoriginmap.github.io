@@ -435,6 +435,7 @@ function autoFill()
 	var name = document.getElementById("input-name").value;
 	var LVL = parseInt(document.getElementById("input-LVL").value);
 	var currentStageType = "";
+	let enemyDescData = enemyData.find(el=>el.name==name);
 	
 	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
 		if(el.checked) { currentStageType = el.value.toLowerCase()+"stage"; }
@@ -453,7 +454,6 @@ function autoFill()
 				for(let eindex=0; eindex<obj.stage[sindex].wave[windex].enemy.length && !isFilled; eindex++)
 				{
 					let enemyObj = obj.stage[sindex].wave[windex].enemy[eindex];
-					let enemyDescData = enemyData.find(el=>el.name==name)
 					if(enemyObj.name==name && enemyObj.LVL==LVL)
 					{
 						document.getElementById("input-HP").value = enemyObj.HP;

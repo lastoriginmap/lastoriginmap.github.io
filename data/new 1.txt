@@ -464,10 +464,13 @@ FA 빅 칙 II                         *݄ SkillGroup_MP_FABigChickEX_TU
  - 스틸 드라코 보고함ʷ  ­s  	ɷ  ߄ 개량형 매머드                         ߄ SkillGroup_MP_MammothP_TU      ߄ Model_MP_Mammoth_N߄ FullbodyIMG_MP_Mammoth_N߄ TbarIcon_MP_Mammoth_N߄ ETCIcon_MP_Mammoth_N߄ AI_Mp_Mammoth_01    ߄ 0ͷ  ­s  	̷  !߄ 개량형 매머드                         "߄ SkillGroup_MP_MammothP_TU2      #߄ Model_MP_Mammoth_N$߄ FullbodyIMG_MP_Mammoth_N%߄ TbarIcon_MP_Mammoth_N&߄ ETCIcon_MP_Mammoth_N'߄ AI_Mp_Mammoth_01   (߄ 0з  ­s  	Ϸ  )߄ 개량형 매머드                         *߄ SkillGroup_MP_MammothP_TU3      +߄ Model_MP_Mammoth_N,߄ FullbodyIMG_MP_Mammoth_N-߄ TbarIcon_MP_Mammoth_N.߄ ETCIcon_MP_Mammoth_N/߄ AI_Mp_Mammoth_01   0߄ 0ӷ  ­s  	ҷ  1߄ 개량형 매머드                         2߄ SkillGroup_MP_MammothP_TU4      3߄ Model_MP_Mammoth_N4߄ FullbodyIMG_MP_Mammoth_N5߄ TbarIcon_MP_Mammoth_N6߄ ETCIcon_MP_Mammoth_N7߄ AI_Mp_Mammoth_01   8߄ 0ַ  ­s  	շ  9߄ 나이트 칙 디텍터 G                          :߄ SkillGroup_MP_NightChickDEG_TU      ;߄ Model_MP_NightChickDEG_N<߄ FullbodyIMG_MP_NightChickDEG_N=߄ TbarIcon_MP_NightChickDEG_N>߄ ETCIcon_MP_NightChickDEG_N?߄ AI_NCDetectorG_Normal_01   @߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
 
 
- - 다이카 보고함ٷ  ­s  	ط  A߄ 나이트 칙 디텍터 G                          B߄ SkillGroup_MP_NightChickDEG_TU2      C߄ Model_MP_NightChickDEG_ND߄ FullbodyIMG_MP_NightChickDEG_NE߄ TbarIcon_MP_NightChickDEG_NF߄ ETCIcon_MP_NightChickDEG_NG߄ AI_NCDetectorG_Normal_01   H߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
+ - 다이카 보고함ٷ  ­s  	ط  A߄ 
+ 나이트 칙 디텍터 G
+지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
 
 
- - 다이카 보고함ܷ  ­s  	۷  I߄ 나이트 칙 디텍터 G                          J߄ SkillGroup_MP_NightChickDEG_TU3      K߄ Model_MP_NightChickDEG_NL߄ FullbodyIMG_MP_NightChickDEG_NM߄ TbarIcon_MP_NightChickDEG_NN߄ ETCIcon_MP_NightChickDEG_NO߄ AI_NCDetectorG_Normal_01   P߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
+ - 다이카 보고함
+ ܷ  ­s  	۷  I߄ 나이트 칙 디텍터 G                          J߄ SkillGroup_MP_NightChickDEG_TU3      K߄ Model_MP_NightChickDEG_NL߄ FullbodyIMG_MP_NightChickDEG_NM߄ TbarIcon_MP_NightChickDEG_NN߄ ETCIcon_MP_NightChickDEG_NO߄ AI_NCDetectorG_Normal_01   P߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
 
 
  - 다이카 보고함߷  ­s  	޷  Q߄ 나이트 칙 디텍터 G                          R߄ SkillGroup_MP_NightChickDEG_TU4      S߄ Model_MP_NightChickDEG_NT߄ FullbodyIMG_MP_NightChickDEG_NU߄ TbarIcon_MP_NightChickDEG_NV߄ ETCIcon_MP_NightChickDEG_NW߄ AI_NCDetectorG_Normal_01   X߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
@@ -589,10 +592,13 @@ FA 빅 칙 II                         *݄ SkillGroup_MP_FABigChickEX_TU
 - 세이렌 보고함ix  ­s  	hx  ÁĠ에너지 컨덴서                             SkillGroup_MP_RocCGenerator_EV2      à Model_MP_RocCGenerator_NĠ FullbodyIMG_MP_RocCGenerator_NŠ TbarIcon_MP_RocCGenerator_NƠ ETCIcon_MP_RocCGenerator_NǠ AI_RocGenerator_Normal_02   Ƞ ²전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
 
 
-- 세이렌 보고함lx  ­s  	kx  ɠ 테스투도                           ʠ SkillGroup_MP_Testudo_TU      ˠ Model_MP_Testudo_N̠ FullbodyIMG_MP_Testudo_N͠ TbarIcon_MP_Testudo_NΠ ETCIcon_MP_Testudo_NϠ AI_Mp_Testudo_Normal_01   Р ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
+- 세이렌 보고함lx  ­s  	kx  ɠ 
+테스투도
+트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
 
 
-- 샬럿 보고함ox  ­s  	nx  Ѡ 테스투도                           Ҡ SkillGroup_MP_Testudo_TU2      Ӡ Model_MP_Testudo_NԠ FullbodyIMG_MP_Testudo_Nՠ TbarIcon_MP_Testudo_N֠ ETCIcon_MP_Testudo_Nנ AI_Mp_Testudo_Normal_01   ؠ ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
+- 샬럿 보고함
+ox  ­s  	nx  Ѡ 테스투도                           Ҡ SkillGroup_MP_Testudo_TU2      Ӡ Model_MP_Testudo_NԠ FullbodyIMG_MP_Testudo_Nՠ TbarIcon_MP_Testudo_N֠ ETCIcon_MP_Testudo_Nנ AI_Mp_Testudo_Normal_01   ؠ ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
 
 
 - 샬럿 보고함rx  ­s  	qx  ٠ 테스투도                           ڠ SkillGroup_MP_Testudo_TU3      ۠ Model_MP_Testudo_Nܠ FullbodyIMG_MP_Testudo_Nݠ TbarIcon_MP_Testudo_Nޠ ETCIcon_MP_Testudo_Nߠ AI_Mp_Testudo_Normal_01   ࠄ ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
@@ -811,7 +817,8 @@ FA 빅 칙 II                         bㄠSkillGroup_MP_FABigChickEX_N
 - 파니 보고함y  ­s  	y  飄 센츄리온 제네럴                          ꣄ SkillGroup_MP_CenturionG_N      룄 Model_MP_CenturionG_N죄 FullbodyIMG_MP_CenturionG_N񁀠TbarIcon_MP_CenturionG_N ETCIcon_MP_CenturionG_N AI_Mp_CenturionG_Normal_01   𣄠¿지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
 
 
-- 이프리트 보고함y  ­s  	y  񣄠강화형 칙 실더                           򣄠SkillGroup_MP_NightChickShEx_N      󣄠Model_MP_NightChickS_N𣄠FullbodyIMG_MP_NightChickS_NõㄠTbarIcon_MP_NightChickS_NöㄠETCIcon_MP_NightChickS_N÷ㄠAI_Mp_NCShieldEx_Normal_01   øㄠ¾일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
+- 이프리트 보고함y  ­s  	y  񣄠강화형 칙 실더                           򣄠SkillGroup_MP_NightChickShEx_N      󣄠Model_MP_NightChickS_N𣄠FullbodyIMG_MP_NightChickS_NõㄠTbarIcon_MP_NightChickS_NöㄠETCIcon_MP_NightChickS_N÷ㄠAI_Mp_NCShieldEx_Normal_01   øㄠ¾
+일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
 
 
 - 피닉스 보고함y  ­s  	y  ùㄠ강화형 칙 실더                           úㄠ SkillGroup_MP_NightChickShEx_TU2      ûㄠModel_MP_NightChickS_NüㄠFullbodyIMG_MP_NightChickS_NýㄠTbarIcon_MP_NightChickS_NþㄠETCIcon_MP_NightChickS_NÿㄠAI_Mp_NCShieldEx_Normal_01    䄠¾일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
@@ -849,10 +856,13 @@ FA 빅 칙 II                         bㄠSkillGroup_MP_FABigChickEX_N
 - 엠프리스 보고함¼y  ­s  	»y  I䄠강화형 칙 디텍터                          J䄠SkillGroup_MP_NightChickDEX_TU4      K䄠Model_MP_NightChickDE_NL䄠FullbodyIMG_MP_NightChickDE_NM䄠TbarIcon_MP_NightChickDE_NN䄠ETCIcon_MP_NightChickDE_NO䄠AI_Mp_ChDetectorEx_Normal_01   P䄠±강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.
 
 
-- 엠프리스 보고함¿y  ­s  	¾y  Q䄠프로스트바이트                    R䄠SkillGroup_MP_Frostbite_N      S䄠Model_MP_Frostbite_NT䄠FullbodyIMG_MP_Frostbite_NU䄠TbarIcon_MP_Frostbite_NV䄠ETCIcon_MP_Frostbite_NW䄠AI_Mp_Frostbite_Normal_01   X䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
+- 엠프리스 보고함¿y  ­s  	¾y  Q䄠
+프로스트바이트                    R䄠SkillGroup_MP_Frostbite_N      S䄠Model_MP_Frostbite_NT䄠FullbodyIMG_MP_Frostbite_NU䄠TbarIcon_MP_Frostbite_NV䄠ETCIcon_MP_Frostbite_NW䄠AI_Mp_Frostbite_Normal_01   X䄠
+유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
 
 
-- 기간테스 보고함¹  ­s  	Áy  Y䄠프로스트바이트                    Z䄠SkillGroup_MP_Frostbite_TU      [䄠Model_MP_Frostbite_N\䄠FullbodyIMG_MP_Frostbite_N]䄠TbarIcon_MP_Frostbite_N^䄠ETCIcon_MP_Frostbite_N_䄠AI_Mp_Frostbite_Normal_01   `䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
+- 기간테스 보고함
+¹  ­s  	Áy  Y䄠프로스트바이트                    Z䄠SkillGroup_MP_Frostbite_TU      [䄠Model_MP_Frostbite_N\䄠FullbodyIMG_MP_Frostbite_N]䄠TbarIcon_MP_Frostbite_N^䄠ETCIcon_MP_Frostbite_N_䄠AI_Mp_Frostbite_Normal_01   `䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
 
 
 - 기간테스 보고함Ź  ­s  	Ĺ  a䄠프로스트바이트                    b䄠SkillGroup_MP_Frostbite_TU2      c䄠Model_MP_Frostbite_Nd䄠FullbodyIMG_MP_Frostbite_Ne䄠TbarIcon_MP_Frostbite_Nf䄠ETCIcon_MP_Frostbite_Ng䄠AI_Mp_Frostbite_Normal_01   h䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
@@ -864,10 +874,13 @@ FA 빅 칙 II                         bㄠSkillGroup_MP_FABigChickEX_N
 - 기간테스 보고함˹  ­s  	ʹ  q䄠프로스트바이트                    r䄠SkillGroup_MP_Frostbite_TU4      s䄠Model_MP_Frostbite_Nt䄠FullbodyIMG_MP_Frostbite_Nu䄠TbarIcon_MP_Frostbite_Nv䄠ETCIcon_MP_Frostbite_Nw䄠AI_Mp_Frostbite_Normal_01   x䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
 
 
-- 기간테스 보고함ι  ­s  	͹  y䄠디스트로이어                          z䄠SkillGroup_MP_Destroyer_N      {䄠Model_MP_Destroyer_N|䄠FullbodyIMG_MP_Destroyer_N}䄠TbarIcon_MP_Destroyer_N~䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>ѹ  ­s  	й  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>Թ  ­s  	ӹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU2      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>׹  ­s  	ֹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU3      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>ڹ  ­s  	ٹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU4      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01    䄠<교전 기록 없음>ݹ  ­s  	ܹ  ¡䄠나이트 칙 디텍터 AA                          ¢䄠SkillGroup_MP_NightChickDEAA_N      £䄠Model_MP_NightChickDEAA_N¤䄠FullbodyIMG_MP_NightChickDEAA_N¥䄠TbarIcon_MP_NightChickDEAA_N¦䄠ETCIcon_MP_NightChickDEAA_N§䄠AI_Mp_NCDetectorAA_Normal_01   ¨䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
+- 기간테스 보고함ι  ­s  	͹  y䄠디스트로이어                          z䄠SkillGroup_MP_Destroyer_N      {䄠Model_MP_Destroyer_N|䄠FullbodyIMG_MP_Destroyer_N}䄠TbarIcon_MP_Destroyer_N~䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>ѹ  ­s  	й  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>Թ  ­s  	ӹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU2      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>׹  ­s  	ֹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU3      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>ڹ  ­s  	ٹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU4      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01    䄠<교전 기록 없음>ݹ  ­s  	ܹ  ¡䄠
+나이트 칙 디텍터 AA
+대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
 
 
-- 레드후드의 명령을 브라우니가 기록함๠ ­s  	߹  ©䄠나이트 칙 디텍터 AA                          ª䄠SkillGroup_MP_NightChickDEAA_TU      «䄠Model_MP_NightChickDEAA_N¬䄠FullbodyIMG_MP_NightChickDEAA_N­䄠TbarIcon_MP_NightChickDEAA_N®䄠ETCIcon_MP_NightChickDEAA_N¯䄠AI_Mp_NCDetectorAA_Normal_01   °䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
+- 레드후드의 명령을 브라우니가 기록함
+๠ ­s  	߹  ©䄠나이트 칙 디텍터 AA                          ª䄠SkillGroup_MP_NightChickDEAA_TU      «䄠Model_MP_NightChickDEAA_N¬䄠FullbodyIMG_MP_NightChickDEAA_N­䄠TbarIcon_MP_NightChickDEAA_N®䄠ETCIcon_MP_NightChickDEAA_N¯䄠AI_Mp_NCDetectorAA_Normal_01   °䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
 
 
 - 레드후드의 명령을 브라우니가 기록함㹠 ­s  	⹠ ±䄠나이트 칙 디텍터 AA                          ²䄠 SkillGroup_MP_NightChickDEAA_TU2      ³䄠Model_MP_NightChickDEAA_N´䄠FullbodyIMG_MP_NightChickDEAA_Nµ䄠TbarIcon_MP_NightChickDEAA_N¶䄠ETCIcon_MP_NightChickDEAA_N·䄠AI_Mp_NCDetectorAA_Normal_01   ¸䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
@@ -879,7 +892,8 @@ FA 빅 칙 II                         bㄠSkillGroup_MP_FABigChickEX_N
 - 레드후드의 명령을 브라우니가 기록함鹠 ­s  	蹠 Á䄠나이트 칙 디텍터 AA                          ¤  SkillGroup_MP_NightChickDEAA_TU4      ä Model_MP_NightChickDEAA_NĤ FullbodyIMG_MP_NightChickDEAA_NŤ TbarIcon_MP_NightChickDEAA_NƤ ETCIcon_MP_NightChickDEAA_NǤ AI_Mp_NCDetectorAA_Normal_01   Ȥ «대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
 
 
-- 레드후드의 명령을 브라우니가 기록함칠 ­s  	빠 ɤ 레기온 Mk.II                          ʤ SkillGroup_MP_LegionMk2_N      ˤ Model_MP_LegionMk2_N̤ FullbodyIMG_MP_LegionMk2_Nͤ TbarIcon_MP_LegionMk2_NΤ ETCIcon_MP_LegionMk2_NϤ AI_Mp_LegionMk2_Normal_01   Ф ù레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
+- 레드후드의 명령을 브라우니가 기록함칠 ­s  	빠 ɤ 레기온 Mk.II                          ʤ SkillGroup_MP_LegionMk2_N      ˤ Model_MP_LegionMk2_N̤ FullbodyIMG_MP_LegionMk2_Nͤ TbarIcon_MP_LegionMk2_NΤ ETCIcon_MP_LegionMk2_NϤ AI_Mp_LegionMk2_Normal_01   Ф ù
+레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
 
 
 - 아르망 보고함﹠ ­s  	 Ѥ 레기온 Mk.II                          Ҥ SkillGroup_MP_LegionMk2_TU      Ӥ Model_MP_LegionMk2_NԤ FullbodyIMG_MP_LegionMk2_Nդ TbarIcon_MP_LegionMk2_N֤ ETCIcon_MP_LegionMk2_Nפ AI_Mp_LegionMk2_Normal_01   ؤ ù레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
