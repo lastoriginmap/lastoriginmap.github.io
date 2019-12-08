@@ -491,9 +491,23 @@ function autoFill()
 						document.getElementById("input-HIT").value = enemyObj.HIT;
 						document.getElementById("input-DOD").value = enemyObj.DOD;
 						document.getElementById("input-skill").value = null;
-						document.getElementById("input-resist").value = null;
+						document.getElementById("input-resist").value = enemyObj.resist || null;
 						document.getElementById("input-resist").style.color = 'black';
 						isPartialFilled = true;
+					}
+					else
+					{
+						
+						document.getElementById("input-HP").value = null;
+						document.getElementById("input-ATK").value = null;
+						document.getElementById("input-DEF").value = null;
+						document.getElementById("input-AGI").value = null;
+						document.getElementById("input-HIT").value = null;
+						document.getElementById("input-DOD").value = null;
+						document.getElementById("input-skill").value = null;
+						document.getElementById("input-CRT").value = enemyDescData.CRT || null;
+						document.getElementById("input-resist").value = enemyDescData.resist || null;
+						document.getElementById("input-resist").style.color = '#b0b0b0';
 					}
 				}
 				}
@@ -563,7 +577,7 @@ function loadEnemyStat([stageTitle, wave, enemy])
 	var enemyStatData = obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy[enemy];
 	var enemyDescData = enemyData.find(el=>el.name==enemyStatData.name);
 	document.getElementById("input-name").value = enemyStatData.name;
-	document.getElementById("input-nickname").value = enemyStatData.nickname || '';
+	document.getElementById("input-nickname").value = enemyStatData.nickname || null;
 	document.getElementById("input-LVL").value = enemyStatData.LVL;
 	document.getElementById("input-HP").value = enemyStatData.HP;
 	document.getElementById("input-ATK").value = enemyStatData.ATK;
