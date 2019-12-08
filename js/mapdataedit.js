@@ -442,11 +442,11 @@ function autoFill()
 			
 	if(obj.stage)
 	{
-		for(let sindex=0; sindex<obj.stage.length && !isFilled; sindex++)
+		for(let sindex=obj.stage.length-1; sindex>=0 && !isFilled; sindex--)
 		{
-			if(obj.stage[obj.stage.length-sindex-1].wave)
+			if(obj.stage[sindex].wave)
 			{
-			for(let windex=0; windex<obj.stage[sindex].wave.length && !isFilled; windex++)
+			for(let windex=obj.stage[sindex].wave.length-1; windex>=0 && !isFilled; windex--)
 			{
 				if(obj.stage[sindex].wave[windex].enemy)
 				{
@@ -481,7 +481,7 @@ function autoFill()
 						}
 						isFilled = true;
 					}
-					if(enemyObj.name==name && !isFilled)
+					else if(enemyObj.name==name && !isPartialFilled)
 					{
 						document.getElementById("input-HP").value = null;
 						document.getElementById("input-ATK").value = null;
