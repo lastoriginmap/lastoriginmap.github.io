@@ -711,9 +711,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "머신건 속사",
         "img": "ARShot",
-        "range": 4,
-        "AP": 4,
-        "description": "머신건을 발사해 $(0) 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
+        "range": "4",
+        "AP": "4",
+        "description": "머신건을 발사해 $(1) 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
         "areadata": [
           5
         ]
@@ -1049,7 +1049,7 @@ var enemyDataArr = [
         "img": "BeamShot",
         "range": "4",
         "attr": "ice",
-        "description": "지정 범위에 $(0) 냉기 속성 피해를 줍니다. 적중 대상은 침수 상태가 됩니다.",
+        "description": "지정 범위에 $(1) 냉기 속성 피해를 줍니다. 적중 대상은 침수 상태가 됩니다.",
         "areadata": [
           4,
           5,
@@ -1184,7 +1184,7 @@ var enemyDataArr = [
         "img": "BeamShot",
         "range": "3",
         "attr": "ice",
-        "description": "지정 범위에 $(0) 냉기 속성 피해를 주고 대상을 이동 불가 상태로 만듭니다. 대상이 침수 상태인 경우, 행동 불가 / 받는 피해 증가 상태로 만들고 강화 효과를 해제합니다.",
+        "description": "지정 범위에 $(1) 냉기 속성 피해를 주고 대상을 이동 불가 상태로 만듭니다. 대상이 침수 상태인 경우, 행동 불가 / 받는 피해 증가 상태로 만들고 강화 효과를 해제합니다.",
         "areadata": [
           0,
           0,
@@ -5083,9 +5083,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "강화 머신건 사격",
         "img": "ARShot",
-        "range": 4,
-        "AP": 4,
-        "description": "머신건 사격으로 $(0) 피해를 줍니다. 2라운드 동안 대상의 회피를 낮춥니다.",
+        "range": "4",
+        "AP": "4",
+        "description": "머신건 사격으로 $(1) 피해를 줍니다. 2라운드 동안 대상의 회피를 낮춥니다.",
         "areadata": [
           5
         ]
@@ -5095,9 +5095,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "강화 머신건 연사",
         "img": "ARShot",
-        "range": 1,
-        "AP": 6,
-        "description": "머신건을 조준 사격해 $(0) 피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
+        "range": "1",
+        "AP": "6",
+        "description": "머신건을 조준 사격해 $(1.4) 피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다.",
         "areadata": [
           5
         ]
@@ -5133,9 +5133,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "강화 미사일 공격",
         "img": "Missile",
-        "range": 2,
-        "AP": 4,
-        "description": "미사일을 발사해 $(0) 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
+        "range": "2",
+        "AP": "4",
+        "description": "미사일을 발사해 $(1.2) 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
         "areadata": [
           5
         ]
@@ -5145,9 +5145,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "강화 미사일 난사",
         "img": "Missile",
-        "range": 1,
-        "AP": 6,
-        "description": "미사일 근접 사격으로 $(0) 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
+        "range": "1",
+        "AP": "6",
+        "description": "미사일 근접 사격으로 $(1.6) 피해를 줍니다. 대상이 이동 불가 상태면 직격으로 피해량이 증가합니다.",
         "areadata": [
           5
         ]
@@ -5232,9 +5232,9 @@ var enemyDataArr = [
         "type": "active",
         "name": "칙 방패 강타",
         "img": "MeleeAttack",
-        "range": 3,
-        "AP": 4,
-        "description": "대상에게 $(0) 피해를 주고, 2라운드 동안 도발 / 공격력 / 치명타 감소 상태로 만듭니다.",
+        "range": "3",
+        "AP": "4",
+        "description": "대상에게 $(1.1) 피해를 주고, 2라운드 동안 도발 / 공격력 / 치명타 감소 상태로 만듭니다.",
         "areadata": [
           5
         ]
@@ -8522,7 +8522,7 @@ var enemyDataArr = [
         "img": "CannonShotWide",
         "range": "2",
         "AP": "6",
-        "description": "포격으로 지정 범위에 $(0) 피해를 줍니다. 대상이 회피 / 방어력 감소 상태면 피해량이 증가합니다.",
+        "description": "포격으로 지정 범위에 $(1) 피해를 줍니다. 대상이 회피 / 방어력 감소 상태면 피해량이 증가합니다.",
         "areadata": [
           1,
           4,
@@ -8537,7 +8537,7 @@ var enemyDataArr = [
         "img": "CannonShotDelay",
         "range": "6",
         "AP": "6",
-        "description": "1라운드 뒤에 착탄하는 포격으로 지정 범위에 $(0) 보호 무시 피해를 줍니다. 목표 지점은 50% 피해만 줍니다. 대상이 표식 / 이동 불가 상태면 피해량이 증가합니다.",
+        "description": "1라운드 뒤에 착탄하는 포격으로 지정 범위에 $(1.35) 보호 무시 피해를 줍니다. 목표 지점은 50% 피해만 줍니다. 대상이 표식 / 이동 불가 상태면 피해량이 증가합니다.",
         "areadata": [
           0,
           1,
