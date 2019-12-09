@@ -242,9 +242,6 @@ function submitEnemy()
 		throw "error";
 	}
 	
-	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
-	if(el.checked) { type = el.value.toLowerCase()+"stage"; }
-	});
 	if(!obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy)
 	{
 		obj.stage.find(el=>el.title==stageTitle).wave[wave-1].enemy=[];
@@ -311,10 +308,12 @@ function deleteEnemy(obj)
 	if(!stageTitle) { alert("지역과 스테이지를 먼저 입력하세요!"); throw "No stageTitle";}
 	var wave = document.getElementsByClassName("current-wave")[0].textContent.slice(8);
 	if(!wave) { alert("웨이브를 먼저 입력하세요!"); throw "No wave";}
+	/*
 	Array.from(document.getElementsByName("stage-type")).forEach(el=>{
 		if(el.checked) { type = el.value.toLowerCase()+"stage"; }
 	});
-	deletePos = [];
+	*/
+	var deletePos = [];
 	document.getElementsByName("input-pos").forEach((el, index) => {
 		if(el.checked==true)
 		{
