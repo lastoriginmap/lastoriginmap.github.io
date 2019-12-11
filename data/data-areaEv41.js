@@ -97,7 +97,7 @@ var areaData = {
               "AGI": 4,
               "CRT": -1,
               "HIT": 130,
-              "DOD": 18,
+              "DOD": 10,
               "skillpower": [
                 204,
                 245,
