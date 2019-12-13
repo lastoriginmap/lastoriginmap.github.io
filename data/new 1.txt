@@ -46,7 +46,7 @@
 
 - 보고자 브라우니지 말임다.
 하베스터
-܁얘는 원래는 나처럼 일하던 애였던 것 같아. 멀리 있는 적을 갈고리로 당겨오니 주의하는 게 좋아. 나처럼 힘들게 사는 애니 편히 보내 주는 게 좋을 지도…
+얘는 원래는 나처럼 일하던 애였던 것 같아. 멀리 있는 적을 갈고리로 당겨오니 주의하는 게 좋아. 나처럼 힘들게 사는 애니 편히 보내 주는 게 좋을 지도…
 
 
 - 더치걸
@@ -55,8 +55,8 @@
 
 
  - 불가사리 보고함
- 재퍼
- 호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?
+재퍼
+호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?
 
 
 - 보고자 블랙 리리스
@@ -114,7 +114,8 @@
 
 
 - 핀토가 정찰 중 보고
-케미컬 칙냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
+케미컬 칙
+냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
 
 
 - 보고자 미호
@@ -214,733 +215,364 @@ AMG-11의 자율 경비용 기종이다.
 
 
 - 스카디
-언더왓쳐 제네레이터                          ڄ 'SkillGroup_MP_UnderWatcherGenerator_B05      ڄ "Model_MP_UnderWatcherGenerator_B05ڄ (FullbodyIMG_MP_UnderWatcherGenerator_B05ڄ %TbarIcon_MP_UnderWatcherGenerator_B05ڄ $ETCIcon_MP_UnderWatcherGenerator_B05ڄ AI_UnderWatcherGene_01    ڄ 에너지 공급용 제네레이터네요. 계속 공격해보면 에너지 공급을 멈출 수 있을 것 같네요.
+언더왓쳐 제네레이터
+에너지 공급용 제네레이터네요. 계속 공격해보면 에너지 공급을 멈출 수 있을 것 같네요.
 
 
-- 스카디񨀠­s  	쵠 !ڄ 나이트 칙 Type-S"ڄ SkillGroup_MP_NightChick_RV      #ڄ Model_MP_NightChick_RV$ڄ FullbodyIMG_MP_NightChick_RV%ڄ TbarIcon_MP_NightChick_RV&ڄ ETCIcon_MP_NightChick_RV'ڄ AI_Jako_Special_01   (ڄ <교전 기록 없음>𵠠­s  	ﵠ )ڄ 광폭화 레이더                         *ڄ SkillGroup_MP_Raider_CH      +ڄ Model_MP_Raider_B04_CH,ڄ FullbodyIMG_MP_Raider_B04-ڄ TbarIcon_MP_Raider_B04.ڄ ETCIcon_MP_Raider_B04/ڄ AI_Raider_02   0ڄ º고속 교란용 연결체. 지휘 능력이 제법 뛰어나 대량의 철충 부대와 함께 다니기 때문에 주의하는 게 좋아. 보기보다 겁쟁이라 위협을 느끼면 닥치는대로 전격탄을 난사하니 대비하는 작전을 세우면 그럭저럭 상대할 만 할 거야.
+- 스카디
+광폭화 레이더
+고속 교란용 연결체. 지휘 능력이 제법 뛰어나 대량의 철충 부대와 함께 다니기 때문에 주의하는 게 좋아. 보기보다 겁쟁이라 위협을 느끼면 닥치는대로 전격탄을 난사하니 대비하는 작전을 세우면 그럭저럭 상대할 만 할 거야.
 
 
-- 레오나󵠠­s  	򵠠1ڄ 와습                         2ڄ SkillGroup_MP_Wasp_TU      3ڄ Model_MP_Wasp_N4ڄ FullbodyIMG_MP_Wasp_N5ڄ TbarIcon_MP_Wasp_N6ڄ ETCIcon_MP_Wasp_N7ڄ AI_Wasp_Normal_01   8ڄ ށ누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.
+- 레오나
+와습
+누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.
 
 
-- 슬레이프니르öu  ­s  	õu  9ڄ 	매머드                         :ڄ SkillGroup_MP_Mammoth_N      ;ڄ Model_MP_Mammoth_N<ڄ FullbodyIMG_MP_Mammoth_N=ڄ TbarIcon_MP_Mammoth_N>ڄ ETCIcon_MP_Mammoth_N?ڄ AI_Mp_Mammoth_01   @ڄ 큭 방이 엄청나게 무서운데다 장갑도 두꺼워서 장갑 사이에 치명타를 먹이거나 아니면 관통할 수 있는 무기가 좋아 보이네. 뭐, 못 피하면 죽으니까 조심하라고.
+- 슬레이프니르
+매머드
+한 방이 엄청나게 무서운데다 장갑도 두꺼워서 장갑 사이에 치명타를 먹이거나 아니면 관통할 수 있는 무기가 좋아 보이네. 뭐, 못 피하면 죽으니까 조심하라고.
 
 
-- 보고자 샌드걸ùu  ­s  	øu  Aڄ 	스토커                          Bڄ SkillGroup_MP_Stalker_TU2      Cڄ Model_MP_Stalker_B0108Dڄ FullbodyIMG_MP_Stalker_B0108Eڄ TbarIcon_MP_Stalker_B0108Fڄ ETCIcon_MP_Stalker_B0108Gڄ AI_Boss_Stalker_01   Hڄ ¤철충 연결체입니다. 힘을 모아서 엄청난 한 방을 노리는 비열한 타입의 적입니다. 하지만 힘을 모으고 있는 시간은 짧으니 최대한 공격을 늦춰서 제 포를 이용해 처리하는 게 가장 좋아 보이는군요.
+- 보고자 샌드걸
+스토커
+철충 연결체입니다. 힘을 모아서 엄청난 한 방을 노리는 비열한 타입의 적입니다. 하지만 힘을 모으고 있는 시간은 짧으니 최대한 공격을 늦춰서 제 포를 이용해 처리하는 게 가장 좋아 보이는군요.
 
 
-- 보고자 비스트 헌터üu  ­s  	ûu  Iڄ 언더왓쳐                          Jڄ SkillGroup_MP_UnderWatcher_TU2      Kڄ Model_MP_UnderWatcher_B05Lڄ FullbodyIMG_MP_UnderWatcher_B05Mڄ TbarIcon_MP_UnderWatcher_B05Nڄ ETCIcon_MP_UnderWatcher_B05Oڄ AI_UnderWatcher_02   Pڄ ü에너지 충전이 완료되면 무시무시한 공격을 할 거예요. 충전을 막기 위해 제네레이터를 공격하는 것도 좋겠네요. 본체는 공격 직후를 노리면 더 많은 타격을 줄 수 있을 것 같네요.
+- 보고자 비스트 헌터
+언더왓쳐
+에너지 충전이 완료되면 무시무시한 공격을 할 거예요. 충전을 막기 위해 제네레이터를 공격하는 것도 좋겠네요. 본체는 공격 직후를 노리면 더 많은 타격을 줄 수 있을 것 같네요.
 
 
-- 스카디ÿu  ­s  	þu  Qڄ 언더왓쳐 암                          Rڄ !SkillGroup_MP_UnderWatcherArm_TU2      Sڄ Model_MP_UnderWatcherArm_B05Tڄ "FullbodyIMG_MP_UnderWatcherArm_B05Uڄ TbarIcon_MP_UnderWatcherArm_B05Vڄ ETCIcon_MP_UnderWatcherArm_B05Wڄ AI_UnderWatcherArm_02   Xڄ p언더왓쳐의 공격용 암 파츠네요. 대공 기능이 있는 것 같으니 주의하세요.
+- 스카디
+언더왓쳐 암
+언더왓쳐의 공격용 암 파츠네요. 대공 기능이 있는 것 같으니 주의하세요.
 
 
-- 스카디v  ­s  	v  Yڄ 언더왓쳐 센서                          Zڄ $SkillGroup_MP_UnderWatcherSensor_TU2      [ڄ Model_MP_UnderWatcherSensor_B05\ڄ %FullbodyIMG_MP_UnderWatcherSensor_B05]ڄ "TbarIcon_MP_UnderWatcherSensor_B05^ڄ !ETCIcon_MP_UnderWatcherSensor_B05_ڄ AI_UnderWatcherSensor_02   `ڄ 조준용 센서가 달린 파츠네요. 피해를 주거나 파괴하면 공격을 피하기 쉬워질거에요.
+- 스카디
+언더왓쳐 센서
+조준용 센서가 달린 파츠네요. 피해를 주거나 파괴하면 공격을 피하기 쉬워질거에요.
 
 
-- 스카디v  ­s  	v  aڄ 언더왓쳐 제네레이터                          bڄ 'SkillGroup_MP_UnderWatcherGenerator_TU2      cڄ "Model_MP_UnderWatcherGenerator_B05dڄ (FullbodyIMG_MP_UnderWatcherGenerator_B05eڄ %TbarIcon_MP_UnderWatcherGenerator_B05fڄ $ETCIcon_MP_UnderWatcherGenerator_B05gڄ AI_UnderWatcherGene_02   hڄ 에너지 공급용 제네레이터네요. 계속 공격해보면 에너지 공급을 멈출 수 있을 것 같네요.
+- 스카디
+언더왓쳐 제네레이터
+에너지 공급용 제네레이터네요. 계속 공격해보면 에너지 공급을 멈출 수 있을 것 같네요.
 
 
-- 스카디v  ­s  	v  iڄ 센츄리온 치프틴                          jڄ SkillGroup_MP_CenturionCF_N      kڄ Model_MP_CenturionCF_Nlڄ FullbodyIMG_MP_CenturionCF_Nmڄ TbarIcon_MP_CenturionCF_Nnڄ ETCIcon_MP_CenturionCF_Noڄ AI_CenturionCF_Normal_01   pڄ ꁬ¼츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.
+- 스카디
+센츄리온 치프틴
+센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.
 
 
-- 램파트v  ­s  	
-v  qڄ 센츄리온 치프틴                          rڄ SkillGroup_MP_CenturionCF_TU2      sڄ Model_MP_CenturionCF_Ntڄ FullbodyIMG_MP_CenturionCF_Nuڄ TbarIcon_MP_CenturionCF_Nvڄ ETCIcon_MP_CenturionCF_Nwڄ AI_CenturionCF_Normal_01   xڄ ꁬ¼츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.
+- 램파트
+토터스
+장갑이 활성화 되었을 땐 유효 피해를 주기 힘들어요! 장갑을 비활성화 시킨 후에 한 번에 해치워야 해요!
 
 
-- 램파트v  ­s  	
-v  yڄ 	토터스                           zڄ SkillGroup_MP_Tortoise_N      {ڄ Model_MP_Tortoise_N|ڄ FullbodyIMG_MP_Tortoise_N}ڄ TbarIcon_MP_Tortoise_N~ڄ ETCIcon_MP_Tortoise_Nڄ AI_Tortoise_Normal_01   ڄ 장갑이 활성화 되었을 땐 유효 피해를 주기 힘들어요! 장갑을 비활성화 시킨 후에 한 번에 해치워야 해요!
+- 켈베로스
+칙 쿼터마스터
+철충의 보급 기체네요. 공격 저지 능력이 뛰어나니 주력 공격기를 잘 보호해야 장기전을 방지할 수 있어요.
 
 
-- 켈베로스v  ­s  	v  ڄ 	토터스                           ڄ SkillGroup_MP_Tortoise_TU2      ڄ Model_MP_Tortoise_Nڄ FullbodyIMG_MP_Tortoise_Nڄ TbarIcon_MP_Tortoise_Nڄ ETCIcon_MP_Tortoise_Nڄ AI_Tortoise_Normal_01   ڄ 장갑이 활성화 되었을 땐 유효 피해를 주기 힘들어요! 장갑을 비활성화 시킨 후에 한 번에 해치워야 해요!
+- 실키
+스펙터
+방어막을 걷어내지 않으면 격추하기 힘든 개체야. 유령같은 움직임 때문에 맞추기 힘들테니 주의해.
 
 
-- 켈베로스v  ­s  	v  ڄ 칙 쿼터마스터                          ڄ SkillGroup_MP_NightChickQM_N      ڄ Model_MP_NightChickQM_Nڄ FullbodyIMG_MP_NightChickQM_Nڄ TbarIcon_MP_NightChickQM_Nڄ ETCIcon_MP_NightChickQM_Nڄ AI_NightChickQM_Normal_01   ڄ 철충의 보급 기체네요. 공격 저지 능력이 뛰어나니 주력 공격기를 잘 보호해야 장기전을 방지할 수 있어요.
+- 네오딤
+레기온 스나이퍼
+적의 빈틈을 노리는 용의주도한 개체입니다. 대물 저격총을 가지고 있으니 중장갑 전투원을 운용할 때는 주의해주세요.
 
 
-- 실키v  ­s  	v  ڄ 칙 쿼터마스터                          ڄ SkillGroup_MP_NightChickQM_TU2      ڄ Model_MP_NightChickQM_Nڄ FullbodyIMG_MP_NightChickQM_Nڄ TbarIcon_MP_NightChickQM_Nڄ ETCIcon_MP_NightChickQM_Nڄ AI_NightChickQM_Normal_01   ڄ 철충의 보급 기체네요. 공격 저지 능력이 뛰어나니 주력 공격기를 잘 보호해야 장기전을 방지할 수 있어요.
+- 팬텀
+칙 엠페러
+<교전 기록 없음>
+철충 사념체 (보병)
+<교전 기록 없음>
+철충 사념체 (장갑병)
+<교전 기록 없음>
+철충 사념체 (정찰기)
+<교전 기록 없음>
+철충 사념체 (호위기)
+<교전 기록 없음>
+철충 사념체 (저격병)
+<교전 기록 없음>
+철충 사념체 (돌격병)
+<교전 기록 없음>
+철충 사념체 (폭격기)
+<교전 기록 없음>
+철충 사념체 (포병)
+철충 사념체 (중장갑병)
+<교전 기록 없음>
+실험체 고블린
+고블린이었던 것으로 보인다. 더 이상 생물체라고 할 수 있을지는 모르겠다…
+실험체 고블린 파쇄병
+고블린이었던 것으로 보인다. 더 이상 생물체라고 할 수 있을지는 모르겠다…
+수상한 기계장치
+<교전 기록 없음>
+수상한 실험체
+<교전 기록 없음>
+익스큐셔너
+<교전 기록 없음>
+익스큐셔너 롱 블레이드
+<교전 기록 없음>
+익스큐셔너 실드 블레이드
+<교전 기록 없음>
+스펙터 BS
+<교전 기록 없음>
+스펙터 MS
+<교전 기록 없음>
+지원형 스카우트
+<교전 기록 없음>
+썬더 칙
+후아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.
 
 
-- 실키v  ­s  	v  ڄ 	스펙터                         ڄ SkillGroup_MP_Spector_N      ڄ Model_MP_Spector_Nڄ FullbodyIMG_MP_Spector_Nڄ TbarIcon_MP_Spector_Nڄ ETCIcon_MP_Spector_Nڄ AI_Spector_Normal_01    ڄ 방어막을 걷어내지 않으면 격추하기 힘든 개체야. 유령같은 움직임 때문에 맞추기 힘들테니 주의해.
+ - 켈베로스 보고함 
+아쿠아 칙
+물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!
 
 
-- 네오딤v  ­s  	v  ¡ڄ 	스펙터                         ¢ڄ SkillGroup_MP_Spector_TU2      £ڄ Model_MP_Spector_N¤ڄ FullbodyIMG_MP_Spector_N¥ڄ TbarIcon_MP_Spector_N¦ڄ ETCIcon_MP_Spector_N§ڄ AI_Spector_Normal_01   ¨ڄ 방어막을 걷어내지 않으면 격추하기 힘든 개체야. 유령같은 움직임 때문에 맞추기 힘들테니 주의해.
+ - 아쿠아 보고함
+칠러
+물… 절대 뿌리지 말것…
 
 
-- 네오딤 v  ­s  	v  ©ڄ 레기온 스나이퍼                          ªڄ SkillGroup_MP_LegionSP_N      «ڄ Model_MP_LegionSP_N¬ڄ FullbodyIMG_MP_LegionSP_N­ڄ TbarIcon_MP_LegionSP_N®ڄ ETCIcon_MP_LegionSP_N¯ڄ AI_LegionSP_Normal_01   °ڄ ª적의 빈틈을 노리는 용의주도한 개체입니다. 대물 저격총을 가지고 있으니 중장갑 전투원을 운용할 때는 주의해주세요.
+ - 서펀트 보고함
+빅 칙 실더
+제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!
 
 
-- 팬텀#v  ­s  	"v  ±ڄ 레기온 스나이퍼                          ²ڄ SkillGroup_MP_LegionSP_TU2      ³ڄ Model_MP_LegionSP_N´ڄ FullbodyIMG_MP_LegionSP_Nµڄ TbarIcon_MP_LegionSP_N¶ڄ ETCIcon_MP_LegionSP_N·ڄ AI_LegionSP_Normal_01   ¸ڄ ª적의 빈틈을 노리는 용의주도한 개체입니다. 대물 저격총을 가지고 있으니 중장갑 전투원을 운용할 때는 주의해주세요.
-
-
-- 팬텀&v  ­s  	%v  ¹ڄ 
-칙 엠페러                         ºڄ SkillGroup_MP_EmperorChick_N      »ڄ Model_MP_EmperorChick_N¼ڄ FullbodyIMG_MP_EmperorChick_N½ڄ TbarIcon_MP_EmperorChick_N¾ڄ ETCIcon_MP_EmperorChick_N¿ڄ AI_EmperorChick_Normal_01   Àڄ <교전 기록 없음>)v  ­s  	(v  Áڄ 
-칙 엠페러                          SkillGroup_MP_EmperorChick_TU2      Ú Model_MP_EmperorChick_NĚ FullbodyIMG_MP_EmperorChick_NŚ TbarIcon_MP_EmperorChick_Nƚ ETCIcon_MP_EmperorChick_Nǚ AI_EmperorChick_Normal_01   Ț <교전 기록 없음>,v  ­s  	+v  ɚ 철충 사념체 (보병)                           ʚ SkillGroup_MP_ProgramMobTS_N      ˚ Model_MP_ProgramMobTS_N̚ FullbodyIMG_MP_ProgramMobTS_N͚ TbarIcon_MP_ProgramMobTS_NΚ ETCIcon_MP_ProgramMobTS_NϚ AI_ProgramMobTS_Normal_01   К <교전 기록 없음>/v  ­s  	.v  њ 철충 사념체 (보병)                           Қ SkillGroup_MP_ProgramMobTS_TU2      Ӛ Model_MP_ProgramMobTS_NԚ FullbodyIMG_MP_ProgramMobTS_N՚ TbarIcon_MP_ProgramMobTS_N֚ ETCIcon_MP_ProgramMobTS_Nך AI_ProgramMobTS_Normal_01   ؚ <교전 기록 없음>2v  ­s  	1v  ٚ 철충 사념체 (장갑병)                            ښ SkillGroup_MP_ProgramMobTT_N      ۚ Model_MP_ProgramMobTT_Nܚ FullbodyIMG_MP_ProgramMobTT_Nݚ TbarIcon_MP_ProgramMobTT_Nޚ ETCIcon_MP_ProgramMobTT_Nߚ AI_ProgramMobTT_Normal_01   ڄ <교전 기록 없음>5v  ­s  	4v  ᚄ 철충 사념체 (장갑병)                            ⚄ SkillGroup_MP_ProgramMobTT_TU2      㚄 Model_MP_ProgramMobTT_N䚄 FullbodyIMG_MP_ProgramMobTT_N嚄 TbarIcon_MP_ProgramMobTT_N暄 ETCIcon_MP_ProgramMobTT_N的 AI_ProgramMobTT_Normal_01   蚄 <교전 기록 없음>8v  ­s  	7v  隄 철충 사념체 (정찰기)                          Ꚅ SkillGroup_MP_ProgramMobMS_N      뚄 Model_MP_ProgramMobMS_N욄 FullbodyIMG_MP_ProgramMobMS_N횄 TbarIcon_MP_ProgramMobMS_N ETCIcon_MP_ProgramMobMS_N AI_ProgramMobMS_Normal_01   𚄠<교전 기록 없음>;v  ­s  	:v  񚄠철충 사념체 (정찰기)                          򚄠SkillGroup_MP_ProgramMobMS_TU2      󚄠Model_MP_ProgramMobMS_N𚄠FullbodyIMG_MP_ProgramMobMS_Nõڄ TbarIcon_MP_ProgramMobMS_Nöڄ ETCIcon_MP_ProgramMobMS_N÷ڄ AI_ProgramMobMS_Normal_01   øڄ <교전 기록 없음>>v  ­s  	=v  ùڄ 철충 사념체 (호위기)                           úڄ SkillGroup_MP_ProgramMobMT_N      ûڄ Model_MP_ProgramMobMT_Nüڄ FullbodyIMG_MP_ProgramMobMT_Nýڄ TbarIcon_MP_ProgramMobMT_Nþڄ ETCIcon_MP_ProgramMobMT_Nÿڄ AI_ProgramMobMT_Normal_01    ۄ <교전 기록 없음>Av  ­s  	@v  ۄ 철충 사념체 (호위기)                           ۄ SkillGroup_MP_ProgramMobMT_TU2      ۄ Model_MP_ProgramMobMT_Nۄ FullbodyIMG_MP_ProgramMobMT_Nۄ TbarIcon_MP_ProgramMobMT_Nۄ ETCIcon_MP_ProgramMobMT_Nۄ AI_ProgramMobMT_Normal_01   ۄ <교전 기록 없음>Dv  ­s  	Cv  	ۄ 철충 사념체 (저격병)                           
-ۄ SkillGroup_MP_ProgramMobTN_N      ۄ Model_MP_ProgramMobTN_Nۄ FullbodyIMG_MP_ProgramMobTN_N
-ۄ TbarIcon_MP_ProgramMobTN_Nۄ ETCIcon_MP_ProgramMobTN_Nۄ AI_ProgramMobTN_Normal_01   ۄ <교전 기록 없음>Gv  ­s  	Fv  ۄ 철충 사념체 (저격병)                           ۄ SkillGroup_MP_ProgramMobTN_TU2      ۄ Model_MP_ProgramMobTN_Nۄ FullbodyIMG_MP_ProgramMobTN_Nۄ TbarIcon_MP_ProgramMobTN_Nۄ ETCIcon_MP_ProgramMobTN_Nۄ AI_ProgramMobTN_Normal_01   ۄ <교전 기록 없음>Jv  ­s  	Iv  ۄ 철충 사념체 (돌격병)                    ۄ SkillGroup_MP_ProgramMobAS_N      ۄ Model_MP_ProgramMobAS_Nۄ FullbodyIMG_MP_ProgramMobAS_Nۄ TbarIcon_MP_ProgramMobAS_Nۄ ETCIcon_MP_ProgramMobAS_Nۄ AI_ProgramMobAS_Normal_01    ۄ <교전 기록 없음>Mv  ­s  	Lv  !ۄ 철충 사념체 (돌격병)                    "ۄ SkillGroup_MP_ProgramMobAS_TU2      #ۄ Model_MP_ProgramMobAS_N$ۄ FullbodyIMG_MP_ProgramMobAS_N%ۄ TbarIcon_MP_ProgramMobAS_N&ۄ ETCIcon_MP_ProgramMobAS_N'ۄ AI_ProgramMobAS_Normal_01   (ۄ <교전 기록 없음>Pv  ­s  	Ov  )ۄ 철충 사념체 (폭격기)                          *ۄ SkillGroup_MP_ProgramMobMN_N      +ۄ Model_MP_ProgramMobMN_N,ۄ FullbodyIMG_MP_ProgramMobMN_N-ۄ TbarIcon_MP_ProgramMobMN_N.ۄ ETCIcon_MP_ProgramMobMN_N/ۄ AI_ProgramMobMN_Normal_01   0ۄ <교전 기록 없음>Sv  ­s  	Rv  1ۄ 철충 사념체 (폭격기)                          2ۄ SkillGroup_MP_ProgramMobMN_TU2      3ۄ Model_MP_ProgramMobMN_N4ۄ FullbodyIMG_MP_ProgramMobMN_N5ۄ TbarIcon_MP_ProgramMobMN_N6ۄ ETCIcon_MP_ProgramMobMN_N7ۄ AI_ProgramMobMN_Normal_01   8ۄ <교전 기록 없음>Vv  ­s  	Uv  9ۄ 철충 사념체 (포병)                          :ۄ SkillGroup_MP_ProgramMobAN_N      ;ۄ Model_MP_ProgramMobAN_N<ۄ FullbodyIMG_MP_ProgramMobAN_N=ۄ TbarIcon_MP_ProgramMobAN_N>ۄ ETCIcon_MP_ProgramMobAN_N?ۄ AI_ProgramMobAN_Normal_01   @ۄ <교전 기록 없음>Yv  ­s  	Xv  Aۄ 철충 사념체 (포병)                          Bۄ SkillGroup_MP_ProgramMobAN_TU2      Cۄ Model_MP_ProgramMobAN_NDۄ FullbodyIMG_MP_ProgramMobAN_NEۄ TbarIcon_MP_ProgramMobAN_NFۄ ETCIcon_MP_ProgramMobAN_NGۄ AI_ProgramMobAN_Normal_01   Hۄ <교전 기록 없음>\v  ­s  	[v  Iۄ 철충 사념체 (중장갑병)                           Jۄ SkillGroup_MP_ProgramMobAT_N      Kۄ Model_MP_ProgramMobAT_NLۄ FullbodyIMG_MP_ProgramMobAT_NMۄ TbarIcon_MP_ProgramMobAT_NNۄ ETCIcon_MP_ProgramMobAT_NOۄ AI_ProgramMobAT_Normal_01   Pۄ <교전 기록 없음>_v  ­s  	^v  Qۄ 철충 사념체 (중장갑병)                           Rۄ SkillGroup_MP_ProgramMobAT_TU2      Sۄ Model_MP_ProgramMobAT_NTۄ FullbodyIMG_MP_ProgramMobAT_NUۄ TbarIcon_MP_ProgramMobAT_NVۄ ETCIcon_MP_ProgramMobAT_NWۄ AI_ProgramMobAT_Normal_01   Xۄ <교전 기록 없음>bv  ­s  	av  Yۄ 실험체 고블린                          Zۄ SkillGroup_MP_ExpGoblinT_N      [ۄ Model_MP_ExpGoblinT_N\ۄ FullbodyIMG_MP_ExpGoblinT_N]ۄ TbarIcon_MP_ExpGoblinT_N^ۄ ETCIcon_MP_ExpGoblinT_N_ۄ AI_ExpGoblinT_Normal_01   `ۄ g고블린이었던 것으로 보인다. 더 이상 생물체라고 할 수 있을지는 모르겠다…ev  ­s  	dv  aۄ 실험체 고블린                          bۄ SkillGroup_MP_ExpGoblinT_TU2      cۄ Model_MP_ExpGoblinT_Ndۄ FullbodyIMG_MP_ExpGoblinT_Neۄ TbarIcon_MP_ExpGoblinT_Nfۄ ETCIcon_MP_ExpGoblinT_Ngۄ AI_ExpGoblinT_Normal_01   hۄ g고블린이었던 것으로 보인다. 더 이상 생물체라고 할 수 있을지는 모르겠다…hv  ­s  	gv  iۄ 실험체 고블린 파쇄병                    jۄ SkillGroup_MP_ExpGoblinA_N      kۄ Model_MP_ExpGoblinA_Nlۄ FullbodyIMG_MP_ExpGoblinA_Nmۄ TbarIcon_MP_ExpGoblinA_Nnۄ ETCIcon_MP_ExpGoblinA_Noۄ AI_ExpGoblinA_Normal_01   pۄ g고블린이었던 것으로 보인다. 더 이상 생물체라고 할 수 있을지는 모르겠다…kv  ­s  	jv  qۄ 실험체 고블린 파쇄병                    rۄ SkillGroup_MP_ExpGoblinA_TU2      sۄ Model_MP_ExpGoblinA_Ntۄ FullbodyIMG_MP_ExpGoblinA_Nuۄ TbarIcon_MP_ExpGoblinA_Nvۄ ETCIcon_MP_ExpGoblinA_Nwۄ AI_ExpGoblinA_Normal_01   xۄ g고블린이었던 것으로 보인다. 더 이상 생물체라고 할 수 있을지는 모르겠다…nv  ­s  	mv  yۄ 수상한 기계장치                           zۄ SkillGroup_MP_ExpGenerator_N      {ۄ Model_MP_ExpGenerator_N|ۄ FullbodyIMG_MP_ExpGenerator_N}ۄ TbarIcon_MP_ExpGenerator_N~ۄ ETCIcon_MP_ExpGenerator_Nۄ AI_ExpGenerator_Normal_01   ۄ <교전 기록 없음>qv  ­s  	pv  ۄ 수상한 기계장치                           ۄ SkillGroup_MP_ExpGenerator_TU2      ۄ Model_MP_ExpGenerator_Nۄ FullbodyIMG_MP_ExpGenerator_Nۄ TbarIcon_MP_ExpGenerator_Nۄ ETCIcon_MP_ExpGenerator_Nۄ AI_ExpGenerator_Normal_01   ۄ <교전 기록 없음>tv  ­s  	sv  ۄ 수상한 실험체                           ۄ SkillGroup_MP_ExpGenerator2_N      ۄ Model_MP_ExpGenerator2_Nۄ FullbodyIMG_MP_ExpGenerator2_Nۄ TbarIcon_MP_ExpGenerator2_Nۄ ETCIcon_MP_ExpGenerator2_Nۄ AI_ExpGenerator_Normal_01   ۄ <교전 기록 없음>wv  ­s  	vv  ۄ 수상한 실험체                           ۄ SkillGroup_MP_ExpGenerator2_TU2      ۄ Model_MP_ExpGenerator2_Nۄ FullbodyIMG_MP_ExpGenerator2_Nۄ TbarIcon_MP_ExpGenerator2_Nۄ ETCIcon_MP_ExpGenerator2_Nۄ AI_ExpGenerator_Normal_01   ۄ <교전 기록 없음>zv  ­s  	yv  ۄ 
-나이트 칙ۄ SkillGroup_MP_NightChick_TU5ۄ Model_MP_NightChick_Nۄ FullbodyIMG_MP_NightChick_Nۄ TbarIcon_MP_NightChick_Nۄ ETCIcon_MP_NightChick_Nۄ AI_Jako_Special_01    ۄ 큭아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!
-
-
-- 보고자 그렘린입니당! }v  ­s  	|v  ¡ۄ 
-나이트 칙¢ۄ SkillGroup_MP_NightChick_TU6£ۄ Model_MP_NightChick_N¤ۄ FullbodyIMG_MP_NightChick_N¥ۄ TbarIcon_MP_NightChick_N¦ۄ ETCIcon_MP_NightChick_N§ۄ AI_Jako_Special_01   ¨ۄ 큭아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!
-
-
-- 보고자 그렘린입니당! v  ­s  	v  ©ۄ 나이트 칙 런처ªۄ SkillGroup_MP_NightChickM_TU5«ۄ Model_MP_NightChickM_N¬ۄ FullbodyIMG_MP_NightChickM_N­ۄ TbarIcon_MP_NightChickM_N®ۄ ETCIcon_MP_NightChickM_N¯ۄ AI_Jako_Normal_01   °ۄ 흔히 볼 수 있는 미사일로 무장한 철충. 무조건 앞으로 돌격하는 모습이 브라우니와 비슷합니다.
-
-
-- 보고자 레프리콘v  ­s  	v  ±ۄ 나이트 칙 런처²ۄ SkillGroup_MP_NightChickM_TU6³ۄ Model_MP_NightChickM_N´ۄ FullbodyIMG_MP_NightChickM_Nµۄ TbarIcon_MP_NightChickM_N¶ۄ ETCIcon_MP_NightChickM_N·ۄ AI_Jako_Normal_01   ¸ۄ 흔히 볼 수 있는 미사일로 무장한 철충. 무조건 앞으로 돌격하는 모습이 브라우니와 비슷합니다.
-
-
-- 보고자 레프리콘v  ­s  	v  ¹ۄ 하베스터                    ºۄ SkillGroup_MP_Harvester_TU6»ۄ Model_MP_Harvester_N¼ۄ FullbodyIMG_MP_Harvester_N½ۄ TbarIcon_MP_Harvester_N¾ۄ ETCIcon_MP_Harvester_N¿ۄ AI_Hvst_Normal_02   Àۄ ܁얘는 원래는 나처럼 일하던 애였던 것 같아. 멀리 있는 적을 갈고리로 당겨오니 주의하는 게 좋아. 나처럼 힘들게 사는 애니 편히 보내 주는 게 좋을 지도…
-
-
-- 더치걸v  ­s  	v  Áۄ 나이트 칙 디텍터                           SkillGroup_MP_NightChickDE_TU5      Û Model_MP_NightChickDE_Ně FullbodyIMG_MP_NightChickDE_Nś TbarIcon_MP_NightChickDE_Nƛ ETCIcon_MP_NightChickDE_NǛ AI_NCDetector_01   ț ¾그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!
-
-
-- 예쁜 누나 포츈이 보고해용~!v  ­s  	v  ɛ 나이트 칙 디텍터                          ʛ SkillGroup_MP_NightChickDE_TU6      ˛ Model_MP_NightChickDE_N̛ FullbodyIMG_MP_NightChickDE_N͛ TbarIcon_MP_NightChickDE_NΛ ETCIcon_MP_NightChickDE_Nϛ AI_NCDetector_01   Л ¾그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!
-
-
-- 예쁜 누나 포츈이 보고해용~!v  ­s  	v  ћ 나이트 칙 실더 개                           қ SkillGroup_MP_NightChickSI_TU5      ӛ Model_MP_NightChickSI_Nԛ FullbodyIMG_MP_NightChickSI_N՛ TbarIcon_MP_NightChickSI_N֛ ETCIcon_MP_NightChickSI_Nכ AI_NCShield_Normal_01   ؛ 聬¼반 칙 실더보다 큰 방패 때문에 뒤의 대상들을 공격하기 위해서는 더 용맹한 정신이 필요하다. 나이트 칙 실더와 헷갈리지 않도록 지휘 콘솔을 반드시 확인해야 함.
-
-
-- 마리 v  ­s  	v  ٛ 나이트 칙 실더 개                           ڛ SkillGroup_MP_NightChickSI_TU6      ۛ Model_MP_NightChickSI_Nܛ FullbodyIMG_MP_NightChickSI_Nݛ TbarIcon_MP_NightChickSI_Nޛ ETCIcon_MP_NightChickSI_Nߛ AI_NCShield_Normal_01   ۄ 聬¼반 칙 실더보다 큰 방패 때문에 뒤의 대상들을 공격하기 위해서는 더 용맹한 정신이 필요하다. 나이트 칙 실더와 헷갈리지 않도록 지휘 콘솔을 반드시 확인해야 함.
-
-
-- 마리 v  ­s  	v  ᛄ 익스큐셔너                         ⛄ SkillGroup_MP_Executioner_B06      㛄 Model_MP_Executioner_B06䛄 FullbodyIMG_MP_Executioner_B06囄 TbarIcon_MP_Executioner_B06曄 ETCIcon_MP_Executioner_B06盄 AI_Executioner_01   蛄 <교전 기록 없음>v  ­s  	v  雄  익스큐셔너 롱 블레이드                         ꛄ SkillGroup_MP_ExecutionerLB_B06      뛄 Model_MP_ExecutionerRB_B06웄  FullbodyIMG_MP_ExecutionerRB_B06후 TbarIcon_MP_ExecutionerRB_B06 ETCIcon_MP_ExecutionerRB_B06 AI_ExecutionerLB_01   𛄠<교전 기록 없음>v  ­s  	v  񛄠#익스큐셔너 실드 블레이드                          򛄠SkillGroup_MP_ExecutionerRB_B06      󛄠Model_MP_ExecutionerLB_B06𛄠 FullbodyIMG_MP_ExecutionerLB_B06õۄ TbarIcon_MP_ExecutionerLB_B06öۄ ETCIcon_MP_ExecutionerLB_B06÷ۄ AI_ExecutionerRB_01   øۄ <교전 기록 없음>v  ­s  	v  ùۄ 나이트 칙 실더                           úۄ SkillGroup_MP_NightChickS_TU4ûۄ Model_MP_NightChickS_Nüۄ FullbodyIMG_MP_NightChickS_Nýۄ TbarIcon_MP_NightChickS_Nþۄ ETCIcon_MP_NightChickS_Nÿۄ AI_Jako_Defense_02    ܄ ø이 자식들 짜증나 방패를 들고 앞을 자꾸 가로막거든? 다행히 머리가 나빠서 바로 뒤만 가로 막지만… 어쨌든 이 녀석들이 방어 자세를 취하기 전에 뒤를 정리해 두라고!
-
-
-- 보고자 그리폰¡v  ­s  	 v  ܄ 나이트 칙 실더                           ܄ SkillGroup_MP_NightChickS_TU5܄ Model_MP_NightChickS_N܄ FullbodyIMG_MP_NightChickS_N܄ TbarIcon_MP_NightChickS_N܄ ETCIcon_MP_NightChickS_N܄ AI_Jako_Defense_02   ܄ ø이 자식들 짜증나 방패를 들고 앞을 자꾸 가로막거든? 다행히 머리가 나빠서 바로 뒤만 가로 막지만… 어쨌든 이 녀석들이 방어 자세를 취하기 전에 뒤를 정리해 두라고!
-
-
-- 보고자 그리폰¤v  ­s  	£v  	܄ 나이트 칙 캐논                         
-܄ SkillGroup_MP_NightChickC_EV1      ܄ Model_MP_NightChickC_N܄ FullbodyIMG_MP_NightChickC_N
-܄ TbarIcon_MP_NightChickC_N܄ ETCIcon_MP_NightChickC_N܄ AI_Ncc_Event_01   ܄ <교전 기록 없음>§v  ­s  	¦v  ܄ 나이트 칙 캐논                         ܄ SkillGroup_MP_NightChickC_EV2      ܄ Model_MP_NightChickC_N܄ FullbodyIMG_MP_NightChickC_N܄ TbarIcon_MP_NightChickC_N܄ ETCIcon_MP_NightChickC_N܄ AI_Ncc_Event_01   ܄ <교전 기록 없음>ªv  ­s  	©v  ܄ 나이트 칙 캐논                         ܄ SkillGroup_MP_NightChickC_EV3      ܄ Model_MP_NightChickC_N܄ FullbodyIMG_MP_NightChickC_N܄ TbarIcon_MP_NightChickC_N܄ ETCIcon_MP_NightChickC_N܄ AI_Ncc_Event_01    ܄ <교전 기록 없음>­v  ­s  	¬v  !܄ 나이트 칙 캐논                         "܄ SkillGroup_MP_NightChickC_EV4      #܄ Model_MP_NightChickC_N$܄ FullbodyIMG_MP_NightChickC_N%܄ TbarIcon_MP_NightChickC_N&܄ ETCIcon_MP_NightChickC_N'܄ AI_Ncc_Event_01   (܄ <교전 기록 없음>°v  ­s  	¯v  )܄ 나이트 칙 캐논                         *܄ SkillGroup_MP_NightChickC_EV5      +܄ Model_MP_NightChickC_N,܄ FullbodyIMG_MP_NightChickC_N-܄ TbarIcon_MP_NightChickC_N.܄ ETCIcon_MP_NightChickC_N/܄ AI_Ncc_Event_02   0܄ <교전 기록 없음>³v  ­s  	²v  1܄ 나이트 칙 캐논                         2܄ SkillGroup_MP_NightChickC_EV6      3܄ Model_MP_NightChickC_N4܄ FullbodyIMG_MP_NightChickC_N5܄ TbarIcon_MP_NightChickC_N6܄ ETCIcon_MP_NightChickC_N7܄ AI_Ncc_Event_02   8܄ <교전 기록 없음>¶v  ­s  	µv  9܄ 나이트 칙 캐논                         :܄ SkillGroup_MP_NightChickC_EV7      ;܄ Model_MP_NightChickC_N<܄ FullbodyIMG_MP_NightChickC_N=܄ TbarIcon_MP_NightChickC_N>܄ ETCIcon_MP_NightChickC_N?܄ AI_Ncc_Event_02   @܄ <교전 기록 없음>¹v  ­s  	¸v  A܄ 나이트 칙 캐논                         B܄ SkillGroup_MP_NightChickC_EV8      C܄ Model_MP_NightChickC_ND܄ FullbodyIMG_MP_NightChickC_NE܄ TbarIcon_MP_NightChickC_NF܄ ETCIcon_MP_NightChickC_NG܄ AI_Ncc_Event_02   H܄ <교전 기록 없음>¼v  ­s  	»v  I܄ 칙 쿼터마스터                          J܄ SkillGroup_MP_NightChickQM_EV1      K܄ Model_MP_NightChickQM_NL܄ FullbodyIMG_MP_NightChickQM_NM܄ TbarIcon_MP_NightChickQM_NN܄ ETCIcon_MP_NightChickQM_NO܄ AI_NightChickQM_Normal_01   P܄ <교전 기록 없음>¿v  ­s  	¾v  Q܄ 칙 쿼터마스터                          R܄ SkillGroup_MP_NightChickQM_EV2      S܄ Model_MP_NightChickQM_NT܄ FullbodyIMG_MP_NightChickQM_NU܄ TbarIcon_MP_NightChickQM_NV܄ ETCIcon_MP_NightChickQM_NW܄ AI_NightChickQM_Normal_01   X܄ <교전 기록 없음>¶  ­s  	Áv  Y܄ 프레데터                          Z܄ SkillGroup_MP_Predator_EV1      [܄ Model_MP_Predator_B0208\܄ FullbodyIMG_MP_Predator_B0208]܄ TbarIcon_MP_Predator_B0208^܄ ETCIcon_MP_Predator_B0208_܄ AI_Boss_PWLR_02   `܄ <교전 기록 없음>Ŷ  ­s  	Ķ  a܄ 프레데터                          b܄ SkillGroup_MP_Predator_EV2      c܄ Model_MP_Predator_B0208d܄ FullbodyIMG_MP_Predator_B0208e܄ TbarIcon_MP_Predator_B0208f܄ ETCIcon_MP_Predator_B0208g܄ AI_Boss_PWLR_02   h܄ <교전 기록 없음>ȶ  ­s  	Ƕ  i܄ 칙 스나이퍼j܄ SkillGroup_MP_NightChickSP_EV1      k܄ Model_MP_NightChickSP_Nl܄ FullbodyIMG_MP_NightChickSP_Nm܄ TbarIcon_MP_NightChickSP_Nn܄ ETCIcon_MP_NightChickSP_No܄ AI_Jako_Sniper_01   p܄ <교전 기록 없음>˶  ­s  	ʶ  q܄ 스캐럽 HC                          r܄ SkillGroup_MP_ScarabEX_EV1      s܄ Model_MP_Scarab_Nt܄ FullbodyIMG_MP_Scarab_Nu܄ TbarIcon_MP_Scarab_Nv܄ ETCIcon_MP_Scarab_Nw܄ AI_Scarab_01   x܄ <교전 기록 없음>ζ  ­s  	Ͷ  y܄ 스캐럽 HC                          z܄ SkillGroup_MP_ScarabEX_EV2      {܄ Model_MP_Scarab_N|܄ FullbodyIMG_MP_Scarab_N}܄ TbarIcon_MP_Scarab_N~܄ ETCIcon_MP_Scarab_N܄ AI_Scarab_01   ܄ <교전 기록 없음>Ѷ  ­s  	ж  ܄ 	와습 HM                         ܄ SkillGroup_MP_WaspEX_EV1      ܄ Model_MP_Wasp_N܄ FullbodyIMG_MP_Wasp_N܄ TbarIcon_MP_Wasp_N܄ ETCIcon_MP_Wasp_N܄ AI_Wasp_Event_01   ܄ <교전 기록 없음>Զ  ­s  	Ӷ  ܄ 강습형 스카우트                         ܄ SkillGroup_MP_ScoutEX_EV1      ܄ Model_MP_Scout_N܄ FullbodyIMG_MP_Scout_N܄ TbarIcon_MP_Scout_N܄ ETCIcon_MP_Scout_N܄ AI_Scout_Event_01   ܄ <교전 기록 없음>׶  ­s  	ֶ  ܄ 스카우트                         ܄ SkillGroup_MP_Scout_EV1܄ Model_MP_Scout_N܄ FullbodyIMG_MP_Scout_N܄ TbarIcon_MP_Scout_N܄ ETCIcon_MP_Scout_N܄ AI_Scout_Event_01   ܄ <교전 기록 없음>ڶ  ­s  	ٶ  ܄ 헤비 스카우트                         ܄ SkillGroup_MP_HeavyScout_EV1      ܄ Model_MP_Scout_V2܄ FullbodyIMG_MP_Scout_V2܄ TbarIcon_MP_Scout_V2܄ ETCIcon_MP_Scout_V2܄ AI_MP_HeavyScout_Event_01    ܄ <교전 기록 없음>ݶ  ­s  	ܶ  ¡܄ 헤비 스카우트                         ¢܄ SkillGroup_MP_HeavyScout_EV2      £܄ Model_MP_Scout_V2¤܄ FullbodyIMG_MP_Scout_V2¥܄ TbarIcon_MP_Scout_V2¦܄ ETCIcon_MP_Scout_V2§܄ AI_MP_HeavyScout_Event_01   ¨܄ <교전 기록 없음>ච ­s  	߶  ©܄ 헤비 스카우트                         ª܄ SkillGroup_MP_HeavyScout_EV3      «܄ Model_MP_Scout_V2¬܄ FullbodyIMG_MP_Scout_V2­܄ TbarIcon_MP_Scout_V2®܄ ETCIcon_MP_Scout_V2¯܄ AI_MP_HeavyScout_Event_01   °܄ <교전 기록 없음>㶠 ­s  	ⶠ ±܄ 빅 칙 런쳐                         ²܄ SkillGroup_MP_BigChickM_EV1      ³܄ Model_MP_BigChickM_N´܄ FullbodyIMG_MP_BigChickM_Nµ܄ TbarIcon_MP_BigChickM_N¶܄ ETCIcon_MP_BigChickM_N·܄ AI_BigChickM_Event_01   ¸܄ <교전 기록 없음>涠 ­s  	嶠 ¹܄ 강화형 나이트 칙º܄ SkillGroup_MP_NightChickEX_EV1      »܄ Model_MP_NightChick_N¼܄ FullbodyIMG_MP_NightChick_N½܄ TbarIcon_MP_NightChick_N¾܄ ETCIcon_MP_NightChick_N¿܄ AI_Jako_Event_01   À܄ <교전 기록 없음>鶠 ­s  	趠 Á܄ 개량형 칙 캐논                          SkillGroup_MP_NightChickCEX_EV1      Ü Model_MP_NightChickC_NĜ FullbodyIMG_MP_NightChickC_NŜ TbarIcon_MP_NightChickC_NƜ ETCIcon_MP_NightChickC_Nǜ AI_Jako_Event_01   Ȝ <교전 기록 없음>춠 ­s  	붠 ɜ 레기온 스나이퍼                          ʜ SkillGroup_MP_LegionSP_EV1      ˜ Model_MP_LegionSP_N̜ FullbodyIMG_MP_LegionSP_N͜ TbarIcon_MP_LegionSP_NΜ ETCIcon_MP_LegionSP_NϜ AI_Jako_Event_01   М <교전 기록 없음>ﶠ ­s  	 ќ 나이트 칙 디텍터                          Ҝ SkillGroup_MP_NightChickDE_EV1      Ӝ Model_MP_NightChickDE_NԜ FullbodyIMG_MP_NightChickDE_N՜ TbarIcon_MP_NightChickDE_N֜ ETCIcon_MP_NightChickDE_Nל AI_NCDetector_01   ؜ <교전 기록 없음>򶠠­s  	񶠠ٜ 	스토커                          ڜ SkillGroup_MP_Stalker_EV1      ۜ Model_MP_Stalker_B0108ܜ FullbodyIMG_MP_Stalker_B0108ݜ TbarIcon_MP_Stalker_B0108ޜ ETCIcon_MP_Stalker_B0108ߜ AI_Boss_Stalker_01   ܄ <교전 기록 없음>õv  ­s  	𶠠ᜄ 강화형 빅 칙                           ✄ SkillGroup_MP_BigChickSP_EV1      㜄 Model_MP_BigChick_N䜄 FullbodyIMG_MP_BigChick_N圄 TbarIcon_MP_BigChick_N朄 ETCIcon_MP_BigChick_N眄 AI_Ncc_Normal_01   蜄 <교전 기록 없음>øv  ­s  	÷v  霄 트릭스터                          ꜄ SkillGroup_MP_Kidnapper_EV1      뜄 Model_MP_Kidnapper_B0308위 FullbodyIMG_MP_Kidnapper_B0308휄 TbarIcon_MP_Kidnapper_B0308 ETCIcon_MP_Kidnapper_B0308 AI_TrickSter_01   𜄠<교전 기록 없음>ûv  ­s  	úv  񜄠
-칙 엠페러                         򜄠SkillGroup_MP_EmperorChick_EV1      󜄠Model_MP_EmperorChick_N𜄠FullbodyIMG_MP_EmperorChick_Nõ܄ TbarIcon_MP_EmperorChick_Nö܄ ETCIcon_MP_EmperorChick_N÷܄ AI_EmperorChick_Normal_01   ø܄ <교전 기록 없음>þv  ­s  	ýv  ù܄ 	스펙터                         ú܄ SkillGroup_MP_Spector_EV1      û܄ Model_MP_Spector_Nü܄ FullbodyIMG_MP_Spector_Ný܄ TbarIcon_MP_Spector_Nþ܄ ETCIcon_MP_Spector_Nÿ܄ AI_Spector_Normal_01    ݄ <교전 기록 없음>w  ­s  	 w  ݄ 강화형 재퍼                           ݄ SkillGroup_MP_ZapperEX_EV1      ݄ Model_MP_Zapper_N݄ FullbodyIMG_MP_Zapper_N݄ TbarIcon_MP_Zapper_N݄ ETCIcon_MP_Zapper_N݄ AI_Zapper_EX_01   ݄ <교전 기록 없음>w  ­s  	w  	݄ 나이트 칙 실더 개                           
-݄ SkillGroup_MP_NightChickSI_SS1      ݄ Model_MP_NightChickSI_N݄ FullbodyIMG_MP_NightChickSI_N
-݄ TbarIcon_MP_NightChickSI_N݄ ETCIcon_MP_NightChickSI_N݄ AI_NCShield_Normal_01   ݄ 聬¼반 칙 실더보다 큰 방패 때문에 뒤의 대상들을 공격하기 위해서는 더 용맹한 정신이 필요하다. 나이트 칙 실더와 헷갈리지 않도록 지휘 콘솔을 반드시 확인해야 함.
-
-
-- 마리 w  ­s  	w  ݄ 풀아머 빅 칙                         ݄ SkillGroup_MP_FABigChick_SS1      ݄ Model_MP_FABigChick_N݄ FullbodyIMG_MP_FABigChick_N݄ TbarIcon_MP_FABigChick_N݄ ETCIcon_MP_FABigChick_N݄ AI_FABigChick_01   ݄ »빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?
-
-
- - 불가사리 보고함
-w  ­s  		w  ݄ 	팔랑스                           ݄ SkillGroup_MP_Phalangites_SS1      ݄ Model_MP_Phalangites_N݄ FullbodyIMG_MP_Phalangites_N݄ TbarIcon_MP_Phalangites_N݄ ETCIcon_MP_Phalangites_N݄ AI_MP_Palanx_01    ݄ þ각이 잡힌 대열로 행군하는 철충입니다. 철충 놈들 중엔 드물게 군기가 들어있지 말입니다. 딱 밀착해서 서로서로를 보호하는 녀석들이니 진형을 아작내는 게 중요하지 말임다.
-
-
-- 블러디팬서
-w  ­s  	w  !݄ 빅 칙                         "݄ SkillGroup_MP_BigChick_SS1      #݄ Model_MP_BigChick_N$݄ FullbodyIMG_MP_BigChick_N%݄ TbarIcon_MP_BigChick_N&݄ ETCIcon_MP_BigChick_N'݄ AI_BigChickM_01   (݄ 恬청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!
-
-
-- 보고자 브라우니지 말임다.w  ­s  	w  )݄ 
-FA 빅 칙 II                         *݄ SkillGroup_MP_FABigChickEX_TU5      +݄ Model_MP_FABigChick_N,݄ FullbodyIMG_MP_FABigChick_N-݄ TbarIcon_MP_FABigChick_N.݄ ETCIcon_MP_FABigChick_N/݄ AI_FABigChick_01   0݄ »빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?
-
-
- - 불가사리 보고함w  ­s  	w  1݄ 강습형 스카우트                         2݄ SkillGroup_MP_ScoutEX_TU5      3݄ Model_MP_Scout_N4݄ FullbodyIMG_MP_Scout_N5݄ TbarIcon_MP_Scout_N6݄ ETCIcon_MP_Scout_N7݄ AI_Scout_Normal_01   8݄ <교전 기록 없음>w  ­s  	w  9݄ 강화형 빅 칙                           :݄ SkillGroup_MP_BigChickSP_TU2      ;݄ Model_MP_BigChick_N<݄ FullbodyIMG_MP_BigChick_N=݄ TbarIcon_MP_BigChick_N>݄ ETCIcon_MP_BigChick_N?݄ AI_Ncc_Normal_01   @݄ <교전 기록 없음>w  ­s  	w  A݄ 강화형 빅 칙                           B݄ SkillGroup_MP_BigChickSP_TU3      C݄ Model_MP_BigChick_ND݄ FullbodyIMG_MP_BigChick_NE݄ TbarIcon_MP_BigChick_NF݄ ETCIcon_MP_BigChick_NG݄ AI_Ncc_Normal_01   H݄ <교전 기록 없음>w  ­s  	w  I݄ 강화형 재퍼                           J݄ SkillGroup_MP_ZapperEX_TU5      K݄ Model_MP_Zapper_NL݄ FullbodyIMG_MP_Zapper_NM݄ TbarIcon_MP_Zapper_NN݄ ETCIcon_MP_Zapper_NO݄ AI_Zapper_EX_01   P݄ <교전 기록 없음>w  ­s  	w  Q݄ 강화형 재퍼                           R݄ SkillGroup_MP_ZapperEX_TU6      S݄ Model_MP_Zapper_NT݄ FullbodyIMG_MP_Zapper_NU݄ TbarIcon_MP_Zapper_NV݄ ETCIcon_MP_Zapper_NW݄ AI_Zapper_EX_01   X݄ <교전 기록 없음>"w  ­s  	!w  Y݄ 강화형 칙 런쳐Z݄ SkillGroup_MP_NightChickMEX_TU5      [݄ Model_MP_NightChickM_N\݄ FullbodyIMG_MP_NightChickM_N]݄ TbarIcon_MP_NightChickM_N^݄ ETCIcon_MP_NightChickM_N_݄ AI_Jako_Normal_01   `݄ <교전 기록 없음>%w  ­s  	$w  a݄  개량형 레기온 스나이퍼                          b݄ SkillGroup_MP_LegionSPEX_N      c݄ Model_MP_LegionSP_Nd݄ FullbodyIMG_MP_LegionSP_Ne݄ TbarIcon_MP_LegionSP_Nf݄ ETCIcon_MP_LegionSP_Ng݄ AI_LegionSP_Special_01   h݄ <교전 기록 없음>(w  ­s  	'w  i݄  개량형 레기온 스나이퍼                          j݄ SkillGroup_MP_LegionSPEX_TU2      k݄ Model_MP_LegionSP_Nl݄ FullbodyIMG_MP_LegionSP_Nm݄ TbarIcon_MP_LegionSP_Nn݄ ETCIcon_MP_LegionSP_No݄ AI_LegionSP_Special_01   p݄ <교전 기록 없음>+w  ­s  	*w  q݄ 개량형 칙 캐논                         r݄ SkillGroup_MP_NightChickCEX_TU5      s݄ Model_MP_NightChickC_Nt݄ FullbodyIMG_MP_NightChickC_Nu݄ TbarIcon_MP_NightChickC_Nv݄ ETCIcon_MP_NightChickC_Nw݄ AI_Ncc_Normal_01   x݄ <교전 기록 없음>.w  ­s  	-w  y݄ 개량형 칙 쿼터마스터                          z݄ SkillGroup_MP_NightChickQMEX_N      {݄ Model_MP_NightChickQM_N|݄ FullbodyIMG_MP_NightChickQM_N}݄ TbarIcon_MP_NightChickQM_N~݄ ETCIcon_MP_NightChickQM_N݄ AI_NightChickQM_Special_01   ݄ <교전 기록 없음>1w  ­s  	0w  ݄ 개량형 칙 쿼터마스터                          ݄  SkillGroup_MP_NightChickQMEX_TU2      ݄ Model_MP_NightChickQM_N݄ FullbodyIMG_MP_NightChickQM_N݄ TbarIcon_MP_NightChickQM_N݄ ETCIcon_MP_NightChickQM_N݄ AI_NightChickQM_Special_02   ݄ <교전 기록 없음>4w  ­s  	3w  ݄ 나이트 칙 디텍터                          ݄ SkillGroup_MP_NightChickDE_TU7      ݄ Model_MP_NightChickDE_N݄ FullbodyIMG_MP_NightChickDE_N݄ TbarIcon_MP_NightChickDE_N݄ ETCIcon_MP_NightChickDE_N݄ AI_NCDetector_01   ݄ ¾그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!
-
-
-- 예쁜 누나 포츈이 보고해용~!7w  ­s  	6w  ݄ 나이트 칙 디텍터                          ݄ SkillGroup_MP_NightChickDE_TU8      ݄ Model_MP_NightChickDE_N݄ FullbodyIMG_MP_NightChickDE_N݄ TbarIcon_MP_NightChickDE_N݄ ETCIcon_MP_NightChickDE_N݄ AI_NCDetector_01   ݄ ¾그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!
-
-
-- 예쁜 누나 포츈이 보고해용~!:w  ­s  	9w  ݄ 나이트 칙 실더 개                           ݄ SkillGroup_MP_NightChickSI_TU7      ݄ Model_MP_NightChickSI_N݄ FullbodyIMG_MP_NightChickSI_N݄ TbarIcon_MP_NightChickSI_N݄ ETCIcon_MP_NightChickSI_N݄ AI_NCShield_Normal_01    ݄ 聬¼반 칙 실더보다 큰 방패 때문에 뒤의 대상들을 공격하기 위해서는 더 용맹한 정신이 필요하다. 나이트 칙 실더와 헷갈리지 않도록 지휘 콘솔을 반드시 확인해야 함.
-
-
-- 마리 =w  ­s  	<w  ¡݄ 	매머드                         ¢݄ SkillGroup_MP_Mammoth_TU5      £݄ Model_MP_Mammoth_N¤݄ FullbodyIMG_MP_Mammoth_N¥݄ TbarIcon_MP_Mammoth_N¦݄ ETCIcon_MP_Mammoth_N§݄ AI_Mp_Mammoth_01   ¨݄ 큭 방이 엄청나게 무서운데다 장갑도 두꺼워서 장갑 사이에 치명타를 먹이거나 아니면 관통할 수 있는 무기가 좋아 보이네. 뭐, 못 피하면 죽으니까 조심하라고.
-
-
-- 보고자 샌드걸@w  ­s  	?w  ©݄ 	매머드                         ª݄ SkillGroup_MP_Mammoth_TU6      «݄ Model_MP_Mammoth_N¬݄ FullbodyIMG_MP_Mammoth_N­݄ TbarIcon_MP_Mammoth_N®݄ ETCIcon_MP_Mammoth_N¯݄ AI_Mp_Mammoth_01   °݄ 큭 방이 엄청나게 무서운데다 장갑도 두꺼워서 장갑 사이에 치명타를 먹이거나 아니면 관통할 수 있는 무기가 좋아 보이네. 뭐, 못 피하면 죽으니까 조심하라고.
-
-
-- 보고자 샌드걸Cw  ­s  	Bw  ±݄ 빅 칙 런쳐                         ²݄ SkillGroup_MP_BigChickM_TU5      ³݄ Model_MP_BigChickM_N´݄ FullbodyIMG_MP_BigChickM_Nµ݄ TbarIcon_MP_BigChickM_N¶݄ ETCIcon_MP_BigChickM_N·݄ AI_BigChickM_01   ¸݄ 엄청나게 피하기 힘든 미사일을 마구 쏴댐. 멀리서 처리하는 게 제일 좋을 것 같아.
-
-
-- 핀토가 정찰 중 보고Fw  ­s  	Ew  ¹݄ 센츄리온                          º݄ SkillGroup_MP_Centurion_TU7      »݄ Model_MP_Centurion_N¼݄ FullbodyIMG_MP_Centurion_N½݄ TbarIcon_MP_Centurion_N¾݄ ETCIcon_MP_Centurion_N¿݄ AI_Centurion_Normal_02   À݄ 작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.
-
-
-- 37식 다이카Iw  ­s  	Hw  Á݄ 센츄리온 치프틴                           SkillGroup_MP_CenturionCF_TU3      Ý Model_MP_CenturionCF_Nĝ FullbodyIMG_MP_CenturionCF_Nŝ TbarIcon_MP_CenturionCF_NƝ ETCIcon_MP_CenturionCF_Nǝ AI_CenturionCF_Normal_01   ȝ ꁬ¼츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.
-
-
-- 램파트Lw  ­s  	Kw  ɝ 센츄리온 치프틴                          ʝ SkillGroup_MP_CenturionCF_TU4      ˝ Model_MP_CenturionCF_N̝ FullbodyIMG_MP_CenturionCF_N͝ TbarIcon_MP_CenturionCF_NΝ ETCIcon_MP_CenturionCF_Nϝ AI_CenturionCF_Normal_01   Н ꁬ¼츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.
-
-
-- 램파트Ow  ­s  	Nw  ѝ 센츄리온 치프틴                          ҝ SkillGroup_MP_CenturionCF_TU5      ӝ Model_MP_CenturionCF_Nԝ FullbodyIMG_MP_CenturionCF_N՝ TbarIcon_MP_CenturionCF_N֝ ETCIcon_MP_CenturionCF_Nם AI_CenturionCF_Normal_01   ؝ ꁬ¼츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.
-
-
-- 램파트Rw  ­s  	Qw  ٝ 스캐럽 HC                          ڝ SkillGroup_MP_ScarabEX_TU5      ۝ Model_MP_Scarab_Nܝ FullbodyIMG_MP_Scarab_Nݝ TbarIcon_MP_Scarab_Nޝ ETCIcon_MP_Scarab_Nߝ AI_Scarab_01   ݄ <교전 기록 없음>Uw  ­s  	Tw  ᝄ 스캐럽 HC                          ❄ SkillGroup_MP_ScarabEX_TU6      㝄 Model_MP_Scarab_N䝄 FullbodyIMG_MP_Scarab_N坄 TbarIcon_MP_Scarab_N杄 ETCIcon_MP_Scarab_N睄 AI_Scarab_01   蝄 <교전 기록 없음>Xw  ­s  	Ww  靄 스펙터 BS                         Ꝅ SkillGroup_MP_SpectorBS_N      띄 Model_MP_Spector_N을 FullbodyIMG_MP_Spector_N흄 TbarIcon_MP_Spector_N ETCIcon_MP_Spector_N AI_Spector_Special_01   𝄠<교전 기록 없음>[w  ­s  	Zw  񝄠스펙터 MS                         򝄠SkillGroup_MP_SpectorMS_N      󝄠Model_MP_Spector_N𝄠FullbodyIMG_MP_Spector_Nõ݄ TbarIcon_MP_Spector_Nö݄ ETCIcon_MP_Spector_N÷݄ AI_Spector_Special_02   ø݄ <교전 기록 없음>^w  ­s  	]w  ù݄ 시작형 빅 칙                         ú݄ SkillGroup_MP_BigChickEX_TU5      û݄ Model_MP_BigChick_Nü݄ FullbodyIMG_MP_BigChick_Ný݄ TbarIcon_MP_BigChick_Nþ݄ ETCIcon_MP_BigChick_Nÿ݄ AI_Jako_Normal_01    ބ <교전 기록 없음>aw  ­s  	`w  ބ 시작형 빅 칙                         ބ SkillGroup_MP_BigChickEX_TU6      ބ Model_MP_BigChick_Nބ FullbodyIMG_MP_BigChick_Nބ TbarIcon_MP_BigChick_Nބ ETCIcon_MP_BigChick_Nބ AI_Jako_Normal_01   ބ <교전 기록 없음>dw  ­s  	cw  	ބ 아머드 하베스터                    
-ބ SkillGroup_MP_HarvesterEX_TU5      ބ Model_MP_Harvester_Nބ FullbodyIMG_MP_Harvester_N
-ބ TbarIcon_MP_Harvester_Nބ ETCIcon_MP_Harvester_Nބ AI_Hvst_Normal_02   ބ <교전 기록 없음>gw  ­s  	fw  ބ 엘리트 센츄리온                          ބ SkillGroup_MP_CenturionEX_TU5      ބ Model_MP_Centurion_Nބ FullbodyIMG_MP_Centurion_Nބ TbarIcon_MP_Centurion_Nބ ETCIcon_MP_Centurion_Nބ AI_Centurion_Special_01   ބ <교전 기록 없음>jw  ­s  	iw  ބ 	와습 HM                         ބ SkillGroup_MP_WaspEX_TU5      ބ Model_MP_Wasp_Nބ FullbodyIMG_MP_Wasp_Nބ TbarIcon_MP_Wasp_Nބ ETCIcon_MP_Wasp_Nބ AI_Wasp_Normal_01    ބ <교전 기록 없음>mw  ­s  	lw  !ބ 저거너트                           "ބ SkillGroup_MP_Juggernaut_TU5      #ބ Model_MP_Juggernaut_N$ބ FullbodyIMG_MP_Juggernaut_N%ބ TbarIcon_MP_Juggernaut_N&ބ ETCIcon_MP_Juggernaut_N'ބ AI_Hvst_Normal_02   (ބ ü성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.
-
-
-- 블랙 하운드pw  ­s  	ow  )ބ 저거너트                           *ބ SkillGroup_MP_Juggernaut_TU6      +ބ Model_MP_Juggernaut_N,ބ FullbodyIMG_MP_Juggernaut_N-ބ TbarIcon_MP_Juggernaut_N.ބ ETCIcon_MP_Juggernaut_N/ބ AI_Hvst_Normal_02   0ބ ü성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.
-
-
-- 블랙 하운드sw  ­s  	rw  1ބ 지원형 스카우트                         2ބ SkillGroup_MP_ScoutSP_N      3ބ Model_MP_Scout_N4ބ FullbodyIMG_MP_Scout_N5ބ TbarIcon_MP_Scout_N6ބ ETCIcon_MP_Scout_N7ބ AI_Scout_Special_01   8ބ <교전 기록 없음>vw  ­s  	uw  9ބ 지원형 스카우트                         :ބ SkillGroup_MP_ScoutSP_TU2      ;ބ Model_MP_Scout_N<ބ FullbodyIMG_MP_Scout_N=ބ TbarIcon_MP_Scout_N>ބ ETCIcon_MP_Scout_N?ބ AI_Scout_Special_01   @ބ <교전 기록 없음>yw  ­s  	xw  Aބ 칙 스나이퍼Bބ SkillGroup_MP_NightChickSP_TU9      Cބ Model_MP_NightChickSP_NDބ FullbodyIMG_MP_NightChickSP_NEބ TbarIcon_MP_NightChickSP_NFބ ETCIcon_MP_NightChickSP_NGބ AI_Jako_Sniper_01   Hބ l엄폐와 위장 능력이 좋음. 빠르게 한 방으로 처치하는 게 좋을 것 같음.
-
-
-- 발키리|w  ­s  	{w  Iބ 
-칙 엠페러                         Jބ SkillGroup_MP_EmperorChick_TU3      Kބ Model_MP_EmperorChick_NLބ FullbodyIMG_MP_EmperorChick_NMބ TbarIcon_MP_EmperorChick_NNބ ETCIcon_MP_EmperorChick_NOބ AI_EmperorChick_Normal_01   Pބ <교전 기록 없음>w  ­s  	~w  Qބ 
-칙 엠페러                         Rބ SkillGroup_MP_EmperorChick_TU4      Sބ Model_MP_EmperorChick_NTބ FullbodyIMG_MP_EmperorChick_NUބ TbarIcon_MP_EmperorChick_NVބ ETCIcon_MP_EmperorChick_NWބ AI_EmperorChick_Normal_01   Xބ <교전 기록 없음>w  ­s  	w  Yބ 칙 쿼터마스터                          Zބ SkillGroup_MP_NightChickQM_TU3      [ބ Model_MP_NightChickQM_N\ބ FullbodyIMG_MP_NightChickQM_N]ބ TbarIcon_MP_NightChickQM_N^ބ ETCIcon_MP_NightChickQM_N_ބ AI_NightChickQM_Normal_01   `ބ 철충의 보급 기체네요. 공격 저지 능력이 뛰어나니 주력 공격기를 잘 보호해야 장기전을 방지할 수 있어요.
-
-
-- 실키w  ­s  	w  aބ 
-케미컬 칙                          bބ SkillGroup_MP_NightChickCM_TU5      cބ Model_MP_NightChickCM_Ndބ FullbodyIMG_MP_NightChickCM_Neބ TbarIcon_MP_NightChickCM_Nfބ ETCIcon_MP_NightChickCM_Ngބ AI_Jako_Normal_01   hބ Ɓ냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
-
-
-- 보고자 미호w  ­s  	w  iބ 	토터스                           jބ SkillGroup_MP_Tortoise_TU3      kބ Model_MP_Tortoise_Nlބ FullbodyIMG_MP_Tortoise_Nmބ TbarIcon_MP_Tortoise_Nnބ ETCIcon_MP_Tortoise_Noބ AI_Tortoise_Normal_01   pބ 장갑이 활성화 되었을 땐 유효 피해를 주기 힘들어요! 장갑을 비활성화 시킨 후에 한 번에 해치워야 해요!
-
-
-- 켈베로스w  ­s  	w  qބ 	토터스                           rބ SkillGroup_MP_Tortoise_TU4      sބ Model_MP_Tortoise_Ntބ FullbodyIMG_MP_Tortoise_Nuބ TbarIcon_MP_Tortoise_Nvބ ETCIcon_MP_Tortoise_Nwބ AI_Tortoise_Normal_01   xބ 장갑이 활성화 되었을 땐 유효 피해를 주기 힘들어요! 장갑을 비활성화 시킨 후에 한 번에 해치워야 해요!
-
-
-- 켈베로스w  ­s  	w  yބ 	팔랑스                           zބ SkillGroup_MP_Phalangites_TU5      {ބ Model_MP_Phalangites_N|ބ FullbodyIMG_MP_Phalangites_N}ބ TbarIcon_MP_Phalangites_N~ބ ETCIcon_MP_Phalangites_Nބ AI_MP_Palanx_01   ބ þ각이 잡힌 대열로 행군하는 철충입니다. 철충 놈들 중엔 드물게 군기가 들어있지 말입니다. 딱 밀착해서 서로서로를 보호하는 녀석들이니 진형을 아작내는 게 중요하지 말임다.
-
-
-- 블러디팬서w  ­s  	w  ބ 	팔랑스                           ބ SkillGroup_MP_Phalangites_TU6      ބ Model_MP_Phalangites_Nބ FullbodyIMG_MP_Phalangites_Nބ TbarIcon_MP_Phalangites_Nބ ETCIcon_MP_Phalangites_Nބ AI_MP_Palanx_01   ބ þ각이 잡힌 대열로 행군하는 철충입니다. 철충 놈들 중엔 드물게 군기가 들어있지 말입니다. 딱 밀착해서 서로서로를 보호하는 녀석들이니 진형을 아작내는 게 중요하지 말임다.
-
-
-- 블러디팬서w  ­s  	w  ބ 풀아머 빅 칙                         ބ SkillGroup_MP_FABigChick_TU6      ބ Model_MP_FABigChick_Nބ FullbodyIMG_MP_FABigChick_Nބ TbarIcon_MP_FABigChick_Nބ ETCIcon_MP_FABigChick_Nބ AI_FABigChick_01   ބ »빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?
-
-
- - 불가사리 보고함w  ­s  	w  ބ 헤비 스카우트                         ބ SkillGroup_MP_HeavyScout_TU5      ބ Model_MP_Scout_V2ބ FullbodyIMG_MP_Scout_V2ބ TbarIcon_MP_Scout_V2ބ ETCIcon_MP_Scout_V2ބ AI_MP_HeavyScout_01   ބ ꁬ¤카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.
-
-
-- 페로 드림w  ­s  	w  ބ 
-썬더 칙ބ SkillGroup_MP_NightChickTD_TU      ބ Model_MP_NightChickTD_Nބ FullbodyIMG_MP_NightChickTD_Nބ TbarIcon_MP_NightChickTD_Nބ ETCIcon_MP_NightChickTD_Nބ AI_ThunderChick_Normal_01    ބ ¼아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.
-
-
- - 켈베로스 보고함w  ­s  	w  ¡ބ 
-썬더 칙¢ބ SkillGroup_MP_NightChickTD_TU2      £ބ Model_MP_NightChickTD_N¤ބ FullbodyIMG_MP_NightChickTD_N¥ބ TbarIcon_MP_NightChickTD_N¦ބ ETCIcon_MP_NightChickTD_N§ބ AI_ThunderChick_Normal_01   ¨ބ ¼아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.
-
-
- - 켈베로스 보고함 w  ­s  	w  ©ބ 
-썬더 칙ªބ SkillGroup_MP_NightChickTD_TU3      «ބ Model_MP_NightChickTD_N¬ބ FullbodyIMG_MP_NightChickTD_N­ބ TbarIcon_MP_NightChickTD_N®ބ ETCIcon_MP_NightChickTD_N¯ބ AI_ThunderChick_Normal_01   °ބ ¼아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.
-
-
- - 켈베로스 보고함£w  ­s  	¢w  ±ބ 
-썬더 칙²ބ SkillGroup_MP_NightChickTD_TU4      ³ބ Model_MP_NightChickTD_N´ބ FullbodyIMG_MP_NightChickTD_Nµބ TbarIcon_MP_NightChickTD_N¶ބ ETCIcon_MP_NightChickTD_N·ބ AI_ThunderChick_Normal_01   ¸ބ ¼아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.
-
-
- - 켈베로스 보고함¦w  ­s  	¥w  ¹ބ 
-아쿠아 칙                          ºބ SkillGroup_MP_NightChickAQ_TU      »ބ Model_MP_NightChickAQ_N¼ބ FullbodyIMG_MP_NightChickAQ_N½ބ TbarIcon_MP_NightChickAQ_N¾ބ ETCIcon_MP_NightChickAQ_N¿ބ AI_AquaChick_Normal_01   Àބ 물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!
-
-
- - 아쿠아 보고함©w  ­s  	¨w  Áބ 
-아쿠아 칙                           SkillGroup_MP_NightChickAQ_TU2      Þ Model_MP_NightChickAQ_NĞ FullbodyIMG_MP_NightChickAQ_NŞ TbarIcon_MP_NightChickAQ_Nƞ ETCIcon_MP_NightChickAQ_NǞ AI_AquaChick_Normal_01   Ȟ 물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!
-
-
- - 아쿠아 보고함¬w  ­s  	«w  ɞ 
-아쿠아 칙                          ʞ SkillGroup_MP_NightChickAQ_TU3      ˞ Model_MP_NightChickAQ_N̞ FullbodyIMG_MP_NightChickAQ_N͞ TbarIcon_MP_NightChickAQ_NΞ ETCIcon_MP_NightChickAQ_NϞ AI_AquaChick_Normal_01   О 물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!
-
-
- - 아쿠아 보고함¯w  ­s  	®w  ў 
-아쿠아 칙                          Ҟ SkillGroup_MP_NightChickAQ_TU4      Ӟ Model_MP_NightChickAQ_NԞ FullbodyIMG_MP_NightChickAQ_N՞ TbarIcon_MP_NightChickAQ_N֞ ETCIcon_MP_NightChickAQ_Nמ AI_AquaChick_Normal_01   ؞ 물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!
-
-
- - 아쿠아 보고함²w  ­s  	±w  ٞ 칠러                         ڞ SkillGroup_MP_Chiller_TU      ۞ Model_MP_Chiller_Nܞ FullbodyIMG_MP_Chiller_Nݞ TbarIcon_MP_Chiller_Nޞ ETCIcon_MP_Chiller_Nߞ AI_Chiller_Normal_01   ބ :물… 절대 뿌리지 말것…
-
-
- - 서펀트 보고함µw  ­s  	´w  ង 칠러                         ➄ SkillGroup_MP_Chiller_TU2      㞄 Model_MP_Chiller_N䞄 FullbodyIMG_MP_Chiller_N垄 TbarIcon_MP_Chiller_N构 ETCIcon_MP_Chiller_N瞄 AI_Chiller_Normal_01   螄 :물… 절대 뿌리지 말것…
-
-
- - 서펀트 보고함¸w  ­s  	·w  鞄 칠러                         Ꞅ SkillGroup_MP_Chiller_TU3      랄 Model_MP_Chiller_N임 FullbodyIMG_MP_Chiller_N힄 TbarIcon_MP_Chiller_N ETCIcon_MP_Chiller_N AI_Chiller_Normal_01   𞄠:물… 절대 뿌리지 말것…
-
-
- - 서펀트 보고함»w  ­s  	ºw  񞄠칠러                         򞄠SkillGroup_MP_Chiller_TU4      󞄠Model_MP_Chiller_N𞄠FullbodyIMG_MP_Chiller_Nõބ TbarIcon_MP_Chiller_Nöބ ETCIcon_MP_Chiller_N÷ބ AI_Chiller_Normal_01   øބ :물… 절대 뿌리지 말것…
-
-
- - 서펀트 보고함¾w  ­s  	½w  ùބ 빅 칙 실더                          úބ SkillGroup_MP_BigChickS_TU      ûބ Model_MP_BigChickS_Nüބ FullbodyIMG_MP_BigChickS_Nýބ TbarIcon_MP_BigChickS_Nþބ ETCIcon_MP_BigChickS_Nÿބ AI_BigChickShield_Normal_01    ߄ 제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!
-
-
- - 스틸 드라코 보고함Áw  ­s  	Àw  ߄ 빅 칙 실더                          ߄ SkillGroup_MP_BigChickS_TU2      ߄ Model_MP_BigChickS_N߄ FullbodyIMG_MP_BigChickS_N߄ TbarIcon_MP_BigChickS_N߄ ETCIcon_MP_BigChickS_N߄ AI_BigChickShield_Normal_01   ߄ 제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!
-
-
- - 스틸 드라코 보고함ķ  ­s  	÷  	߄ 빅 칙 실더                          
-߄ SkillGroup_MP_BigChickS_TU3      ߄ Model_MP_BigChickS_N߄ FullbodyIMG_MP_BigChickS_N
-߄ TbarIcon_MP_BigChickS_N߄ ETCIcon_MP_BigChickS_N߄ AI_BigChickShield_Normal_01   ߄ 제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!
-
-
- - 스틸 드라코 보고함Ƿ  ­s  	Ʒ  ߄ 빅 칙 실더                          ߄ SkillGroup_MP_BigChickS_TU4      ߄ Model_MP_BigChickS_N߄ FullbodyIMG_MP_BigChickS_N߄ TbarIcon_MP_BigChickS_N߄ ETCIcon_MP_BigChickS_N߄ AI_BigChickShield_Normal_01   ߄ 제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!
-
-
- - 스틸 드라코 보고함ʷ  ­s  	ɷ  ߄ 개량형 매머드                         ߄ SkillGroup_MP_MammothP_TU      ߄ Model_MP_Mammoth_N߄ FullbodyIMG_MP_Mammoth_N߄ TbarIcon_MP_Mammoth_N߄ ETCIcon_MP_Mammoth_N߄ AI_Mp_Mammoth_01    ߄ 0ͷ  ­s  	̷  !߄ 개량형 매머드                         "߄ SkillGroup_MP_MammothP_TU2      #߄ Model_MP_Mammoth_N$߄ FullbodyIMG_MP_Mammoth_N%߄ TbarIcon_MP_Mammoth_N&߄ ETCIcon_MP_Mammoth_N'߄ AI_Mp_Mammoth_01   (߄ 0з  ­s  	Ϸ  )߄ 개량형 매머드                         *߄ SkillGroup_MP_MammothP_TU3      +߄ Model_MP_Mammoth_N,߄ FullbodyIMG_MP_Mammoth_N-߄ TbarIcon_MP_Mammoth_N.߄ ETCIcon_MP_Mammoth_N/߄ AI_Mp_Mammoth_01   0߄ 0ӷ  ­s  	ҷ  1߄ 개량형 매머드                         2߄ SkillGroup_MP_MammothP_TU4      3߄ Model_MP_Mammoth_N4߄ FullbodyIMG_MP_Mammoth_N5߄ TbarIcon_MP_Mammoth_N6߄ ETCIcon_MP_Mammoth_N7߄ AI_Mp_Mammoth_01   8߄ 0ַ  ­s  	շ  9߄ 나이트 칙 디텍터 G                          :߄ SkillGroup_MP_NightChickDEG_TU      ;߄ Model_MP_NightChickDEG_N<߄ FullbodyIMG_MP_NightChickDEG_N=߄ TbarIcon_MP_NightChickDEG_N>߄ ETCIcon_MP_NightChickDEG_N?߄ AI_NCDetectorG_Normal_01   @߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
-
-
- - 다이카 보고함ٷ  ­s  	ط  A߄ 
- 나이트 칙 디텍터 G
+ - 스틸 드라코 보고함
+나이트 칙 디텍터 G
 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
 
 
  - 다이카 보고함
- ܷ  ­s  	۷  I߄ 나이트 칙 디텍터 G                          J߄ SkillGroup_MP_NightChickDEG_TU3      K߄ Model_MP_NightChickDEG_NL߄ FullbodyIMG_MP_NightChickDEG_NM߄ TbarIcon_MP_NightChickDEG_NN߄ ETCIcon_MP_NightChickDEG_NO߄ AI_NCDetectorG_Normal_01   P߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
+케미컬 칙 Type-X
+히익… 다신 보기 싫을 정도로 징그러웠어요…... 불에는 약한지 불을 붙이니 폭발해서 깜짝 놀랐네요.
 
 
- - 다이카 보고함߷  ­s  	޷  Q߄ 나이트 칙 디텍터 G                          R߄ SkillGroup_MP_NightChickDEG_TU4      S߄ Model_MP_NightChickDEG_NT߄ FullbodyIMG_MP_NightChickDEG_NU߄ TbarIcon_MP_NightChickDEG_NV߄ ETCIcon_MP_NightChickDEG_NW߄ AI_NCDetectorG_Normal_01   X߄ 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
+ - 뽀끄루 보고함
+램파트 커스텀
+불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.
 
 
- - 다이카 보고함ⷠ ­s  	ᷠ Y߄ 베테랑 칙 스나이퍼Z߄ SkillGroup_MP_NightChickSPV_TU      [߄ Model_MP_NightChickSP_N\߄ FullbodyIMG_MP_NightChickSP_N]߄ TbarIcon_MP_NightChickSP_N^߄ ETCIcon_MP_NightChickSP_N_߄ AI_Jako_Sniper_01   `߄ 0巠 ­s  	䷠ a߄ 베테랑 칙 스나이퍼b߄ SkillGroup_MP_NightChickSPV_TU2      c߄ Model_MP_NightChickSP_Nd߄ FullbodyIMG_MP_NightChickSP_Ne߄ TbarIcon_MP_NightChickSP_Nf߄ ETCIcon_MP_NightChickSP_Ng߄ AI_Jako_Sniper_01   h߄ 0跠 ­s  	締 i߄ 베테랑 칙 스나이퍼j߄ SkillGroup_MP_NightChickSPV_TU3      k߄ Model_MP_NightChickSP_Nl߄ FullbodyIMG_MP_NightChickSP_Nm߄ TbarIcon_MP_NightChickSP_Nn߄ ETCIcon_MP_NightChickSP_No߄ AI_Jako_Sniper_01   p߄ 0뷠 ­s  	균 q߄ 베테랑 칙 스나이퍼r߄ SkillGroup_MP_NightChickSPV_TU4      s߄ Model_MP_NightChickSP_Nt߄ FullbodyIMG_MP_NightChickSP_Nu߄ TbarIcon_MP_NightChickSP_Nv߄ ETCIcon_MP_NightChickSP_Nw߄ AI_Jako_Sniper_01   x߄ 0 ­s  	򈀠y߄ 케미컬 칙 Type-Xz߄ SkillGroup_MP_NightChickCMP_EV1      {߄ Model_MP_NightChickCMP_N|߄ FullbodyIMG_MP_NightChickCMP_N}߄ TbarIcon_MP_NightChickCMP_N~߄ ETCIcon_MP_NightChickCMP_N߄ AI_MP_CMChickX_Normal_01   ߄ ¡히익… 다신 보기 싫을 정도로 징그러웠어요…... 불에는 약한지 불을 붙이니 폭발해서 깜짝 놀랐네요.
+ - 칼리스타 보고함
+폴른 커스텀
+조준은 엉망이지만 화력은 강력하니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.
 
 
- - 뽀끄루 보고함񷠠­s  	𷠠߄ 케미컬 칙 Type-X߄ SkillGroup_MP_NightChickCMP_EV2      ߄ Model_MP_NightChickCMP_N߄ FullbodyIMG_MP_NightChickCMP_N߄ TbarIcon_MP_NightChickCMP_N߄ ETCIcon_MP_NightChickCMP_N߄ AI_MP_CMChickX_Normal_01   ߄ ¡히익… 다신 보기 싫을 정도로 징그러웠어요…... 불에는 약한지 불을 붙이니 폭발해서 깜짝 놀랐네요.
+ - 블랙 하운드 보고함
+펍 헤드 커스텀
+이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.
 
 
- - 뽀끄루 보고함𷠠­s  	󷠠߄ 헤비 스카우트 G                         ߄ SkillGroup_MP_HeavyScoutG_TU      ߄ Model_MP_Scout_V2߄ FullbodyIMG_MP_Scout_V2߄ TbarIcon_MP_Scout_V2߄ ETCIcon_MP_Scout_V2߄ AI_MP_HeavyScout_01   ߄ 0÷w  ­s  	öw  ߄ 헤비 스카우트 G                         ߄ SkillGroup_MP_HeavyScoutG_TU2      ߄ Model_MP_Scout_V2߄ FullbodyIMG_MP_Scout_V2߄ TbarIcon_MP_Scout_V2߄ ETCIcon_MP_Scout_V2߄ AI_MP_HeavyScout_01   ߄ 0úw  ­s  	ùw  ߄ 헤비 스카우트 G                         ߄ SkillGroup_MP_HeavyScoutG_TU3      ߄ Model_MP_Scout_V2߄ FullbodyIMG_MP_Scout_V2߄ TbarIcon_MP_Scout_V2߄ ETCIcon_MP_Scout_V2߄ AI_MP_HeavyScout_01    ߄ 0ýw  ­s  	üw  ¡߄ 헤비 스카우트 G                         ¢߄ SkillGroup_MP_HeavyScoutG_TU4      £߄ Model_MP_Scout_V2¤߄ FullbodyIMG_MP_Scout_V2¥߄ TbarIcon_MP_Scout_V2¦߄ ETCIcon_MP_Scout_V2§߄ AI_MP_HeavyScout_01   ¨߄ 0 x  ­s  	ÿw  ©߄ 램파트 커스텀                            ª߄ SkillGroup_MP_RampartC_EV1      «߄ Model_MP_RampartC_N¬߄ FullbodyIMG_MP_RampartC_N­߄ TbarIcon_MP_RampartC_N®߄ ETCIcon_MP_RampartC_N¯߄ AI_RampartC_Normal_01   °߄ 불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.
+ - 칸 보고함
+스팅어 커스텀
+극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.
 
 
- - 칼리스타 보고함x  ­s  	x  ±߄ 램파트 커스텀                            ²߄ SkillGroup_MP_RampartC_EV2      ³߄ Model_MP_RampartC_N´߄ FullbodyIMG_MP_RampartC_Nµ߄ TbarIcon_MP_RampartC_N¶߄ ETCIcon_MP_RampartC_N·߄ AI_RampartC_Normal_01   ¸߄ 불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.
+ - 님프 보고함
+대공용 AMG-11
+오~ 이 녀석들 왠지 마음에 드는데? 몇 대 가져가서 네리의 부하로 쓰면 되겠어! 네리 대신 일하게 해야지!
 
 
- - 칼리스타 보고함x  ­s  	x  ¹߄ 램파트 커스텀                            º߄ SkillGroup_MP_RampartC_EV3      »߄ Model_MP_RampartC_N¼߄ FullbodyIMG_MP_RampartC_N½߄ TbarIcon_MP_RampartC_N¾߄ ETCIcon_MP_RampartC_N¿߄ AI_RampartC_Normal_01   À߄ 불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.
+ - 네레이드 보고함
+드론 커스텀
+지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…
 
 
- - 칼리스타 보고함	x  ­s  	x  Á߄ 램파트 커스텀                             SkillGroup_MP_RampartC_EV4      ß Model_MP_RampartC_Nğ FullbodyIMG_MP_RampartC_Nş TbarIcon_MP_RampartC_NƟ ETCIcon_MP_RampartC_Nǟ AI_RampartC_Normal_01   ȟ 불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.
+ - 익스프레스 76 보고함
+셀주크 커스텀
+화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.
 
 
- - 칼리스타 보고함x  ­s  	x  ɟ 폴른 커스텀                           ʟ SkillGroup_MP_FallenC_EV1      ˟ Model_MP_FallenC_N̟ FullbodyIMG_MP_FallenC_N͟ TbarIcon_MP_FallenC_NΟ ETCIcon_MP_FallenC_Nϟ AI_Mp_FallenC_Normal_01   П ²조준은 엉망이지만 화력은 강력하니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.
+ - 세이렌 보고함
+기간테스 커스텀
+거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?
 
 
- - 블랙 하운드 보고함x  ­s  	x  џ 폴른 커스텀                           ҟ SkillGroup_MP_FallenC_EV2      ӟ Model_MP_FallenC_Nԟ FullbodyIMG_MP_FallenC_N՟ TbarIcon_MP_FallenC_N֟ ETCIcon_MP_FallenC_Nן AI_Mp_FallenC_Normal_01   ؟ ²조준은 엉망이지만 화력은 강력하니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.
+ - 트리아이나 보고함
+로크 (최대 충전)
+큿… 제 레이더로도 포착하기 어려운 상대네요. 최대 충전 상태가 되면 강력한 공격을 하니 주의하시길. 상태를 보니 큰 피해를 입으면 어떤 꼬맹이처럼 성대하게 폭발할 것 같군요.
 
 
- - 블랙 하운드 보고함x  ­s  	x  ٟ 폴른 커스텀                           ڟ SkillGroup_MP_FallenC_EV3      ۟ Model_MP_FallenC_Nܟ FullbodyIMG_MP_FallenC_Nݟ TbarIcon_MP_FallenC_Nޟ ETCIcon_MP_FallenC_Nߟ AI_Mp_FallenC_Normal_01   ߄ ²조준은 엉망이지만 화력은 강력하니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.
+- 나이트 앤젤 보고함
+에너지 컨덴서
+전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
 
 
- - 블랙 하운드 보고함x  ­s  	x  ោ 폴른 커스텀                           ⟄ SkillGroup_MP_FallenC_EV4      㟄 Model_MP_FallenC_N䟄 FullbodyIMG_MP_FallenC_N埄 TbarIcon_MP_FallenC_N柄 ETCIcon_MP_FallenC_N矄 AI_Mp_FallenC_Normal_01   蟄 ²조준은 엉망이지만 화력은 강력하니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.
-
-
- - 블랙 하운드 보고함x  ­s  	x  韄 펍 헤드 커스텀                           Ꞔ SkillGroup_MP_PuppHeadC_EV1      럄 Model_MP_PuppHeadC_N쟄 FullbodyIMG_MP_PuppHeadC_Nퟄ TbarIcon_MP_PuppHeadC_N ETCIcon_MP_PuppHeadC_N AI_PupHeadC_Normal_01   🄠이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.
-
-
- - 칸 보고함x  ­s  	x  񟄠펍 헤드 커스텀                           򟄠SkillGroup_MP_PuppHeadC_EV2      󟄠Model_MP_PuppHeadC_N🄠FullbodyIMG_MP_PuppHeadC_Nõ߄ TbarIcon_MP_PuppHeadC_Nö߄ ETCIcon_MP_PuppHeadC_N÷߄ AI_PupHeadC_Normal_01   ø߄ 이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.
-
-
- - 칸 보고함x  ­s  	x  ù߄ 펍 헤드 커스텀                           ú߄ SkillGroup_MP_PuppHeadC_EV3      û߄ Model_MP_PuppHeadC_Nü߄ FullbodyIMG_MP_PuppHeadC_Ný߄ TbarIcon_MP_PuppHeadC_Nþ߄ ETCIcon_MP_PuppHeadC_Nÿ߄ AI_PupHeadC_Normal_01    Ġ이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.
-
-
- - 칸 보고함!x  ­s  	 x  Ġ펍 헤드 커스텀                           ĠSkillGroup_MP_PuppHeadC_EV4      ĠModel_MP_PuppHeadC_NĠFullbodyIMG_MP_PuppHeadC_NĠTbarIcon_MP_PuppHeadC_NĠETCIcon_MP_PuppHeadC_NĠAI_PupHeadC_Normal_01   Ġ이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.
-
-
- - 칸 보고함$x  ­s  	#x  	Ġ스팅어 커스텀                          
-ĠSkillGroup_MP_StingerC_EV1      ĠModel_MP_StingerC_NĠFullbodyIMG_MP_StingerC_N
-ĠTbarIcon_MP_StingerC_NĠETCIcon_MP_StingerC_NĠAI_StingerC_Normal_01   Ġс극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.
-
-
- - 님프 보고함'x  ­s  	&x  Ġ스팅어 커스텀                          ĠSkillGroup_MP_StingerC_EV2      ĠModel_MP_StingerC_NĠFullbodyIMG_MP_StingerC_NĠTbarIcon_MP_StingerC_NĠETCIcon_MP_StingerC_NĠAI_StingerC_Normal_01   Ġс극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.
-
-
- - 님프 보고함*x  ­s  	)x  Ġ스팅어 커스텀                          ĠSkillGroup_MP_StingerC_EV3      ĠModel_MP_StingerC_NĠFullbodyIMG_MP_StingerC_NĠTbarIcon_MP_StingerC_NĠETCIcon_MP_StingerC_NĠAI_StingerC_Normal_01    Ġс극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.
-
-
- - 님프 보고함-x  ­s  	,x  !Ġ스팅어 커스텀                          "ĠSkillGroup_MP_StingerC_EV4      #ĠModel_MP_StingerC_N$ĠFullbodyIMG_MP_StingerC_N%ĠTbarIcon_MP_StingerC_N&ĠETCIcon_MP_StingerC_N'ĠAI_StingerC_Normal_01   (Ġс극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.
-
-
- - 님프 보고함0x  ­s  	/x  )Ġ대공용 AMG-11                           *ĠSkillGroup_MP_AMG11AA_EV1      +ĠModel_MP_AMG11AA_N,ĠFullbodyIMG_MP_AMG11AA_N-ĠTbarIcon_MP_AMG11AA_N.ĠETCIcon_MP_AMG11AA_N/ĠAI_AAAMG11_Normal_01   0Ġ¨오~ 이 녀석들 왠지 마음에 드는데? 몇 대 가져가서 네리의 부하로 쓰면 되겠어! 네리 대신 일하게 해야지!
-
-
- - 네레이드 보고함3x  ­s  	2x  1Ġ대공용 AMG-11                           2ĠSkillGroup_MP_AMG11AA_EV2      3ĠModel_MP_AMG11AA_N4ĠFullbodyIMG_MP_AMG11AA_N5ĠTbarIcon_MP_AMG11AA_N6ĠETCIcon_MP_AMG11AA_N7ĠAI_AAAMG11_Normal_01   8Ġ¨오~ 이 녀석들 왠지 마음에 드는데? 몇 대 가져가서 네리의 부하로 쓰면 되겠어! 네리 대신 일하게 해야지!
-
-
- - 네레이드 보고함6x  ­s  	5x  9Ġ대공용 AMG-11                           :ĠSkillGroup_MP_AMG11AA_EV3      ;ĠModel_MP_AMG11AA_N<ĠFullbodyIMG_MP_AMG11AA_N=ĠTbarIcon_MP_AMG11AA_N>ĠETCIcon_MP_AMG11AA_N?ĠAI_AAAMG11_Normal_01   @Ġ¨오~ 이 녀석들 왠지 마음에 드는데? 몇 대 가져가서 네리의 부하로 쓰면 되겠어! 네리 대신 일하게 해야지!
-
-
- - 네레이드 보고함9x  ­s  	8x  AĠ대공용 AMG-11                           BĠSkillGroup_MP_AMG11AA_EV4      CĠModel_MP_AMG11AA_NDĠFullbodyIMG_MP_AMG11AA_NEĠTbarIcon_MP_AMG11AA_NFĠETCIcon_MP_AMG11AA_NGĠAI_AAAMG11_Normal_01   HĠ¨오~ 이 녀석들 왠지 마음에 드는데? 몇 대 가져가서 네리의 부하로 쓰면 되겠어! 네리 대신 일하게 해야지!
-
-
- - 네레이드 보고함<x  ­s  	;x  IĠ드론 커스텀                          JĠSkillGroup_MP_DroneM_EV1      KĠModel_MP_DroneM_NLĠFullbodyIMG_MP_DroneM_NMĠTbarIcon_MP_DroneM_NNĠETCIcon_MP_DroneM_NOĠAI_DroneC_Normal_01   PĠց지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…
-
-
- - 익스프레스 76 보고함?x  ­s  	>x  QĠ드론 커스텀                          RĠSkillGroup_MP_DroneM_EV2      SĠModel_MP_DroneM_NTĠFullbodyIMG_MP_DroneM_NUĠTbarIcon_MP_DroneM_NVĠETCIcon_MP_DroneM_NWĠAI_DroneC_Normal_01   XĠց지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…
-
-
- - 익스프레스 76 보고함Bx  ­s  	Ax  YĠ드론 커스텀                          ZĠSkillGroup_MP_DroneM_EV3      [ĠModel_MP_DroneM_N\ĠFullbodyIMG_MP_DroneM_N]ĠTbarIcon_MP_DroneM_N^ĠETCIcon_MP_DroneM_N_ĠAI_DroneC_Normal_01   `Ġց지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…
-
-
- - 익스프레스 76 보고함Ex  ­s  	Dx  aĠ드론 커스텀                          bĠSkillGroup_MP_DroneM_EV4      cĠModel_MP_DroneM_NdĠFullbodyIMG_MP_DroneM_NeĠTbarIcon_MP_DroneM_NfĠETCIcon_MP_DroneM_NgĠAI_DroneC_Normal_01   hĠց지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…
-
-
- - 익스프레스 76 보고함Hx  ­s  	Gx  iĠ셀주크 커스텀                          jĠSkillGroup_MP_SeljuqA_EV1      kĠModel_MP_SeljuqA_NlĠFullbodyIMG_MP_SeljuqA_NmĠTbarIcon_MP_SeljuqA_NnĠETCIcon_MP_SeljuqA_NoĠAI_SeljuqC_Normal_01   pĠú화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.
-
-
- - 세이렌 보고함Kx  ­s  	Jx  qĠ셀주크 커스텀                          rĠSkillGroup_MP_SeljuqA_EV2      sĠModel_MP_SeljuqA_NtĠFullbodyIMG_MP_SeljuqA_NuĠTbarIcon_MP_SeljuqA_NvĠETCIcon_MP_SeljuqA_NwĠAI_SeljuqC_Normal_01   xĠú화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.
-
-
- - 세이렌 보고함Nx  ­s  	Mx  yĠ셀주크 커스텀                          zĠSkillGroup_MP_SeljuqA_EV3      {ĠModel_MP_SeljuqA_N|ĠFullbodyIMG_MP_SeljuqA_N}ĠTbarIcon_MP_SeljuqA_N~ĠETCIcon_MP_SeljuqA_NĠAI_SeljuqC_Normal_01   Ġú화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.
-
-
- - 세이렌 보고함Qx  ­s  	Px  Ġ셀주크 커스텀                          ĠSkillGroup_MP_SeljuqA_EV4      ĠModel_MP_SeljuqA_NĠFullbodyIMG_MP_SeljuqA_NĠTbarIcon_MP_SeljuqA_NĠETCIcon_MP_SeljuqA_NĠAI_SeljuqC_Normal_01   Ġú화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.
-
-
- - 세이렌 보고함Tx  ­s  	Sx  Ġ기간테스 커스텀                           ĠSkillGroup_MP_GigantesC_EV1      ĠModel_MP_GigantesC_NĠFullbodyIMG_MP_GigantesC_NĠTbarIcon_MP_GigantesC_NĠETCIcon_MP_GigantesC_NĠAI_GigantesC_Normal_01   ĠÁ거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?
-
-
- - 트리아이나 보고함Wx  ­s  	Vx  Ġ기간테스 커스텀                           ĠSkillGroup_MP_GigantesC_EV2      ĠModel_MP_GigantesC_NĠFullbodyIMG_MP_GigantesC_NĠTbarIcon_MP_GigantesC_NĠETCIcon_MP_GigantesC_NĠAI_GigantesC_Normal_01   ĠÁ거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?
-
-
- - 트리아이나 보고함Zx  ­s  	Yx  Ġ기간테스 커스텀                           ĠSkillGroup_MP_GigantesC_EV3      ĠModel_MP_GigantesC_NĠFullbodyIMG_MP_GigantesC_NĠTbarIcon_MP_GigantesC_NĠETCIcon_MP_GigantesC_NĠAI_GigantesC_Normal_01    ĠÁ거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?
-
-
- - 트리아이나 보고함]x  ­s  	\x  ¡Ġ기간테스 커스텀                           ¢ĠSkillGroup_MP_GigantesC_EV4      £ĠModel_MP_GigantesC_N¤ĠFullbodyIMG_MP_GigantesC_N¥ĠTbarIcon_MP_GigantesC_N¦ĠETCIcon_MP_GigantesC_N§ĠAI_GigantesC_Normal_01   ¨ĠÁ거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?
-
-
- - 트리아이나 보고함`x  ­s  	_x  ©Ġ로크 (최대 충전)                          ªĠSkillGroup_MP_RocC_EV1      «ĠModel_MP_RocC_N¬ĠFullbodyIMG_MP_RocC_N­ĠTbarIcon_MP_RocC_N®ĠETCIcon_MP_RocC_N¯ĠAI_RocC_Normal_01   °Ġ큿… 제 레이더로도 포착하기 어려운 상대네요. 최대 충전 상태가 되면 강력한 공격을 하니 주의하시길. 상태를 보니 큰 피해를 입으면 어떤 꼬맹이처럼 성대하게 폭발할 것 같군요.
-
-
-- 나이트 앤젤 보고함cx  ­s  	bx  ±Ġ로크 (최대 충전)                          ²ĠSkillGroup_MP_RocC_EV2      ³ĠModel_MP_RocCA_N´ĠFullbodyIMG_MP_RocC_NµĠTbarIcon_MP_RocC_N¶ĠETCIcon_MP_RocC_N·ĠAI_RocC_Normal_02   ¸Ġ큿… 제 레이더로도 포착하기 어려운 상대네요. 최대 충전 상태가 되면 강력한 공격을 하니 주의하시길. 상태를 보니 큰 피해를 입으면 어떤 꼬맹이처럼 성대하게 폭발할 것 같군요.
-
-
-- 나이트 앤젤 보고함fx  ­s  	ex  ¹Ġ에너지 컨덴서                           ºĠSkillGroup_MP_RocCGenerator_EV1      »ĠModel_MP_RocCGenerator_N¼ĠFullbodyIMG_MP_RocCGenerator_N½ĠTbarIcon_MP_RocCGenerator_N¾ĠETCIcon_MP_RocCGenerator_N¿ĠAI_RocGenerator_Normal_01   ÀĠ²전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
-
-
-- 세이렌 보고함ix  ­s  	hx  ÁĠ에너지 컨덴서                             SkillGroup_MP_RocCGenerator_EV2      à Model_MP_RocCGenerator_NĠ FullbodyIMG_MP_RocCGenerator_NŠ TbarIcon_MP_RocCGenerator_NƠ ETCIcon_MP_RocCGenerator_NǠ AI_RocGenerator_Normal_02   Ƞ ²전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
-
-
-- 세이렌 보고함lx  ­s  	kx  ɠ 
+- 세이렌 보고함
 테스투도
 트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
 
 
 - 샬럿 보고함
-ox  ­s  	nx  Ѡ 테스투도                           Ҡ SkillGroup_MP_Testudo_TU2      Ӡ Model_MP_Testudo_NԠ FullbodyIMG_MP_Testudo_Nՠ TbarIcon_MP_Testudo_N֠ ETCIcon_MP_Testudo_Nנ AI_Mp_Testudo_Normal_01   ؠ ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
+엘리트 레기온
+화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!
 
 
-- 샬럿 보고함rx  ­s  	qx  ٠ 테스투도                           ڠ SkillGroup_MP_Testudo_TU3      ۠ Model_MP_Testudo_Nܠ FullbodyIMG_MP_Testudo_Nݠ TbarIcon_MP_Testudo_Nޠ ETCIcon_MP_Testudo_Nߠ AI_Mp_Testudo_Normal_01   ࠄ ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
+- 파니 보고함
+센츄리온 제네럴
+지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
 
 
-- 샬럿 보고함ux  ­s  	tx  ᠄ 테스투도                           ⠄ SkillGroup_MP_Testudo_TU4      㠄 Model_MP_Testudo_N䠄 FullbodyIMG_MP_Testudo_N堄 TbarIcon_MP_Testudo_N栄 ETCIcon_MP_Testudo_N砄 AI_Mp_Testudo_Normal_01   蠄 ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
+- 이프리트 보고함
+강화 에너지 컨덴서
+전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
 
 
-- 샬럿 보고함xx  ­s  	wx  頄 엘리트 레기온                          ꠄ SkillGroup_MP_LegionElite_TU      렄 Model_MP_Legion_N전 FullbodyIMG_MP_Legion_N𑀠TbarIcon_MP_Legion_N ETCIcon_MP_Legion_N AI_Mp_LegionElite_Normal_01   𠄠ö화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!
+- 세이렌 보고함
+까망베르
+치즈는 역시 프랑스 산이 최고에요!
 
 
-- 파니 보고함{x  ­s  	zx  񠄠엘리트 레기온                          򠄠SkillGroup_MP_LegionElite_TU2      󠄠Model_MP_Legion_N𠄠FullbodyIMG_MP_Legion_NõĠTbarIcon_MP_Legion_NöĠETCIcon_MP_Legion_N÷ĠAI_Mp_LegionElite_Normal_01   øĠö화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!
+- 운디네
+퐁 레베크
+치즈는 역시 프랑스 산이 최고에요!
 
 
-- 파니 보고함~x  ­s  	}x  ùĠ엘리트 레기온                          úĠSkillGroup_MP_LegionElite_TU3      ûĠModel_MP_Legion_NüĠFullbodyIMG_MP_Legion_NýĠTbarIcon_MP_Legion_NþĠETCIcon_MP_Legion_NÿĠAI_Mp_LegionElite_Normal_01    ᄠö화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!
+- 운디네
+브리 드 모
+치즈는 역시 프랑스 산이 최고에요!
 
 
-- 파니 보고함x  ­s  	x  ᄠ엘리트 레기온                          ᄠSkillGroup_MP_LegionElite_TU4      ᄠModel_MP_Legion_NᄠFullbodyIMG_MP_Legion_NᄠTbarIcon_MP_Legion_NᄠETCIcon_MP_Legion_NᄠAI_Mp_LegionElite_Normal_01   ᄠö화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!
+- 운디네
+그럼…요?
+그럼요…? 오늘의 암구호인 건가요?
 
 
-- 파니 보고함x  ­s  	x  	ᄠ센츄리온 제네럴                          
-ᄠSkillGroup_MP_CenturionG_TU      ᄠModel_MP_CenturionG_NᄠFullbodyIMG_MP_CenturionG_N
-ᄠTbarIcon_MP_CenturionG_NᄠETCIcon_MP_CenturionG_NᄠAI_Mp_CenturionG_Normal_01   ᄠ¿지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
+- 운디네
+문제아반 반장
+속이 아파오기 시작했어요… 제가 안 보면 대체 무슨 일을 할지...
 
 
-- 이프리트 보고함x  ­s  	x  ᄠ센츄리온 제네럴                          ᄠSkillGroup_MP_CenturionG_TU2      ᄠModel_MP_CenturionG_NᄠFullbodyIMG_MP_CenturionG_NᄠTbarIcon_MP_CenturionG_NᄠETCIcon_MP_CenturionG_NᄠAI_Mp_CenturionG_Normal_01   ᄠ¿지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
+- 세이렌
+그럼요~
+사실 세이렌도 놀고 싶어 하는 걸지도.
+슈퍼 네리다!
+슈~퍼한 네리네리를 이길 수 있을까!?
 
 
-- 이프리트 보고함x  ­s  	x  ᄠ센츄리온 제네럴                          ᄠSkillGroup_MP_CenturionG_TU3      ᄠModel_MP_CenturionG_NᄠFullbodyIMG_MP_CenturionG_NᄠTbarIcon_MP_CenturionG_NᄠETCIcon_MP_CenturionG_NᄠAI_Mp_CenturionG_Normal_01    ᄠ¿지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
+- 네레이드
+그럼~요!
+얼른 처리하고 놀러 가야지!
 
 
-- 이프리트 보고함x  ­s  	x  !ᄠ센츄리온 제네럴                          "ᄠSkillGroup_MP_CenturionG_TU4      #ᄠModel_MP_CenturionG_N$ᄠFullbodyIMG_MP_CenturionG_N%ᄠTbarIcon_MP_CenturionG_N&ᄠETCIcon_MP_CenturionG_N'ᄠAI_Mp_CenturionG_Normal_01   (ᄠ¿지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
+- 네레이드
+네리의 부하
+결국 부하가 되어버린 불쌍한 기계들이다.
+다곤씨 (대여 중)
+아르바이트 중인 기간테스인 듯하다...
+빅 칙 런쳐 G
+화력이 뛰어나지만 전기로 센서를 일시적으로 고장낼 수 있는거 같아요. 보조 무장은 약하지만 정밀하니 주의하세요.
 
 
-- 이프리트 보고함x  ­s  	x  )ᄠ센츄리온                          *ᄠSkillGroup_MP_Centurion_EV1      +ᄠModel_MP_Centurion_N,ᄠFullbodyIMG_MP_Centurion_N-ᄠTbarIcon_MP_Centurion_N.ᄠETCIcon_MP_Centurion_N/ᄠAI_Mp_CenturionEv_Normal_01   0ᄠ작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.
+- 레아 보고함
+강화형 케미컬 칙
+냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
 
 
-- 37식 다이카x  ­s  	x  1ᄠ센츄리온                          2ᄠSkillGroup_MP_Centurion_EV2      3ᄠModel_MP_Centurion_N4ᄠFullbodyIMG_MP_Centurion_N5ᄠTbarIcon_MP_Centurion_N6ᄠETCIcon_MP_Centurion_N7ᄠAI_Mp_CenturionEv_Normal_01   8ᄠ작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.
+- 보고자 미호
+강화형 저거너트
+성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.
 
 
-- 37식 다이카x  ­s  	x  9ᄠ나이트 칙 캐논                         :ᄠSkillGroup_MP_NightChickC_EV9      ;ᄠModel_MP_NightChickC_N<ᄠFullbodyIMG_MP_NightChickC_N=ᄠTbarIcon_MP_NightChickC_N>ᄠETCIcon_MP_NightChickC_N?ᄠAI_Ncc_Normal_01   @ᄠ박격포로 무장한 나이트 칙인데... 별 거 아닌 폭죽이나 쏴대는 벌레야. 아, 약한 애들한텐 무서우려나?
+- 블랙 하운드
+언더왓쳐
+전장에서 등장하는 더욱 강력해진 언더왓쳐로 제네레이터로부터 에너지를 공급 받는 한 계속 전투를 이어나갈 수 있습니다.
 
 
-- 메이 보고함x  ­s  	x  Aᄠ강화 에너지 컨덴서                           Bᄠ SkillGroup_MP_RocCGeneratorA_EV1      CᄠModel_MP_RocCGeneratorA_NDᄠFullbodyIMG_MP_RocCGenerator_NEᄠTbarIcon_MP_RocCGenerator_NFᄠETCIcon_MP_RocCGenerator_NGᄠAI_RocGenerator_Normal_03   Hᄠ²전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
+보고자 ???
+언더왓쳐 암
+<교전 기록 없음>
+언더왓쳐 센서
+<교전 기록 없음>
+스토커
+전장에서 등장하는 더욱 강력해진 스토커로 매 라운드마다 방어 관통효과가 증가되어 점점 파괴적인 공격을 합니다.
 
 
-- 세이렌 보고함x  ­s  	x  Iᄠ강화 에너지 컨덴서                           Jᄠ SkillGroup_MP_RocCGeneratorA_EV2      KᄠModel_MP_RocCGeneratorA_NLᄠFullbodyIMG_MP_RocCGenerator_NMᄠTbarIcon_MP_RocCGenerator_NNᄠETCIcon_MP_RocCGenerator_NOᄠAI_RocGenerator_Normal_04   Pᄠ²전력을 공급하기 위한 장치네요. 웬만한 충격으론 금방 복원되니 무력화되었을 때 본체를 노리는게 좋을 것 같아요.
+보고자 ???
+프레데터
+전장에서 등장하는 더욱 강력해진 프레데터로 강력한 방어력으로 인해 물리 공격은 통하지 않을 것입니다.
 
 
-- 세이렌 보고함x  ­s  	x  Qᄠ까망베르                           RᄠSkillGroup_MP_Undine_EV1      SᄠModel_MP_Undine_NTᄠFullbodyIMG_MP_Undine_NUᄠTbarIcon_MP_Undine_NVᄠETCIcon_MP_Undine_NWᄠAI_MP_Undine_Event_01   Xᄠ=치즈는 역시 프랑스 산이 최고에요!
+보고자 ???
+트릭스터
+전장에서 등장하는 더욱 강력해진 트릭스터로 적을 한번에 괴멸 시킬 수 있는 매우 강력한 반격기를 가지고 있습니다.
 
 
-- 운디네¢x  ­s  	¡x  Yᄠ
-퐁 레베크                           ZᄠSkillGroup_MP_Undine_EV2      [ᄠModel_MP_Undine_N\ᄠFullbodyIMG_MP_Undine_N]ᄠTbarIcon_MP_Undine_N^ᄠETCIcon_MP_Undine_N_ᄠAI_MP_Undine_Event_02   `ᄠ=치즈는 역시 프랑스 산이 최고에요!
+보고자 ???
+레이더
+전장에서 등장하는 더욱 강력해진 레이더로 철충들의 공격을 지원하여 지속적으로 막강한 피해를 줄 것입니다.
 
 
-- 운디네¥x  ­s  	¤x  aᄠ브리 드 모                           bᄠSkillGroup_MP_Undine_EV3      cᄠModel_MP_Undine_NdᄠFullbodyIMG_MP_Undine_NeᄠTbarIcon_MP_Undine_NfᄠETCIcon_MP_Undine_NgᄠAI_MP_Undine_Event_03   hᄠ=치즈는 역시 프랑스 산이 최고에요!
+보고자 ???
+익스큐셔너
+전장에서 등장하는 더욱 강력해진 익스큐셔너로 블레이드가 파괴된다면 막강한 파괴력을 지니게 될 것입니다.
 
 
-- 운디네¨x  ­s  	§x  iᄠ
-그럼…요?                           jᄠSkillGroup_MP_Undine_EV4      kᄠModel_MP_Undine_NlᄠFullbodyIMG_MP_Undine_NmᄠTbarIcon_MP_Undine_NnᄠETCIcon_MP_Undine_NoᄠAI_MP_Undine_Event_04   pᄠ=그럼요…? 오늘의 암구호인 건가요?
+보고자 ???
+익스큐셔너 롱 블레이드
+<교전 기록 없음>
+익스큐셔너 실드 블레이드
+<교전 기록 없음>
+둠 이터
+같은 철충들을 먹어치워버리는 이 무자비한 철충을 막을 방법은 오직 포식 후, 에너지를 흡수할 때 밖에는 없는 듯 합니다.
 
 
-- 운디네«x  ­s  	ªx  qᄠP-3M 운디네_적                           rᄠSkillGroup_MP_Undine_EV5      sᄠModel_MP_Undine_NtᄠFullbodyIMG_MP_Undine_NuᄠTbarIcon_MP_Undine_NvᄠETCIcon_MP_Undine_NwᄠAI_PupHeadC_Normal_01   xᄠ<교전 기록 없음>®x  ­s  	­x  yᄠ문제아반 반장                          zᄠSkillGroup_MP_Sirene_EV1      {ᄠModel_MP_Sirene_N|ᄠFullbodyIMG_MP_Sirene_N}ᄠTbarIcon_MP_Sirene_N~ᄠETCIcon_MP_Sirene_NᄠAI_MP_Sirene_Event_01   ᄠe속이 아파오기 시작했어요… 제가 안 보면 대체 무슨 일을 할지...
+보고자 ???
+이모탈 익스큐셔너
+여태껏 보고된 적 없는 새로운 형태의 익스큐셔너로, 제압해도 부활한다는 것만 알려진 상태입니다. 대원들이 공포에 질릴 수 있으니, 불사신 같은 건 없다는 것을 증명해주셔야 합니다.
 
 
-- 세이렌±x  ­s  	°x  ᄠ
-그럼요~                          ᄠSkillGroup_MP_Sirene_EV2      ᄠModel_MP_SireneC_NᄠFullbodyIMG_MP_SireneC_NᄠTbarIcon_MP_SireneC_NᄠETCIcon_MP_SireneC_NᄠAI_MP_Sirene_Event_02   ᄠ3사실 세이렌도 놀고 싶어 하는 걸지도.´x  ­s  	³x  ᄠ슈퍼 네리다!                          ᄠSkillGroup_MP_Nereid_EV1      ᄠModel_MP_Nereid_NᄠFullbodyIMG_MP_Nereid_NᄠTbarIcon_MP_Nereid_NᄠETCIcon_MP_Nereid_NᄠAI_MP_Nereid_Event_01   ᄠB슈~퍼한 네리네리를 이길 수 있을까!?
+보고자 ???
+둠 이터에게 쫓기는 중인 나이트 칙입니다.
+개조된 타란튤라
+스스로 내부를 과열하게 되어 자폭을 할 수 있도록 개조된 타란튤라 입니다. 자폭 상태가 되기 전에 과열된 내부를 냉각 시켜야 합니다.
 
 
-- 네레이드·x  ­s  	¶x  ᄠ그럼~요!                          ᄠSkillGroup_MP_Nereid_EV2      ᄠModel_MP_Nereid_NᄠFullbodyIMG_MP_Nereid_NᄠTbarIcon_MP_Nereid_NᄠETCIcon_MP_Nereid_NᄠAI_MP_Nereid_Event_02   ᄠ6얼른 처리하고 놀러 가야지!
-
-
-- 네레이드ºx  ­s  	¹x  ᄠAG-1 네레이드_적                          ᄠSkillGroup_MP_Nereid_EV3      ᄠModel_MP_Nereid_NᄠFullbodyIMG_MP_Nereid_NᄠTbarIcon_MP_Nereid_NᄠETCIcon_MP_Nereid_NᄠAI_PupHeadC_Normal_01    ᄠ<교전 기록 없음>½x  ­s  	¼x  ¡ᄠAG-1 네레이드_적                          ¢ᄠSkillGroup_MP_Nereid_EV4      £ᄠModel_MP_Nereid_N¤ᄠFullbodyIMG_MP_Nereid_N¥ᄠTbarIcon_MP_Nereid_N¦ᄠETCIcon_MP_Nereid_N§ᄠAI_PupHeadC_Normal_01   ¨ᄠ<교전 기록 없음>Àx  ­s  	¿x  ©ᄠAG-1 네레이드_적                          ªᄠSkillGroup_MP_Nereid_EV5      «ᄠModel_MP_Nereid_N¬ᄠFullbodyIMG_MP_Nereid_N­ᄠTbarIcon_MP_Nereid_N®ᄠETCIcon_MP_Nereid_N¯ᄠAI_PupHeadC_Normal_01   °ᄠ<교전 기록 없음>ø  ­s  	¸  ±ᄠ네리의 부하                           ²ᄠSkillGroup_MP_AMG11AA_EV5      ³ᄠModel_MP_AMG11AA_N´ᄠFullbodyIMG_MP_AMG11AA_NµᄠTbarIcon_MP_AMG11AA_N¶ᄠETCIcon_MP_AMG11AA_N·ᄠAI_AAAMG11_Normal_02   ¸ᄠ8결국 부하가 되어버린 불쌍한 기계들이다.Ƹ  ­s  	Ÿ  ¹ᄠ다곤씨 (대여 중)                           ºᄠSkillGroup_MP_GigantesDagon_N      »ᄠModel_MP_GigantesDagon_N¼ᄠFullbodyIMG_MP_GigantesDagon_N½ᄠTbarIcon_MP_GigantesDagon_N¾ᄠETCIcon_MP_GigantesDagon_N¿ᄠAI_MP_Dagon_Event_01   Àᄠ3아르바이트 중인 기간테스인 듯하다...ɸ  ­s  	ȸ  Áᄠ빅 칙 런쳐 G                         ¡ SkillGroup_MP_BigChickMG_N      á Model_MP_BigChickMG_Nġ FullbodyIMG_MP_BigChickMG_Nš TbarIcon_MP_BigChickMG_Nơ ETCIcon_MP_BigChickMG_Nǡ AI_MP_BigChickMG_Normal_01   ȡ ±화력이 뛰어나지만 전기로 센서를 일시적으로 고장낼 수 있는거 같아요. 보조 무장은 약하지만 정밀하니 주의하세요.
-
-
-- 레아 보고함̸  ­s  	˸  ɡ 빅 칙 런쳐 G                         ʡ SkillGroup_MP_BigChickMG_EV1      ˡ Model_MP_BigChickMG_N̡ FullbodyIMG_MP_BigChickMG_N͡ TbarIcon_MP_BigChickMG_NΡ ETCIcon_MP_BigChickMG_Nϡ AI_MP_BigChickMG_Normal_01   С ±화력이 뛰어나지만 전기로 센서를 일시적으로 고장낼 수 있는거 같아요. 보조 무장은 약하지만 정밀하니 주의하세요.
-
-
-- 레아 보고함ϸ  ­s  	θ  ѡ 빅 칙 런쳐 G                         ҡ SkillGroup_MP_BigChickMG_EV2      ӡ Model_MP_BigChickMG_Nԡ FullbodyIMG_MP_BigChickMG_Nա TbarIcon_MP_BigChickMG_N֡ ETCIcon_MP_BigChickMG_Nס AI_MP_BigChickMG_Normal_01   ء ±화력이 뛰어나지만 전기로 센서를 일시적으로 고장낼 수 있는거 같아요. 보조 무장은 약하지만 정밀하니 주의하세요.
-
-
-- 레아 보고함Ҹ  ­s  	Ѹ  ١ 빅 칙 런쳐 G                         ڡ SkillGroup_MP_BigChickMG_EV3      ۡ Model_MP_BigChickMG_Nܡ FullbodyIMG_MP_BigChickMG_Nݡ TbarIcon_MP_BigChickMG_Nޡ ETCIcon_MP_BigChickMG_Nߡ AI_MP_BigChickMG_Normal_01   ࡄ ±화력이 뛰어나지만 전기로 센서를 일시적으로 고장낼 수 있는거 같아요. 보조 무장은 약하지만 정밀하니 주의하세요.
-
-
-- 레아 보고함ո  ­s  	Ը  ᡄ 강화형 케미컬 칙                          ⡄ SkillGroup_MP_NightChickCMS_N      㡄 Model_MP_NightChickCM_N䡄 FullbodyIMG_MP_NightChickCM_N塄 TbarIcon_MP_NightChickCM_N桄 ETCIcon_MP_NightChickCM_N硄 AI_MP_CMChickP_Normal_01   衄 Ɓ냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
-
-
-- 보고자 미호ظ  ­s  	׸  顄 강화형 케미컬 칙                          ꡄ SkillGroup_MP_NightChickCMS_EV1      롄 Model_MP_NightChickCM_N졄 FullbodyIMG_MP_NightChickCM_N𡀠TbarIcon_MP_NightChickCM_N ETCIcon_MP_NightChickCM_N AI_MP_CMChickP_Normal_01   𡄠Ɓ냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
-
-
-- 보고자 미호۸  ­s  	ڸ  񡄠강화형 저거너트                           򡄠SkillGroup_MP_JuggernautP_N      󡄠Model_MP_Juggernaut_N𡄠FullbodyIMG_MP_Juggernaut_NõᄠTbarIcon_MP_Juggernaut_NöᄠETCIcon_MP_Juggernaut_N÷ᄠAI_Hvst_Normal_02   øᄠü성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.
-
-
-- 블랙 하운드޸  ­s  	ݸ  ùᄠ강화형 저거너트                           úᄠSkillGroup_MP_JuggernautP_EV1      ûᄠModel_MP_Juggernaut_NüᄠFullbodyIMG_MP_Juggernaut_NýᄠTbarIcon_MP_Juggernaut_NþᄠETCIcon_MP_Juggernaut_NÿᄠAI_Hvst_Normal_02    ℠ü성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.
-
-
-- 블랙 하운드Ḡ ­s  	ภ ℠	스토커                          ℠SkillGroup_MP_Stalker_EV2      ℠Model_MP_Stalker_B0108℠FullbodyIMG_MP_Stalker_B0108℠TbarIcon_MP_Stalker_B0108℠ETCIcon_MP_Stalker_B0108℠AI_Boss_Stalker_Event_01   ℠¤철충 연결체입니다. 힘을 모아서 엄청난 한 방을 노리는 비열한 타입의 적입니다. 하지만 힘을 모으고 있는 시간은 짧으니 최대한 공격을 늦춰서 제 포를 이용해 처리하는 게 가장 좋아 보이는군요.
-
-
-- 보고자 비스트 헌터丠 ­s  	㸠 	℠강습형 스카우트                         
-℠SkillGroup_MP_ScoutEX_EW      ℠Model_MP_Scout_N℠FullbodyIMG_MP_Scout_N
-℠TbarIcon_MP_Scout_N℠ETCIcon_MP_Scout_N℠AI_Scout_Normal_01   ℠<교전 기록 없음>縠 ­s  	渠 ℠에너지 컨덴서                           ℠SkillGroup_MP_RocCGenerator_EW      ℠Model_MP_RocCGenerator_N℠FullbodyIMG_MP_RocCGenerator_N℠TbarIcon_MP_RocCGenerator_N℠ETCIcon_MP_RocCGenerator_N℠AI_RocGenerator_Normal_01   ℠<교전 기록 없음>긠 ­s  	鸠 ℠언더왓쳐 제네레이터                           ℠&SkillGroup_MP_UnderWatcherGenerator_EW      ℠"Model_MP_UnderWatcherGenerator_B05℠(FullbodyIMG_MP_UnderWatcherGenerator_B05℠%TbarIcon_MP_UnderWatcherGenerator_B05℠$ETCIcon_MP_UnderWatcherGenerator_B05℠AI_UnderWatcherGene_01    ℠<교전 기록 없음>򘀠­s  	츠 !℠언더왓쳐                          "℠SkillGroup_MP_UnderWatcher_EW      #℠Model_MP_UnderWatcher_B05$℠FullbodyIMG_MP_UnderWatcher_B05%℠TbarIcon_MP_UnderWatcher_B05&℠ETCIcon_MP_UnderWatcher_B05'℠AI_UnderWatcher_02   (℠µ전장에서 등장하는 더욱 강력해진 언더왓쳐로 제네레이터로부터 에너지를 공급 받는 한 계속 전투를 이어나갈 수 있습니다.
-
-
-보고자 ???𸠠­s  	︠ )℠언더왓쳐 암                          *℠ SkillGroup_MP_UnderWatcherArm_EW      +℠Model_MP_UnderWatcherArm_B05,℠"FullbodyIMG_MP_UnderWatcherArm_B05-℠TbarIcon_MP_UnderWatcherArm_B05.℠ETCIcon_MP_UnderWatcherArm_B05/℠AI_UnderWatcherArm_02   0℠<교전 기록 없음>󸠠­s  	򸠠1℠언더왓쳐 센서                          2℠#SkillGroup_MP_UnderWatcherSensor_EW      3℠Model_MP_UnderWatcherSensor_B054℠%FullbodyIMG_MP_UnderWatcherSensor_B055℠"TbarIcon_MP_UnderWatcherSensor_B056℠!ETCIcon_MP_UnderWatcherSensor_B057℠AI_UnderWatcherSensor_02   8℠<교전 기록 없음>öx  ­s  	õx  9℠	스토커                          :℠SkillGroup_MP_Stalker_EW      ;℠Model_MP_Stalker_B0108<℠FullbodyIMG_MP_Stalker_B0108=℠TbarIcon_MP_Stalker_B0108>℠ETCIcon_MP_Stalker_B0108?℠AI_Boss_Stalker_01   @℠«전장에서 등장하는 더욱 강력해진 스토커로 매 라운드마다 방어 관통효과가 증가되어 점점 파괴적인 공격을 합니다.
-
-
-보고자 ???ùx  ­s  	øx  A℠프레데터                          B℠SkillGroup_MP_Predator_EW      C℠Model_MP_Predator_B0208D℠FullbodyIMG_MP_Predator_B0208E℠TbarIcon_MP_Predator_B0208F℠ETCIcon_MP_Predator_B0208G℠AI_Boss_PWLR_02   H℠전장에서 등장하는 더욱 강력해진 프레데터로 강력한 방어력으로 인해 물리 공격은 통하지 않을 것입니다.
-
-
-보고자 ???üx  ­s  	ûx  I℠트릭스터                          J℠SkillGroup_MP_Kidnapper_EW      K℠Model_MP_Kidnapper_B0308L℠FullbodyIMG_MP_Kidnapper_B0308M℠TbarIcon_MP_Kidnapper_B0308N℠ETCIcon_MP_Kidnapper_B0308O℠AI_TrickSter_01   P℠­전장에서 등장하는 더욱 강력해진 트릭스터로 적을 한번에 괴멸 시킬 수 있는 매우 강력한 반격기를 가지고 있습니다.
-
-
-보고자 ???ÿx  ­s  	þx  Q℠	레이더                         R℠SkillGroup_MP_Raider_EW      S℠Model_MP_Raider_B04_CHT℠FullbodyIMG_MP_Raider_B04U℠TbarIcon_MP_Raider_B04V℠ETCIcon_MP_Raider_B04W℠AI_Raider_02   X℠¤전장에서 등장하는 더욱 강력해진 레이더로 철충들의 공격을 지원하여 지속적으로 막강한 피해를 줄 것입니다.
-
-
-보고자 ???y  ­s  	y  Y℠익스큐셔너                         Z℠SkillGroup_MP_Executioner_EW      [℠Model_MP_Executioner_B06\℠FullbodyIMG_MP_Executioner_B06]℠TbarIcon_MP_Executioner_B06^℠ETCIcon_MP_Executioner_B06_℠AI_Executioner_01   `℠£전장에서 등장하는 더욱 강력해진 익스큐셔너로 블레이드가 파괴된다면 막강한 파괴력을 지니게 될 것입니다.
-
-
-보고자 ???y  ­s  	y  a℠ 익스큐셔너 롱 블레이드                         b℠SkillGroup_MP_ExecutionerLB_EW      c℠Model_MP_ExecutionerRB_B06d℠ FullbodyIMG_MP_ExecutionerRB_B06e℠TbarIcon_MP_ExecutionerRB_B06f℠ETCIcon_MP_ExecutionerRB_B06g℠AI_ExecutionerLB_01   h℠<교전 기록 없음>y  ­s  	y  i℠#익스큐셔너 실드 블레이드                          j℠SkillGroup_MP_ExecutionerRB_EW      k℠Model_MP_ExecutionerLB_B06l℠ FullbodyIMG_MP_ExecutionerLB_B06m℠TbarIcon_MP_ExecutionerLB_B06n℠ETCIcon_MP_ExecutionerLB_B06o℠AI_ExecutionerRB_01   p℠<교전 기록 없음>y  ­s  	
-y  q℠
-둠 이터                          r℠SkillGroup_MP_DoomEater_N_EW2      s℠Model_MP_DoomEater_Nt℠FullbodyIMG_MP_DoomEater_Nu℠TbarIcon_MP_DoomEater_Nv℠ETCIcon_MP_DoomEater_Nw℠AI_Boss_PWLR_EW_02   x℠³같은 철충들을 먹어치워버리는 이 무자비한 철충을 막을 방법은 오직 포식 후, 에너지를 흡수할 때 밖에는 없는 듯 합니다.
-
-
-보고자 ???y  ­s  	
-y  y℠이모탈 익스큐셔너                         z℠!SkillGroup_MP_Executioner_BEW_EW2      {℠Model_MP_Executioner_BEW|℠FullbodyIMG_MP_Executioner_BEW}℠TbarIcon_MP_Executioner_BEW~℠ETCIcon_MP_Executioner_BEW℠AI_Executioner_EW_02   ℠여태껏 보고된 적 없는 새로운 형태의 익스큐셔너로, 제압해도 부활한다는 것만 알려진 상태입니다. 대원들이 공포에 질릴 수 있으니, 불사신 같은 건 없다는 것을 증명해주셔야 합니다.
-
-
-보고자 ???y  ­s  	y  ℠
-나이트 칙℠SkillGroup_MP_NightChick_EW2      ℠Model_MP_NightChick_N℠FullbodyIMG_MP_NightChick_N℠TbarIcon_MP_NightChick_N℠ETCIcon_MP_NightChick_N℠AI_Jako_Normal_01   ℠9둠 이터에게 쫓기는 중인 나이트 칙입니다.y  ­s  	y  ℠개조된 타란튤라                           ℠SkillGroup_MP_Tarantula_EW2      ℠Model_MP_Tarantula_N℠FullbodyIMG_MP_Tarantula_N℠TbarIcon_MP_Tarantula_N℠ETCIcon_MP_Tarantula_N℠AI_Mp_Tarantula_EW_02   ℠ā스스로 내부를 과열하게 되어 자폭을 할 수 있도록 개조된 타란튤라 입니다. 자폭 상태가 되기 전에 과열된 내부를 냉각 시켜야 합니다.
-
-
-보고자 ???y  ­s  	y  ℠
-썬더 칙℠SkillGroup_MP_NightChickTD_EW      ℠Model_MP_NightChickTD_N℠FullbodyIMG_MP_NightChickTD_N℠TbarIcon_MP_NightChickTD_N℠ETCIcon_MP_NightChickTD_N℠AI_ThunderChick_Normal_01   ℠<교전 기록 없음>y  ­s  	y  ℠가상공간 솔져                           ℠SkillGroup_MP_ProgramMobTS_EW      ℠Model_MP_ProgramMobTS_N℠FullbodyIMG_MP_ProgramMobTS_N℠TbarIcon_MP_ProgramMobTS_N℠ETCIcon_MP_ProgramMobTS_N℠AI_ProgramMobTS_Normal_01    ℠<교전 기록 없음>y  ­s  	y  ¡℠가상공간 실더                            ¢℠SkillGroup_MP_ProgramMobTT_EW      £℠Model_MP_ProgramMobTT_N¤℠FullbodyIMG_MP_ProgramMobTT_N¥℠TbarIcon_MP_ProgramMobTT_N¦℠ETCIcon_MP_ProgramMobTT_N§℠AI_ProgramMobTT_Normal_01   ¨℠<교전 기록 없음> y  ­s  	y  ©℠가상공간 경보기                          ª℠SkillGroup_MP_ProgramMobMS_EW      «℠Model_MP_ProgramMobMS_N¬℠FullbodyIMG_MP_ProgramMobMS_N­℠TbarIcon_MP_ProgramMobMS_N®℠ETCIcon_MP_ProgramMobMS_N¯℠AI_ProgramMobMS_Normal_01   °℠<교전 기록 없음>#y  ­s  	"y  ±℠가상공간 파이터                           ²℠SkillGroup_MP_ProgramMobMT_EW      ³℠Model_MP_ProgramMobMT_N´℠FullbodyIMG_MP_ProgramMobMT_Nµ℠TbarIcon_MP_ProgramMobMT_N¶℠ETCIcon_MP_ProgramMobMT_N·℠AI_ProgramMobMT_Normal_01   ¸℠<교전 기록 없음>&y  ­s  	%y  ¹℠가상공간 스나이퍼                           º℠SkillGroup_MP_ProgramMobTN_EW      »℠Model_MP_ProgramMobTN_N¼℠FullbodyIMG_MP_ProgramMobTN_N½℠TbarIcon_MP_ProgramMobTN_N¾℠ETCIcon_MP_ProgramMobTN_N¿℠AI_ProgramMobTN_Normal_01   À℠<교전 기록 없음>)y  ­s  	(y  Á℠가상공간 패트릭                    ¢ SkillGroup_MP_ProgramMobAS_EW      â Model_MP_ProgramMobAS_NĢ FullbodyIMG_MP_ProgramMobAS_NŢ TbarIcon_MP_ProgramMobAS_NƢ ETCIcon_MP_ProgramMobAS_NǢ AI_ProgramMobAS_Normal_01   Ȣ <교전 기록 없음>,y  ­s  	+y  ɢ 가상공간 봄버                          ʢ SkillGroup_MP_ProgramMobMN_EW      ˢ Model_MP_ProgramMobMN_N̢ FullbodyIMG_MP_ProgramMobMN_N͢ TbarIcon_MP_ProgramMobMN_N΢ ETCIcon_MP_ProgramMobMN_NϢ AI_ProgramMobMN_Normal_01   Т <교전 기록 없음>/y  ­s  	.y  Ѣ 가상공간 캐노니어                          Ң SkillGroup_MP_ProgramMobAN_EW      Ӣ Model_MP_ProgramMobAN_NԢ FullbodyIMG_MP_ProgramMobAN_Nբ TbarIcon_MP_ProgramMobAN_N֢ ETCIcon_MP_ProgramMobAN_Nע AI_ProgramMobAN_Normal_01   آ <교전 기록 없음>2y  ­s  	1y  ٢ 가상공간 탱크                           ڢ SkillGroup_MP_ProgramMobAT_EW      ۢ Model_MP_ProgramMobAT_Nܢ FullbodyIMG_MP_ProgramMobAT_Nݢ TbarIcon_MP_ProgramMobAT_Nޢ ETCIcon_MP_ProgramMobAT_Nߢ AI_ProgramMobAT_Normal_01   ࢄ <교전 기록 없음>5y  ­s  	4y  ᢄ 강화형 나이트 칙                           ⢄ SkillGroup_MP_NightChickEX_EW      㢄 Model_MP_NightChick_N䢄 FullbodyIMG_MP_NightChick_N墄 TbarIcon_MP_NightChick_N梄 ETCIcon_MP_NightChick_N碄 AI_Jako_Special_02   袄 <교전 기록 없음>8y  ­s  	7y  预 나이트 칙 실더 개                           ꢄ SkillGroup_MP_NightChickSI_EW      뢄 Model_MP_NightChickSI_N좄 FullbodyIMG_MP_NightChickSI_N𱀠TbarIcon_MP_NightChickSI_N ETCIcon_MP_NightChickSI_N AI_NCShield_Normal_01   𢄠<교전 기록 없음>;y  ­s  	:y  񢄠나이트 칙 디텍터 G                         򢄠SkillGroup_MP_NightChickDEG_EW      󢄠Model_MP_NightChickDEG_N𢄠FullbodyIMG_MP_NightChickDEG_Nõ℠TbarIcon_MP_NightChickDEG_Nö℠ETCIcon_MP_NightChickDEG_N÷℠AI_NCDetectorG_Normal_01   ø℠<교전 기록 없음>>y  ­s  	=y  ù℠칙 쿼터마스터                           ú℠SkillGroup_MP_NightChickQM_EW      û℠Model_MP_NightChickQM_Nü℠FullbodyIMG_MP_NightChickQM_Ný℠TbarIcon_MP_NightChickQM_Nþ℠ETCIcon_MP_NightChickQM_Nÿ℠AI_NightChickQM_Normal_01    ㄠ<교전 기록 없음>Ay  ­s  	@y  ㄠ칙 스나이퍼                           ㄠSkillGroup_MP_NightChickSP_EW      ㄠModel_MP_NightChickSP_NㄠFullbodyIMG_MP_NightChickSP_NㄠTbarIcon_MP_NightChickSP_NㄠETCIcon_MP_NightChickSP_NㄠAI_ProgramMobTN_Normal_01   ㄠ<교전 기록 없음>Dy  ­s  	Cy  	ㄠ빅 칙                    
-ㄠSkillGroup_MP_BigChick_EW      ㄠModel_MP_BigChick_NㄠFullbodyIMG_MP_BigChick_N
-ㄠTbarIcon_MP_BigChick_NㄠETCIcon_MP_BigChick_NㄠAI_BigChickM_01   ㄠ<교전 기록 없음>Gy  ­s  	Fy  ㄠ	매머드                          ㄠSkillGroup_MP_Mammoth_EW      ㄠModel_MP_Mammoth_NㄠFullbodyIMG_MP_Mammoth_NㄠTbarIcon_MP_Mammoth_NㄠETCIcon_MP_Mammoth_NㄠAI_Mp_Mammoth_01   ㄠ<교전 기록 없음>Jy  ­s  	Iy  ㄠ아머드 하베스터                           ㄠSkillGroup_MP_HarvesterEX_EW      ㄠModel_MP_Harvester_NㄠFullbodyIMG_MP_Harvester_NㄠTbarIcon_MP_Harvester_NㄠETCIcon_MP_Harvester_NㄠAI_Hvst_Normal_02    ㄠ<교전 기록 없음>My  ­s  	Ly  !ㄠ강화형 나이트 칙"ㄠSkillGroup_MP_NightChickEX_N      #ㄠModel_MP_NightChick_N$ㄠFullbodyIMG_MP_NightChick_N%ㄠTbarIcon_MP_NightChick_N&ㄠETCIcon_MP_NightChick_N'ㄠAI_Jako_Special_02   (ㄠ큭아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!
-
-
-- 보고자 그렘린입니당! Py  ­s  	Oy  )ㄠ강화형 칙 런쳐*ㄠSkillGroup_MP_NightChickMEX_N      +ㄠModel_MP_NightChickM_N,ㄠFullbodyIMG_MP_NightChickM_N-ㄠTbarIcon_MP_NightChickM_N.ㄠETCIcon_MP_NightChickM_N/ㄠAI_Jako_Normal_01   0ㄠ흔히 볼 수 있는 미사일로 무장한 철충. 무조건 앞으로 돌격하는 모습이 브라우니와 비슷합니다.
-
-
-- 보고자 레프리콘Sy  ­s  	Ry  1ㄠ시작형 빅 칙                         2ㄠSkillGroup_MP_BigChickEX_N      3ㄠModel_MP_BigChick_N4ㄠFullbodyIMG_MP_BigChick_N5ㄠTbarIcon_MP_BigChick_N6ㄠETCIcon_MP_BigChick_N7ㄠAI_Jako_Normal_01   8ㄠ恬청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!
-
-
-- 보고자 브라우니지 말임다.Vy  ­s  	Uy  9ㄠ빅 칙 런쳐                         :ㄠSkillGroup_MP_BigChickM_N      ;ㄠModel_MP_BigChickM_N<ㄠFullbodyIMG_MP_BigChickM_N=ㄠTbarIcon_MP_BigChickM_N>ㄠETCIcon_MP_BigChickM_N?ㄠAI_BigChickM_01   @ㄠ엄청나게 피하기 힘든 미사일을 마구 쏴댐. 멀리서 처리하는 게 제일 좋을 것 같아.
-
-
-- 핀토가 정찰 중 보고Yy  ­s  	Xy  Aㄠ
-케미컬 칙                          BㄠSkillGroup_MP_NightChickCM_N      CㄠModel_MP_NightChickCM_NDㄠFullbodyIMG_MP_NightChickCM_NEㄠTbarIcon_MP_NightChickCM_NFㄠETCIcon_MP_NightChickCM_NGㄠAI_Jako_Normal_01   HㄠƁ냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…
-
-
-- 보고자 미호\y  ­s  	[y  Iㄠ강습형 스카우트                         JㄠSkillGroup_MP_ScoutEX_N      KㄠModel_MP_Scout_NLㄠFullbodyIMG_MP_Scout_NMㄠTbarIcon_MP_Scout_NNㄠETCIcon_MP_Scout_NOㄠAI_Scout_Normal_01   Pㄠ¾저 망할 날파리들! 엄청 빨라서 잘 맞지도 않고 뭐만 하려하면 방해해서 진짜 짜증나는 녀석들이야. 백발백중인 미호가 필요해!
-
-
-- 스틸 드라코_y  ­s  	^y  Qㄠ아머드 하베스터                    RㄠSkillGroup_MP_HarvesterEX_N      SㄠModel_MP_Harvester_NTㄠFullbodyIMG_MP_Harvester_NUㄠTbarIcon_MP_Harvester_NVㄠETCIcon_MP_Harvester_NWㄠAI_Hvst_Normal_02   Xㄠ܁얘는 원래는 나처럼 일하던 애였던 것 같아. 멀리 있는 적을 갈고리로 당겨오니 주의하는 게 좋아. 나처럼 힘들게 사는 애니 편히 보내 주는 게 좋을 지도…
-
-
-- 더치걸by  ­s  	ay  Yㄠ개량형 칙 캐논                         ZㄠSkillGroup_MP_NightChickCEX_N      [ㄠModel_MP_NightChickC_N\ㄠFullbodyIMG_MP_NightChickC_N]ㄠTbarIcon_MP_NightChickC_N^ㄠETCIcon_MP_NightChickC_N_ㄠAI_Ncc_Normal_01   `ㄠ박격포로 무장한 나이트 칙인데... 별 거 아닌 폭죽이나 쏴대는 벌레야. 아, 약한 애들한텐 무서우려나?
-
-
-- 메이 보고함ey  ­s  	dy  aㄠ
-FA 빅 칙 II                         bㄠSkillGroup_MP_FABigChickEX_N      cㄠModel_MP_FABigChick_NdㄠFullbodyIMG_MP_FABigChick_NeㄠTbarIcon_MP_FABigChick_NfㄠETCIcon_MP_FABigChick_NgㄠAI_FABigChick_01   hㄠ»빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?
-
-
- - 불가사리 보고함hy  ­s  	gy  iㄠ헤비 스카우트                         jㄠSkillGroup_MP_HeavyScout_N      kㄠModel_MP_Scout_V2lㄠFullbodyIMG_MP_Scout_V2mㄠTbarIcon_MP_Scout_V2nㄠETCIcon_MP_Scout_V2oㄠAI_MP_HeavyScout_01   pㄠꁬ¤카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.
-
-
-- 페로 드림ky  ­s  	jy  qㄠ저거너트                           rㄠSkillGroup_MP_Juggernaut_N      sㄠModel_MP_Juggernaut_NtㄠFullbodyIMG_MP_Juggernaut_NuㄠTbarIcon_MP_Juggernaut_NvㄠETCIcon_MP_Juggernaut_NwㄠAI_Hvst_Normal_02   xㄠü성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.
-
-
-- 블랙 하운드ny  ­s  	my  yㄠ	팔랑스                           zㄠSkillGroup_MP_Phalangites_N      {ㄠModel_MP_Phalangites_N|ㄠFullbodyIMG_MP_Phalangites_N}ㄠTbarIcon_MP_Phalangites_N~ㄠETCIcon_MP_Phalangites_NㄠAI_MP_Palanx_01   ㄠþ각이 잡힌 대열로 행군하는 철충입니다. 철충 놈들 중엔 드물게 군기가 들어있지 말입니다. 딱 밀착해서 서로서로를 보호하는 녀석들이니 진형을 아작내는 게 중요하지 말임다.
-
-
-- 블러디팬서qy  ­s  	py  ㄠ정예 레기온                          ㄠSkillGroup_MP_LegionEX_N      ㄠModel_MP_Legion_NㄠFullbodyIMG_MP_Legion_NㄠTbarIcon_MP_Legion_NㄠETCIcon_MP_Legion_NㄠAI_Legion_Normal_03   ㄠ߁공중의 적만 집요하게 노리니 공중 부대 운용 시 주의해! 구리게 보이는 점착제를 떼느라 이틀이나 고생했어. 그거 묻으면 진짜 아싸처럼 보이니 주의하라고!
-
-
-- 실피드ty  ­s  	sy  ㄠ강화형 재퍼                           ㄠSkillGroup_MP_ZapperEX_N      ㄠModel_MP_Zapper_NㄠFullbodyIMG_MP_Zapper_NㄠTbarIcon_MP_Zapper_NㄠETCIcon_MP_Zapper_NㄠAI_Zapper_EX_01   ㄠ호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?
-
-
-- 보고자 블랙 리리스wy  ­s  	vy  ㄠ엘리트 센츄리온                          ㄠSkillGroup_MP_CenturionEX_N      ㄠModel_MP_Centurion_NㄠFullbodyIMG_MP_Centurion_NㄠTbarIcon_MP_Centurion_NㄠETCIcon_MP_Centurion_NㄠAI_Mp_Debuffer_01   ㄠ작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.
-
-
-- 37식 다이카zy  ­s  	yy  ㄠ	와습 HM                         ㄠSkillGroup_MP_WaspEX_N      ㄠModel_MP_Wasp_NㄠFullbodyIMG_MP_Wasp_NㄠTbarIcon_MP_Wasp_NㄠETCIcon_MP_Wasp_NㄠAI_Wasp_Normal_01    ㄠށ누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.
-
-
-- 슬레이프니르}y  ­s  	|y  ¡ㄠ스캐럽 HC                          ¢ㄠSkillGroup_MP_ScarabEX_N      £ㄠModel_MP_Scarab_N¤ㄠFullbodyIMG_MP_Scarab_N¥ㄠTbarIcon_MP_Scarab_N¦ㄠETCIcon_MP_Scarab_N§ㄠAI_Scarab_01   ¨ㄠぬ´상한 구조인데 잘도 나는 거 있지? 나 저거 꼭 분해하고 싶으니까 잡히면 나한테 보내 줘야 해! 겁쟁이라 무서우면 방어를 하니까 빨리 해치우는 게 좋아.
-
-
-- 보고자 닥터y  ­s  	y  ©ㄠ
-썬더 칙ªㄠSkillGroup_MP_NightChickTD_N      «ㄠModel_MP_NightChickTD_N¬ㄠFullbodyIMG_MP_NightChickTD_N­ㄠTbarIcon_MP_NightChickTD_N®ㄠETCIcon_MP_NightChickTD_N¯ㄠAI_ThunderChick_Normal_01   °ㄠ¼아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.
-
-
- - 켈베로스 보고함y  ­s  	y  ±ㄠ
-아쿠아 칙                          ²ㄠSkillGroup_MP_NightChickAQ_N      ³ㄠModel_MP_NightChickAQ_N´ㄠFullbodyIMG_MP_NightChickAQ_NµㄠTbarIcon_MP_NightChickAQ_N¶ㄠETCIcon_MP_NightChickAQ_N·ㄠAI_AquaChick_Normal_01   ¸ㄠ물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!
-
-
- - 아쿠아 보고함y  ­s  	y  ¹ㄠ칠러                         ºㄠSkillGroup_MP_Chiller_N      »ㄠModel_MP_Chiller_N¼ㄠFullbodyIMG_MP_Chiller_N½ㄠTbarIcon_MP_Chiller_N¾ㄠETCIcon_MP_Chiller_N¿ㄠAI_Chiller_Normal_01   Àㄠ:물… 절대 뿌리지 말것…
-
-
- - 서펀트 보고함y  ­s  	y  Áㄠ빅 칙 실더                          £ SkillGroup_MP_BigChickS_N      ã Model_MP_BigChickS_Nģ FullbodyIMG_MP_BigChickS_Nţ TbarIcon_MP_BigChickS_Nƣ ETCIcon_MP_BigChickS_Nǣ AI_BigChickShield_Normal_01   ȣ 제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!
-
-
- - 스틸 드라코 보고함y  ­s  	y  ɣ 나이트 칙 디텍터 G                          ʣ SkillGroup_MP_NightChickDEG_N      ˣ Model_MP_NightChickDE_N̣ FullbodyIMG_MP_NightChickDE_Nͣ TbarIcon_MP_NightChickDE_NΣ ETCIcon_MP_NightChickDE_Nϣ AI_NCDetectorG_Normal_01   У 지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.
-
-
- - 다이카 보고함y  ­s  	y  ѣ 케미컬 칙 Type-Xң SkillGroup_MP_NightChickCMP_N      ӣ Model_MP_NightChickCMP_Nԣ FullbodyIMG_MP_NightChickCMP_Nգ TbarIcon_MP_NightChickCMP_N֣ ETCIcon_MP_NightChickCMP_Nף AI_MP_CMChickX_Normal_01   أ ¡히익… 다신 보기 싫을 정도로 징그러웠어요…... 불에는 약한지 불을 붙이니 폭발해서 깜짝 놀랐네요.
-
-
- - 뽀끄루 보고함y  ­s  	y  ٣ 테스투도                           ڣ SkillGroup_MP_Testudo_N      ۣ Model_MP_Testudo_Nܣ FullbodyIMG_MP_Testudo_Nݣ TbarIcon_MP_Testudo_Nޣ ETCIcon_MP_Testudo_Nߣ AI_Mp_Testudo_Normal_01   ࣄ ½트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!
-
-
-- 샬럿 보고함y  ­s  	y  ᣄ 엘리트 레기온                          ⣄ SkillGroup_MP_LegionElite_N      㣄 Model_MP_Legion_N䣄 FullbodyIMG_MP_Legion_N壄 TbarIcon_MP_Legion_N棄 ETCIcon_MP_Legion_N磄 AI_Mp_LegionElite_Normal_01   裄 ö화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!
-
-
-- 파니 보고함y  ­s  	y  飄 센츄리온 제네럴                          ꣄ SkillGroup_MP_CenturionG_N      룄 Model_MP_CenturionG_N죄 FullbodyIMG_MP_CenturionG_N񁀠TbarIcon_MP_CenturionG_N ETCIcon_MP_CenturionG_N AI_Mp_CenturionG_Normal_01   𣄠¿지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...
-
-
-- 이프리트 보고함y  ­s  	y  񣄠강화형 칙 실더                           򣄠SkillGroup_MP_NightChickShEx_N      󣄠Model_MP_NightChickS_N𣄠FullbodyIMG_MP_NightChickS_NõㄠTbarIcon_MP_NightChickS_NöㄠETCIcon_MP_NightChickS_N÷ㄠAI_Mp_NCShieldEx_Normal_01   øㄠ¾
+보고자 ???
+강화형 칙 실더
 일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
 
 
-- 피닉스 보고함y  ­s  	y  ùㄠ강화형 칙 실더                           úㄠ SkillGroup_MP_NightChickShEx_TU2      ûㄠModel_MP_NightChickS_NüㄠFullbodyIMG_MP_NightChickS_NýㄠTbarIcon_MP_NightChickS_NþㄠETCIcon_MP_NightChickS_NÿㄠAI_Mp_NCShieldEx_Normal_01    䄠¾일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
+- 피닉스 보고함
+타란튤라
+가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?
 
 
-- 피닉스 보고함¡y  ­s  	 y  䄠강화형 칙 실더                           䄠 SkillGroup_MP_NightChickShEx_TU3      䄠Model_MP_NightChickS_N䄠FullbodyIMG_MP_NightChickS_N䄠TbarIcon_MP_NightChickS_N䄠ETCIcon_MP_NightChickS_N䄠AI_Mp_NCShieldEx_Normal_01   䄠¾일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
+ - 베라 보고함
+강화형 칙 디텍터
+강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.
 
 
-- 피닉스 보고함¤y  ­s  	£y  	䄠강화형 칙 실더                           
-䄠 SkillGroup_MP_NightChickShEx_TU4      䄠Model_MP_NightChickS_N䄠FullbodyIMG_MP_NightChickS_N
-䄠TbarIcon_MP_NightChickS_N䄠ETCIcon_MP_NightChickS_N䄠AI_Mp_NCShieldEx_Normal_01   䄠¾일반적인 칙 실더랑 다르게 어디에서나 방어하네? 대열을 짜기 시작하면 귀찮아질 거 같으니 빨리 처리하는 게 좋을 것 같아.
-
-
-- 피닉스 보고함§y  ­s  	¦y  䄠타란튤라                           䄠SkillGroup_MP_Tarantula_N      䄠Model_MP_Tarantula_N䄠FullbodyIMG_MP_Tarantula_N䄠TbarIcon_MP_Tarantula_N䄠ETCIcon_MP_Tarantula_N䄠AI_Mp_Tarantula_Normal_01   䄠가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?
-
-
- - 베라 보고함ªy  ­s  	©y  䄠타란튤라                           䄠SkillGroup_MP_Tarantula_TU2      䄠Model_MP_Tarantula_N䄠FullbodyIMG_MP_Tarantula_N䄠TbarIcon_MP_Tarantula_N䄠ETCIcon_MP_Tarantula_N䄠AI_Mp_Tarantula_Normal_02    䄠가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?
-
-
- - 베라 보고함­y  ­s  	¬y  !䄠타란튤라                           "䄠SkillGroup_MP_Tarantula_TU3      #䄠Model_MP_Tarantula_N$䄠FullbodyIMG_MP_Tarantula_N%䄠TbarIcon_MP_Tarantula_N&䄠ETCIcon_MP_Tarantula_N'䄠AI_Mp_Tarantula_Normal_02   (䄠가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?
-
-
- - 베라 보고함°y  ­s  	¯y  )䄠타란튤라                           *䄠SkillGroup_MP_Tarantula_TU4      +䄠Model_MP_Tarantula_N,䄠FullbodyIMG_MP_Tarantula_N-䄠TbarIcon_MP_Tarantula_N.䄠ETCIcon_MP_Tarantula_N/䄠AI_Mp_Tarantula_Normal_02   0䄠가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?
-
-
- - 베라 보고함³y  ­s  	²y  1䄠강화형 칙 디텍터                          2䄠SkillGroup_MP_NightChickDEX_N      3䄠Model_MP_NightChickDE_N4䄠FullbodyIMG_MP_NightChickDE_N5䄠TbarIcon_MP_NightChickDE_N6䄠ETCIcon_MP_NightChickDE_N7䄠AI_Mp_ChDetectorEx_Normal_01   8䄠±강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.
-
-
-- 엠프리스 보고함¶y  ­s  	µy  9䄠강화형 칙 디텍터                          :䄠SkillGroup_MP_NightChickDEX_TU2      ;䄠Model_MP_NightChickDE_N<䄠FullbodyIMG_MP_NightChickDE_N=䄠TbarIcon_MP_NightChickDE_N>䄠ETCIcon_MP_NightChickDE_N?䄠AI_Mp_ChDetectorEx_Normal_01   @䄠±강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.
-
-
-- 엠프리스 보고함¹y  ­s  	¸y  A䄠강화형 칙 디텍터                          B䄠SkillGroup_MP_NightChickDEX_TU3      C䄠Model_MP_NightChickDE_ND䄠FullbodyIMG_MP_NightChickDE_NE䄠TbarIcon_MP_NightChickDE_NF䄠ETCIcon_MP_NightChickDE_NG䄠AI_Mp_ChDetectorEx_Normal_01   H䄠±강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.
-
-
-- 엠프리스 보고함¼y  ­s  	»y  I䄠강화형 칙 디텍터                          J䄠SkillGroup_MP_NightChickDEX_TU4      K䄠Model_MP_NightChickDE_NL䄠FullbodyIMG_MP_NightChickDE_NM䄠TbarIcon_MP_NightChickDE_NN䄠ETCIcon_MP_NightChickDE_NO䄠AI_Mp_ChDetectorEx_Normal_01   P䄠±강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.
-
-
-- 엠프리스 보고함¿y  ­s  	¾y  Q䄠
-프로스트바이트                    R䄠SkillGroup_MP_Frostbite_N      S䄠Model_MP_Frostbite_NT䄠FullbodyIMG_MP_Frostbite_NU䄠TbarIcon_MP_Frostbite_NV䄠ETCIcon_MP_Frostbite_NW䄠AI_Mp_Frostbite_Normal_01   X䄠
+- 엠프리스 보고함
+프로스트바이트
 유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
 
 
 - 기간테스 보고함
-¹  ­s  	Áy  Y䄠프로스트바이트                    Z䄠SkillGroup_MP_Frostbite_TU      [䄠Model_MP_Frostbite_N\䄠FullbodyIMG_MP_Frostbite_N]䄠TbarIcon_MP_Frostbite_N^䄠ETCIcon_MP_Frostbite_N_䄠AI_Mp_Frostbite_Normal_01   `䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
-
-
-- 기간테스 보고함Ź  ­s  	Ĺ  a䄠프로스트바이트                    b䄠SkillGroup_MP_Frostbite_TU2      c䄠Model_MP_Frostbite_Nd䄠FullbodyIMG_MP_Frostbite_Ne䄠TbarIcon_MP_Frostbite_Nf䄠ETCIcon_MP_Frostbite_Ng䄠AI_Mp_Frostbite_Normal_01   h䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
-
-
-- 기간테스 보고함ȹ  ­s  	ǹ  i䄠프로스트바이트                    j䄠SkillGroup_MP_Frostbite_TU3      k䄠Model_MP_Frostbite_Nl䄠FullbodyIMG_MP_Frostbite_Nm䄠TbarIcon_MP_Frostbite_Nn䄠ETCIcon_MP_Frostbite_No䄠AI_Mp_Frostbite_Normal_01   p䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
-
-
-- 기간테스 보고함˹  ­s  	ʹ  q䄠프로스트바이트                    r䄠SkillGroup_MP_Frostbite_TU4      s䄠Model_MP_Frostbite_Nt䄠FullbodyIMG_MP_Frostbite_Nu䄠TbarIcon_MP_Frostbite_Nv䄠ETCIcon_MP_Frostbite_Nw䄠AI_Mp_Frostbite_Normal_01   x䄠유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.
-
-
-- 기간테스 보고함ι  ­s  	͹  y䄠디스트로이어                          z䄠SkillGroup_MP_Destroyer_N      {䄠Model_MP_Destroyer_N|䄠FullbodyIMG_MP_Destroyer_N}䄠TbarIcon_MP_Destroyer_N~䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>ѹ  ­s  	й  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>Թ  ­s  	ӹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU2      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>׹  ­s  	ֹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU3      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01   䄠<교전 기록 없음>ڹ  ­s  	ٹ  䄠디스트로이어                          䄠SkillGroup_MP_Destroyer_TU4      䄠Model_MP_Destroyer_N䄠FullbodyIMG_MP_Destroyer_N䄠TbarIcon_MP_Destroyer_N䄠ETCIcon_MP_Destroyer_N䄠AI_Mp_Destroyer_Normal_01    䄠<교전 기록 없음>ݹ  ­s  	ܹ  ¡䄠
+디스트로이어
+<교전 기록 없음>
 나이트 칙 디텍터 AA
 대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
 
 
 - 레드후드의 명령을 브라우니가 기록함
-๠ ­s  	߹  ©䄠나이트 칙 디텍터 AA                          ª䄠SkillGroup_MP_NightChickDEAA_TU      «䄠Model_MP_NightChickDEAA_N¬䄠FullbodyIMG_MP_NightChickDEAA_N­䄠TbarIcon_MP_NightChickDEAA_N®䄠ETCIcon_MP_NightChickDEAA_N¯䄠AI_Mp_NCDetectorAA_Normal_01   °䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
-
-
-- 레드후드의 명령을 브라우니가 기록함㹠 ­s  	⹠ ±䄠나이트 칙 디텍터 AA                          ²䄠 SkillGroup_MP_NightChickDEAA_TU2      ³䄠Model_MP_NightChickDEAA_N´䄠FullbodyIMG_MP_NightChickDEAA_Nµ䄠TbarIcon_MP_NightChickDEAA_N¶䄠ETCIcon_MP_NightChickDEAA_N·䄠AI_Mp_NCDetectorAA_Normal_01   ¸䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
-
-
-- 레드후드의 명령을 브라우니가 기록함湠 ­s  	幠 ¹䄠나이트 칙 디텍터 AA                          º䄠 SkillGroup_MP_NightChickDEAA_TU3      »䄠Model_MP_NightChickDEAA_N¼䄠FullbodyIMG_MP_NightChickDEAA_N½䄠TbarIcon_MP_NightChickDEAA_N¾䄠ETCIcon_MP_NightChickDEAA_N¿䄠AI_Mp_NCDetectorAA_Normal_01   À䄠«대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
-
-
-- 레드후드의 명령을 브라우니가 기록함鹠 ­s  	蹠 Á䄠나이트 칙 디텍터 AA                          ¤  SkillGroup_MP_NightChickDEAA_TU4      ä Model_MP_NightChickDEAA_NĤ FullbodyIMG_MP_NightChickDEAA_NŤ TbarIcon_MP_NightChickDEAA_NƤ ETCIcon_MP_NightChickDEAA_NǤ AI_Mp_NCDetectorAA_Normal_01   Ȥ «대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!
-
-
-- 레드후드의 명령을 브라우니가 기록함칠 ­s  	빠 ɤ 레기온 Mk.II                          ʤ SkillGroup_MP_LegionMk2_N      ˤ Model_MP_LegionMk2_N̤ FullbodyIMG_MP_LegionMk2_Nͤ TbarIcon_MP_LegionMk2_NΤ ETCIcon_MP_LegionMk2_NϤ AI_Mp_LegionMk2_Normal_01   Ф ù
+레기온 Mk.II
 레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
 
 
-- 아르망 보고함﹠ ­s  	 Ѥ 레기온 Mk.II                          Ҥ SkillGroup_MP_LegionMk2_TU      Ӥ Model_MP_LegionMk2_NԤ FullbodyIMG_MP_LegionMk2_Nդ TbarIcon_MP_LegionMk2_N֤ ETCIcon_MP_LegionMk2_Nפ AI_Mp_LegionMk2_Normal_01   ؤ ù레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
+- 아르망 보고함
+한랭지형 칙 스나이퍼
+보기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.
 
 
-- 아르망 보고함򹠠­s  	񹠠٤ 레기온 Mk.II                          ڤ SkillGroup_MP_LegionMk2_TU2      ۤ Model_MP_LegionMk2_Nܤ FullbodyIMG_MP_LegionMk2_Nݤ TbarIcon_MP_LegionMk2_Nޤ ETCIcon_MP_LegionMk2_Nߤ AI_Mp_LegionMk2_Normal_01   ऄ ù레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
+- 알비스 보고함
+한랭지형 매머드
+일반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.
 
 
-- 아르망 보고함õy  ­s  	𹠠ᤄ 레기온 Mk.II                          ⤄ SkillGroup_MP_LegionMk2_TU3      㤄 Model_MP_LegionMk2_N䤄 FullbodyIMG_MP_LegionMk2_N处 TbarIcon_MP_LegionMk2_N椄 ETCIcon_MP_LegionMk2_N礄 AI_Mp_LegionMk2_Normal_01   褄 ù레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
-
-
-- 아르망 보고함øy  ­s  	÷y  餄 레기온 Mk.II                          ꤄ SkillGroup_MP_LegionMk2_TU4      뤄 Model_MP_LegionMk2_N줄 FullbodyIMG_MP_LegionMk2_N񑀠TbarIcon_MP_LegionMk2_N ETCIcon_MP_LegionMk2_N滑 AI_Mp_LegionMk2_Normal_01   𤄠ù레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.
-
-
-- 아르망 보고함ûy  ­s  	úy  񤄠한랭지형 칙 스나이퍼򤄠SkillGroup_MP_NightChickSPW_N      󤄠Model_MP_NightChickSPW_N𤄠FullbodyIMG_MP_NightChickSPW_Nõ䄠TbarIcon_MP_NightChickSPW_Nö䄠ETCIcon_MP_NightChickSPW_N÷䄠AI_Mp_NCSniperWinter_Normal_01   ø䄠󁫳´기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.
-
-
-- 알비스 보고함þy  ­s  	ýy  ù䄠한랭지형 칙 스나이퍼ú䄠SkillGroup_MP_NightChickSPW_TU      û䄠Model_MP_NightChickSPW_Nü䄠FullbodyIMG_MP_NightChickSPW_Ný䄠TbarIcon_MP_NightChickSPW_Nþ䄠ETCIcon_MP_NightChickSPW_Nÿ䄠AI_Mp_NCSniperWinter_Normal_01    儠󁫳´기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.
-
-
-- 알비스 보고함z  ­s  	 z  儠한랭지형 칙 스나이퍼儠SkillGroup_MP_NightChickSPW_TU2      儠Model_MP_NightChickSPW_N儠FullbodyIMG_MP_NightChickSPW_N儠TbarIcon_MP_NightChickSPW_N儠ETCIcon_MP_NightChickSPW_N儠AI_Mp_NCSniperWinter_Normal_01   儠󁫳´기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.
-
-
-- 알비스 보고함z  ­s  	z  	儠한랭지형 칙 스나이퍼
-儠SkillGroup_MP_NightChickSPW_TU3      儠Model_MP_NightChickSPW_N儠FullbodyIMG_MP_NightChickSPW_N
-儠TbarIcon_MP_NightChickSPW_N儠ETCIcon_MP_NightChickSPW_N儠AI_Mp_NCSniperWinter_Normal_01   儠󁫳´기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.
-
-
-- 알비스 보고함z  ­s  	z  儠한랭지형 칙 스나이퍼儠SkillGroup_MP_NightChickSPW_TU4      儠Model_MP_NightChickSPW_N儠FullbodyIMG_MP_NightChickSPW_N儠TbarIcon_MP_NightChickSPW_N儠ETCIcon_MP_NightChickSPW_N儠AI_Mp_NCSniperWinter_Normal_01   儠󁫳´기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.
-
-
-- 알비스 보고함
-z  ­s  		z  儠한랭지형 매머드                          儠SkillGroup_MP_MammothW_N      儠Model_MP_MammothW_N儠FullbodyIMG_MP_MammothW_N儠TbarIcon_MP_MammothW_N儠ETCIcon_MP_MammothW_N儠AI_Mp_MammothW_Normal_01    儠ၬ¼반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.
-
-
-- 탈론페더 보고함
-z  ­s  	z  !儠한랭지형 매머드                          "儠SkillGroup_MP_MammothW_TU      #儠Model_MP_MammothW_N$儠FullbodyIMG_MP_MammothW_N%儠TbarIcon_MP_MammothW_N&儠ETCIcon_MP_MammothW_N'儠AI_Mp_MammothW_Normal_01   (儠ၬ¼반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.
-
-
-- 탈론페더 보고함z  ­s  	z  )儠한랭지형 매머드                          *儠SkillGroup_MP_MammothW_TU2      +儠Model_MP_MammothW_N,儠FullbodyIMG_MP_MammothW_N-儠TbarIcon_MP_MammothW_N.儠ETCIcon_MP_MammothW_N/儠AI_Mp_MammothW_Normal_01   0儠ၬ¼반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.
-
-
-- 탈론페더 보고함z  ­s  	z  1儠한랭지형 매머드                          2儠SkillGroup_MP_MammothW_TU3      3儠Model_MP_MammothW_N4儠FullbodyIMG_MP_MammothW_N5儠TbarIcon_MP_MammothW_N6儠ETCIcon_MP_MammothW_N7儠AI_Mp_MammothW_Normal_01   8儠ၬ¼반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.
-
-
-- 탈론페더 보고함z  ­s  	z  9儠한랭지형 매머드                          :儠SkillGroup_MP_MammothW_TU4      ;儠Model_MP_MammothW_N<儠FullbodyIMG_MP_MammothW_N=儠TbarIcon_MP_MammothW_N>儠ETCIcon_MP_MammothW_N?儠AI_Mp_MammothW_Normal_01   @儠ၬ¼반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.
-
-
-- 탈론페더 보고함z  
-]
+- 탈론페더 보고함
