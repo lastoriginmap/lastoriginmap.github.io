@@ -130,7 +130,7 @@ function selectSkill()
 	document.getElementById("input-skillrange").value = getSkillValue("range");
 	document.getElementById("input-skillAP").value = getSkillValue("AP");
 	document.getElementById("input-skillattr").value = getSkillValue("attr");
-	document.getElementById("input-skilldesc").value = getSkillValue("description");
+	document.getElementById("input-skilldesc").value = getSkillValue("description").replace(/<br\s*[\/]?>/gi, "\n");
 	document.getElementById("input-skillarea").value = getSkillValue("areadata");
 	
 	document.getElementById("input-result").value = JSON.stringify(enemyDataArr, null, 2);
@@ -155,7 +155,7 @@ function submitSkill()
 	skillData.range = document.getElementById("input-skillrange").value;
 	skillData.AP = document.getElementById("input-skillAP").value;
 	skillData.attr = document.getElementById("input-skillattr").value;
-	skillData.description = document.getElementById("input-skilldesc").value;
+	skillData.description = document.getElementById("input-skilldesc").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
 	skillData.areadata = document.getElementById("input-skillarea").value.split(',').map(el=>parseFloat(el));
 	if(skillData.attr==="") delete skillData.attr;
 	
