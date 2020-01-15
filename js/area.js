@@ -22,9 +22,9 @@ function drawArea(areaData)
 	for(var i = 0;i<areaData.stage.length;i++)
 	{
 		var data = areaData.stage[i];
-		var type = stageType[stageTypeTitle.indexOf(getTypeByStageTitle(data.title))]+"stage";
-		var index = getIndexByStageTitle(data.title);
 		var grid = getGridByStageData(data);
+		var index = getIndexByStageGrid(grid);
+		var type = stageType[stageTypeTitle.indexOf(getTypeByStageGrid(grid))]+"stage";
 		var name = data.name || data.title;
 		$("#"+type+"-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+type+"\" id=\""+type+index+"\"></div><div class=\"title-container\">"+name+"</div></a>");
 		var stageBox = $("#"+type+index)[0];
@@ -72,10 +72,10 @@ function drawCanvas(areaData)
 		var stageData = areaData.stage[i];
 		if(typeof(stageData.prevstage)!= "undefined")
 		{
-			var index = stageTypeTitle.indexOf(getTypeByStageTitle(stageData.prevstage))
 			var prevStageData = areaData.stage.find(data=>{ return data.title == stageData.prevstage; });
 			var prevGrid = getGridByStageData(prevStageData);
 			var grid = getGridByStageData(stageData);
+			var index = stageTypeTitle.indexOf(getTypeByStageGrid(prevGrid));
 			
 			var startpoint = [Math.round((1+grid[0]-0.5*(grid[1]%2))*unit), Math.round((0.75+grid[1])*0.55*unit)];
 			var endpoint = [Math.round((1+prevGrid[0]-0.5*(prevGrid[1]%2))*unit), Math.round((0.75+prevGrid[1])*0.55*unit)];
@@ -96,7 +96,7 @@ function drawCanvas(areaData)
 	for(var i = 0;i<areaData.stage.length;i++)
 	{
 		var grid = getGridByStageData(areaData.stage[i]);
-		var index = stageTypeTitle.indexOf(getTypeByStageTitle(areaData.stage[i].title))
+		var index = stageTypeTitle.indexOf(getTypeByStageGrid(grid));
 		ctx.strokeStyle = colorArr[index];
 		ctx.fillStyle = "black";
 		ctx.beginPath();
@@ -113,7 +113,7 @@ function drawCanvas(areaData)
 		imgarr[j].j = j;
 		imgarr[j].addEventListener("load", function() {
 			var j = this.j;
-			var stageTypeData = areaData.stage.filter(data=>getTypeByStageTitle(data.title)==stageTypeTitle[j]);
+			var stageTypeData = areaData.stage.filter(data=>getTypeByStageGrid(data.grid)==stageTypeTitle[j]);
 			for(var i = 0;i<stageTypeData.length;i++)
 			{
 				var grid = getGridByStageData(stageTypeData[i]);
@@ -127,6 +127,10 @@ function drawCanvas(areaData)
 function getGridByStageData(stageData)
 {
 	var grid = [];
+	if(stageData.name == "Ev2-1ep")
+	{
+		var asd = 1;
+	}
 	if(typeof(stageData.grid)!= "undefined")
 	{
 		return stageData.grid;

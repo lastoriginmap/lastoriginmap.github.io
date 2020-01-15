@@ -1,6 +1,5 @@
-var areaData = {
-  "updated": false,
-  "title": "리오보로스의 유산 1",
+﻿var areaData = {
+  "title": "리오보로스의 유산 1부 ",
   "areatype": "grid",
   "gridsize": [
     8,
@@ -10,6 +9,10 @@ var areaData = {
     {
       "title": "Ev21-1",
       "name": "Ev-1",
+      "grid": [
+        0,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -25,7 +28,7 @@ var areaData = {
               "ATK": 122,
               "DEF": 23,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 130,
               "DOD": 10,
               "skillpower": [
@@ -37,6 +40,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -50,7 +58,7 @@ var areaData = {
               "ATK": 134,
               "DEF": 30,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -62,6 +70,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -74,7 +87,7 @@ var areaData = {
               "ATK": 103,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 90,
               "DOD": 45,
               "skillpower": [
@@ -84,6 +97,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -91,30 +109,6 @@ var areaData = {
         {
           "title": "wave2",
           "enemy": [
-            {
-              "name": "나이트 칙 실더",
-              "pos": [
-                4
-              ],
-              "LVL": 15,
-              "HP": 825,
-              "ATK": 129,
-              "DEF": 75,
-              "AGI": 3.3,
-              "CRT": -1,
-              "HIT": 100,
-              "DOD": 10,
-              "skillpower": [
-                129,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
             {
               "name": "나이트 칙 런처",
               "pos": [
@@ -125,7 +119,7 @@ var areaData = {
               "ATK": 134,
               "DEF": 30,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -137,28 +131,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "스카우트",
-              "pos": [
-                5
               ],
-              "LVL": 15,
-              "HP": 415,
-              "ATK": 103,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": -1,
-              "HIT": 90,
-              "DOD": 45,
-              "skillpower": [
-                123,
+              "resist": [
+                0,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1
               ]
             },
             {
@@ -172,7 +149,7 @@ var areaData = {
               "ATK": 122,
               "DEF": 23,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 130,
               "DOD": 10,
               "skillpower": [
@@ -184,6 +161,67 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "나이트 칙 실더",
+              "pos": [
+                4
+              ],
+              "LVL": 15,
+              "HP": 825,
+              "ATK": 129,
+              "DEF": 75,
+              "AGI": 3.3,
+              "CRT": 5,
+              "HIT": 100,
+              "DOD": 10,
+              "skillpower": [
+                129,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                20,
+                20,
+                20
+              ]
+            },
+            {
+              "name": "스카우트",
+              "pos": [
+                5
+              ],
+              "LVL": 15,
+              "HP": 415,
+              "ATK": 103,
+              "DEF": 0,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 90,
+              "DOD": 45,
+              "skillpower": [
+                123,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -191,28 +229,6 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
-            {
-              "name": "스카우트",
-              "pos": [
-                4
-              ],
-              "LVL": 16,
-              "HP": 437,
-              "ATK": 107,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": -1,
-              "HIT": 90,
-              "DOD": 45,
-              "skillpower": [
-                129,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "나이트 칙 캐논",
               "pos": [
@@ -224,7 +240,7 @@ var areaData = {
               "ATK": 197,
               "DEF": 42,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -236,30 +252,38 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             },
             {
-              "name": "나이트 칙",
+              "name": "스카우트",
               "pos": [
-                6
+                4
               ],
               "LVL": 16,
-              "HP": 572,
-              "ATK": 127,
-              "DEF": 24,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 130,
-              "DOD": 10,
+              "HP": 437,
+              "ATK": 107,
+              "DEF": 0,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 90,
+              "DOD": 45,
               "skillpower": [
-                127,
-                153,
+                129,
                 0
               ],
               "skillLVL": [
                 1,
-                1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -272,7 +296,7 @@ var areaData = {
               "ATK": 75,
               "DEF": 40,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -286,6 +310,40 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
+              ]
+            },
+            {
+              "name": "나이트 칙",
+              "pos": [
+                6
+              ],
+              "LVL": 16,
+              "HP": 572,
+              "ATK": 127,
+              "DEF": 24,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 130,
+              "DOD": 10,
+              "skillpower": [
+                127,
+                153,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -294,34 +352,16 @@ var areaData = {
     },
     {
       "title": "Ev21-2",
-      "name": "Ev-2",
       "prevstage": "Ev21-1",
+      "name": "Ev-2",
+      "grid": [
+        1,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
-            {
-              "name": "스카우트",
-              "pos": [
-                4
-              ],
-              "LVL": 17,
-              "HP": 460,
-              "ATK": 112,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": -1,
-              "HIT": 90,
-              "DOD": 45,
-              "skillpower": [
-                134,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "나이트 칙 런처",
               "pos": [
@@ -334,7 +374,7 @@ var areaData = {
               "ATK": 146,
               "DEF": 32,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -346,6 +386,38 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "스카우트",
+              "pos": [
+                4
+              ],
+              "LVL": 17,
+              "HP": 460,
+              "ATK": 112,
+              "DEF": 0,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 90,
+              "DOD": 45,
+              "skillpower": [
+                134,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -358,7 +430,7 @@ var areaData = {
               "ATK": 173,
               "DEF": 90,
               "AGI": 3.2,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -368,6 +440,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             }
           ]
@@ -375,6 +452,36 @@ var areaData = {
         {
           "title": "wave2",
           "enemy": [
+            {
+              "name": "나이트 칙",
+              "pos": [
+                8,
+                6
+              ],
+              "LVL": 17,
+              "HP": 602,
+              "ATK": 133,
+              "DEF": 24,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 130,
+              "DOD": 10,
+              "skillpower": [
+                133,
+                159,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
             {
               "name": "나이트 칙 실더 개",
               "pos": [
@@ -385,7 +492,7 @@ var areaData = {
               "ATK": 125,
               "DEF": 55,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 10,
               "skillpower": [
@@ -397,6 +504,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                35,
+                35,
+                35
               ]
             },
             {
@@ -409,7 +521,7 @@ var areaData = {
               "ATK": 206,
               "DEF": 44,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -421,31 +533,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙",
-              "pos": [
-                8,
-                6
               ],
-              "LVL": 17,
-              "HP": 602,
-              "ATK": 133,
-              "DEF": 24,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 130,
-              "DOD": 10,
-              "skillpower": [
-                133,
-                159,
+              "resist": [
+                25,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
@@ -458,7 +550,7 @@ var areaData = {
               "ATK": 112,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 90,
               "DOD": 45,
               "skillpower": [
@@ -468,6 +560,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -486,7 +583,7 @@ var areaData = {
               "ATK": 116,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 90,
               "DOD": 45,
               "skillpower": [
@@ -496,30 +593,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 캐논",
-              "pos": [
-                6
               ],
-              "LVL": 18,
-              "HP": 630,
-              "ATK": 214,
-              "DEF": 45,
-              "AGI": 3.25,
-              "CRT": -1,
-              "HIT": 95,
-              "DOD": 0,
-              "skillpower": [
-                171,
-                375,
+              "resist": [
+                0,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
@@ -532,7 +610,7 @@ var areaData = {
               "ATK": 125,
               "DEF": 40,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -544,6 +622,40 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
+              ]
+            },
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                6
+              ],
+              "LVL": 18,
+              "HP": 630,
+              "ATK": 214,
+              "DEF": 45,
+              "AGI": 3.25,
+              "CRT": 5,
+              "HIT": 95,
+              "DOD": 0,
+              "skillpower": [
+                171,
+                375,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             },
             {
@@ -556,7 +668,7 @@ var areaData = {
               "ATK": 79,
               "DEF": 41,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -570,6 +682,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -578,8 +695,12 @@ var areaData = {
     },
     {
       "title": "Ev21-3",
-      "name": "Ev-3",
       "prevstage": "Ev21-2",
+      "name": "Ev-3",
+      "grid": [
+        2,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -594,7 +715,7 @@ var areaData = {
               "ATK": 164,
               "DEF": 34,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -606,32 +727,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                2
               ],
-              "LVL": 20,
-              "HP": 595,
-              "ATK": 116,
-              "DEF": 24,
-              "AGI": 4.1,
-              "CRT": -1,
-              "HIT": 180,
-              "DOD": 30,
-              "skillpower": [
-                116,
+              "resist": [
                 0,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
               ]
             },
             {
@@ -645,7 +745,7 @@ var areaData = {
               "ATK": 125,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 90,
               "DOD": 45,
               "skillpower": [
@@ -655,6 +755,42 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "나이트 칙 디텍터",
+              "pos": [
+                2
+              ],
+              "LVL": 20,
+              "HP": 595,
+              "ATK": 116,
+              "DEF": 24,
+              "AGI": 4.1,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 30,
+              "skillpower": [
+                116,
+                1,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                10,
+                10,
+                10
               ]
             },
             {
@@ -667,7 +803,7 @@ var areaData = {
               "ATK": 197,
               "DEF": 97,
               "AGI": 3.2,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -677,6 +813,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             }
           ]
@@ -684,28 +825,6 @@ var areaData = {
         {
           "title": "wave2",
           "enemy": [
-            {
-              "name": "하베스터",
-              "pos": [
-                4
-              ],
-              "LVL": 20,
-              "HP": 960,
-              "ATK": 197,
-              "DEF": 97,
-              "AGI": 3.2,
-              "CRT": -1,
-              "HIT": 85,
-              "DOD": 0,
-              "skillpower": [
-                394,
-                98
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "나이트 칙 실더",
               "pos": [
@@ -717,7 +836,7 @@ var areaData = {
               "ATK": 159,
               "DEF": 87,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 10,
               "skillpower": [
@@ -729,6 +848,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                20,
+                20,
+                20
               ]
             },
             {
@@ -742,7 +866,7 @@ var areaData = {
               "ATK": 231,
               "DEF": 48,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -754,6 +878,38 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "하베스터",
+              "pos": [
+                4
+              ],
+              "LVL": 20,
+              "HP": 960,
+              "ATK": 197,
+              "DEF": 97,
+              "AGI": 3.2,
+              "CRT": 5,
+              "HIT": 85,
+              "DOD": 0,
+              "skillpower": [
+                394,
+                98
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             }
           ]
@@ -772,7 +928,7 @@ var areaData = {
               "ATK": 155,
               "DEF": 27,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 130,
               "DOD": 10,
               "skillpower": [
@@ -784,6 +940,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -797,7 +958,7 @@ var areaData = {
               "ATK": 170,
               "DEF": 35,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -809,6 +970,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -821,7 +987,7 @@ var areaData = {
               "ATK": 134,
               "DEF": 16,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 40,
               "skillpower": [
@@ -835,6 +1001,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
               ]
             }
           ]
@@ -843,8 +1014,12 @@ var areaData = {
     },
     {
       "title": "Ev21-4",
-      "name": "Ev-4",
       "prevstage": "Ev21-3",
+      "name": "Ev-4",
+      "grid": [
+        3,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -860,7 +1035,7 @@ var areaData = {
               "ATK": 166,
               "DEF": 28,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 130,
               "DOD": 10,
               "skillpower": [
@@ -872,6 +1047,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -886,7 +1066,7 @@ var areaData = {
               "ATK": 182,
               "DEF": 36,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -898,6 +1078,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -910,7 +1095,7 @@ var areaData = {
               "ATK": 95,
               "DEF": 47,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -924,6 +1109,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -942,7 +1132,7 @@ var areaData = {
               "ATK": 139,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 90,
               "DOD": 45,
               "skillpower": [
@@ -952,54 +1142,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "하베스터",
-              "pos": [
-                5
               ],
-              "LVL": 23,
-              "HP": 1080,
-              "ATK": 221,
-              "DEF": 105,
-              "AGI": 3.2,
-              "CRT": -1,
-              "HIT": 85,
-              "DOD": 0,
-              "skillpower": [
-                442,
-                110
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
-            {
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                6
-              ],
-              "LVL": 23,
-              "HP": 670,
-              "ATK": 128,
-              "DEF": 25,
-              "AGI": 4.1,
-              "CRT": -1,
-              "HIT": 180,
-              "DOD": 30,
-              "skillpower": [
-                128,
+              "resist": [
                 0,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
               ]
             },
             {
@@ -1013,7 +1160,7 @@ var areaData = {
               "ATK": 257,
               "DEF": 53,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1025,6 +1172,69 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "하베스터",
+              "pos": [
+                5
+              ],
+              "LVL": 23,
+              "HP": 1080,
+              "ATK": 221,
+              "DEF": 105,
+              "AGI": 3.2,
+              "CRT": 5,
+              "HIT": 85,
+              "DOD": 0,
+              "skillpower": [
+                442,
+                110
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                15,
+                15,
+                15
+              ]
+            },
+            {
+              "name": "나이트 칙 디텍터",
+              "pos": [
+                6
+              ],
+              "LVL": 23,
+              "HP": 670,
+              "ATK": 128,
+              "DEF": 25,
+              "AGI": 4.1,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 30,
+              "skillpower": [
+                128,
+                1,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                10,
+                10,
+                10
               ]
             }
           ]
@@ -1044,7 +1254,7 @@ var areaData = {
               "ATK": 265,
               "DEF": 54,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1056,58 +1266,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "썬더 칙",
-              "pos": [
-                5
               ],
-              "LVL": 16,
-              "HP": 800,
-              "ATK": 147,
-              "DEF": 17,
-              "AGI": 4.05,
-              "CRT": -1,
-              "HIT": 150,
-              "DOD": 40,
-              "skillpower": [
-                147,
-                147,
+              "resist": [
+                25,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "아쿠아 칙",
-              "pos": [
-                3
-              ],
-              "LVL": 16,
-              "HP": 925,
-              "ATK": 95,
-              "DEF": 47,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 200,
-              "DOD": 15,
-              "skillpower": [
-                95,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
               ]
             },
             {
@@ -1120,7 +1283,7 @@ var areaData = {
               "ATK": 111,
               "DEF": 53,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -1134,6 +1297,73 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
+              ]
+            },
+            {
+              "name": "썬더 칙",
+              "pos": [
+                5
+              ],
+              "LVL": 16,
+              "HP": 800,
+              "ATK": 147,
+              "DEF": 17,
+              "AGI": 4.05,
+              "CRT": 10,
+              "HIT": 150,
+              "DOD": 40,
+              "skillpower": [
+                147,
+                147,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
+              ]
+            },
+            {
+              "name": "아쿠아 칙",
+              "pos": [
+                3
+              ],
+              "LVL": 16,
+              "HP": 925,
+              "ATK": 95,
+              "DEF": 47,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 200,
+              "DOD": 15,
+              "skillpower": [
+                95,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -1142,12 +1372,46 @@ var areaData = {
     },
     {
       "title": "Ev21-5",
-      "name": "Ev-5",
       "prevstage": "Ev21-4",
+      "name": "Ev-5",
+      "grid": [
+        4,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
+            {
+              "name": "나이트 칙",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 25,
+              "HP": 838,
+              "ATK": 177,
+              "DEF": 29,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 130,
+              "DOD": 10,
+              "skillpower": [
+                177,
+                212,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
             {
               "name": "나이트 칙 실더 개",
               "pos": [
@@ -1158,7 +1422,7 @@ var areaData = {
               "ATK": 160,
               "DEF": 66,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 10,
               "skillpower": [
@@ -1170,6 +1434,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                35,
+                35,
+                35
               ]
             },
             {
@@ -1182,7 +1451,7 @@ var areaData = {
               "ATK": 115,
               "DEF": 55,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -1196,31 +1465,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙",
-              "pos": [
-                9,
-                3
               ],
-              "LVL": 25,
-              "HP": 838,
-              "ATK": 177,
-              "DEF": 29,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 130,
-              "DOD": 10,
-              "skillpower": [
-                177,
-                212,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
+              "resist": [
+                50,
+                99,
+                -50
               ]
             },
             {
@@ -1233,7 +1482,7 @@ var areaData = {
               "ATK": 170,
               "DEF": 32,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 170,
               "DOD": 20,
               "skillpower": [
@@ -1245,6 +1494,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -1263,7 +1517,7 @@ var areaData = {
               "ATK": 189,
               "DEF": 100,
               "AGI": 3.3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 10,
               "skillpower": [
@@ -1275,6 +1529,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                20,
+                20,
+                20
               ]
             },
             {
@@ -1288,7 +1547,7 @@ var areaData = {
               "ATK": 274,
               "DEF": 56,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1300,6 +1559,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             },
             {
@@ -1312,7 +1576,7 @@ var areaData = {
               "ATK": 154,
               "DEF": 18,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 40,
               "skillpower": [
@@ -1326,6 +1590,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
               ]
             }
           ]
@@ -1333,30 +1602,6 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
-            {
-              "name": "나이트 칙 런처",
-              "pos": [
-                4
-              ],
-              "LVL": 26,
-              "HP": 962,
-              "ATK": 200,
-              "DEF": 38,
-              "AGI": 3.25,
-              "CRT": -1,
-              "HIT": 110,
-              "DOD": 12.5,
-              "skillpower": [
-                200,
-                240,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
             {
               "name": "재퍼",
               "pos": [
@@ -1368,7 +1613,7 @@ var areaData = {
               "ATK": 155,
               "DEF": 46,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -1380,30 +1625,40 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
               ]
             },
             {
-              "name": "하베스터",
+              "name": "나이트 칙 런처",
               "pos": [
-                3
+                4
               ],
               "LVL": 26,
-              "HP": 1200,
-              "ATK": 245,
-              "DEF": 112,
-              "AGI": 3.2,
-              "CRT": -1,
-              "HIT": 85,
-              "DOD": 0,
+              "HP": 962,
+              "ATK": 200,
+              "DEF": 38,
+              "AGI": 3.25,
+              "CRT": 5,
+              "HIT": 110,
+              "DOD": 12.5,
               "skillpower": [
-                490,
-                122,
+                200,
+                240,
                 0
               ],
               "skillLVL": [
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -1416,7 +1671,7 @@ var areaData = {
               "ATK": 103,
               "DEF": 50,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -1430,6 +1685,38 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
+              ]
+            },
+            {
+              "name": "하베스터",
+              "pos": [
+                3
+              ],
+              "LVL": 26,
+              "HP": 1200,
+              "ATK": 245,
+              "DEF": 112,
+              "AGI": 3.2,
+              "CRT": 5,
+              "HIT": 85,
+              "DOD": 0,
+              "skillpower": [
+                490,
+                122
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             }
           ]
@@ -1438,36 +1725,16 @@ var areaData = {
     },
     {
       "title": "Ev21-6",
-      "name": "Ev-6",
       "prevstage": "Ev21-5",
+      "name": "Ev-6",
+      "grid": [
+        5,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
-            {
-              "name": "레기온",
-              "pos": [
-                4
-              ],
-              "LVL": 25,
-              "HP": 984,
-              "ATK": 180,
-              "DEF": 34,
-              "AGI": 4.05,
-              "CRT": -1,
-              "HIT": 170,
-              "DOD": 20,
-              "skillpower": [
-                180,
-                59,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
             {
               "name": "하베스터",
               "pos": [
@@ -1479,7 +1746,7 @@ var areaData = {
               "ATK": 253,
               "DEF": 115,
               "AGI": 3.2,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 85,
               "DOD": 0,
               "skillpower": [
@@ -1489,6 +1756,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             },
             {
@@ -1502,7 +1774,7 @@ var areaData = {
               "ATK": 180,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 110,
               "DOD": 60,
               "skillpower": [
@@ -1512,6 +1784,40 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "레기온",
+              "pos": [
+                4
+              ],
+              "LVL": 25,
+              "HP": 984,
+              "ATK": 180,
+              "DEF": 34,
+              "AGI": 4.05,
+              "CRT": 5,
+              "HIT": 170,
+              "DOD": 20,
+              "skillpower": [
+                180,
+                59,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -1530,7 +1836,7 @@ var areaData = {
               "ATK": 274,
               "DEF": 56,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 95,
               "DOD": 0,
               "skillpower": [
@@ -1542,32 +1848,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 디텍터 G",
-              "pos": [
-                4
               ],
-              "LVL": 14,
-              "HP": 835,
-              "ATK": 36,
-              "DEF": 76,
-              "AGI": 4.3,
-              "CRT": -1,
-              "HIT": 200,
-              "DOD": 55,
-              "skillpower": [
-                3,
-                3,
+              "resist": [
+                25,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
               ]
             },
             {
@@ -1581,7 +1866,7 @@ var areaData = {
               "ATK": 206,
               "DEF": 39,
               "AGI": 3.25,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 110,
               "DOD": 12.5,
               "skillpower": [
@@ -1593,6 +1878,42 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "나이트 칙 디텍터 G",
+              "pos": [
+                4
+              ],
+              "LVL": 14,
+              "HP": 835,
+              "ATK": 36,
+              "DEF": 76,
+              "AGI": 4.3,
+              "CRT": 1,
+              "HIT": 200,
+              "DOD": 55,
+              "skillpower": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                -25,
+                -25,
+                25
               ]
             }
           ]
@@ -1610,7 +1931,7 @@ var areaData = {
               "ATK": 99,
               "DEF": 49,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -1624,32 +1945,69 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             },
             {
-              "name": "아쿠아 칙",
+              "name": "나이트 칙 캐논",
               "pos": [
-                6
+                8
               ],
-              "LVL": 18,
-              "HP": 1015,
-              "ATK": 103,
-              "DEF": 50,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 200,
-              "DOD": 15,
+              "LVL": 28,
+              "HP": 930,
+              "ATK": 299,
+              "DEF": 60,
+              "AGI": 3.25,
+              "CRT": 5,
+              "HIT": 95,
+              "DOD": 0,
               "skillpower": [
-                103,
-                0,
-                0,
+                239,
+                524,
                 0
               ],
               "skillLVL": [
                 1,
                 1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                9
+              ],
+              "LVL": 26,
+              "HP": 870,
+              "ATK": 282,
+              "DEF": 57,
+              "AGI": 3.25,
+              "CRT": 5,
+              "HIT": 95,
+              "DOD": 0,
+              "skillpower": [
+                226,
+                494,
+                0
+              ],
+              "skillLVL": [
+                1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             },
             {
@@ -1663,7 +2021,7 @@ var areaData = {
               "ATK": 167,
               "DEF": 19,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 40,
               "skillpower": [
@@ -1677,54 +2035,42 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
               ]
             },
             {
-              "name": "나이트 칙 캐논",
+              "name": "아쿠아 칙",
               "pos": [
-                8
+                6
               ],
-              "LVL": 28,
-              "HP": 930,
-              "ATK": 299,
-              "DEF": 60,
-              "AGI": 3.25,
-              "CRT": -1,
-              "HIT": 95,
-              "DOD": 0,
+              "LVL": 18,
+              "HP": 1015,
+              "ATK": 103,
+              "DEF": 50,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 200,
+              "DOD": 15,
               "skillpower": [
-                239,
-                524,
+                103,
+                0,
+                0,
                 0
               ],
               "skillLVL": [
                 1,
                 1,
-                1
-              ]
-            },
-            {
-              "name": "나이트 칙 캐논",
-              "pos": [
-                9
-              ],
-              "LVL": 26,
-              "HP": 870,
-              "ATK": 282,
-              "DEF": 57,
-              "AGI": 3.25,
-              "CRT": -1,
-              "HIT": 95,
-              "DOD": 0,
-              "skillpower": [
-                226,
-                494,
-                0
-              ],
-              "skillLVL": [
-                1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -1733,36 +2079,16 @@ var areaData = {
     },
     {
       "title": "Ev21-7",
-      "name": "Ev-7",
       "prevstage": "Ev21-6",
+      "name": "Ev-7",
+      "grid": [
+        6,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
-            {
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                1
-              ],
-              "LVL": 27,
-              "HP": 1745,
-              "ATK": 199,
-              "DEF": 110,
-              "AGI": 3.3,
-              "CRT": -1,
-              "HIT": 125,
-              "DOD": 17.5,
-              "skillpower": [
-                219,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
             {
               "name": "나이트 칙",
               "pos": [
@@ -1774,7 +2100,7 @@ var areaData = {
               "ATK": 224,
               "DEF": 45,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 175,
               "DOD": 17.5,
               "skillpower": [
@@ -1786,6 +2112,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
@@ -1798,7 +2129,7 @@ var areaData = {
               "ATK": 205,
               "DEF": 37,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 170,
               "DOD": 20,
               "skillpower": [
@@ -1810,6 +2141,40 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                1
+              ],
+              "LVL": 27,
+              "HP": 1745,
+              "ATK": 199,
+              "DEF": 110,
+              "AGI": 3.3,
+              "CRT": 5,
+              "HIT": 125,
+              "DOD": 17.5,
+              "skillpower": [
+                219,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                35,
+                35,
+                35
               ]
             },
             {
@@ -1822,7 +2187,7 @@ var areaData = {
               "ATK": 103,
               "DEF": 50,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -1836,6 +2201,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -1844,29 +2214,32 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
-              "name": "아쿠아 칙",
+              "name": "팔랑스",
               "pos": [
-                1
+                7
               ],
               "LVL": 18,
-              "HP": 1015,
-              "ATK": 103,
-              "DEF": 50,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 200,
-              "DOD": 15,
+              "HP": 1632,
+              "ATK": 152,
+              "DEF": 101,
+              "AGI": 3.95,
+              "CRT": 10,
+              "HIT": 150,
+              "DOD": 25,
               "skillpower": [
-                103,
-                0,
+                152,
                 0,
                 0
               ],
               "skillLVL": [
                 1,
                 1,
-                1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                40
               ]
             },
             {
@@ -1880,8 +2253,8 @@ var areaData = {
               "ATK": 336,
               "DEF": 105,
               "AGI": 3.3,
-              "CRT": -1,
-              "HIT": 115,
+              "CRT": 5,
+              "HIT": 114,
               "DOD": 0,
               "skillpower": [
                 269,
@@ -1892,30 +2265,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "팔랑스",
-              "pos": [
-                7
               ],
-              "LVL": 18,
-              "HP": 1632,
-              "ATK": 152,
-              "DEF": 101,
-              "AGI": 3.95,
-              "CRT": -1,
-              "HIT": 150,
-              "DOD": 25,
-              "skillpower": [
-                152,
+              "resist": [
+                25,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
@@ -1928,7 +2282,7 @@ var areaData = {
               "ATK": 167,
               "DEF": 19,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 40,
               "skillpower": [
@@ -1942,6 +2296,42 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
+              ]
+            },
+            {
+              "name": "아쿠아 칙",
+              "pos": [
+                1
+              ],
+              "LVL": 18,
+              "HP": 1015,
+              "ATK": 103,
+              "DEF": 50,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 200,
+              "DOD": 15,
+              "skillpower": [
+                103,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -1960,7 +2350,7 @@ var areaData = {
               "ATK": 107,
               "DEF": 52,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -1974,32 +2364,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "썬더 칙",
-              "pos": [
-                5
               ],
-              "LVL": 20,
-              "HP": 960,
-              "ATK": 173,
-              "DEF": 19,
-              "AGI": 4.05,
-              "CRT": -1,
-              "HIT": 150,
-              "DOD": 40,
-              "skillpower": [
-                173,
-                173,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
+              "resist": [
+                50,
+                99,
+                -50
               ]
             },
             {
@@ -2014,8 +2383,8 @@ var areaData = {
               "ATK": 336,
               "DEF": 105,
               "AGI": 3.3,
-              "CRT": -1,
-              "HIT": 115,
+              "CRT": 5,
+              "HIT": 114,
               "DOD": 0,
               "skillpower": [
                 269,
@@ -2026,51 +2395,24 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            }
-          ]
-        },
-        {
-          "title": "wave4",
-          "enemy": [
-            {
-              "name": "빅 칙 실더",
-              "pos": [
-                4
               ],
-              "LVL": 28,
-              "HP": 3160,
-              "ATK": 212,
-              "DEF": 235,
-              "AGI": 3.15,
-              "CRT": -1,
-              "HIT": 75,
-              "DOD": 1,
-              "skillpower": [
-                275,
-                0,
+              "resist": [
+                25,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
               ]
             },
             {
               "name": "썬더 칙",
               "pos": [
-                8,
-                2
+                5
               ],
               "LVL": 20,
               "HP": 960,
               "ATK": 173,
               "DEF": 19,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 40,
               "skillpower": [
@@ -2084,6 +2426,109 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wave4",
+          "enemy": [
+            {
+              "name": "나이트 칙 캐논",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 28,
+              "HP": 1273,
+              "ATK": 336,
+              "DEF": 105,
+              "AGI": 3.3,
+              "CRT": 5,
+              "HIT": 114,
+              "DOD": 0,
+              "skillpower": [
+                269,
+                588,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "썬더 칙",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 20,
+              "HP": 960,
+              "ATK": 173,
+              "DEF": 19,
+              "AGI": 4.05,
+              "CRT": 10,
+              "HIT": 150,
+              "DOD": 40,
+              "skillpower": [
+                173,
+                173,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                -25,
+                -25,
+                99
+              ]
+            },
+            {
+              "name": "빅 칙 실더",
+              "pos": [
+                4
+              ],
+              "LVL": 28,
+              "HP": 3160,
+              "ATK": 212,
+              "DEF": 235,
+              "AGI": 3.15,
+              "CRT": 5,
+              "HIT": 75,
+              "DOD": 1,
+              "skillpower": [
+                275,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                25,
+                -25
               ]
             },
             {
@@ -2096,7 +2541,7 @@ var areaData = {
               "ATK": 107,
               "DEF": 52,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 200,
               "DOD": 15,
               "skillpower": [
@@ -2110,31 +2555,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 캐논",
-              "pos": [
-                1,
-                7
               ],
-              "LVL": 28,
-              "HP": 1273,
-              "ATK": 336,
-              "DEF": 105,
-              "AGI": 3.3,
-              "CRT": -1,
-              "HIT": 115,
-              "DOD": 0,
-              "skillpower": [
-                269,
-                588,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
+              "resist": [
+                50,
+                99,
+                -50
               ]
             }
           ]
@@ -2142,9 +2567,13 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev21-1B",
-      "name": "Ev-1s",
+      "title": "Ev21-8",
       "prevstage": "Ev21-1",
+      "name": "Ev-1s",
+      "grid": [
+        0,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -2160,7 +2589,7 @@ var areaData = {
               "ATK": 145,
               "DEF": 0,
               "AGI": 4.35,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 60,
               "skillpower": [
@@ -2170,6 +2599,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2183,7 +2617,7 @@ var areaData = {
               "ATK": 169,
               "DEF": 39,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -2193,6 +2627,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2205,7 +2644,7 @@ var areaData = {
               "ATK": 154,
               "DEF": 63,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -2215,6 +2654,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             }
           ]
@@ -2232,7 +2676,7 @@ var areaData = {
               "ATK": 154,
               "DEF": 63,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -2242,6 +2686,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -2254,7 +2703,7 @@ var areaData = {
               "ATK": 130,
               "DEF": 29,
               "AGI": 3.95,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 150,
               "DOD": 30,
               "skillpower": [
@@ -2264,6 +2713,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
               ]
             },
             {
@@ -2277,7 +2731,7 @@ var areaData = {
               "ATK": 164,
               "DEF": 24,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 175,
               "DOD": 0,
               "skillpower": [
@@ -2287,6 +2741,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2299,7 +2758,7 @@ var areaData = {
               "ATK": 169,
               "DEF": 39,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -2309,6 +2768,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -2316,29 +2780,6 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
-            {
-              "name": "경비용 AMG-11",
-              "pos": [
-                4,
-                3
-              ],
-              "LVL": 20,
-              "HP": 745,
-              "ATK": 164,
-              "DEF": 24,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 175,
-              "DOD": 0,
-              "skillpower": [
-                164,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "경비용 폴른",
               "pos": [
@@ -2350,7 +2791,7 @@ var areaData = {
               "ATK": 169,
               "DEF": 39,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -2360,6 +2801,39 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 AMG-11",
+              "pos": [
+                4,
+                3
+              ],
+              "LVL": 20,
+              "HP": 745,
+              "ATK": 164,
+              "DEF": 24,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 175,
+              "DOD": 0,
+              "skillpower": [
+                164,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2372,7 +2846,7 @@ var areaData = {
               "ATK": 164,
               "DEF": 31,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 140,
               "DOD": 45,
               "skillpower": [
@@ -2386,6 +2860,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                25,
+                25
               ]
             }
           ]
@@ -2393,35 +2872,17 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev21-2B",
+      "title": "Ev21-9",
+      "prevstage": "Ev21-8",
       "name": "Ev-2s",
-      "prevstage": "Ev21-1B",
+      "grid": [
+        1,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
-            {
-              "name": "경비용 램파트",
-              "pos": [
-                4
-              ],
-              "LVL": 23,
-              "HP": 1130,
-              "ATK": 171,
-              "DEF": 68,
-              "AGI": 3.8,
-              "CRT": -1,
-              "HIT": 140,
-              "DOD": 10,
-              "skillpower": [
-                171,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "경비용 펍 헤드",
               "pos": [
@@ -2432,7 +2893,7 @@ var areaData = {
               "ATK": 144,
               "DEF": 31,
               "AGI": 3.95,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 150,
               "DOD": 30,
               "skillpower": [
@@ -2442,6 +2903,66 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
+              ]
+            },
+            {
+              "name": "경비용 드론",
+              "pos": [
+                9,
+                2
+              ],
+              "LVL": 23,
+              "HP": 700,
+              "ATK": 160,
+              "DEF": 0,
+              "AGI": 4.35,
+              "CRT": 5,
+              "HIT": 100,
+              "DOD": 60,
+              "skillpower": [
+                176,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 램파트",
+              "pos": [
+                4
+              ],
+              "LVL": 23,
+              "HP": 1130,
+              "ATK": 171,
+              "DEF": 68,
+              "AGI": 3.8,
+              "CRT": 5,
+              "HIT": 140,
+              "DOD": 10,
+              "skillpower": [
+                171,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -2454,7 +2975,7 @@ var areaData = {
               "ATK": 187,
               "DEF": 42,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -2464,28 +2985,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "경비용 드론",
-              "pos": [
-                2
               ],
-              "LVL": 23,
-              "HP": 700,
-              "ATK": 160,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": -1,
-              "HIT": 100,
-              "DOD": 60,
-              "skillpower": [
-                176,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -2504,7 +3008,7 @@ var areaData = {
               "ATK": 171,
               "DEF": 68,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -2514,6 +3018,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -2526,7 +3035,7 @@ var areaData = {
               "ATK": 187,
               "DEF": 42,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -2536,6 +3045,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2548,7 +3062,7 @@ var areaData = {
               "ATK": 181,
               "DEF": 26,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 175,
               "DOD": 0,
               "skillpower": [
@@ -2558,6 +3072,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2570,7 +3089,7 @@ var areaData = {
               "ATK": 144,
               "DEF": 31,
               "AGI": 3.95,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 150,
               "DOD": 30,
               "skillpower": [
@@ -2580,6 +3099,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
               ]
             }
           ]
@@ -2587,6 +3111,33 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
+            {
+              "name": "경비용 펍 헤드",
+              "pos": [
+                8
+              ],
+              "LVL": 23,
+              "HP": 915,
+              "ATK": 144,
+              "DEF": 31,
+              "AGI": 3.95,
+              "CRT": 5,
+              "HIT": 150,
+              "DOD": 30,
+              "skillpower": [
+                108,
+                1
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                50
+              ]
+            },
             {
               "name": "경비용 램파트",
               "pos": [
@@ -2598,7 +3149,7 @@ var areaData = {
               "ATK": 171,
               "DEF": 68,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -2608,28 +3159,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "경비용 펍 헤드",
-              "pos": [
-                8
               ],
-              "LVL": 23,
-              "HP": 915,
-              "ATK": 144,
-              "DEF": 31,
-              "AGI": 3.95,
-              "CRT": -1,
-              "HIT": 150,
-              "DOD": 30,
-              "skillpower": [
-                108,
-                1
-              ],
-              "skillLVL": [
-                1,
-                1
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -2642,12 +3176,12 @@ var areaData = {
               "ATK": 148,
               "DEF": 18,
               "AGI": 4.2,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 145,
               "DOD": 50,
               "skillpower": [
                 148,
-                0,
+                14,
                 0,
                 0
               ],
@@ -2656,6 +3190,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                99
               ]
             },
             {
@@ -2668,7 +3207,7 @@ var areaData = {
               "ATK": 187,
               "DEF": 42,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -2678,6 +3217,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -2685,35 +3229,17 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev21-3B",
+      "title": "Ev21-10",
+      "prevstage": "Ev21-9",
       "name": "Ev-3s",
-      "prevstage": "Ev21-2B",
+      "grid": [
+        2,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
-            {
-              "name": "경비용 폴른",
-              "pos": [
-                1
-              ],
-              "LVL": 26,
-              "HP": 1075,
-              "ATK": 205,
-              "DEF": 45,
-              "AGI": 3.9,
-              "CRT": -1,
-              "HIT": 155,
-              "DOD": 15,
-              "skillpower": [
-                205,
-                51
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "경비용 펍 헤드",
               "pos": [
@@ -2724,7 +3250,7 @@ var areaData = {
               "ATK": 157,
               "DEF": 33,
               "AGI": 3.95,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 150,
               "DOD": 30,
               "skillpower": [
@@ -2734,28 +3260,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "경비용 AMG-11",
-              "pos": [
-                5
               ],
-              "LVL": 26,
-              "HP": 925,
-              "ATK": 198,
-              "DEF": 28,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 175,
-              "DOD": 0,
-              "skillpower": [
-                198,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
+              "resist": [
+                0,
+                0,
+                50
               ]
             },
             {
@@ -2769,7 +3278,7 @@ var areaData = {
               "ATK": 187,
               "DEF": 72,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -2779,6 +3288,65 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 AMG-11",
+              "pos": [
+                5
+              ],
+              "LVL": 26,
+              "HP": 925,
+              "ATK": 198,
+              "DEF": 28,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 175,
+              "DOD": 0,
+              "skillpower": [
+                198,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 폴른",
+              "pos": [
+                1
+              ],
+              "LVL": 26,
+              "HP": 1075,
+              "ATK": 205,
+              "DEF": 45,
+              "AGI": 3.9,
+              "CRT": 5,
+              "HIT": 155,
+              "DOD": 15,
+              "skillpower": [
+                205,
+                51
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -2796,7 +3364,7 @@ var areaData = {
               "ATK": 187,
               "DEF": 72,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -2806,6 +3374,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -2818,7 +3391,7 @@ var areaData = {
               "ATK": 190,
               "DEF": 35,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 140,
               "DOD": 45,
               "skillpower": [
@@ -2832,6 +3405,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                25,
+                25
               ]
             },
             {
@@ -2844,7 +3422,7 @@ var areaData = {
               "ATK": 175,
               "DEF": 0,
               "AGI": 4.35,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 60,
               "skillpower": [
@@ -2854,6 +3432,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2866,7 +3449,7 @@ var areaData = {
               "ATK": 157,
               "DEF": 33,
               "AGI": 3.95,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 150,
               "DOD": 30,
               "skillpower": [
@@ -2876,6 +3459,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
               ]
             },
             {
@@ -2888,7 +3476,7 @@ var areaData = {
               "ATK": 198,
               "DEF": 28,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 175,
               "DOD": 0,
               "skillpower": [
@@ -2898,6 +3486,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -2905,6 +3498,34 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
+            {
+              "name": "경비용 드론",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 26,
+              "HP": 775,
+              "ATK": 175,
+              "DEF": 0,
+              "AGI": 4.35,
+              "CRT": 5,
+              "HIT": 100,
+              "DOD": 60,
+              "skillpower": [
+                192,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
             {
               "name": "램파트 커스텀",
               "pos": [
@@ -2915,7 +3536,7 @@ var areaData = {
               "ATK": 155,
               "DEF": 92,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 20,
               "skillpower": [
@@ -2929,6 +3550,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                50,
+                50
               ]
             },
             {
@@ -2941,7 +3567,7 @@ var areaData = {
               "ATK": 198,
               "DEF": 28,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 175,
               "DOD": 0,
               "skillpower": [
@@ -2951,29 +3577,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "경비용 드론",
-              "pos": [
-                9,
-                3
               ],
-              "LVL": 26,
-              "HP": 775,
-              "ATK": 175,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": -1,
-              "HIT": 100,
-              "DOD": 60,
-              "skillpower": [
-                192,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -2981,12 +3589,12 @@ var areaData = {
               "pos": [
                 6
               ],
-              "LVL": 26,
+              "LVL": 20,
               "HP": 720,
               "ATK": 207,
               "DEF": 0,
               "AGI": 4.2,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 100,
               "DOD": 50,
               "skillpower": [
@@ -2998,6 +3606,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                0,
+                -25
               ]
             }
           ]
@@ -3005,9 +3618,13 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev21-4B",
+      "title": "Ev21-11",
+      "prevstage": "Ev21-10",
       "name": "Ev-4s",
-      "prevstage": "Ev21-3B",
+      "grid": [
+        3,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -3023,7 +3640,7 @@ var areaData = {
               "ATK": 204,
               "DEF": 77,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 140,
               "DOD": 10,
               "skillpower": [
@@ -3033,6 +3650,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -3046,7 +3668,7 @@ var areaData = {
               "ATK": 223,
               "DEF": 48,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -3056,6 +3678,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -3068,7 +3695,7 @@ var areaData = {
               "ATK": 209,
               "DEF": 38,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 140,
               "DOD": 45,
               "skillpower": [
@@ -3082,6 +3709,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                25,
+                25
               ]
             }
           ]
@@ -3100,7 +3732,7 @@ var areaData = {
               "ATK": 223,
               "DEF": 48,
               "AGI": 3.9,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 155,
               "DOD": 15,
               "skillpower": [
@@ -3110,6 +3742,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -3122,7 +3759,7 @@ var areaData = {
               "ATK": 171,
               "DEF": 36,
               "AGI": 3.95,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 150,
               "DOD": 30,
               "skillpower": [
@@ -3132,6 +3769,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
               ]
             },
             {
@@ -3144,7 +3786,7 @@ var areaData = {
               "ATK": 165,
               "DEF": 97,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 20,
               "skillpower": [
@@ -3158,6 +3800,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                50,
+                50
               ]
             },
             {
@@ -3170,7 +3817,7 @@ var areaData = {
               "ATK": 216,
               "DEF": 31,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 175,
               "DOD": 0,
               "skillpower": [
@@ -3180,6 +3827,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -3187,28 +3839,6 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
-            {
-              "name": "경비용 램파트",
-              "pos": [
-                4
-              ],
-              "LVL": 29,
-              "HP": 2320,
-              "ATK": 242,
-              "DEF": 154,
-              "AGI": 3.8,
-              "CRT": -1,
-              "HIT": 180,
-              "DOD": 20,
-              "skillpower": [
-                242,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "경비용 드론",
               "pos": [
@@ -3220,7 +3850,7 @@ var areaData = {
               "ATK": 190,
               "DEF": 0,
               "AGI": 4.35,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 60,
               "skillpower": [
@@ -3230,6 +3860,38 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 램파트",
+              "pos": [
+                4
+              ],
+              "LVL": 29,
+              "HP": 2320,
+              "ATK": 242,
+              "DEF": 154,
+              "AGI": 3.8,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 20,
+              "skillpower": [
+                242,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -3242,8 +3904,8 @@ var areaData = {
               "ATK": 247,
               "DEF": 55,
               "AGI": 4.05,
-              "CRT": -1,
-              "HIT": 205,
+              "CRT": 5,
+              "HIT": 204,
               "DOD": 0,
               "skillpower": [
                 247,
@@ -3252,6 +3914,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -3264,7 +3931,7 @@ var areaData = {
               "ATK": 310,
               "DEF": 0,
               "AGI": 4.5,
-              "CRT": -1,
+              "CRT": 15,
               "HIT": 100,
               "DOD": 60,
               "skillpower": [
@@ -3278,6 +3945,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             }
           ]
@@ -3285,35 +3957,17 @@ var areaData = {
       ]
     },
     {
-      "title": "Ev21-5B",
+      "title": "Ev21-12",
+      "prevstage": "Ev21-11",
       "name": "Ev-5s",
-      "prevstage": "Ev21-4B",
+      "grid": [
+        4,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
           "enemy": [
-            {
-              "name": "경비용 램파트",
-              "pos": [
-                4
-              ],
-              "LVL": 32,
-              "HP": 2515,
-              "ATK": 261,
-              "DEF": 163,
-              "AGI": 3.8,
-              "CRT": -1,
-              "HIT": 180,
-              "DOD": 20,
-              "skillpower": [
-                261,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "경비용 펍 헤드",
               "pos": [
@@ -3322,10 +3976,10 @@ var areaData = {
               ],
               "LVL": 32,
               "HP": 1925,
-              "ATK": 228,
+              "ATK": 225,
               "DEF": 76,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 185,
               "DOD": 45,
               "skillpower": [
@@ -3335,6 +3989,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                50
               ]
             },
             {
@@ -3347,8 +4006,8 @@ var areaData = {
               "ATK": 266,
               "DEF": 58,
               "AGI": 4.05,
-              "CRT": -1,
-              "HIT": 205,
+              "CRT": 5,
+              "HIT": 204,
               "DOD": 0,
               "skillpower": [
                 266,
@@ -3357,6 +4016,38 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 램파트",
+              "pos": [
+                4
+              ],
+              "LVL": 32,
+              "HP": 2515,
+              "ATK": 261,
+              "DEF": 163,
+              "AGI": 3.8,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 20,
+              "skillpower": [
+                261,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
               ]
             },
             {
@@ -3369,12 +4060,12 @@ var areaData = {
               "ATK": 209,
               "DEF": 24,
               "AGI": 4.2,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 145,
               "DOD": 50,
               "skillpower": [
                 209,
-                0,
+                20,
                 0,
                 0
               ],
@@ -3383,6 +4074,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                99
               ]
             }
           ]
@@ -3390,28 +4086,6 @@ var areaData = {
         {
           "title": "wave2",
           "enemy": [
-            {
-              "name": "경비용 드론",
-              "pos": [
-                4
-              ],
-              "LVL": 32,
-              "HP": 925,
-              "ATK": 205,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": -1,
-              "HIT": 100,
-              "DOD": 60,
-              "skillpower": [
-                225,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "경비용 램파트",
               "pos": [
@@ -3423,7 +4097,7 @@ var areaData = {
               "ATK": 261,
               "DEF": 163,
               "AGI": 3.8,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 180,
               "DOD": 20,
               "skillpower": [
@@ -3433,6 +4107,38 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                40,
+                40,
+                -25
+              ]
+            },
+            {
+              "name": "경비용 드론",
+              "pos": [
+                4
+              ],
+              "LVL": 32,
+              "HP": 925,
+              "ATK": 205,
+              "DEF": 0,
+              "AGI": 4.35,
+              "CRT": 5,
+              "HIT": 100,
+              "DOD": 60,
+              "skillpower": [
+                225,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -3445,7 +4151,7 @@ var areaData = {
               "ATK": 190,
               "DEF": 110,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 20,
               "skillpower": [
@@ -3459,6 +4165,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                50,
+                50
               ]
             },
             {
@@ -3471,7 +4182,7 @@ var areaData = {
               "ATK": 262,
               "DEF": 94,
               "AGI": 3,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 100,
               "DOD": 0,
               "skillpower": [
@@ -3483,6 +4194,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             }
           ]
@@ -3490,6 +4206,63 @@ var areaData = {
         {
           "title": "wave3",
           "enemy": [
+            {
+              "name": "경비용 드론",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 32,
+              "HP": 925,
+              "ATK": 205,
+              "DEF": 0,
+              "AGI": 4.35,
+              "CRT": 5,
+              "HIT": 100,
+              "DOD": 60,
+              "skillpower": [
+                225,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
+              ]
+            },
+            {
+              "name": "양산형 스팅어",
+              "pos": [
+                9
+              ],
+              "LVL": 28,
+              "HP": 960,
+              "ATK": 267,
+              "DEF": 0,
+              "AGI": 4.2,
+              "CRT": 10,
+              "HIT": 100,
+              "DOD": 50,
+              "skillpower": [
+                200,
+                374,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                50,
+                0,
+                -25
+              ]
+            },
             {
               "name": "대공용 AMG-11",
               "pos": [
@@ -3499,8 +4272,8 @@ var areaData = {
               "HP": 1107,
               "ATK": 159,
               "DEF": 73,
-              "AGI": 4.05,
-              "CRT": -1,
+              "AGI": 3.95,
+              "CRT": 10,
               "HIT": 325,
               "DOD": 3,
               "skillpower": [
@@ -3514,54 +4287,11 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                2
               ],
-              "LVL": 32,
-              "HP": 925,
-              "ATK": 205,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": -1,
-              "HIT": 100,
-              "DOD": 60,
-              "skillpower": [
-                225,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
-            {
-              "name": "양산형 스팅어",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 28,
-              "HP": 960,
-              "ATK": 267,
-              "DEF": 0,
-              "AGI": 4.2,
-              "CRT": -1,
-              "HIT": 100,
-              "DOD": 50,
-              "skillpower": [
-                200,
-                374,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
+              "resist": [
+                25,
+                25,
+                25
               ]
             },
             {
@@ -3574,7 +4304,7 @@ var areaData = {
               "ATK": 175,
               "DEF": 102,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 150,
               "DOD": 20,
               "skillpower": [
@@ -3588,6 +4318,40 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                50,
+                50
+              ]
+            },
+            {
+              "name": "양산형 스팅어",
+              "pos": [
+                3
+              ],
+              "LVL": 30,
+              "HP": 1020,
+              "ATK": 282,
+              "DEF": 0,
+              "AGI": 4.2,
+              "CRT": 10,
+              "HIT": 100,
+              "DOD": 50,
+              "skillpower": [
+                211,
+                395,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                50,
+                0,
+                -25
               ]
             }
           ]
@@ -3595,54 +4359,6 @@ var areaData = {
         {
           "title": "wave4",
           "enemy": [
-            {
-              "name": "램파트 커스텀",
-              "pos": [
-                2
-              ],
-              "LVL": 27,
-              "HP": 1635,
-              "ATK": 180,
-              "DEF": 105,
-              "AGI": 4,
-              "CRT": -1,
-              "HIT": 150,
-              "DOD": 20,
-              "skillpower": [
-                198,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "경비용 폴른",
-              "pos": [
-                5
-              ],
-              "LVL": 33,
-              "HP": 2160,
-              "ATK": 289,
-              "DEF": 104,
-              "AGI": 3.9,
-              "CRT": -1,
-              "HIT": 195,
-              "DOD": 20,
-              "skillpower": [
-                289,
-                72
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
             {
               "name": "폴른 커스텀",
               "pos": [
@@ -3653,7 +4369,7 @@ var areaData = {
               "ATK": 235,
               "DEF": 42,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 140,
               "DOD": 45,
               "skillpower": [
@@ -3667,6 +4383,69 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                25,
+                25
+              ]
+            },
+            {
+              "name": "펍 헤드 커스텀",
+              "pos": [
+                9
+              ],
+              "LVL": 25,
+              "HP": 1110,
+              "ATK": 187,
+              "DEF": 22,
+              "AGI": 4.2,
+              "CRT": 5,
+              "HIT": 145,
+              "DOD": 50,
+              "skillpower": [
+                187,
+                18,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                25,
+                99
+              ]
+            },
+            {
+              "name": "경비용 폴른",
+              "pos": [
+                5
+              ],
+              "LVL": 33,
+              "HP": 2160,
+              "ATK": 289,
+              "DEF": 104,
+              "AGI": 3.9,
+              "CRT": 5,
+              "HIT": 195,
+              "DOD": 20,
+              "skillpower": [
+                289,
+                72
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                -25
               ]
             },
             {
@@ -3679,7 +4458,7 @@ var areaData = {
               "ATK": 222,
               "DEF": 40,
               "AGI": 4.05,
-              "CRT": -1,
+              "CRT": 10,
               "HIT": 140,
               "DOD": 45,
               "skillpower": [
@@ -3693,6 +4472,42 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                25,
+                25
+              ]
+            },
+            {
+              "name": "램파트 커스텀",
+              "pos": [
+                2
+              ],
+              "LVL": 27,
+              "HP": 1635,
+              "ATK": 180,
+              "DEF": 105,
+              "AGI": 4,
+              "CRT": 10,
+              "HIT": 150,
+              "DOD": 20,
+              "skillpower": [
+                198,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                50,
+                50,
+                50
               ]
             },
             {
@@ -3705,7 +4520,7 @@ var areaData = {
               "ATK": 231,
               "DEF": 78,
               "AGI": 4,
-              "CRT": -1,
+              "CRT": 5,
               "HIT": 185,
               "DOD": 45,
               "skillpower": [
@@ -3715,32 +4530,11 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "펍 헤드 커스텀",
-              "pos": [
-                9
               ],
-              "LVL": 25,
-              "HP": 1110,
-              "ATK": 187,
-              "DEF": 22,
-              "AGI": 4.2,
-              "CRT": -1,
-              "HIT": 145,
-              "DOD": 50,
-              "skillpower": [
-                187,
+              "resist": [
                 0,
                 0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
+                50
               ]
             }
           ]

@@ -123,3 +123,15 @@ function getTypeByStageTitle(str)
 	var regex=/[a-zA-Z]*$/;
 	return str.match(regex)[0];
 }
+
+function getIndexByStageGrid(grid)
+{
+	var regex=/-[0-9]+/;
+	return grid[0];
+}
+
+function getTypeByStageGrid(grid)
+{
+	var stageTypeTitle = ["B", "", "Ex"];
+	return stageTypeTitle[grid[1]];
+}
