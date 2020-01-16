@@ -7,7 +7,7 @@ window.onload = async function() {
 	var formResult = document.getElementById("form-result");
 	var inputResult = document.getElementById("input-result");
 	
-	enemyDataArr = await loadEnemyDataArr();
+	enemyDataArr = await loadEnemyData();
 	addDatalist();
 	
 	inputResult.value = JSON.stringify(enemyDataArr, null, 2);

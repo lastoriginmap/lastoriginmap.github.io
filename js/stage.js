@@ -101,9 +101,10 @@ function drawPage(stageLoadData, imgData)
 					var enemyName=stageData.wave[i].enemy[j].name;
 				}
 			    //이름에 해당되는 이미지 찾기
-			    var enemyIMGData=imgData.filter(obj => obj.name==stageData.wave[i].enemy[j].name);
+			    var enemyIMGData=imgData[stageData.wave[i].enemy[j].index];
+				
 			    //해당 위치에 적 이름과 사진, 링크 추가
-			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData[0].img+'.png\" /><p>'+enemyName+'</p></a>');
+			    $('div:nth-of-type('+((row-1)*3+column)+')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemy(\''+stageData.title+'\', '+i+', '+j+')\"><img src=\"images/profile/'+enemyIMGData+'.png\" /><p>'+enemyName+'</p></a>');
 			}
 		}
     }

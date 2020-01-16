@@ -17,6 +17,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 8,
@@ -45,6 +46,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 4
@@ -72,6 +74,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 5
@@ -99,6 +102,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 6
@@ -131,6 +135,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 7,
@@ -159,6 +164,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 8,
@@ -187,6 +193,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 4
@@ -219,6 +226,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -247,6 +255,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8
@@ -274,6 +283,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 4
@@ -301,6 +311,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 6
@@ -328,6 +339,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 2
@@ -370,6 +382,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -398,6 +411,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 9,
@@ -426,6 +440,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 5
@@ -453,6 +468,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 6
@@ -487,6 +503,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8,
@@ -515,6 +532,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 9,
@@ -545,6 +563,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 5
@@ -572,6 +591,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 6
@@ -604,6 +624,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8,
@@ -632,6 +653,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 4
@@ -661,6 +683,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 5
@@ -688,6 +711,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 6,
@@ -733,6 +757,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 8,
@@ -761,6 +786,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 9,
@@ -790,6 +816,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 6
@@ -822,6 +849,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8,
@@ -850,6 +878,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 9
@@ -877,6 +906,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 4
@@ -904,6 +934,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 5
@@ -933,6 +964,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 3
@@ -965,6 +997,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7
@@ -992,6 +1025,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 8,
@@ -1020,6 +1054,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 9,
@@ -1050,6 +1085,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 6
@@ -1092,6 +1128,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -1120,6 +1157,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 9,
@@ -1148,6 +1186,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 4
@@ -1175,6 +1214,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 5
@@ -1202,6 +1242,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Kidnapper_B0308",
               "name": "트릭스터",
               "pos": [
                 6
@@ -1240,6 +1281,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8,
@@ -1268,6 +1310,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 9,
@@ -1298,6 +1341,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 4
@@ -1327,6 +1371,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Kidnapper_CH",
               "name": "트릭스터",
               "pos": [
                 5
@@ -1360,6 +1405,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 6
@@ -1404,6 +1450,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -1432,6 +1479,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 8,
@@ -1460,6 +1508,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 5
@@ -1487,6 +1536,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 6
@@ -1521,6 +1571,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -1549,6 +1600,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 8
@@ -1578,6 +1630,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 9,
@@ -1606,6 +1659,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 2
@@ -1638,6 +1692,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -1666,6 +1721,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 8,
@@ -1694,6 +1750,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 4
@@ -1723,6 +1780,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 6
@@ -1757,6 +1815,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 7
@@ -1786,6 +1845,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 8
@@ -1813,6 +1873,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 9,
@@ -1843,6 +1904,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 4,
@@ -1888,6 +1950,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
               "name": "스카우트",
               "pos": [
                 7,
@@ -1916,6 +1979,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_TU5",
               "name": "와습",
               "pos": [
                 8,
@@ -1946,6 +2010,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 5
@@ -1975,6 +2040,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU3",
               "name": "헤비 스카우트",
               "pos": [
                 6
@@ -2009,6 +2075,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
               "name": "스카우트",
               "pos": [
                 8,
@@ -2037,6 +2104,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_TU5",
               "name": "와습",
               "pos": [
                 9,
@@ -2067,6 +2135,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU5",
               "name": "스캐럽",
               "pos": [
                 4
@@ -2096,6 +2165,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU3",
               "name": "헤비 스카우트",
               "pos": [
                 6
@@ -2130,6 +2200,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_HeavyScout_TU3",
               "name": "헤비 스카우트",
               "pos": [
                 7,
@@ -2161,6 +2232,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU5",
               "name": "스캐럽",
               "pos": [
                 8,
@@ -2191,6 +2263,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_TU5",
               "name": "와습",
               "pos": [
                 4
@@ -2225,6 +2298,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU5",
               "name": "레기온",
               "pos": [
                 8
@@ -2254,6 +2328,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU5",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -2284,6 +2359,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU3",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -2315,6 +2391,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU3",
               "name": "팔랑스",
               "pos": [
                 6,
@@ -2350,6 +2427,7 @@
           "title": "wave5",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU5",
               "name": "레기온",
               "pos": [
                 8
@@ -2379,6 +2457,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU3",
               "name": "팔랑스",
               "pos": [
                 9,
@@ -2410,6 +2489,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Centurion_TU5",
               "name": "센츄리온",
               "pos": [
                 4
@@ -2439,6 +2519,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU5",
               "name": "칙 스나이퍼",
               "pos": [
                 5,
@@ -2484,6 +2565,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 7,
@@ -2512,6 +2594,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 8,
@@ -2540,6 +2623,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 4
@@ -2567,6 +2651,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 5
@@ -2594,6 +2679,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 6
@@ -2628,6 +2714,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8,
@@ -2656,6 +2743,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 9,
@@ -2686,6 +2774,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 4
@@ -2715,6 +2804,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 5
@@ -2742,6 +2832,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 6
@@ -2776,6 +2867,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 7
@@ -2805,6 +2897,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 8
@@ -2832,6 +2925,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 9,
@@ -2862,6 +2956,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Rampart_TU4",
               "name": "경비용 램파트",
               "pos": [
                 4,
@@ -2890,6 +2985,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 2
@@ -2932,6 +3028,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_UnderWatcherSensor_B05",
               "name": "언더왓쳐 센서",
               "pos": [
                 7
@@ -2963,6 +3060,7 @@
               ]
             },
             {
+              "index": "MOB_MP_UnderWatcher_B05",
               "name": "언더왓쳐",
               "pos": [
                 4
@@ -2996,6 +3094,7 @@
               ]
             },
             {
+              "index": "MOB_MP_UnderWatcherGenerator_B05",
               "name": "언더왓쳐 제네레이터",
               "pos": [
                 6
@@ -3029,6 +3128,7 @@
               ]
             },
             {
+              "index": "MOB_MP_UnderWatcherArm_B05",
               "name": "언더왓쳐 암",
               "pos": [
                 3
@@ -3075,6 +3175,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU4",
               "name": "나이트 칙 런처",
               "pos": [
                 7
@@ -3104,6 +3205,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 8
@@ -3133,6 +3235,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU4",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -3162,6 +3265,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU3",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3193,6 +3297,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU6",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -3222,6 +3327,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCM_TU3",
               "name": "케미컬 칙",
               "pos": [
                 1
@@ -3256,6 +3362,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
               "name": "스카우트",
               "pos": [
                 7,
@@ -3284,6 +3391,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_TU5",
               "name": "와습",
               "pos": [
                 9,
@@ -3314,6 +3422,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU3",
               "name": "헤비 스카우트",
               "pos": [
                 4
@@ -3343,6 +3452,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU5",
               "name": "스캐럽",
               "pos": [
                 5
@@ -3377,6 +3487,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Harvester_TU5",
               "name": "하베스터",
               "pos": [
                 7,
@@ -3405,6 +3516,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU2",
               "name": "매머드",
               "pos": [
                 8,
@@ -3435,6 +3547,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU2",
               "name": "저거너트",
               "pos": [
                 4
@@ -3466,6 +3579,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU5",
               "name": "나이트 칙 캐논",
               "pos": [
                 5
@@ -3510,6 +3624,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
               "name": "스카우트",
               "pos": [
                 7,
@@ -3538,6 +3653,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU3",
               "name": "나이트 칙 디텍터",
               "pos": [
                 8,
@@ -3571,6 +3687,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU5",
               "name": "재퍼",
               "pos": [
                 5
@@ -3605,6 +3722,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Zapper_TU5",
               "name": "재퍼",
               "pos": [
                 8,
@@ -3635,6 +3753,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU5",
               "name": "레기온",
               "pos": [
                 9
@@ -3664,6 +3783,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_TU5",
               "name": "하베스터",
               "pos": [
                 4
@@ -3691,6 +3811,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU3",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3722,6 +3843,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU5",
               "name": "나이트 칙 캐논",
               "pos": [
                 6
@@ -3756,6 +3878,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickDE_TU3",
               "name": "나이트 칙 디텍터",
               "pos": [
                 7
@@ -3787,6 +3910,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_TU5",
               "name": "하베스터",
               "pos": [
                 8
@@ -3814,6 +3938,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCM_TU2",
               "name": "케미컬 칙",
               "pos": [
                 4
@@ -3843,6 +3968,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU5",
               "name": "레기온",
               "pos": [
                 1
@@ -3872,6 +3998,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU5",
               "name": "재퍼",
               "pos": [
                 2
@@ -3901,6 +4028,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU2",
               "name": "매머드",
               "pos": [
                 3
@@ -3944,6 +4072,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 7,
@@ -3973,6 +4102,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 9,
@@ -4003,6 +4133,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 5
@@ -4035,6 +4166,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 8,
@@ -4063,6 +4195,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Seljuq_TU4",
               "name": "양산형 셀주크",
               "pos": [
                 9,
@@ -4093,6 +4226,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 4
@@ -4120,6 +4254,7 @@
               ]
             },
             {
+              "index": "MOB_MP_PuppHead_TU4",
               "name": "경비용 펍 헤드",
               "pos": [
                 5
@@ -4152,6 +4287,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Gigantes_TU4",
               "name": "양산형 기간테스",
               "pos": [
                 7,
@@ -4183,6 +4319,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 8,
@@ -4211,6 +4348,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 5
@@ -4252,6 +4390,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 7,
@@ -4284,6 +4423,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Drone_TU4",
               "name": "경비용 드론",
               "pos": [
                 5
@@ -4311,6 +4451,7 @@
               ]
             },
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 6
@@ -4343,6 +4484,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_AMG11_TU4",
               "name": "경비용 AMG-11",
               "pos": [
                 7,
@@ -4371,6 +4513,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stinger_TU4",
               "name": "양산형 스팅어",
               "pos": [
                 9,
@@ -4403,6 +4546,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Fallen_TU4",
               "name": "경비용 폴른",
               "pos": [
                 6
@@ -4444,6 +4588,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU4",
               "name": "강화형 칙 런쳐",
               "pos": [
                 7,
@@ -4474,6 +4619,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU4",
               "name": "강화형 나이트 칙",
               "pos": [
                 8,
@@ -4504,6 +4650,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCM_TU4",
               "name": "케미컬 칙",
               "pos": [
                 4
@@ -4533,6 +4680,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -4564,6 +4712,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 6
@@ -4600,6 +4749,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickCM_TU4",
               "name": "케미컬 칙",
               "pos": [
                 7,
@@ -4630,6 +4780,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 8,
@@ -4662,6 +4813,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU4",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -4691,6 +4843,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -4722,6 +4875,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU6",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -4756,6 +4910,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_BigChickEX_TU4",
               "name": "시작형 빅 칙",
               "pos": [
                 7,
@@ -4786,6 +4941,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 9,
@@ -4819,6 +4975,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 4
@@ -4855,6 +5012,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_FABigChickEX_TU4",
               "name": "FA 빅 칙 II",
               "pos": [
                 8,
@@ -4887,6 +5045,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU4",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -4917,6 +5076,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU4",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -4946,6 +5106,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU4",
               "name": "빅 칙 런쳐",
               "pos": [
                 5
@@ -4975,6 +5136,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -5021,6 +5183,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 7,
@@ -5051,6 +5214,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU3",
               "name": "매머드",
               "pos": [
                 8,
@@ -5081,6 +5245,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 9,
@@ -5113,6 +5278,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 5
@@ -5147,6 +5313,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 8,
@@ -5177,6 +5344,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HarvesterEX_TU4",
               "name": "아머드 하베스터",
               "pos": [
                 9,
@@ -5207,6 +5375,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU3",
               "name": "저거너트",
               "pos": [
                 4
@@ -5238,6 +5407,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 5
@@ -5269,6 +5439,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU3",
               "name": "매머드",
               "pos": [
                 6
@@ -5303,6 +5474,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 7,
@@ -5333,6 +5505,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 9,
@@ -5363,6 +5536,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU3",
               "name": "저거너트",
               "pos": [
                 4
@@ -5394,6 +5568,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HarvesterEX_TU4",
               "name": "아머드 하베스터",
               "pos": [
                 5
@@ -5423,6 +5598,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU3",
               "name": "매머드",
               "pos": [
                 6
@@ -5457,6 +5633,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 7,
@@ -5487,6 +5664,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HarvesterEX_TU4",
               "name": "아머드 하베스터",
               "pos": [
                 8,
@@ -5517,6 +5695,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU4",
               "name": "빅 칙 런쳐",
               "pos": [
                 9,
@@ -5547,6 +5726,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 4
@@ -5576,6 +5756,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 6
@@ -5622,6 +5803,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU3",
               "name": "와습 HM",
               "pos": [
                 7,
@@ -5652,6 +5834,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutEX_TU4",
               "name": "강습형 스카우트",
               "pos": [
                 8,
@@ -5682,6 +5865,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU3",
               "name": "저거너트",
               "pos": [
                 4
@@ -5713,6 +5897,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -5744,6 +5929,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU4",
               "name": "빅 칙 런쳐",
               "pos": [
                 6
@@ -5778,6 +5964,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU3",
               "name": "와습 HM",
               "pos": [
                 8,
@@ -5808,6 +5995,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU4",
               "name": "헤비 스카우트",
               "pos": [
                 9,
@@ -5838,6 +6026,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU4",
               "name": "FA 빅 칙 II",
               "pos": [
                 4
@@ -5869,6 +6058,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 5,
@@ -5904,6 +6094,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU3",
               "name": "와습 HM",
               "pos": [
                 7,
@@ -5934,6 +6125,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 9,
@@ -5964,6 +6156,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU4",
               "name": "시작형 빅 칙",
               "pos": [
                 4
@@ -5993,6 +6186,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 6,
@@ -6030,6 +6224,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Mammoth_TU3",
               "name": "매머드",
               "pos": [
                 7,
@@ -6060,6 +6255,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 8,
@@ -6091,6 +6287,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU4",
               "name": "빅 칙 런쳐",
               "pos": [
                 9,
@@ -6121,6 +6318,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU4",
               "name": "헤비 스카우트",
               "pos": [
                 6
@@ -6165,6 +6363,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU4",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7,
@@ -6195,6 +6394,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU4",
               "name": "빅 칙 런쳐",
               "pos": [
                 8
@@ -6224,6 +6424,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU4",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -6254,6 +6455,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU4",
               "name": "시작형 빅 칙",
               "pos": [
                 4
@@ -6283,6 +6485,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -6314,6 +6517,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU6",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -6343,6 +6547,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU4",
               "name": "FA 빅 칙 II",
               "pos": [
                 2
@@ -6379,6 +6584,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 7,
@@ -6412,6 +6618,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 8,
@@ -6442,6 +6649,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 4
@@ -6471,6 +6679,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionEX_TU4",
               "name": "엘리트 센츄리온",
               "pos": [
                 6
@@ -6507,6 +6716,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_RV",
               "name": "나이트 칙 Type-S",
               "pos": [
                 7,
@@ -6541,6 +6751,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU4",
               "name": "개량형 칙 캐논",
               "pos": [
                 8,
@@ -6573,6 +6784,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU8",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -6603,6 +6815,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU4",
               "name": "저거너트",
               "pos": [
                 4
@@ -6634,6 +6847,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU4",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -6665,6 +6879,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HarvesterEX_TU4",
               "name": "아머드 하베스터",
               "pos": [
                 6
@@ -6708,6 +6923,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_UnderWatcherSensor_TU2",
               "name": "언더왓쳐 센서",
               "pos": [
                 7
@@ -6741,6 +6957,7 @@
               ]
             },
             {
+              "index": "MOB_MP_UnderWatcher_TU2",
               "name": "언더왓쳐",
               "pos": [
                 4
@@ -6774,6 +6991,7 @@
               ]
             },
             {
+              "index": "MOB_MP_UnderWatcherGenerator_TU2",
               "name": "언더왓쳐 제네레이터",
               "pos": [
                 6
@@ -6807,6 +7025,7 @@
               ]
             },
             {
+              "index": "MOB_MP_UnderWatcherArm_TU2",
               "name": "언더왓쳐 암",
               "pos": [
                 3

@@ -18,6 +18,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU2",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -48,6 +49,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_N",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -77,6 +79,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 5
@@ -104,6 +107,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU2",
               "name": "나이트 칙",
               "pos": [
                 6
@@ -138,6 +142,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_N",
               "name": "레기온",
               "pos": [
                 8,
@@ -168,6 +173,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_N",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -197,6 +203,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_N",
               "name": "나이트 칙 캐논",
               "pos": [
                 5
@@ -226,6 +233,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_N",
               "name": "하베스터",
               "pos": [
                 6
@@ -258,6 +266,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU2",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -288,6 +297,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_N",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -318,6 +328,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -365,6 +376,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 7,
@@ -394,6 +406,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_N",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -429,6 +442,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 7
@@ -458,6 +472,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 8,
@@ -487,6 +502,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 1
@@ -521,6 +537,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 7,
@@ -551,6 +568,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU",
               "name": "헤비 스카우트",
               "pos": [
                 5
@@ -596,6 +614,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7,
@@ -626,6 +645,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU3",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -656,6 +676,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_TU3",
               "name": "하베스터",
               "pos": [
                 4
@@ -688,6 +709,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU3",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -718,6 +740,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_TU3",
               "name": "하베스터",
               "pos": [
                 9,
@@ -746,6 +769,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -780,6 +804,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_N",
               "name": "레기온",
               "pos": [
                 8,
@@ -810,6 +835,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU3",
               "name": "나이트 칙 캐논",
               "pos": [
                 9,
@@ -840,6 +866,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_TU3",
               "name": "하베스터",
               "pos": [
                 4
@@ -867,6 +894,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -914,6 +942,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU3",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -944,6 +973,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 8,
@@ -976,6 +1006,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU3",
               "name": "나이트 칙 캐논",
               "pos": [
                 5
@@ -1010,6 +1041,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 8,
@@ -1040,6 +1072,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU3",
               "name": "나이트 칙 캐논",
               "pos": [
                 9,
@@ -1076,6 +1109,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickC_TU3",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -1108,6 +1142,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_N",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -1137,6 +1172,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -1184,6 +1220,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 8,
@@ -1214,6 +1251,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -1243,6 +1281,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU4",
               "name": "재퍼",
               "pos": [
                 5
@@ -1272,6 +1311,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 6
@@ -1306,6 +1346,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 7,
@@ -1336,6 +1377,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU4",
               "name": "재퍼",
               "pos": [
                 9,
@@ -1366,6 +1408,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -1400,6 +1443,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 7,
@@ -1432,6 +1476,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 8,
@@ -1462,6 +1507,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4,
@@ -1508,6 +1554,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 7,
@@ -1536,6 +1583,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU4",
               "name": "재퍼",
               "pos": [
                 8,
@@ -1566,6 +1614,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 5
@@ -1600,6 +1649,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Harvester_TU4",
               "name": "하베스터",
               "pos": [
                 9,
@@ -1628,6 +1678,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 4
@@ -1657,6 +1708,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -1688,6 +1740,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 6
@@ -1722,6 +1775,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 7,
@@ -1752,6 +1806,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 9,
@@ -1782,6 +1837,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -1811,6 +1867,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU4",
               "name": "재퍼",
               "pos": [
                 6
@@ -1845,6 +1902,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 7,
@@ -1875,6 +1933,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 8,
@@ -1905,6 +1964,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -1936,6 +1996,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Centurion_N",
               "name": "센츄리온",
               "pos": [
                 6
@@ -1981,6 +2042,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 8,
@@ -2011,6 +2073,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_N",
               "name": "스캐럽",
               "pos": [
                 4
@@ -2040,6 +2103,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 5,
@@ -2073,6 +2137,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 7,
@@ -2103,6 +2168,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -2133,6 +2199,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -2167,6 +2234,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -2197,6 +2265,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 9,
@@ -2228,6 +2297,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_N",
               "name": "스캐럽",
               "pos": [
                 5
@@ -2273,6 +2343,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 7,
@@ -2301,6 +2372,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 9,
@@ -2331,6 +2403,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 5
@@ -2365,6 +2438,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 7,
@@ -2395,6 +2469,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -2425,6 +2500,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -2459,6 +2535,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 7,
@@ -2489,6 +2566,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -2519,6 +2597,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -2548,6 +2627,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Harvester_TU4",
               "name": "하베스터",
               "pos": [
                 5
@@ -2591,6 +2671,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 7,
@@ -2621,6 +2702,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 4,
@@ -2651,6 +2733,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_N",
               "name": "스캐럽",
               "pos": [
                 5
@@ -2685,6 +2768,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 7,
@@ -2715,6 +2799,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU",
               "name": "헤비 스카우트",
               "pos": [
                 8,
@@ -2745,6 +2830,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -2779,6 +2865,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU4",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -2809,6 +2896,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -2839,6 +2927,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -2868,6 +2957,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -2913,6 +3003,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 7,
@@ -2943,6 +3034,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 8,
@@ -2971,6 +3063,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_N",
               "name": "스캐럽",
               "pos": [
                 5
@@ -3000,6 +3093,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU",
               "name": "헤비 스카우트",
               "pos": [
                 6
@@ -3034,6 +3128,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Scarab_N",
               "name": "스캐럽",
               "pos": [
                 7,
@@ -3064,6 +3159,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 8,
@@ -3094,6 +3190,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU",
               "name": "헤비 스카우트",
               "pos": [
                 4,
@@ -3129,6 +3226,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Scarab_N",
               "name": "스캐럽",
               "pos": [
                 7,
@@ -3159,6 +3257,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU",
               "name": "헤비 스카우트",
               "pos": [
                 9,
@@ -3189,6 +3288,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Wasp_N",
               "name": "와습",
               "pos": [
                 5
@@ -3218,6 +3318,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 6
@@ -3261,6 +3362,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 8,
@@ -3291,6 +3393,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Zapper_TU4",
               "name": "재퍼",
               "pos": [
                 9,
@@ -3321,6 +3424,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -3350,6 +3454,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3386,6 +3491,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 7,
@@ -3416,6 +3522,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -3446,6 +3553,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU",
               "name": "팔랑스",
               "pos": [
                 4
@@ -3475,6 +3583,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 5
@@ -3509,6 +3618,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 7,
@@ -3539,6 +3649,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 9,
@@ -3569,6 +3680,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Centurion_N",
               "name": "센츄리온",
               "pos": [
                 5
@@ -3598,6 +3710,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -3643,6 +3756,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU4",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -3673,6 +3787,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 8,
@@ -3703,6 +3818,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3734,6 +3850,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 6
@@ -3768,6 +3885,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 7,
@@ -3798,6 +3916,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -3828,6 +3947,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChick_TU3",
               "name": "빅 칙",
               "pos": [
                 4
@@ -3855,6 +3975,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -3891,6 +4012,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 7,
@@ -3921,6 +4043,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChick_TU3",
               "name": "빅 칙",
               "pos": [
                 9,
@@ -3949,6 +4072,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 4
@@ -3980,6 +4104,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 6
@@ -4014,6 +4139,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_BigChick_TU3",
               "name": "빅 칙",
               "pos": [
                 7,
@@ -4042,6 +4168,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 8,
@@ -4072,6 +4199,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 5
@@ -4101,6 +4229,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_TU4",
               "name": "풀아머 빅 칙",
               "pos": [
                 6
@@ -4145,6 +4274,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU2",
               "name": "강화형 칙 런쳐",
               "pos": [
                 7,
@@ -4175,6 +4305,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU2",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -4206,6 +4337,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -4240,6 +4372,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickCEX_TU2",
               "name": "개량형 칙 캐논",
               "pos": [
                 8,
@@ -4272,6 +4405,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU3",
               "name": "나이트 칙 디텍터",
               "pos": [
                 9,
@@ -4304,6 +4438,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 5
@@ -4333,6 +4468,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU2",
               "name": "강화형 나이트 칙",
               "pos": [
                 6
@@ -4367,6 +4503,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickCEX_TU2",
               "name": "개량형 칙 캐논",
               "pos": [
                 7,
@@ -4400,6 +4537,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU2",
               "name": "강화형 칙 런쳐",
               "pos": [
                 9,
@@ -4430,6 +4568,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -4464,6 +4603,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU2",
               "name": "강화형 칙 실더",
               "pos": [
                 7,
@@ -4494,6 +4634,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU2",
               "name": "개량형 칙 캐논",
               "pos": [
                 8,
@@ -4527,6 +4668,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_TU4",
               "name": "풀아머 빅 칙",
               "pos": [
                 5
@@ -4572,6 +4714,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ScoutEX_TU3",
               "name": "강습형 스카우트",
               "pos": [
                 7,
@@ -4602,6 +4745,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU3",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -4632,6 +4776,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU3",
               "name": "강화형 칙 실더",
               "pos": [
                 4
@@ -4661,6 +4806,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 6
@@ -4695,6 +4841,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 8,
@@ -4725,6 +4872,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutEX_TU3",
               "name": "강습형 스카우트",
               "pos": [
                 9,
@@ -4755,6 +4903,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU2",
               "name": "스캐럽 HC",
               "pos": [
                 4
@@ -4784,6 +4933,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU3",
               "name": "팔랑스",
               "pos": [
                 5
@@ -4818,6 +4968,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 7,
@@ -4848,6 +4999,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutEX_TU3",
               "name": "강습형 스카우트",
               "pos": [
                 8,
@@ -4878,6 +5030,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU2",
               "name": "스캐럽 HC",
               "pos": [
                 5
@@ -4907,6 +5060,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU6",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -4941,6 +5095,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_LegionEX_TU4",
               "name": "정예 레기온",
               "pos": [
                 7,
@@ -4971,6 +5126,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU6",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -5001,6 +5157,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU3",
               "name": "팔랑스",
               "pos": [
                 4
@@ -5030,6 +5187,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionCF_TU2",
               "name": "센츄리온 치프틴",
               "pos": [
                 5
@@ -5077,6 +5235,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_HeavyScout_TU4",
               "name": "헤비 스카우트",
               "pos": [
                 7,
@@ -5107,6 +5266,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 8,
@@ -5137,6 +5297,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU4",
               "name": "스캐럽 HC",
               "pos": [
                 4
@@ -5166,6 +5327,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutEX_TU4",
               "name": "강습형 스카우트",
               "pos": [
                 6
@@ -5200,6 +5362,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ScoutEX_TU4",
               "name": "강습형 스카우트",
               "pos": [
                 7,
@@ -5230,6 +5393,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU4",
               "name": "헤비 스카우트",
               "pos": [
                 9,
@@ -5260,6 +5424,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 4
@@ -5289,6 +5454,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU4",
               "name": "스캐럽 HC",
               "pos": [
                 5
@@ -5323,6 +5489,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 8,
@@ -5353,6 +5520,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU4",
               "name": "헤비 스카우트",
               "pos": [
                 9,
@@ -5383,6 +5551,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU4",
               "name": "스캐럽 HC",
               "pos": [
                 4
@@ -5412,6 +5581,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU3",
               "name": "FA 빅 칙 II",
               "pos": [
                 6
@@ -5448,6 +5618,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 7,
@@ -5478,6 +5649,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU4",
               "name": "헤비 스카우트",
               "pos": [
                 9,
@@ -5508,6 +5680,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickS_TU3",
               "name": "빅 칙 실더",
               "pos": [
                 4
@@ -5539,6 +5712,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU3",
               "name": "FA 빅 칙 II",
               "pos": [
                 5
@@ -5586,6 +5760,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ScarabEX_TU4",
               "name": "스캐럽 HC",
               "pos": [
                 7,
@@ -5616,6 +5791,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 8,
@@ -5647,6 +5823,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 6
@@ -5683,6 +5860,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 7,
@@ -5713,6 +5891,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 9,
@@ -5745,6 +5924,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU4",
               "name": "스캐럽 HC",
               "pos": [
                 4
@@ -5774,6 +5954,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDEX_TU2",
               "name": "강화형 칙 디텍터",
               "pos": [
                 6
@@ -5810,6 +5991,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ScarabEX_TU4",
               "name": "스캐럽 HC",
               "pos": [
                 7,
@@ -5840,6 +6022,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU4",
               "name": "와습 HM",
               "pos": [
                 9,
@@ -5870,6 +6053,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDEX_TU2",
               "name": "강화형 칙 디텍터",
               "pos": [
                 5
@@ -5901,6 +6085,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 6
@@ -5937,6 +6122,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_WaspEX_TU5",
               "name": "와습 HM",
               "pos": [
                 8,
@@ -5967,6 +6153,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tarantula_N",
               "name": "타란튤라",
               "pos": [
                 9,
@@ -5999,6 +6186,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDEX_TU2",
               "name": "강화형 칙 디텍터",
               "pos": [
                 4
@@ -6030,6 +6218,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickS_TU3",
               "name": "빅 칙 실더",
               "pos": [
                 5
@@ -6061,6 +6250,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 6
@@ -6108,6 +6298,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU3",
               "name": "강화형 칙 실더",
               "pos": [
                 8,
@@ -6138,6 +6329,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 9,
@@ -6170,6 +6362,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Testudo_TU2",
               "name": "테스투도",
               "pos": [
                 4
@@ -6201,6 +6394,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU9",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -6235,6 +6429,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU3",
               "name": "강화형 칙 실더",
               "pos": [
                 7,
@@ -6265,6 +6460,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 8,
@@ -6297,6 +6493,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Testudo_TU2",
               "name": "테스투도",
               "pos": [
                 5
@@ -6328,6 +6525,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU9",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -6362,6 +6560,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Testudo_TU2",
               "name": "테스투도",
               "pos": [
                 8,
@@ -6394,6 +6593,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU9",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -6424,6 +6624,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDEX_TU2",
               "name": "강화형 칙 디텍터",
               "pos": [
                 4
@@ -6455,6 +6656,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 6
@@ -6491,6 +6693,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Tarantula_N",
               "name": "타란튤라",
               "pos": [
                 8,
@@ -6523,6 +6726,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionElite_TU2",
               "name": "엘리트 레기온",
               "pos": [
                 9,
@@ -6555,6 +6759,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Testudo_TU2",
               "name": "테스투도",
               "pos": [
                 4
@@ -6586,6 +6791,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionG_TU3",
               "name": "센츄리온 제네럴",
               "pos": [
                 5
@@ -6619,6 +6825,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDEX_TU2",
               "name": "강화형 칙 디텍터",
               "pos": [
                 6
@@ -6666,6 +6873,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickCEX_TU5",
               "name": "개량형 칙 캐논",
               "pos": [
                 7,
@@ -6698,6 +6906,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU5",
               "name": "와습 HM",
               "pos": [
                 9,
@@ -6728,6 +6937,7 @@
               ]
             },
             {
+              "index": "MOB_MP_JuggernautP_N",
               "name": "강화형 저거너트",
               "pos": [
                 4
@@ -6759,6 +6969,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickShEx_TU4",
               "name": "강화형 칙 실더",
               "pos": [
                 6
@@ -6793,6 +7004,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickShEx_TU4",
               "name": "강화형 칙 실더",
               "pos": [
                 7,
@@ -6823,6 +7035,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU5",
               "name": "와습 HM",
               "pos": [
                 8,
@@ -6853,6 +7066,7 @@
               ]
             },
             {
+              "index": "MOB_MP_JuggernautP_N",
               "name": "강화형 저거너트",
               "pos": [
                 5
@@ -6884,6 +7098,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU4",
               "name": "매머드",
               "pos": [
                 6
@@ -6918,6 +7133,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_FABigChickEX_TU4",
               "name": "FA 빅 칙 II",
               "pos": [
                 8,
@@ -6950,6 +7166,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU4",
               "name": "매머드",
               "pos": [
                 9,
@@ -6980,6 +7197,7 @@
               ]
             },
             {
+              "index": "MOB_MP_JuggernautP_N",
               "name": "강화형 저거너트",
               "pos": [
                 5
@@ -7011,6 +7229,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tarantula_TU2",
               "name": "타란튤라",
               "pos": [
                 6
@@ -7047,6 +7266,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_JuggernautP_N",
               "name": "강화형 저거너트",
               "pos": [
                 8,
@@ -7079,6 +7299,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tarantula_TU2",
               "name": "타란튤라",
               "pos": [
                 9,
@@ -7111,6 +7332,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCMP_EV2",
               "name": "케미컬 칙 Type-X",
               "pos": [
                 4
@@ -7144,6 +7366,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickMG_EV2",
               "name": "빅 칙 런쳐 G",
               "pos": [
                 5
@@ -7177,6 +7400,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU4",
               "name": "매머드",
               "pos": [
                 6

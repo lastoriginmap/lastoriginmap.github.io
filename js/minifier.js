@@ -13,7 +13,7 @@ window.onload = async function() {
 		else if(type=="enemy")
 		{
 			var filetitle = "data-enemy";
-			var obj = await loadEnemyDataArr();
+			var obj = await loadEnemyData();
 		}
 		else return alert("오류가 발생했습니다!");
 		

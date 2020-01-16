@@ -1,14 +1,15 @@
-var areaData = {
-  "title": "areaDaily3",
+﻿var areaData = {
+  "title": "Daily3",
   "stage": [
     {
       "title": "Daily3-1",
-      "name": "기능 강화 초급",
+      "name": "초급 기능 강화 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_BigChick_N",
               "name": "빅 칙",
               "pos": [
                 8,
@@ -25,13 +26,16 @@ var areaData = {
               "DOD": 0,
               "skillpower": [
                 114,
-                190,
-                0
+                190
               ],
               "skillLVL": [
                 1,
-                1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             }
           ]
@@ -40,6 +44,7 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_BigChick_N",
               "name": "빅 칙",
               "pos": [
                 7,
@@ -55,16 +60,20 @@ var areaData = {
               "DOD": 0,
               "skillpower": [
                 114,
-                190,
-                0
+                190
               ],
               "skillLVL": [
                 1,
-                1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             },
             {
+              "index": "MOB_MP_Stalker_B0108",
               "name": "스토커",
               "pos": [
                 6
@@ -86,6 +95,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             }
           ]
@@ -94,12 +108,13 @@ var areaData = {
     },
     {
       "title": "Daily3-2",
-      "name": "기능 강화 중급",
+      "name": "중급 기능 강화 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Centurion_N",
               "name": "센츄리온",
               "pos": [
                 7,
@@ -122,9 +137,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_N",
               "name": "풀아머 빅 칙",
               "pos": [
                 6
@@ -146,6 +167,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             }
           ]
@@ -154,6 +180,7 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Predator_B0208",
               "name": "프레데터",
               "pos": [
                 7,
@@ -180,6 +207,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                50,
+                50
               ]
             }
           ]
@@ -188,19 +220,20 @@ var areaData = {
     },
     {
       "title": "Daily3-3",
-      "name": "기능 강화 상급",
+      "name": "상급 기능 강화 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_BigChick_TU2",
               "name": "빅 칙",
               "pos": [
                 7,
                 1
               ],
               "LVL": 40,
-              "HP": 3075,
+              "HP": 3035,
               "ATK": 464,
               "DEF": 186,
               "AGI": 3.25,
@@ -214,9 +247,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU2",
               "name": "빅 칙 런쳐",
               "pos": [
                 5
@@ -238,9 +277,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_N",
               "name": "풀아머 빅 칙",
               "pos": [
                 6
@@ -262,6 +307,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             }
           ]
@@ -270,6 +320,38 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_BigChickM_TU2",
+              "name": "빅 칙 런쳐",
+              "pos": [
+                7,
+                1
+              ],
+              "LVL": 45,
+              "HP": 5710,
+              "ATK": 574,
+              "DEF": 266,
+              "AGI": 3.25,
+              "CRT": 10,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                1722,
+                287,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                25,
+                25
+              ]
+            },
+            {
+              "index": "MOB_MP_Juggernaut_TU",
               "name": "저거너트",
               "pos": [
                 4
@@ -293,36 +375,16 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             },
             {
-              "name": "빅 칙 런쳐",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 45,
-              "HP": 5710,
-              "ATK": 574,
-              "DEF": 266,
-              "AGI": 3.25,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1722,
-                287,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "트릭스터 (5-4)",
-              "nickname": "트릭스터",
+              "index": "MOB_MP_Kidnapper_B0308",
+              "name": "트릭스터",
               "pos": [
                 5
               ],
@@ -336,7 +398,7 @@ var areaData = {
               "DOD": 60,
               "skillpower": [
                 700,
-                980,
+                979,
                 0,
                 0,
                 0
@@ -347,6 +409,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             }
           ]
@@ -355,14 +422,45 @@ var areaData = {
     },
     {
       "title": "Daily3-4",
-      "name": "기능 강화 최상급",
+      "name": "최상급 기능 강화 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
-              "name": "트릭스터 (5-4)",
-              "nickname": "트릭스터",
+              "index": "MOB_MP_Stalker_TU2",
+              "name": "스토커",
+              "pos": [
+                9,
+                3
+              ],
+              "LVL": 50,
+              "HP": 7020,
+              "ATK": 742,
+              "DEF": 76,
+              "AGI": 4.1,
+              "CRT": 10,
+              "HIT": 280,
+              "DOD": 50,
+              "skillpower": [
+                742,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                35,
+                35,
+                35
+              ]
+            },
+            {
+              "index": "MOB_MP_Kidnapper_B0308",
+              "name": "트릭스터",
               "pos": [
                 5
               ],
@@ -387,35 +485,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             },
             {
-              "name": "스토커 (1-4Ex)",
-              "nickname": "스토커",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 50,
-              "HP": 7020,
-              "ATK": 742,
-              "DEF": 76,
-              "AGI": 4.1,
-              "CRT": 10,
-              "HIT": 280,
-              "DOD": 50,
-              "skillpower": [
-                742,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Predator_B0208",
               "name": "프레데터",
               "pos": [
                 6
@@ -441,6 +519,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                50,
+                50,
+                50
               ]
             }
           ]
@@ -449,36 +532,8 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
-              "name": "프레데터",
-              "pos": [
-                4
-              ],
-              "LVL": 60,
-              "HP": 9775,
-              "ATK": 725,
-              "DEF": 340,
-              "AGI": 3.3,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1160,
-                362,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "트릭스터 (5-4)",
-              "nickname": "트릭스터",
+              "index": "MOB_MP_Kidnapper_B0308",
+              "name": "트릭스터",
               "pos": [
                 7,
                 1
@@ -504,9 +559,49 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                15,
+                15,
+                15
               ]
             },
             {
+              "index": "MOB_MP_Predator_B0208",
+              "name": "프레데터",
+              "pos": [
+                4
+              ],
+              "LVL": 60,
+              "HP": 9775,
+              "ATK": 725,
+              "DEF": 340,
+              "AGI": 3.3,
+              "CRT": 10,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                1160,
+                362,
+                0,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                50,
+                50,
+                50
+              ]
+            },
+            {
+              "index": "MOB_MP_Raider_B04",
               "name": "레이더",
               "pos": [
                 5
@@ -532,6 +627,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                -25,
+                0,
+                75
               ]
             }
           ]

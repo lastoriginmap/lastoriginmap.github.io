@@ -6,7 +6,7 @@ window.onload = async function(){
 	var areaData=await loadAreaData(getAreaByStageTitle(stageTitle)); //remove this line
 	var stageData=areaData.stage.find(sData => sData.title==stageTitle);
 	var enemyStatData=stageData.wave[waveNum].enemy[enemyNum];
-	var enemyDescData=await loadEnemyData(enemyStatData.name);
+	var enemyDescData=await loadEnemyData(enemyStatData.index);
 	
 	//drawEnemyPage(enemyStatData, enemyDescData);
 	if('updated' in areaData) drawEnemyPage(enemyStatData, enemyDescData, areaData.updated);

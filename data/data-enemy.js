@@ -1,6 +1,5 @@
-﻿var enemyDataArr = [
-  {
-    "index": "MOB_MP_NightChickM_N",
+﻿var enemyDataList = {
+  "MOB_MP_NightChickM_N": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -59,8 +58,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_N",
+  "MOB_MP_NightChick_N": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -119,8 +117,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickS_N",
+  "MOB_MP_NightChickS_N": {
     "name": "나이트 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -179,8 +176,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_TU",
+  "MOB_MP_NightChick_TU": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -239,8 +235,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickM_TU",
+  "MOB_MP_NightChickM_TU": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -299,8 +294,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChick_N",
+  "MOB_MP_BigChick_N": {
     "name": "빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -347,8 +341,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Stalker_B0108",
+  "MOB_MP_Stalker_B0108": {
     "name": "스토커",
     "img": "Stalker_B0108",
     "type": "경장 공격기",
@@ -414,8 +407,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickS_TU2",
+  "MOB_MP_NightChickS_TU2": {
     "name": "나이트 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -474,8 +466,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scout_N",
+  "MOB_MP_Scout_N": {
     "name": "스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -522,8 +513,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Harvester_N",
+  "MOB_MP_Harvester_N": {
     "name": "하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -570,8 +560,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_TU2",
+  "MOB_MP_NightChick_TU2": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -630,8 +619,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickM_TU2",
+  "MOB_MP_NightChickM_TU2": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -690,8 +678,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickC_N",
+  "MOB_MP_NightChickC_N": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -764,8 +751,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChick_N",
+  "MOB_MP_FABigChick_N": {
     "name": "풀아머 빅 칙",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -826,8 +812,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Predator_B0208",
+  "MOB_MP_Predator_B0208": {
     "name": "프레데터",
     "img": "Predator_B0208",
     "type": "중장 보호기",
@@ -912,8 +897,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_TU3",
+  "MOB_MP_NightChick_TU3": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -972,8 +956,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_TU2",
+  "MOB_MP_NightChickSI_TU2": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -1032,8 +1015,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickC_TU3",
+  "MOB_MP_NightChickC_TU3": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -1106,8 +1088,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Legion_N",
+  "MOB_MP_Legion_N": {
     "name": "레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -1167,8 +1148,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickM_TU3",
+  "MOB_MP_NightChickM_TU3": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -1227,8 +1207,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scout_TU3",
+  "MOB_MP_Scout_TU3": {
     "name": "스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -1275,8 +1254,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Zapper_N",
+  "MOB_MP_Zapper_N": {
     "name": "재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -1337,8 +1315,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_TU",
+  "MOB_MP_Phalangites_TU": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -1398,8 +1375,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Harvester_TU3",
+  "MOB_MP_Harvester_TU3": {
     "name": "하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -1446,8 +1422,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Centurion_N",
+  "MOB_MP_Centurion_N": {
     "name": "센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -1508,8 +1483,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_TU3",
+  "MOB_MP_NightChickSI_TU3": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -1568,8 +1542,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HeavyScout_TU",
+  "MOB_MP_HeavyScout_TU": {
     "name": "헤비 스카우트",
     "img": "Scout",
     "type": "기동 공격기",
@@ -1630,8 +1603,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Kidnapper_CH",
+  "MOB_MP_Kidnapper_CH": {
     "name": "트릭스터",
     "img": "Kidnapper_B0308",
     "type": "경장 공격기",
@@ -1715,8 +1687,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scout_TU4",
+  "MOB_MP_Scout_TU4": {
     "name": "스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -1763,8 +1734,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickM_TU4",
+  "MOB_MP_NightChickM_TU4": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -1823,8 +1793,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSP_N",
+  "MOB_MP_NightChickSP_N": {
     "name": "칙 스나이퍼",
     "img": "NightChickSP",
     "type": "경장 공격기",
@@ -1883,8 +1852,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU2",
+  "MOB_MP_NightChickDE_TU2": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -1962,8 +1930,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_TU4",
+  "MOB_MP_NightChick_TU4": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -2022,8 +1989,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Wasp_N",
+  "MOB_MP_Wasp_N": {
     "name": "와습",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -2091,8 +2057,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Harvester_TU4",
+  "MOB_MP_Harvester_TU4": {
     "name": "하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -2139,8 +2104,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickC_TU4",
+  "MOB_MP_NightChickC_TU4": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -2213,8 +2177,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChick_TU3",
+  "MOB_MP_BigChick_TU3": {
     "name": "빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -2261,8 +2224,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Zapper_TU4",
+  "MOB_MP_Zapper_TU4": {
     "name": "재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -2323,8 +2285,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Legion_TU4",
+  "MOB_MP_Legion_TU4": {
     "name": "레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -2384,8 +2345,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCM_TU2",
+  "MOB_MP_NightChickCM_TU2": {
     "name": "케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -2450,8 +2410,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scarab_N",
+  "MOB_MP_Scarab_N": {
     "name": "스캐럽",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -2510,8 +2469,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU3",
+  "MOB_MP_NightChickDE_TU3": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -2589,8 +2547,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Raider_B04",
+  "MOB_MP_Raider_B04": {
     "name": "레이더",
     "img": "Raider_B04",
     "type": "기동 지원기",
@@ -2698,8 +2655,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scout_TU5",
+  "MOB_MP_Scout_TU5": {
     "name": "스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -2746,8 +2702,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Raider_CH",
+  "MOB_MP_Raider_CH": {
     "name": "광폭화 레이더",
     "img": "Raider_B04",
     "type": "기동 지원기",
@@ -2849,8 +2804,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickMEX_TU",
+  "MOB_MP_NightChickMEX_TU": {
     "name": "강화형 칙 런쳐",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -2909,8 +2863,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickEX_TU",
+  "MOB_MP_NightChickEX_TU": {
     "name": "강화형 나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -2969,8 +2922,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickMEX_TU2",
+  "MOB_MP_NightChickMEX_TU2": {
     "name": "강화형 칙 런쳐",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -3029,8 +2981,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickEX_TU2",
+  "MOB_MP_NightChickEX_TU2": {
     "name": "강화형 나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -3089,8 +3040,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScoutEX_TU",
+  "MOB_MP_ScoutEX_TU": {
     "name": "강습형 스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -3150,8 +3100,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCM_TU",
+  "MOB_MP_NightChickCM_TU": {
     "name": "케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -3216,8 +3165,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HarvesterEX_TU",
+  "MOB_MP_HarvesterEX_TU": {
     "name": "아머드 하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -3276,8 +3224,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCEX_TU",
+  "MOB_MP_NightChickCEX_TU": {
     "name": "개량형 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -3366,8 +3313,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChickEX_TU",
+  "MOB_MP_FABigChickEX_TU": {
     "name": "FA 빅 칙 II",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -3440,8 +3386,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickM_TU",
+  "MOB_MP_BigChickM_TU": {
     "name": "빅 칙 런쳐",
     "img": "BigChickM",
     "type": "중장 공격기",
@@ -3503,8 +3448,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickEX_TU",
+  "MOB_MP_BigChickEX_TU": {
     "name": "시작형 빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -3563,8 +3507,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScoutEX_TU2",
+  "MOB_MP_ScoutEX_TU2": {
     "name": "강습형 스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -3624,8 +3567,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Juggernaut_TU",
+  "MOB_MP_Juggernaut_TU": {
     "name": "저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -3696,8 +3638,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickMEX_TU3",
+  "MOB_MP_NightChickMEX_TU3": {
     "name": "강화형 칙 런쳐",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -3756,8 +3697,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionEX_TU",
+  "MOB_MP_LegionEX_TU": {
     "name": "정예 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -3817,8 +3757,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickEX_TU3",
+  "MOB_MP_NightChickEX_TU3": {
     "name": "강화형 나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -3877,8 +3816,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionEX_TU",
+  "MOB_MP_CenturionEX_TU": {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -3954,8 +3892,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_TU2",
+  "MOB_MP_Phalangites_TU2": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -4015,8 +3952,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionEX_TU2",
+  "MOB_MP_LegionEX_TU2": {
     "name": "정예 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -4076,8 +4012,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCEX_TU3",
+  "MOB_MP_NightChickCEX_TU3": {
     "name": "개량형 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -4166,8 +4101,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HeavyScout_TU2",
+  "MOB_MP_HeavyScout_TU2": {
     "name": "헤비 스카우트",
     "img": "Scout",
     "type": "기동 공격기",
@@ -4228,8 +4162,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ZapperEX_TU",
+  "MOB_MP_ZapperEX_TU": {
     "name": "강화형 재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -4290,8 +4223,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickM_TU2",
+  "MOB_MP_BigChickM_TU2": {
     "name": "빅 칙 런쳐",
     "img": "BigChickM",
     "type": "중장 공격기",
@@ -4353,8 +4285,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_TU",
+  "MOB_MP_Mammoth_TU": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -4423,8 +4354,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScoutEX_TU3",
+  "MOB_MP_ScoutEX_TU3": {
     "name": "강습형 스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -4484,8 +4414,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ZapperEX_TU2",
+  "MOB_MP_ZapperEX_TU2": {
     "name": "강화형 재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -4546,8 +4475,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HarvesterEX_TU2",
+  "MOB_MP_HarvesterEX_TU2": {
     "name": "아머드 하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -4606,8 +4534,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickM_TU3",
+  "MOB_MP_BigChickM_TU3": {
     "name": "빅 칙 런쳐",
     "img": "BigChickM",
     "type": "중장 공격기",
@@ -4669,8 +4596,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChick_TU2",
+  "MOB_MP_BigChick_TU2": {
     "name": "빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -4717,8 +4643,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_N",
+  "MOB_MP_NightChickDE_N": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -4796,8 +4721,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_TU4",
+  "MOB_MP_NightChickSI_TU4": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -4856,8 +4780,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_TU2",
+  "MOB_MP_Mammoth_TU2": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -4926,8 +4849,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Wasp_TU5",
+  "MOB_MP_Wasp_TU5": {
     "name": "와습",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -4995,8 +4917,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_TU3",
+  "MOB_MP_Phalangites_TU3": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -5056,8 +4977,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSP_TU6",
+  "MOB_MP_NightChickSP_TU6": {
     "name": "칙 스나이퍼",
     "img": "NightChickSP",
     "type": "경장 공격기",
@@ -5116,8 +5036,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCM_TU3",
+  "MOB_MP_NightChickCM_TU3": {
     "name": "케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -5182,8 +5101,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickC_TU5",
+  "MOB_MP_NightChickC_TU5": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -5256,8 +5174,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Harvester_TU5",
+  "MOB_MP_Harvester_TU5": {
     "name": "하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -5304,8 +5221,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU4",
+  "MOB_MP_NightChickDE_TU4": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -5383,8 +5299,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HeavyScout_TU3",
+  "MOB_MP_HeavyScout_TU3": {
     "name": "헤비 스카우트",
     "img": "Scout",
     "type": "기동 공격기",
@@ -5445,8 +5360,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Legion_TU5",
+  "MOB_MP_Legion_TU5": {
     "name": "레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -5506,8 +5420,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Kidnapper_B0308",
+  "MOB_MP_Kidnapper_B0308": {
     "name": "트릭스터",
     "img": "Kidnapper_B0308",
     "type": "경장 공격기",
@@ -5594,8 +5507,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Stalker_TU2",
+  "MOB_MP_Stalker_TU2": {
     "name": "스토커",
     "img": "Stalker_B0108",
     "type": "경장 공격기",
@@ -5661,8 +5573,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSP_TU5",
+  "MOB_MP_NightChickSP_TU5": {
     "name": "칙 스나이퍼",
     "img": "NightChickSP",
     "type": "경장 공격기",
@@ -5721,8 +5632,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_TU3",
+  "MOB_MP_Mammoth_TU3": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -5791,8 +5701,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scarab_TU5",
+  "MOB_MP_Scarab_TU5": {
     "name": "스캐럽",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -5851,8 +5760,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Juggernaut_TU2",
+  "MOB_MP_Juggernaut_TU2": {
     "name": "저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -5923,8 +5831,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_TrainingDummy_N",
+  "MOB_MP_TrainingDummy_N": {
     "name": "표적 더미",
     "img": "NightChick",
     "type": "경장 지원기",
@@ -5983,8 +5890,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_N",
+  "MOB_MP_NightChickSI_N": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -6043,8 +5949,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_WaspEX_TU",
+  "MOB_MP_WaspEX_TU": {
     "name": "와습 HM",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -6112,8 +6017,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HarvesterEX_TU3",
+  "MOB_MP_HarvesterEX_TU3": {
     "name": "아머드 하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -6172,8 +6076,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickEX_TU4",
+  "MOB_MP_NightChickEX_TU4": {
     "name": "강화형 나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -6232,8 +6135,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickMEX_TU4",
+  "MOB_MP_NightChickMEX_TU4": {
     "name": "강화형 칙 런쳐",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -6292,8 +6194,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionEX_TU3",
+  "MOB_MP_LegionEX_TU3": {
     "name": "정예 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -6353,8 +6254,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionEX_TU2",
+  "MOB_MP_CenturionEX_TU2": {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -6430,8 +6330,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScarabEX_TU2",
+  "MOB_MP_ScarabEX_TU2": {
     "name": "스캐럽 HC",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -6490,8 +6389,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_WaspEX_TU2",
+  "MOB_MP_WaspEX_TU2": {
     "name": "와습 HM",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -6559,8 +6457,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScoutEX_TU4",
+  "MOB_MP_ScoutEX_TU4": {
     "name": "강습형 스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -6620,8 +6517,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Fallen_TU4",
+  "MOB_MP_Fallen_TU4": {
     "name": "경비용 폴른",
     "img": "Fallen",
     "type": "경장 지원기",
@@ -6668,8 +6564,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Rampart_TU4",
+  "MOB_MP_Rampart_TU4": {
     "name": "경비용 램파트",
     "img": "Rampart",
     "type": "경장 보호기",
@@ -6716,8 +6611,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Drone_TU4",
+  "MOB_MP_Drone_TU4": {
     "name": "경비용 드론",
     "img": "Drone",
     "type": "기동 지원기",
@@ -6766,8 +6660,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11_TU4",
+  "MOB_MP_AMG11_TU4": {
     "name": "경비용 AMG-11",
     "img": "AMG11",
     "type": "경장 지원기",
@@ -6814,8 +6707,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHead_TU4",
+  "MOB_MP_PuppHead_TU4": {
     "name": "경비용 펍 헤드",
     "img": "PuppHead",
     "type": "경장 지원기",
@@ -6863,8 +6755,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Stinger_TU4",
+  "MOB_MP_Stinger_TU4": {
     "name": "양산형 스팅어",
     "img": "Stinger",
     "type": "기동 공격기",
@@ -6932,8 +6823,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Gigantes_TU4",
+  "MOB_MP_Gigantes_TU4": {
     "name": "양산형 기간테스",
     "img": "Gigantes",
     "type": "중장 보호기",
@@ -6992,8 +6882,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Seljuq_TU4",
+  "MOB_MP_Seljuq_TU4": {
     "name": "양산형 셀주크",
     "img": "Seljuq",
     "type": "중장 공격기",
@@ -7062,8 +6951,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Scarab_TU6",
+  "MOB_MP_Scarab_TU6": {
     "name": "스캐럽",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -7122,8 +7010,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Centurion_TU5",
+  "MOB_MP_Centurion_TU5": {
     "name": "센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -7184,8 +7071,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcherSensor_B05",
+  "MOB_MP_UnderWatcherSensor_B05": {
     "name": "언더왓쳐 센서",
     "img": "UnderWatcherSensor_B05",
     "type": "중장 보호기",
@@ -7268,8 +7154,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcher_B05",
+  "MOB_MP_UnderWatcher_B05": {
     "name": "언더왓쳐",
     "img": "UnderWatcher_B05",
     "type": "중장 보호기",
@@ -7365,8 +7250,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcherGenerator_B05",
+  "MOB_MP_UnderWatcherGenerator_B05": {
     "name": "언더왓쳐 제네레이터",
     "img": "UnderWatcherGenerator_B05",
     "type": "중장 보호기",
@@ -7472,8 +7356,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcherArm_B05",
+  "MOB_MP_UnderWatcherArm_B05": {
     "name": "언더왓쳐 암",
     "img": "UnderWatcherArm_B05",
     "type": "중장 보호기",
@@ -7548,8 +7431,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Zapper_TU5",
+  "MOB_MP_Zapper_TU5": {
     "name": "재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -7610,8 +7492,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCM_TU4",
+  "MOB_MP_NightChickCM_TU4": {
     "name": "케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -7676,8 +7557,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCEX_TU4",
+  "MOB_MP_NightChickCEX_TU4": {
     "name": "개량형 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -7766,8 +7646,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickEX_TU4",
+  "MOB_MP_BigChickEX_TU4": {
     "name": "시작형 빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -7826,8 +7705,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChickEX_TU4",
+  "MOB_MP_FABigChickEX_TU4": {
     "name": "FA 빅 칙 II",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -7900,8 +7778,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickM_TU4",
+  "MOB_MP_BigChickM_TU4": {
     "name": "빅 칙 런쳐",
     "img": "BigChickM",
     "type": "중장 공격기",
@@ -7963,8 +7840,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionEX_TU4",
+  "MOB_MP_LegionEX_TU4": {
     "name": "정예 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -8024,8 +7900,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_TU4",
+  "MOB_MP_Phalangites_TU4": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -8085,8 +7960,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HarvesterEX_TU4",
+  "MOB_MP_HarvesterEX_TU4": {
     "name": "아머드 하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -8145,8 +8019,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Juggernaut_TU3",
+  "MOB_MP_Juggernaut_TU3": {
     "name": "저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -8217,8 +8090,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_WaspEX_TU3",
+  "MOB_MP_WaspEX_TU3": {
     "name": "와습 HM",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -8286,8 +8158,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HeavyScout_TU4",
+  "MOB_MP_HeavyScout_TU4": {
     "name": "헤비 스카우트",
     "img": "Scout",
     "type": "기동 공격기",
@@ -8348,8 +8219,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionEX_TU4",
+  "MOB_MP_CenturionEX_TU4": {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -8425,8 +8295,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_RV",
+  "MOB_MP_NightChick_RV": {
     "name": "나이트 칙 Type-S",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -8509,8 +8378,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSP_TU8",
+  "MOB_MP_NightChickSP_TU8": {
     "name": "칙 스나이퍼",
     "img": "NightChickSP",
     "type": "경장 공격기",
@@ -8569,8 +8437,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Juggernaut_TU4",
+  "MOB_MP_Juggernaut_TU4": {
     "name": "저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -8641,8 +8508,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickS_TU3",
+  "MOB_MP_NightChickS_TU3": {
     "name": "나이트 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -8701,8 +8567,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_SS1",
+  "MOB_MP_NightChickSI_SS1": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -8781,8 +8646,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChick_SS1",
+  "MOB_MP_FABigChick_SS1": {
     "name": "풀아머 빅 칙",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -8863,8 +8727,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_SS1",
+  "MOB_MP_Phalangites_SS1": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -8944,8 +8807,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChick_SS1",
+  "MOB_MP_BigChick_SS1": {
     "name": "빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -9012,8 +8874,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_N",
+  "MOB_MP_Mammoth_N": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -9082,8 +8943,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickEX_TU2",
+  "MOB_MP_BigChickEX_TU2": {
     "name": "시작형 빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -9142,8 +9002,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcherSensor_TU2",
+  "MOB_MP_UnderWatcherSensor_TU2": {
     "name": "언더왓쳐 센서",
     "img": "UnderWatcherSensor_B05",
     "type": "중장 보호기",
@@ -9238,8 +9097,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcher_TU2",
+  "MOB_MP_UnderWatcher_TU2": {
     "name": "언더왓쳐",
     "img": "UnderWatcher_B05",
     "type": "중장 보호기",
@@ -9338,8 +9196,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcherGenerator_TU2",
+  "MOB_MP_UnderWatcherGenerator_TU2": {
     "name": "언더왓쳐 제네레이터",
     "img": "UnderWatcherGenerator_B05",
     "type": "중장 보호기",
@@ -9445,8 +9302,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_UnderWatcherArm_TU2",
+  "MOB_MP_UnderWatcherArm_TU2": {
     "name": "언더왓쳐 암",
     "img": "UnderWatcherArm_B05",
     "type": "중장 보호기",
@@ -9533,8 +9389,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Legion_TU6",
+  "MOB_MP_Legion_TU6": {
     "name": "레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -9594,8 +9449,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickM_TU5",
+  "MOB_MP_NightChickM_TU5": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -9654,8 +9508,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickQM_N",
+  "MOB_MP_NightChickQM_N": {
     "name": "칙 쿼터마스터",
     "img": "NightChickQM",
     "type": "경장 지원기",
@@ -9757,8 +9610,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_TU5",
+  "MOB_MP_NightChick_TU5": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -9817,8 +9669,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionSP_N",
+  "MOB_MP_LegionSP_N": {
     "name": "레기온 스나이퍼",
     "img": "LegionSP",
     "type": "경장 공격기",
@@ -9879,8 +9730,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU5",
+  "MOB_MP_NightChickDE_TU5": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -9958,8 +9808,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_TU5",
+  "MOB_MP_NightChickSI_TU5": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -10018,8 +9867,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobTS_N",
+  "MOB_MP_ProgramMobTS_N": {
     "name": "철충 사념체 (보병)",
     "img": "ProgramMobTS",
     "type": "경장 지원기",
@@ -10081,8 +9929,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobTN_N",
+  "MOB_MP_ProgramMobTN_N": {
     "name": "철충 사념체 (저격병)",
     "img": "ProgramMobTN",
     "type": "경장 공격기",
@@ -10156,8 +10003,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobMT_N",
+  "MOB_MP_ProgramMobMT_N": {
     "name": "철충 사념체 (호위기)",
     "img": "ProgramMobMT",
     "type": "기동 보호기",
@@ -10223,8 +10069,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobTT_N",
+  "MOB_MP_ProgramMobTT_N": {
     "name": "철충 사념체 (장갑병)",
     "img": "ProgramMobTT",
     "type": "경장 보호기",
@@ -10283,8 +10128,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobMN_N",
+  "MOB_MP_ProgramMobMN_N": {
     "name": "철충 사념체 (폭격기)",
     "img": "ProgramMobMN",
     "type": "기동 공격기",
@@ -10358,8 +10202,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobMS_N",
+  "MOB_MP_ProgramMobMS_N": {
     "name": "철충 사념체 (정찰기)",
     "img": "ProgramMobMS",
     "type": "기동 지원기",
@@ -10461,8 +10304,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_TU6",
+  "MOB_MP_NightChick_TU6": {
     "name": "나이트 칙",
     "img": "NightChick",
     "type": "경장 공격기",
@@ -10521,8 +10363,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU6",
+  "MOB_MP_NightChickDE_TU6": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -10600,8 +10441,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Tortoise_N",
+  "MOB_MP_Tortoise_N": {
     "name": "토터스",
     "img": "Tortoise",
     "type": "중장 보호기",
@@ -10674,8 +10514,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_TU6",
+  "MOB_MP_NightChickSI_TU6": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -10734,8 +10573,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobAS_N",
+  "MOB_MP_ProgramMobAS_N": {
     "name": "철충 사념체 (돌격병)",
     "img": "ProgramMobAS",
     "type": "중장 지원기",
@@ -10808,8 +10646,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobTT_TU2",
+  "MOB_MP_ProgramMobTT_TU2": {
     "name": "철충 사념체 (장갑병)",
     "img": "ProgramMobTT",
     "type": "경장 보호기",
@@ -10868,8 +10705,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobMN_TU2",
+  "MOB_MP_ProgramMobMN_TU2": {
     "name": "철충 사념체 (폭격기)",
     "img": "ProgramMobMN",
     "type": "기동 공격기",
@@ -10943,8 +10779,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobMS_TU2",
+  "MOB_MP_ProgramMobMS_TU2": {
     "name": "철충 사념체 (정찰기)",
     "img": "ProgramMobMS",
     "type": "기동 지원기",
@@ -11046,8 +10881,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobAN_TU2",
+  "MOB_MP_ProgramMobAN_TU2": {
     "name": "철충 사념체 (포병)",
     "img": "ProgramMobAN",
     "type": "중장 공격기",
@@ -11135,8 +10969,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobMT_TU2",
+  "MOB_MP_ProgramMobMT_TU2": {
     "name": "철충 사념체 (호위기)",
     "img": "ProgramMobMT",
     "type": "기동 보호기",
@@ -11202,8 +11035,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobTS_TU2",
+  "MOB_MP_ProgramMobTS_TU2": {
     "name": "철충 사념체 (보병)",
     "img": "ProgramMobTS",
     "type": "경장 지원기",
@@ -11265,8 +11097,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobAS_TU2",
+  "MOB_MP_ProgramMobAS_TU2": {
     "name": "철충 사념체 (돌격병)",
     "img": "ProgramMobAS",
     "type": "중장 지원기",
@@ -11339,8 +11170,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobTN_TU2",
+  "MOB_MP_ProgramMobTN_TU2": {
     "name": "철충 사념체 (저격병)",
     "img": "ProgramMobTN",
     "type": "경장 공격기",
@@ -11414,8 +11244,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobAT_TU2",
+  "MOB_MP_ProgramMobAT_TU2": {
     "name": "철충 사념체 (중장갑병)",
     "img": "ProgramMobAT",
     "type": "중장 보호기",
@@ -11500,8 +11329,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobAN_N",
+  "MOB_MP_ProgramMobAN_N": {
     "name": "철충 사념체 (포병)",
     "img": "ProgramMobAN",
     "type": "중장 공격기",
@@ -11589,8 +11417,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ProgramMobAT_N",
+  "MOB_MP_ProgramMobAT_N": {
     "name": "철충 사념체 (중장갑병)",
     "img": "ProgramMobAT",
     "type": "중장 보호기",
@@ -11675,8 +11502,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionSP_TU2",
+  "MOB_MP_LegionSP_TU2": {
     "name": "레기온 스나이퍼",
     "img": "LegionSP",
     "type": "경장 공격기",
@@ -11737,8 +11563,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickQM_TU2",
+  "MOB_MP_NightChickQM_TU2": {
     "name": "칙 쿼터마스터",
     "img": "NightChickQM",
     "type": "경장 지원기",
@@ -11840,8 +11665,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Tortoise_TU2",
+  "MOB_MP_Tortoise_TU2": {
     "name": "토터스",
     "img": "Tortoise",
     "type": "중장 보호기",
@@ -11914,8 +11738,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Spector_TU2",
+  "MOB_MP_Spector_TU2": {
     "name": "스펙터",
     "img": "Spector",
     "type": "기동 지원기",
@@ -12015,8 +11838,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ExpGoblinT_N",
+  "MOB_MP_ExpGoblinT_N": {
     "name": "실험체 고블린",
     "img": "ExpGoblinT",
     "type": "중장 공격기",
@@ -12095,8 +11917,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ExpGoblinA_N",
+  "MOB_MP_ExpGoblinA_N": {
     "name": "실험체 고블린 파쇄병",
     "img": "ExpGoblinA",
     "type": "중장 지원기",
@@ -12178,8 +11999,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ExpGenerator2_N",
+  "MOB_MP_ExpGenerator2_N": {
     "name": "수상한 실험체",
     "img": "ExpGenerator2",
     "type": "중장 보호기",
@@ -12292,8 +12112,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ExecutionerRB_B06",
+  "MOB_MP_ExecutionerRB_B06": {
     "name": "익스큐셔너 실드 블레이드",
     "img": "ExecutionerLB_B06",
     "type": "기동 보호기",
@@ -12386,8 +12205,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Executioner_B06",
+  "MOB_MP_Executioner_B06": {
     "name": "익스큐셔너",
     "img": "Executioner_B06",
     "type": "기동 공격기",
@@ -12474,8 +12292,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ExecutionerLB_B06",
+  "MOB_MP_ExecutionerLB_B06": {
     "name": "익스큐셔너 롱 블레이드",
     "img": "ExecutionerRB_B06",
     "type": "기동 지원기",
@@ -12568,8 +12385,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickS_TU4",
+  "MOB_MP_NightChickS_TU4": {
     "name": "나이트 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -12628,8 +12444,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HarvesterEX_TU5",
+  "MOB_MP_HarvesterEX_TU5": {
     "name": "아머드 하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -12688,8 +12503,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCEX_TU5",
+  "MOB_MP_NightChickCEX_TU5": {
     "name": "개량형 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -12778,8 +12592,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ZapperEX_TU5",
+  "MOB_MP_ZapperEX_TU5": {
     "name": "강화형 재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -12840,8 +12653,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSI_TU7",
+  "MOB_MP_NightChickSI_TU7": {
     "name": "나이트 칙 실더 개",
     "img": "NightChickSI",
     "type": "경장 보호기",
@@ -12900,8 +12712,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickSP_TU2",
+  "MOB_MP_BigChickSP_TU2": {
     "name": "강화형 빅 칙",
     "img": "BigChick",
     "type": "경장 공격기",
@@ -12965,8 +12776,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HeavyScout_TU5",
+  "MOB_MP_HeavyScout_TU5": {
     "name": "헤비 스카우트",
     "img": "Scout",
     "type": "기동 공격기",
@@ -13027,8 +12837,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_WaspEX_TU5",
+  "MOB_MP_WaspEX_TU5": {
     "name": "와습 HM",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -13096,8 +12905,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_TU5",
+  "MOB_MP_Mammoth_TU5": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -13166,8 +12974,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Juggernaut_TU5",
+  "MOB_MP_Juggernaut_TU5": {
     "name": "저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -13238,8 +13045,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickM_TU5",
+  "MOB_MP_BigChickM_TU5": {
     "name": "빅 칙 런쳐",
     "img": "BigChickM",
     "type": "중장 공격기",
@@ -13301,8 +13107,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScoutEX_TU5",
+  "MOB_MP_ScoutEX_TU5": {
     "name": "강습형 스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -13362,8 +13167,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCM_TU5",
+  "MOB_MP_NightChickCM_TU5": {
     "name": "케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -13428,8 +13232,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionEX_TU5",
+  "MOB_MP_CenturionEX_TU5": {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -13505,8 +13308,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Centurion_TU7",
+  "MOB_MP_Centurion_TU7": {
     "name": "센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -13567,8 +13369,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickQMEX_N",
+  "MOB_MP_NightChickQMEX_N": {
     "name": "개량형 칙 쿼터마스터",
     "img": "NightChickQM",
     "type": "경장 지원기",
@@ -13679,8 +13480,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_SpectorBS_N",
+  "MOB_MP_SpectorBS_N": {
     "name": "스펙터 BS",
     "img": "Spector",
     "type": "기동 지원기",
@@ -13780,8 +13580,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScarabEX_TU5",
+  "MOB_MP_ScarabEX_TU5": {
     "name": "스캐럽 HC",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -13840,8 +13639,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Tortoise_TU3",
+  "MOB_MP_Tortoise_TU3": {
     "name": "토터스",
     "img": "Tortoise",
     "type": "중장 보호기",
@@ -13914,8 +13712,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickSP_TU3",
+  "MOB_MP_BigChickSP_TU3": {
     "name": "강화형 빅 칙",
     "img": "BigChick",
     "type": "경장 공격기",
@@ -13979,8 +13776,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_TU6",
+  "MOB_MP_Mammoth_TU6": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -14049,8 +13845,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_TU6",
+  "MOB_MP_Phalangites_TU6": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -14110,8 +13905,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickQM_TU3",
+  "MOB_MP_NightChickQM_TU3": {
     "name": "칙 쿼터마스터",
     "img": "NightChickQM",
     "type": "경장 지원기",
@@ -14213,8 +14007,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickEX_TU5",
+  "MOB_MP_BigChickEX_TU5": {
     "name": "시작형 빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -14273,8 +14066,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU7",
+  "MOB_MP_NightChickDE_TU7": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -14352,8 +14144,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionSPEX_N",
+  "MOB_MP_LegionSPEX_N": {
     "name": "개량형 레기온 스나이퍼",
     "img": "LegionSP",
     "type": "경장 공격기",
@@ -14426,8 +14217,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickMEX_TU5",
+  "MOB_MP_NightChickMEX_TU5": {
     "name": "강화형 칙 런쳐",
     "img": "NightChickM",
     "type": "경장 공격기",
@@ -14486,8 +14276,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_TU5",
+  "MOB_MP_Phalangites_TU5": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -14547,8 +14336,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChick_TU5",
+  "MOB_MP_FABigChick_TU5": {
     "name": "풀아머 빅 칙",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -14609,8 +14397,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionCF_TU3",
+  "MOB_MP_CenturionCF_TU3": {
     "name": "센츄리온 치프틴",
     "img": "CenturionCF",
     "type": "경장 공격기",
@@ -14696,8 +14483,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickEX_TU6",
+  "MOB_MP_BigChickEX_TU6": {
     "name": "시작형 빅 칙",
     "img": "BigChick",
     "type": "중장 공격기",
@@ -14756,8 +14542,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChick_TU6",
+  "MOB_MP_FABigChick_TU6": {
     "name": "풀아머 빅 칙",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -14818,8 +14603,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScarabEX_TU6",
+  "MOB_MP_ScarabEX_TU6": {
     "name": "스캐럽 HC",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -14878,8 +14662,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ZapperEX_TU6",
+  "MOB_MP_ZapperEX_TU6": {
     "name": "강화형 재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -14940,8 +14723,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSP_TU9",
+  "MOB_MP_NightChickSP_TU9": {
     "name": "칙 스나이퍼",
     "img": "NightChickSP",
     "type": "경장 공격기",
@@ -15000,8 +14782,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDE_TU8",
+  "MOB_MP_NightChickDE_TU8": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -15079,8 +14860,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChickEX_TU5",
+  "MOB_MP_FABigChickEX_TU5": {
     "name": "FA 빅 칙 II",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -15153,8 +14933,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_EmperorChick_TU3",
+  "MOB_MP_EmperorChick_TU3": {
     "name": "칙 엠페러",
     "img": "EmperorChick",
     "type": "중장 공격기",
@@ -15253,8 +15032,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionCF_TU4",
+  "MOB_MP_CenturionCF_TU4": {
     "name": "센츄리온 치프틴",
     "img": "CenturionCF",
     "type": "경장 공격기",
@@ -15340,8 +15118,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickC_EV5",
+  "MOB_MP_NightChickC_EV5": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -15414,8 +15191,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Tortoise_TU4",
+  "MOB_MP_Tortoise_TU4": {
     "name": "토터스",
     "img": "Tortoise",
     "type": "중장 보호기",
@@ -15488,8 +15264,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionSPEX_TU2",
+  "MOB_MP_LegionSPEX_TU2": {
     "name": "개량형 레기온 스나이퍼",
     "img": "LegionSP",
     "type": "경장 공격기",
@@ -15562,8 +15337,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickQMEX_TU2",
+  "MOB_MP_NightChickQMEX_TU2": {
     "name": "개량형 칙 쿼터마스터",
     "img": "NightChickQM",
     "type": "경장 지원기",
@@ -15674,8 +15448,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScoutSP_TU2",
+  "MOB_MP_ScoutSP_TU2": {
     "name": "지원형 스카우트",
     "img": "Scout",
     "type": "기동 지원기",
@@ -15757,8 +15530,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionCF_TU5",
+  "MOB_MP_CenturionCF_TU5": {
     "name": "센츄리온 치프틴",
     "img": "CenturionCF",
     "type": "경장 공격기",
@@ -15844,8 +15616,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_SpectorMS_N",
+  "MOB_MP_SpectorMS_N": {
     "name": "스펙터 MS",
     "img": "Spector",
     "type": "기동 지원기",
@@ -15946,8 +15717,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_EmperorChick_TU4",
+  "MOB_MP_EmperorChick_TU4": {
     "name": "칙 엠페러",
     "img": "EmperorChick",
     "type": "중장 공격기",
@@ -16046,8 +15816,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickAQ_TU",
+  "MOB_MP_NightChickAQ_TU": {
     "name": "아쿠아 칙",
     "img": "NightChickAQ",
     "type": "경장 지원기",
@@ -16133,8 +15902,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickTD_TU",
+  "MOB_MP_NightChickTD_TU": {
     "name": "썬더 칙",
     "img": "NightChickTD",
     "type": "경장 공격기",
@@ -16213,8 +15981,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDEG_TU",
+  "MOB_MP_NightChickDEG_TU": {
     "name": "나이트 칙 디텍터 G",
     "img": "NightChickDEG",
     "type": "경장 지원기",
@@ -16308,8 +16075,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickS_TU",
+  "MOB_MP_BigChickS_TU": {
     "name": "빅 칙 실더",
     "img": "BigChickS",
     "type": "중장 보호기",
@@ -16384,8 +16150,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Drone_TU2",
+  "MOB_MP_Drone_TU2": {
     "name": "경비용 드론",
     "img": "Drone",
     "type": "기동 지원기",
@@ -16434,8 +16199,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Fallen_TU2",
+  "MOB_MP_Fallen_TU2": {
     "name": "경비용 폴른",
     "img": "Fallen",
     "type": "경장 지원기",
@@ -16482,8 +16246,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Rampart_TU2",
+  "MOB_MP_Rampart_TU2": {
     "name": "경비용 램파트",
     "img": "Rampart",
     "type": "경장 보호기",
@@ -16530,8 +16293,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHead_TU2",
+  "MOB_MP_PuppHead_TU2": {
     "name": "경비용 펍 헤드",
     "img": "PuppHead",
     "type": "경장 지원기",
@@ -16579,8 +16341,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11_TU2",
+  "MOB_MP_AMG11_TU2": {
     "name": "경비용 AMG-11",
     "img": "AMG11",
     "type": "경장 지원기",
@@ -16627,8 +16388,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FallenC_EV1",
+  "MOB_MP_FallenC_EV1": {
     "name": "폴른 커스텀",
     "img": "FallenC",
     "type": "경장 공격기",
@@ -16703,8 +16463,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHeadC_EV1",
+  "MOB_MP_PuppHeadC_EV1": {
     "name": "펍 헤드 커스텀",
     "img": "PuppHeadC",
     "type": "경장 지원기",
@@ -16790,8 +16549,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RampartC_EV1",
+  "MOB_MP_RampartC_EV1": {
     "name": "램파트 커스텀",
     "img": "RampartC",
     "type": "경장 보호기",
@@ -16872,8 +16630,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Stinger_TU2",
+  "MOB_MP_Stinger_TU2": {
     "name": "양산형 스팅어",
     "img": "Stinger",
     "type": "기동 공격기",
@@ -16941,8 +16698,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Rampart_TU3",
+  "MOB_MP_Rampart_TU3": {
     "name": "경비용 램파트",
     "img": "Rampart",
     "type": "경장 보호기",
@@ -16989,8 +16745,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11_TU3",
+  "MOB_MP_AMG11_TU3": {
     "name": "경비용 AMG-11",
     "img": "AMG11",
     "type": "경장 지원기",
@@ -17037,8 +16792,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_DroneM_EV1",
+  "MOB_MP_DroneM_EV1": {
     "name": "드론 커스텀",
     "img": "DroneM",
     "type": "기동 공격기",
@@ -17126,8 +16880,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHead_TU3",
+  "MOB_MP_PuppHead_TU3": {
     "name": "경비용 펍 헤드",
     "img": "PuppHead",
     "type": "경장 지원기",
@@ -17175,8 +16928,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Seljuq_TU2",
+  "MOB_MP_Seljuq_TU2": {
     "name": "양산형 셀주크",
     "img": "Seljuq",
     "type": "중장 공격기",
@@ -17245,8 +16997,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11AA_EV1",
+  "MOB_MP_AMG11AA_EV1": {
     "name": "대공용 AMG-11",
     "img": "AMG11AA",
     "type": "경장 지원기",
@@ -17334,8 +17085,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Fallen_TU3",
+  "MOB_MP_Fallen_TU3": {
     "name": "경비용 폴른",
     "img": "Fallen",
     "type": "경장 지원기",
@@ -17382,8 +17132,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Drone_TU3",
+  "MOB_MP_Drone_TU3": {
     "name": "경비용 드론",
     "img": "Drone",
     "type": "기동 지원기",
@@ -17432,8 +17181,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_DroneM_EV2",
+  "MOB_MP_DroneM_EV2": {
     "name": "드론 커스텀",
     "img": "DroneM",
     "type": "기동 공격기",
@@ -17521,8 +17269,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RampartC_EV2",
+  "MOB_MP_RampartC_EV2": {
     "name": "램파트 커스텀",
     "img": "RampartC",
     "type": "경장 보호기",
@@ -17603,8 +17350,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FallenC_EV2",
+  "MOB_MP_FallenC_EV2": {
     "name": "폴른 커스텀",
     "img": "FallenC",
     "type": "경장 공격기",
@@ -17679,8 +17425,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Gigantes_TU3",
+  "MOB_MP_Gigantes_TU3": {
     "name": "양산형 기간테스",
     "img": "Gigantes",
     "type": "중장 보호기",
@@ -17739,8 +17484,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_StingerC_EV2",
+  "MOB_MP_StingerC_EV2": {
     "name": "스팅어 커스텀",
     "img": "StingerC",
     "type": "기동 공격기",
@@ -17812,8 +17556,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Seljuq_TU3",
+  "MOB_MP_Seljuq_TU3": {
     "name": "양산형 셀주크",
     "img": "Seljuq",
     "type": "중장 공격기",
@@ -17882,8 +17625,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11_TU5",
+  "MOB_MP_AMG11_TU5": {
     "name": "경비용 AMG-11",
     "img": "AMG11",
     "type": "경장 지원기",
@@ -17930,8 +17672,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHead_TU5",
+  "MOB_MP_PuppHead_TU5": {
     "name": "경비용 펍 헤드",
     "img": "PuppHead",
     "type": "경장 지원기",
@@ -17979,8 +17720,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RampartC_EV3",
+  "MOB_MP_RampartC_EV3": {
     "name": "램파트 커스텀",
     "img": "RampartC",
     "type": "경장 보호기",
@@ -18061,8 +17801,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11AA_EV3",
+  "MOB_MP_AMG11AA_EV3": {
     "name": "대공용 AMG-11",
     "img": "AMG11AA",
     "type": "경장 지원기",
@@ -18150,8 +17889,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Rampart_TU5",
+  "MOB_MP_Rampart_TU5": {
     "name": "경비용 램파트",
     "img": "Rampart",
     "type": "경장 보호기",
@@ -18198,8 +17936,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHeadC_EV3",
+  "MOB_MP_PuppHeadC_EV3": {
     "name": "펍 헤드 커스텀",
     "img": "PuppHeadC",
     "type": "경장 지원기",
@@ -18285,8 +18022,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Chiller_TU",
+  "MOB_MP_Chiller_TU": {
     "name": "칠러",
     "img": "Chiller",
     "type": "기동 공격기",
@@ -18366,8 +18102,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickAQ_TU2",
+  "MOB_MP_NightChickAQ_TU2": {
     "name": "아쿠아 칙",
     "img": "NightChickAQ",
     "type": "경장 지원기",
@@ -18453,8 +18188,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionElite_TU2",
+  "MOB_MP_LegionElite_TU2": {
     "name": "엘리트 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -18535,8 +18269,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionCF_N",
+  "MOB_MP_CenturionCF_N": {
     "name": "센츄리온 치프틴",
     "img": "CenturionCF",
     "type": "경장 공격기",
@@ -18622,8 +18355,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Chiller_TU3",
+  "MOB_MP_Chiller_TU3": {
     "name": "칠러",
     "img": "Chiller",
     "type": "기동 공격기",
@@ -18703,8 +18435,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDEG_TU3",
+  "MOB_MP_NightChickDEG_TU3": {
     "name": "나이트 칙 디텍터 G",
     "img": "NightChickDEG",
     "type": "경장 지원기",
@@ -18798,8 +18529,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickS_TU3",
+  "MOB_MP_BigChickS_TU3": {
     "name": "빅 칙 실더",
     "img": "BigChickS",
     "type": "중장 보호기",
@@ -18874,8 +18604,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickAQ_TU3",
+  "MOB_MP_NightChickAQ_TU3": {
     "name": "아쿠아 칙",
     "img": "NightChickAQ",
     "type": "경장 지원기",
@@ -18961,8 +18690,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickTD_TU3",
+  "MOB_MP_NightChickTD_TU3": {
     "name": "썬더 칙",
     "img": "NightChickTD",
     "type": "경장 공격기",
@@ -19041,8 +18769,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Juggernaut_TU6",
+  "MOB_MP_Juggernaut_TU6": {
     "name": "저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -19113,8 +18840,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickS_TU4",
+  "MOB_MP_BigChickS_TU4": {
     "name": "빅 칙 실더",
     "img": "BigChickS",
     "type": "중장 보호기",
@@ -19189,8 +18915,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FallenC_EV3",
+  "MOB_MP_FallenC_EV3": {
     "name": "폴른 커스텀",
     "img": "FallenC",
     "type": "경장 공격기",
@@ -19265,8 +18990,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_DroneM_EV3",
+  "MOB_MP_DroneM_EV3": {
     "name": "드론 커스텀",
     "img": "DroneM",
     "type": "기동 공격기",
@@ -19354,8 +19078,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11AA_EV4",
+  "MOB_MP_AMG11AA_EV4": {
     "name": "대공용 AMG-11",
     "img": "AMG11AA",
     "type": "경장 지원기",
@@ -19443,8 +19166,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RampartC_EV4",
+  "MOB_MP_RampartC_EV4": {
     "name": "램파트 커스텀",
     "img": "RampartC",
     "type": "경장 보호기",
@@ -19525,8 +19247,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FallenC_EV4",
+  "MOB_MP_FallenC_EV4": {
     "name": "폴른 커스텀",
     "img": "FallenC",
     "type": "경장 공격기",
@@ -19601,8 +19322,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionElite_TU3",
+  "MOB_MP_LegionElite_TU3": {
     "name": "엘리트 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -19683,8 +19403,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Testudo_TU3",
+  "MOB_MP_Testudo_TU3": {
     "name": "테스투도",
     "img": "Testudo",
     "type": "경장 보호기",
@@ -19760,8 +19479,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Centurion_EV1",
+  "MOB_MP_Centurion_EV1": {
     "name": "센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -19822,8 +19540,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionG_TU3",
+  "MOB_MP_CenturionG_TU3": {
     "name": "센츄리온 제네럴",
     "img": "CenturionG",
     "type": "경장 지원기",
@@ -19937,8 +19654,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_StingerC_EV4",
+  "MOB_MP_StingerC_EV4": {
     "name": "스팅어 커스텀",
     "img": "StingerC",
     "type": "기동 공격기",
@@ -20010,8 +19726,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_SeljuqA_EV3",
+  "MOB_MP_SeljuqA_EV3": {
     "name": "셀주크 커스텀",
     "img": "SeljuqA",
     "type": "중장 공격기",
@@ -20093,8 +19808,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_GigantesC_EV3",
+  "MOB_MP_GigantesC_EV3": {
     "name": "기간테스 커스텀",
     "img": "GigantesC",
     "type": "중장 보호기",
@@ -20169,8 +19883,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_DroneM_EV4",
+  "MOB_MP_DroneM_EV4": {
     "name": "드론 커스텀",
     "img": "DroneM",
     "type": "기동 공격기",
@@ -20258,8 +19971,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_StingerC_EV1",
+  "MOB_MP_StingerC_EV1": {
     "name": "스팅어 커스텀",
     "img": "StingerC",
     "type": "기동 공격기",
@@ -20331,8 +20043,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Stinger_TU3",
+  "MOB_MP_Stinger_TU3": {
     "name": "양산형 스팅어",
     "img": "Stinger",
     "type": "기동 공격기",
@@ -20400,8 +20111,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_PuppHeadC_EV2",
+  "MOB_MP_PuppHeadC_EV2": {
     "name": "펍 헤드 커스텀",
     "img": "PuppHeadC",
     "type": "경장 지원기",
@@ -20487,8 +20197,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_SeljuqA_EV2",
+  "MOB_MP_SeljuqA_EV2": {
     "name": "셀주크 커스텀",
     "img": "SeljuqA",
     "type": "중장 공격기",
@@ -20570,8 +20279,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RocCGenerator_EV1",
+  "MOB_MP_RocCGenerator_EV1": {
     "name": "에너지 컨덴서",
     "img": "RocCGenerator",
     "type": "중장 보호기",
@@ -20658,8 +20366,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RocCGenerator_EV2",
+  "MOB_MP_RocCGenerator_EV2": {
     "name": "에너지 컨덴서",
     "img": "RocCGenerator",
     "type": "중장 보호기",
@@ -20746,8 +20453,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RocC_EV1",
+  "MOB_MP_RocC_EV1": {
     "name": "로크 (최대 충전)",
     "img": "RocC",
     "type": "기동 공격기",
@@ -20848,8 +20554,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChick_TU4",
+  "MOB_MP_FABigChick_TU4": {
     "name": "풀아머 빅 칙",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -20910,8 +20615,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Chiller_TU2",
+  "MOB_MP_Chiller_TU2": {
     "name": "칠러",
     "img": "Chiller",
     "type": "기동 공격기",
@@ -20991,8 +20695,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Centurion_TU4",
+  "MOB_MP_Centurion_TU4": {
     "name": "센츄리온",
     "img": "Centurion",
     "type": "경장 공격기",
@@ -21053,8 +20756,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickC_EV9",
+  "MOB_MP_NightChickC_EV9": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -21127,8 +20829,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickS_TU2",
+  "MOB_MP_BigChickS_TU2": {
     "name": "빅 칙 실더",
     "img": "BigChickS",
     "type": "중장 보호기",
@@ -21203,8 +20904,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_GigantesC_EV2",
+  "MOB_MP_GigantesC_EV2": {
     "name": "기간테스 커스텀",
     "img": "GigantesC",
     "type": "중장 보호기",
@@ -21279,8 +20979,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RocCGeneratorA_EV1",
+  "MOB_MP_RocCGeneratorA_EV1": {
     "name": "강화 에너지 컨덴서",
     "img": "RocCGenerator",
     "type": "중장 보호기",
@@ -21367,8 +21066,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RocCGeneratorA_EV2",
+  "MOB_MP_RocCGeneratorA_EV2": {
     "name": "강화 에너지 컨덴서",
     "img": "RocCGenerator",
     "type": "중장 보호기",
@@ -21455,8 +21153,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_RocC_EV2",
+  "MOB_MP_RocC_EV2": {
     "name": "로크 (최대 충전)",
     "img": "RocC",
     "type": "기동 공격기",
@@ -21553,8 +21250,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Undine_EV1",
+  "MOB_MP_Undine_EV1": {
     "name": "까망베르",
     "img": "Undine",
     "type": "기동 보호기",
@@ -21634,8 +21330,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Undine_EV2",
+  "MOB_MP_Undine_EV2": {
     "name": "퐁 레베크",
     "img": "Undine",
     "type": "기동 보호기",
@@ -21715,8 +21410,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Undine_EV3",
+  "MOB_MP_Undine_EV3": {
     "name": "브리 드 모",
     "img": "Undine",
     "type": "기동 보호기",
@@ -21796,8 +21490,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_AMG11AA_EV5",
+  "MOB_MP_AMG11AA_EV5": {
     "name": "네리의 부하",
     "img": "AMG11AA",
     "type": "경장 지원기",
@@ -21882,8 +21575,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Nereid_EV1",
+  "MOB_MP_Nereid_EV1": {
     "name": "슈퍼 네리다!",
     "img": "Nereid",
     "type": "중장 공격기",
@@ -21977,8 +21669,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Undine_EV4",
+  "MOB_MP_Undine_EV4": {
     "name": "그럼…요?",
     "img": "Undine",
     "type": "기동 보호기",
@@ -22058,8 +21749,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Nereid_EV2",
+  "MOB_MP_Nereid_EV2": {
     "name": "그럼~요!",
     "img": "Nereid",
     "type": "중장 공격기",
@@ -22133,8 +21823,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_GigantesDagon_N",
+  "MOB_MP_GigantesDagon_N": {
     "name": "다곤씨 (대여 중)",
     "img": "GigantesDagon",
     "type": "중장 보호기",
@@ -22208,8 +21897,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Sirene_EV1",
+  "MOB_MP_Sirene_EV1": {
     "name": "문제아반 반장",
     "img": "Sirene",
     "type": "중장 공격기",
@@ -22307,8 +21995,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Sirene_EV2",
+  "MOB_MP_Sirene_EV2": {
     "name": "그럼요~",
     "img": "SireneC",
     "type": "중장 공격기",
@@ -22407,8 +22094,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCMP_EV1",
+  "MOB_MP_NightChickCMP_EV1": {
     "name": "케미컬 칙 Type-X",
     "img": "NightChickCMP",
     "type": "경장 공격기",
@@ -22512,8 +22198,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ZapperEX_TU3",
+  "MOB_MP_ZapperEX_TU3": {
     "name": "강화형 재퍼",
     "img": "Zapper",
     "type": "경장 지원기",
@@ -22574,8 +22259,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickMG_EV1",
+  "MOB_MP_BigChickMG_EV1": {
     "name": "빅 칙 런쳐 G",
     "img": "BigChickMG",
     "type": "중장 공격기",
@@ -22662,8 +22346,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Testudo_TU2",
+  "MOB_MP_Testudo_TU2": {
     "name": "테스투도",
     "img": "Testudo",
     "type": "경장 보호기",
@@ -22739,8 +22422,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickTD_TU2",
+  "MOB_MP_NightChickTD_TU2": {
     "name": "썬더 칙",
     "img": "NightChickTD",
     "type": "경장 공격기",
@@ -22819,8 +22501,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionElite_TU",
+  "MOB_MP_LegionElite_TU": {
     "name": "엘리트 레기온",
     "img": "Legion",
     "type": "경장 지원기",
@@ -22901,8 +22582,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickMG_N",
+  "MOB_MP_BigChickMG_N": {
     "name": "빅 칙 런쳐 G",
     "img": "BigChickMG",
     "type": "중장 공격기",
@@ -22989,8 +22669,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCMS_EV1",
+  "MOB_MP_NightChickCMS_EV1": {
     "name": "강화형 케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -23053,8 +22732,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Stalker_EV2",
+  "MOB_MP_Stalker_EV2": {
     "name": "스토커",
     "img": "Stalker_B0108",
     "type": "경장 공격기",
@@ -23144,8 +22822,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDEG_TU4",
+  "MOB_MP_NightChickDEG_TU4": {
     "name": "나이트 칙 디텍터 G",
     "img": "NightChickDEG",
     "type": "경장 지원기",
@@ -23239,8 +22916,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_JuggernautP_N",
+  "MOB_MP_JuggernautP_N": {
     "name": "강화형 저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -23311,8 +22987,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Mammoth_TU4",
+  "MOB_MP_Mammoth_TU4": {
     "name": "매머드",
     "img": "Mammoth",
     "type": "중장 공격기",
@@ -23381,8 +23056,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCMP_EV2",
+  "MOB_MP_NightChickCMP_EV2": {
     "name": "케미컬 칙 Type-X",
     "img": "NightChickCMP",
     "type": "경장 공격기",
@@ -23486,8 +23160,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_JuggernautP_EV1",
+  "MOB_MP_JuggernautP_EV1": {
     "name": "강화형 저거너트",
     "img": "Juggernaut",
     "type": "중장 보호기",
@@ -23558,8 +23231,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_BigChickMG_EV2",
+  "MOB_MP_BigChickMG_EV2": {
     "name": "빅 칙 런쳐 G",
     "img": "BigChickMG",
     "type": "중장 공격기",
@@ -23646,8 +23318,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickShEx_N",
+  "MOB_MP_NightChickShEx_N": {
     "name": "강화형 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -23706,8 +23377,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickShEx_TU2",
+  "MOB_MP_NightChickShEx_TU2": {
     "name": "강화형 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -23766,8 +23436,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCEX_TU2",
+  "MOB_MP_NightChickCEX_TU2": {
     "name": "개량형 칙 캐논",
     "img": "NightChickC",
     "type": "중장 공격기",
@@ -23856,8 +23525,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickShEx_TU3",
+  "MOB_MP_NightChickShEx_TU3": {
     "name": "강화형 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -23916,8 +23584,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_CenturionCF_TU2",
+  "MOB_MP_CenturionCF_TU2": {
     "name": "센츄리온 치프틴",
     "img": "CenturionCF",
     "type": "경장 공격기",
@@ -24003,8 +23670,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_WaspEX_TU4",
+  "MOB_MP_WaspEX_TU4": {
     "name": "와습 HM",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -24072,8 +23738,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_ScarabEX_TU4",
+  "MOB_MP_ScarabEX_TU4": {
     "name": "스캐럽 HC",
     "img": "Scarab",
     "type": "기동 보호기",
@@ -24132,8 +23797,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_FABigChickEX_TU3",
+  "MOB_MP_FABigChickEX_TU3": {
     "name": "FA 빅 칙 II",
     "img": "FABigChick",
     "type": "중장 공격기",
@@ -24206,8 +23870,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDEX_TU2",
+  "MOB_MP_NightChickDEX_TU2": {
     "name": "강화형 칙 디텍터",
     "img": "NightChickDE",
     "type": "경장 지원기",
@@ -24298,8 +23961,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Tarantula_N",
+  "MOB_MP_Tarantula_N": {
     "name": "타란튤라",
     "img": "Tarantula",
     "type": "경장 공격기",
@@ -24384,8 +24046,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickShEx_TU4",
+  "MOB_MP_NightChickShEx_TU4": {
     "name": "강화형 칙 실더",
     "img": "NightChickS",
     "type": "경장 보호기",
@@ -24444,8 +24105,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Tarantula_TU2",
+  "MOB_MP_Tarantula_TU2": {
     "name": "타란튤라",
     "img": "Tarantula",
     "type": "경장 공격기",
@@ -24530,8 +24190,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCM_N",
+  "MOB_MP_NightChickCM_N": {
     "name": "케미컬 칙",
     "img": "NightChickCM",
     "type": "경장 지원기",
@@ -24596,8 +24255,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Phalangites_N",
+  "MOB_MP_Phalangites_N": {
     "name": "팔랑스",
     "img": "Phalangites",
     "type": "경장 보호기",
@@ -24657,8 +24315,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSPW_N",
+  "MOB_MP_NightChickSPW_N": {
     "name": "한랭지형 칙 스나이퍼",
     "img": "NightChickSPW",
     "type": "경장 공격기",
@@ -24729,8 +24386,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_MammothW_N",
+  "MOB_MP_MammothW_N": {
     "name": "한랭지형 매머드",
     "img": "MammothW",
     "type": "중장 공격기",
@@ -24812,8 +24468,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionMk2_N",
+  "MOB_MP_LegionMk2_N": {
     "name": "레기온 Mk.II",
     "img": "LegionMk2",
     "type": "경장 공격기",
@@ -24893,8 +24548,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Frostbite_TU",
+  "MOB_MP_Frostbite_TU": {
     "name": "프로스트바이트",
     "img": "Frostbite",
     "type": "중장 지원기",
@@ -24998,8 +24652,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Chiller_TU4",
+  "MOB_MP_Chiller_TU4": {
     "name": "칠러",
     "img": "Chiller",
     "type": "기동 공격기",
@@ -25079,8 +24732,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_MammothW_TU",
+  "MOB_MP_MammothW_TU": {
     "name": "한랭지형 매머드",
     "img": "MammothW",
     "type": "중장 공격기",
@@ -25162,8 +24814,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickAQ_TU4",
+  "MOB_MP_NightChickAQ_TU4": {
     "name": "아쿠아 칙",
     "img": "NightChickAQ",
     "type": "경장 지원기",
@@ -25249,8 +24900,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_LegionMk2_TU2",
+  "MOB_MP_LegionMk2_TU2": {
     "name": "레기온 Mk.II",
     "img": "LegionMk2",
     "type": "경장 공격기",
@@ -25330,8 +24980,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickDEAA_TU2",
+  "MOB_MP_NightChickDEAA_TU2": {
     "name": "나이트 칙 디텍터 AA",
     "img": "NightChickDEAA",
     "type": "경장 지원기",
@@ -25424,8 +25073,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSPW_TU2",
+  "MOB_MP_NightChickSPW_TU2": {
     "name": "한랭지형 칙 스나이퍼",
     "img": "NightChickSPW",
     "type": "경장 공격기",
@@ -25496,8 +25144,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Frostbite_TU3",
+  "MOB_MP_Frostbite_TU3": {
     "name": "프로스트바이트",
     "img": "Frostbite",
     "type": "중장 지원기",
@@ -25601,8 +25248,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_MammothW_TU2",
+  "MOB_MP_MammothW_TU2": {
     "name": "한랭지형 매머드",
     "img": "MammothW",
     "type": "중장 공격기",
@@ -25684,8 +25330,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSPW_TU3",
+  "MOB_MP_NightChickSPW_TU3": {
     "name": "한랭지형 칙 스나이퍼",
     "img": "NightChickSPW",
     "type": "경장 공격기",
@@ -25756,8 +25401,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_HarvesterEX_N",
+  "MOB_MP_HarvesterEX_N": {
     "name": "아머드 하베스터",
     "img": "Harvester",
     "type": "중장 지원기",
@@ -25816,8 +25460,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Wasp_TU",
+  "MOB_MP_Wasp_TU": {
     "name": "와습",
     "img": "Wasp",
     "type": "기동 공격기",
@@ -25885,8 +25528,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Frostbite_N",
+  "MOB_MP_Frostbite_N": {
     "name": "프로스트바이트",
     "img": "Frostbite",
     "type": "중장 지원기",
@@ -25990,8 +25632,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Gigantes_TU2",
+  "MOB_MP_Gigantes_TU2": {
     "name": "양산형 기간테스",
     "img": "Gigantes",
     "type": "중장 보호기",
@@ -26050,8 +25691,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChick_C",
+  "MOB_MP_NightChick_C": {
     "name": "나이트 칙?",
     "img": "NightChick",
     "type": "경장 지원기",
@@ -26135,8 +25775,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickM_C",
+  "MOB_MP_NightChickM_C": {
     "name": "나이트 칙 런처??",
     "img": "NightChickM",
     "type": "기동 공격기",
@@ -26224,8 +25863,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickS_C",
+  "MOB_MP_NightChickS_C": {
     "name": "나이트 칙 실더???",
     "img": "NightChickS",
     "type": "중장 보호기",
@@ -26324,8 +25962,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_EmperorChickSpCH_N",
+  "MOB_MP_EmperorChickSpCH_N": {
     "name": "칙 커맨더",
     "img": "EmperorChickSpCH",
     "type": "중장 공격기",
@@ -26423,8 +26060,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_Testudo_TU4",
+  "MOB_MP_Testudo_TU4": {
     "name": "테스투도",
     "img": "Testudo",
     "type": "경장 보호기",
@@ -26500,8 +26136,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickCMP_N",
+  "MOB_MP_NightChickCMP_N": {
     "name": "케미컬 칙 Type-X",
     "img": "NightChickCMP",
     "type": "경장 공격기",
@@ -26605,8 +26240,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_NightChickSpCH_N",
+  "MOB_MP_NightChickSpCH_N": {
     "name": "솔져 칙",
     "img": "NightChickSpCH",
     "type": "경장 공격기",
@@ -26689,8 +26323,7 @@
       }
     ]
   },
-  {
-    "index": "MOB_MP_EmperorChickSpCH_C",
+  "MOB_MP_EmperorChickSpCH_C": {
     "name": "칙 커맨더",
     "img": "EmperorChickSpCH",
     "type": "중장 공격기",
@@ -26788,4 +26421,4 @@
       }
     ]
   }
-];
+};

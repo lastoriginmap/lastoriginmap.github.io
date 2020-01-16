@@ -1,14 +1,15 @@
-var areaData = {
-  "title": "areaDaily2",
+﻿var areaData = {
+  "title": "Daily2",
   "stage": [
     {
       "title": "Daily2-1",
-      "name": "능력 강화 초급",
+      "name": "초급 기능 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 7,
@@ -29,9 +30,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -54,9 +61,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 5
@@ -78,6 +91,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -86,30 +104,7 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
-              "name": "나이트 칙 캐논",
-              "pos": [
-                4
-              ],
-              "LVL": 9,
-              "HP": 360,
-              "ATK": 138,
-              "DEF": 32,
-              "AGI": 3.25,
-              "CRT": 5,
-              "HIT": 95,
-              "DOD": 0,
-              "skillpower": [
-                110,
-                241,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 8,
@@ -130,9 +125,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -155,6 +156,41 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickC_N",
+              "name": "나이트 칙 캐논",
+              "pos": [
+                4
+              ],
+              "LVL": 9,
+              "HP": 360,
+              "ATK": 138,
+              "DEF": 32,
+              "AGI": 3.25,
+              "CRT": 5,
+              "HIT": 95,
+              "DOD": 0,
+              "skillpower": [
+                110,
+                241,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             }
           ]
@@ -163,30 +199,7 @@ var areaData = {
           "title": "wave3",
           "enemy": [
             {
-              "name": "팔랑스",
-              "pos": [
-                4
-              ],
-              "LVL": 1,
-              "HP": 400,
-              "ATK": 55,
-              "DEF": 50,
-              "AGI": 3.95,
-              "CRT": 10,
-              "HIT": 150,
-              "DOD": 25,
-              "skillpower": [
-                55,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Scout_N",
               "name": "스카우트",
               "pos": [
                 7,
@@ -207,33 +220,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙",
-              "pos": [
-                5
               ],
-              "LVL": 10,
-              "HP": 395,
-              "ATK": 94,
-              "DEF": 20,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 10,
-              "skillpower": [
-                94,
-                113,
+              "resist": [
+                0,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_N",
               "name": "나이트 칙 캐논",
               "pos": [
                 9,
@@ -256,6 +251,71 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Phalangites_TU",
+              "name": "팔랑스",
+              "pos": [
+                4
+              ],
+              "LVL": 1,
+              "HP": 400,
+              "ATK": 55,
+              "DEF": 50,
+              "AGI": 3.95,
+              "CRT": 10,
+              "HIT": 150,
+              "DOD": 25,
+              "skillpower": [
+                55,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                40,
+                40,
+                40
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChick_TU2",
+              "name": "나이트 칙",
+              "pos": [
+                5
+              ],
+              "LVL": 10,
+              "HP": 395,
+              "ATK": 94,
+              "DEF": 20,
+              "AGI": 4,
+              "CRT": 5,
+              "HIT": 130,
+              "DOD": 10,
+              "skillpower": [
+                94,
+                113,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -264,36 +324,13 @@ var areaData = {
     },
     {
       "title": "Daily2-2",
-      "name": "능력 강화 중급",
+      "name": "중급 기능 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
-              "name": "나이트 칙 런처",
-              "pos": [
-                4
-              ],
-              "LVL": 25,
-              "HP": 1390,
-              "ATK": 216,
-              "DEF": 57,
-              "AGI": 3.4,
-              "CRT": 5,
-              "HIT": 155,
-              "DOD": 22.5,
-              "skillpower": [
-                216,
-                259,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Scout_TU3",
               "name": "스카우트",
               "pos": [
                 7,
@@ -314,33 +351,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "레기온",
-              "pos": [
-                5
               ],
-              "LVL": 25,
-              "HP": 984,
-              "ATK": 180,
-              "DEF": 34,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 170,
-              "DOD": 20,
-              "skillpower": [
-                180,
-                59,
+              "resist": [
+                0,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU3",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -363,17 +382,48 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
-            }
-          ]
-        },
-        {
-          "title": "wave2",
-          "enemy": [
+            },
             {
-              "name": "레기온",
+              "index": "MOB_MP_NightChickM_TU3",
+              "name": "나이트 칙 런처",
               "pos": [
                 4
+              ],
+              "LVL": 25,
+              "HP": 1390,
+              "ATK": 216,
+              "DEF": 57,
+              "AGI": 3.4,
+              "CRT": 5,
+              "HIT": 155,
+              "DOD": 22.5,
+              "skillpower": [
+                216,
+                259,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Legion_N",
+              "name": "레기온",
+              "pos": [
+                5
               ],
               "LVL": 25,
               "HP": 984,
@@ -392,9 +442,20 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU3",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -417,33 +478,15 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 캐논",
-              "pos": [
-                6
               ],
-              "LVL": 25,
-              "HP": 1152,
-              "ATK": 308,
-              "DEF": 99,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 115,
-              "DOD": 0,
-              "skillpower": [
-                246,
-                539,
+              "resist": [
+                0,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU3",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -466,6 +509,71 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Legion_N",
+              "name": "레기온",
+              "pos": [
+                4
+              ],
+              "LVL": 25,
+              "HP": 984,
+              "ATK": 180,
+              "DEF": 34,
+              "AGI": 4.05,
+              "CRT": 5,
+              "HIT": 170,
+              "DOD": 20,
+              "skillpower": [
+                180,
+                59,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickC_TU3",
+              "name": "나이트 칙 캐논",
+              "pos": [
+                6
+              ],
+              "LVL": 25,
+              "HP": 1152,
+              "ATK": 308,
+              "DEF": 99,
+              "AGI": 3.3,
+              "CRT": 5,
+              "HIT": 114,
+              "DOD": 0,
+              "skillpower": [
+                246,
+                539,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             }
           ]
@@ -474,6 +582,7 @@ var areaData = {
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU3",
               "name": "스카우트",
               "pos": [
                 7,
@@ -495,33 +604,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "레기온",
-              "pos": [
-                4
               ],
-              "LVL": 25,
-              "HP": 984,
-              "ATK": 180,
-              "DEF": 34,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 170,
-              "DOD": 20,
-              "skillpower": [
-                180,
-                59,
+              "resist": [
+                0,
+                0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 9
@@ -543,9 +634,45 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_Legion_N",
+              "name": "레기온",
+              "pos": [
+                4
+              ],
+              "LVL": 25,
+              "HP": 984,
+              "ATK": 180,
+              "DEF": 34,
+              "AGI": 4.05,
+              "CRT": 5,
+              "HIT": 170,
+              "DOD": 20,
+              "skillpower": [
+                180,
+                59,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickC_TU3",
               "name": "나이트 칙 캐논",
               "pos": [
                 3
@@ -556,7 +683,7 @@ var areaData = {
               "DEF": 99,
               "AGI": 3.3,
               "CRT": 5,
-              "HIT": 115,
+              "HIT": 114,
               "DOD": 0,
               "skillpower": [
                 246,
@@ -567,6 +694,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             }
           ]
@@ -575,12 +707,13 @@ var areaData = {
     },
     {
       "title": "Daily2-3",
-      "name": "능력 강화 상급",
+      "name": "상급 기능 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 7
@@ -600,57 +733,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 런처",
-              "pos": [
-                4
               ],
-              "LVL": 45,
-              "HP": 2830,
-              "ATK": 410,
-              "DEF": 103,
-              "AGI": 3.6,
-              "CRT": 10,
-              "HIT": 200,
-              "DOD": 32.5,
-              "skillpower": [
-                410,
-                492,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "팔랑스",
-              "pos": [
-                1
-              ],
-              "LVL": 45,
-              "HP": 4340,
-              "ATK": 351,
-              "DEF": 283,
-              "AGI": 3.95,
-              "CRT": 10,
-              "HIT": 175,
-              "DOD": 37.5,
-              "skillpower": [
-                351,
+              "resist": [
+                0,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -673,9 +764,45 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU4",
+              "name": "나이트 칙 런처",
+              "pos": [
+                4
+              ],
+              "LVL": 45,
+              "HP": 2830,
+              "ATK": 410,
+              "DEF": 103,
+              "AGI": 3.6,
+              "CRT": 10,
+              "HIT": 200,
+              "DOD": 32.5,
+              "skillpower": [
+                410,
+                492,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Legion_TU4",
               "name": "레기온",
               "pos": [
                 5
@@ -697,9 +824,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 6
@@ -721,6 +854,41 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Phalangites_TU2",
+              "name": "팔랑스",
+              "pos": [
+                1
+              ],
+              "LVL": 45,
+              "HP": 4340,
+              "ATK": 351,
+              "DEF": 283,
+              "AGI": 3.95,
+              "CRT": 10,
+              "HIT": 175,
+              "DOD": 37.5,
+              "skillpower": [
+                351,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                40,
+                40,
+                40
               ]
             }
           ]
@@ -729,6 +897,7 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickC_TU4",
               "name": "나이트 칙 캐논",
               "pos": [
                 7,
@@ -751,79 +920,15 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "스캐럽",
-              "pos": [
-                4
               ],
-              "LVL": 45,
-              "HP": 2394,
-              "ATK": 361,
-              "DEF": 151,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 120,
-              "DOD": 80,
-              "skillpower": [
-                541,
+              "resist": [
+                25,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
-              "name": "스카우트",
-              "pos": [
-                5
-              ],
-              "LVL": 45,
-              "HP": 1740,
-              "ATK": 302,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 75,
-              "skillpower": [
-                362,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ]
-            },
-            {
-              "name": "레기온",
-              "pos": [
-                6
-              ],
-              "LVL": 45,
-              "HP": 2052,
-              "ATK": 334,
-              "DEF": 56,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 195,
-              "DOD": 27.5,
-              "skillpower": [
-                334,
-                110,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_NightChick_TU4",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -846,6 +951,99 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Scarab_N",
+              "name": "스캐럽",
+              "pos": [
+                4
+              ],
+              "LVL": 45,
+              "HP": 2394,
+              "ATK": 361,
+              "DEF": 151,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 120,
+              "DOD": 80,
+              "skillpower": [
+                541,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Scout_TU4",
+              "name": "스카우트",
+              "pos": [
+                5
+              ],
+              "LVL": 45,
+              "HP": 1740,
+              "ATK": 302,
+              "DEF": 0,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 135,
+              "DOD": 75,
+              "skillpower": [
+                362,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Legion_TU4",
+              "name": "레기온",
+              "pos": [
+                6
+              ],
+              "LVL": 45,
+              "HP": 2052,
+              "ATK": 334,
+              "DEF": 56,
+              "AGI": 4.05,
+              "CRT": 5,
+              "HIT": 195,
+              "DOD": 27.5,
+              "skillpower": [
+                334,
+                110,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -854,30 +1052,7 @@ var areaData = {
           "title": "wave3",
           "enemy": [
             {
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                4
-              ],
-              "LVL": 45,
-              "HP": 5070,
-              "ATK": 394,
-              "DEF": 288,
-              "AGI": 3.6,
-              "CRT": 5,
-              "HIT": 180,
-              "DOD": 32.5,
-              "skillpower": [
-                433,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Scout_TU4",
               "name": "스카우트",
               "pos": [
                 7,
@@ -898,33 +1073,15 @@ var areaData = {
               "skillLVL": [
                 1,
                 1
-              ]
-            },
-            {
-              "name": "헤비 스카우트",
-              "pos": [
-                5
               ],
-              "LVL": 45,
-              "HP": 2685,
-              "ATK": 530,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 15,
-              "HIT": 140,
-              "DOD": 52.5,
-              "skillpower": [
-                636,
+              "resist": [
+                0,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU2",
               "name": "매머드",
               "pos": [
                 8,
@@ -947,9 +1104,75 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU4",
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                4
+              ],
+              "LVL": 45,
+              "HP": 5070,
+              "ATK": 394,
+              "DEF": 288,
+              "AGI": 3.6,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 32.5,
+              "skillpower": [
+                433,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                35,
+                35,
+                35
+              ]
+            },
+            {
+              "index": "MOB_MP_HeavyScout_TU2",
+              "name": "헤비 스카우트",
+              "pos": [
+                5
+              ],
+              "LVL": 45,
+              "HP": 2685,
+              "ATK": 530,
+              "DEF": 0,
+              "AGI": 4.25,
+              "CRT": 15,
+              "HIT": 140,
+              "DOD": 52.5,
+              "skillpower": [
+                636,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickSP_TU5",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -971,6 +1194,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -979,12 +1207,13 @@ var areaData = {
     },
     {
       "title": "Daily2-4",
-      "name": "능력 강화 최상급",
+      "name": "최상급 기능 훈련",
       "wave": [
         {
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
               "name": "스카우트",
               "pos": [
                 7
@@ -999,64 +1228,20 @@ var areaData = {
               "DOD": 90,
               "skillpower": [
                 583,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                1
-              ],
-              "LVL": 65,
-              "HP": 7170,
-              "ATK": 539,
-              "DEF": 378,
-              "AGI": 3.6,
-              "CRT": 5,
-              "HIT": 180,
-              "DOD": 32.5,
-              "skillpower": [
-                592,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "매머드",
-              "pos": [
-                5
-              ],
-              "LVL": 65,
-              "HP": 11920,
-              "ATK": 1016,
-              "DEF": 751,
-              "AGI": 3.2,
-              "CRT": 7.5,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1371,
-                2540,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Legion_TU5",
               "name": "레기온",
               "pos": [
                 8,
@@ -1079,9 +1264,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -1104,6 +1295,71 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Mammoth_TU3",
+              "name": "매머드",
+              "pos": [
+                5
+              ],
+              "LVL": 65,
+              "HP": 11920,
+              "ATK": 1016,
+              "DEF": 751,
+              "AGI": 3.2,
+              "CRT": 7.5,
+              "HIT": 135,
+              "DOD": 0,
+              "skillpower": [
+                1371,
+                2540,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickSI_TU4",
+              "name": "나이트 칙 실더 개",
+              "pos": [
+                1
+              ],
+              "LVL": 65,
+              "HP": 7170,
+              "ATK": 539,
+              "DEF": 378,
+              "AGI": 3.6,
+              "CRT": 5,
+              "HIT": 180,
+              "DOD": 32.5,
+              "skillpower": [
+                592,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                35,
+                35,
+                35
               ]
             }
           ]
@@ -1112,6 +1368,7 @@ var areaData = {
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
               "name": "스카우트",
               "pos": [
                 7
@@ -1126,64 +1383,20 @@ var areaData = {
               "DOD": 90,
               "skillpower": [
                 583,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
                 0,
                 0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
               ]
             },
             {
-              "name": "나이트 칙 캐논",
-              "pos": [
-                4
-              ],
-              "LVL": 65,
-              "HP": 6110,
-              "ATK": 836,
-              "DEF": 420,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 155,
-              "DOD": 0,
-              "skillpower": [
-                668,
-                1463,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "스캐럽",
-              "pos": [
-                1
-              ],
-              "LVL": 65,
-              "HP": 4660,
-              "ATK": 565,
-              "DEF": 243,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 95,
-              "skillpower": [
-                847,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 8,
@@ -1207,9 +1420,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU5",
               "name": "레기온",
               "pos": [
                 9,
@@ -1232,6 +1451,71 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickC_TU5",
+              "name": "나이트 칙 캐논",
+              "pos": [
+                4
+              ],
+              "LVL": 65,
+              "HP": 6110,
+              "ATK": 836,
+              "DEF": 420,
+              "AGI": 3.3,
+              "CRT": 5,
+              "HIT": 155,
+              "DOD": 0,
+              "skillpower": [
+                668,
+                1463,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_Scarab_TU5",
+              "name": "스캐럽",
+              "pos": [
+                1
+              ],
+              "LVL": 65,
+              "HP": 4660,
+              "ATK": 565,
+              "DEF": 243,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 135,
+              "DOD": 95,
+              "skillpower": [
+                847,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             }
           ]
@@ -1240,6 +1524,99 @@ var areaData = {
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Scout_TU5",
+              "name": "스카우트",
+              "pos": [
+                7,
+                3
+              ],
+              "LVL": 65,
+              "HP": 2970,
+              "ATK": 486,
+              "DEF": 0,
+              "AGI": 4.5,
+              "CRT": 10,
+              "HIT": 170,
+              "DOD": 90,
+              "skillpower": [
+                583,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickSP_N",
+              "name": "칙 스나이퍼",
+              "pos": [
+                8,
+                2
+              ],
+              "LVL": 65,
+              "HP": 2580,
+              "ATK": 582,
+              "DEF": 37,
+              "AGI": 4,
+              "CRT": 12.5,
+              "HIT": 235,
+              "DOD": 25,
+              "skillpower": [
+                873,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "index": "MOB_MP_NightChickDE_TU2",
+              "name": "나이트 칙 디텍터",
+              "pos": [
+                9
+              ],
+              "LVL": 65,
+              "HP": 3040,
+              "ATK": 354,
+              "DEF": 73,
+              "AGI": 4.1,
+              "CRT": 5,
+              "HIT": 220,
+              "DOD": 42.5,
+              "skillpower": [
+                354,
+                3,
+                0,
+                0
+              ],
+              "skillLVL": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "resist": [
+                15,
+                15,
+                15
+              ]
+            },
+            {
+              "index": "MOB_MP_Juggernaut_TU2",
               "name": "저거너트",
               "pos": [
                 4
@@ -1263,58 +1640,15 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                25,
+                25
               ]
             },
             {
-              "name": "스캐럽",
-              "pos": [
-                1
-              ],
-              "LVL": 65,
-              "HP": 4660,
-              "ATK": 565,
-              "DEF": 243,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 95,
-              "skillpower": [
-                847,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "name": "칙 스나이퍼",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 65,
-              "HP": 2580,
-              "ATK": 582,
-              "DEF": 37,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 235,
-              "DOD": 25,
-              "skillpower": [
-                873,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
+              "index": "MOB_MP_Wasp_TU5",
               "name": "와습",
               "pos": [
                 5
@@ -1336,40 +1670,15 @@ var areaData = {
                 1,
                 1,
                 1
-              ]
-            },
-            {
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                9
-              ],
-              "LVL": 65,
-              "HP": 3070,
-              "ATK": 354,
-              "DEF": 73,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 220,
-              "DOD": 42.5,
-              "skillpower": [
-                354,
-                0,
-                0,
-                0
               ],
               "resist": [
-                15,
-                15,
-                15
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
+                50,
+                0,
+                0
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU3",
               "name": "매머드",
               "pos": [
                 6
@@ -1391,24 +1700,29 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                0,
+                0,
+                0
               ]
             },
             {
-              "name": "스카우트",
+              "index": "MOB_MP_Scarab_TU5",
+              "name": "스캐럽",
               "pos": [
-                7,
-                3
+                1
               ],
               "LVL": 65,
-              "HP": 2970,
-              "ATK": 486,
-              "DEF": 0,
+              "HP": 4660,
+              "ATK": 565,
+              "DEF": 243,
               "AGI": 4.5,
               "CRT": 10,
-              "HIT": 170,
-              "DOD": 90,
+              "HIT": 135,
+              "DOD": 95,
               "skillpower": [
-                583,
+                847,
                 0,
                 0
               ],
@@ -1416,6 +1730,11 @@ var areaData = {
                 1,
                 1,
                 1
+              ],
+              "resist": [
+                25,
+                0,
+                0
               ]
             }
           ]

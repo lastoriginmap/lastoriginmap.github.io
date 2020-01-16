@@ -17,6 +17,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_N",
               "name": "나이트 칙 런처",
               "pos": [
                 9,
@@ -48,6 +49,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_N",
               "name": "나이트 칙 런처",
               "pos": [
                 4
@@ -92,6 +94,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_N",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -123,6 +126,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_N",
               "name": "나이트 칙 런처",
               "pos": [
                 9,
@@ -168,6 +172,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_N",
               "name": "나이트 칙",
               "pos": [
                 7,
@@ -198,6 +203,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_N",
               "name": "나이트 칙 런처",
               "pos": [
                 6,
@@ -233,6 +239,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_N",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -263,6 +270,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -292,6 +300,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_N",
               "name": "나이트 칙",
               "pos": [
                 5,
@@ -337,6 +346,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -368,6 +378,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 4
@@ -402,6 +413,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -431,6 +443,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChick_N",
               "name": "빅 칙",
               "pos": [
                 6
@@ -458,6 +471,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 1
@@ -502,6 +516,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -532,6 +547,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 9
@@ -561,6 +577,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 5,
@@ -596,6 +613,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -626,6 +644,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -656,6 +675,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 6
@@ -690,6 +710,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -720,6 +741,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 9,
@@ -750,6 +772,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -779,6 +802,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 5
@@ -823,6 +847,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 8,
@@ -854,6 +879,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -889,6 +915,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9
@@ -918,6 +945,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -947,6 +975,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 6,
@@ -982,6 +1011,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 8,
@@ -1012,6 +1042,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -1042,6 +1073,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 4
@@ -1071,6 +1103,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 5
@@ -1115,6 +1148,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -1145,6 +1179,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 9,
@@ -1176,6 +1211,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -1210,6 +1246,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -1240,6 +1277,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 8,
@@ -1271,6 +1309,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 5
@@ -1305,6 +1344,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 8,
@@ -1336,6 +1376,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -1365,6 +1406,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 6
@@ -1409,6 +1451,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9
@@ -1438,6 +1481,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -1467,6 +1511,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stalker_B0108",
               "name": "스토커",
               "pos": [
                 6
@@ -1496,6 +1541,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 1
@@ -1539,6 +1585,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 7,
@@ -1569,6 +1616,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 8,
@@ -1605,6 +1653,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 8,
@@ -1635,6 +1684,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 9,
@@ -1667,6 +1717,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -1696,6 +1747,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 5
@@ -1730,6 +1782,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7,
@@ -1760,6 +1813,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 9,
@@ -1791,6 +1845,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -1827,6 +1882,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 7,
@@ -1857,6 +1913,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -1888,6 +1945,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -1917,6 +1975,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -1963,6 +2022,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -1993,6 +2053,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 8,
@@ -2023,6 +2084,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 6
@@ -2057,6 +2119,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -2087,6 +2150,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -2116,6 +2180,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -2147,6 +2212,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 6
@@ -2181,6 +2247,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -2211,6 +2278,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -2242,6 +2310,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -2288,6 +2357,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 7,
@@ -2319,6 +2389,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -2348,6 +2419,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 5
@@ -2382,6 +2454,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -2412,6 +2485,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 8,
@@ -2444,6 +2518,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 5
@@ -2473,6 +2548,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 6
@@ -2507,6 +2583,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -2537,6 +2614,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 9,
@@ -2570,6 +2648,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 4
@@ -2614,6 +2693,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 8,
@@ -2645,6 +2725,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -2675,6 +2756,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -2711,6 +2793,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -2741,6 +2824,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 9,
@@ -2772,6 +2856,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 4
@@ -2808,6 +2893,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 8,
@@ -2838,6 +2924,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -2868,6 +2955,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 4,
@@ -2898,6 +2986,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -2944,6 +3033,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 7,
@@ -2974,6 +3064,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -3004,6 +3095,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3035,6 +3127,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 6
@@ -3069,6 +3162,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 8,
@@ -3100,6 +3194,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 9,
@@ -3136,6 +3231,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 7,
@@ -3166,6 +3262,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 9,
@@ -3197,6 +3294,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3233,6 +3331,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickM_TU",
               "name": "나이트 칙 런처",
               "pos": [
                 7,
@@ -3263,6 +3362,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -3294,6 +3394,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickS_N",
               "name": "나이트 칙 실더",
               "pos": [
                 4
@@ -3323,6 +3424,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_N",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3369,6 +3471,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 8,
@@ -3399,6 +3502,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 9,
@@ -3429,6 +3533,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -3463,6 +3568,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7,
@@ -3493,6 +3599,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 9
@@ -3522,6 +3629,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 5
@@ -3551,6 +3659,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -3582,6 +3691,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 3
@@ -3616,6 +3726,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 7
@@ -3645,6 +3756,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -3675,6 +3787,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -3704,6 +3817,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -3735,6 +3849,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -3769,6 +3884,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 8,
@@ -3799,6 +3915,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 9,
@@ -3831,6 +3948,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -3860,6 +3978,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU",
               "name": "시작형 빅 칙",
               "pos": [
                 6
@@ -3904,6 +4023,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 8,
@@ -3934,6 +4054,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 9,
@@ -3965,6 +4086,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -3999,6 +4121,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 7
@@ -4028,6 +4151,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 8,
@@ -4060,6 +4184,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 9,
@@ -4090,6 +4215,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -4124,6 +4250,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7,
@@ -4154,6 +4281,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 8,
@@ -4185,6 +4313,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 9
@@ -4221,6 +4350,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_BigChickM_TU",
               "name": "빅 칙 런쳐",
               "pos": [
                 8,
@@ -4251,6 +4381,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU",
               "name": "시작형 빅 칙",
               "pos": [
                 4,
@@ -4296,6 +4427,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 7,
@@ -4327,6 +4459,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 8
@@ -4356,6 +4489,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU2",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -4387,6 +4521,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU",
               "name": "시작형 빅 칙",
               "pos": [
                 6
@@ -4421,6 +4556,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 8,
@@ -4452,6 +4588,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 9,
@@ -4482,6 +4619,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU",
               "name": "빅 칙 런쳐",
               "pos": [
                 5
@@ -4516,6 +4654,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7,
@@ -4546,6 +4685,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU",
               "name": "강화형 칙 런쳐",
               "pos": [
                 8,
@@ -4576,6 +4716,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickEX_TU",
               "name": "강화형 나이트 칙",
               "pos": [
                 9
@@ -4605,6 +4746,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU2",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -4634,6 +4776,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Stalker_TU2",
               "name": "스토커",
               "pos": [
                 6
@@ -4663,6 +4806,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 3

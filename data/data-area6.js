@@ -17,6 +17,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU6",
               "name": "레기온",
               "pos": [
                 7
@@ -46,6 +47,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU5",
               "name": "나이트 칙 런처",
               "pos": [
                 8
@@ -75,6 +77,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 6
@@ -108,6 +111,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU5",
               "name": "나이트 칙",
               "pos": [
                 1,
@@ -143,6 +147,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU5",
               "name": "나이트 칙",
               "pos": [
                 8,
@@ -173,6 +178,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 9
@@ -206,6 +212,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 4
@@ -235,6 +242,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU5",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -266,6 +274,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU5",
               "name": "나이트 칙 실더 개",
               "pos": [
                 2
@@ -300,6 +309,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU5",
               "name": "나이트 칙",
               "pos": [
                 8
@@ -329,6 +339,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 9
@@ -358,6 +369,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 4
@@ -387,6 +399,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 5
@@ -416,6 +429,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU6",
               "name": "레기온",
               "pos": [
                 6
@@ -445,6 +459,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU5",
               "name": "나이트 칙 실더 개",
               "pos": [
                 2
@@ -474,6 +489,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 3
@@ -522,6 +538,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7
@@ -551,6 +568,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 9
@@ -582,6 +600,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 1
@@ -611,6 +630,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 3
@@ -645,6 +665,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 7,
@@ -675,6 +696,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 8,
@@ -707,6 +729,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 4
@@ -736,6 +759,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 6
@@ -770,6 +794,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7,
@@ -800,6 +825,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 8
@@ -829,6 +855,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_N",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 6
@@ -860,6 +887,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 2
@@ -894,6 +922,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 8
@@ -923,6 +952,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_N",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 9,
@@ -955,6 +985,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -988,6 +1019,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 5
@@ -1017,6 +1049,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 2
@@ -1061,6 +1094,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 8
@@ -1090,6 +1124,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 5
@@ -1123,6 +1158,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 6
@@ -1152,6 +1188,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 2
@@ -1186,6 +1223,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU5",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7
@@ -1215,6 +1253,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 8
@@ -1244,6 +1283,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 4
@@ -1273,6 +1313,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 6
@@ -1302,6 +1343,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 1
@@ -1336,6 +1378,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 7,
@@ -1366,6 +1409,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 8
@@ -1399,6 +1443,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 5
@@ -1428,6 +1473,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU6",
               "name": "나이트 칙 디텍터",
               "pos": [
                 6
@@ -1459,6 +1505,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 3
@@ -1493,6 +1540,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Legion_TU6",
               "name": "레기온",
               "pos": [
                 7
@@ -1522,6 +1570,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 8
@@ -1555,6 +1604,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_N",
               "name": "토터스",
               "pos": [
                 4
@@ -1586,6 +1636,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU6",
               "name": "나이트 칙 실더 개",
               "pos": [
                 1
@@ -1615,6 +1666,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 2
@@ -1649,6 +1701,7 @@
           "title": "wave5",
           "enemy": [
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 7
@@ -1678,6 +1731,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU6",
               "name": "나이트 칙 디텍터",
               "pos": [
                 8
@@ -1709,6 +1763,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_N",
               "name": "칙 스나이퍼",
               "pos": [
                 9
@@ -1738,6 +1793,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 1
@@ -1767,6 +1823,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_N",
               "name": "토터스",
               "pos": [
                 2
@@ -1798,6 +1855,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 3
@@ -1846,6 +1904,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 7
@@ -1875,6 +1934,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 8
@@ -1908,6 +1968,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 6
@@ -1939,6 +2000,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 2
@@ -1968,6 +2030,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 3
@@ -2004,6 +2067,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 8
@@ -2033,6 +2097,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_TU2",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 9
@@ -2064,6 +2129,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_TU2",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -2097,6 +2163,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_TU2",
               "name": "철충 사념체 (포병)",
               "pos": [
                 6
@@ -2130,6 +2197,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 1
@@ -2159,6 +2227,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 2
@@ -2193,6 +2262,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_TU2",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7
@@ -2222,6 +2292,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 8
@@ -2251,6 +2322,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_TU2",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 9
@@ -2282,6 +2354,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_TU2",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 5
@@ -2313,6 +2386,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_TU2",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 6
@@ -2346,6 +2420,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_TU2",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 1
@@ -2379,6 +2454,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_TU2",
               "name": "철충 사념체 (포병)",
               "pos": [
                 3
@@ -2427,6 +2503,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 9,
@@ -2457,6 +2534,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 4
@@ -2486,6 +2564,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 6
@@ -2520,6 +2599,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 8,
@@ -2550,6 +2630,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 9,
@@ -2582,6 +2663,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 5
@@ -2618,6 +2700,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 7
@@ -2651,6 +2734,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_N",
               "name": "철충 사념체 (포병)",
               "pos": [
                 9,
@@ -2685,6 +2769,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_N",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 5
@@ -2716,6 +2801,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_N",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 6
@@ -2749,6 +2835,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 1
@@ -2783,6 +2870,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 7,
@@ -2813,6 +2901,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 8
@@ -2842,6 +2931,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_N",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 4
@@ -2875,6 +2965,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 5
@@ -2908,6 +2999,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 6
@@ -2937,6 +3029,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_TU2",
               "name": "철충 사념체 (보병)",
               "pos": [
                 2
@@ -2981,6 +3074,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7
@@ -3010,6 +3104,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 9,
@@ -3044,6 +3139,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 4
@@ -3073,6 +3169,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 1
@@ -3107,6 +3204,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 7,
@@ -3137,6 +3235,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 5
@@ -3170,6 +3269,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 6
@@ -3199,6 +3299,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 3
@@ -3235,6 +3336,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 9
@@ -3266,6 +3368,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -3299,6 +3402,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_TU2",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 5
@@ -3332,6 +3436,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 2
@@ -3361,6 +3466,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 3
@@ -3397,6 +3503,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7
@@ -3426,6 +3533,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 9
@@ -3457,6 +3565,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -3490,6 +3599,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 5
@@ -3519,6 +3629,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_TU2",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 6
@@ -3552,6 +3663,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 1
@@ -3581,6 +3693,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_TU2",
               "name": "철충 사념체 (포병)",
               "pos": [
                 3
@@ -3629,6 +3742,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 8
@@ -3658,6 +3772,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU6",
               "name": "나이트 칙 실더 개",
               "pos": [
                 4
@@ -3687,6 +3802,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 5
@@ -3716,6 +3832,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU5",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -3745,6 +3862,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 2
@@ -3779,6 +3897,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU6",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7
@@ -3808,6 +3927,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_TU2",
               "name": "레기온 스나이퍼",
               "pos": [
                 8,
@@ -3838,6 +3958,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 5
@@ -3867,6 +3988,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_TU2",
               "name": "칙 쿼터마스터",
               "pos": [
                 6
@@ -3900,6 +4022,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 2
@@ -3934,6 +4057,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 8
@@ -3963,6 +4087,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 9
@@ -3992,6 +4117,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_TU2",
               "name": "칙 쿼터마스터",
               "pos": [
                 4
@@ -4025,6 +4151,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU2",
               "name": "토터스",
               "pos": [
                 5
@@ -4056,6 +4183,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU5",
               "name": "칙 스나이퍼",
               "pos": [
                 6
@@ -4085,6 +4213,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_TU2",
               "name": "레기온 스나이퍼",
               "pos": [
                 2
@@ -4119,6 +4248,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_LegionSP_TU2",
               "name": "레기온 스나이퍼",
               "pos": [
                 7
@@ -4148,6 +4278,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 8
@@ -4177,6 +4308,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_TU2",
               "name": "레기온 스나이퍼",
               "pos": [
                 9
@@ -4206,6 +4338,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Spector_TU2",
               "name": "스펙터",
               "pos": [
                 6
@@ -4239,6 +4372,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU6",
               "name": "나이트 칙",
               "pos": [
                 1
@@ -4268,6 +4402,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU2",
               "name": "토터스",
               "pos": [
                 2
@@ -4299,6 +4434,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_TU2",
               "name": "칙 쿼터마스터",
               "pos": [
                 3
@@ -4347,6 +4483,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ExpGoblinT_N",
               "name": "실험체 고블린",
               "pos": [
                 7,
@@ -4379,6 +4516,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ExpGoblinT_N",
               "name": "실험체 고블린",
               "pos": [
                 8,
@@ -4411,6 +4549,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ExpGoblinA_N",
               "name": "실험체 고블린 파쇄병",
               "pos": [
                 9,
@@ -4443,6 +4582,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ExpGoblinA_N",
               "name": "실험체 고블린 파쇄병",
               "pos": [
                 4
@@ -4474,6 +4614,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ExpGenerator2_N",
               "name": "수상한 실험체",
               "pos": [
                 6
@@ -4512,6 +4653,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ExecutionerRB_B06",
               "name": "익스큐셔너 실드 블레이드",
               "pos": [
                 7
@@ -4545,6 +4687,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Executioner_B06",
               "name": "익스큐셔너",
               "pos": [
                 5
@@ -4578,6 +4721,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ExecutionerLB_B06",
               "name": "익스큐셔너 롱 블레이드",
               "pos": [
                 1
@@ -4626,6 +4770,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickDE_TU5",
               "name": "나이트 칙 디텍터",
               "pos": [
                 7,
@@ -4658,6 +4803,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU2",
               "name": "저거너트",
               "pos": [
                 8
@@ -4689,6 +4835,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU4",
               "name": "팔랑스",
               "pos": [
                 4
@@ -4718,6 +4865,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU5",
               "name": "나이트 칙",
               "pos": [
                 5
@@ -4747,6 +4895,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickM_TU5",
               "name": "나이트 칙 런처",
               "pos": [
                 1
@@ -4781,6 +4930,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickS_TU4",
               "name": "나이트 칙 실더",
               "pos": [
                 7
@@ -4810,6 +4960,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 8
@@ -4839,6 +4990,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 5
@@ -4872,6 +5024,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChick_TU5",
               "name": "나이트 칙",
               "pos": [
                 6
@@ -4901,6 +5054,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU5",
               "name": "나이트 칙 실더 개",
               "pos": [
                 1
@@ -4930,6 +5084,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Legion_TU6",
               "name": "레기온",
               "pos": [
                 2
@@ -4964,6 +5119,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU5",
               "name": "나이트 칙 실더 개",
               "pos": [
                 8
@@ -4993,6 +5149,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSP_N",
               "name": "레기온 스나이퍼",
               "pos": [
                 9
@@ -5022,6 +5179,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Scarab_TU6",
               "name": "스캐럽",
               "pos": [
                 4
@@ -5051,6 +5209,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_N",
               "name": "칙 쿼터마스터",
               "pos": [
                 6
@@ -5084,6 +5243,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU5",
               "name": "나이트 칙 디텍터",
               "pos": [
                 2
@@ -5115,6 +5275,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU5",
               "name": "칙 스나이퍼",
               "pos": [
                 3
@@ -5159,6 +5320,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 7
@@ -5188,6 +5350,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 8,
@@ -5218,6 +5381,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 5
@@ -5247,6 +5411,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 6
@@ -5283,6 +5448,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 7
@@ -5312,6 +5478,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_N",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 8
@@ -5343,6 +5510,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 5
@@ -5372,6 +5540,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 1
@@ -5401,6 +5570,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 2
@@ -5430,6 +5600,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_N",
               "name": "철충 사념체 (포병)",
               "pos": [
                 3
@@ -5468,6 +5639,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_N",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7
@@ -5497,6 +5669,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 8
@@ -5526,6 +5699,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 9
@@ -5557,6 +5731,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 4
@@ -5586,6 +5761,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 5
@@ -5617,6 +5793,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_N",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 2
@@ -5646,6 +5823,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_N",
               "name": "철충 사념체 (포병)",
               "pos": [
                 3
@@ -5694,6 +5872,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_N",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 7
@@ -5723,6 +5902,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_TU2",
               "name": "철충 사념체 (보병)",
               "pos": [
                 9
@@ -5752,6 +5932,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 5
@@ -5785,6 +5966,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 6
@@ -5814,6 +5996,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 2
@@ -5845,6 +6028,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_N",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 3
@@ -5881,6 +6065,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 8
@@ -5910,6 +6095,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_N",
               "name": "철충 사념체 (포병)",
               "pos": [
                 9
@@ -5943,6 +6129,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -5976,6 +6163,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_TU2",
               "name": "철충 사념체 (보병)",
               "pos": [
                 5
@@ -6005,6 +6193,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 1
@@ -6034,6 +6223,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_N",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 3
@@ -6070,6 +6260,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobTS_TU2",
               "name": "철충 사념체 (보병)",
               "pos": [
                 7
@@ -6099,6 +6290,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_N",
               "name": "철충 사념체 (포병)",
               "pos": [
                 9
@@ -6132,6 +6324,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -6165,6 +6358,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 5
@@ -6194,6 +6388,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_N",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 6
@@ -6227,6 +6422,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 2
@@ -6256,6 +6452,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_N",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 3
@@ -6302,6 +6499,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMT_TU2",
               "name": "철충 사념체 (호위기)",
               "pos": [
                 8
@@ -6331,6 +6529,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTS_TU2",
               "name": "철충 사념체 (보병)",
               "pos": [
                 9
@@ -6360,6 +6559,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 4
@@ -6393,6 +6593,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_N",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 6
@@ -6426,6 +6627,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_N",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 1
@@ -6457,6 +6659,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 2
@@ -6486,6 +6689,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAN_TU2",
               "name": "철충 사념체 (포병)",
               "pos": [
                 3
@@ -6524,6 +6728,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ProgramMobMS_TU2",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 7
@@ -6557,6 +6762,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMN_TU2",
               "name": "철충 사념체 (폭격기)",
               "pos": [
                 8
@@ -6588,6 +6794,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTT_TU2",
               "name": "철충 사념체 (장갑병)",
               "pos": [
                 4
@@ -6617,6 +6824,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAT_TU2",
               "name": "철충 사념체 (중장갑병)",
               "pos": [
                 5
@@ -6650,6 +6858,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobTN_TU2",
               "name": "철충 사념체 (저격병)",
               "pos": [
                 6
@@ -6681,6 +6890,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobAS_TU2",
               "name": "철충 사념체 (돌격병)",
               "pos": [
                 2
@@ -6712,6 +6922,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ProgramMobMS_N",
               "name": "철충 사념체 (정찰기)",
               "pos": [
                 3
@@ -6759,6 +6970,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_HarvesterEX_TU5",
               "name": "아머드 하베스터",
               "pos": [
                 7
@@ -6788,6 +7000,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU5",
               "name": "개량형 칙 캐논",
               "pos": [
                 8
@@ -6819,6 +7032,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionEX_TU4",
               "name": "엘리트 센츄리온",
               "pos": [
                 9
@@ -6850,6 +7064,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCM_TU4",
               "name": "케미컬 칙",
               "pos": [
                 4
@@ -6879,6 +7094,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ZapperEX_TU5",
               "name": "강화형 재퍼",
               "pos": [
                 5
@@ -6908,6 +7124,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSI_TU7",
               "name": "나이트 칙 실더 개",
               "pos": [
                 1
@@ -6937,6 +7154,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickSP_TU2",
               "name": "강화형 빅 칙",
               "pos": [
                 2
@@ -6971,6 +7189,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU7",
               "name": "나이트 칙 실더 개",
               "pos": [
                 7
@@ -7000,6 +7219,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickSP_TU2",
               "name": "강화형 빅 칙",
               "pos": [
                 8
@@ -7029,6 +7249,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU5",
               "name": "헤비 스카우트",
               "pos": [
                 9
@@ -7058,6 +7279,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU5",
               "name": "와습 HM",
               "pos": [
                 5
@@ -7087,6 +7309,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU5",
               "name": "매머드",
               "pos": [
                 6
@@ -7116,6 +7339,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU5",
               "name": "저거너트",
               "pos": [
                 1
@@ -7147,6 +7371,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU5",
               "name": "빅 칙 런쳐",
               "pos": [
                 2
@@ -7176,6 +7401,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutEX_TU5",
               "name": "강습형 스카우트",
               "pos": [
                 3
@@ -7210,6 +7436,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickCM_TU5",
               "name": "케미컬 칙",
               "pos": [
                 7
@@ -7239,6 +7466,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionEX_TU5",
               "name": "엘리트 센츄리온",
               "pos": [
                 8
@@ -7270,6 +7498,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Centurion_TU7",
               "name": "센츄리온",
               "pos": [
                 4
@@ -7299,6 +7528,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_N",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 5
@@ -7332,6 +7562,7 @@
               ]
             },
             {
+              "index": "MOB_MP_SpectorBS_N",
               "name": "스펙터 BS",
               "pos": [
                 6
@@ -7365,6 +7596,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCEX_TU5",
               "name": "개량형 칙 캐논",
               "pos": [
                 1
@@ -7396,6 +7628,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickM_TU5",
               "name": "빅 칙 런쳐",
               "pos": [
                 2
@@ -7425,6 +7658,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU5",
               "name": "스캐럽 HC",
               "pos": [
                 3
@@ -7459,6 +7693,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Tortoise_TU3",
               "name": "토터스",
               "pos": [
                 7
@@ -7490,6 +7725,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickSP_TU3",
               "name": "강화형 빅 칙",
               "pos": [
                 8
@@ -7519,6 +7755,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU6",
               "name": "매머드",
               "pos": [
                 9
@@ -7548,6 +7785,7 @@
               ]
             },
             {
+              "index": "MOB_MP_WaspEX_TU5",
               "name": "와습 HM",
               "pos": [
                 4
@@ -7577,6 +7815,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutEX_TU5",
               "name": "강습형 스카우트",
               "pos": [
                 5
@@ -7606,6 +7845,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU6",
               "name": "팔랑스",
               "pos": [
                 6
@@ -7635,6 +7875,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_N",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 1
@@ -7668,6 +7909,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Centurion_TU7",
               "name": "센츄리온",
               "pos": [
                 2
@@ -7697,6 +7939,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionEX_TU5",
               "name": "엘리트 센츄리온",
               "pos": [
                 3
@@ -7742,6 +7985,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_HarvesterEX_TU5",
               "name": "아머드 하베스터",
               "pos": [
                 7
@@ -7771,6 +8015,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU5",
               "name": "헤비 스카우트",
               "pos": [
                 9
@@ -7800,6 +8045,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU4",
               "name": "저거너트",
               "pos": [
                 4
@@ -7831,6 +8077,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_TU3",
               "name": "칙 쿼터마스터",
               "pos": [
                 5
@@ -7864,6 +8111,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU5",
               "name": "시작형 빅 칙",
               "pos": [
                 6
@@ -7893,6 +8141,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU7",
               "name": "나이트 칙 디텍터",
               "pos": [
                 1
@@ -7924,6 +8173,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_N",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 2
@@ -7960,6 +8210,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ScarabEX_TU5",
               "name": "스캐럽 HC",
               "pos": [
                 7
@@ -7989,6 +8240,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_N",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 9,
@@ -8021,6 +8273,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU5",
               "name": "강화형 칙 런쳐",
               "pos": [
                 4
@@ -8050,6 +8303,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU7",
               "name": "나이트 칙 디텍터",
               "pos": [
                 5
@@ -8081,6 +8335,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU5",
               "name": "팔랑스",
               "pos": [
                 6
@@ -8110,6 +8365,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU3",
               "name": "토터스",
               "pos": [
                 1
@@ -8141,6 +8397,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_TU5",
               "name": "풀아머 빅 칙",
               "pos": [
                 3
@@ -8175,6 +8432,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_RV",
               "name": "나이트 칙 Type-S",
               "pos": [
                 7
@@ -8208,6 +8466,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ZapperEX_TU5",
               "name": "강화형 재퍼",
               "pos": [
                 8,
@@ -8238,6 +8497,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionCF_TU3",
               "name": "센츄리온 치프틴",
               "pos": [
                 9
@@ -8269,6 +8529,7 @@
               ]
             },
             {
+              "index": "MOB_MP_SpectorBS_N",
               "name": "스펙터 BS",
               "pos": [
                 5
@@ -8302,6 +8563,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_N",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 6
@@ -8335,6 +8597,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU3",
               "name": "토터스",
               "pos": [
                 1
@@ -8366,6 +8629,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_N",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 3
@@ -8402,6 +8666,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_SpectorBS_N",
               "name": "스펙터 BS",
               "pos": [
                 7,
@@ -8436,6 +8701,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU6",
               "name": "시작형 빅 칙",
               "pos": [
                 8
@@ -8465,6 +8731,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_N",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 9
@@ -8496,6 +8763,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU3",
               "name": "토터스",
               "pos": [
                 4
@@ -8527,6 +8795,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_TU6",
               "name": "풀아머 빅 칙",
               "pos": [
                 5
@@ -8556,6 +8825,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_N",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 6
@@ -8589,6 +8859,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScarabEX_TU6",
               "name": "스캐럽 HC",
               "pos": [
                 1
@@ -8618,6 +8889,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ZapperEX_TU6",
               "name": "강화형 재퍼",
               "pos": [
                 2
@@ -8661,6 +8933,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickSI_TU7",
               "name": "나이트 칙 실더 개",
               "pos": [
                 8
@@ -8690,6 +8963,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU8",
               "name": "칙 스나이퍼",
               "pos": [
                 9
@@ -8719,6 +8993,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU3",
               "name": "토터스",
               "pos": [
                 4
@@ -8750,6 +9025,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQM_TU3",
               "name": "칙 쿼터마스터",
               "pos": [
                 5
@@ -8783,6 +9059,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_TU5",
               "name": "풀아머 빅 칙",
               "pos": [
                 6
@@ -8812,6 +9089,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickMEX_TU5",
               "name": "강화형 칙 런쳐",
               "pos": [
                 1
@@ -8841,6 +9119,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickSP_TU2",
               "name": "강화형 빅 칙",
               "pos": [
                 2
@@ -8875,6 +9154,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickCEX_TU5",
               "name": "개량형 칙 캐논",
               "pos": [
                 7
@@ -8906,6 +9186,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ZapperEX_TU5",
               "name": "강화형 재퍼",
               "pos": [
                 8,
@@ -8936,6 +9217,7 @@
               ]
             },
             {
+              "index": "MOB_MP_HeavyScout_TU5",
               "name": "헤비 스카우트",
               "pos": [
                 9
@@ -8965,6 +9247,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickCM_TU4",
               "name": "케미컬 칙",
               "pos": [
                 4
@@ -8994,6 +9277,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU4",
               "name": "FA 빅 칙 II",
               "pos": [
                 6
@@ -9025,6 +9309,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU5",
               "name": "저거너트",
               "pos": [
                 1
@@ -9056,6 +9341,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU7",
               "name": "나이트 칙 디텍터",
               "pos": [
                 3
@@ -9092,6 +9378,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_NightChick_RV",
               "name": "나이트 칙 Type-S",
               "pos": [
                 7,
@@ -9126,6 +9413,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU5",
               "name": "저거너트",
               "pos": [
                 8
@@ -9157,6 +9445,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_N",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 9
@@ -9188,6 +9477,7 @@
               ]
             },
             {
+              "index": "MOB_MP_SpectorBS_N",
               "name": "스펙터 BS",
               "pos": [
                 4
@@ -9221,6 +9511,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickSP_TU9",
               "name": "칙 스나이퍼",
               "pos": [
                 6,
@@ -9251,6 +9542,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_N",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 3
@@ -9289,6 +9581,7 @@
           "title": "wave4",
           "enemy": [
             {
+              "index": "MOB_MP_Tortoise_TU3",
               "name": "토터스",
               "pos": [
                 7
@@ -9320,6 +9613,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickDE_TU8",
               "name": "나이트 칙 디텍터",
               "pos": [
                 8
@@ -9351,6 +9645,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU5",
               "name": "FA 빅 칙 II",
               "pos": [
                 9
@@ -9382,6 +9677,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_N",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 4,
@@ -9416,6 +9712,7 @@
               ]
             },
             {
+              "index": "MOB_MP_EmperorChick_TU3",
               "name": "칙 엠페러",
               "pos": [
                 5
@@ -9449,6 +9746,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_N",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 1
@@ -9480,6 +9778,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Juggernaut_TU5",
               "name": "저거너트",
               "pos": [
                 2
@@ -9511,6 +9810,7 @@
               ]
             },
             {
+              "index": "MOB_MP_CenturionCF_TU4",
               "name": "센츄리온 치프틴",
               "pos": [
                 3
@@ -9556,6 +9856,7 @@
           "title": "wave1",
           "enemy": [
             {
+              "index": "MOB_MP_NightChickC_EV5",
               "name": "나이트 칙 캐논",
               "pos": [
                 7
@@ -9585,6 +9886,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChick_TU6",
               "name": "풀아머 빅 칙",
               "pos": [
                 8
@@ -9614,6 +9916,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU4",
               "name": "토터스",
               "pos": [
                 4
@@ -9645,6 +9948,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Phalangites_TU6",
               "name": "팔랑스",
               "pos": [
                 5
@@ -9674,6 +9978,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Mammoth_TU6",
               "name": "매머드",
               "pos": [
                 6
@@ -9703,6 +10008,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_TU2",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 2
@@ -9734,6 +10040,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_TU2",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 3
@@ -9772,6 +10079,7 @@
           "title": "wave2",
           "enemy": [
             {
+              "index": "MOB_MP_ScarabEX_TU6",
               "name": "스캐럽 HC",
               "pos": [
                 7,
@@ -9802,6 +10110,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickEX_TU6",
               "name": "시작형 빅 칙",
               "pos": [
                 9
@@ -9831,6 +10140,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutSP_TU2",
               "name": "지원형 스카우트",
               "pos": [
                 4
@@ -9862,6 +10172,7 @@
               ]
             },
             {
+              "index": "MOB_MP_FABigChickEX_TU5",
               "name": "FA 빅 칙 II",
               "pos": [
                 5
@@ -9893,6 +10204,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_TU2",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 6
@@ -9926,6 +10238,7 @@
               ]
             },
             {
+              "index": "MOB_MP_BigChickSP_TU3",
               "name": "강화형 빅 칙",
               "pos": [
                 3
@@ -9960,6 +10273,7 @@
           "title": "wave3",
           "enemy": [
             {
+              "index": "MOB_MP_CenturionCF_TU5",
               "name": "센츄리온 치프틴",
               "pos": [
                 8
@@ -9991,6 +10305,7 @@
               ]
             },
             {
+              "index": "MOB_MP_SpectorMS_N",
               "name": "스펙터 MS",
               "pos": [
                 9
@@ -10024,6 +10339,7 @@
               ]
             },
             {
+              "index": "MOB_MP_Tortoise_TU4",
               "name": "토터스",
               "pos": [
                 4
@@ -10055,6 +10371,7 @@
               ]
             },
             {
+              "index": "MOB_MP_NightChickQMEX_TU2",
               "name": "개량형 칙 쿼터마스터",
               "pos": [
                 5
@@ -10088,6 +10405,7 @@
               ]
             },
             {
+              "index": "MOB_MP_EmperorChick_TU4",
               "name": "칙 엠페러",
               "pos": [
                 6
@@ -10121,6 +10439,7 @@
               ]
             },
             {
+              "index": "MOB_MP_ScoutSP_TU2",
               "name": "지원형 스카우트",
               "pos": [
                 1
@@ -10152,6 +10471,7 @@
               ]
             },
             {
+              "index": "MOB_MP_LegionSPEX_TU2",
               "name": "개량형 레기온 스나이퍼",
               "pos": [
                 2

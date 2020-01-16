@@ -47,22 +47,22 @@ function loadStageData(stageTitle)
 	});
 }
 
-function loadEnemyDataArr()
+function loadEnemyDataList()
 {
 	return new Promise(resolve=> {
 		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
-			resolve(enemyDataArr);
+			resolve(enemyDataList);
 		});
 	});
 }
 
-function loadEnemyData(enemyName)
+function loadEnemyData(enemyIndex)
 {
 	return new Promise(resolve=> {
 		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
-			var enemyData=enemyDataArr.filter(data => data.name==enemyName)[0];
+			var enemyData=enemyDataList[enemyIndex];
 			resolve(enemyData);
 		});
 	});
@@ -73,7 +73,16 @@ function loadEnemyIMGData()
 	return new Promise(resolve=> {
 		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
-			var enemyIMGData=enemyDataArr.map(data => {return {"name": data.name, "img": data.img}; });
+			var enemyIMGData={};
+			for (var key in enemyDataList)
+			{
+				if (enemyDataList.hasOwnProperty(key))
+				{
+					enemyIMGData[key] = enemyDataList[key].img;
+				}
+			}
+			//var enemyIMGData=enemyDataList.map(data => {return {"name": data.name, "img": data.img}; });
+			//resolve(enemyIMGData);
 			resolve(enemyIMGData);
 		});
 	});
@@ -84,7 +93,7 @@ function loadEnemyDescData()
 	return new Promise(resolve=> {
 		var src="./data/data-enemy"+setting+".js";
 		loadData(src).then(()=> {
-			var enemyDescData=enemyDataArr.map(data => {
+			var enemyDescData=enemyDataList.map(data => {
 				var rtn = {"name": data.name, "img": data.img};
 				if('resist' in data) rtn["resist"] = data.resist;
 				if('CRT' in data) rtn["CRT"] = data.CRT;
