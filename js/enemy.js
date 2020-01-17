@@ -7,7 +7,6 @@ window.onload = async function ()
 		var enemyIndex = getURLParameter('enemy');
 		var enemyLVL = getURLParameter('lvl');
 
-		this.console.log(enemyIndex);
 		var enemyData = await loadEnemyData(enemyIndex);
 		var skillDataList = await loadSkillDataList();
 

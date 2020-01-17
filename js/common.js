@@ -5,9 +5,29 @@ var setting = '.min';
 //공통 데이터 로드 함수
 function loadData(src)
 {
-	//<script> 요소를 추가해 데이터 파일 로드
+	//XMLHttpRequest를 사용해 데이터 파일 로드
 	//로드가 완료되면 다음 작업을 진행하도록 Promise 적용
 	return new Promise((resolve, reject) => {
+		var request = new XMLHttpRequest();
+		request.open('GET', src);
+		request.responseType = 'json';
+		request.onreadystatechange = function () {
+			if (request.readyState === 4 && request.status === 200)
+			{
+                resolve(request.response);
+			}
+        };
+		request.send();
+	});
+}
+
+//구형 데이터 로드 함수
+function loadDataOld(src)
+{
+	//<script> 요소를 추가해 데이터 파일 로드
+	//로드가 완료되면 다음 작업을 진행하도록 Promise 적용
+	return new Promise((resolve, reject) =>
+	{
 		var script = document.createElement('script');
 		script.type = "text/javascript";
 		script.src = src;
@@ -21,27 +41,32 @@ function loadData(src)
 //지역 데이터 로드 함수
 function loadAreaData(areaNum)
 {
-	return new Promise((resolve, reject)=> {
+	return new Promise((resolve, reject) =>
+	{
 		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
-		var src="./data/data-area"+areaNum+setting+".js";
-		loadData(src).then(()=>resolve(areaData), ()=>reject());
+		var src = "data/data-area" + areaNum + setting + ".js";
+		console.log(src);
+		loadData(src).then((areaData) => resolve(areaData), () => reject());
 	});
 }
 
 //스테이지 데이터 로드 함수
 function loadStageData(stageTitle)
 {
-	return new Promise(resolve=> {
+	return new Promise(resolve =>
+	{
 		//src를 지역 데이터 파일로 설정해 로드
-		var src="./data/data-area"+getAreaByStageTitle(stageTitle)+setting+".js";
-		loadData(src).then(()=> {
-			var stageData=areaData.stage.find(sData => sData.title==stageTitle);
-			var type=getTypeByStageTitle(stageTitle)
-			var stageList=areaData.stage.reduce((acc, sData) => {
-				if(getTypeByStageTitle(sData.title)==type) acc.push(getIndexByStageTitle(sData.title))
+		var src = "./data/data-area" + getAreaByStageTitle(stageTitle) + setting + ".js";
+		loadData(src).then((areaData) =>
+		{
+			var stageData = areaData.stage.find(sData => sData.title == stageTitle);
+			var type = getTypeByStageTitle(stageTitle)
+			var stageList = areaData.stage.reduce((acc, sData) =>
+			{
+				if (getTypeByStageTitle(sData.title) == type) acc.push(getIndexByStageTitle(sData.title))
 				return acc;
 			}, []);
-			resolve({"stageData": stageData, "stageList": stageList});
+			resolve({ "stageData": stageData, "stageList": stageList });
 		});
 
 	});
@@ -49,9 +74,11 @@ function loadStageData(stageTitle)
 
 function loadEnemyDataList()
 {
-	return new Promise(resolve=> {
-		var src="./data/data-enemy"+setting+".js";
-		loadData(src).then(()=> {
+	return new Promise(resolve =>
+	{
+		var src = "./data/data-enemy" + setting + ".js";
+		loadData(src).then((enemyDataList) =>
+		{
 			resolve(enemyDataList);
 		});
 	});
@@ -59,10 +86,12 @@ function loadEnemyDataList()
 
 function loadEnemyData(enemyIndex)
 {
-	return new Promise(resolve=> {
-		var src="./data/data-enemy"+setting+".js";
-		loadData(src).then(()=> {
-			var enemyData=enemyDataList[enemyIndex];
+	return new Promise(resolve =>
+	{
+		var src = "./data/data-enemy" + setting + ".js";
+		loadData(src).then((enemyDataList) =>
+		{
+			var enemyData = enemyDataList[enemyIndex];
 			resolve(enemyData);
 		});
 	});
@@ -108,9 +137,11 @@ function loadEnemyDescData()
 
 function loadSkillDataList()
 {
-	return new Promise(resolve=> {
-		var src="./data/data-skill"+setting+".js";
-		loadData(src).then(()=> {
+	return new Promise(resolve =>
+	{
+		var src = "./data/data-skill" + setting + ".js";
+		loadData(src).then((enemySkillList) =>
+		{
 			resolve(enemySkillList);
 		});
 	});
@@ -123,31 +154,31 @@ function getURLParameter(sParam)
 	for (var i = 0; i < sURLVariables.length; i++)
 	{
 		var sParameterName = sURLVariables[i].split('=');
-		if (sParameterName[0] == sParam) {return sParameterName[1];}
+		if (sParameterName[0] == sParam) { return sParameterName[1]; }
 	}
 }
 
 function getAreaByStageTitle(str)
 {
-	var regex=/^[0-9a-zA-Z]+/;
+	var regex = /^[0-9a-zA-Z]+/;
 	return str.match(regex)[0];
 }
 
 function getIndexByStageTitle(str)
 {
-	var regex=/-[0-9]+/;
+	var regex = /-[0-9]+/;
 	return Number(str.match(regex)[0].slice(1));
 }
 
 function getTypeByStageTitle(str)
 {
-	var regex=/[a-zA-Z]*$/;
+	var regex = /[a-zA-Z]*$/;
 	return str.match(regex)[0];
 }
 
 function getIndexByStageGrid(grid)
 {
-	var regex=/-[0-9]+/;
+	var regex = /-[0-9]+/;
 	return grid[0];
 }
 

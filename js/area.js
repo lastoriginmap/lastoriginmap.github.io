@@ -1,6 +1,6 @@
 window.onload  =  async function() {
     var areaNum  =  getURLParameter('areanum');
-    var areaData = await loadAreaData(areaNum);
+	var areaData = await loadAreaData(areaNum);
     var areaName = areaNum;
     if(areaData.title!=undefined)
     {
