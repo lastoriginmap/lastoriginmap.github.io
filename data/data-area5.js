@@ -15,356 +15,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 50,
-              "HP": 4742,
-              "ATK": 410,
-              "DEF": 280,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                410,
-                102
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                4
-              ],
-              "LVL": 50,
-              "HP": 5755,
-              "ATK": 423,
-              "DEF": 345,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                423,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Fallen_TU4",
+              "level": 50
             },
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                5
-              ],
-              "LVL": 50,
-              "HP": 2850,
-              "ATK": 398,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                438,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                6
-              ],
-              "LVL": 50,
-              "HP": 3512,
-              "ATK": 423,
-              "DEF": 120,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                423,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 50
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 50
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 50
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 50
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 50,
-              "HP": 3757,
-              "ATK": 364,
-              "DEF": 155,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                273,
-                3
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "PuppHead_TU4",
+              "level": 50
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 50,
-              "HP": 3512,
-              "ATK": 423,
-              "DEF": 120,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                423,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 50
             },
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                4
-              ],
-              "LVL": 50,
-              "HP": 5755,
-              "ATK": 423,
-              "DEF": 345,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                423,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 50
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 50
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 50
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 50,
-              "HP": 5755,
-              "ATK": 423,
-              "DEF": 345,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                423,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 50
             },
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8
-              ],
-              "LVL": 50,
-              "HP": 2850,
-              "ATK": 398,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                438,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 50
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                4
-              ],
-              "LVL": 50,
-              "HP": 3757,
-              "ATK": 364,
-              "DEF": 155,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                273,
-                3
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                6
-              ],
-              "LVL": 50,
-              "HP": 3512,
-              "ATK": 423,
-              "DEF": 120,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                423,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 50
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                2
-              ],
-              "LVL": 50,
-              "HP": 4742,
-              "ATK": 410,
-              "DEF": 280,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                410,
-                102
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 50
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 50
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 50
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         }
@@ -380,366 +148,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 52,
-              "HP": 5945,
-              "ATK": 437,
-              "DEF": 355,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                437,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 52
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                9,
-                2
-              ],
-              "LVL": 52,
-              "HP": 3892,
-              "ATK": 376,
-              "DEF": 159,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                282,
-                3
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                5
-              ],
-              "LVL": 52,
-              "HP": 3637,
-              "ATK": 437,
-              "DEF": 124,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                437,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 52
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                6
-              ],
-              "LVL": 52,
-              "HP": 2954,
-              "ATK": 610,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                457,
-                854,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 52
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 52
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 52
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 52
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                1
-              ],
-              "LVL": 52,
-              "HP": 2950,
-              "ATK": 411,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                452,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 52,
-              "HP": 2954,
-              "ATK": 610,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                457,
-                854,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 52
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                5
-              ],
-              "LVL": 52,
-              "HP": 3637,
-              "ATK": 437,
-              "DEF": 124,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                437,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 52
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                6
-              ],
-              "LVL": 52,
-              "HP": 4907,
-              "ATK": 424,
-              "DEF": 289,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                424,
-                106
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 52
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 52
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 52
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 52
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                1
-              ],
-              "LVL": 52,
-              "HP": 2950,
-              "ATK": 411,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                452,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                4
-              ],
-              "LVL": 53,
-              "HP": 9430,
-              "ATK": 558,
-              "DEF": 824,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1004,
-                725,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 52
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                5
-              ],
-              "LVL": 52,
-              "HP": 3637,
-              "ATK": 437,
-              "DEF": 124,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                437,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                6,
-                3
-              ],
-              "LVL": 52,
-              "HP": 2954,
-              "ATK": 610,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                457,
-                854,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "Gigantes_TU4",
+              "level": 53
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 52
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 52
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 52
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 52
             }
           ]
         }
@@ -755,362 +281,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 54,
-              "HP": 6135,
-              "ATK": 451,
-              "DEF": 365,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                451,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                9,
-                4,
-                3
-              ],
-              "LVL": 54,
-              "HP": 4027,
-              "ATK": 388,
-              "DEF": 164,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                291,
-                3
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "Rampart_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                6
-              ],
-              "LVL": 54,
-              "HP": 3762,
-              "ATK": 451,
-              "DEF": 127,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                451,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 54
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 54
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 54
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 54
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 54
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                1
-              ],
-              "LVL": 54,
-              "HP": 3050,
-              "ATK": 424,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                466,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                9
-              ],
-              "LVL": 54,
-              "HP": 3762,
-              "ATK": 451,
-              "DEF": 127,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                451,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                4
-              ],
-              "LVL": 54,
-              "HP": 6135,
-              "ATK": 451,
-              "DEF": 365,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                451,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                5
-              ],
-              "LVL": 54,
-              "HP": 6335,
-              "ATK": 787,
-              "DEF": 438,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                787,
-                1575,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                3
-              ],
-              "LVL": 54,
-              "HP": 5072,
-              "ATK": 437,
-              "DEF": 298,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                437,
-                109
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 54
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 54
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 54
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7
-              ],
-              "LVL": 54,
-              "HP": 6135,
-              "ATK": 451,
-              "DEF": 365,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                451,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                8,
-                4
-              ],
-              "LVL": 54,
-              "HP": 4027,
-              "ATK": 388,
-              "DEF": 164,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                291,
-                3
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "PuppHead_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                9,
-                1
-              ],
-              "LVL": 54,
-              "HP": 6335,
-              "ATK": 787,
-              "DEF": 438,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                787,
-                1575,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 54
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                6
-              ],
-              "LVL": 54,
-              "HP": 3762,
-              "ATK": 451,
-              "DEF": 127,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                451,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 54
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 54
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 54
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         }
@@ -1126,313 +414,83 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 56,
-              "HP": 6325,
-              "ATK": 465,
-              "DEF": 375,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                465,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 56
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 56,
-              "HP": 3887,
-              "ATK": 465,
-              "DEF": 131,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                465,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                4
-              ],
-              "LVL": 56,
-              "HP": 4162,
-              "ATK": 400,
-              "DEF": 168,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                300,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "AMG11_TU4",
+              "level": 56
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                5
-              ],
-              "LVL": 56,
-              "HP": 5237,
-              "ATK": 451,
-              "DEF": 307,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                451,
-                112
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 56
             },
             {
-              "index": "MOB_MP_Kidnapper_B0308",
-              "name": "트릭스터",
-              "pos": [
-                6
-              ],
-              "LVL": 57,
-              "HP": 18250,
-              "ATK": 850,
-              "DEF": 110,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 300,
-              "DOD": 60,
-              "skillpower": [
-                850,
-                1190,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                15,
-                15,
-                15
-              ]
+              "index": "Fallen_TU4",
+              "level": 56
+            },
+            {
+              "index": "Kidnapper_B0308",
+              "level": 57
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 56
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 56
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                1
-              ],
-              "LVL": 56,
-              "HP": 3150,
-              "ATK": 437,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                481,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                9,
-                2
-              ],
-              "LVL": 56,
-              "HP": 6525,
-              "ATK": 812,
-              "DEF": 450,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                812,
-                1625,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 56
             },
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                4
-              ],
-              "LVL": 56,
-              "HP": 9850,
-              "ATK": 585,
-              "DEF": 860,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1053,
-                760,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 56
             },
             {
-              "index": "MOB_MP_Kidnapper_CH",
-              "name": "트릭스터",
-              "pos": [
-                5
-              ],
-              "LVL": 57,
-              "HP": 15500,
-              "ATK": 750,
-              "DEF": 110,
-              "AGI": 4.2,
-              "CRT": 15,
-              "HIT": 250,
-              "DOD": 40,
-              "skillpower": [
-                750,
-                1200,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                15,
-                15,
-                15
-              ]
+              "index": "Gigantes_TU4",
+              "level": 56
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                6
-              ],
-              "LVL": 56,
-              "HP": 3152,
-              "ATK": 650,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                487,
-                909,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "Kidnapper_CH",
+              "level": 57
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 56
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 56
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 56
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         }
@@ -1448,491 +506,165 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 58,
-              "HP": 6515,
-              "ATK": 479,
-              "DEF": 385,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                479,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 58,
-              "HP": 4297,
-              "ATK": 412,
-              "DEF": 173,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                309,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "PuppHead_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                5
-              ],
-              "LVL": 58,
-              "HP": 3250,
-              "ATK": 450,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                495,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                6
-              ],
-              "LVL": 58,
-              "HP": 6715,
-              "ATK": 837,
-              "DEF": 462,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                837,
-                1675,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 58
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 58
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 58
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 58
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 58,
-              "HP": 6515,
-              "ATK": 479,
-              "DEF": 385,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                479,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                8
-              ],
-              "LVL": 58,
-              "HP": 6715,
-              "ATK": 837,
-              "DEF": 462,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                837,
-                1675,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 58,
-              "HP": 4012,
-              "ATK": 479,
-              "DEF": 134,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                479,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                2
-              ],
-              "LVL": 58,
-              "HP": 5402,
-              "ATK": 464,
-              "DEF": 316,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                464,
-                116
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 58
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 58
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 58
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 58,
-              "HP": 6515,
-              "ATK": 479,
-              "DEF": 385,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                479,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 58,
-              "HP": 4297,
-              "ATK": 412,
-              "DEF": 173,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                309,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "PuppHead_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                4
-              ],
-              "LVL": 58,
-              "HP": 10130,
-              "ATK": 603,
-              "DEF": 884,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1085,
-                783,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                6
-              ],
-              "LVL": 58,
-              "HP": 6715,
-              "ATK": 837,
-              "DEF": 462,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                837,
-                1675,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Gigantes_TU4",
+              "level": 58
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 58
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 58
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 58
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave4",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                7
-              ],
-              "LVL": 58,
-              "HP": 10130,
-              "ATK": 603,
-              "DEF": 884,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1085,
-                783,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Gigantes_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                8
-              ],
-              "LVL": 58,
-              "HP": 4297,
-              "ATK": 412,
-              "DEF": 173,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                309,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "PuppHead_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 58,
-              "HP": 6715,
-              "ATK": 837,
-              "DEF": 462,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                837,
-                1675,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 58
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                4,
-                1
-              ],
-              "LVL": 58,
-              "HP": 3251,
-              "ATK": 670,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                502,
-                937,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 58
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 58
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 58
             }
           ]
         }
@@ -1948,606 +680,206 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Scout_TU5",
-              "name": "스카우트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 60,
-              "HP": 2757,
-              "ATK": 453,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 90,
-              "skillpower": [
-                544,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Scout_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Wasp_TU5",
-              "name": "와습",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 60,
-              "HP": 2930,
-              "ATK": 630,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 70,
-              "skillpower": [
-                473,
-                3153,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                0
-              ]
+              "index": "Wasp_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Scarab_TU6",
-              "name": "스캐럽",
-              "pos": [
-                5
-              ],
-              "LVL": 60,
-              "HP": 5075,
-              "ATK": 567,
-              "DEF": 262,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 150,
-              "DOD": 110,
-              "skillpower": [
-                850,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_HeavyScout_TU3",
-              "name": "헤비 스카우트",
-              "pos": [
-                6
-              ],
-              "LVL": 60,
-              "HP": 4187,
-              "ATK": 783,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 160,
-              "DOD": 65,
-              "skillpower": [
-                940,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Scarab_TU6",
+              "level": 60
+            },
+            {
+              "index": "HeavyScout_TU3",
+              "level": 60
+            },
+            {
+              "index": "Scout_TU5",
+              "level": 60
+            },
+            {
+              "index": "Wasp_TU5",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Scout_TU5",
-              "name": "스카우트",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 60,
-              "HP": 2757,
-              "ATK": 453,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 90,
-              "skillpower": [
-                544,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Wasp_TU5",
-              "name": "와습",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 60,
-              "HP": 2930,
-              "ATK": 630,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 70,
-              "skillpower": [
-                473,
-                3153,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                0
-              ]
+              "index": "Scout_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Scarab_TU5",
-              "name": "스캐럽",
-              "pos": [
-                4
-              ],
-              "LVL": 60,
-              "HP": 4335,
-              "ATK": 527,
-              "DEF": 233,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 95,
-              "skillpower": [
-                791,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                0,
-                0
-              ]
+              "index": "Wasp_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_HeavyScout_TU3",
-              "name": "헤비 스카우트",
-              "pos": [
-                6
-              ],
-              "LVL": 60,
-              "HP": 4187,
-              "ATK": 783,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 160,
-              "DOD": 65,
-              "skillpower": [
-                940,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Scarab_TU5",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "HeavyScout_TU3",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Scout_TU5",
+              "level": 60
+            },
+            {
+              "index": "Wasp_TU5",
+              "level": 60
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_HeavyScout_TU3",
-              "name": "헤비 스카우트",
-              "pos": [
-                7,
-                6,
-                1
-              ],
-              "LVL": 60,
-              "HP": 4187,
-              "ATK": 783,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 160,
-              "DOD": 65,
-              "skillpower": [
-                940,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "HeavyScout_TU3",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Scarab_TU5",
-              "name": "스캐럽",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 60,
-              "HP": 4335,
-              "ATK": 527,
-              "DEF": 233,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 95,
-              "skillpower": [
-                791,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                0,
-                0
-              ]
+              "index": "Scarab_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Wasp_TU5",
-              "name": "와습",
-              "pos": [
-                4
-              ],
-              "LVL": 60,
-              "HP": 2930,
-              "ATK": 630,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 70,
-              "skillpower": [
-                473,
-                3153,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Wasp_TU5",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "HeavyScout_TU3",
+              "level": 60
+            },
+            {
+              "index": "HeavyScout_TU3",
+              "level": 60
+            },
+            {
+              "index": "Scarab_TU5",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave4",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Legion_TU5",
-              "name": "레기온",
-              "pos": [
-                8
-              ],
-              "LVL": 60,
-              "HP": 3890,
-              "ATK": 493,
-              "DEF": 86,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 220,
-              "DOD": 35,
-              "skillpower": [
-                493,
-                162,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickSP_TU5",
-              "name": "칙 스나이퍼",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 60,
-              "HP": 3337,
-              "ATK": 640,
-              "DEF": 59,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 270,
-              "DOD": 32.5,
-              "skillpower": [
-                960,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Legion_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_NightChickDE_TU3",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 60,
-              "HP": 4110,
-              "ATK": 384,
-              "DEF": 94,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 260,
-              "DOD": 55,
-              "skillpower": [
-                384,
-                3,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                20,
-                20,
-                20
-              ]
+              "index": "NightChickSP_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Phalangites_TU3",
-              "name": "팔랑스",
-              "pos": [
-                6,
-                2
-              ],
-              "LVL": 60,
-              "HP": 6700,
-              "ATK": 485,
-              "DEF": 474,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 200,
-              "DOD": 50,
-              "skillpower": [
-                485,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickDE_TU3",
+              "level": 60
+            },
+            {
+              "index": "Phalangites_TU3",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Phalangites_TU3",
+              "level": 60
+            },
+            {
+              "index": "NightChickSP_TU5",
+              "level": 60
             }
           ]
         },
         {
           "title": "wave5",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Legion_TU5",
-              "name": "레기온",
-              "pos": [
-                8
-              ],
-              "LVL": 60,
-              "HP": 3890,
-              "ATK": 493,
-              "DEF": 86,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 220,
-              "DOD": 35,
-              "skillpower": [
-                493,
-                162,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Phalangites_TU3",
-              "name": "팔랑스",
-              "pos": [
-                9,
-                2,
-                3
-              ],
-              "LVL": 60,
-              "HP": 6700,
-              "ATK": 485,
-              "DEF": 474,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 200,
-              "DOD": 50,
-              "skillpower": [
-                485,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "Legion_TU5",
+              "level": 60
             },
             {
-              "index": "MOB_MP_Centurion_TU5",
-              "name": "센츄리온",
-              "pos": [
-                4
-              ],
-              "LVL": 64,
-              "HP": 9420,
-              "ATK": 720,
-              "DEF": 176,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 200,
-              "DOD": 25,
-              "skillpower": [
-                720,
-                180,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Phalangites_TU3",
+              "level": 60
             },
             {
-              "index": "MOB_MP_NightChickSP_TU5",
-              "name": "칙 스나이퍼",
-              "pos": [
-                5,
-                6
-              ],
-              "LVL": 60,
-              "HP": 3337,
-              "ATK": 640,
-              "DEF": 59,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 270,
-              "DOD": 32.5,
-              "skillpower": [
-                960,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Centurion_TU5",
+              "level": 64
+            },
+            {
+              "index": "NightChickSP_TU5",
+              "level": 60
+            },
+            {
+              "index": "NightChickSP_TU5",
+              "level": 60
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Phalangites_TU3",
+              "level": 60
+            },
+            {
+              "index": "Phalangites_TU3",
+              "level": 60
             }
           ]
         }
@@ -2563,454 +895,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 62,
-              "HP": 6895,
-              "ATK": 507,
-              "DEF": 405,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                507,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 62,
-              "HP": 4262,
-              "ATK": 507,
-              "DEF": 141,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                507,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                4
-              ],
-              "LVL": 62,
-              "HP": 4567,
-              "ATK": 436,
-              "DEF": 182,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                327,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                5
-              ],
-              "LVL": 62,
-              "HP": 5732,
-              "ATK": 491,
-              "DEF": 334,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                491,
-                122
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                6
-              ],
-              "LVL": 62,
-              "HP": 7095,
-              "ATK": 887,
-              "DEF": 486,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                887,
-                1775,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Fallen_TU4",
+              "level": 62
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 62
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 62
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 62
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 62,
-              "HP": 3450,
-              "ATK": 476,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                524,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 62,
-              "HP": 3449,
-              "ATK": 710,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                532,
-                993,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                4
-              ],
-              "LVL": 62,
-              "HP": 10690,
-              "ATK": 639,
-              "DEF": 932,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1150,
-                830,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                5
-              ],
-              "LVL": 62,
-              "HP": 4567,
-              "ATK": 436,
-              "DEF": 182,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                327,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "Gigantes_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                6
-              ],
-              "LVL": 62,
-              "HP": 7095,
-              "ATK": 887,
-              "DEF": 486,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                887,
-                1775,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "PuppHead_TU4",
+              "level": 62
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 62
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 62
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 62
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                7
-              ],
-              "LVL": 62,
-              "HP": 10690,
-              "ATK": 639,
-              "DEF": 932,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1150,
-                830,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Gigantes_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                8
-              ],
-              "LVL": 62,
-              "HP": 4262,
-              "ATK": 507,
-              "DEF": 141,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                507,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 62,
-              "HP": 7095,
-              "ATK": 887,
-              "DEF": 486,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                887,
-                1775,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_Rampart_TU4",
-              "name": "경비용 램파트",
-              "pos": [
-                4,
-                1
-              ],
-              "LVL": 62,
-              "HP": 6895,
-              "ATK": 507,
-              "DEF": 405,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 35,
-              "skillpower": [
-                507,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                -25
-              ]
+              "index": "Rampart_TU4",
+              "level": 62
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                2
-              ],
-              "LVL": 62,
-              "HP": 4567,
-              "ATK": 436,
-              "DEF": 182,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                327,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Rampart_TU4",
+              "level": 62
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 62
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 62
             }
           ]
         }
@@ -3026,138 +1028,42 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_UnderWatcherSensor_B05",
-              "name": "언더왓쳐 센서",
-              "pos": [
-                7
-              ],
-              "LVL": 70,
-              "HP": 28000,
-              "ATK": 0,
-              "DEF": 2500,
-              "AGI": 4.5,
-              "CRT": 0,
-              "HIT": 999,
-              "DOD": 0,
-              "skillpower": [
-                0,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                50,
-                -25
-              ]
+              "index": "UnderWatcherSensor_B05",
+              "level": 70
             },
             {
-              "index": "MOB_MP_UnderWatcher_B05",
-              "name": "언더왓쳐",
-              "pos": [
-                4
-              ],
-              "LVL": 70,
-              "HP": 60000,
-              "ATK": 1124,
-              "DEF": 1600,
-              "AGI": 3.75,
-              "CRT": 12.5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                674,
-                2249,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                50,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_UnderWatcherGenerator_B05",
-              "name": "언더왓쳐 제네레이터",
-              "pos": [
-                6
-              ],
-              "LVL": 70,
-              "HP": 50000,
-              "ATK": 0,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": 0,
-              "HIT": 999,
-              "DOD": 0,
-              "skillpower": [
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                50,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_UnderWatcherArm_B05",
-              "name": "언더왓쳐 암",
-              "pos": [
-                3
-              ],
-              "LVL": 70,
-              "HP": 36000,
-              "ATK": 850,
-              "DEF": 1000,
-              "AGI": 4.15,
-              "CRT": 15,
-              "HIT": 180,
-              "DOD": 0,
-              "skillpower": [
-                850,
-                850,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                50,
-                -25
-              ]
+              "index": "UnderWatcher_B05",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "UnderWatcherGenerator_B05",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "UnderWatcherArm_B05",
+              "level": 70
             }
           ]
         }
@@ -3173,440 +1079,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_NightChickM_TU4",
-              "name": "나이트 칙 런처",
-              "pos": [
-                7
-              ],
-              "LVL": 53,
-              "HP": 3290,
-              "ATK": 470,
-              "DEF": 112,
-              "AGI": 3.6,
-              "CRT": 10,
-              "HIT": 200,
-              "DOD": 32.5,
-              "skillpower": [
-                470,
-                564,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickM_TU4",
+              "level": 53
             },
             {
-              "index": "MOB_MP_NightChick_TU4",
-              "name": "나이트 칙",
-              "pos": [
-                8
-              ],
-              "LVL": 53,
-              "HP": 3005,
-              "ATK": 429,
-              "DEF": 77,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 220,
-              "DOD": 25,
-              "skillpower": [
-                429,
-                514,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChick_TU4",
+              "level": 53
             },
             {
-              "index": "MOB_MP_NightChickSI_TU4",
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                4
-              ],
-              "LVL": 53,
-              "HP": 5910,
-              "ATK": 452,
-              "DEF": 324,
-              "AGI": 3.6,
-              "CRT": 5,
-              "HIT": 180,
-              "DOD": 32.5,
-              "skillpower": [
-                497,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                35,
-                35,
-                35
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickDE_TU3",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 53,
-              "HP": 3655,
-              "ATK": 346,
-              "DEF": 87,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 260,
-              "DOD": 55,
-              "skillpower": [
-                346,
-                3,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                20,
-                20,
-                20
-              ]
+              "index": "NightChickSI_TU4",
+              "level": 53
             },
             {
-              "index": "MOB_MP_NightChickSP_TU6",
-              "name": "칙 스나이퍼",
-              "pos": [
-                6
-              ],
-              "LVL": 53,
-              "HP": 3460,
-              "ATK": 667,
-              "DEF": 72,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 300,
-              "DOD": 40,
-              "skillpower": [
-                1000,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickDE_TU3",
+              "level": 53
             },
             {
-              "index": "MOB_MP_NightChickCM_TU3",
-              "name": "케미컬 칙",
-              "pos": [
-                1
-              ],
-              "LVL": 53,
-              "HP": 4430,
-              "ATK": 470,
-              "DEF": 82,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 229,
-              "DOD": 65,
-              "skillpower": [
-                376,
-                235,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                50,
-                50
-              ]
+              "index": "NightChickSP_TU6",
+              "level": 53
+            },
+            {
+              "index": "NightChickCM_TU3",
+              "level": 53
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Scout_TU5",
-              "name": "스카우트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 53,
-              "HP": 2460,
-              "ATK": 408,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 90,
-              "skillpower": [
-                489,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Scout_TU5",
+              "level": 53
             },
             {
-              "index": "MOB_MP_Wasp_TU5",
-              "name": "와습",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 53,
-              "HP": 2615,
-              "ATK": 566,
-              "DEF": 0,
-              "AGI": 4.35,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 70,
-              "skillpower": [
-                424,
-                2830,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_HeavyScout_TU3",
-              "name": "헤비 스카우트",
-              "pos": [
-                4
-              ],
-              "LVL": 53,
-              "HP": 3750,
-              "ATK": 703,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 160,
-              "DOD": 65,
-              "skillpower": [
-                843,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Wasp_TU5",
+              "level": 53
             },
             {
-              "index": "MOB_MP_Scarab_TU5",
-              "name": "스캐럽",
-              "pos": [
-                5
-              ],
-              "LVL": 53,
-              "HP": 3880,
-              "ATK": 475,
-              "DEF": 219,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 95,
-              "skillpower": [
-                712,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                0,
-                0
-              ]
+              "index": "HeavyScout_TU3",
+              "level": 53
+            },
+            {
+              "index": "Scarab_TU5",
+              "level": 53
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Scout_TU5",
+              "level": 53
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Wasp_TU5",
+              "level": 53
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Harvester_TU5",
-              "name": "하베스터",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 53,
-              "HP": 5750,
-              "ATK": 636,
-              "DEF": 564,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                1272,
-                318
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                15,
-                15,
-                15
-              ]
+              "index": "Harvester_TU5",
+              "level": 53
             },
             {
-              "index": "MOB_MP_Mammoth_TU2",
-              "name": "매머드",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 53,
-              "HP": 6440,
-              "ATK": 734,
-              "DEF": 489,
-              "AGI": 3.15,
-              "CRT": 5,
-              "HIT": 120,
-              "DOD": 0,
-              "skillpower": [
-                990,
-                1835,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Mammoth_TU2",
+              "level": 53
             },
             {
-              "index": "MOB_MP_Juggernaut_TU2",
-              "name": "저거너트",
-              "pos": [
-                4
-              ],
-              "LVL": 53,
-              "HP": 8470,
-              "ATK": 535,
-              "DEF": 695,
-              "AGI": 3.2,
-              "CRT": 10,
-              "HIT": 120,
-              "DOD": 0,
-              "skillpower": [
-                1284,
-                856,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickC_TU5",
-              "name": "나이트 칙 캐논",
-              "pos": [
-                5
-              ],
-              "LVL": 53,
-              "HP": 5030,
-              "ATK": 698,
-              "DEF": 360,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 155,
-              "DOD": 0,
-              "skillpower": [
-                558,
-                1221,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                0,
-                0
-              ]
+              "index": "Juggernaut_TU2",
+              "level": 53
+            },
+            {
+              "index": "NightChickC_TU5",
+              "level": 53
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Harvester_TU5",
+              "level": 53
+            },
+            {
+              "index": "Mammoth_TU2",
+              "level": 53
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         }
@@ -3622,440 +1212,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Scout_TU5",
-              "name": "스카우트",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 55,
-              "HP": 2545,
-              "ATK": 421,
-              "DEF": 0,
-              "AGI": 4.5,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 90,
-              "skillpower": [
-                505,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Scout_TU5",
+              "level": 55
             },
             {
-              "index": "MOB_MP_NightChickDE_TU3",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                8,
-                6,
-                2
-              ],
-              "LVL": 55,
-              "HP": 3785,
-              "ATK": 357,
-              "DEF": 89,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 260,
-              "DOD": 55,
-              "skillpower": [
-                357,
-                3,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                20,
-                20,
-                20
-              ]
+              "index": "NightChickDE_TU3",
+              "level": 55
             },
             {
-              "index": "MOB_MP_Zapper_TU5",
-              "name": "재퍼",
-              "pos": [
-                5
-              ],
-              "LVL": 55,
-              "HP": 3540,
-              "ATK": 421,
-              "DEF": 163,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 25,
-              "skillpower": [
-                336,
-                505,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Zapper_TU5",
+              "level": 55
+            },
+            {
+              "index": "NightChickDE_TU3",
+              "level": 55
+            },
+            {
+              "index": "Scout_TU5",
+              "level": 55
+            },
+            {
+              "index": "NightChickDE_TU3",
+              "level": 55
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Zapper_TU5",
-              "name": "재퍼",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 55,
-              "HP": 3540,
-              "ATK": 421,
-              "DEF": 163,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 25,
-              "skillpower": [
-                336,
-                505,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Legion_TU5",
-              "name": "레기온",
-              "pos": [
-                9
-              ],
-              "LVL": 55,
-              "HP": 3590,
-              "ATK": 458,
-              "DEF": 81,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 220,
-              "DOD": 35,
-              "skillpower": [
-                458,
-                151,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Zapper_TU5",
+              "level": 55
             },
             {
-              "index": "MOB_MP_Harvester_TU5",
-              "name": "하베스터",
-              "pos": [
-                4
-              ],
-              "LVL": 55,
-              "HP": 5950,
-              "ATK": 657,
-              "DEF": 578,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                1314,
-                328
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                15,
-                15,
-                15
-              ]
+              "index": "Legion_TU5",
+              "level": 55
             },
             {
-              "index": "MOB_MP_NightChickDE_TU3",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 55,
-              "HP": 3785,
-              "ATK": 357,
-              "DEF": 89,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 260,
-              "DOD": 55,
-              "skillpower": [
-                357,
-                3,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                20,
-                20,
-                20
-              ]
+              "index": "Harvester_TU5",
+              "level": 55
             },
             {
-              "index": "MOB_MP_NightChickC_TU5",
-              "name": "나이트 칙 캐논",
-              "pos": [
-                6
-              ],
-              "LVL": 55,
-              "HP": 5210,
-              "ATK": 721,
-              "DEF": 370,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 155,
-              "DOD": 0,
-              "skillpower": [
-                576,
-                1261,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                0,
-                0
-              ]
+              "index": "NightChickDE_TU3",
+              "level": 55
+            },
+            {
+              "index": "NightChickC_TU5",
+              "level": 55
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Zapper_TU5",
+              "level": 55
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_NightChickDE_TU3",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                7
-              ],
-              "LVL": 55,
-              "HP": 3785,
-              "ATK": 357,
-              "DEF": 89,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 260,
-              "DOD": 55,
-              "skillpower": [
-                357,
-                3,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                20,
-                20,
-                20
-              ]
+              "index": "NightChickDE_TU3",
+              "level": 55
             },
             {
-              "index": "MOB_MP_Harvester_TU5",
-              "name": "하베스터",
-              "pos": [
-                8
-              ],
-              "LVL": 55,
-              "HP": 5950,
-              "ATK": 657,
-              "DEF": 578,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                1314,
-                328
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                15,
-                15,
-                15
-              ]
+              "index": "Harvester_TU5",
+              "level": 55
             },
             {
-              "index": "MOB_MP_NightChickCM_TU2",
-              "name": "케미컬 칙",
-              "pos": [
-                4
-              ],
-              "LVL": 55,
-              "HP": 3540,
-              "ATK": 429,
-              "DEF": 65,
-              "AGI": 4.1,
-              "CRT": 10,
-              "HIT": 195,
-              "DOD": 52.5,
-              "skillpower": [
-                343,
-                214,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                50,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Legion_TU5",
-              "name": "레기온",
-              "pos": [
-                1
-              ],
-              "LVL": 55,
-              "HP": 3590,
-              "ATK": 458,
-              "DEF": 81,
-              "AGI": 4.05,
-              "CRT": 5,
-              "HIT": 220,
-              "DOD": 35,
-              "skillpower": [
-                458,
-                151,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickCM_TU2",
+              "level": 55
             },
             {
-              "index": "MOB_MP_Zapper_TU5",
-              "name": "재퍼",
-              "pos": [
-                2
-              ],
-              "LVL": 55,
-              "HP": 3540,
-              "ATK": 421,
-              "DEF": 163,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 25,
-              "skillpower": [
-                336,
-                505,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Mammoth_TU2",
-              "name": "매머드",
-              "pos": [
-                3
-              ],
-              "LVL": 55,
-              "HP": 6630,
-              "ATK": 758,
-              "DEF": 503,
-              "AGI": 3.15,
-              "CRT": 5,
-              "HIT": 120,
-              "DOD": 0,
-              "skillpower": [
-                1023,
-                1895,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Legion_TU5",
+              "level": 55
+            },
+            {
+              "index": "Zapper_TU5",
+              "level": 55
+            },
+            {
+              "index": "Mammoth_TU2",
+              "level": 55
             }
           ]
         }
@@ -4070,310 +1344,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                7,
-                4,
-                1
-              ],
-              "LVL": 61,
-              "HP": 4200,
-              "ATK": 500,
-              "DEF": 140,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                500,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 61
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 61,
-              "HP": 3400,
-              "ATK": 700,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                525,
-                979,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                5
-              ],
-              "LVL": 61,
-              "HP": 5650,
-              "ATK": 485,
-              "DEF": 330,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                485,
-                121
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 61
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 61
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 61
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 61
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 61
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 61,
-              "HP": 3400,
-              "ATK": 470,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                517,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Seljuq_TU4",
-              "name": "양산형 셀주크",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 61,
-              "HP": 7000,
-              "ATK": 875,
-              "DEF": 480,
-              "AGI": 3.1,
-              "CRT": 5,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                875,
-                1750,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Drone_TU4",
+              "level": 61
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                4
-              ],
-              "LVL": 61,
-              "HP": 4200,
-              "ATK": 500,
-              "DEF": 140,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                500,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Seljuq_TU4",
+              "level": 61
             },
             {
-              "index": "MOB_MP_PuppHead_TU4",
-              "name": "경비용 펍 헤드",
-              "pos": [
-                5
-              ],
-              "LVL": 61,
-              "HP": 4500,
-              "ATK": 430,
-              "DEF": 180,
-              "AGI": 4,
-              "CRT": 5,
-              "HIT": 200,
-              "DOD": 60,
-              "skillpower": [
-                322,
-                4
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                50
-              ]
+              "index": "AMG11_TU4",
+              "level": 61
+            },
+            {
+              "index": "PuppHead_TU4",
+              "level": 61
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 61
+            },
+            {
+              "index": "Seljuq_TU4",
+              "level": 61
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Gigantes_TU4",
-              "name": "양산형 기간테스",
-              "pos": [
-                7,
-                4,
-                1
-              ],
-              "LVL": 61,
-              "HP": 10550,
-              "ATK": 630,
-              "DEF": 920,
-              "AGI": 3.2,
-              "CRT": 5,
-              "HIT": 130,
-              "DOD": 0,
-              "skillpower": [
-                1134,
-                819,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Gigantes_TU4",
+              "level": 61
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 61,
-              "HP": 4200,
-              "ATK": 500,
-              "DEF": 140,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                500,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 61
             },
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                5
-              ],
-              "LVL": 61,
-              "HP": 3400,
-              "ATK": 470,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                517,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Gigantes_TU4",
+              "level": 61
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 61
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Gigantes_TU4",
+              "level": 61
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 61
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         }
@@ -4388,190 +1476,83 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                7,
-                9,
-                1,
-                3
-              ],
-              "LVL": 63,
-              "HP": 3499,
-              "ATK": 720,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                540,
-                1007,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 63
             },
             {
-              "index": "MOB_MP_Drone_TU4",
-              "name": "경비용 드론",
-              "pos": [
-                5
-              ],
-              "LVL": 63,
-              "HP": 3500,
-              "ATK": 483,
-              "DEF": 0,
-              "AGI": 4.45,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 120,
-              "skillpower": [
-                531,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                6
-              ],
-              "LVL": 63,
-              "HP": 4325,
-              "ATK": 514,
-              "DEF": 143,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                514,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 63
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Drone_TU4",
+              "level": 63
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 63
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 63
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 63
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_AMG11_TU4",
-              "name": "경비용 AMG-11",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 63,
-              "HP": 4325,
-              "ATK": 514,
-              "DEF": 143,
-              "AGI": 4.1,
-              "CRT": 5,
-              "HIT": 235,
-              "DOD": 0,
-              "skillpower": [
-                514,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "AMG11_TU4",
+              "level": 63
             },
             {
-              "index": "MOB_MP_Stinger_TU4",
-              "name": "양산형 스팅어",
-              "pos": [
-                9,
-                4,
-                5,
-                3
-              ],
-              "LVL": 63,
-              "HP": 3499,
-              "ATK": 720,
-              "DEF": 0,
-              "AGI": 4.3,
-              "CRT": 10,
-              "HIT": 140,
-              "DOD": 100,
-              "skillpower": [
-                540,
-                1007,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                0,
-                -25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Fallen_TU4",
-              "name": "경비용 폴른",
-              "pos": [
-                6
-              ],
-              "LVL": 63,
-              "HP": 5815,
-              "ATK": 498,
-              "DEF": 339,
-              "AGI": 3.9,
-              "CRT": 5,
-              "HIT": 215,
-              "DOD": 25,
-              "skillpower": [
-                498,
-                124
-              ],
-              "skillLVL": [
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                -25
-              ]
+              "index": "Stinger_TU4",
+              "level": 63
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 63
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 63
+            },
+            {
+              "index": "Fallen_TU4",
+              "level": 63
+            },
+            {
+              "index": "AMG11_TU4",
+              "level": 63
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Stinger_TU4",
+              "level": 63
             }
           ]
         }
@@ -4586,586 +1567,165 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_NightChickMEX_TU4",
-              "name": "강화형 칙 런쳐",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 70,
-              "HP": 6437,
-              "ATK": 824,
-              "DEF": 210,
-              "AGI": 3.9,
-              "CRT": 15,
-              "HIT": 265,
-              "DOD": 67.5,
-              "skillpower": [
-                989,
-                1319,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickMEX_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickEX_TU4",
-              "name": "강화형 나이트 칙",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 70,
-              "HP": 6042,
-              "ATK": 696,
-              "DEF": 99,
-              "AGI": 4.1,
-              "CRT": 10,
-              "HIT": 280,
-              "DOD": 57.499,
-              "skillpower": [
-                696,
-                974,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickEX_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickCM_TU4",
-              "name": "케미컬 칙",
-              "pos": [
-                4
-              ],
-              "LVL": 70,
-              "HP": 6882,
-              "ATK": 664,
-              "DEF": 121,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 265,
-              "DOD": 77.5,
-              "skillpower": [
-                531,
-                332,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                50,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 70,
-              "HP": 6215,
-              "ATK": 501,
-              "DEF": 131,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                501,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickCM_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                6
-              ],
-              "LVL": 70,
-              "HP": 7450,
-              "ATK": 1053,
-              "DEF": 573,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1159,
-                2107,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "NightChickDE_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickMEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_NightChickCM_TU4",
-              "name": "케미컬 칙",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 70,
-              "HP": 6882,
-              "ATK": 664,
-              "DEF": 121,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 265,
-              "DOD": 77.5,
-              "skillpower": [
-                531,
-                332,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                50,
-                50
-              ]
+              "index": "NightChickCM_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                8,
-                3
-              ],
-              "LVL": 70,
-              "HP": 7450,
-              "ATK": 1053,
-              "DEF": 573,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1159,
-                2107,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "NightChickCEX_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickSI_TU4",
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                4
-              ],
-              "LVL": 70,
-              "HP": 7695,
-              "ATK": 575,
-              "DEF": 400,
-              "AGI": 3.6,
-              "CRT": 5,
-              "HIT": 180,
-              "DOD": 32.5,
-              "skillpower": [
-                632,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                35,
-                35,
-                35
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 70,
-              "HP": 6215,
-              "ATK": 501,
-              "DEF": 131,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                501,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickSI_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickSP_TU6",
-              "name": "칙 스나이퍼",
-              "pos": [
-                6
-              ],
-              "LVL": 70,
-              "HP": 4501,
-              "ATK": 854,
-              "DEF": 89,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 300,
-              "DOD": 40,
-              "skillpower": [
-                1281,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickDE_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU6",
+              "level": 70
+            },
+            {
+              "index": "NightChickCM_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 70
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_BigChickEX_TU4",
-              "name": "시작형 빅 칙",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 70,
-              "HP": 14945,
-              "ATK": 1175,
-              "DEF": 717,
-              "AGI": 3.25,
-              "CRT": 15,
-              "HIT": 175,
-              "DOD": 0,
-              "skillpower": [
-                1762,
-                2820,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "BigChickEX_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                9,
-                5,
-                3
-              ],
-              "LVL": 70,
-              "HP": 7450,
-              "ATK": 1053,
-              "DEF": 573,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1159,
-                2107,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                4
-              ],
-              "LVL": 70,
-              "HP": 6215,
-              "ATK": 501,
-              "DEF": 131,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                501,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickCEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickDE_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "BigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 70
             }
           ]
         },
         {
           "title": "wave4",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_FABigChickEX_TU4",
-              "name": "FA 빅 칙 II",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 70,
-              "HP": 15540,
-              "ATK": 1231,
-              "DEF": 843,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 0,
-              "skillpower": [
-                1970,
-                1662,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickEX_TU4",
-              "name": "강화형 나이트 칙",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 70,
-              "HP": 6042,
-              "ATK": 696,
-              "DEF": 99,
-              "AGI": 4.1,
-              "CRT": 10,
-              "HIT": 280,
-              "DOD": 57.499,
-              "skillpower": [
-                696,
-                974,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "FABigChickEX_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickSI_TU4",
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                4
-              ],
-              "LVL": 70,
-              "HP": 7695,
-              "ATK": 575,
-              "DEF": 400,
-              "AGI": 3.6,
-              "CRT": 5,
-              "HIT": 180,
-              "DOD": 32.5,
-              "skillpower": [
-                632,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                35,
-                35,
-                35
-              ]
+              "index": "NightChickEX_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_BigChickM_TU4",
-              "name": "빅 칙 런쳐",
-              "pos": [
-                5
-              ],
-              "LVL": 71,
-              "HP": 14500,
-              "ATK": 1100,
-              "DEF": 670,
-              "AGI": 3.3,
-              "CRT": 10,
-              "HIT": 185,
-              "DOD": 0,
-              "skillpower": [
-                3300,
-                550,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickSI_TU4",
+              "level": 70
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                6
-              ],
-              "LVL": 70,
-              "HP": 6215,
-              "ATK": 501,
-              "DEF": 131,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                501,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "BigChickM_TU4",
+              "level": 71
+            },
+            {
+              "index": "NightChickDE_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickEX_TU4",
+              "level": 70
             }
           ]
         }
@@ -5181,611 +1741,165 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_LegionEX_TU4",
-              "name": "정예 레기온",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 72,
-              "HP": 7850,
-              "ATK": 751,
-              "DEF": 181,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 350,
-              "DOD": 60,
-              "skillpower": [
-                751,
-                300,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "LegionEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Mammoth_TU3",
-              "name": "매머드",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 72,
-              "HP": 13005,
-              "ATK": 1114,
-              "DEF": 814,
-              "AGI": 3.2,
-              "CRT": 7.5,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1503,
-                2785,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Mammoth_TU3",
+              "level": 72
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 72,
-              "HP": 7650,
-              "ATK": 1081,
-              "DEF": 586,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1189,
-                2162,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "NightChickCEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                5
-              ],
-              "LVL": 72,
-              "HP": 8987,
-              "ATK": 635,
-              "DEF": 687,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                635,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 72
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "Mammoth_TU3",
+              "level": 72
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 72
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_LegionEX_TU4",
-              "name": "정예 레기온",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 72,
-              "HP": 7850,
-              "ATK": 751,
-              "DEF": 181,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 350,
-              "DOD": 60,
-              "skillpower": [
-                751,
-                300,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_HarvesterEX_TU4",
-              "name": "아머드 하베스터",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 72,
-              "HP": 9770,
-              "ATK": 1017,
-              "DEF": 743,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 0,
-              "skillpower": [
-                2645,
-                508,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "LegionEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Juggernaut_TU3",
-              "name": "저거너트",
-              "pos": [
-                4
-              ],
-              "LVL": 72,
-              "HP": 16530,
-              "ATK": 764,
-              "DEF": 1173,
-              "AGI": 3.25,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1834,
-                1223,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "HarvesterEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                5
-              ],
-              "LVL": 72,
-              "HP": 7650,
-              "ATK": 1081,
-              "DEF": 586,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1189,
-                2162,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "Juggernaut_TU3",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Mammoth_TU3",
-              "name": "매머드",
-              "pos": [
-                6
-              ],
-              "LVL": 72,
-              "HP": 13005,
-              "ATK": 1114,
-              "DEF": 814,
-              "AGI": 3.2,
-              "CRT": 7.5,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1503,
-                2785,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickCEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "Mammoth_TU3",
+              "level": 72
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "HarvesterEX_TU4",
+              "level": 72
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_LegionEX_TU4",
-              "name": "정예 레기온",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 72,
-              "HP": 7850,
-              "ATK": 751,
-              "DEF": 181,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 350,
-              "DOD": 60,
-              "skillpower": [
-                751,
-                300,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "LegionEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 72,
-              "HP": 8987,
-              "ATK": 635,
-              "DEF": 687,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                635,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_Juggernaut_TU3",
-              "name": "저거너트",
-              "pos": [
-                4
-              ],
-              "LVL": 72,
-              "HP": 16530,
-              "ATK": 764,
-              "DEF": 1173,
-              "AGI": 3.25,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1834,
-                1223,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "Phalangites_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_HarvesterEX_TU4",
-              "name": "아머드 하베스터",
-              "pos": [
-                5
-              ],
-              "LVL": 72,
-              "HP": 9770,
-              "ATK": 1017,
-              "DEF": 743,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 0,
-              "skillpower": [
-                2645,
-                508,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "Juggernaut_TU3",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Mammoth_TU3",
-              "name": "매머드",
-              "pos": [
-                6
-              ],
-              "LVL": 72,
-              "HP": 13005,
-              "ATK": 1114,
-              "DEF": 814,
-              "AGI": 3.2,
-              "CRT": 7.5,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1503,
-                2785,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "HarvesterEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "Mammoth_TU3",
+              "level": 72
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 72
             }
           ]
         },
         {
           "title": "wave4",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_LegionEX_TU4",
-              "name": "정예 레기온",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 72,
-              "HP": 7850,
-              "ATK": 751,
-              "DEF": 181,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 350,
-              "DOD": 60,
-              "skillpower": [
-                751,
-                300,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "LegionEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_HarvesterEX_TU4",
-              "name": "아머드 하베스터",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 72,
-              "HP": 9770,
-              "ATK": 1017,
-              "DEF": 743,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 0,
-              "skillpower": [
-                2645,
-                508,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "HarvesterEX_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_BigChickM_TU4",
-              "name": "빅 칙 런쳐",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 72,
-              "HP": 14650,
-              "ATK": 1114,
-              "DEF": 677,
-              "AGI": 3.3,
-              "CRT": 10,
-              "HIT": 185,
-              "DOD": 0,
-              "skillpower": [
-                3342,
-                557,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "BigChickM_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                4
-              ],
-              "LVL": 72,
-              "HP": 8987,
-              "ATK": 635,
-              "DEF": 687,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                635,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "Phalangites_TU4",
+              "level": 72
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                6
-              ],
-              "LVL": 72,
-              "HP": 7650,
-              "ATK": 1081,
-              "DEF": 586,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1189,
-                2162,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "HarvesterEX_TU4",
+              "level": 72
+            },
+            {
+              "index": "BigChickM_TU4",
+              "level": 72
             }
           ]
         }
@@ -5801,551 +1915,165 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_WaspEX_TU3",
-              "name": "와습 HM",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 74,
-              "HP": 4880,
-              "ATK": 1069,
-              "DEF": 0,
-              "AGI": 4.4,
-              "CRT": 20,
-              "HIT": 165,
-              "DOD": 105,
-              "skillpower": [
-                855,
-                6414,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                75,
-                0,
-                0
-              ]
+              "index": "WaspEX_TU3",
+              "level": 74
             },
             {
-              "index": "MOB_MP_ScoutEX_TU4",
-              "name": "강습형 스카우트",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 74,
-              "HP": 4680,
-              "ATK": 757,
-              "DEF": 0,
-              "AGI": 4.6,
-              "CRT": 10,
-              "HIT": 180,
-              "DOD": 120,
-              "skillpower": [
-                908,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                15,
-                15,
-                15
-              ]
+              "index": "ScoutEX_TU4",
+              "level": 74
             },
             {
-              "index": "MOB_MP_Juggernaut_TU3",
-              "name": "저거너트",
-              "pos": [
-                4
-              ],
-              "LVL": 74,
-              "HP": 16890,
-              "ATK": 783,
-              "DEF": 1199,
-              "AGI": 3.25,
-              "CRT": 10,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1880,
-                1253,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 74,
-              "HP": 6555,
-              "ATK": 526,
-              "DEF": 136,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                526,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "Juggernaut_TU3",
+              "level": 74
             },
             {
-              "index": "MOB_MP_BigChickM_TU4",
-              "name": "빅 칙 런쳐",
-              "pos": [
-                6
-              ],
-              "LVL": 75,
-              "HP": 15100,
-              "ATK": 1156,
-              "DEF": 698,
-              "AGI": 3.3,
-              "CRT": 10,
-              "HIT": 185,
-              "DOD": 0,
-              "skillpower": [
-                3468,
-                578,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickDE_TU4",
+              "level": 74
+            },
+            {
+              "index": "BigChickM_TU4",
+              "level": 75
+            },
+            {
+              "index": "WaspEX_TU3",
+              "level": 74
+            },
+            {
+              "index": "ScoutEX_TU4",
+              "level": 74
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_WaspEX_TU3",
-              "name": "와습 HM",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 74,
-              "HP": 4880,
-              "ATK": 1069,
-              "DEF": 0,
-              "AGI": 4.4,
-              "CRT": 20,
-              "HIT": 165,
-              "DOD": 105,
-              "skillpower": [
-                855,
-                6414,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                75,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_HeavyScout_TU4",
-              "name": "헤비 스카우트",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 74,
-              "HP": 6282,
-              "ATK": 1069,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 180,
-              "DOD": 77.5,
-              "skillpower": [
-                1282,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "WaspEX_TU3",
+              "level": 74
             },
             {
-              "index": "MOB_MP_FABigChickEX_TU4",
-              "name": "FA 빅 칙 II",
-              "pos": [
-                4
-              ],
-              "LVL": 75,
-              "HP": 16340,
-              "ATK": 1310,
-              "DEF": 887,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 0,
-              "skillpower": [
-                2096,
-                1769,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "HeavyScout_TU4",
+              "level": 74
             },
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                5,
-                6
-              ],
-              "LVL": 74,
-              "HP": 9212,
-              "ATK": 650,
-              "DEF": 702,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                650,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "FABigChickEX_TU4",
+              "level": 75
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 74
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 74
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "WaspEX_TU3",
+              "level": 74
+            },
+            {
+              "index": "HeavyScout_TU4",
+              "level": 74
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_WaspEX_TU3",
-              "name": "와습 HM",
-              "pos": [
-                7,
-                8
-              ],
-              "LVL": 74,
-              "HP": 4880,
-              "ATK": 1069,
-              "DEF": 0,
-              "AGI": 4.4,
-              "CRT": 20,
-              "HIT": 165,
-              "DOD": 105,
-              "skillpower": [
-                855,
-                6414,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                75,
-                0,
-                0
-              ]
+              "index": "WaspEX_TU3",
+              "level": 74
             },
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                9,
-                1
-              ],
-              "LVL": 74,
-              "HP": 9212,
-              "ATK": 650,
-              "DEF": 702,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                650,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "WaspEX_TU3",
+              "level": 74
             },
             {
-              "index": "MOB_MP_BigChickEX_TU4",
-              "name": "시작형 빅 칙",
-              "pos": [
-                4
-              ],
-              "LVL": 75,
-              "HP": 15720,
-              "ATK": 1250,
-              "DEF": 755,
-              "AGI": 3.25,
-              "CRT": 15,
-              "HIT": 175,
-              "DOD": 0,
-              "skillpower": [
-                1875,
-                3000,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "Phalangites_TU4",
+              "level": 74
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                6,
-                3
-              ],
-              "LVL": 74,
-              "HP": 7850,
-              "ATK": 1108,
-              "DEF": 599,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1219,
-                2217,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "BigChickEX_TU4",
+              "level": 75
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 74
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 74
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 74
             }
           ]
         },
         {
           "title": "wave4",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Mammoth_TU3",
-              "name": "매머드",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 74,
-              "HP": 13315,
-              "ATK": 1142,
-              "DEF": 832,
-              "AGI": 3.2,
-              "CRT": 7.5,
-              "HIT": 135,
-              "DOD": 0,
-              "skillpower": [
-                1541,
-                2855,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "Mammoth_TU3",
+              "level": 74
             },
             {
-              "index": "MOB_MP_LegionEX_TU4",
-              "name": "정예 레기온",
-              "pos": [
-                8,
-                5,
-                2
-              ],
-              "LVL": 74,
-              "HP": 8050,
-              "ATK": 770,
-              "DEF": 184,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 350,
-              "DOD": 60,
-              "skillpower": [
-                770,
-                308,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "LegionEX_TU4",
+              "level": 74
             },
             {
-              "index": "MOB_MP_BigChickM_TU4",
-              "name": "빅 칙 런쳐",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 75,
-              "HP": 15100,
-              "ATK": 1156,
-              "DEF": 698,
-              "AGI": 3.3,
-              "CRT": 10,
-              "HIT": 185,
-              "DOD": 0,
-              "skillpower": [
-                3468,
-                578,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "BigChickM_TU4",
+              "level": 75
             },
             {
-              "index": "MOB_MP_HeavyScout_TU4",
-              "name": "헤비 스카우트",
-              "pos": [
-                6
-              ],
-              "LVL": 74,
-              "HP": 6282,
-              "ATK": 1069,
-              "DEF": 0,
-              "AGI": 4.25,
-              "CRT": 20,
-              "HIT": 180,
-              "DOD": 77.5,
-              "skillpower": [
-                1282,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 74
+            },
+            {
+              "index": "HeavyScout_TU4",
+              "level": 74
+            },
+            {
+              "index": "Mammoth_TU3",
+              "level": 74
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 74
+            },
+            {
+              "index": "BigChickM_TU4",
+              "level": 75
             }
           ]
         }
@@ -6361,552 +2089,124 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_NightChickSI_TU4",
-              "name": "나이트 칙 실더 개",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 76,
-              "HP": 8325,
-              "ATK": 618,
-              "DEF": 427,
-              "AGI": 3.6,
-              "CRT": 5,
-              "HIT": 180,
-              "DOD": 32.5,
-              "skillpower": [
-                680,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                35,
-                35,
-                35
-              ]
+              "index": "NightChickSI_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_BigChickM_TU4",
-              "name": "빅 칙 런쳐",
-              "pos": [
-                8
-              ],
-              "LVL": 77,
-              "HP": 15400,
-              "ATK": 1184,
-              "DEF": 712,
-              "AGI": 3.3,
-              "CRT": 10,
-              "HIT": 185,
-              "DOD": 0,
-              "skillpower": [
-                3552,
-                592,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "BigChickM_TU4",
+              "level": 77
             },
             {
-              "index": "MOB_MP_NightChickEX_TU4",
-              "name": "강화형 나이트 칙",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 76,
-              "HP": 6537,
-              "ATK": 750,
-              "DEF": 105,
-              "AGI": 4.1,
-              "CRT": 10,
-              "HIT": 280,
-              "DOD": 57.499,
-              "skillpower": [
-                750,
-                1050,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickEX_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_BigChickEX_TU4",
-              "name": "시작형 빅 칙",
-              "pos": [
-                4
-              ],
-              "LVL": 77,
-              "HP": 16030,
-              "ATK": 1280,
-              "DEF": 770,
-              "AGI": 3.25,
-              "CRT": 15,
-              "HIT": 175,
-              "DOD": 0,
-              "skillpower": [
-                1920,
-                3072,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "BigChickEX_TU4",
+              "level": 77
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 76,
-              "HP": 6725,
-              "ATK": 538,
-              "DEF": 138,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                538,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickDE_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_NightChickSP_TU6",
-              "name": "칙 스나이퍼",
-              "pos": [
-                6
-              ],
-              "LVL": 76,
-              "HP": 4868,
-              "ATK": 920,
-              "DEF": 95,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 300,
-              "DOD": 40,
-              "skillpower": [
-                1380,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickSP_TU6",
+              "level": 76
             },
             {
-              "index": "MOB_MP_FABigChickEX_TU4",
-              "name": "FA 빅 칙 II",
-              "pos": [
-                2
-              ],
-              "LVL": 77,
-              "HP": 16660,
-              "ATK": 1342,
-              "DEF": 905,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 170,
-              "DOD": 0,
-              "skillpower": [
-                2147,
-                1811,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickSI_TU4",
+              "level": 76
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 77
+            },
+            {
+              "index": "NightChickEX_TU4",
+              "level": 76
             }
           ]
         },
         {
           "title": "wave2",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                7,
-                9,
-                5,
-                1,
-                3
-              ],
-              "LVL": 76,
-              "HP": 9437,
-              "ATK": 666,
-              "DEF": 717,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                666,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "Phalangites_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_LegionEX_TU4",
-              "name": "정예 레기온",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 76,
-              "HP": 8250,
-              "ATK": 788,
-              "DEF": 187,
-              "AGI": 4.15,
-              "CRT": 10,
-              "HIT": 350,
-              "DOD": 60,
-              "skillpower": [
-                788,
-                315,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "LegionEX_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_Phalangites_TU4",
-              "name": "팔랑스",
-              "pos": [
-                4
-              ],
-              "LVL": 77,
-              "HP": 9550,
-              "ATK": 674,
-              "DEF": 725,
-              "AGI": 4,
-              "CRT": 10,
-              "HIT": 225,
-              "DOD": 62.5,
-              "skillpower": [
-                674,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                40,
-                40,
-                40
-              ]
+              "index": "Phalangites_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_CenturionEX_TU4",
-              "name": "엘리트 센츄리온",
-              "pos": [
-                6
-              ],
-              "LVL": 77,
-              "HP": 16020,
-              "ATK": 1113,
-              "DEF": 391,
-              "AGI": 4.05,
-              "CRT": 15,
-              "HIT": 250,
-              "DOD": 47.5,
-              "skillpower": [
-                1113,
-                333,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "Phalangites_TU4",
+              "level": 77
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 76
+            },
+            {
+              "index": "CenturionEX_TU4",
+              "level": 77
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 76
+            },
+            {
+              "index": "LegionEX_TU4",
+              "level": 76
+            },
+            {
+              "index": "Phalangites_TU4",
+              "level": 76
             }
           ]
         },
         {
           "title": "wave3",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_NightChick_RV",
-              "name": "나이트 칙 Type-S",
-              "pos": [
-                7,
-                1
-              ],
-              "LVL": 80,
-              "HP": 65535,
-              "ATK": 150,
-              "DEF": 50,
-              "AGI": 5,
-              "CRT": 25,
-              "HIT": 222,
-              "DOD": 25,
-              "skillpower": [
-                150,
-                225,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                99,
-                -50,
-                -50
-              ]
+              "index": "NightChick_RV",
+              "level": 80
             },
             {
-              "index": "MOB_MP_NightChickCEX_TU4",
-              "name": "개량형 칙 캐논",
-              "pos": [
-                8,
-                2
-              ],
-              "LVL": 76,
-              "HP": 8050,
-              "ATK": 1136,
-              "DEF": 612,
-              "AGI": 3.35,
-              "CRT": 10,
-              "HIT": 165,
-              "DOD": 0,
-              "skillpower": [
-                1249,
-                2272,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                25,
-                25
-              ]
+              "index": "NightChickCEX_TU4",
+              "level": 76
             },
             {
-              "index": "MOB_MP_NightChickSP_TU8",
-              "name": "칙 스나이퍼",
-              "pos": [
-                9,
-                3
-              ],
-              "LVL": 76,
-              "HP": 6587,
-              "ATK": 1132,
-              "DEF": 142,
-              "AGI": 4,
-              "CRT": 12.5,
-              "HIT": 380,
-              "DOD": 55,
-              "skillpower": [
-                1698,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                0,
-                0,
-                0
-              ]
+              "index": "NightChickSP_TU8",
+              "level": 76
             },
             {
-              "index": "MOB_MP_Juggernaut_TU4",
-              "name": "저거너트",
-              "pos": [
-                4
-              ],
-              "LVL": 77,
-              "HP": 20580,
-              "ATK": 898,
-              "DEF": 1541,
-              "AGI": 3.25,
-              "CRT": 10,
-              "HIT": 150,
-              "DOD": 0,
-              "skillpower": [
-                2155,
-                1436,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "Juggernaut_TU4",
+              "level": 77
             },
             {
-              "index": "MOB_MP_NightChickDE_TU4",
-              "name": "나이트 칙 디텍터",
-              "pos": [
-                5
-              ],
-              "LVL": 80,
-              "HP": 7065,
-              "ATK": 563,
-              "DEF": 143,
-              "AGI": 4.15,
-              "CRT": 5,
-              "HIT": 300,
-              "DOD": 67.5,
-              "skillpower": [
-                563,
-                5,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "NightChickDE_TU4",
+              "level": 80
             },
             {
-              "index": "MOB_MP_HarvesterEX_TU4",
-              "name": "아머드 하베스터",
-              "pos": [
-                6
-              ],
-              "LVL": 76,
-              "HP": 10250,
-              "ATK": 1067,
-              "DEF": 775,
-              "AGI": 3.3,
-              "CRT": 5,
-              "HIT": 160,
-              "DOD": 0,
-              "skillpower": [
-                2775,
-                533,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                25,
-                25,
-                25
-              ]
+              "index": "HarvesterEX_TU4",
+              "level": 76
+            },
+            {
+              "index": "NightChick_RV",
+              "level": 80
+            },
+            {
+              "index": "NightChickCEX_TU4",
+              "level": 76
+            },
+            {
+              "index": "NightChickSP_TU8",
+              "level": 76
             }
           ]
         }
@@ -6921,142 +2221,42 @@
       "wave": [
         {
           "title": "wave1",
-          "enemy": [
+          "enemylist": [
             {
-              "index": "MOB_MP_UnderWatcherSensor_TU2",
-              "name": "언더왓쳐 센서",
-              "pos": [
-                7
-              ],
-              "LVL": 80,
-              "HP": 35000,
-              "ATK": 0,
-              "DEF": 3500,
-              "AGI": 4.5,
-              "CRT": 0,
-              "HIT": 999,
-              "DOD": 0,
-              "skillpower": [
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                75,
-                50
-              ]
+              "index": "UnderWatcherSensor_TU2",
+              "level": 80
             },
             {
-              "index": "MOB_MP_UnderWatcher_TU2",
-              "name": "언더왓쳐",
-              "pos": [
-                4
-              ],
-              "LVL": 80,
-              "HP": 65000,
-              "ATK": 1349,
-              "DEF": 2000,
-              "AGI": 3.75,
-              "CRT": 15,
-              "HIT": 175,
-              "DOD": 0,
-              "skillpower": [
-                674,
-                2699,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                75,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_UnderWatcherGenerator_TU2",
-              "name": "언더왓쳐 제네레이터",
-              "pos": [
-                6
-              ],
-              "LVL": 80,
-              "HP": 60000,
-              "ATK": 0,
-              "DEF": 0,
-              "AGI": 7,
-              "CRT": 0,
-              "HIT": 999,
-              "DOD": 0,
-              "skillpower": [
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                75,
-                50
-              ]
+              "index": "",
+              "level": 0
             },
             {
-              "index": "MOB_MP_UnderWatcherArm_TU2",
-              "name": "언더왓쳐 암",
-              "pos": [
-                3
-              ],
-              "LVL": 80,
-              "HP": 37500,
-              "ATK": 1000,
-              "DEF": 2000,
-              "AGI": 4.15,
-              "CRT": 20,
-              "HIT": 200,
-              "DOD": 0,
-              "skillpower": [
-                1000,
-                1000,
-                0,
-                0,
-                0
-              ],
-              "skillLVL": [
-                1,
-                1,
-                1,
-                1,
-                1
-              ],
-              "resist": [
-                50,
-                75,
-                50
-              ]
+              "index": "UnderWatcher_TU2",
+              "level": 80
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "UnderWatcherGenerator_TU2",
+              "level": 80
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "UnderWatcherArm_TU2",
+              "level": 80
             }
           ]
         }

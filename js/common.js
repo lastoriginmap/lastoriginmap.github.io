@@ -68,6 +68,7 @@ function loadEnemyData(enemyIndex)
 	});
 }
 
+/*
 function loadEnemyIMGData()
 {
 	return new Promise(resolve=> {
@@ -100,6 +101,17 @@ function loadEnemyDescData()
 				return rtn;
 			});
 			resolve(enemyDescData);
+		});
+	});
+}
+*/
+
+function loadSkillDataList()
+{
+	return new Promise(resolve=> {
+		var src="./data/data-skill"+setting+".js";
+		loadData(src).then(()=> {
+			resolve(enemySkillList);
 		});
 	});
 }
