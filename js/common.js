@@ -7,16 +7,18 @@ function loadData(src)
 {
 	//XMLHttpRequest를 사용해 데이터 파일 로드
 	//로드가 완료되면 다음 작업을 진행하도록 Promise 적용
-	return new Promise((resolve, reject) => {
+	return new Promise((resolve, reject) =>
+	{
 		var request = new XMLHttpRequest();
 		request.open('GET', src);
 		request.responseType = 'json';
-		request.onreadystatechange = function () {
+		request.onreadystatechange = function ()
+		{
 			if (request.readyState === 4 && request.status === 200)
 			{
-                resolve(request.response);
+				resolve(request.response);
 			}
-        };
+		};
 		request.send();
 	});
 }
@@ -44,7 +46,7 @@ function loadAreaData(areaNum)
 	return new Promise((resolve, reject) =>
 	{
 		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
-		var src = "data/data-area" + areaNum + setting + ".js";
+		var src = "data/data-area" + areaNum + setting + ".json";
 		console.log(src);
 		loadData(src).then((areaData) => resolve(areaData), () => reject());
 	});
@@ -56,7 +58,7 @@ function loadStageData(stageTitle)
 	return new Promise(resolve =>
 	{
 		//src를 지역 데이터 파일로 설정해 로드
-		var src = "./data/data-area" + getAreaByStageTitle(stageTitle) + setting + ".js";
+		var src = "./data/data-area" + getAreaByStageTitle(stageTitle) + setting + ".json";
 		loadData(src).then((areaData) =>
 		{
 			var stageData = areaData.stage.find(sData => sData.title == stageTitle);
@@ -76,7 +78,7 @@ function loadEnemyDataList()
 {
 	return new Promise(resolve =>
 	{
-		var src = "./data/data-enemy" + setting + ".js";
+		var src = "./data/data-enemy" + setting + ".json";
 		loadData(src).then((enemyDataList) =>
 		{
 			resolve(enemyDataList);
@@ -88,7 +90,7 @@ function loadEnemyData(enemyIndex)
 {
 	return new Promise(resolve =>
 	{
-		var src = "./data/data-enemy" + setting + ".js";
+		var src = "./data/data-enemy" + setting + ".json";
 		loadData(src).then((enemyDataList) =>
 		{
 			var enemyData = enemyDataList[enemyIndex];
@@ -101,7 +103,7 @@ function loadEnemyData(enemyIndex)
 function loadEnemyIMGData()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy"+setting+".js";
+		var src="./data/data-enemy"+setting+".json";
 		loadData(src).then(()=> {
 			var enemyIMGData={};
 			for (var key in enemyDataList)
@@ -121,7 +123,7 @@ function loadEnemyIMGData()
 function loadEnemyDescData()
 {
 	return new Promise(resolve=> {
-		var src="./data/data-enemy"+setting+".js";
+		var src="./data/data-enemy"+setting+".json";
 		loadData(src).then(()=> {
 			var enemyDescData=enemyDataList.map(data => {
 				var rtn = {"name": data.name, "img": data.img};
@@ -139,7 +141,7 @@ function loadSkillDataList()
 {
 	return new Promise(resolve =>
 	{
-		var src = "./data/data-skill" + setting + ".js";
+		var src = "./data/data-skill" + setting + ".json";
 		loadData(src).then((enemySkillList) =>
 		{
 			resolve(enemySkillList);
