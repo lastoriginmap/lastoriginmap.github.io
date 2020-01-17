@@ -1,4 +1,4 @@
-﻿var areaData = {
+﻿{
   "title": "Daily1",
   "stage": [
     {
@@ -682,4 +682,4 @@
       ]
     }
   ]
-};
+}

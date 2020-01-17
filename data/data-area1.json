@@ -1,4 +1,4 @@
-﻿var areaData = {
+﻿{
   "title": "1",
   "areatype": "grid",
   "gridsize": [
@@ -1969,4 +1969,4 @@
       ]
     }
   ]
-};
+}

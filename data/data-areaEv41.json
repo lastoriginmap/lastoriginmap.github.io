@@ -1,4 +1,4 @@
-﻿var areaData = {
+﻿{
   "title": "할로윈 파크 패닉! ",
   "areatype": "grid",
   "gridsize": [
@@ -2745,4 +2745,4 @@
       ]
     }
   ]
-};
+}

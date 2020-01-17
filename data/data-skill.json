@@ -1,4 +1,4 @@
-﻿var enemySkillList = {
+﻿{
   "NightChickM_N_Skill1": {
     "title": "askill1",
     "type": "active",
@@ -7375,4 +7375,4 @@
       5
     ]
   }
-};
+}

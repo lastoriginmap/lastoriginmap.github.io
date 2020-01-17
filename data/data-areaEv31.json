@@ -1,4 +1,4 @@
-﻿var areaData = {
+﻿{
   "title": "만월의 야상곡 ",
   "areatype": "grid",
   "gridsize": [
@@ -2209,4 +2209,4 @@
       ]
     }
   ]
-};
+}

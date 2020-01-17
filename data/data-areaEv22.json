@@ -1,4 +1,4 @@
-﻿var areaData = {
+﻿{
   "title": "리오보로스의 유산 탐사 ",
   "areatype": "grid",
   "gridsize": [
@@ -1941,4 +1941,4 @@
       ]
     }
   ]
-};
+}

@@ -1,4 +1,4 @@
-﻿var areaData = {
+﻿{
   "title": "세인트 오르카의 비밀작전 2부 ",
   "areatype": "grid",
   "gridsize": [
@@ -2352,4 +2352,4 @@
       ]
     }
   ]
-};
+}
