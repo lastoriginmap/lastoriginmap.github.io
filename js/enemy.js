@@ -39,17 +39,17 @@ window.onload = async function ()
 function drawEnemyPageNew(data, lvl, skilldata)
 {
 	var enemyName = data.name;
-	var HP = data.HPbase + data.HPlvl*(lvl-1);
-	var ATK = data.ATKbase + data.ATKlvl*(lvl-1);
-	var DEF = data.DEFbase + data.DEFlvl*(lvl-1);
+	var HP = calcLvlValue(data.HP, lvl);
+	var ATK = calcLvlValue(data.ATK, lvl);
+	var DEF = calcLvlValue(data.DEF, lvl);
 
 	document.title = enemyName + ' 정보';
 	$('#name').append(enemyName);
 	$('.image').append("<img src=\"images/profile/" + data.img + ".png\" style=\"width: 100%\" />");
 	writeData('LVL', lvl);
-	writeData('HP', Math.floor(HP));
-	writeData('ATK', Math.floor(ATK));
-	writeData('DEF', Math.floor(DEF));
+	writeData('HP', HP);
+	writeData('ATK', ATK);
+	writeData('DEF', DEF);
 	writeData('AGI', data.AGI);
 	writeData('CRT', data.CRT);
 	writeData('HIT', data.HIT);
@@ -88,7 +88,7 @@ function drawEnemyPageNew(data, lvl, skilldata)
 	for (var i = 0; i < data.skills.length; i++)
 	{
 		$('.skill-container:last').after($('.skill-container:first').clone());
-		drawSkillInfoNew(i, ATK, skilldata[data.skills[i]]);
+		drawSkillInfoNew(i, (data.ATK.base + data.ATK.increment * (lvl - 1)), skilldata[data.skills[i]]);
 	}
 	$('.skill-container:last').after($('.skill-container:first').clone());
 	drawInfo(data.skills.length, data.info);
@@ -377,3 +377,8 @@ function writeData(str1, str2)
 		$('#' + str1).append(' %');
 	}
 }
+
+function calcLvlValue(data, lvl)
+{
+  return Math.floor(data.base + data.increment * (lvl - 1));
+};

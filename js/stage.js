@@ -91,9 +91,11 @@ async function drawPageNew(stageLoadData, enemyDataList)
 		{
 			//현재 철충 위치
 			var pos = j;
-			//PC 키패드 숫자로 표시된 위치를 핸드폰 숫자 위치로 변환
-			var row = 3 - parseInt(pos / 3);
-			var column = pos + 1 - parseInt(pos / 3) * 3;
+
+			//위치가 PC 키패드 숫자로 표시되어 있으면 핸드폰 숫자 위치로 변환
+			//현재는 사용하지 않음
+			//var row = 3 - parseInt(pos / 3);
+			//var column = pos + 1 - parseInt(pos / 3) * 3;
 
 			if (stageData.wave[i].enemylist[j].index != "")
 			{
@@ -106,8 +108,11 @@ async function drawPageNew(stageLoadData, enemyDataList)
 				var enemyName = enemyData.name;
 				var enemyIMG = enemyData.img;
 
-				//해당 위치에 적 이름과 사진, 링크 추가
-				$('div:nth-of-type(' + ((row - 1) * 3 + column) + ')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemynew(\'new\', \'' + enemyIndex + '\', ' + enemyLVL + ')\"><img src=\"images/profile/' + enemyIMG + '.png\" /><p>' + enemyName + '</p></a>');
+				//해당 위치에 적 이름과 사진, 링크 추가				
+				$('div:nth-of-type(' + (pos+1) + ')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemynew(\'new\', \'' + enemyIndex + '\', ' + enemyLVL + ')\"><img src=\"images/profile/' + enemyIMG + '.png\" /><p>' + enemyName + '</p></a>');
+				
+				//PC 키패드 숫자면 아래를 사용
+				//$('div:nth-of-type(' + ((row - 1) * 3 + column) + ')', '.carousel-slide:last-child > .wave-grid').html('<a href=\"javascript:show_enemynew(\'new\', \'' + enemyIndex + '\', ' + enemyLVL + ')\"><img src=\"images/profile/' + enemyIMG + '.png\" /><p>' + enemyName + '</p></a>');
 			}
 		}
 	}
