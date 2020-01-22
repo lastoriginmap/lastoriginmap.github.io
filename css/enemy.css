@@ -60,16 +60,30 @@ body {
 	grid-area: 4 / 1 / 5 / 13;
 	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: minmax(min-content, 1fr) 1fr minmax(min-content, 1fr) 1fr;
+	word-break: keep-all;
+	white-space:nowrap;
 }
 
 .spec-item {
 	text-align: center;
 }
 
-#HP {
-	grid-area: 1 / 1 / 2 / 5;
-	
+.spec-item-header {
+	text-align: left;
+	color: #404040;
+}
+
+.spec-item-header div {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.spec-item-header img {
+	height: 1.2em;
+	vertical-align: sub;
 }
 
 #ATK {
@@ -240,7 +254,7 @@ body {
 		grid-area: 3 / 5 / 4 / 13;
 		padding: 0;
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: minmax(min-content, 1fr) 2fr minmax(min-content, 1fr) 2fr;
 	}
 	
 	.skill-container-active {
