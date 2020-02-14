@@ -1,40 +1,41 @@
-window.onload  =  async function() {
-    var areaNum  =  getURLParameter('areanum');
+window.onload = async function ()
+{
+	var areaNum = getURLParameter('areanum');
 	var areaData = await loadAreaData(areaNum);
-    var areaName = areaNum;
-    if(areaData.title!=undefined)
-    {
-    	areaName = areaData.title;
-    }
-	document.title  =  areaName+'지역'	;
-	$("#area_title").html(areaName+'지역 철충 지도');
-	
+	var areaName = areaNum;
+	if (areaData.title != undefined)
+	{
+		areaName = areaData.title;
+	}
+	document.title = areaName.length == 1 ? areaName + '지역' : areaName;
+	$("#area_title").html((areaName.length == 1 ? areaName + '지역 ' : areaName) + '철충 지도');
+
 	drawArea(await areaData);
 	drawCanvas(await areaData);
 };
 
 function drawArea(areaData)
 {
-    var gridSize = areaData.gridsize || [8,3];
-	var unit = Math.max($(".areamap").width(), 540)/gridSize[0];
+	var gridSize = areaData.gridsize || [8, 3];
+	var unit = Math.max($(".areamap").width(), 540) / gridSize[0];
 	var stageType = ["b", "main", "ex"];
 	var stageTypeTitle = ["B", "", "Ex"];
-	for(var i = 0;i<areaData.stage.length;i++)
+	for (var i = 0; i < areaData.stage.length; i++)
 	{
 		var data = areaData.stage[i];
 		var grid = getGridByStageData(data);
 		var index = getIndexByStageGrid(grid);
-		var type = stageType[stageTypeTitle.indexOf(getTypeByStageGrid(grid))]+"stage";
+		var type = stageType[stageTypeTitle.indexOf(getTypeByStageGrid(grid))] + "stage";
 		var name = data.name || data.title;
-		$("#"+type+"-list").append("<a href=\"./stage.html?stagetitle="+data.title+"\"><div class=\"stage "+type+"\" id=\""+type+index+"\"></div><div class=\"title-container\">"+name+"</div></a>");
-		var stageBox = $("#"+type+index)[0];
-		var titleBox = $("#"+type+index+"+.title-container")[0];
-		stageBox.style.left = (0.75-(grid[1]%2)*0.5+grid[0])*unit-2+"px";
-		stageBox.style.top = ((grid[1]+0.75)*0.55-1/4)*unit-1+"px";
-		stageBox.style.width = 0.5*unit+3+"px";
-		stageBox.style.height = 3/8*unit+2+"px";
+		$("#" + type + "-list").append("<a href=\"./stage.html?stagetitle=" + data.title + "\"><div class=\"stage " + type + "\" id=\"" + type + index + "\"></div><div class=\"title-container\">" + name + "</div></a>");
+		var stageBox = $("#" + type + index)[0];
+		var titleBox = $("#" + type + index + "+.title-container")[0];
+		stageBox.style.left = (0.75 - (grid[1] % 2) * 0.5 + grid[0]) * unit - 2 + "px";
+		stageBox.style.top = ((grid[1] + 0.75) * 0.55 - 1 / 4) * unit - 1 + "px";
+		stageBox.style.width = 0.5 * unit + 3 + "px";
+		stageBox.style.height = 3 / 8 * unit + 2 + "px";
 		titleBox.style.left = stageBox.style.left;
-		titleBox.style.top = ((grid[1]+0.75)*0.55+1/8)*unit-1+"px";
+		titleBox.style.top = ((grid[1] + 0.75) * 0.55 + 1 / 8) * unit - 1 + "px";
 		titleBox.style.width = stageBox.style.width;
 		//titleBox.style.height = 3/8*unit+height+2+"px";
 	}
@@ -52,38 +53,38 @@ function drawCanvas(areaData)
 	var exImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABHNCSVQICAgIfAhkiAAABslJREFUaIHNWk2oVVUU/tbe+5z7431eLdNXKmg0aODgDSQQAoUIDQJFDRsYFPhHmj20LKHwEcZTKw01QxM01KSfiTSwP8hJRGERNBGygZMwB6Gmvnd/zl4N7jn3/Lx73rvrvv2gBZtz7777rPN9Z6+19lp7X4JD4RlPDljiUwCgCBfon++GXOqXCrlSxDOeWBUQLSfYVYDqBwDMBBTRC/Tnt6ddPUcizsgBAC98epsFHUmq50IBanT0Iln7JmqNKwBAf39z1+Vz80S51abSLRRbqTxltfq8WSrsdfq8ieA41abT5NjzAGtBtRpAaqHyvEFbLvzemLvmPafPzRHHM6cBnWihMBHYmNbV8xcqoh3NeWvONB5cs9zp87Nw3GrrYJbGAJ4HKGoR9n0AAIHWK01f2flrP+O5q+c5xRHBcaotY5bw/daVCDBeajYjYcYzltSvU2Gqxqk2VQES+K1tdh43y8/2PABgR7Bg4y39w0dvOYPjShEAwEOLXNSMkjVLK3nJpkddwXE8c0i9LuKxZjieWGDAGp4D4IoLOG7JecikBTJyCNghmKkgl8BHQnIc5Phoj+LeLJNCQpeuO0MCwDW5apVRC9pfycpup2lFpe4re67guCUHpNcyFX63IUulgCCIx2X7jdM8forJRf6XSKLT5NP9TP9zcmwmobIZTDxGIFM7c1IhAiB01HFkaslJrUxpoFZzBsUtuYfmgkYTRTYLF+XKdIDrM1zBcT9zJhlQes84+KX9axl6HSH4lI689kVPUHj7wS0B9FJW9rpp8jk6uuNyz4iAVtnTRth79GPodUx6LUOvtYOHL1G9uZGO7bgq0WGsUptJ0wBBwyp6lgcPHYevT+KOvknHtt4Rg/ITxmBl5PJGs8YyLpk/Gi+/v88EzY/p6CtdJdbp/Ii432q9J6jzjyjZ9fzqB/08NCQzXa0SzcjaRGCNet0ac563H9wCALxrf1/35OLeeUFgh7lhz+PO/Y/z4KHundzo3ls3otWA1d47dvDw900uLRlvKDX2nv6J2D6W6mymwzGP0Amt7Ana9+Iv4ynjt09vtY3a0XZHs9Ed4LYCBVWqLkWz/jNr/xyP3lrdApSz9pVngUdGTuvKvQMYMddoaPO95M9dpe1U1ptsgS7z8LkhHjrV3zXYyc5eF2OpVHreNmZ+3azp3Tz84YKJyWk/3ZQCtA+r7Z6g5H/Jw2dWdEVOGVmjjN9R2Jc3vv0cNV/1Vd4IGn2f8K7jm1LkiCjVWJuOrTXWLrYaF+2BMxd57/nFWT5cLMfNM+KW0iUY23oXZomdUT3e2H/2XSBvEVcTWysDK7jQfISHz2yk3c9d6jioA4BxJVBA0k2jJFzn+FxOcauIdzb2n80hVyh1vqs5kv5Oqp+13QPgUsfx3UbAWB/QSFQG0f06ZwUcp3JXxDuNml31UQ/3LowBajWQzkmb/GK2p8LAMj55YRttWHkUc2YS2cS9dWG0LHtAlcq0YeVo8+SFv9q68vRMz9ETvhMDULyAEgGeL9/NjMxYKaR2iKQzp1SMTFGxnbNI9ZgWHgMygEnYtFLyUiUqc7RGqh6TFq7JZ5My7Zcs1RPuwhgYD9kCkZUwm0/NXPxmWMtMgECtAxMAyngVDvdYxHq8lg4Dg7EJrtQMIkIqM3NKaAKWEZtlYiGT6gknp/N8S8m191JV2l+N0HmbNmGWKMbHYEI93AJk0FdF1izJCndHi+GpTaWU3nGW6inHZmn7zFUKlVFDSC5lllkJpFEuc42EhHo0JQ4tqQgOP1shOR2R67S/KwYVXjNnBbA9kIuChzamrYsnQy4THFl6OmPCrCKji4UWQCY+blaeqbCN8Agr+nidw5hzNfHRkwrJTdosOTFz2sSchNFSR9HShPcmgUnNKfLbrBVIfVcnlgLyinHC3Cs5b3Z8IBGp8kc63ZIv1f4CAGBmfwH/3o71iHef44Td6mlXKSRFWognjP5mrEkCEB73piS14yytChKffRTbK5QUT5SSdoyWUrNMSjIPlIZwQuzumuLcUkwu6XMZ4UmQS53ySPctNeJMzqMKhw4sjrqxz3X4VRoIUmVOkpxQjU4WqhwrEkfdyOf8TiCk/0JIHNRP5pTHJMj5qhgHut7WXWN1qa4yx7VEwgq6WurjGzf6g0ZjESVPR+/mTF1OScV+XwBtpgGA9cu3wRS08NRl7LwKgLyqQFg/5UpekUnCE9Qe8eSQm4TPJXtz9IiPvqV4QjiGgFljfhQXqzl/jsmduTw1OWYsxRPuoBkiejj7m7SsRz24frN4fbROt68x29+i7lmjiwbgjQ3HufpzyIm3GUJy/wFSMgCRUwKHZQAAAABJRU5ErkJggg==";
 	var colorArr = [bColor, mainColor, exColor];
 	var imgSrcArr = [bImg, mainImg, exImg];
-	
-	var canvas  =  document.getElementById("canvas");
-	var ctx  =  canvas.getContext("2d");
-	
-    var gridsize = areaData.gridsize || [8,3];
+
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+
+	var gridsize = areaData.gridsize || [8, 3];
 	canvas.width = Math.max($("#canvas").parent().width(), 540);
-	var unit = canvas.width/gridsize[0];
-	canvas.height = (0.55*(3+0.5))*unit;
-	document.getElementById("canvas-container").style.height = canvas.height+"px";
-	ctx.fillStyle  =  "black";
+	var unit = canvas.width / gridsize[0];
+	canvas.height = (0.55 * (3 + 0.5)) * unit;
+	document.getElementById("canvas-container").style.height = canvas.height + "px";
+	ctx.fillStyle = "black";
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
-	
+
 	ctx.lineWidth = 2;
-	
-	for(var i = 0;i<areaData.stage.length;i++)
+
+	for (var i = 0; i < areaData.stage.length; i++)
 	{
 		ctx.strokeStyle = colorArr[j];
 		var stageData = areaData.stage[i];
-		if(typeof(stageData.prevstage)!= "undefined")
+		if (typeof (stageData.prevstage) != "undefined")
 		{
-			var prevStageData = areaData.stage.find(data=>{ return data.title == stageData.prevstage; });
+			var prevStageData = areaData.stage.find(data => { return data.title == stageData.prevstage; });
 			var prevGrid = getGridByStageData(prevStageData);
 			var grid = getGridByStageData(stageData);
 			var index = stageTypeTitle.indexOf(getTypeByStageGrid(prevGrid));
-			
-			var startpoint = [Math.round((1+grid[0]-0.5*(grid[1]%2))*unit), Math.round((0.75+grid[1])*0.55*unit)];
-			var endpoint = [Math.round((1+prevGrid[0]-0.5*(prevGrid[1]%2))*unit), Math.round((0.75+prevGrid[1])*0.55*unit)];
-			
-			var lingrad  =  ctx.createLinearGradient(startpoint[0], startpoint[1], endpoint[0], endpoint[1]);
+
+			var startpoint = [Math.round((1 + grid[0] - 0.5 * (grid[1] % 2)) * unit), Math.round((0.75 + grid[1]) * 0.55 * unit)];
+			var endpoint = [Math.round((1 + prevGrid[0] - 0.5 * (prevGrid[1] % 2)) * unit), Math.round((0.75 + prevGrid[1]) * 0.55 * unit)];
+
+			var lingrad = ctx.createLinearGradient(startpoint[0], startpoint[1], endpoint[0], endpoint[1]);
 			lingrad.addColorStop(0, colorArr[grid[1]]);
 			lingrad.addColorStop(1, colorArr[prevGrid[1]]);
-			
+
 			ctx.strokeStyle = lingrad;
 			ctx.beginPath();
 			ctx.moveTo(startpoint[0], startpoint[1]);
@@ -92,32 +93,33 @@ function drawCanvas(areaData)
 			ctx.stroke();
 		}
 	}
-	
-	for(var i = 0;i<areaData.stage.length;i++)
+
+	for (var i = 0; i < areaData.stage.length; i++)
 	{
 		var grid = getGridByStageData(areaData.stage[i]);
 		var index = stageTypeTitle.indexOf(getTypeByStageGrid(grid));
 		ctx.strokeStyle = colorArr[index];
 		ctx.fillStyle = "black";
 		ctx.beginPath();
-		ctx.ellipse(Math.round((0.5*(2-grid[1]%2)+grid[0])*unit), Math.round((grid[1]+0.75)*0.55*unit), Math.round(unit/4), Math.round(unit/8), 0, 0, 2*Math.PI);
+		ctx.ellipse(Math.round((0.5 * (2 - grid[1] % 2) + grid[0]) * unit), Math.round((grid[1] + 0.75) * 0.55 * unit), Math.round(unit / 4), Math.round(unit / 8), 0, 0, 2 * Math.PI);
 		ctx.closePath();
 		ctx.fill();
 		ctx.stroke();
 	}
-	
+
 	var imgarr = [];
-	for(var j = 0;j<stageType.length;j++)
+	for (var j = 0; j < stageType.length; j++)
 	{
 		imgarr[j] = new Image();
 		imgarr[j].j = j;
-		imgarr[j].addEventListener("load", function() {
+		imgarr[j].addEventListener("load", function ()
+		{
 			var j = this.j;
-			var stageTypeData = areaData.stage.filter(data=>getTypeByStageGrid(data.grid)==stageTypeTitle[j]);
-			for(var i = 0;i<stageTypeData.length;i++)
+			var stageTypeData = areaData.stage.filter(data => getTypeByStageGrid(data.grid) == stageTypeTitle[j]);
+			for (var i = 0; i < stageTypeData.length; i++)
 			{
 				var grid = getGridByStageData(stageTypeData[i]);
-				ctx.drawImage(this, Math.round((0.5*(2-grid[1]%2)+grid[0]-1/6)*unit), Math.round(((grid[1]+0.75)*0.55-7/24)*unit), Math.round((1/3)*unit), Math.round((1/3)*unit));
+				ctx.drawImage(this, Math.round((0.5 * (2 - grid[1] % 2) + grid[0] - 1 / 6) * unit), Math.round(((grid[1] + 0.75) * 0.55 - 7 / 24) * unit), Math.round((1 / 3) * unit), Math.round((1 / 3) * unit));
 			}
 		});
 		imgarr[j].src = imgSrcArr[j];
@@ -127,21 +129,22 @@ function drawCanvas(areaData)
 function getGridByStageData(stageData)
 {
 	var grid = [];
-	if(stageData.name == "Ev2-1ep")
+	if (stageData.name == "Ev2-1ep")
 	{
 		var asd = 1;
 	}
-	if(typeof(stageData.grid)!= "undefined")
+	if (typeof (stageData.grid) != "undefined")
 	{
 		return stageData.grid;
 	}
 	else
 	{
 		var stageType = ["B", "", "Ex"];
-		stageType.forEach(function(element, index) {
-			if(getTypeByStageTitle(stageData.title) == element)
+		stageType.forEach(function (element, index)
+		{
+			if (getTypeByStageTitle(stageData.title) == element)
 			{
-				grid = [getIndexByStageTitle(stageData.title)-1, index];
+				grid = [getIndexByStageTitle(stageData.title) - 1, index];
 			}
 		});
 	}
