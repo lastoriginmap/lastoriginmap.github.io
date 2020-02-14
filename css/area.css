@@ -93,7 +93,6 @@ header {
 }
 
 #canvas-container {
-	//width: 100%;
 	position: relative;
 }
 
@@ -101,7 +100,6 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	//width: 100%;
 }
 
 .btn-back {
@@ -111,4 +109,4 @@ header {
     color: white;
     border-radius: 5px;
     background-color: rgb(100, 100, 220);
-}}
+}
