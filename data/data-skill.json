@@ -793,6 +793,42 @@
       5
     ]
   },
+  "Scarab_N_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "실드 돌격",
+    "img": "AssaultAttack",
+    "range": 3,
+    "AP": 6,
+    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Scarab_N_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "보호 기동",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Scarab_N_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "방어 기동",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
   "NightChickCM_N_Skill1": {
     "title": "askill1",
     "type": "active",
@@ -833,42 +869,6 @@
       5,
       6,
       2
-    ]
-  },
-  "Scarab_N_Skill1": {
-    "title": "askill1",
-    "type": "active",
-    "name": "실드 돌격",
-    "img": "AssaultAttack",
-    "range": 3,
-    "AP": 6,
-    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Scarab_N_Skill2": {
-    "title": "askill2",
-    "type": "active",
-    "name": "보호 기동",
-    "img": "SelfDefBuff",
-    "range": 6,
-    "AP": 4,
-    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Scarab_N_Skill3": {
-    "title": "pskill1",
-    "type": "passive",
-    "name": "방어 기동",
-    "img": "SelfDefBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
-    "areadata": [
-      5
     ]
   },
   "Raider_N_Skill1": {
@@ -3191,14 +3191,14 @@
       6
     ]
   },
-  "Spector_N_Skill1": {
+  "CenturionCF_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "전자기장 미사일",
+    "name": "정밀 유도 미사일",
     "img": "MultiMissile",
     "range": 4,
-    "AP": 6,
-    "description": "전자기장 미사일로 $(1.1) 피해를 주고, 대상의 적중 / 치명타 / 효과 발동을 낮춥니다.",
+    "AP": 7,
+    "description": "정밀 유도 미사일로 $(1) 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
     "areadata": [
       8,
       9,
@@ -3206,64 +3206,50 @@
       6
     ]
   },
-  "Spector_N_Skill2": {
+  "CenturionCF_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "반물질 역장 전개",
-    "img": "TeamDefBuff",
-    "range": 6,
-    "AP": 7,
-    "description": "반물질 역장을 넓게 전개해 주변 아군이 받는 피해를 일정 횟수 무효화합니다.",
+    "name": "멀티 록 온",
+    "img": "Scan",
+    "range": 4,
+    "AP": 6,
+    "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
+    "areadata": [
+      8,
+      4,
+      5,
+      6,
+      2
+    ]
+  },
+  "CenturionCF_N_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "대열 정비",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
     "areadata": [
       7,
       8,
       9,
       4,
+      5,
       6,
       1,
       2,
       3
     ]
   },
-  "Spector_N_Skill3": {
-    "title": "pskill1",
+  "CenturionCF_N_Skill4": {
+    "title": "pskill2",
     "type": "passive",
-    "name": "반물질 역장",
+    "name": "위기 극복",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "라운드 개시 시, 반물질 역장을 전개해 자신이 받는 피해를 일정 횟수 무효화합니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Spector_N_Skill4": {
-    "title": "pskill2",
-    "type": "passive",
-    "name": "행동 예측",
-    "img": "TeamSpdBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "스킬 사용 시, 주변 아군에게 적 분석 결과를 발신해 적중 / 회피 / AP를 올려줍니다.",
-    "areadata": [
-      7,
-      8,
-      9,
-      4,
-      6,
-      1,
-      2,
-      3
-    ]
-  },
-  "Spector_N_Skill5": {
-    "title": "pskill3",
-    "type": "passive",
-    "name": "은폐장",
-    "img": "SelfSpdBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
+    "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
     "areadata": [
       5
     ]
@@ -3677,14 +3663,14 @@
       5
     ]
   },
-  "CenturionCF_N_Skill1": {
+  "Spector_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "정밀 유도 미사일",
+    "name": "전자기장 미사일",
     "img": "MultiMissile",
     "range": 4,
-    "AP": 7,
-    "description": "정밀 유도 미사일로 $(1) 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
+    "AP": 6,
+    "description": "전자기장 미사일로 $(1.1) 피해를 주고, 대상의 적중 / 치명타 / 효과 발동을 낮춥니다.",
     "areadata": [
       8,
       9,
@@ -3692,50 +3678,64 @@
       6
     ]
   },
-  "CenturionCF_N_Skill2": {
+  "Spector_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "멀티 록 온",
-    "img": "Scan",
-    "range": 4,
-    "AP": 6,
-    "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
-    "areadata": [
-      8,
-      4,
-      5,
-      6,
-      2
-    ]
-  },
-  "CenturionCF_N_Skill3": {
-    "title": "pskill1",
-    "type": "passive",
-    "name": "대열 정비",
-    "img": "TeamAtkBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
+    "name": "반물질 역장 전개",
+    "img": "TeamDefBuff",
+    "range": 6,
+    "AP": 7,
+    "description": "반물질 역장을 넓게 전개해 주변 아군이 받는 피해를 일정 횟수 무효화합니다.",
     "areadata": [
       7,
       8,
       9,
       4,
-      5,
       6,
       1,
       2,
       3
     ]
   },
-  "CenturionCF_N_Skill4": {
-    "title": "pskill2",
+  "Spector_N_Skill3": {
+    "title": "pskill1",
     "type": "passive",
-    "name": "위기 극복",
+    "name": "반물질 역장",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
+    "description": "라운드 개시 시, 반물질 역장을 전개해 자신이 받는 피해를 일정 횟수 무효화합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Spector_N_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "행동 예측",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬 사용 시, 주변 아군에게 적 분석 결과를 발신해 적중 / 회피 / AP를 올려줍니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "Spector_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "은폐장",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
     "areadata": [
       5
     ]
