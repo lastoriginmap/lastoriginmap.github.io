@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  max-width: 540px;
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  padding: 5% 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5% 0;
+}
+
+.header-content {
+  margin: 0 auto;
+}
+
+.control {
+  box-sizing: border-box;
+  display: block;
+  width: 7.5vw;
+  z-index: 9999;
+}
+
+.stage-control {
+  height: 10vw;
+  padding: 0 0.5vw;
+}
+
+.carousel-control {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-group {
+  width: 27vw;
+  height: 7.5vw;
+}
+
+.carousel-control-wave {
+  width: 7.5vw;
+  height: 27vw;
+}
+
+.carousel-control-left {
+  left: 0;
+}
+
+.carousel-control-right {
+  right: 0;
+}
+
+.control-end {
+  visibility: hidden;
+}
+
+.control-arrow {
+  width: 7vw;
+  height: 7vw;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: rgb(220, 220, 220);
+  transform-origin: center;
+}
+
+.carousel-control-top .control-arrow {
+  border-width: 0.5vw 0 0 0.5vw;
+}
+
+.carousel-control-left .control-arrow {
+  border-width: 0.5vw 0 0 0.5vw;
+}
+
+.carousel-control-right .control-arrow {
+  border-width: 0.5vw 0.5vw 0 0;
+}
+
+.carousel-control-bottom .control-arrow {
+  border-width: 0 0 0.5vw 0.5vw;
+}
+
+.stage-control.carousel-control-left .control-arrow {
+  transform: translateX(2.5vw) rotate(-45deg);
+}
+
+.stage-control.carousel-control-right .control-arrow {
+  transform: translateX(-2.5vw) rotate(45deg);
+}
+
+section {
+  text-align: center;
+}
+
+.btn-back {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 220);
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.carousel-indicators {
+  text-align: center;
+}
+
+.carousel-indicator {
+  position: relative;
+  display: inline-block;
+  width: 5%;
+  height: 0;
+  margin: 0 2.5%;
+  padding-bottom: 5%;
+  background-color: rgb(91, 192, 222);
+  border: 1px solid rgb(255, 213, 0);
+}
+
+.carousel-indicator:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 50%;
+  left: 100%;
+  z-index: -1;
+  border-bottom: 1px solid rgb(255, 213, 0);
+}
+
+.carousel-indicator-active {
+  background-color: rgb(228, 60, 31);
+}
+
+.carousel-mask-top {
+  display: none;
+}
+
+.carousel-mask-bottom {
+  display: none;
+}
+
+.carousel-wrap {
+  /*padding: 5vw 0;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	overflow: hidden;
+}
+
+.carousel-track-wrap {
+  width: 85vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-control.carousel-control-top .control-arrow {
+  transform: translatey(2.5vw) scaleX(2.2) rotate(45deg);
+}
+
+.carousel-control.carousel-control-left .control-arrow {
+  transform: translateX(2.5vw) scaleY(2.2) rotate(-45deg);
+}
+
+.carousel-control.carousel-control-right .control-arrow {
+  transform: translateX(-2.5vw) scaleY(2.2) rotate(45deg);
+}
+
+.carousel-control.carousel-control-bottom .control-arrow {
+  transform: translatey(-2.5vw) scaleX(2.2) rotate(-45deg);
+}
+
+.carousel-track {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  white-space: nowrap;
+  transition: transform 0.5s ease 0s;
+  border-color: blue;
+}
+
+.carousel-track-wave {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -7.5vw;
+}
+
+.carousel-track-vertical {
+  margin: -7.5vw;
+  height: 100vw;
+}
+
+.carousel-slide {
+  margin: 0 7.5vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: red;
+}
+
+.wave-grid {
+  width: 85vw;
+  height: 85vw;
+  margin: 7.5vw 7.5vw;
+  white-space: normal;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}
+
+.wave-grid div {
+  display: flex;
+  width: 27vw;
+  height: 27vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  background-color: rgb(200, 200, 200);
+}
+
+.wave-grid div a {
+  text-align: center;
+  color: black;
+  word-break: keep-all;
+}
+
+.wave-grid div img {
+  width: 50%;
+}
+
+@media (min-width: 540px) {
+  body {
+    max-width: unset;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 1% 0;
+  }
+
+  header {
+    flex-direction: row;
+    width: 400px;
+    margin: 0 auto;
+    border-color: red;
+  }
+
+  .header-content {
+    margin: 0 30px;
+  }
+
+  .carousel-control-left,
+  .carousel-control-right {
+    position: relative;
+  }
+
+  .stage-control {
+    padding: 0 5px;
+    width: 30px;
+    height: 40px;
+  }
+
+  .stage-control .control-arrow {
+    width: 23px;
+    height: 23px;
+  }
+
+  .stage-control.carousel-control-left .control-arrow {
+    transform: rotate(-45deg);
+    border-width: 5px 0 0 5px;
+  }
+
+  .stage-control.carousel-control-right .control-arrow {
+    transform: rotate(45deg);
+    border-width: 5px 5px 0 0;
+  }
+
+  section {
+    display: block;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .carousel-mask-top {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 1;
+  }
+  
+  .carousel-mask-bottom {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+
+  .carousel-wrap {
+		padding: 50px 0;
+		margin: -40px 0;
+  }
+
+  .carousel-indicators {
+    margin-top: 50px;
+    margin-bottom: 20px;
+	}
+	
+  .carousel-indicator {
+    width: 30px;
+    margin: 0 15px;
+    padding-bottom: 30px;
+  }
+
+  .carousel-track-wrap {
+    width: 540px;
+    height: 540px;
+  }
+
+  .carousel-track-vertical {
+    margin: -40px 0;
+    height: 540px;
+  }
+
+  .carousel-track-wave {
+    margin: 0;
+  }
+
+  .carousel-slide {
+    width: 540px;
+    margin: 0;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .carousel-slide-active {
+    opacity: 1;
+  }
+
+  .wave-grid {
+    width: 460px;
+    height: 460px;
+    margin: 40px 40px;
+    grid-gap: 5px;
+  }
+
+  .wave-grid div {
+    width: 150px;
+    height: 150px;
+  }
+
+  .carousel-control {
+    padding: 0;
+  }
+
+  .carousel-control.carousel-control-top {
+    width: 150px;
+    height: 40px;
+  }
+
+  .carousel-control.carousel-control-bottom {
+    width: 150px;
+    height: 40px;
+  }
+
+  .carousel-control.carousel-control-left,
+  .carousel-control.carousel-control-right {
+    width: 40px;
+    height: 150px;
+  }
+  .carousel-control.carousel-control-left {
+    left: 40px;
+  }
+
+  .carousel-control.carousel-control-right {
+    right: 40px;
+  }
+
+  .carousel-control .control-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-control.carousel-control-top .control-arrow {
+    transform: translateY(10px) scaleX(2) rotate(45deg);
+    border-width: 5px 0 0 5px;
+  }
+
+  .carousel-control.carousel-control-bottom .control-arrow {
+    transform: translateY(-10px) scaleX(2) rotate(-45deg);
+    border-width: 0 0 5px 5px;
+  }
+
+  .carousel-control.carousel-control-left .control-arrow {
+    transform: translateX(10px) scaleY(2) rotate(-45deg);
+    border-width: 5px 0 0 5px;
+  }
+
+  .carousel-control.carousel-control-right .control-arrow {
+    transform: translateX(-10px) scaleY(2) rotate(45deg);
+    border-width: 5px 5px 0 0;
+  }
+}

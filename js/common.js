@@ -74,6 +74,21 @@ function loadStageData(stageTitle)
 	});
 }
 
+//웨이브 데이터 로드 함수
+function loadgroupData(stageTitle)
+{
+	return new Promise(resolve =>
+	{
+		//src를 지역 데이터 파일로 설정해 로드
+		var src = "./data/data-group" + getAreaByStageTitle(stageTitle) + setting + ".json";
+		loadData(src).then((groupData) =>
+		{
+			resolve(groupData.wavegroup);
+		});
+
+	});
+}
+
 function loadEnemyDataList()
 {
 	return new Promise(resolve =>

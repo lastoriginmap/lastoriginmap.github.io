@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border: 0px solid green;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  padding: 5vw;
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+.areamap {
+  width: 100%;
+  border: 0;
+}
+
+#stage-list {
+  width: 100%;
+  border: 0;
+  z-index: 9999;
+}
+
+.stage {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  color: black;
+}
+
+.btn-back {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 220);
+}
+
+@media (min-width: 540px) {
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
