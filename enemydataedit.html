@@ -28,21 +28,28 @@
 			<hr>
 			<form id="form-enemy">
 				<div id="img"></div>
-				<button type="button" id="delete-name">삭제</button><br>
-				<button type="button" id="copy-name">복사</button><br>
+				<button type="button" id="delete-index">삭제</button><br>
+				<button type="button" id="clear-enemy">비우기</button><br>
+				<label for="input-index">인덱스: </label><input type="text" autocomplete="off" id="input-index" list="index-list" >
+				<datalist id="index-list">
+				</datalist>
+				<button type="button" id="button-index">불러오기</button><br>
 				<label for="input-name">철충 이름:</label>
 				<input type="text" name="enemyname" id="input-name" list="name-list" autocomplete="off">
 				<datalist id="name-list">
-					<!--option value="나이트 칙"></option>
-					<option value="나이트 칙 런처"></option>
-					<option value="나이트 칙 실더"></option-->
 				</datalist>
-				<button type="button" id="button-name">입력</button><br>
-				<label for="input-type">타입: </label><input type="text" id="input-type"><br >
+				<button type="button" id="button-name">불러오기</button><br>
 				<label for="input-img">이미지: </label><input type="text" autocomplete="off" id="input-img"><br >
-				<label for="input-resist">속성저항: </label><input type="text" autocomplete="off" id="input-resist"><br >
-				<label for="input-CRT">치명타: </label><input type="text" autocomplete="off" id="input-CRT"><br >
+				<label for="input-type">타입: </label><input type="text" id="input-type"><br >
 				<label for="input-info">정보: </label><textarea autocomplete="off" id="input-info" style="width:100%; height:4em;"></textarea><br >
+				<label for="input-HP">체력: </label><input type="text" autocomplete="off" id="input-HPbase"><input type="text" autocomplete="off" id="input-HPincrement"><br >
+				<label for="input-ATK">공격력: </label><input type="text" autocomplete="off" id="input-ATKbase"><input type="text" autocomplete="off" id="input-ATKincrement"><br >
+				<label for="input-DEF">방어력: </label><input type="text" autocomplete="off" id="input-DEFbase"><input type="text" autocomplete="off" id="input-DEFincrement"><br >
+				<label for="input-AGI">행동력: </label><input type="text" autocomplete="off" id="input-AGI"><br >
+				<label for="input-CRT">치명타: </label><input type="text" autocomplete="off" id="input-CRT"><br >
+				<label for="input-HIT">명중률: </label><input type="text" autocomplete="off" id="input-HIT"><br >
+				<label for="input-DOD">회피율: </label><input type="text" autocomplete="off" id="input-DOD"><br >
+				<label for="input-resist">속성저항: </label><input type="text" autocomplete="off" id="input-resist"><br >
 				<input type="submit" value="적 입력"><br >
 			</form>
 			<hr>
@@ -56,7 +63,9 @@
 			<hr>
 			<form id="form-skill">
 				<button type="button" id="delete-skill">스킬 삭제</button><br>
-				<button type="button" id="copy-skill">스킬 복사</button><br>
+				<button type="button" id="clear-skill">비우기</button><br>
+				<label for="input-skillindex">인덱스: </label><input type="text" autocomplete="off" id="input-skillindex">
+				<button type="button" id="button-skillindex">불러오기</button><br>
 				<label for="input-skillname">이름: </label><input type="text" autocomplete="off" id="input-skillname"><br >
 				<label for="input-skillimage">아이콘: </label><input type="text" autocomplete="off" id="input-skillimage"><br >
 				<label for="input-skillrange">사거리: </label><input type="text" autocomplete="off" id="input-skillrange"><br >

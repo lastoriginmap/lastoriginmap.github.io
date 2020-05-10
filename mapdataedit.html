@@ -40,6 +40,9 @@
 				<input type="radio" id="Ex" name="stage-type" value="Ex"><label for="Ex">Ex</label><br >
 				<label id="label-stagename" for="input-stagename">이름: </label>
 				<input type="text" autocomplete="off" id="input-stagename"><br>
+				<label id="label-stagegrid" for="input-stagegrid">그리드(x,y): </label>
+				<input type="text" autocomplete="off" id="input-stagegridx">
+				<input type="text" autocomplete="off" id="input-stagegridy"><br>
 				<label id="label-prevstage" for="input-prevstage">이전 스테이지: </label>
 				<input type="number" autocomplete="off" id="input-prevstage"><br>
 				<input type="radio" id="prevMain" name="prevstage-type" value="Main" checked="checked"><label for="prevMain">Main</label>
@@ -65,26 +68,28 @@
 					<div></div><div></div><div></div>
 				</div>
 				<label for="input-name">철충 이름:</label>
-				<input type="text" id="input-name" list="name-list" autocomplete="off"><br >
-				<label for="input-nickname">표시할 이름:</label>
-				<input type="text" id="input-nickname" autocomplete="off"><br >
-				<datalist id="name-list"><br >
-					<!--option value="나이트 칙"></option>
-					<option value="나이트 칙 런처"></option>
-					<option value="나이트 칙 실더"></option-->
+				<input type="text" id="input-name" list="name-list" autocomplete="off"><br>
+				<label for="input-LVL">레벨: </label><input type="number" autocomplete="off" id="input-LVL">
+				<button type="button" id="submit-name">입력</button><br >
+				<label for="input-index">철충 인덱스:</label>
+				<input type="text" id="input-index" list="index-list" autocomplete="off"><br >
+				<datalist id="name-list">
 				</datalist>
+				<datalist id="index-list">
+				</datalist>
+				<div id="index-option-view"></div>
 				<label for="input-pos">위치: </label>
-				<table style="">
+				<table>
 					<tbody>
 						<tr>
 							<td>
-								<input type="checkbox" id="pos7" value="7" name="input-pos"><label for="pos7">7</label>
+								<input type="checkbox" id="pos1" value="1" name="input-pos"><label for="pos1">1</label>
 							</td>
 							<td>
-								<input type="checkbox" id="pos8" value="8" name="input-pos"><label for="pos8">8</label>
+								<input type="checkbox" id="pos2" value="2" name="input-pos"><label for="pos2">2</label>
 							</td>
 							<td>
-								<input type="checkbox" id="pos9" value="9" name="input-pos"><label for="pos9">9</label>
+								<input type="checkbox" id="pos3" value="3" name="input-pos"><label for="pos3">3</label>
 							</td>
 						</tr>
 						<tr>
@@ -100,30 +105,20 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="checkbox" id="pos1" value="1" name="input-pos"><label for="pos1">1</label>
+								<input type="checkbox" id="pos7" value="7" name="input-pos"><label for="pos7">7</label>
 							</td>
 							<td>
-								<input type="checkbox" id="pos2" value="2" name="input-pos"><label for="pos2">2</label>
+								<input type="checkbox" id="pos8" value="8" name="input-pos"><label for="pos8">8</label>
 							</td>
 							<td>
-								<input type="checkbox" id="pos3" value="3" name="input-pos"><label for="pos3">3</label>
+								<input type="checkbox" id="pos9" value="9" name="input-pos"><label for="pos9">9</label>
 							</td>
 						</tr>
 					</tbody>
 				</table>
 				<button type="button" id="delete">삭제</button><br>
-				<label for="input-LVL">레벨: </label><input type="number" autocomplete="off" id="input-LVL"><br >
-				<button type="button" id="auto-fill">자동 완성</button><br>
-				<label for="input-HP">HP: </label><input type="number" autocomplete="off" id="input-HP"><br >
-				<label for="input-ATK">공격력: </label><input type="number" autocomplete="off" id="input-ATK" ><br >
-				<label for="input-CRT">치명타: </label><input type="number" autocomplete="off" step="0.01" id="input-CRT" value="-1"><br >
-				<label for="input-DEF">방어력: </label><input type="number" autocomplete="off" id="input-DEF"><br >
-				<label for="input-HIT">적중률: </label><input type="number" autocomplete="off" id="input-HIT"><br >
-				<label for="input-AGI">행동력: </label><input type="number" autocomplete="off" step="0.001" id="input-AGI"><br >
-				<label for="input-DOD">회피율: </label><input type="number" autocomplete="off" step="0.01" id="input-DOD"><br >
-				<label for="input-skill">스킬: </label><input type="text" autocomplete="off" id="input-skill"><br >
-				<label for="input-resist">속성 저항: </label><input type="text" autocomplete="off" id="input-resist"><br >
 				<input type="submit" value="철충 입력"><br >
+				<div id="enemy-stat"></div>
 			</form>
 			<hr>
 			<button type="button" id="download">다운로드</button>

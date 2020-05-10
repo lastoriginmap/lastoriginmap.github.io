@@ -12,31 +12,22 @@ function loadData(src)
 		var request = new XMLHttpRequest();
 		request.open('GET', src);
 		request.responseType = 'json';
-		request.onreadystatechange = function ()
+		request.onload = function ()
 		{
-			if (request.readyState === 4 && request.status === 200)
+			if (request.status === 200)
 			{
 				resolve(request.response);
 			}
+			else
+			{
+				reject();
+			}
 		};
+		request.onerror = function ()
+		{
+			reject();
+		}
 		request.send();
-	});
-}
-
-//구형 데이터 로드 함수
-function loadDataOld(src)
-{
-	//<script> 요소를 추가해 데이터 파일 로드
-	//로드가 완료되면 다음 작업을 진행하도록 Promise 적용
-	return new Promise((resolve, reject) =>
-	{
-		var script = document.createElement('script');
-		script.type = "text/javascript";
-		script.src = src;
-		script.addEventListener('load', () => { resolve(); }, false);
-		script.addEventListener('error', () => { reject(); }, false);
-		var s = document.getElementsByTagName("script")[0];
-		s.parentNode.insertBefore(script, s);
 	});
 }
 
@@ -47,8 +38,7 @@ function loadAreaData(areaNum)
 	{
 		//src를 지역 데이터 파일 주소로 설정해 데이터 파일을 로드하고 areaData 오브젝트 리턴
 		var src = "data/data-area" + areaNum + setting + ".json";
-		console.log(src);
-		loadData(src).then((areaData) => resolve(areaData), () => reject());
+		loadData(src).then((areaData) => resolve(areaData)).catch((e) => reject(e));
 	});
 }
 

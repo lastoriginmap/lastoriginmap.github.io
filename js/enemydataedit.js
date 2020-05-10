@@ -1,4 +1,5 @@
-var enemyDataArr = [];
+var enemyDataList = {};
+var skillDataList = {};
 
 window.onload = async function() {
 	var formEnemy = document.getElementById("form-enemy");
@@ -7,29 +8,33 @@ window.onload = async function() {
 	var formResult = document.getElementById("form-result");
 	var inputResult = document.getElementById("input-result");
 	
-	enemyDataArr = await loadEnemyData();
-	addDatalist();
+	enemyDataList = await loadEnemyDataList();
+	skillDataList = await loadSkillDataList();
+	addDatalist(document.getElementById("name-list"), Object.values(enemyDataList).map(data=>data.name));
 	
-	inputResult.value = JSON.stringify(enemyDataArr, null, 2);
+	inputResult.value = JSON.stringify(enemyDataList, null, 2);
 	
 	formEnemy.addEventListener("submit", async e=>{ e.preventDefault(); submitEnemy(); }, false);
 	inputSkillSelect.forEach(el=>el.addEventListener("change", async e=>{ e.preventDefault(); selectSkill(); }, false));
 	formSkill.addEventListener("submit", async e=>{ e.preventDefault(); submitSkill(); }, false);
 	formResult.addEventListener("submit", e=>{ setData(inputResult.value); e.preventDefault(); }, false);
+	document.getElementById("button-index").addEventListener("click", e=>{ e.preventDefault(); submitIndex(); }, false);
 	document.getElementById("button-name").addEventListener("click", e=>{ e.preventDefault(); submitName(); }, false);
+	document.getElementById("button-skillindex").addEventListener("click", e=>{ e.preventDefault(); submitSkillIndex(); }, false);
 
-	document.getElementById("delete-name").addEventListener("click", e=>{
+	document.getElementById("delete-index").addEventListener("click", e=>{
 		e.preventDefault();
 		if(confirm("철충이 완전히 삭제됩니다. 삭제하시겠습니까?"))
 		{
 			deleteEnemy();
 		}
 	}, false);
-	document.getElementById("copy-name").addEventListener("click", e=>{
+
+	document.getElementById("clear-enemy").addEventListener("click", e=>{
 		e.preventDefault();
-		if(confirm("해당 철충을 복사하시겠습니까?"))
+		if(confirm("적 입력칸을 비우시겠습니까?"))
 		{
-			copyEnemy();
+			clearEnemy();
 		}
 	}, false);
 	
@@ -40,17 +45,18 @@ window.onload = async function() {
 			deleteSkill();
 		}
 	}, false);
-	document.getElementById("copy-skill").addEventListener("click", e=>{
+
+	document.getElementById("clear-skill").addEventListener("click", e=>{
 		e.preventDefault();
-		if(confirm("해당 스킬을 복사하시겠습니까?"))
+		if(confirm("스킬 입력칸을 비우시겠습니까?"))
 		{
-			copySkill();
+			clearSkill();
 		}
 	}, false);
 	
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
-		saveFile(enemyDataArr, "data-enemy.js");
+		saveFile(enemyDataList, "data-enemy.js");
 	}, false);
 	
 	document.querySelectorAll("input[type='text']").forEach(el=>{
@@ -68,9 +74,16 @@ window.onload = async function() {
 	});
 };
 
-function submitName(name)
+function submitName()
 {
-	var enemyData = findEnemy(name);
+	var name = document.getElementById("input-name").value;
+	addDatalist(document.getElementById("index-list"), Object.entries(enemyDataList).filter(([key, value])=>value.name==name).map(([key, value])=>key));
+}
+
+function submitIndex()
+{
+	var index = document.getElementById("input-index").value;
+	var enemyData = enemyDataList[index];
 	
 	var imgDiv = document.getElementById("img");
 	if(!imgDiv.hasChildNodes())
@@ -84,23 +97,32 @@ function submitName(name)
 	
 	var getEnemyValue = makeGetter(enemyData);
 	document.getElementById("input-name").value = getEnemyValue("name");
-	document.getElementById("input-type").value = getEnemyValue("type");
 	document.getElementById("input-img").value = getEnemyValue("img");
-	document.getElementById("input-resist").value = getEnemyValue("resist");
-	document.getElementById("input-CRT").value = getEnemyValue("CRT");
+	document.getElementById("input-type").value = getEnemyValue("type");
 	document.getElementById("input-info").value = getEnemyValue("info").replace(/<br\s*[\/]?>/gi, "\n");
+	document.getElementById("input-HPbase").value = getEnemyValue("HP").base;
+	document.getElementById("input-HPincrement").value = getEnemyValue("HP").increment;
+	document.getElementById("input-ATKbase").value = getEnemyValue("ATK").base;
+	document.getElementById("input-ATKincrement").value = getEnemyValue("ATK").increment;
+	document.getElementById("input-DEFbase").value = getEnemyValue("DEF").base;
+	document.getElementById("input-DEFincrement").value = getEnemyValue("DEF").increment;
+	document.getElementById("input-AGI").value = getEnemyValue("AGI");
+	document.getElementById("input-CRT").value = getEnemyValue("CRT");
+	document.getElementById("input-HIT").value = getEnemyValue("HIT");
+	document.getElementById("input-DOD").value = getEnemyValue("DOD");
+	document.getElementById("input-resist").value = getEnemyValue("resist");
 	
-	document.getElementById("input-result").value = JSON.stringify(enemyDataArr, null, 2);
-	document.getElementById("copy-name").enemyIndex = enemyDataArr.findIndex(el=> el.name==enemyData.name);
+	document.getElementById("input-result").value = JSON.stringify(enemyDataList, null, 2);
 }
 
 function submitEnemy()
 {
-	var enemyData = findEnemy();
+	var index = document.getElementById("input-index").value;
+	var enemyData = enemyDataList[index];
 	if(!enemyData)
 	{
-		enemyDataArr.push({});
-		enemyData = enemyDataArr[enemyDataArr.length-1];
+		enemyDataList[index]={};
+		enemyData = enemyDataList[index];
 		alert("새로운 철충을 추가합니다.");
 	}
 	else
@@ -108,23 +130,47 @@ function submitEnemy()
 		if(!confirm("이미 있는 철충입니다. 덮어씌우겠습니까?")) return 0;
 	}
 	enemyData.name = document.getElementById("input-name").value;
-	enemyData.type = document.getElementById("input-type").value;
 	enemyData.img = document.getElementById("input-img").value;
-	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
-	enemyData.CRT = document.getElementById("input-CRT").value;
+	enemyData.type = document.getElementById("input-type").value;
 	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
-	if(enemyData.resist.length==1) delete enemyData.resist;
-	if(enemyData.CRT=='') delete enemyData.CRT;
+	enemyData.HP = {};
+	enemyData.HP.base = document.getElementById("input-HPbase").value;
+	enemyData.HP.increment = document.getElementById("input-HPincrement").value;
+	enemyData.ATK = {};
+	enemyData.ATK.base = document.getElementById("input-ATKbase").value;
+	enemyData.ATK.increment = document.getElementById("input-ATKincrement").value;
+	enemyData.DEF = {};
+	enemyData.DEF.base = document.getElementById("input-DEFbase").value;
+	enemyData.DEF.increment = document.getElementById("input-DEFincrement").value;
+	enemyData.AGI = document.getElementById("input-AGI").value;
+	enemyData.CRT = document.getElementById("input-CRT").value;
+	enemyData.HIT = document.getElementById("input-HIT").value;
+	enemyData.DOD = document.getElementById("input-DOD").value;
+	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
 	
-	addDatalist();
-	submitName();
+	addDatalist(document.getElementById("name-list"), Object.values(enemyDataList).map(data=>data.name));
+	submitIndex();
 }
 
 function selectSkill()
 {
 	var skillData = findSkill();
-	if(!skillData) skillData={};
-	var getSkillValue = makeGetter(skillData);
+	if(!skillData) 
+	{
+		skillData={};
+		var index = document.getElementById("input-index").value+"_Skill"
+		var order = ['askill1', 'askill2', 'pskill1', 'pskill2', 'pskill3'];
+		for(let i=0;i<5;i++)
+		{
+			if(document.getElementById(order[i]).checked)
+			{
+				index+=(i+1).toString();
+			}
+		}
+		skillData[index]={};
+	}	
+	var getSkillValue = makeGetter(Object.values(skillData)[0]);
+	document.getElementById("input-skillindex").value = Object.keys(skillData)[0];
 	document.getElementById("input-skillname").value = getSkillValue("name");
 	document.getElementById("input-skillimage").value = getSkillValue("img");
 	document.getElementById("input-skillrange").value = getSkillValue("range");
@@ -133,7 +179,24 @@ function selectSkill()
 	document.getElementById("input-skilldesc").value = getSkillValue("description").replace(/<br\s*[\/]?>/gi, "\n");
 	document.getElementById("input-skillarea").value = getSkillValue("areadata");
 	
-	document.getElementById("input-result").value = JSON.stringify(enemyDataArr, null, 2);
+	document.getElementById("input-result").value = JSON.stringify(enemyDataList, null, 2);
+}
+
+function submitSkillIndex()
+{
+	var index = document.getElementById("input-skillindex").value;
+	if(index in skillDataList)
+	var getSkillValue = makeGetter(skillDataList[index]);
+	document.getElementById("input-skillname").value = getSkillValue("name");
+	document.getElementById("input-skillimage").value = getSkillValue("img");
+	document.getElementById("input-skillrange").value = getSkillValue("range");
+	document.getElementById("input-skillAP").value = getSkillValue("AP");
+	document.getElementById("input-skillattr").value = getSkillValue("attr");
+	document.getElementById("input-skilldesc").value = getSkillValue("description").replace(/<br\s*[\/]?>/gi, "\n");
+	document.getElementById("input-skillarea").value = getSkillValue("areadata");
+	
+	setSelectedSkill(index);
+	document.getElementById("input-result").value = JSON.stringify(enemyDataList, null, 2);
 }
 
 function submitSkill()
@@ -148,125 +211,109 @@ function submitSkill()
 	{
 		if(!confirm("이미 있는 스킬입니다. 덮어씌우겠습니까?")) return 0;
 	}
-	skillData.title = getSelectedSkill();
-	skillData.type = skillData.title.slice(0,-1)=="askill" ? "active" : "passive";
-	skillData.name = document.getElementById("input-skillname").value;
-	skillData.img = document.getElementById("input-skillimage").value;
-	skillData.range = document.getElementById("input-skillrange").value;
-	skillData.AP = document.getElementById("input-skillAP").value;
-	skillData.attr = document.getElementById("input-skillattr").value;
-	skillData.description = document.getElementById("input-skilldesc").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
-	skillData.areadata = document.getElementById("input-skillarea").value.split(',').map(el=>parseFloat(el));
-	if(skillData.attr==="") delete skillData.attr;
-	
+	var skillDataValue = Object.values(skillData)[0];
+	skillDataValue.title = getSelectedSkill();
+	skillDataValue.type = skillDataValue.title.slice(0,-1)=="askill" ? "active" : "passive";
+	skillDataValue.name = document.getElementById("input-skillname").value;
+	skillDataValue.img = document.getElementById("input-skillimage").value;
+	skillDataValue.range = document.getElementById("input-skillrange").value;
+	skillDataValue.AP = document.getElementById("input-skillAP").value;
+	skillDataValue.attr = document.getElementById("input-skillattr").value;
+	skillDataValue.description = document.getElementById("input-skilldesc").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
+	skillDataValue.areadata = document.getElementById("input-skillarea").value.split(',').map(el=>parseFloat(el));
+	if(skillDataValue.attr==="") delete skillDataValue.attr;
+
 	selectSkill();
 }
 
 function deleteEnemy()
 {
-	var enemyName = document.getElementById("input-name").value;
-	var enemyDataIndex = enemyDataArr.findIndex(data => data.name==enemyName);
-	if(enemyDataIndex == -1)
+	var enemyIndex = document.getElementById("input-index").value;
+	if(!(enemyIndex in enemyDataList))
 	{
 		alert("철충이 존재하지 않습니다!");
 		throw "No enemy";
 	}
-	else enemyDataArr.splice(enemyDataIndex,1);
-	addDatalist();
-	submitName();
+	else delete enemyDataList[enemyIndex];
+	addDatalist(document.getElementById("name-list"), Object.values(enemyDataList).map(data=>data.name));
+	clearEnemy();
 }
 
-function copyEnemy()
+function clearEnemy()
 {
-	var enemyData = enemyDataArr[document.getElementById("copy-name").enemyIndex];
-	if(!enemyData)
+	var imgDiv = document.getElementById("img");
+	if(imgDiv.hasChildNodes())
 	{
-		alert("철충이 존재하지 않습니다!");
-		throw "No enemy";
+		imgDiv.removeChild(imgDiv.firstChild);
 	}
-	else
-	{
-		var newEnemyData = Object.assign({}, enemyData);
-		newEnemyData.name = document.getElementById("input-name").value;
-		newEnemyData.type = document.getElementById("input-type").value;
-		newEnemyData.img = document.getElementById("input-img").value;
-		newEnemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
-		newEnemyData.CRT = document.getElementById("input-CRT").value;
-		newEnemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
-		if(newEnemyData.resist.length==1) delete newEnemyData.resist;
-		if(newEnemyData.CRT=='') delete newEnemyData.CRT;
-		enemyDataArr.push(newEnemyData);
-		addDatalist();
-		submitName(newEnemyData.name);
-		return alert(`${newEnemyData.name}으로 복사되었습니다.`);
-	}
+
+	var getEnemyValue = makeGetter({});
+	document.getElementById("input-index").value = getEnemyValue("index");
+	document.getElementById("input-name").value = getEnemyValue("name");
+	document.getElementById("input-img").value = getEnemyValue("img");
+	document.getElementById("input-type").value = getEnemyValue("type");
+	document.getElementById("input-info").value = getEnemyValue("info").replace(/<br\s*[\/]?>/gi, "\n");
+	document.getElementById("input-HPbase").value = getEnemyValue("HP");
+	document.getElementById("input-HPincrement").value = getEnemyValue("HP");
+	document.getElementById("input-ATKbase").value = getEnemyValue("ATK");
+	document.getElementById("input-ATKincrement").value = getEnemyValue("ATK");
+	document.getElementById("input-DEFbase").value = getEnemyValue("DEF");
+	document.getElementById("input-DEFincrement").value = getEnemyValue("DEF");
+	document.getElementById("input-AGI").value = getEnemyValue("AGI");
+	document.getElementById("input-CRT").value = getEnemyValue("CRT");
+	document.getElementById("input-HIT").value = getEnemyValue("HIT");
+	document.getElementById("input-DOD").value = getEnemyValue("DOD");
+	document.getElementById("input-resist").value = getEnemyValue("resist");
 }
 
 function deleteSkill()
 {
-	var enemyData = findEnemy();
-	var skill = getSelectedSkill();
-	var skillDataIndex = enemyData.skills.findIndex(data => data.title==skill);
-	if(skillDataIndex == -1)
+	var enemyindex = document.getElementById("input-index").value;
+	var enemyData = enemyDataList[enemyindex];
+	var index = document.getElementById("input-skillindex").value;
+	if(index in skillDataList)
 	{
-		alert("스킬이 존재하지 않습니다!");
-		throw "No skill";
-	}
-	else enemyData.skills.splice(skillDataIndex,1);
-	selectSkill();
-}
-
-function copySkill()
-{
-	var enemyData = findEnemy();
-	var skill = getSelectedSkill();
-	var skillData = enemyData.skills.find(data => data.title==skill);
-	if(!skillData)
-	{
-		alert("스킬이 존재하지 않습니다!");
-		throw "No skill";
+		delete skillDataList[index];
+		enemyData.skills.splice(enemyData.skills.indexOf(index), 1)
 	}
 	else
 	{
-		var skillIndex = enemyData.skills.reduce((acc,data) => {
-			if(data.title.slice(0,-1) == skillData.title.slice(0,-1)) acc.push(+data.title.slice(6));
-			return acc;
-		},[]);
-		skillIndex.sort();
-		
-		var newIndex = [1,2,3].filter(n => {
-			let m = skillIndex.indexOf(n);
-			return m == -1 ? true : (skillIndex.splice(m, 1), false);
-		})[0];
-
-		if(!newIndex || (newIndex==3 && skillData.title.slice(0,-1)=='askill')) return alert('스킬이 복사될 자리가 없습니다!');
-		else
-		{
-			var newSkillData = Object.assign({}, skillData);
-			newSkillData.title = skillData.title.slice(0,-1)+newIndex;
-			addSkill(newSkillData);
-			alert(`${newSkillData.title}으로 복사되었습니다.`);
-		}
-		selectSkill();
+		alert("스킬이 존재하지 않습니다!");
+		throw "No skill";
 	}
+	clearSkill();
 }
 
-function addDatalist()
+function clearSkill()
 {
-	var nameList = document.getElementById("name-list");
-	var enemyNameData = enemyDataArr.map(data=>data.name);
-	while (nameList.firstChild) nameList.removeChild(nameList.firstChild);
-	enemyNameData.forEach(el=>{
+	var getSkillValue = makeGetter({});
+	document.getElementById("input-skillindex").value = getSkillValue("index");
+	document.getElementById("input-skillname").value = getSkillValue("name");
+	document.getElementById("input-skillimage").value = getSkillValue("img");
+	document.getElementById("input-skillrange").value = getSkillValue("range");
+	document.getElementById("input-skillAP").value = getSkillValue("AP");
+	document.getElementById("input-skillattr").value = getSkillValue("attr");
+	document.getElementById("input-skilldesc").value = getSkillValue("description").replace(/<br\s*[\/]?>/gi, "\n");
+	document.getElementById("input-skillarea").value = getSkillValue("areadata");
+}
+
+function addDatalist(element, data)
+{
+	while (element.firstChild)
+	{
+		element.removeChild(element.firstChild);
+	}
+	data.forEach(el=>{
 		var newOption = document.createElement("option");
 		newOption.value = el;
-		nameList.appendChild(newOption);
+		element.appendChild(newOption);
 	});
 }
 
 function saveFile(data, fileName)
 {
 	var a = document.getElementById("download-dummy");
-	var json = "var enemyDataArr = "+JSON.stringify(data, null, 2)+";";
+	var json = "var enemyDataList = "+JSON.stringify(data, null, 2)+";";
 	var blob = new Blob([json], {type: "octet/stream"});
 	var url = window.URL.createObjectURL(blob);
 	a.href = url;
@@ -275,46 +322,54 @@ function saveFile(data, fileName)
 	window.URL.revokeObjectURL(url);
 }
 
-function findEnemy(enemyName)
-{
-	if(!enemyName) enemyName = document.getElementById("input-name").value;
-	var enemyDataIndex = enemyDataArr.findIndex(data => data.name==enemyName);
-	if(enemyDataIndex == -1) return false;
-	else return enemyDataArr[enemyDataIndex];
-}
-
 function findSkill()
 {
-	var enemyData = findEnemy();
+	var enemyindex = document.getElementById("input-index").value;
+	var enemyData = enemyDataList[enemyindex];
 	var skill = getSelectedSkill();
 	if('skills' in enemyData)
 	{
-		var skillDataIndex = enemyData.skills.findIndex(data => data.title==skill);
-		if(skillDataIndex == -1) return false;
-		else return enemyData.skills[skillDataIndex];
+		console.log(enemyData.skills)
+		var skillDataIndex = enemyData.skills.find(index => skillDataList[index].title==skill);
+		if(!skillDataIndex) return false;
+		else
+		{
+			var returnobj = {};
+			returnobj[skillDataIndex] = skillDataList[skillDataIndex];
+			return returnobj;
+		}
 	}
 	else return false;
 }
 
-function addSkill(skillData)
+function addSkill()
 {
 	var order = ['askill1', 'askill2', 'pskill1', 'pskill2', 'pskill3'];
-	var enemyData = findEnemy();
-	var skill = skillData ? skillData.title : getSelectedSkill();
-	var skillOrder = order.indexOf(skill);
-	var index = 0;
-	
+	var enemyindex = document.getElementById("input-index").value;
+	var enemyData = enemyDataList[enemyindex];
+	var skillData = arguments.length>0 ? arguments[1] : {};
+	var skilltitle = 'title' in skillData ? skillData.title : getSelectedSkill();
+	var skillOrder = order.indexOf(skilltitle);
+	var skillIndex = arguments.length>0 ? arguments[0] : `${enemyindex}_Skill${skillOrder+1}`;
+	var arrindex = 0;
+
 	if(!('skills' in enemyData)) enemyData['skills'] = [];
 	for(let i=0;i<enemyData.skills.length;i++)
 	{
-		if(order.indexOf(enemyData.skills[i].title)<skillOrder)
+		if(order.indexOf(skillDataList[enemyData.skills[i]].title)<skillOrder)
 		{
-			index=i+1;
+			arrindex=i+1;
 		}
 	}
-	if(skillData) enemyData.skills.splice(index, 0, skillData);
-	else enemyData.skills.splice(index, 0, {});
-	return enemyData.skills[index];
+	console.log(enemyData.skills)
+	console.log(skilltitle)
+	console.log(arrindex)
+	enemyData.skills.splice(arrindex, 0, skillIndex);
+	skillDataList[skillIndex] = skillData;
+
+	var returnobj = {};
+	returnobj[skillIndex] = skillDataList[skillIndex];
+	return returnobj;
 }
 
 function getSelectedSkill()
@@ -326,6 +381,20 @@ function getSelectedSkill()
 		{
 			return document.getElementById(order[i]).value;
 		}
+	}
+}
+
+function setSelectedSkill(index)
+{
+	var order = ['askill1', 'askill2', 'pskill1', 'pskill2', 'pskill3'];
+	var skillnum = index.slice(-1);
+	for(let i=0;i<5;i++)
+	{
+		if(i==skillnum-1)
+		{
+			document.getElementById(order[i]).checked = true;
+		}
+		else document.getElementById(order[i]).checked = false;
 	}
 }
 
@@ -342,7 +411,7 @@ function setData(str)
 {
 	try
 	{
-		enemyDataArr = JSON.parse(str);
+		enemyDataList = JSON.parse(str);
 		document.getElementById("error-message").textContent = "";
 	}
 	catch(e)
