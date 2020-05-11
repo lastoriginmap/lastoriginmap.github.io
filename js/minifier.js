@@ -2,7 +2,7 @@ window.onload = async function() {
 	document.getElementById("form-area").addEventListener("submit", async e=>{ 
 		e.preventDefault();
 		
-		setting = document.getElementById("js").checked ? '' : '.min';
+		setting = document.getElementById("json").checked ? '' : '.min';
 		
 		var type = checkType();
 		if(type=="area")
@@ -13,19 +13,24 @@ window.onload = async function() {
 		else if(type=="enemy")
 		{
 			var filetitle = "data-enemy";
-			var obj = await loadEnemyData();
+			var obj = await loadEnemyDataList();
+		}
+		else if(type=="skill")
+		{
+			var filetitle = "data-skill";
+			var obj = await loadSkillDataList();
 		}
 		else return alert("오류가 발생했습니다!");
 		
-		if(document.getElementById("js").checked)
+		if(document.getElementById("json").checked)
 		{
 			document.getElementById("input-result").value = JSON.stringify(obj);
-			saveFile(obj, filetitle+".min.js");
+			saveFile(obj, filetitle+".min.json");
 		}
 		else
 		{
 			document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
-			saveFile(obj, filetitle+".js");
+			saveFile(obj, filetitle+".json");
 		}
 	}, false);
 	
@@ -39,16 +44,20 @@ window.onload = async function() {
 		document.getElementById("label-input").textContent = "적";
 		document.getElementById("input-area").disabled = true;
 	}, false);
+	document.getElementById("skill").addEventListener("change", e => {
+		e.preventDefault();
+		document.getElementById("label-input").textContent = "스킬";
+		document.getElementById("input-area").disabled = true;
+	}, false);
 };
 
 function saveFile(data, fileName)
 {
-	var varname = fileName.includes('data-enemy') ? 'var enemyDataArr = ' : 'var areaData = ';
 	var a = document.getElementById("download-dummy");
-	if(fileName.includes(".min.js"))
-		var js = varname+JSON.stringify(data)+";";
+	if(fileName.includes(".min.json"))
+		var js = JSON.stringify(data);
 	else
-		var js = varname+JSON.stringify(data, null, 2)+";";
+		var js = JSON.stringify(data, null, 2);
 	var blob = new Blob([js], {type: "octet/stream"});
 	var url = window.URL.createObjectURL(blob);
 	a.href = url;
@@ -61,7 +70,9 @@ function checkType()
 {
 	var area = document.getElementById("area");
 	var enemy = document.getElementById("enemy");
+	var skill = document.getElementById("skill");
 	if(area.checked) return "area";
 	else if(enemy.checked) return "enemy";
+	else if(skill.checked) return "skill";
 	else return "error";
 }

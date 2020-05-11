@@ -39,7 +39,7 @@ window.onload = async function ()
 function drawEnemyPageNew(data, lvl, skilldata)
 {
 	var enemyName = data.name;
-	var HP = calcLvlValue(data.HP, lvl);
+	var HP = calcLvlValue({"base": data.HP.base, "increment": Math.floor(data.HP.increment)}, lvl);
 	var ATK = calcLvlValue(data.ATK, lvl);
 	var DEF = calcLvlValue(data.DEF, lvl);
 
