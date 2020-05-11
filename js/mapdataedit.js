@@ -228,14 +228,22 @@ function submitEnemyName()
 		{
 			optionviewer.removeChild(optionviewer.lastChild);
 		}
+
+		var table = document.createElement("table");
+
 		enemyindexData.forEach(index=> {
 			var enemydata = enemyData[index];
 			var HP = Math.floor(enemydata.HP.base+Math.floor(enemydata.HP.increment)*(LVL-1));
 			var ATK = Math.floor(enemydata.ATK.base+enemydata.ATK.increment*(LVL-1));
+			var DEF = Math.floor(enemydata.DEF.base+enemydata.DEF.increment*(LVL-1));
 			
-			var newOption = document.createElement("p");
-			newOption.textContent = `${index}: HP${HP} ATK${ATK}`
-			optionviewer.appendChild(newOption);
+			var newOption = table.insertRow();
+			newOption.insertCell(0).appendChild(document.createTextNode(index));
+			newOption.insertCell(1).appendChild(document.createTextNode(HP));
+			newOption.insertCell(2).appendChild(document.createTextNode(ATK));
+			newOption.insertCell(3).appendChild(document.createTextNode(DEF));
+			
+			optionviewer.appendChild(table);
 
 			newOption.param = index;
 			newOption.addEventListener("click", e=>{
@@ -465,10 +473,10 @@ function loadEnemyStat([stageTitle, wave, pos])
 	var enemydata = enemyData[waveData.enemylist[pos-1].index];
 	var LVL = waveData.enemylist[pos-1].level;
 	statstring+=`HP: ${Math.floor(enemydata.HP.base+Math.floor(enemydata.HP.increment)*(LVL-1))}<br>`;
-	statstring+=`ATK: ${Math.floor(enemydata.ATK.base+enemydata.ATK.increment*(LVL-1))}<br>`;
+	statstring+=`ATK: ${Math.floor(enemydata.ATK.base+parseFloat(enemydata.ATK.increment)*(LVL-1))}<br>`;
 	statstring+=`HIT: ${enemydata.HIT}%<br>`;
 	statstring+=`CRT: ${enemydata.CRT}%<br>`;
-	statstring+=`DEF: ${Math.floor(enemydata.DEF.base+enemydata.DEF.increment*(LVL-1))}<br>`;
+	statstring+=`DEF: ${Math.floor(enemydata.DEF.base+parseFloat(enemydata.DEF.increment)*(LVL-1))}<br>`;
 	statstring+=`DOD: ${enemydata.DOD}%<br>`;
 	statstring+=`AGI: ${enemydata.AGI}<br>`;
 	statstring+=`저항: ${enemydata.resist}<br>`;

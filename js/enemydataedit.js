@@ -56,7 +56,8 @@ window.onload = async function() {
 	
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
-		saveFile(enemyDataList, "data-enemy.js");
+		saveFile(enemyDataList, "data-enemy.json");
+		saveFile(skillDataList, "data-skill.json");
 	}, false);
 	
 	document.querySelectorAll("input[type='text']").forEach(el=>{
@@ -134,19 +135,19 @@ function submitEnemy()
 	enemyData.type = document.getElementById("input-type").value;
 	enemyData.info = document.getElementById("input-info").value.replace(/(?:\r\n|\r|\n)/g, '<br>');
 	enemyData.HP = {};
-	enemyData.HP.base = document.getElementById("input-HPbase").value;
-	enemyData.HP.increment = document.getElementById("input-HPincrement").value;
+	enemyData.HP.base = parseFloat(document.getElementById("input-HPbase").value);
+	enemyData.HP.increment = parseFloat(document.getElementById("input-HPincrement").value);
 	enemyData.ATK = {};
-	enemyData.ATK.base = document.getElementById("input-ATKbase").value;
-	enemyData.ATK.increment = document.getElementById("input-ATKincrement").value;
+	enemyData.ATK.base = parseFloat(document.getElementById("input-ATKbase").value);
+	enemyData.ATK.increment = parseFloat(document.getElementById("input-ATKincrement").value);
 	enemyData.DEF = {};
-	enemyData.DEF.base = document.getElementById("input-DEFbase").value;
-	enemyData.DEF.increment = document.getElementById("input-DEFincrement").value;
-	enemyData.AGI = document.getElementById("input-AGI").value;
-	enemyData.CRT = document.getElementById("input-CRT").value;
-	enemyData.HIT = document.getElementById("input-HIT").value;
-	enemyData.DOD = document.getElementById("input-DOD").value;
-	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseInt(el));
+	enemyData.DEF.base = parseFloat(document.getElementById("input-DEFbase").value);
+	enemyData.DEF.increment = parseFloat(document.getElementById("input-DEFincrement").value);
+	enemyData.AGI = parseFloat(document.getElementById("input-AGI").value);
+	enemyData.CRT = parseFloat(document.getElementById("input-CRT").value);
+	enemyData.HIT = parseFloat(document.getElementById("input-HIT").value);
+	enemyData.DOD = parseFloat(document.getElementById("input-DOD").value);
+	enemyData.resist = document.getElementById("input-resist").value.split(',').map(el=>parseFloat(el));
 	
 	addDatalist(document.getElementById("name-list"), Object.values(enemyDataList).map(data=>data.name));
 	submitIndex();
@@ -204,7 +205,7 @@ function submitSkill()
 	var skillData = findSkill();
 	if(!skillData)
 	{
-		skillData = addSkill();
+		skillData = addSkill(document.getElementById("input-skillindex").value);
 		alert("새로운 스킬을 추가합니다.");
 	}
 	else
@@ -313,7 +314,7 @@ function addDatalist(element, data)
 function saveFile(data, fileName)
 {
 	var a = document.getElementById("download-dummy");
-	var json = "var enemyDataList = "+JSON.stringify(data, null, 2)+";";
+	var json = JSON.stringify(data, null, 2);
 	var blob = new Blob([json], {type: "octet/stream"});
 	var url = window.URL.createObjectURL(blob);
 	a.href = url;
@@ -342,30 +343,23 @@ function findSkill()
 	else return false;
 }
 
-function addSkill()
+function addSkill(skillIndex)
 {
 	var order = ['askill1', 'askill2', 'pskill1', 'pskill2', 'pskill3'];
 	var enemyindex = document.getElementById("input-index").value;
 	var enemyData = enemyDataList[enemyindex];
-	var skillData = arguments.length>0 ? arguments[1] : {};
-	var skilltitle = 'title' in skillData ? skillData.title : getSelectedSkill();
-	var skillOrder = order.indexOf(skilltitle);
-	var skillIndex = arguments.length>0 ? arguments[0] : `${enemyindex}_Skill${skillOrder+1}`;
 	var arrindex = 0;
 
 	if(!('skills' in enemyData)) enemyData['skills'] = [];
 	for(let i=0;i<enemyData.skills.length;i++)
 	{
-		if(order.indexOf(skillDataList[enemyData.skills[i]].title)<skillOrder)
+		if(order.indexOf(skillDataList[enemyData.skills[i]].title)<order.indexOf(getSelectedSkill()))
 		{
 			arrindex=i+1;
 		}
 	}
-	console.log(enemyData.skills)
-	console.log(skilltitle)
-	console.log(arrindex)
 	enemyData.skills.splice(arrindex, 0, skillIndex);
-	skillDataList[skillIndex] = skillData;
+	if(!(skillIndex in skillDataList)) skillDataList[skillIndex] = {};
 
 	var returnobj = {};
 	returnobj[skillIndex] = skillDataList[skillIndex];
