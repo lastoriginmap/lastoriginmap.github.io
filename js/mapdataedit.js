@@ -342,8 +342,8 @@ function deleteEnemy()
 	}
 	
 	posarr.forEach(pos=>{
-		currentwave.enemylist[pos-1].index = index;
-		currentwave.enemylist[pos-1].level = LVL;	
+		currentwave.enemylist[pos-1].index = "";
+		currentwave.enemylist[pos-1].level = 0;	
 	})
 	
 	document.getElementById("input-result").value = JSON.stringify(currentwave, null, 2);
