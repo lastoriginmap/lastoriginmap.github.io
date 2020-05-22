@@ -4144,7 +4144,7 @@
   },
   "NightChick_RV": {
     "name": "나이트 칙 Type-S",
-    "img": "NightChick",
+    "img": "NightChick_RV",
     "type": "경장 공격기",
     "info": "<교전 기록 없음>",
     "HP": {
@@ -16223,7 +16223,7 @@
   "FABigChickS_tmp_1": {
     "name": "풀아머 빅 칙 실더",
     "img": "FABigChickS",
-    "type": "경장 보호기",
+    "type": "중장 보호기",
     "info": "<교전 기록 없음>",
     "HP": {
       "base": 1500,
@@ -16390,7 +16390,7 @@
   "FABigChickS_tmp_2": {
     "name": "풀아머 빅 칙 실더",
     "img": "FABigChickS",
-    "type": "경장 보호기",
+    "type": "중장 보호기",
     "info": "<교전 기록 없음>",
     "HP": {
       "base": 6000,
