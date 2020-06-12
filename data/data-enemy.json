@@ -1,4 +1,4 @@
-{
+﻿{
   "NightChickM_N": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
@@ -16188,6 +16188,7 @@
     ]
   },
   "Speaker_tmp_1": {
+    "uncertainstat": true,
     "name": "스피커",
     "img": "Speaker",
     "type": "경장 지원기",
@@ -16286,6 +16287,7 @@
     ]
   },
   "Nest_B07": {
+    "uncertainstat": true,
     "name": "네스트",
     "img": "Nest_B07",
     "type": "기동 공격기",
@@ -16521,6 +16523,7 @@
     ]
   },
   "EmperorChick_tmp_1": {
+    "uncertainstat": true,
     "name": "칙 엠페러",
     "img": "EmperorChick",
     "type": "중장 공격기",
@@ -16555,6 +16558,7 @@
     ]
   },
   "EmperorChick_tmp_2": {
+    "uncertainstat": true,
     "name": "칙 엠페러",
     "img": "EmperorChick",
     "type": "중장 공격기",
@@ -16589,6 +16593,7 @@
     ]
   },
   "LightningBomber_tmp_2": {
+    "uncertainstat": true,
     "name": "라이트닝 봄버",
     "img": "LightningBomber",
     "type": "기동 공격기",
@@ -16687,6 +16692,7 @@
     ]
   },
   "Executioner_tmp_1": {
+    "uncertainstat": true,
     "name": "익스큐셔너",
     "img": "Executioner_B06",
     "type": "기동 공격기",
