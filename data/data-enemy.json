@@ -1,4 +1,4 @@
-﻿{
+{
   "NightChickM_N": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
@@ -16724,6 +16724,111 @@
       "Executioner_tmp_1_Skill3",
       "Executioner_tmp_1_Skill4",
       "Executioner_tmp_1_Skill5"
+    ]
+  },
+  "NestGuardian_tmp_2": {
+    "uncertainstat": true,
+    "name": "네스트 가디언",
+    "img": "NestGuardian",
+    "type": "기동 보호기",
+    "info": "네스트에서 사출된 전투 기계로 네스트를 위협으로부터 지키는 게 목적",
+    "HP": {
+      "base": 70000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 68.625,
+      "increment": 9.375
+    },
+    "DEF": {
+      "base": 3231,
+      "increment": 0
+    },
+    "AGI": 4.32,
+    "CRT": 10,
+    "HIT": 200,
+    "DOD": 33,
+    "resist": [
+      10,
+      10,
+      10
+    ],
+    "skills": [
+      "NestGuardian_tmp_1_Skill1",
+      "NestGuardian_tmp_1_Skill2",
+      "NestGuardian_tmp_1_Skill3",
+      "NestGuardian_tmp_1_Skill4",
+      "NestGuardian_tmp_2_Skill5"
+    ]
+  },
+  "NestChaser_tmp_2": {
+    "uncertainstat": true,
+    "name": "네스트 체이서",
+    "img": "NestChaser",
+    "type": "기동 공격기",
+    "info": "네스트에서 사출된 전투 기계로 네스트를 위협하는 요소를 제거하는 게 목적",
+    "HP": {
+      "base": 60000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 1426,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 2415,
+      "increment": 0
+    },
+    "AGI": 4.4,
+    "CRT": 16,
+    "HIT": 260,
+    "DOD": 19,
+    "resist": [
+      10,
+      10,
+      10
+    ],
+    "skills": [
+      "NestChaser_tmp_1_Skill1",
+      "NestChaser_tmp_1_Skill2",
+      "NestChaser_tmp_1_Skill3",
+      "NestChaser_tmp_1_Skill4",
+      "NestChaser_tmp_2_Skill5"
+    ]
+  },
+  "Nest_B07_1": {
+    "uncertainstat": true,
+    "name": "네스트",
+    "img": "Nest_B07",
+    "type": "기동 공격기",
+    "info": "저게 날아다니는 항공모함이든 뭐든 나는 상관없어.<br>어쨌든 저 녀석은 날 무시한 대가를 치러야 할 거야.<br><br>-보고자 레오나",
+    "HP": {
+      "base": 200000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 2000,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 4000,
+      "increment": 0
+    },
+    "AGI": 4.6,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Nest_B07_1_Skill1",
+      "Nest_B07_1_Skill2",
+      "Nest_B07_1_Skill3",
+      "Nest_B07_1_Skill4",
+      "Nest_B07_1_Skill5"
     ]
   }
 }

@@ -2418,6 +2418,56 @@
           ]
         }
       ]
+    },
+    {
+      "title": "7-8Ex",
+      "grid": [
+        6,
+        2
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "NestGuardian_tmp_2",
+              "level": 90
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NestChaser_tmp_2",
+              "level": 90
+            },
+            {
+              "index": "NestChaser_tmp_2",
+              "level": 90
+            },
+            {
+              "index": "Nest_B07_1",
+              "level": 90
+            },
+            {
+              "index": "NestGuardian_tmp_2",
+              "level": 90
+            },
+            {
+              "index": "NestGuardian_tmp_2",
+              "level": 90
+            },
+            {
+              "index": "NestGuardian_tmp_2",
+              "level": 90
+            },
+            {
+              "index": "NestChaser_tmp_2",
+              "level": 90
+            }
+          ]
+        }
+      ]
     }
   ]
 }
