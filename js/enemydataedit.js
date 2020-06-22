@@ -97,6 +97,7 @@ function submitIndex()
 	if(!enemyData) imgDiv.removeChild(imgElement);
 	
 	var getEnemyValue = makeGetter(enemyData);
+	document.getElementById("uncertain-stat").checked = "uncertainstat" in enemyData;
 	document.getElementById("input-name").value = getEnemyValue("name");
 	document.getElementById("input-img").value = getEnemyValue("img");
 	document.getElementById("input-type").value = getEnemyValue("type");
@@ -130,6 +131,16 @@ function submitEnemy()
 	{
 		if(!confirm("이미 있는 철충입니다. 덮어씌우겠습니까?")) return 0;
 	}
+
+	if(document.getElementById("uncertain-stat").checked)
+	{
+		enemyData.uncertainstat = true;
+	}
+	else
+	{
+		delete enemyData.uncertainstat;
+	}
+
 	enemyData.name = document.getElementById("input-name").value;
 	enemyData.img = document.getElementById("input-img").value;
 	enemyData.type = document.getElementById("input-type").value;
