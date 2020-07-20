@@ -1,4 +1,4 @@
-{
+﻿{
   "NightChickM_N": {
     "name": "나이트 칙 런처",
     "img": "NightChickM",
@@ -16829,6 +16829,174 @@
       "Nest_B07_1_Skill3",
       "Nest_B07_1_Skill4",
       "Nest_B07_1_Skill5"
+    ]
+  },
+  "PhalangitesH_1": {
+    "uncertainstat": true,
+    "name": "팔랑스H",
+    "img": "PhalangitesH",
+    "type": "경장 보호기",
+    "info": "상황에 따라 공격이나 방어 능력이 상승하는 특이한 철충이네. 음... 아마 어깨에 있는 장치에서 에너지를 전환해 주는 게 아닐까 싶은데... 안되겠다! 오빠? 나 저거 분해해보고 싶어졌어! 얼른 잡아서 나한테 보내줘!<br><br><br>- 닥터",
+    "HP": {
+      "base": 1438,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 254,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 162,
+      "increment": 0
+    },
+    "AGI": 3.65,
+    "CRT": 10,
+    "HIT": 220,
+    "DOD": 10,
+    "resist": [
+      30,
+      30,
+      30
+    ],
+    "skills": [
+      "PhalangitesH_1_Skill1",
+      "PhalangitesH_1_Skill2",
+      "PhalangitesH_1_Skill3",
+      "PhalangitesH_1_Skill4"
+    ]
+  },
+  "NightChickQMSK_1": {
+    "uncertainstat": true,
+    "name": "칙 쿼터마스터SK",
+    "img": "NightChickQMSK",
+    "type": "경장 지원기",
+    "info": "새로운 적 발견. 적 분석 시작.<br>분석 중..................<br>분석 결과.<br>공격 저지 능력. 대 경장 기능 갖춤. 아군 보병들 보호 필요. 최우선 타겟으로 파괴하겠음.<br><br><br>- 기간테스 보고함",
+    "HP": {
+      "base": 1832,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 158,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 136,
+      "increment": 0
+    },
+    "AGI": 3.75,
+    "CRT": 5,
+    "HIT": 200,
+    "DOD": 30,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickQMSK_1_Skill1",
+      "NightChickQMSK_1_Skill2",
+      "NightChickQMSK_1_Skill3",
+      "NightChickQMSK_1_Skill4",
+      "NightChickQMSK_1_Skill5"
+    ]
+  },
+  "NightChickQMSK_2": {
+    "name": "칙 쿼터마스터SK",
+    "img": "NightChickQMSK",
+    "type": "경장 지원기",
+    "info": "새로운 적 발견. 적 분석 시작.<br>분석 중..................<br>분석 결과.<br>공격 저지 능력. 대 경장 기능 갖춤. 아군 보병들 보호 필요. 최우선 타겟으로 파괴하겠음.<br><br><br>- 기간테스 보고함",
+    "HP": {
+      "base": 2396,
+      "increment": 196
+    },
+    "ATK": {
+      "base": 89,
+      "increment": 7.4
+    },
+    "DEF": {
+      "base": 113,
+      "increment": 5.1
+    },
+    "AGI": 3.9,
+    "CRT": 5,
+    "HIT": 290,
+    "DOD": 30,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickQMSK_1_Skill1",
+      "NightChickQMSK_1_Skill2",
+      "NightChickQMSK_1_Skill3",
+      "NightChickQMSK_1_Skill4",
+      "NightChickQMSK_1_Skill5"
+    ]
+  },
+  "LegionSP_1": {
+    "name": "레기온 스나이퍼",
+    "img": "LegionSP",
+    "type": "경장 공격기",
+    "info": "적의 빈틈을 노리는 용의주도한 개체입니다. 대물 저격총을 가지고 있으니 중장갑 전투원을 운용할 때는 주의해주세요.<br><br><br>- 팬텀",
+    "HP": {
+      "base": 461,
+      "increment": 120
+    },
+    "ATK": {
+      "base": 98,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 59,
+      "increment": 3
+    },
+    "AGI": 3.9,
+    "CRT": 10,
+    "HIT": 235,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "LegionSP_N_Skill1",
+      "LegionSP_N_Skill2",
+      "LegionSP_N_Skill3"
+    ]
+  },
+  "PhalangitesH_2": {
+    "name": "팔랑스H",
+    "img": "PhalangitesH",
+    "type": "경장 보호기",
+    "info": "상황에 따라 공격이나 방어 능력이 상승하는 특이한 철충이네. 음... 아마 어깨에 있는 장치에서 에너지를 전환해 주는 게 아닐까 싶은데... 안되겠다! 오빠? 나 저거 분해해보고 싶어졌어! 얼른 잡아서 나한테 보내줘!<br><br><br>- 닥터",
+    "HP": {
+      "base": 2176,
+      "increment": 157
+    },
+    "ATK": {
+      "base": 255,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 648,
+      "increment": 5.9
+    },
+    "AGI": 3.75,
+    "CRT": 10,
+    "HIT": 280,
+    "DOD": 10,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "PhalangitesH_1_Skill1",
+      "PhalangitesH_1_Skill2",
+      "PhalangitesH_1_Skill3",
+      "PhalangitesH_1_Skill4"
     ]
   }
 }
