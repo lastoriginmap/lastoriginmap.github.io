@@ -43,7 +43,7 @@ window.onload = async function() {
 	}, false);
 	document.getElementById("download").addEventListener("click", e=>{
 		e.preventDefault();
-		saveFile(obj, "data-area"+document.getElementById("input-area").value+".json");
+		saveFile(obj, "data-area"+document.getElementById("input-areaindex").value+".json");
 	}, false);
 };
 
@@ -51,30 +51,36 @@ window.onload = async function() {
 async function submitArea(overide=false)
 {
 	//area 입력값 읽기
-	var area = document.getElementById("input-area").value;
+	var areaindex = document.getElementById("input-areaindex").value;
+	var areatitle = document.getElementById("input-areatitle").value;
 	
 	//예외처리
-	if(!area) { alert("지역을 입력하세요!"); throw "No area";}
-	if(!overide&&area==obj.title) { alert("현재와 같은 지역입니다!"); throw "Same area";}
+	if(!areaindex) { alert("지역을 입력하세요!"); throw "No area";}
+	if(!overide&&areaindex==obj.title) { alert("현재와 같은 지역입니다!"); throw "Same area";}
 	
 	//area 입력값 표시
-	document.getElementById("label-stage").textContent = "스테이지: "+area+"-";
-	document.getElementById("label-prevstage").textContent = "이전 스테이지: "+area+"-";
+	document.getElementById("label-stage").textContent = "스테이지: "+areaindex+"-";
+	document.getElementById("label-prevstage").textContent = "이전 스테이지: "+areaindex+"-";
 	
 	//데이터 로드 시도,실패시 새로운 데이터 생성
 	try
 	{
 		if(!overide)
 		{
-			obj = await loadAreaData(area);
+			obj = await loadAreaData(areaindex);
+			if(!areatitle) { document.getElementById("input-areatitle").value = obj.title;}
+			else { obj.title = areatitle;}
+			console.log("Load area"+areaindex);
 		}
 	}
 	catch(e)
 	{
 		obj={};
-		obj["title"] = area;
+		obj["title"] = areatitle;
 		obj["areatype"] = "grid";
 		obj["gridsize"] = [8,3];
+
+		console.log("Submit area"+areaindex);
 	}
 	
 	//하위 입력칸 초기화, 스테이지 입력칸 활성화
@@ -84,7 +90,6 @@ async function submitArea(overide=false)
 	enableStageInput();
 	
 	//로그 기록, 데이터 결과 표시
-	console.log("Submit area"+area);
 	document.getElementById("input-result").value = JSON.stringify(obj, null, 2);
 }
 
@@ -92,8 +97,8 @@ async function submitArea(overide=false)
 function submitStage()
 {
 	//area 및 stage 입력값 읽기 및 예외처리
-	var area = obj.title;
-	if(!area) { alert("지역을 먼저 입력하세요!"); throw "No area";}
+	var areaindex = document.getElementById("input-areaindex").value;
+	if(!areaindex) { alert("지역을 먼저 입력하세요!"); throw "No area";}
 	var stage = document.getElementById("input-stage").value;
 	if(!stage) { alert("스테이지를 입력하세요!"); throw "No stage";}
 	
@@ -103,8 +108,8 @@ function submitStage()
 	var prevstage = document.getElementById("input-prevstage").value;
 	
 	//스테이지 이름 생성
-	var title = area+"-"+stage;
-	var prevtitle = area+"-"+prevstage;
+	var title = areaindex+"-"+stage;
+	var prevtitle = areaindex+"-"+prevstage;
 	
 	//스테이지 타입(Main, B, Ex) 읽기
 	var type = "";
@@ -360,7 +365,7 @@ function setObj(str)
 		obj = JSON.parse(str);
 		document.getElementById("error-message").textContent = "";
 		
-		document.getElementById("input-area").value = obj.title.slice(4);
+		document.getElementById("input-areatitle").value = obj.title.slice(-1);
 		var stage = document.getElementById("input-stage").value;
 		var prevstage = document.getElementById("input-prevstage").value;
 		var type = "";
@@ -444,10 +449,17 @@ function drawStageMap(param)
 			
 			if(index!=="" && level!==0)
 			{
-				var name=enemyData[index].name;
-				var img=enemyData[index].img;
-				//해당 위치에 적 이름과 사진, 링크 추가
-				$('.current-wave-map > div:nth-of-type('+pos+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+img+'.png\" /><p>'+name+'</p></div>');
+				if(index in enemyData)
+				{
+					var name=enemyData[index].name;
+					var img=enemyData[index].img;
+					//해당 위치에 적 이름과 사진, 링크 추가
+					$('.current-wave-map > div:nth-of-type('+pos+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+img+'.png\" /><p>'+name+'</p></div>');
+				}
+				else
+				{
+					$('.current-wave-map > div:nth-of-type('+pos+')').html('<div class="cell cell'+pos+'"><p>'+index+'</p><p>Lv. '+level+'</p></div>');
+				}
 			}
 			var param2 = param.concat(i+1);
 			$('.cell'+pos).on('click', {param:param2}, e => { loadEnemyStat(e.data.param); });
