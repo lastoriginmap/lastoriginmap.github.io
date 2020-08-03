@@ -34,6 +34,11 @@ ul {
 	align-items: center;
 }
 
+.current-wave-map .cell-selected {
+	background: rgba(0, 0, 255, 0.5);
+	z-index: 9999;
+}
+
 .current-wave-map div img {
 	width: 50%;
 }

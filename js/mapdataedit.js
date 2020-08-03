@@ -18,6 +18,14 @@ window.onload = async function() {
 		el.disabled = true;
 	});
 	
+	document.getElementById("reload-data").addEventListener("click", async  e=> {
+		e.preventDefault();
+		//reloadData();
+		enemyData = await loadEnemyDataList();
+		var nameList = document.getElementById("name-list");
+		var enemyNameData = new Set(Object.values(enemyData).map(data=>data.name));
+		addDatalist(nameList, enemyNameData);
+	}, false);
 	formArea.addEventListener("submit", async e=>{ e.preventDefault(); await submitArea(); }, false);
 	formStage.addEventListener("submit", e=>{ e.preventDefault(); submitStage(); }, false);
 	formWave.addEventListener("submit", async e=>{ e.preventDefault(); await submitWave(); }, false);
@@ -76,7 +84,12 @@ async function submitArea(overide=false)
 	catch(e)
 	{
 		obj={};
-		obj["title"] = areatitle;
+		if(!areatitle)
+		{
+			document.getElementById("input-areatitle").value = areaindex;
+			obj["title"] = areaindex;
+		}
+		else obj["title"] = areatitle;
 		obj["areatype"] = "grid";
 		obj["gridsize"] = [8,3];
 
@@ -106,7 +119,7 @@ function submitStage()
 	var name = document.getElementById("input-stagename").value;
 	var grid = ["x", "y"].map(id => parseInt(document.getElementById("input-stagegrid"+id).value));
 	var prevstage = document.getElementById("input-prevstage").value;
-	
+
 	//스테이지 이름 생성
 	var title = areaindex+"-"+stage;
 	var prevtitle = areaindex+"-"+prevstage;
@@ -122,22 +135,7 @@ function submitStage()
 	});
 	if(type!="Main") { title += type }
 	if(prevtype!="Main") { prevtitle += prevtype }
-	
-	//그리드가 입력되지 않았을 시 자동 생성
-	if(grid.includes(NaN))
-	{
-		grid[0] = stage-1;
-		if(type=="B") grid[1]=0;
-		else if(type=="Main") grid[1]=1;
-		else if(type=="Ex") grid[1]=2;
-	}
-
-	//스테이지 및 그리드 입력값 표시
-	Array.from(document.getElementsByClassName("current-stage")).forEach(el=>{
-		el.textContent = "현재 스테이지: "+title;
-	});
-	document.getElementById("label-stagegrid").textContent="그리드(x,y): ("+grid[0]+","+grid[1]+")";
-	
+		
 	//스테이지 프로퍼티가 없으먼 생성
 	if(!obj.stage) { obj.stage=[]; }
 	
@@ -148,11 +146,35 @@ function submitStage()
 		obj.stage[index]["title"]=title;
 	}
 
-	//입력값 적용
 	var currentstage = obj.stage.find(el=>el.title==title);
+
+	//그리드가 입력되지 않았을 시 자동 생성
+	if(grid.includes(NaN))
+	{
+		if(	"grid" in currentstage)
+		{
+			grid = currentstage.grid;
+		}
+		else
+		{
+			grid[0] = stage-1;
+			if(type=="B") grid[1]=0;
+			else if(type=="Main") grid[1]=1;
+			else if(type=="Ex") grid[1]=2;
+		}
+	}
+
+	//스테이지 및 그리드 입력값 표시
+	Array.from(document.getElementsByClassName("current-stage")).forEach(el=>{
+		el.textContent = "현재 스테이지: "+title;
+	});
+	document.getElementById("label-stagegrid").textContent="그리드(x,y): ("+grid[0]+","+grid[1]+")";
+
+	//입력값 적용
 	if(name) currentstage["name"]=name;
 	if(grid) currentstage["grid"]=grid;
 	if(prevstage) currentstage["prevstage"]=prevtitle;
+	if("name" in currentstage) document.getElementById("input-stagename").value = currentstage.name;
 	
 	//그리드 및 하위 입력칸 초기화, 웨이브 입력칸 활성화
 	document.getElementById("input-stagegridx").value=null;
@@ -430,15 +452,19 @@ function saveFile(data, fileName)
 function drawStageMap(param)
 {
 	//지도 초기화
-	$('.current-wave-map > div').html('');
+	resetCell();
 	
 	//매개변수가 없을 경우 종료
-	if(!param) return 0;
+	if(!param)
+	{
+		return 0;
+	}
 	
 	var stageTitle = param[0];
 	var wave = param[1];
 
 	var waveData = obj.stage.find(el=>el.title==stageTitle).wave[wave-1];
+	console.log(waveData.enemylist)
 	if(waveData.enemylist)
 	{
 		for(let i=0;i<waveData.enemylist.length;i++)
@@ -454,32 +480,55 @@ function drawStageMap(param)
 					var name=enemyData[index].name;
 					var img=enemyData[index].img;
 					//해당 위치에 적 이름과 사진, 링크 추가
-					$('.current-wave-map > div:nth-of-type('+pos+')').html('<div class="cell cell'+pos+'"><img src=\"images/profile/'+img+'.png\" /><p>'+name+'</p></div>');
+					$('.current-wave-map > div:nth-of-type('+pos+')').html('<img src=\"images/profile/'+img+'.png\" /><p>'+name+'</p>');
 				}
 				else
 				{
-					$('.current-wave-map > div:nth-of-type('+pos+')').html('<div class="cell cell'+pos+'"><p>'+index+'</p><p>Lv. '+level+'</p></div>');
+					$('.current-wave-map > div:nth-of-type('+pos+')').html('<p>'+index+'</p><p>Lv. '+level+'</p>');
 				}
 			}
 			var param2 = param.concat(i+1);
-			$('.cell'+pos).on('click', {param:param2}, e => { loadEnemyStat(e.data.param); });
+			$('.cell'+pos).off('click').on('click', {param:param2}, e => { selectCell(e.currentTarget, e.data.param[2]); loadEnemyStat(e.data.param); });
 		}
 	}
+	else
+	{
+		for(let i=0;i<9;i++)
+		{
+			var pos = i+1;
+			$('.cell'+pos).off('click').on('click', {param:pos}, e => { selectCell(e.currentTarget, e.data.param); });
+		}
+	}
+}
+
+function selectCell(target, pos)
+{
+	target.classList.toggle('cell-selected');
+	document.getElementById("pos"+pos).checked ^= true;
+}
+
+function resetCell()
+{
+	Array.from(document.getElementsByClassName('cell')).forEach(el=> {el.innerHTML=''; el.classList.remove('cell-selected');});
 }
 
 //지도에서 적 선택시 스탯 채우기
 function loadEnemyStat([stageTitle, wave, pos])
 {
 	var waveData = obj.stage.find(el=>el.title==stageTitle).wave[wave-1];
+
+	if(waveData.enemylist[pos-1].index=="") return 0;
 	
 	document.getElementById("input-name").value = enemyData[waveData.enemylist[pos-1].index].name;
 	document.getElementById("input-index").value = waveData.enemylist[pos-1].index;
 	document.getElementById("input-LVL").value = waveData.enemylist[pos-1].level;
 
+	/*
 	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
 		el.checked = false;
 	});
 	document.getElementById("pos"+pos).checked=true;
+	*/
 
 	var statstring="";
 	var enemydata = enemyData[waveData.enemylist[pos-1].index];
