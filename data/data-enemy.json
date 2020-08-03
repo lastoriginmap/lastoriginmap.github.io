@@ -16187,7 +16187,7 @@
       "LegionMk2_N_Skill4"
     ]
   },
-  "Speaker_tmp_1": {
+  "Speaker_A7_1": {
     "uncertainstat": true,
     "name": "스피커",
     "img": "Speaker",
@@ -16215,13 +16215,13 @@
       25
     ],
     "skills": [
-      "Speaker_tmp_1_Skill1",
-      "Speaker_tmp_1_Skill2",
-      "Speaker_tmp_1_Skill3",
-      "Speaker_tmp_1_Skill4"
+      "Speaker_A7_1_Skill1",
+      "Speaker_A7_1_Skill2",
+      "Speaker_A7_1_Skill3",
+      "Speaker_A7_1_Skill4"
     ]
   },
-  "FABigChickS_tmp_1": {
+  "FABigChickS_A7_1": {
     "name": "풀아머 빅 칙 실더",
     "img": "FABigChickS",
     "type": "중장 보호기",
@@ -16248,13 +16248,13 @@
       25
     ],
     "skills": [
-      "FABigChickS_tmp_1_Skill1",
-      "FABigChickS_tmp_1_Skill2",
-      "FABigChickS_tmp_1_Skill3",
-      "FABigChickS_tmp_1_Skill4"
+      "FABigChickS_A7_1_Skill1",
+      "FABigChickS_A7_1_Skill2",
+      "FABigChickS_A7_1_Skill3",
+      "FABigChickS_A7_1_Skill4"
     ]
   },
-  "LightningBomber_tmp_1": {
+  "LightningBomber_A7_1": {
     "name": "라이트닝 봄버",
     "img": "LightningBomber",
     "type": "기동 공격기",
@@ -16281,9 +16281,9 @@
       99
     ],
     "skills": [
-      "LightningBomber_tmp_1_Skill1",
-      "LightningBomber_tmp_1_Skill2",
-      "LightningBomber_tmp_1_Skill3"
+      "LightningBomber_A7_1_Skill1",
+      "LightningBomber_A7_1_Skill2",
+      "LightningBomber_A7_1_Skill3"
     ]
   },
   "Nest_B07": {
@@ -16321,7 +16321,7 @@
       "Nest_B07_Skill5"
     ]
   },
-  "NestChaser_tmp_1": {
+  "NestChaser_A7_1": {
     "name": "네스트 체이서",
     "img": "NestChaser",
     "type": "기동 공격기",
@@ -16348,14 +16348,14 @@
       10
     ],
     "skills": [
-      "NestChaser_tmp_1_Skill1",
-      "NestChaser_tmp_1_Skill2",
-      "NestChaser_tmp_1_Skill3",
-      "NestChaser_tmp_1_Skill4",
-      "NestChaser_tmp_1_Skill5"
+      "NestChaser_A7_1_Skill1",
+      "NestChaser_A7_1_Skill2",
+      "NestChaser_A7_1_Skill3",
+      "NestChaser_A7_1_Skill4",
+      "NestChaser_A7_1_Skill5"
     ]
   },
-  "NestGuardian_tmp_1": {
+  "NestGuardian_A7_1": {
     "name": "네스트 가디언",
     "img": "NestGuardian",
     "type": "기동 보호기",
@@ -16382,14 +16382,14 @@
       10
     ],
     "skills": [
-      "NestGuardian_tmp_1_Skill1",
-      "NestGuardian_tmp_1_Skill2",
-      "NestGuardian_tmp_1_Skill3",
-      "NestGuardian_tmp_1_Skill4",
-      "NestGuardian_tmp_1_Skill5"
+      "NestGuardian_A7_1_Skill1",
+      "NestGuardian_A7_1_Skill2",
+      "NestGuardian_A7_1_Skill3",
+      "NestGuardian_A7_1_Skill4",
+      "NestGuardian_A7_1_Skill5"
     ]
   },
-  "FABigChickS_tmp_2": {
+  "FABigChickS_A7_2": {
     "name": "풀아머 빅 칙 실더",
     "img": "FABigChickS",
     "type": "중장 보호기",
@@ -16416,13 +16416,13 @@
       25
     ],
     "skills": [
-      "FABigChickS_tmp_1_Skill1",
-      "FABigChickS_tmp_1_Skill2",
-      "FABigChickS_tmp_1_Skill3",
-      "FABigChickS_tmp_1_Skill4"
+      "FABigChickS_A7_1_Skill1",
+      "FABigChickS_A7_1_Skill2",
+      "FABigChickS_A7_1_Skill3",
+      "FABigChickS_A7_1_Skill4"
     ]
   },
-  "Speaker_tmp_2": {
+  "Speaker_A7_2": {
     "name": "스피커",
     "img": "Speaker",
     "type": "경장 지원기",
@@ -16449,13 +16449,13 @@
       25
     ],
     "skills": [
-      "Speaker_tmp_1_Skill1",
-      "Speaker_tmp_1_Skill2",
-      "Speaker_tmp_1_Skill3",
-      "Speaker_tmp_1_Skill4"
+      "Speaker_A7_1_Skill1",
+      "Speaker_A7_1_Skill2",
+      "Speaker_A7_1_Skill3",
+      "Speaker_A7_1_Skill4"
     ]
   },
-  "Testudo_tmp_1": {
+  "Testudo_A7_1": {
     "name": "테스투도",
     "img": "Testudo",
     "type": "경장 보호기",
@@ -16488,7 +16488,7 @@
       "Testudo_N_Skill4"
     ]
   },
-  "EmperorChickSpCH_tmp_1": {
+  "EmperorChickSpCH_A7_1": {
     "name": "칙 커맨더",
     "img": "EmperorChickSpCH",
     "type": "중장 공격기",
@@ -16522,7 +16522,7 @@
       "EmperorChickSpCH_N_Skill5"
     ]
   },
-  "EmperorChick_tmp_1": {
+  "EmperorChick_A7_1": {
     "uncertainstat": true,
     "name": "칙 엠페러",
     "img": "EmperorChick",
@@ -16557,7 +16557,7 @@
       "EmperorChick_N_Skill5"
     ]
   },
-  "EmperorChick_tmp_2": {
+  "EmperorChick_A7_2": {
     "uncertainstat": true,
     "name": "칙 엠페러",
     "img": "EmperorChick",
@@ -16592,7 +16592,7 @@
       "EmperorChick_N_Skill5"
     ]
   },
-  "LightningBomber_tmp_2": {
+  "LightningBomber_A7_2": {
     "uncertainstat": true,
     "name": "라이트닝 봄버",
     "img": "LightningBomber",
@@ -16620,12 +16620,12 @@
       99
     ],
     "skills": [
-      "LightningBomber_tmp_1_Skill1",
-      "LightningBomber_tmp_1_Skill2",
-      "LightningBomber_tmp_1_Skill3"
+      "LightningBomber_A7_1_Skill1",
+      "LightningBomber_A7_1_Skill2",
+      "LightningBomber_A7_1_Skill3"
     ]
   },
-  "LightningBomber_tmp_3": {
+  "LightningBomber_A7_3": {
     "name": "라이트닝 봄버",
     "img": "LightningBomber",
     "type": "기동 공격기",
@@ -16652,12 +16652,12 @@
       99
     ],
     "skills": [
-      "LightningBomber_tmp_1_Skill1",
-      "LightningBomber_tmp_1_Skill2",
-      "LightningBomber_tmp_1_Skill3"
+      "LightningBomber_A7_1_Skill1",
+      "LightningBomber_A7_1_Skill2",
+      "LightningBomber_A7_1_Skill3"
     ]
   },
-  "Destroyer_tmp_1": {
+  "Destroyer_A7_1": {
     "name": "디스트로이어",
     "img": "Destroyer",
     "type": "중장 공격기",
@@ -16684,14 +16684,14 @@
       95
     ],
     "skills": [
-      "Destroyer_tmp_1_Skill1",
-      "Destroyer_tmp_1_Skill2",
-      "Destroyer_tmp_1_Skill3",
-      "Destroyer_tmp_1_Skill4",
-      "Destroyer_tmp_1_Skill5"
+      "Destroyer_A7_1_Skill1",
+      "Destroyer_A7_1_Skill2",
+      "Destroyer_A7_1_Skill3",
+      "Destroyer_A7_1_Skill4",
+      "Destroyer_A7_1_Skill5"
     ]
   },
-  "Executioner_tmp_1": {
+  "Executioner_A6_1": {
     "uncertainstat": true,
     "name": "익스큐셔너",
     "img": "Executioner_B06",
@@ -16719,14 +16719,14 @@
       0
     ],
     "skills": [
-      "Executioner_tmp_1_Skill1",
-      "Executioner_tmp_1_Skill2",
-      "Executioner_tmp_1_Skill3",
-      "Executioner_tmp_1_Skill4",
-      "Executioner_tmp_1_Skill5"
+      "Executioner_A6_1_Skill1",
+      "Executioner_A6_1_Skill2",
+      "Executioner_A6_1_Skill3",
+      "Executioner_A6_1_Skill4",
+      "Executioner_A6_1_Skill5"
     ]
   },
-  "NestGuardian_tmp_2": {
+  "NestGuardian_A7_2": {
     "uncertainstat": true,
     "name": "네스트 가디언",
     "img": "NestGuardian",
@@ -16754,14 +16754,14 @@
       10
     ],
     "skills": [
-      "NestGuardian_tmp_1_Skill1",
-      "NestGuardian_tmp_1_Skill2",
-      "NestGuardian_tmp_1_Skill3",
-      "NestGuardian_tmp_1_Skill4",
-      "NestGuardian_tmp_2_Skill5"
+      "NestGuardian_A7_1_Skill1",
+      "NestGuardian_A7_1_Skill2",
+      "NestGuardian_A7_1_Skill3",
+      "NestGuardian_A7_1_Skill4",
+      "NestGuardian_A7_2_Skill5"
     ]
   },
-  "NestChaser_tmp_2": {
+  "NestChaser_A7_2": {
     "uncertainstat": true,
     "name": "네스트 체이서",
     "img": "NestChaser",
@@ -16789,14 +16789,14 @@
       10
     ],
     "skills": [
-      "NestChaser_tmp_1_Skill1",
-      "NestChaser_tmp_1_Skill2",
-      "NestChaser_tmp_1_Skill3",
-      "NestChaser_tmp_1_Skill4",
-      "NestChaser_tmp_2_Skill5"
+      "NestChaser_A7_1_Skill1",
+      "NestChaser_A7_1_Skill2",
+      "NestChaser_A7_1_Skill3",
+      "NestChaser_A7_1_Skill4",
+      "NestChaser_A7_2_Skill5"
     ]
   },
-  "Nest_B07_1": {
+  "Nest_A7_1": {
     "uncertainstat": true,
     "name": "네스트",
     "img": "Nest_B07",
@@ -16824,14 +16824,14 @@
       25
     ],
     "skills": [
-      "Nest_B07_1_Skill1",
-      "Nest_B07_1_Skill2",
-      "Nest_B07_1_Skill3",
-      "Nest_B07_1_Skill4",
-      "Nest_B07_1_Skill5"
+      "Nest_A7_1_Skill1",
+      "Nest_A7_1_Skill2",
+      "Nest_A7_1_Skill3",
+      "Nest_A7_1_Skill4",
+      "Nest_A7_1_Skill5"
     ]
   },
-  "PhalangitesH_1": {
+  "PhalangitesH_Ev71_1": {
     "uncertainstat": true,
     "name": "팔랑스H",
     "img": "PhalangitesH",
@@ -16859,13 +16859,13 @@
       30
     ],
     "skills": [
-      "PhalangitesH_1_Skill1",
-      "PhalangitesH_1_Skill2",
-      "PhalangitesH_1_Skill3",
-      "PhalangitesH_1_Skill4"
+      "PhalangitesH_Ev71_1_Skill1",
+      "PhalangitesH_Ev71_1_Skill2",
+      "PhalangitesH_Ev71_1_Skill3",
+      "PhalangitesH_Ev71_1_Skill4"
     ]
   },
-  "NightChickQMSK_1": {
+  "NightChickQMSK_Ev71_1": {
     "uncertainstat": true,
     "name": "칙 쿼터마스터SK",
     "img": "NightChickQMSK",
@@ -16893,14 +16893,14 @@
       25
     ],
     "skills": [
-      "NightChickQMSK_1_Skill1",
-      "NightChickQMSK_1_Skill2",
-      "NightChickQMSK_1_Skill3",
-      "NightChickQMSK_1_Skill4",
-      "NightChickQMSK_1_Skill5"
+      "NightChickQMSK_Ev71_1_Skill1",
+      "NightChickQMSK_Ev71_1_Skill2",
+      "NightChickQMSK_Ev71_1_Skill3",
+      "NightChickQMSK_Ev71_1_Skill4",
+      "NightChickQMSK_Ev71_1_Skill5"
     ]
   },
-  "NightChickQMSK_2": {
+  "NightChickQMSK_Ev71_2": {
     "name": "칙 쿼터마스터SK",
     "img": "NightChickQMSK",
     "type": "경장 지원기",
@@ -16927,14 +16927,14 @@
       25
     ],
     "skills": [
-      "NightChickQMSK_1_Skill1",
-      "NightChickQMSK_1_Skill2",
-      "NightChickQMSK_1_Skill3",
-      "NightChickQMSK_1_Skill4",
-      "NightChickQMSK_1_Skill5"
+      "NightChickQMSK_Ev71_1_Skill1",
+      "NightChickQMSK_Ev71_1_Skill2",
+      "NightChickQMSK_Ev71_1_Skill3",
+      "NightChickQMSK_Ev71_1_Skill4",
+      "NightChickQMSK_Ev71_1_Skill5"
     ]
   },
-  "LegionSP_1": {
+  "LegionSP_Ev71_1": {
     "name": "레기온 스나이퍼",
     "img": "LegionSP",
     "type": "경장 공격기",
@@ -16966,7 +16966,7 @@
       "LegionSP_N_Skill3"
     ]
   },
-  "PhalangitesH_2": {
+  "PhalangitesH_Ev71_2": {
     "name": "팔랑스H",
     "img": "PhalangitesH",
     "type": "경장 보호기",
@@ -16993,10 +16993,418 @@
       35
     ],
     "skills": [
-      "PhalangitesH_1_Skill1",
-      "PhalangitesH_1_Skill2",
-      "PhalangitesH_1_Skill3",
-      "PhalangitesH_1_Skill4"
+      "PhalangitesH_Ev71_1_Skill1",
+      "PhalangitesH_Ev71_1_Skill2",
+      "PhalangitesH_Ev71_1_Skill3",
+      "PhalangitesH_Ev71_1_Skill4"
+    ]
+  },
+  "FABigChickEX_Ev71_1": {
+    "name": "FA 빅 칙 II",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 2250,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 105,
+      "increment": 12.25
+    },
+    "DEF": {
+      "base": 120,
+      "increment": 5.25
+    },
+    "AGI": 3.3,
+    "CRT": 10,
+    "HIT": 120,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChickEX_N_Skill1",
+      "FABigChickEX_N_Skill2",
+      "FABigChickEX_N_Skill3",
+      "FABigChickEX_N_Skill4"
+    ]
+  },
+  "RobertArm_Ev72_1": {
+    "uncertainstat": true,
+    "name": "로버트 암",
+    "img": "RobertArm",
+    "type": "중장 공격기",
+    "info": "이건 알기 쉽군요. 저와 로버트 같은 A.I.에게 흔히 장착되던 다용도 팔입니다! 그래도 손상에 대비한 개조가 되어있는 모양이니, 수리되기 전에 빠르게 파괴해버리시지요!<br><br><br>- Mr 알프레드",
+    "HP": {
+      "base": 4000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 245,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 265,
+      "increment": 0
+    },
+    "AGI": 3.6,
+    "CRT": 40,
+    "HIT": 170,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "RobertArm_Ev72_1_Skill1",
+      "RobertArm_Ev72_1_Skill2",
+      "RobertArm_Ev72_1_Skill3",
+      "RobertArm_Ev72_1_Skill4"
+    ]
+  },
+  "Robert_Ev72_1": {
+    "uncertainstat": true,
+    "name": "로버트",
+    "img": "Robert",
+    "type": "중장 지원기",
+    "info": "세상에, 저런 완벽한 형태라니...! 거기다 순식간에 부하 AGS들을 조립해 낸 것을 보면 저희의 약점을 분석하고, 그것에 적합한 무장을 만들어낼지도 모릅니다...!<br>다만, 약점을 분석하기 위해 코어를 풀가동한다면 외부의 공격에 취약해 질 수 밖에 없겠죠! 그 점을 노려보시는 것이 좋겠습니다!<br><br><br>- Mr 알프레드",
+    "HP": {
+      "base": 18000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 345,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 1000,
+      "increment": 0
+    },
+    "AGI": 4.05,
+    "CRT": 15,
+    "HIT": 220,
+    "DOD": 10,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Robert_Ev72_1_Skill1",
+      "Robert_Ev72_1_Skill2",
+      "Robert_Ev72_1_Skill3",
+      "Robert_Ev72_1_Skill4",
+      "Robert_Ev72_1_Skill5"
+    ]
+  },
+  "RobertCore_Ev72_1": {
+    "uncertainstat": true,
+    "name": "로버트",
+    "img": "RobertCore",
+    "type": "중장 보호기",
+    "info": "제가 해킹해보니 어째선지 연산 능력이 약해진 상태인 것 같습니다. 외부 간섭이 있었던 것 같은데... 그렇군요! 삽입된 코드가 로버트를 약화시키고 있습니다. 복구 프로세스가 가동하기 전에 어서 처리하시는 겁니다! 아, 로버트의 코어를 보호하는 장갑은 엄청나게 튼튼하니, 다른 방법을 찾아보시는 것도 좋겠습니다!<br><br><br>- Mr 알프레드",
+    "HP": {
+      "base": 20000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 300,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 2000,
+      "increment": 0
+    },
+    "AGI": 3.9,
+    "CRT": 15,
+    "HIT": 190,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "RobertCore_Ev72_1_Skill1",
+      "RobertCore_Ev72_1_Skill2",
+      "RobertCore_Ev72_1_Skill3",
+      "RobertCore_Ev72_1_Skill4"
+    ]
+  },
+  "RampartC_Ev72_1": {
+    "name": "램파트 커스텀",
+    "img": "RampartC",
+    "type": "경장 보호기",
+    "info": "불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.<br><br><br> - 칼리스타 보고함",
+    "HP": {
+      "base": 1430,
+      "increment": 195
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 333,
+      "increment": 7.5
+    },
+    "AGI": 4.1,
+    "CRT": 8,
+    "HIT": 200,
+    "DOD": 60,
+    "resist": [
+      -35,
+      40,
+      40
+    ],
+    "skills": [
+      "RampartC_N_Skill1",
+      "RampartC_N_Skill2",
+      "RampartC_N_Skill3",
+      "RampartC_N_Skill4",
+      "RampartC_Ev72_1_Skill5"
+    ]
+  },
+  "DroneM_Ev72_1": {
+    "name": "드론 커스텀",
+    "img": "DroneM",
+    "type": "기동 공격기",
+    "info": "지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…<br><br><br> - 익스프레스 76 보고함",
+    "HP": {
+      "base": 1755,
+      "increment": 113
+    },
+    "ATK": {
+      "base": 153,
+      "increment": 11.6
+    },
+    "DEF": {
+      "base": 1062,
+      "increment": 6
+    },
+    "AGI": 4.6,
+    "CRT": 9,
+    "HIT": 190,
+    "DOD": 110,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "DroneM_N_Skill1",
+      "DroneM_N_Skill2",
+      "DroneM_N_Skill3",
+      "DroneM_N_Skill4",
+      "DroneM_N_Skill5"
+    ]
+  },
+  "FallenC_Ev72_1": {
+    "name": "폴른 커스텀",
+    "img": "FallenC",
+    "type": "경장 공격기",
+    "info": "조준은 엉망이지만 화력은 강력하니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.<br><br><br> - 블랙 하운드 보고함",
+    "HP": {
+      "base": 3000,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 145,
+      "increment": 15.75
+    },
+    "DEF": {
+      "base": 384,
+      "increment": 14
+    },
+    "AGI": 4.15,
+    "CRT": 10,
+    "HIT": 190,
+    "DOD": 75,
+    "resist": [
+      -25,
+      25,
+      25
+    ],
+    "skills": [
+      "FallenC_N_Skill1",
+      "FallenC_N_Skill2",
+      "FallenC_N_Skill3",
+      "FallenC_N_Skill4",
+      "FallenC_Ev72_1_Skill5"
+    ]
+  },
+  "StingerC_Ev72_1": {
+    "name": "스팅어 커스텀",
+    "img": "StingerC",
+    "type": "기동 공격기",
+    "info": "극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.<br><br><br> - 님프 보고함",
+    "HP": {
+      "base": 780,
+      "increment": 58
+    },
+    "ATK": {
+      "base": 116,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 560,
+      "increment": 9
+    },
+    "AGI": 4.5,
+    "CRT": 9,
+    "HIT": 175,
+    "DOD": 145,
+    "resist": [
+      -75,
+      99,
+      25
+    ],
+    "skills": [
+      "StingerC_N_Skill1",
+      "StingerC_N_Skill2",
+      "StingerC_N_Skill3",
+      "StingerC_N_Skill4",
+      "StingerC_N_Skill5"
+    ]
+  },
+  "GigantesC_Ev72_1": {
+    "name": "기간테스 커스텀",
+    "img": "GigantesC",
+    "type": "중장 보호기",
+    "info": "거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?<br><br><br> - 트리아이나 보고함",
+    "HP": {
+      "base": 2795,
+      "increment": 254
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 10.5
+    },
+    "DEF": {
+      "base": 1500,
+      "increment": 30
+    },
+    "AGI": 3.1,
+    "CRT": 8,
+    "HIT": 225,
+    "DOD": 0,
+    "resist": [
+      -35,
+      20,
+      20
+    ],
+    "skills": [
+      "GigantesC_N_Skill1",
+      "GigantesC_N_Skill2",
+      "GigantesC_N_Skill3",
+      "GigantesC_N_Skill4",
+      "GigantesC_Ev72_1_Skill5"
+    ]
+  },
+  "PuppHeadC_Ev72_1": {
+    "name": "펍 헤드 커스텀",
+    "img": "PuppHeadC",
+    "type": "경장 지원기",
+    "info": "이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.<br><br><br> - 칸 보고함",
+    "HP": {
+      "base": 813,
+      "increment": 94
+    },
+    "ATK": {
+      "base": 150,
+      "increment": 13
+    },
+    "DEF": {
+      "base": 1200,
+      "increment": 14
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 220,
+    "DOD": 125,
+    "resist": [
+      25,
+      25,
+      99
+    ],
+    "skills": [
+      "PuppHeadC_N_Skill1",
+      "PuppHeadC_N_Skill2",
+      "PuppHeadC_N_Skill3",
+      "PuppHeadC_N_Skill4",
+      "PuppHeadC_N_Skill5"
+    ]
+  },
+  "AMG11AA_Ev72_1": {
+    "name": "대공용 AMG-11",
+    "img": "AMG11AA",
+    "type": "경장 지원기",
+    "info": "이 녀석들은 대공 능력에 특화된 녀석들이야. 물론 내 우수한 스텔스 능력에 비하면 분명 보잘것없는 능력이지만, 다른 친구들에게는 성가실 수 있으니 내가 먼저 처리해야겠어.<br><br><br> - 하르페이아 보고함",
+    "HP": {
+      "base": 1170,
+      "increment": 85
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 792,
+      "increment": 13
+    },
+    "AGI": 4.1,
+    "CRT": 11.25,
+    "HIT": 675,
+    "DOD": 3,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "AMG11AA_N_Skill1",
+      "AMG11AA_N_Skill2",
+      "AMG11AA_N_Skill3",
+      "AMG11AA_N_Skill4",
+      "AMG11AA_N_Skill5"
+    ]
+  },
+  "SeljuqA_Ev72_1": {
+    "name": "셀주크 커스텀",
+    "img": "SeljuqA",
+    "type": "중장 공격기",
+    "info": "화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.<br><br><br> - 세이렌 보고함",
+    "HP": {
+      "base": 6235,
+      "increment": 124
+    },
+    "ATK": {
+      "base": 175,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 1200,
+      "increment": 24
+    },
+    "AGI": 3.35,
+    "CRT": 10,
+    "HIT": 160,
+    "DOD": 0,
+    "resist": [
+      -25,
+      30,
+      30
+    ],
+    "skills": [
+      "SeljuqA_N_Skill1",
+      "SeljuqA_N_Skill2",
+      "SeljuqA_N_Skill3",
+      "SeljuqA_N_Skill4",
+      "SeljuqA_N_Skill5"
     ]
   }
 }
