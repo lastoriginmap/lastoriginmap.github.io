@@ -5338,7 +5338,7 @@
     "type": "active",
     "name": "확산형 곡사포",
     "img": "CannonShotDelay",
-    "range": 5,
+    "range": 15,
     "AP": 6,
     "description": "지정 범위에 $(1.1) 보호 무시 피해를 줍니다. 목표 지점 주변은 피해가 75%만 적용되며, 대상이 경장형 또는 기동형이면 피해량이 크게 증가합니다.",
     "areadata": [
