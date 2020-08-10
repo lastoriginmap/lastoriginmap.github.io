@@ -5338,7 +5338,7 @@
     "type": "active",
     "name": "확산형 곡사포",
     "img": "CannonShotDelay",
-    "range": 15,
+    "range": 5,
     "AP": 6,
     "description": "지정 범위에 $(1.1) 보호 무시 피해를 줍니다. 목표 지점 주변은 피해가 75%만 적용되며, 대상이 경장형 또는 기동형이면 피해량이 크게 증가합니다.",
     "areadata": [
@@ -9811,6 +9811,18 @@
       5
     ]
   },
+  "GigantesC_Ev72_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "개량형 방어 OS",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, HP가 20% 이하일 경우 방어력과 효과 저항이 크게 증가합니다. 해당 상태에서 화염 공격에 피격 시 OS가 오작동을 일으켜 해제됩니다.",
+    "areadata": [
+      5
+    ]
+  },
   "GigantesC_Ev72_1_Skill5": {
     "title": "pskill3",
     "type": "passive",
@@ -9822,6 +9834,18 @@
     "areadata": [
       5,
       6
+    ]
+  },
+  "SeljuqA_Ev72_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "증가 장갑",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 방어력이 크게 증가합니다. 해당 효과는 2회 피격되거나 화염 속성 공격 피격 시, 해제됩니다.",
+    "areadata": [
+      5
     ]
   }
 }
