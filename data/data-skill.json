@@ -9847,5 +9847,138 @@
     "areadata": [
       5
     ]
+  },
+  "MrAlfred2_Ev73_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "약점 분석?",
+    "img": "Beam",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "분석 완료: 활용?",
+    "img": "Beam",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "진화의 요람?",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "고속 연산?",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "약점 극복?",
+    "img": "SuiceideBomb",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "타이런트 바이트",
+    "img": "AssaultAttack",
+    "range": "2",
+    "AP": "9",
+    "description": "대상을 물어뜰어 $(2) 피해를 주고, 2라운드 동안 방어력을 낮춥니다. 대상의 현재 HP%가 낮을수록 피해량이 증가하며, <포식자> 중첩이 1 증가합니다. 자신의 HP가 50% 이상이면, 대상의 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "프라이멀 파이어",
+    "img": "WideFireShot",
+    "range": "5",
+    "AP": "10",
+    "attr": "fire",
+    "description": "라운드 개시 시, <포식자> (최대) 상태 또는 타이런트 바이트의 사거리 내에 적이 없다면 플라즈마를 분사해 지정 범위에 $(1.7) 보호 무시 화염 속성 피해를 줍니다. 2라운드 동안 화염 저항을 감소시키며, <포식자> 중첩이 높을수록 최대 3단계까지 감소하며 <포식자> 중첩을 모두 소모합니다.",
+    "areadata": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "Tyrant_Ev73_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "먹잇감 탐색",
+    "img": "SelfAtkBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "공격에 피격 시, 일시적으로 먹잇감을 변경하고 라운드 개시 시, 아군 필드에 다른 타이런트가 없을 시 먹잇감 독식 상태가 됩니다. 또한 먹잇감에 집중해 피격 시, 자신에게 적용된 도발 효과를 해제합니다.<br>먹잇감 (중장형) : HP가 100%~60%일 경우, 화염 속성에 피격 시<br>먹잇감 (경장형) : HP가 60%~30%일 경우, 냉기 속성에 피격 시<br>먹잇감 (기동형) : HP가 30%~0%일 경우, 전기 속성에 피격 시<br>먹잇감 독식 : 공격력 / 적중이 대폭 증가하나 3회 피격 시 해제",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "원시의 본능",
+    "img": "SelfDefBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "적 공격 시, 지정 보호 효과를 해제하며 2라운드 동안 자신에게 표식이 지정됩니다. 라운드 개시 시, 방어력 / 효과 저항이 증가하고 받는 피해가 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "표효",
+    "img": "SuiceideBomb",
+    "range": "0",
+    "AP": "0",
+    "description": "전투 개시 시, 일정 확률로 2라운드간 적들을 스킬 사용 불가 상태로 만들고 전투 속행 효과가 적용됩니다. 전투 속행 발동 시, 행동력이 크게 증가하며 남은 모든 전투 속행 효과를 해제합니다. 해당 상태에서 파괴되면 적에게 자폭해 공격력에 비례한 고정 화염 피해를 줍니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
   }
 }
