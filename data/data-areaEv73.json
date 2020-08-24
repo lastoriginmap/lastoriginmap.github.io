@@ -141,47 +141,6 @@
           "title": "wave4",
           "enemylist": [
             {
-              "index": "Harvester_N",
-              "level": 35
-            },
-            {
-              "index": "NightChickCM_TU2",
-              "level": 30
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "BigChick_N",
-              "level": 30
-            },
-            {
-              "index": "NightChickM_TU3",
-              "level": 40
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "NightChickSI_N",
-              "level": 40
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "NightChickSP_N",
-              "level": 30
-            }
-          ]
-        },
-        {
-          "title": "wave5",
-          "enemylist": [
-            {
               "index": "",
               "level": 0
             },
@@ -220,7 +179,7 @@
           ]
         },
         {
-          "title": "wave6",
+          "title": "wave5",
           "enemylist": [
             {
               "index": "FABigChick_N",
@@ -398,28 +357,12 @@
           "title": "wave4",
           "enemylist": [
             {
+              "index": "",
+              "level": 0
+            },
+            {
               "index": "Drone_TU3",
               "level": 42
-            },
-            {
-              "index": "Stinger_TU3",
-              "level": 42
-            },
-            {
-              "index": "Fallen_TU2",
-              "level": 42
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "",
-              "level": 0
             },
             {
               "index": "Drone_TU3",
@@ -430,54 +373,29 @@
               "level": 42
             },
             {
+              "index": "",
+              "level": 0
+            },
+            {
               "index": "Fallen_TU2",
+              "level": 42
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Drone_TU3",
+              "level": 42
+            },
+            {
+              "index": "Drone_TU3",
               "level": 42
             }
           ]
         },
         {
           "title": "wave5",
-          "enemylist": [
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Drone_TU3",
-              "level": 42
-            },
-            {
-              "index": "Drone_TU3",
-              "level": 42
-            },
-            {
-              "index": "Stinger_TU3",
-              "level": 42
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Fallen_TU2",
-              "level": 42
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Drone_TU3",
-              "level": 42
-            },
-            {
-              "index": "Drone_TU3",
-              "level": 42
-            }
-          ]
-        },
-        {
-          "title": "wave6",
           "enemylist": [
             {
               "index": "Fallen_TU3",
@@ -532,27 +450,7 @@
           "title": "wave1",
           "enemylist": [
             {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
               "index": "Fallen_TU2",
-              "level": 44
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Fallen_TU2",
-              "level": 44
-            },
-            {
-              "index": "Drone_TU3",
               "level": 44
             },
             {
@@ -560,12 +458,32 @@
               "level": 44
             },
             {
-              "index": "Fallen_TU2",
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Rampart_TU2",
               "level": 44
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Seljuq_TU2",
+              "level": 30
             },
             {
               "index": "Fallen_TU2",
               "level": 44
+            },
+            {
+              "index": "Rampart_TU2",
+              "level": 44
+            },
+            {
+              "index": "",
+              "level": 0
             }
           ]
         },
@@ -573,127 +491,45 @@
           "title": "wave2",
           "enemylist": [
             {
-              "index": "Rampart_TU2",
-              "level": 44
-            },
-            {
-              "index": "Drone_TU3",
-              "level": 44
-            },
-            {
               "index": "",
               "level": 0
             },
             {
-              "index": "Rampart_TU2",
-              "level": 44
+              "index": "Seljuq_TU2",
+              "level": 30
             },
             {
               "index": "Fallen_TU2",
               "level": 44
             },
             {
-              "index": "",
-              "level": 0
+              "index": "Rampart_TU2",
+              "level": 44
             },
             {
               "index": "Rampart_TU2",
               "level": 44
             },
             {
-              "index": "Drone_TU3",
-              "level": 44
+              "index": "",
+              "level": 0
             },
             {
               "index": "",
               "level": 0
+            },
+            {
+              "index": "Seljuq_TU2",
+              "level": 30
+            },
+            {
+              "index": "Fallen_TU2",
+              "level": 44
             }
           ]
         },
         {
           "title": "wave3",
-          "enemylist": [
-            {
-              "index": "Fallen_TU2",
-              "level": 44
-            },
-            {
-              "index": "Rampart_TU2",
-              "level": 44
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Rampart_TU2",
-              "level": 44
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Seljuq_TU2",
-              "level": 30
-            },
-            {
-              "index": "Fallen_TU2",
-              "level": 44
-            },
-            {
-              "index": "Rampart_TU2",
-              "level": 44
-            },
-            {
-              "index": "",
-              "level": 0
-            }
-          ]
-        },
-        {
-          "title": "wave4",
-          "enemylist": [
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Seljuq_TU2",
-              "level": 30
-            },
-            {
-              "index": "Fallen_TU2",
-              "level": 44
-            },
-            {
-              "index": "Rampart_TU2",
-              "level": 44
-            },
-            {
-              "index": "Rampart_TU2",
-              "level": 44
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Seljuq_TU2",
-              "level": 30
-            },
-            {
-              "index": "Fallen_TU2",
-              "level": 44
-            }
-          ]
-        },
-        {
-          "title": "wave5",
           "enemylist": [
             {
               "index": "Drone_TU3",
@@ -734,7 +570,7 @@
           ]
         },
         {
-          "title": "wave6",
+          "title": "wave4",
           "enemylist": [
             {
               "index": "Rampart_TU2",
@@ -775,7 +611,7 @@
           ]
         },
         {
-          "title": "wave7",
+          "title": "wave5",
           "enemylist": [
             {
               "index": "",
