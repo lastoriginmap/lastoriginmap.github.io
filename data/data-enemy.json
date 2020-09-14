@@ -16390,6 +16390,7 @@
     ]
   },
   "FABigChickS_A7_2": {
+    "uncertainstat": true,
     "name": "풀아머 빅 칙 실더",
     "img": "FABigChickS",
     "type": "중장 보호기",
