@@ -16194,16 +16194,16 @@
     "type": "경장 지원기",
     "info": "얘는 몸체에 달린 스피커로 주변 철충들을 강하게 만들고 있나 봐. 꼭 나처럼 응원하는거 같네? 응원이라면 나도 질 수 없지! 모두 화이팅~<br><br><br>-캐럴라이나 보고함",
     "HP": {
-      "base": 15745,
-      "increment": 0
+      "base": 1395,
+      "increment": 175
     },
     "ATK": {
-      "base": 569,
-      "increment": 0
+      "base": 102,
+      "increment": 5.7
     },
     "DEF": {
-      "base": 436,
-      "increment": 0
+      "base": 158,
+      "increment": 3.4
     },
     "AGI": 4,
     "CRT": 5,
@@ -17475,6 +17475,109 @@
       "Tyrant_Ev73_1_Skill3",
       "Tyrant_Ev73_1_Skill4",
       "Tyrant_Ev73_1_Skill5"
+    ]
+  },
+  "Fortress_Ev81_1": {
+    "uncertainstat": true,
+    "name": "양산형 포트리스",
+    "img": "Fortress",
+    "type": "중장 보호기",
+    "info": "포트리스의 양산형 기종이다.",
+    "HP": {
+      "base": 1900,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 257,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 190,
+      "increment": 0
+    },
+    "AGI": 3.4,
+    "CRT": 10,
+    "HIT": 120,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Fortress_Ev81_1_Skill1",
+      "Fortress_Ev81_1_Skill2",
+      "Fortress_Ev81_1_Skill3"
+    ]
+  },
+  "NightChickQMSK_Ev81_1": {
+    "uncertainstat": true,
+    "name": "칙 쿼터마스터SK",
+    "img": "NightChickQMSK",
+    "type": "경장 지원기",
+    "info": "새로운 적 발견. 적 분석 시작.<br>분석 중..................<br>분석 결과.<br>공격 저지 능력. 대 경장 기능 갖춤. 아군 보병들 보호 필요. 최우선 타겟으로 파괴하겠음.<br><br><br>- 기간테스 보고함",
+    "HP": {
+      "base": 1089,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 77,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 103,
+      "increment": 4.3
+    },
+    "AGI": 3.85,
+    "CRT": 5,
+    "HIT": 260,
+    "DOD": 30,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickQMSK_Ev71_1_Skill1",
+      "NightChickQMSK_Ev71_1_Skill2",
+      "NightChickQMSK_Ev71_1_Skill3",
+      "NightChickQMSK_Ev71_1_Skill4",
+      "NightChickQMSK_Ev71_1_Skill5"
+    ]
+  },
+  "Destroyer_Ev81_1": {
+    "uncertainstat": true,
+    "name": "디스트로이어",
+    "img": "Destroyer",
+    "type": "중장 공격기",
+    "info": "저거... 내 제녹스 만큼이나 세... 다른 애들한테 막지 말고 피하라고 말해줘...<br><br><br>-에밀리가",
+    "HP": {
+      "base": 12800,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 575,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 1180,
+      "increment": 0
+    },
+    "AGI": 3.2,
+    "CRT": 10,
+    "HIT": 90,
+    "DOD": 0,
+    "resist": [
+      50,
+      0,
+      95
+    ],
+    "skills": [
+      "Destroyer_A7_1_Skill1",
+      "Destroyer_A7_1_Skill2",
+      "Destroyer_A7_1_Skill3",
+      "Destroyer_A7_1_Skill4",
+      "Destroyer_A7_1_Skill5"
     ]
   }
 }
