@@ -16977,8 +16977,8 @@
       "increment": 157
     },
     "ATK": {
-      "base": 255,
-      "increment": 7
+      "base": 262,
+      "increment": 6.9
     },
     "DEF": {
       "base": 648,
@@ -17484,16 +17484,16 @@
     "type": "중장 보호기",
     "info": "포트리스의 양산형 기종이다.",
     "HP": {
-      "base": 1900,
-      "increment": 0
+      "base": 500,
+      "increment": 50
     },
     "ATK": {
-      "base": 257,
-      "increment": 0
+      "base": 75,
+      "increment": 6.5
     },
     "DEF": {
-      "base": 190,
-      "increment": 0
+      "base": 50,
+      "increment": 5
     },
     "AGI": 3.4,
     "CRT": 10,
@@ -17525,8 +17525,8 @@
       "increment": 7
     },
     "DEF": {
-      "base": 103,
-      "increment": 4.3
+      "base": 98,
+      "increment": 4.4
     },
     "AGI": 3.85,
     "CRT": 5,
@@ -17578,6 +17578,110 @@
       "Destroyer_A7_1_Skill3",
       "Destroyer_A7_1_Skill4",
       "Destroyer_A7_1_Skill5"
+    ]
+  },
+  "LemonadeAvatar_Ev82_1": {
+    "uncertainstat": true,
+    "name": "레모네이드 아바타",
+    "img": "LemonadeAvatar",
+    "type": "경장 지원기",
+    "info": "내 무기가 전혀 안 먹히는걸? 저 녀석, 이 공간을 완전히 장악했어. 아무리 그래도 혼자서는... 아! 주변의 부하들과 연결되어서 출력을 상승시키고 있는 건가? 내 생각이 맞다면, 부하들을 먼저 쓰러뜨리면 약화시킬 수 있을 거야. 물론 부하들도 연결되어서 강해졌겠지만... 반드시 이겨낼 수 있어. 우린 친구니까!<br><br><br>-리앤",
+    "HP": {
+      "base": 1500,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 10,
+    "CRT": 0,
+    "HIT": 500,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "LemonadeAvatar_Ev82_1_Skill1",
+      "LemonadeAvatar_Ev82_1_Skill2",
+      "LemonadeAvatar_Ev82_1_Skill3",
+      "LemonadeAvatar_Ev82_1_Skill4",
+      "LemonadeAvatar_Ev82_1_Skill5"
+    ]
+  },
+  "LemonadeAvatar_Ev82_2": {
+    "uncertainstat": true,
+    "name": "레모네이드 아바타",
+    "img": "LemonadeAvatar",
+    "type": "경장 지원기",
+    "info": "내 무기가 전혀 안 먹히는걸? 저 녀석, 이 공간을 완전히 장악했어. 아무리 그래도 혼자서는... 아! 주변의 부하들과 연결되어서 출력을 상승시키고 있는 건가? 내 생각이 맞다면, 부하들을 먼저 쓰러뜨리면 약화시킬 수 있을 거야. 물론 부하들도 연결되어서 강해졌겠지만... 반드시 이겨낼 수 있어. 우린 친구니까!<br><br><br>-리앤",
+    "HP": {
+      "base": 1500,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 10,
+    "CRT": 0,
+    "HIT": 500,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "LemonadeAvatar_Ev82_1_Skill1",
+      "LemonadeAvatar_Ev82_1_Skill2",
+      "LemonadeAvatar_Ev82_1_Skill3",
+      "LemonadeAvatar_Ev82_1_Skill4",
+      "LemonadeAvatar_Ev82_2_Skill5"
+    ]
+  },
+  "Frostbite_Ev82_1": {
+    "name": "프로스트바이트",
+    "img": "Frostbite",
+    "type": "중장 지원기",
+    "info": "유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.<br><br><br>- 기간테스 보고함",
+    "HP": {
+      "base": 7500,
+      "increment": 225
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 1000,
+      "increment": 25
+    },
+    "AGI": 3.75,
+    "CRT": 7.5,
+    "HIT": 200,
+    "DOD": 0,
+    "resist": [
+      -50,
+      95,
+      75
+    ],
+    "skills": [
+      "Frostbite_N_Skill1",
+      "Frostbite_N_Skill2",
+      "Frostbite_N_Skill3",
+      "Frostbite_N_Skill4",
+      "Frostbite_N_Skill5"
     ]
   }
 }
