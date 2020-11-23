@@ -66,6 +66,7 @@ function drawEnemyPageNew(data, lvl, skilldata)
 
 		$('.btn:first').clone().appendTo('.skill-nav');
 		$('.btn:last').attr('href', '#skill' + i);
+		console.log(data.skills[i])
 		if (skilldata[data.skills[i]].type == "active")
 		{
 			$('.btn:last').addClass("skill-active");

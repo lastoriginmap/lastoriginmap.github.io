@@ -185,8 +185,8 @@ function selectSkill()
 	document.getElementById("input-skillindex").value = Object.keys(skillData)[0];
 	document.getElementById("input-skillname").value = getSkillValue("name");
 	document.getElementById("input-skillimage").value = getSkillValue("img");
-	document.getElementById("input-skillrange").value = getSkillValue("range");
-	document.getElementById("input-skillAP").value = getSkillValue("AP");
+	document.getElementById("input-skillrange").value = parseInt(getSkillValue("range"));
+	document.getElementById("input-skillAP").value = parseInt(getSkillValue("AP"));
 	document.getElementById("input-skillattr").value = getSkillValue("attr");
 	document.getElementById("input-skilldesc").value = getSkillValue("description").replace(/<br\s*[\/]?>/gi, "\n");
 	document.getElementById("input-skillarea").value = getSkillValue("areadata");
