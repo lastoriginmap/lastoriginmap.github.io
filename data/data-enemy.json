@@ -17779,22 +17779,21 @@
     ]
   },
   "FABigChickSEX_A8_1": {
-    "uncertainstat": true,
     "name": "FA 빅 칙 실더 II",
     "img": "FABigChickS",
     "type": "중장 보호기",
     "info": "<교전 기록 없음>",
     "HP": {
       "base": 6000,
-      "increment": 114
+      "increment": 114.4
     },
     "ATK": {
       "base": 75,
       "increment": 8
     },
     "DEF": {
-      "base": 360,
-      "increment": 11.67
+      "base": 375,
+      "increment": 11.5
     },
     "AGI": 3.25,
     "CRT": 7.5,
@@ -17814,22 +17813,21 @@
     ]
   },
   "LightningBomberP_A8_1": {
-    "uncertainstat": true,
     "name": "라이트닝 봄버 Type-X",
     "img": "LightningBomber",
     "type": "기동 공격기",
     "info": "<교전 기록 없음>",
     "HP": {
       "base": 216,
-      "increment": 76
+      "increment": 76.1
     },
     "ATK": {
-      "base": 251,
-      "increment": 12.7
+      "base": 242,
+      "increment": 12.8
     },
     "DEF": {
-      "base": 45,
-      "increment": 1.7
+      "base": 36,
+      "increment": 1.8
     },
     "AGI": 4.5,
     "CRT": 5,
@@ -17855,16 +17853,16 @@
     "type": "중장 지원기",
     "info": "케스토스 히마스는 정보 수집과 분석을 통한 전장 장악에 특화되어있어요. 보유한 전력과 전황을 분석하고, 그에따른 전투 알고리즘을 즉석에서 호위 AGS들에게 부여할 거에요. 물론, 회로 해킹에도 주의하셔야 해요.<br><br><br> - 레모네이드 알파",
     "HP": {
-      "base": 95000,
-      "increment": 0
+      "base": 24500,
+      "increment": 750
     },
     "ATK": {
-      "base": 1120,
-      "increment": 0
+      "base": 180,
+      "increment": 10
     },
     "DEF": {
-      "base": 6000,
-      "increment": 0
+      "base": 2240,
+      "increment": 40
     },
     "AGI": 3.52,
     "CRT": 100,
@@ -17890,12 +17888,12 @@
     "type": "기동 공격기",
     "info": "지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…<br><br><br> - 익스프레스 76 보고함",
     "HP": {
-      "base": 53440,
-      "increment": 0
+      "base": 24000,
+      "increment": 320.5
     },
     "ATK": {
-      "base": 1664,
-      "increment": 0
+      "base": 100,
+      "increment": 17
     },
     "DEF": {
       "base": 0,
@@ -17958,16 +17956,16 @@
     "type": "경장 보호기",
     "info": "불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.<br><br><br> - 칼리스타 보고함",
     "HP": {
-      "base": 63710,
-      "increment": 0
+      "base": 20000,
+      "increment": 470.5
     },
     "ATK": {
-      "base": 894,
-      "increment": 0
+      "base": 150,
+      "increment": 8
     },
     "DEF": {
-      "base": 40,
-      "increment": 2.5
+      "base": 400,
+      "increment": 22.5
     },
     "AGI": 4,
     "CRT": 10,
@@ -17993,15 +17991,15 @@
     "info": "이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.<br><br><br> - 칸 보고함",
     "HP": {
       "base": 21000,
-      "increment": 370
+      "increment": 370.5
     },
     "ATK": {
-      "base": 108,
-      "increment": 16
+      "base": 155,
+      "increment": 15.5
     },
     "DEF": {
-      "base": 153,
-      "increment": 13
+      "base": 200,
+      "increment": 12.5
     },
     "AGI": 4.2,
     "CRT": 5,
@@ -18027,7 +18025,7 @@
     "info": "회피와 기동 능력이 매우 뛰어납니다. 정밀 사격으로 처리해야 할 것 같습니다.<br><br><br> - 발키리 보고함",
     "HP": {
       "base": 8058,
-      "increment": 250
+      "increment": 250.4
     },
     "ATK": {
       "base": 461,
@@ -18090,14 +18088,13 @@
     ]
   },
   "Slasher_A8_1": {
-    "uncertainstat": true,
     "name": "슬래셔",
     "img": "Slasher",
     "type": "경장 공격기",
     "info": "회피와 기동 능력이 매우 뛰어납니다. 정밀 사격으로 처리해야 할 것 같습니다.<br><br><br> - 발키리 보고함",
     "HP": {
       "base": 8058,
-      "increment": 250
+      "increment": 250.4
     },
     "ATK": {
       "base": 461,
@@ -18124,14 +18121,13 @@
     ]
   },
   "FABigChickSEX_A8_2": {
-    "uncertainstat": true,
     "name": "FA 빅 칙 실더 II",
     "img": "FABigChickS",
     "type": "중장 보호기",
     "info": "<교전 기록 없음>",
     "HP": {
       "base": 18000,
-      "increment": 133
+      "increment": 133.9
     },
     "ATK": {
       "base": 100,
@@ -18159,22 +18155,21 @@
     ]
   },
   "SpeakerEX_A8_1": {
-    "uncertainstat": true,
     "name": "강화형 스피커",
     "img": "Speaker",
     "type": "경장 지원기",
     "info": "얘는 몸체에 달린 스피커로 주변 철충들을 강하게 만들고 있나 봐. 꼭 나처럼 응원하는거 같네? 응원이라면 나도 질 수 없지! 모두 화이팅~<br><br><br>-캐럴라이나 보고함",
     "HP": {
       "base": 1674,
-      "increment": 210
+      "increment": 210.6
     },
     "ATK": {
-      "base": 106,
-      "increment": 7
+      "base": 122,
+      "increment": 6.84
     },
     "DEF": {
-      "base": 196,
-      "increment": 4
+      "base": 189,
+      "increment": 4.08
     },
     "AGI": 4,
     "CRT": 5,
