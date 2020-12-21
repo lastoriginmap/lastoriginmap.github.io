@@ -7718,7 +7718,7 @@
     "img": "MeleeAttack",
     "range": 3,
     "AP": 4,
-    "description": "대상에게 $(1.1) 피해를 주고, 2라운드 동안 방어력 / 치명타 감소 상태로 만듭니다.",
+    "description": "대상에게 $(1.1) 피해를 주고, 2라운드 동안 도발 / 공격력 / 치명타 감소 상태로 만듭니다.",
     "areadata": [
       5
     ]
@@ -7730,7 +7730,7 @@
     "img": "SelfDefBuff",
     "range": 6,
     "AP": 6,
-    "description": "지정 아군을 3라운드 동안 대상을 지정 보호합니다.",
+    "description": "지정 아군의 AP를 상승시키고, 3라운드 동안 대상을 지정 보호합니다.",
     "areadata": [
       5
     ]
@@ -7738,11 +7738,11 @@
   "NightChickShSv_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "칙 생존 대형",
+    "name": "칙 방어 대형",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "라운드 개시 시, 행동력이 증가하며 속성 저항력이 증가합니다.",
+    "description": "라운드 개시 시, 받는 피해가 감소하며 속성 저항력이 증가합니다.",
     "areadata": [
       5
     ]
@@ -10499,6 +10499,213 @@
     "range": 0,
     "AP": 0,
     "description": "라운드 개시 시, 2라운드 이하인 상태라면 행동력이 증가합니다. 최대 출력 상태에서 <사운드 웨이브> 스킬을 사용 시, 대상의 AP를 감소시킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NightChickSv_N_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "칙 생존 위험",
+    "img": "SelfDefDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신이 침수 상태인 경우 4라운드 동안 받는 피해가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerShooter_Ev91_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "퀵 프리저",
+    "img": "IceShot",
+    "range": "3",
+    "AP": "4",
+    "attr": "ice",
+    "description": "$(1) 냉기 피해를 주고, 2라운드 동안 대상의 공격력 / 치명타를 감소시키고 받는 피해를 증가시킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerShooter_Ev91_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "액체질소탄",
+    "img": "GrenadeAttack_1",
+    "range": "4",
+    "AP": "5",
+    "attr": "ice",
+    "description": "$(0.5) 냉기 피해를 주고, 2라운드 동안 대상의 적중을 감소시킵니다. 대상이 침수 상태일 시, 추가로 효과 저항을 감소시킵니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "FridgerShooter_Ev91_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "바이오 레이더",
+    "img": "AWACS",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 자신과 지정 범위 아군의 공격력 / 치명타 / 행동력이 증가합니다. 해당 효과는 프리져 슈터가 적을 공격할 때마다 추가 적용됩니다.<br>",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "FridgerShooter_Ev91_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "냉각 장치",
+    "img": "IceShot",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 자신이 침수 상태일 경우 행동력 / 효과 저항이 크게 증가합니다.<br>",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerHead_Ev91_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "퀵 프리저",
+    "img": "IceShot",
+    "range": "4",
+    "AP": "4",
+    "attr": "ice",
+    "description": "$(1) 냉기 피해를 주고, 2라운드 동안 대상을 표식으로 설정하고 냉기 저항을 감소시킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerHead_Ev91_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "결정화",
+    "img": "DefCounter",
+    "range": "6",
+    "AP": "4",
+    "description": "5라운드 동안 자신을 표식으로 설정하고 냉기 저항 / 전기 저항 / 행동력을 증가시킵니다.<br>",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerHead_Ev91_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "한기 확산",
+    "img": "TeamDefBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 지정 범위 아군의 냉기 저항 / 전기 저항을 증가시키고, 자신을 포함한 프리져 철충의 공격을 지원합니다.<br>",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "FridgerHead_Ev91_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "냉각수 방사",
+    "img": "WideIceShot",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 지정 범위 적을 침수 상태로 만들고 방어 관통을 크게 감소시킵니다. 방어 관통 감소 효과는 매 라운드 감소하며, 자신 사망 시 아군 전체를 침수 상태로 만듭니다.<br>",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "FridgerHead_Ev91_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "지휘관 개체",
+    "img": "Command",
+    "range": "0",
+    "AP": "0",
+    "description": "전투 개시 시, 적 로봇 수가 3 이상일 경우 지정 범위 아군의 AP를 증가시키고, 적 바이오로이드 수가 3 이상일 경우 지정 범위 적에게 해제 불가의 방어 관통 감소 효과를 적용합니다.<br>",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "FridgerShell_Ev91_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "퀵 프리저",
+    "img": "IceShot",
+    "range": "3",
+    "AP": "4",
+    "attr": "ice",
+    "description": "$(1) 냉기 피해를 주고, 대상이 침수 상태일 시 추가 냉기 피해를 줍니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerShell_Ev91_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "프로즌 스트라이크",
+    "img": "WideIceShot",
+    "range": "4",
+    "AP": "6",
+    "attr": "ice",
+    "description": "$(1.5) 냉기 피해를 주고, 대상이 침수 상태일 시 피해 감소를 해제합니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "FridgerShell_Ev91_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "연결 상태",
+    "img": "SelfAtkBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 스쿼드에 프리져 헤드가 있는 경우 자신의 공격력 / 치명타 / 적중이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FridgerShell_Ev91_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "냉각 장치",
+    "img": "IceShot",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 자신이 침수 상태일 경우 공격력 / 효과 저항이 크게 증가합니다.",
     "areadata": [
       5
     ]
