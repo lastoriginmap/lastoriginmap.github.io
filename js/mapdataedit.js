@@ -260,9 +260,9 @@ function submitEnemyName()
 
 		enemyindexData.forEach(index=> {
 			var enemydata = enemyData[index];
-			var HP = Math.floor(enemydata.HP.base+Math.floor(enemydata.HP.increment)*(LVL-1));
-			var ATK = Math.floor(enemydata.ATK.base+enemydata.ATK.increment*(LVL-1));
-			var DEF = Math.floor(enemydata.DEF.base+enemydata.DEF.increment*(LVL-1));
+			var HP = Math.floor(enemydata.HP[0]+Math.floor(enemydata.HP[1])*(LVL-1));
+			var ATK = Math.floor(enemydata.ATK[0]+enemydata.ATK[1]*(LVL-1));
+			var DEF = Math.floor(enemydata.DEF[0]+enemydata.DEF[1]*(LVL-1));
 			
 			var newOption = table.insertRow();
 			newOption.insertCell(0).appendChild(document.createTextNode(index));
@@ -533,11 +533,11 @@ function loadEnemyStat([stageTitle, wave, pos])
 	var statstring="";
 	var enemydata = enemyData[waveData.enemylist[pos-1].index];
 	var LVL = waveData.enemylist[pos-1].level;
-	statstring+=`HP: ${Math.floor(enemydata.HP.base+Math.floor(enemydata.HP.increment)*(LVL-1))}<br>`;
-	statstring+=`ATK: ${Math.floor(enemydata.ATK.base+parseFloat(enemydata.ATK.increment)*(LVL-1))}<br>`;
+	statstring+=`HP: ${Math.floor(enemydata.HP[0]+Math.floor(enemydata.HP[1])*(LVL-1))}<br>`;
+	statstring+=`ATK: ${Math.floor(enemydata.ATK[0]+parseFloat(enemydata.ATK[1])*(LVL-1))}<br>`;
 	statstring+=`HIT: ${enemydata.HIT}%<br>`;
 	statstring+=`CRT: ${enemydata.CRT}%<br>`;
-	statstring+=`DEF: ${Math.floor(enemydata.DEF.base+parseFloat(enemydata.DEF.increment)*(LVL-1))}<br>`;
+	statstring+=`DEF: ${Math.floor(enemydata.DEF[0]+parseFloat(enemydata.DEF[1])*(LVL-1))}<br>`;
 	statstring+=`DOD: ${enemydata.DOD}%<br>`;
 	statstring+=`AGI: ${enemydata.AGI}<br>`;
 	statstring+=`저항: ${enemydata.resist}<br>`;

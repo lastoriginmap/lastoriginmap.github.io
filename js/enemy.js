@@ -39,7 +39,7 @@ window.onload = async function ()
 function drawEnemyPageNew(data, lvl, skilldata)
 {
 	var enemyName = data.name;
-	var HP = calcLvlValue({"base": data.HP.base, "increment": Math.floor(data.HP.increment)}, lvl);
+	var HP = calcLvlValue([data.HP[0],Math.floor(data.HP[1])], lvl);
 	var ATK = calcLvlValue(data.ATK, lvl);
 	var DEF = calcLvlValue(data.DEF, lvl);
 
@@ -89,7 +89,7 @@ function drawEnemyPageNew(data, lvl, skilldata)
 	for (var i = 0; i < data.skills.length; i++)
 	{
 		$('.skill-container:last').after($('.skill-container:first').clone());
-		drawSkillInfoNew(i, (data.ATK.base + data.ATK.increment * (lvl - 1)), skilldata[data.skills[i]]);
+		drawSkillInfoNew(i, (data.ATK[0] + data.ATK[1] * (lvl - 1)), skilldata[data.skills[i]]);
 	}
 	$('.skill-container:last').after($('.skill-container:first').clone());
 	drawInfo(data.skills.length, data.info);
@@ -195,7 +195,7 @@ function drawSkillInfoNew(index, ATK, skilldata)
 	$('.skill-name:last').html("<img class='icon-attr' src='images/" + attr + ".png'></img><h5> Lv. 1</h5> <h3>" + skilldata.name + "</h3>");
 	$('.skill-range:last').html("사정거리 " + skilldata.range);
 	$('.skill-range:last').append("<br>AP-" + skilldata.AP);
-	drawSkillArea($('.skill-area:last'), skilldata.areadata);
+	drawSkillArea($('.skill-area:last'), skilldata.area);
 
 	var m = skilldata.description.match(/\$\((\d+\.*\d*)\)/);
 	if(m!=null)	var skillrate = skilldata.description.match(/\$\((\d+\.*\d*)\)/)[1];
@@ -227,9 +227,9 @@ function drawSkillInfoNew(index, ATK, skilldata)
 		{
 			//$('.skill-range:last').html("AP-"+"#");
 		}
-		if (typeof desc.areadata != "undefined")
+		if (typeof desc.area != "undefined")
 		{
-			drawSkillArea($('.skill-area:last'), desc.areadata);
+			drawSkillArea($('.skill-area:last'), desc.area);
 		}
 		else
 		{
@@ -266,9 +266,9 @@ function drawSkillInfo(index, LVL, power, desc)
 	{
 		//$('.skill-range:last').html("AP-"+"#");
 	}
-	if(typeof desc.areadata!="undefined")
+	if(typeof desc.area!="undefined")
 	{
-		drawSkillArea($('.skill-area:last'), desc.areadata);
+		drawSkillArea($('.skill-area:last'), desc.area);
 	}
 	else
 	{
@@ -381,5 +381,5 @@ function writeData(str1, str2)
 
 function calcLvlValue(data, lvl)
 {
-  return Math.floor(data.base + data.increment * (lvl - 1));
+  return Math.floor(data[0] + data[1] * (lvl - 1));
 };
