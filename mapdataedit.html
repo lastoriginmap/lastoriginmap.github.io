@@ -2,20 +2,35 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>철충 지도 입력기</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/dataedit.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/common.js"></script>
-    <script src="js/mapdataedit.js"></script>
-    <style>
-    	table, th, td {
-    		border: 1px solid #bcbcbc;
-    	}
-    </style>
-    
-    
+	<meta charset="utf-8">
+	<title>철충 지도 입력기</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/dataedit.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/mapdataedit.js"></script>
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid #bcbcbc;
+		}
+
+		.input-container {
+			display: flex;
+		}
+
+		.input-wrap {
+			float: left;
+		}
+
+		.input-latest {
+			float: right;
+			margin-left: 30px;
+		}
+	</style>
+
+
 </head>
 
 <body>
@@ -26,12 +41,12 @@
 		</header>
 		<section>
 			<hr>
-			<button type="button" id="reload-data">다시 불러오기</button><br >
+			<button type="button" id="reload-data">다시 불러오기</button><br>
 			<form id="form-area">
 				<label for="input-areaindex">지역 인덱스: </label>
-				<input type="text" autocomplete="off" id="input-areaindex"><br >
+				<input type="text" autocomplete="off" id="input-areaindex"><br>
 				<label for="input-areatitle">지역 이름: </label>
-				<input type="text" autocomplete="off" id="input-areatitle"><br >
+				<input type="text" autocomplete="off" id="input-areatitle"><br>
 				<input type="submit" value="지역 입력">
 			</form>
 			<hr>
@@ -40,7 +55,7 @@
 				<input type="number" autocomplete="off" id="input-stage"><br>
 				<input type="radio" id="Main" name="stage-type" value="Main" checked="checked"><label for="Main">Main</label>
 				<input type="radio" id="B" name="stage-type" value="B"><label for="B">B</label>
-				<input type="radio" id="Ex" name="stage-type" value="Ex"><label for="Ex">Ex</label><br >
+				<input type="radio" id="Ex" name="stage-type" value="Ex"><label for="Ex">Ex</label><br>
 				<label id="label-stagename" for="input-stagename">이름: </label>
 				<input type="text" autocomplete="off" id="input-stagename"><br>
 				<label id="label-stagegrid" for="input-stagegrid">그리드(x,y): </label>
@@ -48,80 +63,94 @@
 				<input type="text" autocomplete="off" id="input-stagegridy"><br>
 				<label id="label-prevstage" for="input-prevstage">이전 스테이지: </label>
 				<input type="number" autocomplete="off" id="input-prevstage"><br>
-				<input type="radio" id="prevMain" name="prevstage-type" value="Main" checked="checked"><label for="prevMain">Main</label>
+				<input type="radio" id="prevMain" name="prevstage-type" value="Main" checked="checked"><label
+					for="prevMain">Main</label>
 				<input type="radio" id="prevB" name="prevstage-type" value="B"><label for="prevB">B</label>
-				<input type="radio" id="prevEx" name="prevstage-type" value="Ex"><label for="prevEx">Ex</label><br >
+				<input type="radio" id="prevEx" name="prevstage-type" value="Ex"><label for="prevEx">Ex</label><br>
 				<input type="submit" value="스테이지 입력">
 			</form>
 			<hr>
 			<form id="form-wave">
 				<div class="current-stage">현재 스테이지: </div>
 				<label for="input-wave">웨이브:</label>
-				<input type="number" list="wave-list" autocomplete="off" id="input-wave"><br >
+				<input type="number" list="wave-list" autocomplete="off" id="input-wave"><br>
 				<datalist id="wave-list"></datalist>
-				<input type="submit" value="웨이브 입력"><br >
+				<input type="submit" value="웨이브 입력"><br>
 			</form>
 			<hr>
 			<form id="form-enemy">
 				<div class="current-stage">현재 스테이지: </div>
 				<div class="current-wave">현재 웨이브: </div>
 				<div class="current-wave-map">
-					<div class="cell cell1"></div><div class="cell cell2"></div><div class="cell cell3"></div>
-					<div class="cell cell4"></div><div class="cell cell5"></div><div class="cell cell6"></div>
-					<div class="cell cell7"></div><div class="cell cell8"></div><div class="cell cell9"></div>
+					<div class="cell cell1"></div>
+					<div class="cell cell2"></div>
+					<div class="cell cell3"></div>
+					<div class="cell cell4"></div>
+					<div class="cell cell5"></div>
+					<div class="cell cell6"></div>
+					<div class="cell cell7"></div>
+					<div class="cell cell8"></div>
+					<div class="cell cell9"></div>
 				</div>
-				<label for="input-name">철충 이름:</label>
-				<input type="text" id="input-name" list="name-list" autocomplete="off"><br>
-				<label for="input-LVL">레벨: </label><input type="number" autocomplete="off" id="input-LVL">
-				<button type="button" id="submit-name">입력</button><br >
-				<label for="input-index">철충 인덱스:</label>
-				<input type="text" id="input-index" list="index-list" autocomplete="off"><br >
-				<datalist id="name-list">
-				</datalist>
-				<datalist id="index-list">
-				</datalist>
-				<div id="index-option-view"></div>
-				<label for="input-pos">위치: </label>
-				<table>
-					<tbody>
-						<tr>
-							<td>
-								<input type="checkbox" id="pos1" value="1" name="input-pos"><label for="pos1">1</label>
-							</td>
-							<td>
-								<input type="checkbox" id="pos2" value="2" name="input-pos"><label for="pos2">2</label>
-							</td>
-							<td>
-								<input type="checkbox" id="pos3" value="3" name="input-pos"><label for="pos3">3</label>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<input type="checkbox" id="pos4" value="4" name="input-pos"><label for="pos4">4</label>
-							</td>
-							<td>
-								<input type="checkbox" id="pos5" value="5" name="input-pos"><label for="pos5">5</label>
-							</td>
-							<td>
-								<input type="checkbox" id="pos6" value="6" name="input-pos"><label for="pos6">6</label>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<input type="checkbox" id="pos7" value="7" name="input-pos"><label for="pos7">7</label>
-							</td>
-							<td>
-								<input type="checkbox" id="pos8" value="8" name="input-pos"><label for="pos8">8</label>
-							</td>
-							<td>
-								<input type="checkbox" id="pos9" value="9" name="input-pos"><label for="pos9">9</label>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<button type="button" id="delete">삭제</button><br>
-				<input type="submit" value="철충 입력"><br >
-				<div id="enemy-stat"></div>
+				<div class="input-container">
+					<div class="input-wrap">
+						<label for="input-name">철충 이름:</label>
+						<input type="text" id="input-name" list="name-list" autocomplete="off"><br>
+						<label for="input-LVL">레벨: </label><input type="number" autocomplete="off" id="input-LVL">
+						<button type="button" id="submit-name">입력</button><br>
+						<label for="input-index">철충 인덱스:</label>
+						<input type="text" id="input-index" list="index-list" autocomplete="off"><br>
+						<datalist id="name-list">
+						</datalist>
+						<datalist id="index-list">
+						</datalist>
+						<div id="index-option-view"></div>
+						<label for="input-pos">위치: </label>
+						<table>
+							<tbody>
+								<tr>
+									<td>
+										<input type="checkbox" id="pos1" value="1" name="input-pos"><label for="pos1">1</label>
+									</td>
+									<td>
+										<input type="checkbox" id="pos2" value="2" name="input-pos"><label for="pos2">2</label>
+									</td>
+									<td>
+										<input type="checkbox" id="pos3" value="3" name="input-pos"><label for="pos3">3</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="checkbox" id="pos4" value="4" name="input-pos"><label for="pos4">4</label>
+									</td>
+									<td>
+										<input type="checkbox" id="pos5" value="5" name="input-pos"><label for="pos5">5</label>
+									</td>
+									<td>
+										<input type="checkbox" id="pos6" value="6" name="input-pos"><label for="pos6">6</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="checkbox" id="pos7" value="7" name="input-pos"><label for="pos7">7</label>
+									</td>
+									<td>
+										<input type="checkbox" id="pos8" value="8" name="input-pos"><label for="pos8">8</label>
+									</td>
+									<td>
+										<input type="checkbox" id="pos9" value="9" name="input-pos"><label for="pos9">9</label>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<button type="button" id="delete">삭제</button><br>
+						<input type="submit" value="철충 입력"><br>
+						<div id="enemy-stat"></div>
+					</div>
+					<div class="input-latest">
+						<div id="input-latest-view"></div>
+					</div>
+				</div>
 			</form>
 			<hr>
 			<button type="button" id="download">다운로드</button>
