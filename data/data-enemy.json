@@ -18585,5 +18585,307 @@
       "MammothW_N_Skill3",
       "MammothW_N_Skill4"
     ]
+  },
+  "FridgerShell_Ev92_1": {
+    "name": "프리져 쉘",
+    "img": "FridgerShell",
+    "type": "경장 공격기",
+    "info": "매우 드문 스파르탄 기체의 철충입니다만, 냉각 무기로 무장한 건 어리석네요. 최고의 소이전 전문가들이 나설 차례예요!<br><br><br>- 랜서 미나",
+    "HP": [
+      499,
+      50
+    ],
+    "ATK": [
+      168,
+      6.84
+    ],
+    "DEF": [
+      3640,
+      92
+    ],
+    "AGI": 3.8,
+    "CRT": 10,
+    "HIT": 300,
+    "DOD": 10,
+    "resist": [
+      -25,
+      100,
+      50
+    ],
+    "skills": [
+      "FridgerShell_Ev91_1_Skill1",
+      "FridgerShell_Ev91_1_Skill2",
+      "FridgerShell_Ev91_1_Skill3",
+      "FridgerShell_Ev91_1_Skill4"
+    ]
+  },
+  "FridgerShooter_Ev92_1": {
+    "name": "프리져 슈터",
+    "img": "FridgerShooter",
+    "type": "경장 지원기",
+    "info": "매우 드문 스파르탄 기체의 철충입니다만, 냉각 무기로 무장한 건 어리석네요. 최고의 소이전 전문가들이 나설 차례예요!<br><br><br>- 랜서 미나",
+    "HP": [
+      315,
+      80.75
+    ],
+    "ATK": [
+      119,
+      5.23
+    ],
+    "DEF": [
+      2680,
+      116
+    ],
+    "AGI": 3.85,
+    "CRT": 10,
+    "HIT": 180,
+    "DOD": 10,
+    "resist": [
+      -25,
+      100,
+      50
+    ],
+    "skills": [
+      "FridgerShooter_Ev91_1_Skill1",
+      "FridgerShooter_Ev91_1_Skill2",
+      "FridgerShooter_Ev91_1_Skill3",
+      "FridgerShooter_Ev91_1_Skill4"
+    ]
+  },
+  "FridgerHead_Ev92_1": {
+    "name": "프리져 헤드",
+    "img": "FridgerHead",
+    "type": "경장 지원기",
+    "info": "놈들의 리더격인 철충이에요. 먼저 처리하는 게 좋을 것 같은데, 문제는 녀석이 터지면서 주위에 물을 뿌리네요. 어떻게 하죠?<br><br><br>- 랜서 미나",
+    "HP": [
+      475,
+      57.8
+    ],
+    "ATK": [
+      145,
+      6
+    ],
+    "DEF": [
+      4600,
+      140
+    ],
+    "AGI": 3.9,
+    "CRT": 10,
+    "HIT": 200,
+    "DOD": 10,
+    "resist": [
+      -25,
+      100,
+      50
+    ],
+    "skills": [
+      "FridgerHead_Ev91_1_Skill1",
+      "FridgerHead_Ev91_1_Skill2",
+      "FridgerHead_Ev91_1_Skill3",
+      "FridgerHead_Ev91_1_Skill4",
+      "FridgerHead_Ev91_1_Skill5"
+    ]
+  },
+  "Drone_EV92_1": {
+    "uncertainstat": true,
+    "name": "드론 09",
+    "img": "Drone",
+    "type": "기동 지원기",
+    "info": "홀로그램 투사용으로 개조된 비스마르크사의 드론이에요. 무엇이 가상이고, 무엇이 현실인지 깨닫는 것은...쉬운 일이 아니겠죠.<br><br><br>- 메리",
+    "HP": [
+      275,
+      37.5
+    ],
+    "ATK": [
+      60,
+      5.5
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.4,
+    "CRT": 5,
+    "HIT": 130,
+    "DOD": 90,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Drone_EV92_1_Skill1",
+      "Drone_EV92_1_Skill2",
+      "Drone_EV92_1_Skill3"
+    ]
+  },
+  "Machina_Ev92_1": {
+    "name": "마키나",
+    "img": "Machina",
+    "type": "기동 지원기",
+    "info": "마키나의 화력은 그리 위협적이지 않지만, 그녀가 보여주는 허상에 빠지지 않도록 조심해 주세요.<br><br><br>- 팬텀 보고함",
+    "HP": [
+      11800,
+      0
+    ],
+    "ATK": [
+      64,
+      6.2
+    ],
+    "DEF": [
+      162,
+      2.5
+    ],
+    "AGI": 4.17,
+    "CRT": 5,
+    "HIT": 145,
+    "DOD": 22,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Machina_Ev92_1_Skill1",
+      "Machina_Ev92_1_Skill2",
+      "Machina_Ev92_1_Skill3",
+      "Machina_Ev92_1_Skill4",
+      "Machina_Ev92_1_Skill5"
+    ]
+  },
+  "CenturionG_Ev92_1": {
+    "name": "센츄리온 제네럴",
+    "img": "CenturionG",
+    "type": "경장 지원기",
+    "info": "지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...<br><br><br>- 이프리트 보고함",
+    "HP": [
+      2000,
+      125
+    ],
+    "ATK": [
+      45,
+      3
+    ],
+    "DEF": [
+      100,
+      2.5
+    ],
+    "AGI": 4.1,
+    "CRT": 1,
+    "HIT": 225,
+    "DOD": 25,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "CenturionG_N_Skill1",
+      "CenturionG_N_Skill2",
+      "CenturionG_N_Skill3",
+      "CenturionG_N_Skill4",
+      "CenturionG_N_Skill5"
+    ]
+  },
+  "NightChickAQP_Ev92_1": {
+    "name": "아쿠아 칙 Type-X",
+    "img": "NightChickAQ",
+    "type": "경장 지원기",
+    "info": "조금 이상한 행동을 하는 걸 봤어. 일부러 주위에 뭔가 다른 액체를 흘리는 것 같아. 그냥 물이 아닌걸까...?<br><br><br>- 아쿠아 보고함",
+    "HP": [
+      500,
+      75
+    ],
+    "ATK": [
+      50,
+      3.75
+    ],
+    "DEF": [
+      500,
+      20
+    ],
+    "AGI": 4.35,
+    "CRT": 0,
+    "HIT": 400,
+    "DOD": 0,
+    "resist": [
+      50,
+      99,
+      -50
+    ],
+    "skills": [
+      "NightChickAQ_N_Skill1",
+      "NightChickAQ_N_Skill2",
+      "NightChickAQ_N_Skill3",
+      "NightChickAQ_N_Skill4",
+      "NightChickAQP_Ev92_1_Skill5"
+    ]
+  },
+  "ChillerHV_Ev92_1": {
+    "name": "칠러 HV",
+    "img": "Chiller",
+    "type": "기동 공격기",
+    "info": "물… 절대 뿌리지 말것…<br><br><br> - 서펀트 보고함",
+    "HP": [
+      9500,
+      200
+    ],
+    "ATK": [
+      155,
+      20
+    ],
+    "DEF": [
+      300,
+      135
+    ],
+    "AGI": 4.6,
+    "CRT": 30,
+    "HIT": 250,
+    "DOD": 180,
+    "resist": [
+      -25,
+      100,
+      50
+    ],
+    "skills": [
+      "ChillerHV_Ev92_1_Skill1",
+      "ChillerHV_Ev92_1_Skill2",
+      "ChillerHV_Ev92_1_Skill3",
+      "ChillerHV_Ev92_1_Skill4"
+    ]
+  },
+  "NightChickAQG_Ev92_1": {
+    "name": "아쿠아 칙 G",
+    "img": "NightChickAQG",
+    "type": "경장 지원기",
+    "info": "...주위, 추워졌어. 하지만...땀이, 식어서. 기분, 좋아.<br><br><br>- 카엔",
+    "HP": [
+      11000,
+      230
+    ],
+    "ATK": [
+      60,
+      8
+    ],
+    "DEF": [
+      1500,
+      160
+    ],
+    "AGI": 4.4,
+    "CRT": 10,
+    "HIT": 400,
+    "DOD": 100,
+    "resist": [
+      0,
+      100,
+      0
+    ],
+    "skills": [
+      "NightChickAQG_Ev92_1_Skill1",
+      "NightChickAQG_Ev92_1_Skill2",
+      "NightChickAQG_Ev92_1_Skill3",
+      "NightChickAQG_Ev92_1_Skill4",
+      "NightChickAQG_Ev92_1_Skill5"
+    ]
   }
 }
