@@ -18887,5 +18887,203 @@
       "NightChickAQG_Ev92_1_Skill4",
       "NightChickAQG_Ev92_1_Skill5"
     ]
+  },
+  "LegionMk2_Ev92_1": {
+    "name": "레기온 Mk.II",
+    "img": "LegionMk2",
+    "type": "경장 공격기",
+    "info": "레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.<br><br><br>- 아르망 보고함",
+    "HP": [
+      9000,
+      190
+    ],
+    "ATK": [
+      110,
+      11
+    ],
+    "DEF": [
+      640,
+      10
+    ],
+    "AGI": 4.45,
+    "CRT": 10,
+    "HIT": 480,
+    "DOD": 125,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "LegionMk2_N_Skill1",
+      "LegionMk2_N_Skill2",
+      "LegionMk2_N_Skill3",
+      "LegionMk2_N_Skill4"
+    ]
+  },
+  "Executioner_Ev91_1": {
+    "uncertainstat": true,
+    "name": "익스큐셔너",
+    "img": "Executioner_B06",
+    "type": "기동 공격기",
+    "info": "스캔 완료! 결과를 분석해보니 이건... 일종의 허상인가? 틀림없이 형태는 갖추고 있지만, 내구력이 굉장히 약해. 거기다 얼마 안가서 스스로 작동을 정지할 것으로 보여. 툭 치면 부서지겠지만 영 석연치 않네... 엄~청나게 강력한 한 방으로 날려버리는게 어때? 예를 들면... 우리 에밀리라던가?<br><br><br>- 레이븐 누나가♥",
+    "HP": [
+      40,
+      0
+    ],
+    "ATK": [
+      50,
+      5
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.5,
+    "CRT": 0,
+    "HIT": 150,
+    "DOD": 0,
+    "resist": [
+      100,
+      100,
+      100
+    ],
+    "skills": [
+      "Drone_EV92_1_Skill1",
+      "Drone_EV92_1_Skill2",
+      "Drone_EV92_1_Skill3",
+      "Executioner_Ev91_1_Skill4"
+    ]
+  },
+  "NightChickDEG_Ev92_1": {
+    "name": "나이트 칙 디텍터 G",
+    "img": "NightChickDE",
+    "type": "경장 지원기",
+    "info": "지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.<br><br><br> - 다이카 보고함",
+    "HP": [
+      11850,
+      265
+    ],
+    "ATK": [
+      50,
+      5
+    ],
+    "DEF": [
+      200,
+      11
+    ],
+    "AGI": 4.5,
+    "CRT": 1,
+    "HIT": 350,
+    "DOD": 120,
+    "resist": [
+      -25,
+      -25,
+      25
+    ],
+    "skills": [
+      "NightChickDEG_N_Skill1",
+      "NightChickDEG_N_Skill2",
+      "NightChickDEG_N_Skill3",
+      "NightChickDEG_N_Skill4"
+    ]
+  },
+  "Executioner_Ev92_1": {
+    "uncertainstat": true,
+    "name": "이모탈 익스큐셔너",
+    "img": "Executioner_BEW",
+    "type": "기동 공격기",
+    "info": "저번 녀석이랑 비슷하지만, 뭔가 다르네. 엄청나게 튼튼해 보이는걸? 거기다 에너지를 모으느라 반격할 기미도 안보이고... 후후, 반항하는 녀석을 데리고 놀아주는 것도 즐겁지만, 저항하지 못하는 걸 짓밟는 건 또 다른 재미가 있지. 이봐, 사령관. 혹시 다른 애들을 내보낼 생각은 아니지? 나한테 맡겨주면 적당~히 재미 좀 보다가 저녀석이 에너지를 다 모으기 전에 숨통을 끊어주겠어.<br><br><br>- 사디어스 보고함",
+    "HP": [
+      8000000,
+      0
+    ],
+    "ATK": [
+      50000,
+      0
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.5,
+    "CRT": 0,
+    "HIT": 150,
+    "DOD": 0,
+    "resist": [
+      100,
+      100,
+      100
+    ],
+    "skills": [
+      "Executioner_Ev92_1_Skill1",
+      "Executioner_Ev92_1_Skill2",
+      "Executioner_Ev92_1_Skill3",
+      "Executioner_Ev92_1_Skill4"
+    ]
+  },
+  "BigChickSP_Ev93_1": {
+    "name": "강화형 빅 칙",
+    "img": "BigChick",
+    "type": "경장 공격기",
+    "info": "평범한 철충이다.",
+    "HP": [
+      200,
+      35
+    ],
+    "ATK": [
+      50,
+      6.5
+    ],
+    "DEF": [
+      10,
+      1
+    ],
+    "AGI": 3.5,
+    "CRT": 5,
+    "HIT": 80,
+    "DOD": 5,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "BigChickSP_N_Skill1",
+      "BigChickSP_N_Skill2",
+      "BigChickSP_N_Skill3"
+    ]
+  },
+  "LightningBomber_Ev93_1": {
+    "name": "라이트닝 봄버",
+    "img": "LightningBomber",
+    "type": "기동 공격기",
+    "info": "이 녀석, 요리조리 잘 피해서 다들 애먹었을 거야. 내 저격은 백발백중이니 맡겨만 줘.<br><br>-미호 보고함",
+    "HP": [
+      150,
+      45
+    ],
+    "ATK": [
+      200,
+      10.5
+    ],
+    "DEF": [
+      25,
+      1.25
+    ],
+    "AGI": 4.4,
+    "CRT": 5,
+    "HIT": 180,
+    "DOD": 310,
+    "resist": [
+      0,
+      -50,
+      99
+    ],
+    "skills": [
+      "LightningBomber_A7_1_Skill1",
+      "LightningBomber_A7_1_Skill2",
+      "LightningBomber_A7_1_Skill3"
+    ]
   }
 }

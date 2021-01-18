@@ -2124,6 +2124,232 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Ev91-3Ex",
+      "name": "Ev1-3Ex",
+      "grid": [
+        2,
+        2
+      ],
+      "prevstage": "Ev91-2Ex",
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickDEAA_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickAQG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemylist": [
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionMk2_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "NightChickAQP_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "LegionMk2_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemylist": [
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionMk2_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "NightChickDEAA_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickAQP_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionMk2_Ev92_1",
+              "level": 70
+            }
+          ]
+        },
+        {
+          "title": "wave4",
+          "enemylist": [
+            {
+              "index": "NightChickDEAA_TU4",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            },
+            {
+              "index": "Stalker_EV2",
+              "level": 110
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "LegionMk2_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "NightChickAQG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "NightChickSP_TU9",
+              "level": 70
+            },
+            {
+              "index": "LegionSPEX_TU2",
+              "level": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev91-8Ex",
+      "name": "Ev1-1C",
+      "grid": [
+        6,
+        2
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Executioner_Ev91_1",
+              "level": 1
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }

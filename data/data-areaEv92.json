@@ -2002,6 +2002,232 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Ev92-3Ex",
+      "name": "Ev2-3Ex",
+      "grid": [
+        2,
+        2
+      ],
+      "prevstage": "Ev92-2Ex",
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickDEG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "NightChickAQG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemylist": [
+            {
+              "index": "Juggernaut_TU3",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "CenturionG_TU2",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Juggernaut_TU3",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Juggernaut_TU3",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "CenturionG_TU2",
+              "level": 70
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Juggernaut_TU3",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "Juggernaut_TU3",
+              "level": 70
+            },
+            {
+              "index": "NightChickDEG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "CenturionG_TU2",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Juggernaut_TU3",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            }
+          ]
+        },
+        {
+          "title": "wave4",
+          "enemylist": [
+            {
+              "index": "NightChickAQG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "CenturionG_TU2",
+              "level": 70
+            },
+            {
+              "index": "Stalker_EV2",
+              "level": 110
+            },
+            {
+              "index": "NightChickDEG_Ev92_1",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            },
+            {
+              "index": "FABigChickEX_TU4",
+              "level": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev92-8Ex",
+      "name": "Ev2-1C",
+      "grid": [
+        6,
+        2
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Executioner_Ev92_1",
+              "level": 100
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
