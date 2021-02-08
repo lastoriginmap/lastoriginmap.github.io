@@ -19085,5 +19085,241 @@
       "LightningBomber_A7_1_Skill2",
       "LightningBomber_A7_1_Skill3"
     ]
+  },
+  "Hirume_Ev101_1": {
+    "name": "천향의 히루메",
+    "img": "Hirume",
+    "type": "경장 보호기",
+    "info": "처, 첩에게 심한 짓을 할 생각인게지!",
+    "HP": [
+      320,
+      36
+    ],
+    "ATK": [
+      58,
+      7.5
+    ],
+    "DEF": [
+      20,
+      3.46
+    ],
+    "AGI": 4.33,
+    "CRT": 7.5,
+    "HIT": 150,
+    "DOD": 30,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "Hirume_Ev101_1_Skill1",
+      "Hirume_Ev101_1_Skill2",
+      "Hirume_Ev101_1_Skill3",
+      "Hirume_Ev101_1_Skill4",
+      "Hirume_Ev101_1_Skill5"
+    ]
+  },
+  "HLightningBomberEX_Ev101_1": {
+    "name": "라이트닝 봄버 Type-S",
+    "img": "LightningBomberEX",
+    "type": "기동 공격기",
+    "info": "우와아... 또 이렇게 흉악한 철충이 나왔네요...헤헷, 그래도 귀~여운 린티한텐 안 될걸요? 공격해서 빈틈이 드러난 사이에, 린티가 한 방 먹여줄 거니까요~! 린티가 활약하는 모습, 꼭 봐주시기에요?<br><br><br>- 사령관님의 귀.여.운. 린티가",
+    "HP": [
+      150,
+      58.5
+    ],
+    "ATK": [
+      200,
+      11.55
+    ],
+    "DEF": [
+      25,
+      1
+    ],
+    "AGI": 4.4,
+    "CRT": 5,
+    "HIT": 100,
+    "DOD": 800,
+    "resist": [
+      60,
+      60,
+      0
+    ],
+    "skills": [
+      "HLightningBomberEX_Ev101_1_Skill1",
+      "HLightningBomberEX_Ev101_1_Skill2",
+      "HLightningBomberEX_Ev101_1_Skill3",
+      "HLightningBomberEX_Ev101_1_Skill4",
+      "HLightningBomberEX_Ev101_1_Skill5"
+    ]
+  },
+  "HLightningBomberEX_Ev101_2": {
+    "name": "라이트닝 봄버 Type-S",
+    "img": "LightningBomberEX",
+    "type": "기동 공격기",
+    "info": "우와아... 또 이렇게 흉악한 철충이 나왔네요...헤헷, 그래도 귀~여운 린티한텐 안 될걸요? 공격해서 빈틈이 드러난 사이에, 린티가 한 방 먹여줄 거니까요~! 린티가 활약하는 모습, 꼭 봐주시기에요?<br><br><br>- 사령관님의 귀.여.운. 린티가",
+    "HP": [
+      260,
+      128.7
+    ],
+    "ATK": [
+      267,
+      15.6
+    ],
+    "DEF": [
+      44,
+      1.8
+    ],
+    "AGI": 4.55,
+    "CRT": 5,
+    "HIT": 190,
+    "DOD": 950,
+    "resist": [
+      60,
+      60,
+      0
+    ],
+    "skills": [
+      "HLightningBomberEX_Ev101_1_Skill1",
+      "HLightningBomberEX_Ev101_1_Skill2",
+      "HLightningBomberEX_Ev101_1_Skill3",
+      "HLightningBomberEX_Ev101_1_Skill4",
+      "HLightningBomberEX_Ev101_1_Skill5"
+    ]
+  },
+  "FryerShooter_Ev101_1": {
+    "name": "프라이어 슈터",
+    "img": "FryerShooter",
+    "type": "경장 지원기",
+    "info": "저 철충들은... 제 능력에 취약할 거예요. 부디, 제가 나가서 싸우게 해주세요. 후훗. 걱정 마세요, 상냥하신 분. 제 모든 건... 전부 당신 것이니까요.<br><br><br>- 레이시",
+    "HP": [
+      3583,
+      294
+    ],
+    "ATK": [
+      327,
+      8.82
+    ],
+    "DEF": [
+      15102,
+      424
+    ],
+    "AGI": 4,
+    "CRT": 10,
+    "HIT": 280,
+    "DOD": 10,
+    "resist": [
+      60,
+      60,
+      0
+    ],
+    "skills": [
+      "FryerShooter_Ev101_1_Skill1",
+      "FryerShooter_Ev101_1_Skill2",
+      "FryerShooter_Ev101_1_Skill3",
+      "FryerShooter_Ev101_1_Skill4"
+    ]
+  },
+  "FryerShell_Ev101_1": {
+    "name": "프라이어 쉘",
+    "img": "FryerShell",
+    "type": "경장 공격기",
+    "info": "저 철충들은... 제 능력에 취약할 거예요. 부디, 제가 나가서 싸우게 해주세요. 후훗. 걱정 마세요, 상냥하신 분. 제 모든 건... 전부 당신 것이니까요.<br><br><br>- 레이시",
+    "HP": [
+      6781,
+      225
+    ],
+    "ATK": [
+      400,
+      10.78
+    ],
+    "DEF": [
+      16989,
+      377
+    ],
+    "AGI": 3.95,
+    "CRT": 10,
+    "HIT": 440,
+    "DOD": 10,
+    "resist": [
+      60,
+      60,
+      0
+    ],
+    "skills": [
+      "FryerShell_Ev101_1_Skill1",
+      "FryerShell_Ev101_1_Skill2",
+      "FryerShell_Ev101_1_Skill3",
+      "FryerShell_Ev101_1_Skill4"
+    ]
+  },
+  "FryerHead_Ev101_1": {
+    "name": "프라이어 헤드",
+    "img": "FryerHead",
+    "type": "경장 지원기",
+    "info": "저 철충들은... 제 능력에 취약할 거예요. 부디, 제가 나가서 싸우게 해주세요. 후훗. 걱정 마세요, 상냥하신 분. 제 모든 건... 전부 당신 것이니까요.<br><br><br>- 레이시",
+    "HP": [
+      7840,
+      333.9
+    ],
+    "ATK": [
+      364,
+      9.8
+    ],
+    "DEF": [
+      18879,
+      472
+    ],
+    "AGI": 4.05,
+    "CRT": 10,
+    "HIT": 350,
+    "DOD": 10,
+    "resist": [
+      60,
+      60,
+      0
+    ],
+    "skills": [
+      "FryerHead_Ev101_1_Skill1",
+      "FryerHead_Ev101_1_Skill2",
+      "FryerHead_Ev101_1_Skill3",
+      "FryerHead_Ev101_1_Skill4",
+      "FryerHead_Ev101_1_Skill5"
+    ]
+  },
+  "LightningBomberP_Ev101_1": {
+    "name": "라이트닝 봄버 Type-X",
+    "img": "LightningBomber",
+    "type": "기동 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": [
+      260,
+      99
+    ],
+    "ATK": [
+      267,
+      14.1
+    ],
+    "DEF": [
+      44,
+      2.2
+    ],
+    "AGI": 4.55,
+    "CRT": 5,
+    "HIT": 270,
+    "DOD": 400,
+    "resist": [
+      0,
+      -50,
+      99
+    ],
+    "skills": [
+      "LightningBomberP_A8_1_Skill1",
+      "LightningBomberP_A8_1_Skill2",
+      "LightningBomber_A7_1_Skill3",
+      "LightningBomberP_A8_1_Skill4",
+      "LightningBomberP_A8_1_Skill5"
+    ]
   }
 }
