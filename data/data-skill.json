@@ -7463,6 +7463,26 @@
       3
     ]
   },
+  "NightChickS_C_2_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "칙 복원 시스템 제어",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 모든 아군들에게 <칙 복원 시스템> 효과가 적용됩니다. 라운드 개시 시, <칙 방패 올리기>중첩이 7 이면 <복원 시스템 오류> 상태가 되어 모든 아군의 <칙 복원 시스템>을 해제합니다. <칙 복원 시스템>은 자신이 <복원 시스템 오류> 상태가 아니면 라운드 개시 시, 다시 활성화됩니다.",
+    "area": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
   "EmperorChickSpCH_N_Skill1": {
     "title": "askill1",
     "type": "active",

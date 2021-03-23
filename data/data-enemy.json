@@ -12713,6 +12713,40 @@
       "NightChickS_C_Skill5"
     ]
   },
+  "NightChickS_C_2": {
+    "name": "나이트 칙 실더???",
+    "img": "NightChickS",
+    "type": "중장 보호기",
+    "info": "진정한 보호기가 되기 위해 반만년 동안 수련하여 중장형으로 체급을 올린 나이트 칙 실더라는 것 같다. 누구의 장난인지는 몰라도 찾으면 혼내줘야겠다…",
+    "HP": [
+      240000,
+      0
+    ],
+    "ATK": [
+      750,
+      0
+    ],
+    "DEF": [
+      3000,
+      0
+    ],
+    "AGI": 4,
+    "CRT": 10,
+    "HIT": 960,
+    "DOD": 40,
+    "resist": [
+      75,
+      75,
+      75
+    ],
+    "skills": [
+      "NightChickS_C_Skill1",
+      "NightChickS_C_Skill2",
+      "NightChickS_C_Skill3",
+      "NightChickS_C_2_Skill4",
+      "NightChickS_C_Skill5"
+    ]
+  },
   "EmperorChickSpCH_N": {
     "name": "칙 커맨더",
     "img": "EmperorChickSpCH",

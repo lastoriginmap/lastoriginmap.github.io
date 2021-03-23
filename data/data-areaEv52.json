@@ -2150,7 +2150,7 @@
               "level": 99
             },
             {
-              "index": "NightChickS_C",
+              "index": "NightChickS_C_2",
               "level": 99
             },
             {
@@ -2183,8 +2183,8 @@
               "level": 99
             },
             {
-              "index": "NightChickS_C",
-              "level": 99
+              "index": "",
+              "level": 0
             },
             {
               "index": "NightChick_C",
@@ -2192,23 +2192,23 @@
             },
             {
               "index": "NightChick_C",
+              "level": 99
+            },
+            {
+              "index": "NightChickS_C_2",
+              "level": 99
+            },
+            {
+              "index": "NightChickM_C",
+              "level": 99
+            },
+            {
+              "index": "NightChickM_C",
               "level": 99
             },
             {
               "index": "",
               "level": 0
-            },
-            {
-              "index": "NightChickM_C",
-              "level": 99
-            },
-            {
-              "index": "NightChickM_C",
-              "level": 99
-            },
-            {
-              "index": "NightChickS_C",
-              "level": 99
             },
             {
               "index": "NightChick_C",
