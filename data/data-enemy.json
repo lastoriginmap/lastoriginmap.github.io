@@ -18991,7 +18991,7 @@
   },
   "NightChickDEG_Ev92_1": {
     "name": "나이트 칙 디텍터 G",
-    "img": "NightChickDE",
+    "img": "NightChickDEG",
     "type": "경장 지원기",
     "info": "지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.<br><br><br> - 다이카 보고함",
     "HP": [
@@ -19154,7 +19154,7 @@
       "Hirume_Ev101_1_Skill5"
     ]
   },
-  "HLightningBomberEX_Ev101_1": {
+  "LightningBomberEX_Ev101_1": {
     "name": "라이트닝 봄버 Type-S",
     "img": "LightningBomberEX",
     "type": "기동 공격기",
@@ -19181,14 +19181,14 @@
       0
     ],
     "skills": [
-      "HLightningBomberEX_Ev101_1_Skill1",
-      "HLightningBomberEX_Ev101_1_Skill2",
-      "HLightningBomberEX_Ev101_1_Skill3",
-      "HLightningBomberEX_Ev101_1_Skill4",
-      "HLightningBomberEX_Ev101_1_Skill5"
+      "LightningBomberEX_Ev101_1_Skill1",
+      "LightningBomberEX_Ev101_1_Skill2",
+      "LightningBomberEX_Ev101_1_Skill3",
+      "LightningBomberEX_Ev101_1_Skill4",
+      "LightningBomberEX_Ev101_1_Skill5"
     ]
   },
-  "HLightningBomberEX_Ev101_2": {
+  "LightningBomberEX_Ev101_2": {
     "name": "라이트닝 봄버 Type-S",
     "img": "LightningBomberEX",
     "type": "기동 공격기",
@@ -19215,11 +19215,11 @@
       0
     ],
     "skills": [
-      "HLightningBomberEX_Ev101_1_Skill1",
-      "HLightningBomberEX_Ev101_1_Skill2",
-      "HLightningBomberEX_Ev101_1_Skill3",
-      "HLightningBomberEX_Ev101_1_Skill4",
-      "HLightningBomberEX_Ev101_1_Skill5"
+      "LightningBomberEX_Ev101_1_Skill1",
+      "LightningBomberEX_Ev101_1_Skill2",
+      "LightningBomberEX_Ev101_1_Skill3",
+      "LightningBomberEX_Ev101_1_Skill4",
+      "LightningBomberEX_Ev101_1_Skill5"
     ]
   },
   "FryerShooter_Ev101_1": {
@@ -19388,6 +19388,246 @@
       "LightningBomberMP_N_Skill3",
       "LightningBomberMP_N_Skill4",
       "LightningBomberMP_N_Skill5"
+    ]
+  },
+  "BigChickC_Ev111_1": {
+    "uncertainstat": true,
+    "name": "빅 칙 캐논",
+    "img": "BigChickC",
+    "type": "중장 공격기",
+    "info": "지상군이 상대하기에는 까다로운 상대 같아요. 사령관님, 저희에게 맡겨주세요!<br><br><br>- 블랙 하운드 보고함",
+    "HP": [
+      1250,
+      77
+    ],
+    "ATK": [
+      100,
+      7.5
+    ],
+    "DEF": [
+      45,
+      2.5
+    ],
+    "AGI": 3.7,
+    "CRT": 15,
+    "HIT": 175,
+    "DOD": 0,
+    "resist": [
+      100,
+      -25,
+      50
+    ],
+    "skills": [
+      "BigChickC_Ev111_1_Skill1",
+      "BigChickC_Ev111_1_Skill2",
+      "BigChickC_Ev111_1_Skill3",
+      "BigChickC_Ev111_1_Skill4"
+    ]
+  },
+  "LightningBomberEX_Ev111_1": {
+    "name": "라이트닝 봄버 Type-S",
+    "img": "LightningBomberEX",
+    "type": "기동 공격기",
+    "info": "우와아... 또 이렇게 흉악한 철충이 나왔네요...헤헷, 그래도 귀~여운 린티한텐 안 될걸요? 공격해서 빈틈이 드러난 사이에, 린티가 한 방 먹여줄 거니까요~! 린티가 활약하는 모습, 꼭 봐주시기에요?<br><br><br>- 사령관님의 귀.여.운. 린티가",
+    "HP": [
+      180,
+      76.1
+    ],
+    "ATK": [
+      220,
+      12.8
+    ],
+    "DEF": [
+      30,
+      1.25
+    ],
+    "AGI": 4.45,
+    "CRT": 5,
+    "HIT": 130,
+    "DOD": 850,
+    "resist": [
+      60,
+      60,
+      0
+    ],
+    "skills": [
+      "LightningBomberEX_Ev111_1_Skill1",
+      "LightningBomberEX_Ev111_1_Skill2",
+      "LightningBomberEX_Ev111_1_Skill3",
+      "LightningBomberEX_Ev111_1_Skill4",
+      "LightningBomberEX_Ev111_1_Skill5"
+    ]
+  },
+  "BigChickC_Ev111_2": {
+    "uncertainstat": true,
+    "name": "빅 칙 캐논",
+    "img": "BigChickC",
+    "type": "중장 공격기",
+    "info": "지상군이 상대하기에는 까다로운 상대 같아요. 사령관님, 저희에게 맡겨주세요!<br><br><br>- 블랙 하운드 보고함",
+    "HP": [
+      10000,
+      175
+    ],
+    "ATK": [
+      250,
+      17.5
+    ],
+    "DEF": [
+      300,
+      9
+    ],
+    "AGI": 3.9,
+    "CRT": 15,
+    "HIT": 275,
+    "DOD": 0,
+    "resist": [
+      100,
+      -25,
+      50
+    ],
+    "skills": [
+      "BigChickC_Ev111_1_Skill1",
+      "BigChickC_Ev111_1_Skill2",
+      "BigChickC_Ev111_1_Skill3",
+      "BigChickC_Ev111_1_Skill4"
+    ]
+  },
+  "NightChickAQG_Ev111_1": {
+    "name": "아쿠아 칙 G",
+    "img": "NightChickAQG",
+    "type": "경장 지원기",
+    "info": "...주위, 추워졌어. 하지만...땀이, 식어서. 기분, 좋아.<br><br><br>- 카엔",
+    "HP": [
+      250,
+      45
+    ],
+    "ATK": [
+      40,
+      6
+    ],
+    "DEF": [
+      200,
+      50
+    ],
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 200,
+    "DOD": 15,
+    "resist": [
+      0,
+      100,
+      0
+    ],
+    "skills": [
+      "NightChickAQG_Ev92_1_Skill1",
+      "NightChickAQG_Ev92_1_Skill2",
+      "NightChickAQG_Ev92_1_Skill3",
+      "NightChickAQG_Ev92_1_Skill4",
+      "NightChickAQG_Ev92_1_Skill5"
+    ]
+  },
+  "FABigChickSEX_Ev111_1": {
+    "name": "FA 빅 칙 실더 II",
+    "img": "FABigChickS",
+    "type": "중장 보호기",
+    "info": "교전 기록 없음",
+    "HP": [
+      27000,
+      255
+    ],
+    "ATK": [
+      125,
+      12
+    ],
+    "DEF": [
+      1125,
+      34.5
+    ],
+    "AGI": 3.45,
+    "CRT": 12.5,
+    "HIT": 120,
+    "DOD": 1,
+    "resist": [
+      25,
+      25,
+      -25
+    ],
+    "skills": [
+      "FABigChickSEX_Ev111_1_Skill1",
+      "FABigChickSEX_Ev111_1_Skill2",
+      "FABigChickSEX_Ev111_1_Skill3",
+      "FABigChickSEX_Ev111_1_Skill4",
+      "FABigChickSEX_Ev111_1_Skill5"
+    ]
+  },
+  "BigChickCG_Ev111_1": {
+    "uncertainstat": true,
+    "name": "빅 칙 캐논 G",
+    "img": "BigChickCG",
+    "type": "중장 공격기",
+    "info": "나비처럼 날아서 벌처럼 쏜다! 둔중한 녀석일수록 날아다니는 우리에겐 맥을 못 춘다구. 맡겨줘, 사령관!<br><br><br>- 슬레이프니르 보고함",
+    "HP": [
+      15000,
+      185
+    ],
+    "ATK": [
+      145,
+      18
+    ],
+    "DEF": [
+      304,
+      9
+    ],
+    "AGI": 3.85,
+    "CRT": 20,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      120,
+      -25,
+      0
+    ],
+    "skills": [
+      "BigChickCG_Ev111_1_Skill1",
+      "BigChickCG_Ev111_1_Skill2",
+      "BigChickCG_Ev111_1_Skill3",
+      "BigChickCG_Ev111_1_Skill4",
+      "BigChickCG_Ev111_1_Skill5"
+    ]
+  },
+  "DoomEater_Ev111_1": {
+    "uncertainstat": true,
+    "name": "둠 이터",
+    "img": "DoomEater",
+    "type": "중장 보호기",
+    "info": "같은 철충들을 먹어치워버리는 이 무자비한 철충을 막을 방법은 오직 포식 후, 에너지를 흡수할 때 밖에는 없는 듯 합니다.<br><br><br>보고자 ???",
+    "HP": [
+      250000,
+      0
+    ],
+    "ATK": [
+      1000,
+      0
+    ],
+    "DEF": [
+      1500,
+      0
+    ],
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 35,
+    "DOD": 0,
+    "resist": [
+      100,
+      100,
+      100
+    ],
+    "skills": [
+      "DoomEater_Ev111_1_Skill1",
+      "DoomEater_Ev111_1_Skill2",
+      "DoomEater_Ev111_1_Skill3",
+      "DoomEater_Ev111_1_Skill4",
+      "DoomEater_Ev111_1_Skill5"
     ]
   }
 }
