@@ -11464,7 +11464,7 @@
     "range": 5,
     "AP": 8,
     "attr": "fire",
-    "description": "1라운드 후에 착탄하는 소이탄을 발사해 목표 범위에 $(1.5) 보호무시 화염 속성 피해를 줍니다. 경장형 또는 중장형 대상이 이동 불가 상태면 피해량이 크게 증가합니다.",
+    "description": "1라운드 후에 착탄하는 소이탄을 발사해 목표 범위에 $(1.5) 보호무시 화염 속성 피해를 줍니다. 경장형 또는 중장형 대상이 이동불가 상태면 피해량이 크게 증가합니다.",
     "area": [
       2,
       4,
@@ -11591,7 +11591,7 @@
     "title": "pskill3",
     "type": "passive",
     "name": "불발탄",
-    "img": "TeamAtkDeBuff",
+    "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
     "attr": "fire",
@@ -11659,6 +11659,137 @@
     "description": "라운드 개시 시 자신에게 <에너지 고갈> 상태가 3중첩이라면 <폭주> 상태에 빠지게 되어 공격력 / 적중 / 효과 저항이 증가하지만 방어력이 감소합니다. <에너지 고갈> 상태가 5중첩이라면 방어막과 피해 감소 효과를 무시 합니다. <폭주> 능력은 중첩이 되며 해제 불가입니다.",
     "area": [
       5
+    ]
+  },
+  "ScarabH_Ev112_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "실드 돌진",
+    "img": "AssaultAttack",
+    "range": 3,
+    "AP": 6,
+    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다. 대상이 중장형이면 피해량이 증가합니다.",
+    "area": [
+      5
+    ]
+  },
+  "ScarabH_Ev112_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "호위 기동",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
+    "area": [
+      5
+    ]
+  },
+  "ScarabH_Ev112_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "수비 태세",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이상일 때 수비 기동이 실행되어, 받는 피해가 감소하고 방어력이 증가하는 대신 회피가 감소합니다.",
+    "area": [
+      5
+    ]
+  },
+  "ScarabH_Ev112_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "태세 전환",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 현재 라운드가 3라운드 이하일 경우, <방어 태세>를 갖춰 자신의 회피를 감소시키고 속성 저항을 대폭 증가시킵니다. 라운드 개시 시, 현재 라운드가 4 라운드 이상 일 경우, <공격 태세>를 갖춰 공격력과 방어 관통이 증가하고 재공격을 하는 대신 방어력이 감소합니다.",
+    "area": [
+      5
+    ]
+  },
+  "ScoutAK_Ev112_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "고속 충격탄",
+    "img": "Missile",
+    "range": 2,
+    "AP": 6,
+    "description": "고속 충격탄을 발사해 $(1.2) 피해를 주고 대상의 AP를 감소시킵니다. 대상이 중장형일 경우 AP 감소 효과가 2배 증가합니다.",
+    "area": [
+      5
+    ]
+  },
+  "ScoutAK_Ev112_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "패닉 사이렌",
+    "img": "Move",
+    "range": 6,
+    "AP": 8,
+    "description": "고주파를 발산하여 목표 지점에 $(0.1) 피해를 주며, 적중 여부와 상관없이 대상의 AP를 감소시키고 이동 불가 상태로 만듭니다. 대상이 중장형일 경우 AP 감소 효과가 2배 증가합니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "ScoutAK_Ev112_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "스카우트 무장 보급",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 주위 아군에게 행동력 / 대 중장형 피해량 증가 효과를 주고 자신에게 AP / 회피 증가 효과를 적용합니다. 해당 효과들은 라운드 개시를 기준으로 아군이 적을수록 더 높은 효과를 발휘합니다. ",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "ScoutAK_Ev112_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "초전박살",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 현재 라운드가 3 라운드 이하일 경우, 자신의 방어 관통 / 행동력 / 치명타를 증가킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "ScoutAK_Ev112_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "최후 보급",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "사망 시, 2라운드 동안 모든 아군의 행동력 / 공격력 / 치명타를 증가시키고 적중을 감소시킵니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }
