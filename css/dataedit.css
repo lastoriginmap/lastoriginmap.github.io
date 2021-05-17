@@ -49,6 +49,12 @@ ul {
 	margin: 0;
 }
 
+#index-option-view .cell-selected {
+	background: rgba(0, 0, 255, 0.5);
+	color: white;
+	z-index: 9999;
+}
+
 @media (min-width: 540px) {
 	.carousel-wrap {
 		width: 540px;

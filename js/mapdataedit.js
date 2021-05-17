@@ -1,6 +1,6 @@
 var obj = {};
 var enemyData = {};
-var latestenemy = [[], []];
+var latestenemy = [[], [], []];
 
 window.onload = async function ()
 {
@@ -284,6 +284,11 @@ function submitEnemyName()
 			newOption.insertCell(2).appendChild(document.createTextNode(ATK));
 			newOption.insertCell(3).appendChild(document.createTextNode(DEF));
 
+			if(document.getElementById("input-index").value === index)
+			{
+				newOption.classList.add('cell-selected');
+			}
+
 			optionviewer.appendChild(table);
 
 			newOption.param = index;
@@ -291,6 +296,7 @@ function submitEnemyName()
 			{
 				e.preventDefault();
 				document.getElementById("input-index").value = e.currentTarget.param;
+				submitEnemyName();
 			}, false);
 		})
 	}
@@ -353,7 +359,7 @@ function submitEnemy()
 
 	document.getElementById("input-result").value = JSON.stringify(currentwave, null, 2);
 
-	addLatestInput(name, LVL);
+	addLatestInput(name, LVL, index);
 
 	resetEnemyInput();
 	enableEnemyInput();
@@ -492,7 +498,6 @@ function drawStageMap(param)
 	var wave = param[1];
 
 	var waveData = obj.stage.find(el => el.title == stageTitle).wave[wave - 1];
-	console.log(waveData.enemylist)
 	if (waveData.enemylist)
 	{
 		for (let i = 0; i < waveData.enemylist.length; i++)
@@ -550,6 +555,7 @@ function loadEnemyStat([stageTitle, wave, pos])
 	document.getElementById("input-name").value = enemyData[waveData.enemylist[pos - 1].index].name;
 	document.getElementById("input-index").value = waveData.enemylist[pos - 1].index;
 	document.getElementById("input-LVL").value = waveData.enemylist[pos - 1].level;
+	submitEnemyName();
 
 	/*
 	Array.from(document.getElementsByName("input-pos")).forEach(el=>{
@@ -647,7 +653,7 @@ function enableEnemyInput()
 	});
 }
 
-function addLatestInput(namestr, lvl)
+function addLatestInput(nameinput, lvlinput, indexinput)
 {
 
 	let optionviewer = document.getElementById("input-latest-view")
@@ -657,30 +663,53 @@ function addLatestInput(namestr, lvl)
 	}
 	let table = document.createElement("table");
 
-	if(latestenemy[0].includes(namestr))
+	if(latestenemy[0].includes(nameinput))
 	{
-		latestenemy[1].splice(latestenemy[0].indexOf(namestr), 1);
-		latestenemy[0].splice(latestenemy[0].indexOf(namestr), 1);
+		latestenemy[1].splice(latestenemy[0].indexOf(nameinput), 1);
+		latestenemy[2].splice(latestenemy[0].indexOf(nameinput), 1);
+		latestenemy[0].splice(latestenemy[0].indexOf(nameinput), 1);
 	}
-	latestenemy[0].unshift(namestr);
-	latestenemy[1].unshift(lvl);
+	latestenemy[0].unshift(nameinput);
+	latestenemy[1].unshift(lvlinput);
+	latestenemy[2].unshift(indexinput);
 
 	for(let i=0; i<latestenemy[0].length; i++)
 	{
-		let indexvalue = latestenemy[0][i];
-		let lvlvalue = latestenemy[1][i];
+		let name = latestenemy[0][i];
+		let lvl = latestenemy[1][i];
+		let index = latestenemy[2][i];
 		let newOption = table.insertRow();
-		newOption.insertCell(0).appendChild(document.createTextNode(indexvalue));
-		newOption.insertCell(1).appendChild(document.createTextNode(lvlvalue));
-		newOption.param = [indexvalue, lvlvalue];
-		newOption.addEventListener("click", e =>
+		newOption.insertCell(0).appendChild(document.createTextNode(name));
+		newOption.insertCell(1).appendChild(document.createTextNode(lvl));
+		newOption.insertCell(2).appendChild(document.createTextNode(index));
+
+		newOption.childNodes[0].param = [name, index];
+		newOption.childNodes[0].addEventListener("click", e =>
+		{
+			e.preventDefault();
+			document.getElementById("input-name").value = e.currentTarget.param[0];
+			document.getElementById("input-index").value = e.currentTarget.param[1];
+			submitEnemyName();
+		}, false);
+
+		newOption.childNodes[1].param = [name, lvl];
+		newOption.childNodes[1].addEventListener("click", e =>
 		{
 			e.preventDefault();
 			document.getElementById("input-name").value = e.currentTarget.param[0];
 			document.getElementById("input-LVL").value = e.currentTarget.param[1];
+			submitEnemyName();
+		}, false);
+
+		newOption.childNodes[2].param = [name, lvl, index];
+		newOption.childNodes[2].addEventListener("click", e =>
+		{
+			e.preventDefault();
+			document.getElementById("input-name").value = e.currentTarget.param[0];
+			document.getElementById("input-LVL").value = e.currentTarget.param[1];
+			document.getElementById("input-index").value = e.currentTarget.param[2];
+			submitEnemyName();
 		}, false);
 	}
 	optionviewer.appendChild(table);
-
-	console.log(latestenemy)
 }
