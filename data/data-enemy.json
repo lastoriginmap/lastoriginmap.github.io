@@ -6595,7 +6595,7 @@
   "BigChickSP_EV1": {
     "name": "강화형 빅 칙",
     "img": "BigChick",
-    "type": "경장 공격기",
+    "type": "중장 공격기",
     "info": "<교전 기록 없음>",
     "HP": [
       15100,
@@ -7216,7 +7216,7 @@
   "BigChickSP_TU2": {
     "name": "강화형 빅 칙",
     "img": "BigChick",
-    "type": "경장 공격기",
+    "type": "중장 공격기",
     "info": "<교전 기록 없음>",
     "HP": [
       5500,
@@ -7671,7 +7671,7 @@
   "BigChickSP_TU3": {
     "name": "강화형 빅 칙",
     "img": "BigChick",
-    "type": "경장 공격기",
+    "type": "중장 공격기",
     "info": "<교전 기록 없음>",
     "HP": [
       25000,
@@ -19059,7 +19059,7 @@
   "BigChickSP_Ev93_1": {
     "name": "강화형 빅 칙",
     "img": "BigChick",
-    "type": "경장 공격기",
+    "type": "중장 공격기",
     "info": "평범한 철충이다.",
     "HP": [
       200,
