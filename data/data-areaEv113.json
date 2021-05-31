@@ -1299,6 +1299,57 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Ev113-1Ex",
+      "name": "Finale",
+      "grid": [
+        0,
+        2
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            },
+            {
+              "index": "NightChickS_N",
+              "level": 5
+            }
+          ]
+        }
+      ]
     }
   ]
 }
