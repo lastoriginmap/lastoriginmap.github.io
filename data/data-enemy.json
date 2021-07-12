@@ -19727,5 +19727,279 @@
       "ScoutAK_Ev112_1_Skill4",
       "ScoutAK_Ev112_1_Skill5"
     ]
+  },
+  "RheinRitter_Ev121_1": {
+    "uncertainstat": true,
+    "name": "라인리터 SP",
+    "img": "RheinRitter",
+    "type": "경장 공격기",
+    "info": "명예와 명예가 격돌하는 순간입니까? 자신 있습니다. 고귀한 성품의 기사, 라인리터는 이번 활약으로 영웅이라 칭송받을 것이며, 적은 기사 라인리터를 막아선 시련으로써 후대에까지 음유시인의 입에 오르내리겠지요.<br><br><br>- 라인리터 보고함",
+    "HP": [
+      250,
+      35
+    ],
+    "ATK": [
+      197,
+      6.6
+    ],
+    "DEF": [
+      5,
+      2
+    ],
+    "AGI": 4.22,
+    "CRT": 20,
+    "HIT": 160,
+    "DOD": 20,
+    "resist": [
+      60,
+      60,
+      60
+    ],
+    "skills": [
+      "RheinRitter_Ev121_1_Skill1",
+      "RheinRitter_Ev121_1_Skill2",
+      "RheinRitter_Ev121_1_Skill3",
+      "RheinRitter_Ev121_1_Skill4"
+    ]
+  },
+  "Goltarion_Ev121_1": {
+    "uncertainstat": true,
+    "name": "에큐토스",
+    "img": "Goltarion",
+    "type": "경장 보호기",
+    "info": "하! 쓰러뜨리고 쓰러뜨려도 쓰러지질 않다니... 끈질긴 녀석이군...! 나, 대마왕님의 군단장 골타리온 XIII세의 진정한 힘을 보여주마!<br><br><br>- 골타리온 XIII세 선언함",
+    "HP": [
+      240,
+      40
+    ],
+    "ATK": [
+      180,
+      6
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.24,
+    "CRT": 0,
+    "HIT": 230,
+    "DOD": 0,
+    "resist": [
+      100,
+      100,
+      100
+    ],
+    "skills": [
+      "Goltarion_Ev121_1_Skill1",
+      "Goltarion_Ev121_1_Skill2",
+      "Goltarion_Ev121_1_Skill3",
+      "Goltarion_Ev121_1_Skill4"
+    ]
+  },
+  "Goltarion2_Ev121_1": {
+    "uncertainstat": true,
+    "name": "교단 근위대장",
+    "img": "Goltarion_EV1",
+    "type": "경장 보호기",
+    "info": "빛의 축성을 받아 재탄생한 근위대장이군. 축성받기 전 본신보다 훨씬 강력하지. 빛이시여... 당신의 권능이 천사들의 다툼에 이용된 것을, 당신의 기적을 내 손으로 심판하는 것을 용서하소서... 빛의 이름으로 회개하라, 타락한 이단자들이여.<br><br><br>- 사라카엘 보고함",
+    "HP": [
+      15000,
+      0
+    ],
+    "ATK": [
+      350,
+      0
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.3,
+    "CRT": 0,
+    "HIT": 260,
+    "DOD": 0,
+    "resist": [
+      125,
+      125,
+      125
+    ],
+    "skills": [
+      "Goltarion2_Ev121_1_Skill1",
+      "Goltarion2_Ev121_1_Skill2",
+      "Goltarion2_Ev121_1_Skill3",
+      "Goltarion2_Ev121_1_Skill4",
+      "Goltarion2_Ev121_1_Skill5"
+    ]
+  },
+  "RheinRitter_Ev121_2": {
+    "uncertainstat": true,
+    "name": "라인리터 SP",
+    "img": "RheinRitter",
+    "type": "경장 공격기",
+    "info": "명예와 명예가 격돌하는 순간입니까? 자신 있습니다. 고귀한 성품의 기사, 라인리터는 이번 활약으로 영웅이라 칭송받을 것이며, 적은 기사 라인리터를 막아선 시련으로써 후대에까지 음유시인의 입에 오르내리겠지요.<br><br><br>- 라인리터 보고함",
+    "HP": [
+      4500,
+      120
+    ],
+    "ATK": [
+      419,
+      10.8
+    ],
+    "DEF": [
+      123,
+      12
+    ],
+    "AGI": 4.37,
+    "CRT": 20,
+    "HIT": 235,
+    "DOD": 20,
+    "resist": [
+      60,
+      60,
+      60
+    ],
+    "skills": [
+      "RheinRitter_Ev121_1_Skill1",
+      "RheinRitter_Ev121_1_Skill2",
+      "RheinRitter_Ev121_1_Skill3",
+      "RheinRitter_Ev121_1_Skill4"
+    ]
+  },
+  "Goltarion_Ev121_2": {
+    "uncertainstat": true,
+    "name": "에큐토스",
+    "img": "Goltarion",
+    "type": "경장 보호기",
+    "info": "하! 쓰러뜨리고 쓰러뜨려도 쓰러지질 않다니... 끈질긴 녀석이군...! 나, 대마왕님의 군단장 골타리온 XIII세의 진정한 힘을 보여주마!<br><br><br>- 골타리온 XIII세 선언함",
+    "HP": [
+      1097,
+      80
+    ],
+    "ATK": [
+      288,
+      7.7
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.29,
+    "CRT": 0,
+    "HIT": 260,
+    "DOD": 0,
+    "resist": [
+      100,
+      100,
+      100
+    ],
+    "skills": [
+      "Goltarion_Ev121_1_Skill1",
+      "Goltarion_Ev121_1_Skill2",
+      "Goltarion_Ev121_1_Skill3",
+      "Goltarion_Ev121_1_Skill4"
+    ]
+  },
+  "Goltarion2_Ev121_2": {
+    "uncertainstat": true,
+    "name": "교단 근위대장",
+    "img": "Goltarion_EV1",
+    "type": "경장 보호기",
+    "info": "빛의 축성을 받아 재탄생한 근위대장이군. 축성받기 전 본신보다 훨씬 강력하지. 빛이시여... 당신의 권능이 천사들의 다툼에 이용된 것을, 당신의 기적을 내 손으로 심판하는 것을 용서하소서... 빛의 이름으로 회개하라, 타락한 이단자들이여.<br><br><br>- 사라카엘 보고함",
+    "HP": [
+      30000,
+      0
+    ],
+    "ATK": [
+      1250,
+      0
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 4.5,
+    "CRT": 0,
+    "HIT": 380,
+    "DOD": 0,
+    "resist": [
+      125,
+      125,
+      125
+    ],
+    "skills": [
+      "Goltarion2_Ev121_1_Skill1",
+      "Goltarion2_Ev121_1_Skill2",
+      "Goltarion2_Ev121_1_Skill3",
+      "Goltarion2_Ev121_1_Skill4",
+      "Goltarion2_Ev121_1_Skill5"
+    ]
+  },
+  "BlackKnight_Ev121_1": {
+    "uncertainstat": true,
+    "name": "사이클롭스",
+    "img": "BlackKnight",
+    "type": "경장 공격기",
+    "info": "각하, 이질적인 개체가 발견되어 보고드립니다. 보통 철충들은 무리 지어 다닙니다만, 기이하게도 이 개체는 단독으로 행동하는군요. 제 경험에 의하면 저런 개체일수록 특히 주의할 필요가 있습니다. 본대의 화력을 집중시켜 단번에 쓰러뜨리는 건 어떻겠습니까?<br><br><br>- 불굴의 마리 보고함",
+    "HP": [
+      2121187,
+      0
+    ],
+    "ATK": [
+      1732,
+      0
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 1,
+    "CRT": 50,
+    "HIT": 375,
+    "DOD": 0,
+    "resist": [
+      125,
+      125,
+      125
+    ],
+    "skills": [
+      "BlackKnight_Ev121_1_Skill1",
+      "BlackKnight_Ev121_1_Skill2",
+      "BlackKnight_Ev121_1_Skill3",
+      "BlackKnight_Ev121_1_Skill4"
+    ]
+  },
+  "BlackKnight_Ev121_2": {
+    "uncertainstat": true,
+    "name": "사이클롭스",
+    "img": "BlackKnight",
+    "type": "경장 공격기",
+    "info": "각하, 이질적인 개체가 발견되어 보고드립니다. 보통 철충들은 무리 지어 다닙니다만, 기이하게도 이 개체는 단독으로 행동하는군요. 제 경험에 의하면 저런 개체일수록 특히 주의할 필요가 있습니다. 본대의 화력을 집중시켜 단번에 쓰러뜨리는 건 어떻겠습니까?<br><br><br>- 불굴의 마리 보고함",
+    "HP": [
+      3409110,
+      0
+    ],
+    "ATK": [
+      2230,
+      0
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 1,
+    "CRT": 50,
+    "HIT": 400,
+    "DOD": 0,
+    "resist": [
+      125,
+      125,
+      125
+    ],
+    "skills": [
+      "BlackKnight_Ev121_1_Skill1",
+      "BlackKnight_Ev121_1_Skill2",
+      "BlackKnight_Ev121_1_Skill3",
+      "BlackKnight_Ev121_1_Skill4"
+    ]
   }
 }

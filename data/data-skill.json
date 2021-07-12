@@ -11791,5 +11791,225 @@
       8,
       9
     ]
+  },
+  "RheinRitter_Ev121_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "지원 포격",
+    "img": "CannonShotWide",
+    "range": 6,
+    "AP": 6,
+    "description": "지정 범위의 적에게 $(1)의 피해를 입힙니다.",
+    "area": [
+      4,
+      5
+    ]
+  },
+  "RheinRitter_Ev121_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "격추 광선",
+    "img": "WideBeamShot",
+    "range": 4,
+    "AP": 4,
+    "description": "$(1.2) 피해를 주고, 대상이 기동형일 시 대상의 대 경장 피해량을 감소시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "RheinRitter_Ev121_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "선공 대응 시스템",
+    "img": "DefCounter",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 피해 최소화 1회가 활성화되고 2라운드 동안 반격 효과를 얻습니다.",
+    "area": [
+      5
+    ]
+  },
+  "RheinRitter_Ev121_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "원호 사격 시스템",
+    "img": "CannonShotDelay",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 지정 범위 내 보호기를 공격 지원합니다. 자신 사망 시 지정 범위 아군의 AP / 치명타를 증가시킵니다.",
+    "area": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8
+    ]
+  },
+  "Goltarion_Ev121_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "머리베기",
+    "img": "SwordAttk",
+    "range": 4,
+    "AP": 4,
+    "description": "단일 대상에게 $(1) 피해를 주고, 치명타 시 대상의 받는 피해 감소 효과를 해제합니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion_Ev121_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "검선 지정",
+    "img": "WideSwordAttk",
+    "range": 6,
+    "AP": 2,
+    "description": "5라운드 동안 자신의 공격력 / 치명타 / 적중을 증가시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion_Ev121_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "영속화",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 스쿼드 내 자신을 제외한 AGS 수가 5 이상일 때, 1라운드 동안 HP 100% 전투 속행 효과가 적용됩니다. 해당 효과는 강화 효과 해제로 해제할 수 없습니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion_Ev121_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "예비 복구장치",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 속행 시, 1라운드 동안 반격 / HP 100% 전투 속행 효과가 지속됩니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion2_Ev121_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "전회 머리베기",
+    "img": "SwordAttk",
+    "range": 4,
+    "AP": 4,
+    "description": "지정 범위에 $(1.2) 피해를 주고, 치명타 시 대상의 받는 피해 감소 효과를 해제합니다.",
+    "area": [
+      4,
+      5,
+      6
+    ]
+  },
+  "Goltarion2_Ev121_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "검선 지정",
+    "img": "WideSwordAttk",
+    "range": 6,
+    "AP": 2,
+    "description": "5라운드 동안 자신의 공격력 / 치명타 / 적중을 증가시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion2_Ev121_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "영속화",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 스쿼드 내 자신을 제외한 AGS 수가 3 이상일 때, 1라운드 동안 HP 100% 전투 속행 효과가 적용됩니다. 해당 효과는 강화 효과 해제로 해제할 수 없습니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion2_Ev121_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "예비 복구장치",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 속행 시, 1라운드 동안 반격 / HP 100% 전투 속행 효과가 지속됩니다.",
+    "area": [
+      5
+    ]
+  },
+  "Goltarion2_Ev121_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "준비 명령",
+    "img": "Command",
+    "range": 0,
+    "AP": 0,
+    "description": "대기 시, 자신을 제외한 모든 에큐토스 모델에게 반격 효과를 부여합니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "BlackKnight_Ev121_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "척살",
+    "img": "SwordAttk",
+    "range": 4,
+    "AP": 10,
+    "description": "대상에게 $(1) 피해를 주고 주변에는 90% 감소한 피해를 입힙니다. 2라운드 동안 피해를 입은 경장형 대상의 스킬 위력을 50%, 기동형 대상의 스킬 위력을 75%, 중장형 대상의 스킬 위력을 100% 감소시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "BlackKnight_Ev121_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "조직 재생",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 20,
+    "description": "HP 100% 전투 속행 효과를 얻습니다. 해당 효과는 강화 효과 해제로 해제할 수 없습니다.",
+    "area": [
+      5
+    ]
+  },
+  "BlackKnight_Ev121_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "충격 흡입",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, 자신의 AP가 증가합니다. 반격 시, 다음 공격의 적중 / 치명타가 증가합니다.",
+    "area": [
+      5
+    ]
+  },
+  "BlackKnight_Ev121_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "단독 행동 개체",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 시작 시, 방어막 / 피해 감소 무시 효과를 얻습니다. 자신의 HP가 50% 이하일 경우, 한 라운드에 한 번씩 반격합니다.",
+    "area": [
+      5
+    ]
   }
 }
