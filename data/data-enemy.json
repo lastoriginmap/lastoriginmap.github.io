@@ -19661,7 +19661,6 @@
     ]
   },
   "ScarabH_Ev112_2": {
-    "uncertainstat": true,
     "name": "스캐럽H",
     "img": "ScarabH",
     "type": "기동 보호기",
@@ -19729,7 +19728,6 @@
     ]
   },
   "RheinRitter_Ev121_1": {
-    "uncertainstat": true,
     "name": "라인리터 SP",
     "img": "RheinRitter",
     "type": "경장 공격기",
@@ -19739,8 +19737,8 @@
       35
     ],
     "ATK": [
-      197,
-      6.6
+      188,
+      6.84
     ],
     "DEF": [
       5,
@@ -19763,7 +19761,6 @@
     ]
   },
   "Goltarion_Ev121_1": {
-    "uncertainstat": true,
     "name": "에큐토스",
     "img": "Goltarion",
     "type": "경장 보호기",
@@ -19832,7 +19829,6 @@
     ]
   },
   "RheinRitter_Ev121_2": {
-    "uncertainstat": true,
     "name": "라인리터 SP",
     "img": "RheinRitter",
     "type": "경장 공격기",
@@ -19842,8 +19838,8 @@
       120
     ],
     "ATK": [
-      419,
-      10.8
+      420,
+      10.78
     ],
     "DEF": [
       123,
@@ -19866,7 +19862,6 @@
     ]
   },
   "Goltarion_Ev121_2": {
-    "uncertainstat": true,
     "name": "에큐토스",
     "img": "Goltarion",
     "type": "경장 보호기",
@@ -19876,8 +19871,8 @@
       80
     ],
     "ATK": [
-      288,
-      7.7
+      280,
+      7.84
     ],
     "DEF": [
       0,
@@ -19935,18 +19930,17 @@
     ]
   },
   "BlackKnight_Ev121_1": {
-    "uncertainstat": true,
     "name": "사이클롭스",
     "img": "BlackKnight",
     "type": "경장 공격기",
     "info": "각하, 이질적인 개체가 발견되어 보고드립니다. 보통 철충들은 무리 지어 다닙니다만, 기이하게도 이 개체는 단독으로 행동하는군요. 제 경험에 의하면 저런 개체일수록 특히 주의할 필요가 있습니다. 본대의 화력을 집중시켜 단번에 쓰러뜨리는 건 어떻겠습니까?<br><br><br>- 불굴의 마리 보고함",
     "HP": [
-      2121187,
-      0
+      333369,
+      30302.6
     ],
     "ATK": [
-      1732,
-      0
+      608,
+      19.1
     ],
     "DEF": [
       0,
@@ -19969,18 +19963,17 @@
     ]
   },
   "BlackKnight_Ev121_2": {
-    "uncertainstat": true,
     "name": "사이클롭스",
     "img": "BlackKnight",
     "type": "경장 공격기",
     "info": "각하, 이질적인 개체가 발견되어 보고드립니다. 보통 철충들은 무리 지어 다닙니다만, 기이하게도 이 개체는 단독으로 행동하는군요. 제 경험에 의하면 저런 개체일수록 특히 주의할 필요가 있습니다. 본대의 화력을 집중시켜 단번에 쓰러뜨리는 건 어떻겠습니까?<br><br><br>- 불굴의 마리 보고함",
     "HP": [
-      3409110,
-      0
+      500054,
+      45454
     ],
     "ATK": [
-      2230,
-      0
+      822,
+      22
     ],
     "DEF": [
       0,
@@ -20000,6 +19993,273 @@
       "BlackKnight_Ev121_1_Skill2",
       "BlackKnight_Ev121_1_Skill3",
       "BlackKnight_Ev121_1_Skill4"
+    ]
+  },
+  "BlackKnight_Ev121_3": {
+    "name": "사이클롭스",
+    "img": "BlackKnight",
+    "type": "경장 공격기",
+    "info": "각하, 이질적인 개체가 발견되어 보고드립니다. 보통 철충들은 무리 지어 다닙니다만, 기이하게도 이 개체는 단독으로 행동하는군요. 제 경험에 의하면 저런 개체일수록 특히 주의할 필요가 있습니다. 본대의 화력을 집중시켜 단번에 쓰러뜨리는 건 어떻겠습니까?<br><br><br>- 불굴의 마리 보고함",
+    "HP": [
+      68090,
+      8978.5
+    ],
+    "ATK": [
+      310,
+      14.1
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 1,
+    "CRT": 50,
+    "HIT": 300,
+    "DOD": 0,
+    "resist": [
+      125,
+      125,
+      125
+    ],
+    "skills": [
+      "BlackKnight_Ev121_1_Skill1",
+      "BlackKnight_Ev121_1_Skill2",
+      "BlackKnight_Ev121_1_Skill3",
+      "BlackKnight_Ev121_1_Skill4"
+    ]
+  },
+  "AzazelAlter_Ev122_1": {
+    "name": "타락한 아자젤",
+    "img": "AzazelAlter",
+    "type": "기동 공격기",
+    "info": "아아, 빛이시여... 제 자매는 자신의 생명력을 담보로 이 탑을 가동시키려 하고 있어요. 제 가호도 바벨의 최대 출력에는 버티지 못할텐데...<br>...반려. 부디 제게 순교라는 이름 하에 무의미하게 희생되는 신도들을 지키고...<br>제 자매를 구원할 수 있는 힘을 주세요.<br><br>- 아자젤의 기도",
+    "HP": [
+      42600,
+      5850
+    ],
+    "ATK": [
+      148,
+      8
+    ],
+    "DEF": [
+      136,
+      6
+    ],
+    "AGI": 4.85,
+    "CRT": 10,
+    "HIT": 999,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "AzazelAlter_Ev122_1_Skill1",
+      "AzazelAlter_Ev122_1_Skill2",
+      "AzazelAlter_Ev122_1_Skill3",
+      "AzazelAlter_Ev122_1_Skill4",
+      "AzazelAlter_Ev122_1_Skill5"
+    ]
+  },
+  "DryerHead_Ev122_1": {
+    "name": "드라이어 헤드",
+    "img": "DryerHead",
+    "type": "경장 지원기",
+    "info": "저 집단의 우두머리인가? 어떤 무리라도 머리가 쓰러지면 흔들리기 십상이지. 하하하! 저 녀석들도 마찬가지일지 모르겠지만, 지금보다 훨씬 사냥하기 쉬워지지 않겠어?<br><br><br>- 퀸오브메인 사냥준비 중",
+    "HP": [
+      7848,
+      333.9
+    ],
+    "ATK": [
+      364,
+      9.8
+    ],
+    "DEF": [
+      18879,
+      472
+    ],
+    "AGI": 4.05,
+    "CRT": 10,
+    "HIT": 350,
+    "DOD": 10,
+    "resist": [
+      100,
+      -25,
+      50
+    ],
+    "skills": [
+      "DryerHead_Ev122_1_Skill1",
+      "DryerHead_Ev122_1_Skill2",
+      "DryerHead_Ev122_1_Skill3",
+      "DryerHead_Ev122_1_Skill4",
+      "DryerHead_Ev122_1_Skill5"
+    ]
+  },
+  "DryerShell_Ev122_1": {
+    "name": "드라이어 쉘",
+    "img": "DryerShell",
+    "type": "경장 공격기",
+    "info": "내 아이스 에이지 블라스터 한방이면 모든 게 정리되지!<br><br><br>- 엠프리스 보고함",
+    "HP": [
+      6817,
+      225
+    ],
+    "ATK": [
+      400,
+      10.78
+    ],
+    "DEF": [
+      16989,
+      377
+    ],
+    "AGI": 3.95,
+    "CRT": 10,
+    "HIT": 440,
+    "DOD": 10,
+    "resist": [
+      100,
+      -25,
+      50
+    ],
+    "skills": [
+      "DryerShell_Ev122_1_Skill1",
+      "DryerShell_Ev122_1_Skill2",
+      "DryerShell_Ev122_1_Skill3",
+      "DryerShell_Ev122_1_Skill4"
+    ]
+  },
+  "DryerShooter_Ev122_1": {
+    "name": "드라이어 슈터",
+    "img": "DryerShooter",
+    "type": "경장 지원기",
+    "info": "본체에 불이 붙을수록 강력해지다니... 저희와는 최악의 상성이에요. 하지만 냉각 무기를 사용하는 분들이라면...!<br><br><br>- 랜서 미나 보고함",
+    "HP": [
+      3561,
+      294
+    ],
+    "ATK": [
+      327,
+      8.82
+    ],
+    "DEF": [
+      15102,
+      424
+    ],
+    "AGI": 4,
+    "CRT": 10,
+    "HIT": 280,
+    "DOD": 10,
+    "resist": [
+      100,
+      -25,
+      50
+    ],
+    "skills": [
+      "DryerShooter_Ev122_1_Skill1",
+      "DryerShooter_Ev122_1_Skill2",
+      "DryerShooter_Ev122_1_Skill3",
+      "DryerShooter_Ev122_1_Skill4"
+    ]
+  },
+  "BigChickCG_Ev111_2": {
+    "name": "빅 칙 캐논 G",
+    "img": "BigChickCG",
+    "type": "중장 공격기",
+    "info": "나비처럼 날아서 벌처럼 쏜다! 둔중한 녀석일수록 날아다니는 우리에겐 맥을 못 춘다구. 맡겨줘, 사령관!<br><br><br>- 슬레이프니르 보고함",
+    "HP": [
+      10000,
+      170
+    ],
+    "ATK": [
+      145,
+      15.5
+    ],
+    "DEF": [
+      183,
+      7
+    ],
+    "AGI": 3.8,
+    "CRT": 20,
+    "HIT": 225,
+    "DOD": 0,
+    "resist": [
+      120,
+      -25,
+      60
+    ],
+    "skills": [
+      "BigChickCG_Ev111_1_Skill1",
+      "BigChickCG_Ev111_1_Skill2",
+      "BigChickCG_Ev111_1_Skill3",
+      "BigChickCG_Ev111_1_Skill4",
+      "BigChickCG_Ev111_1_Skill5"
+    ]
+  },
+  "PhalangitesH_Ev71_3": {
+    "name": "팔랑스H",
+    "img": "PhalangitesH",
+    "type": "경장 보호기",
+    "info": "상황에 따라 공격이나 방어 능력이 상승하는 특이한 철충이네, 음... 아마 어깨에 있는 장치에서 에너지를 전환해 주는 게 아닐까 싶은데… 안되겠다! 오빠? 나 저거 분해해보고 싶어졌어! 얼른 잡아서 나한테 보내줘!<br><br><br>- 보고자 닥터",
+    "HP": [
+      5223,
+      244.6
+    ],
+    "ATK": [
+      341,
+      7.8
+    ],
+    "DEF": [
+      1167,
+      8.3
+    ],
+    "AGI": 3.8,
+    "CRT": 10,
+    "HIT": 310,
+    "DOD": 10,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "PhalangitesH_Ev71_1_Skill1",
+      "PhalangitesH_Ev71_1_Skill2",
+      "PhalangitesH_Ev71_1_Skill3",
+      "PhalangitesH_Ev71_1_Skill4"
+    ]
+  },
+  "Slasher_Ev91_2": {
+    "name": "슬래셔",
+    "img": "Slasher",
+    "type": "경장 공격기",
+    "info": "회피와 기동 능력이 매우 뛰어납니다. 정밀 사격으로 처리해야 할 것 같습니다.<br><br><br>- 발키리 보고함",
+    "HP": [
+      5223,
+      222.6
+    ],
+    "ATK": [
+      341,
+      7.8
+    ],
+    "DEF": [
+      0,
+      0
+    ],
+    "AGI": 3.8,
+    "CRT": 20,
+    "HIT": 280,
+    "DOD": 215,
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "skills": [
+      "Slasher_Ev91_1_Skill1",
+      "Slasher_Ev91_1_Skill2",
+      "Slasher_Ev91_1_Skill3",
+      "Slasher_Ev91_1_Skill4"
     ]
   }
 }

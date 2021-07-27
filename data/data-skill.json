@@ -12011,5 +12011,279 @@
     "area": [
       5
     ]
+  },
+  "AzazelAlter_Ev122_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "어두운 빛의 휘광",
+    "img": "Particle",
+    "range": 8,
+    "AP": 7,
+    "description": "대상에게 $(1)의 피해를 주고 주위에 50% 감소한 피해를 줍니다. 2라운드 동안 200의 지속 물리 데미지를 주며 행동력과 공격력을 감소 시킵니다. 대상에게 아자젤의 <수호천사>,<신의 가호> 효과가 적용중이지 않을 경우 AP를 감소시킵니다.",
+    "area": [
+      0.5,
+      0.5,
+      0,
+      0.5,
+      1,
+      0,
+      0.5,
+      0.5,
+      0
+    ]
+  },
+  "AzazelAlter_Ev122_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "진정한 구원",
+    "img": "SatelliteBeam",
+    "range": 8,
+    "AP": 9,
+    "description": "<거짓된 빛의 탑>상태 일 시 바벨에서 포격을 시작 해 목표 범위에 $(1.4) 보호 무시 피해를 줍니다. 대상이 아자젤의 <수호천사>,<신의 가호> 효과가 적용중이지 않을 경우 추가 피해를 입힙니다.",
+    "area": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "AzazelAlter_Ev122_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "순교",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 주위 아군에게 표식을 부여하고 아군이 사망 시, 자신의 공격력이 증가합니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "AzazelAlter_Ev122_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "어긋난 재림",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 강화 효과 해제로 해제할 수 없는 피해 최소화가 3회 부여 되며 코헤이 교단의 캐릭터들에게 피격 시, 피해 최소화가 즉시 제거됩니다. 라운드 개시 시, 체력이 30%이하라면 모든 해로운 효과를 해제합니다",
+    "area": [
+      5
+    ]
+  },
+  "AzazelAlter_Ev122_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "피와 원한",
+    "img": "Chargeshot",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, <피와 원한>이 적용되고 해당 효과가 4중첩인 상태에서 라운드 개시 시, <거짓된 빛의 탑> 상태가 되어 <진정한 구원>스킬을 사용합니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerHead_Ev122_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "인시너레이터",
+    "img": "FireShot",
+    "range": 4,
+    "AP": 4,
+    "attr": "fire",
+    "description": "$(1) 화염 피해를 주고, 2라운드 동안 대상을 표식으로 설정하고 화염 저항을 감소시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerHead_Ev122_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "탄화규소화",
+    "img": "DefCounter",
+    "range": 6,
+    "AP": 4,
+    "description": "5라운드 동안 자신을 표식으로 설정하고 화염 저항 / 전기 저항 / 행동력을 증가시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerHead_Ev122_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "열기 확산",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 지정 범위 아군의 화염 저항 / 전기 저항을 증가시키고, 자신을 포함한 드라이어 철충의 공격을 지원합니다. ",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "DryerHead_Ev122_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "화염 방사",
+    "img": "WideFireShot",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 지정 범위 적을 점화 상태로 만들고 방어 관통을 크게 감소시킵니다. 방어 관통 효과는 매 라운드 감소하며, 자신 사망 시 아군 전체를 점화 상태로 만듭니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "DryerHead_Ev122_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "지휘관 개체",
+    "img": "Command",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 적 로봇 수가 3 이상일 경우 지정 범위 아군의 AP를 증가시키고, 적 바이오로이드 수가 3 이상일 경우 지정 범위 적에게 해제 불가의 방어 관통 감소 효과를 적용합니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "DryerShell_Ev122_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "인시너레이터",
+    "img": "FireShot",
+    "range": 3,
+    "AP": 4,
+    "attr": "fire",
+    "description": "$(1) 화염 피해를 주고, 대상이 점화 상태일 시 추가 화염 피해를 줍니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerShell_Ev122_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "플레임 스트라이크",
+    "img": "WideFireShot",
+    "range": 4,
+    "AP": 6,
+    "attr": "fire",
+    "description": "$(1.5) 화염 피해를 주고, 대상이 점화 상태일 시 피해 감소를 해제합니다.",
+    "area": [
+      4,
+      5
+    ]
+  },
+  "DryerShell_Ev122_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "연결 상태",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 스쿼드에 드라이어 헤드가 있는 경우 자신의 공격력 / 치명타 / 적중이 증가합니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerShell_Ev122_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "발화 장치",
+    "img": "FireShot",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신이 점화 상태일 경우 공격력 / 효과 저항이 크게 증가합니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerShooter_Ev122_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "인시너레이터",
+    "img": "FireShot",
+    "range": 3,
+    "AP": 4,
+    "attr": "fire",
+    "description": "$(1) 화염 피해를 주고, 2라운드 동안 대상을 점화 상태로 만들고 공격력을 감소, 받는 피해를 증가시킵니다.",
+    "area": [
+      5
+    ]
+  },
+  "DryerShooter_Ev122_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "소이탄",
+    "img": "GrenadeAttack_1",
+    "range": 4,
+    "AP": 5,
+    "attr": "fire",
+    "description": "$(0.5) 화염 피해를 주고, 2라운드 동안 대상의 받는 피해를 증가시킵니다. 대상이 점화 상태일 시, 추가로 효과 저항을 감소시킵니다.",
+    "area": [
+      4,
+      5
+    ]
+  },
+  "DryerShooter_Ev122_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "바이오 레이더",
+    "img": "AWACS",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신과 지정 범위 아군의 공격력 / 치명타 / 행동력이 증가합니다. 해당 효과는 드라이어 슈터가 적을 공격할 때마다 추가 적용됩니다.",
+    "area": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "DryerShooter_Ev122_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "발화 장치",
+    "img": "FireShot",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신이 점화 상태일 경우 행동력 / 효과 저항이 크게 증가합니다.",
+    "area": [
+      5
+    ]
   }
 }
